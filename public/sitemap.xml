@@ -617,6 +617,50 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://epicsevensteam.com/contact/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/ko/contact/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/ja/contact/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/zh-tw/contact/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://epicsevensteam.com/privacy/</loc>
     <lastmod>2026-10-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />

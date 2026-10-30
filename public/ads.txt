@@ -1,0 +1,4 @@
+# ads.txt placeholder — no live inventory
+# After AdSense approval only, uncomment and replace with real publisher id:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Status: scaffold

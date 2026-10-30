@@ -2255,6 +2255,96 @@ export const CONTENT = {
       "off_h2": "官方目的地"
     }
   },
+  "/contact/": {
+    "en": {
+      "title": "Contact",
+      "meta": "Contact the independent Epic Seven Steam guide at privacy@epicsevensteam.com. Not Smilegate, STOVE, or Steam.",
+      "h1": "Contact",
+      "lead": "Epic Seven Steam Guide on epicsevensteam.com is an independent player information site. It is not operated by Smilegate, STOVE, Valve, or Steam.",
+      "scope_h2": "What to write about",
+      "scope": [
+        "Feedback about this site.",
+        "Corrections to steps, dates, or citations published here.",
+        "Privacy questions about epicsevensteam.com."
+      ],
+      "limits_h2": "What not to send",
+      "limits": [
+        "Do not send passwords or payment details.",
+        "We do not buy or sell accounts, codes, or in-game items.",
+        "We cannot recover Smilegate, STOVE, or Steam accounts, and we do not process game payments."
+      ],
+      "contact_h2": "Email",
+      "contact": "Messages reach the site operator through Cloudflare Email Routing. Write only about this site.",
+      "about_link": "About",
+      "privacy_link": "Privacy"
+    },
+    "ko": {
+      "title": "연락",
+      "meta": "비공식 Epic Seven Steam 가이드 연락처는 privacy@epicsevensteam.com 입니다. Smilegate, STOVE, Steam이 아닙니다.",
+      "h1": "연락",
+      "lead": "epicsevensteam.com의 Epic Seven Steam Guide는 독립된 플레이어 정보 사이트입니다. Smilegate, STOVE, Valve, Steam이 운영하지 않습니다.",
+      "scope_h2": "문의 범위",
+      "scope": [
+        "이 사이트에 대한 의견.",
+        "여기 실린 절차, 날짜, 인용의 정정.",
+        "epicsevensteam.com 개인정보 관련 질문."
+      ],
+      "limits_h2": "보내지 말 것",
+      "limits": [
+        "비밀번호나 결제 정보를 보내지 마세요.",
+        "계정, 코드, 인게임 아이템을 사거나 팔지 않습니다.",
+        "Smilegate, STOVE, Steam 계정 복구와 게임 결제는 처리하지 않습니다."
+      ],
+      "contact_h2": "이메일",
+      "contact": "메일은 Cloudflare Email Routing으로 사이트 운영자에게 전달됩니다. 이 사이트에 관한 내용만 보내 주세요.",
+      "about_link": "소개",
+      "privacy_link": "개인정보"
+    },
+    "ja": {
+      "title": "お問い合わせ",
+      "meta": "非公式 Epic Seven Steam ガイドへの連絡先は privacy@epicsevensteam.com です。Smilegate、STOVE、Steamではありません。",
+      "h1": "お問い合わせ",
+      "lead": "epicsevensteam.com の Epic Seven Steam Guide は独立したプレイヤー向け情報サイトです。Smilegate、STOVE、Valve、Steamが運営するものではありません。",
+      "scope_h2": "受け付ける内容",
+      "scope": [
+        "このサイトへの感想。",
+        "掲載した手順、日付、出典の訂正。",
+        "epicsevensteam.com のプライバシーに関する質問。"
+      ],
+      "limits_h2": "送らないでください",
+      "limits": [
+        "パスワードや決済情報は送らないでください。",
+        "アカウント、コード、ゲーム内アイテムの売買は行いません。",
+        "Smilegate、STOVE、Steam のアカウント復旧やゲーム決済は扱えません。"
+      ],
+      "contact_h2": "メール",
+      "contact": "メールは Cloudflare Email Routing でサイト運営者に届きます。このサイトに関する内容だけをお送りください。",
+      "about_link": "このサイト",
+      "privacy_link": "プライバシー"
+    },
+    "zh-tw": {
+      "title": "聯絡",
+      "meta": "聯絡非官方 Epic Seven Steam 指南：privacy@epicsevensteam.com。非 Smilegate、STOVE、Steam。",
+      "h1": "聯絡",
+      "lead": "epicsevensteam.com 上的 Epic Seven Steam Guide 是獨立玩家資訊站，並非由 Smilegate、STOVE、Valve 或 Steam 營運。",
+      "scope_h2": "可以寫什麼",
+      "scope": [
+        "對本站的意見。",
+        "本站步驟、日期或出處的勘誤。",
+        "關於 epicsevensteam.com 的隱私問題。"
+      ],
+      "limits_h2": "請勿寄送",
+      "limits": [
+        "請勿寄送密碼或付款資料。",
+        "我們不收購也不出售帳號、序號或遊戲內物品。",
+        "我們無法代辦 Smilegate、STOVE 或 Steam 的帳號復原與遊戲付款。"
+      ],
+      "contact_h2": "電子郵件",
+      "contact": "來信經 Cloudflare Email Routing 轉到站長。請只寫與本站有關的內容。",
+      "about_link": "關於",
+      "privacy_link": "隱私權"
+    }
+  },
   "/privacy/": {
     "en": {
       "title": "Privacy",
@@ -2267,6 +2357,12 @@ export const CONTENT = {
         "Hosting (Vercel) may process standard server logs (IP, user agent) under the host policy.",
         "We use Google Analytics 4 (GA4) for aggregate traffic measurement (for example page views). We do not collect passwords through analytics.",
         "No ads on this site."
+      ],
+      "ads_h2": "Advertising is not enabled",
+      "ads": [
+        "Google AdSense, display ads, and affiliate ads are not enabled on this site.",
+        "While advertising stays disabled, this site does not set advertising cookies.",
+        "Before advertising is enabled, this privacy policy will be updated, a real ads.txt will be published, and an on-page disclosure will be added."
       ],
       "out_h2": "Outbound links",
       "out": "Links to store.steampowered.com and page.onstove.com are third parties with their own policies.",
@@ -2285,6 +2381,12 @@ export const CONTENT = {
         "Google Analytics 4(GA4)로 집계 트래픽(예: 페이지뷰)을 측정합니다. 분석으로 비밀번호를 수집하지 않습니다.",
         "이 사이트에는 광고가 없습니다."
       ],
+      "ads_h2": "광고는 사용하지 않습니다",
+      "ads": [
+        "이 사이트는 Google AdSense, 디스플레이 광고, 제휴 광고를 사용하지 않습니다.",
+        "광고를 켜지 않은 동안 이 사이트는 광고 쿠키를 설정하지 않습니다.",
+        "광고를 켜기 전에는 이 개인정보 안내를 고치고, 실제 ads.txt를 게시하며, 페이지 안에 광고 안내를 넣습니다."
+      ],
       "out_h2": "외부 링크",
       "out": "Steam 스토어·STOVE는 각사 정책을 따릅니다.",
       "contact_h2": "연락",
@@ -2302,6 +2404,12 @@ export const CONTENT = {
         "Google Analytics 4（GA4）で集計トラフィック（例：ページビュー）を計測します。解析でパスワードは収集しません。",
         "本サイトに広告はありません。"
       ],
+      "ads_h2": "広告は有効にしていません",
+      "ads": [
+        "本サイトでは Google AdSense、ディスプレイ広告、アフィリエイト広告を有効にしていません。",
+        "広告を無効にしている間、本サイトは広告クッキーを設定しません。",
+        "広告を有効にする前に、このプライバシーを更新し、実際の ads.txt を公開し、ページ上の開示を追加します。"
+      ],
       "out_h2": "外部リンク",
       "out": "Steamストア・STOVEは各社ポリシーに従います。",
       "contact_h2": "連絡",
@@ -2314,6 +2422,12 @@ export const CONTENT = {
       "p1": "本非官方資訊站（epicsevensteam.com）不販售帳號、序號或個資。郵件經 Cloudflare Email Routing 轉寄。",
       "collect_h2": "我們收集什麼",
       "collect": [ "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。", "託管（Vercel）可能依其政策處理 IP、UA 等標準日誌。", "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。", "本站無廣告。" ],
+      "ads_h2": "尚未啟用廣告",
+      "ads": [
+        "本站未啟用 Google AdSense、展示廣告或聯盟廣告。",
+        "廣告停用期間，本站不設定廣告 Cookie。",
+        "啟用廣告之前，會先更新本隱私說明、發布真實的 ads.txt，並在頁面上加上廣告揭露。"
+      ],
       "out_h2": "外連",
       "out": "Steam 商店與 STOVE 為第三方，適用其各自政策。",
       "contact_h2": "聯絡",

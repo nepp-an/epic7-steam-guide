@@ -1368,6 +1368,42 @@ export function AboutView({ locale }: { locale: Locale }) {
   );
 }
 
+export function ContactView({ locale }: { locale: Locale }) {
+  const c = CONTENT['/contact/'][locale];
+  return (
+    <PageShell locale={locale} path="/contact/">
+      <h1>{c.h1}</h1>
+      <IndepNotice locale={locale} />
+      <p>{c.lead}</p>
+      <h2>{c.scope_h2}</h2>
+      <ul>
+        {c.scope.map((s) => (
+          <li key={s}>{s}</li>
+        ))}
+      </ul>
+      <h2>{c.limits_h2}</h2>
+      <ul>
+        {c.limits.map((s) => (
+          <li key={s}>{s}</li>
+        ))}
+      </ul>
+      <h2>{c.contact_h2}</h2>
+      <p>
+        <a href={`mailto:${CONTACT_PRIVACY}`}>{CONTACT_PRIVACY}</a> — {c.contact}
+      </p>
+      <p>
+        <L locale={locale} href="/about/">
+          {c.about_link}
+        </L>
+        {' · '}
+        <L locale={locale} href="/privacy/">
+          {c.privacy_link}
+        </L>
+      </p>
+    </PageShell>
+  );
+}
+
 export function PrivacyView({ locale }: { locale: Locale }) {
   const c = CONTENT['/privacy/'][locale];
   return (
@@ -1378,6 +1414,12 @@ export function PrivacyView({ locale }: { locale: Locale }) {
       <h2>{c.collect_h2}</h2>
       <ul>
         {c.collect.map((s) => (
+          <li key={s}>{s}</li>
+        ))}
+      </ul>
+      <h2>{c.ads_h2}</h2>
+      <ul>
+        {c.ads.map((s) => (
           <li key={s}>{s}</li>
         ))}
       </ul>

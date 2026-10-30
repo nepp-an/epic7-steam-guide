@@ -145,6 +145,7 @@ export const CORE_PATHS = [
   '/updates/',
   '/maintenance/',
   '/about/',
+  '/contact/',
   '/privacy/',
 ] as const;
 

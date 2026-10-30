@@ -102,13 +102,22 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
 
 export const FOOTER: Record<
   Locale,
-  { blurb: string; privacy: string; about: string; steam: string; faq: string; meta: string }
+  {
+    blurb: string;
+    privacy: string;
+    about: string;
+    contact: string;
+    steam: string;
+    faq: string;
+    meta: string;
+  }
 > = {
   en: {
     blurb:
       '— independent player information. Not affiliated with Smilegate, STOVE, Valve, or Steam.',
     privacy: 'Privacy',
     about: 'About',
+    contact: 'Contact',
     steam: 'Official Steam store',
     faq: 'STOVE Steam FAQ',
     meta: 'Epic Seven™ and related marks belong to their respective owners. Short original summaries with outbound citations — verify on official sources before acting.',
@@ -118,6 +127,7 @@ export const FOOTER: Record<
       '— 비공식 플레이어 정보. Smilegate, STOVE, Valve, Steam과 무관합니다.',
     privacy: '개인정보',
     about: '소개',
+    contact: '연락',
     steam: '공식 Steam 스토어',
     faq: 'STOVE Steam FAQ',
     meta: 'Epic Seven™ 등 상표는 각 권리자에게 있습니다. 공식 출처를 인용한 요약이니 실행 전 공지를 확인하세요.',
@@ -127,6 +137,7 @@ export const FOOTER: Record<
       '— 非公式プレイヤー情報。Smilegate / STOVE / Valve / Steamとは無関係です。',
     privacy: 'プライバシー',
     about: 'このサイト',
+    contact: 'お問い合わせ',
     steam: '公式Steamストア',
     faq: 'STOVE Steam FAQ',
     meta: 'Epic Seven™ 等の商標は各権利者に帰属します。公式告知への引用付き要約です。操作前に必ず公式を確認してください。',
@@ -136,6 +147,7 @@ export const FOOTER: Record<
       '— 非官方玩家資訊。與 Smilegate、STOVE、Valve、Steam 無關。',
     privacy: '隱私權',
     about: '關於',
+    contact: '聯絡',
     steam: '官方 Steam 商店',
     faq: 'STOVE Steam FAQ',
     meta: 'Epic Seven™ 等商標歸各權利人所有。本站為附官方出處之摘要，操作前請以官方為準。',
