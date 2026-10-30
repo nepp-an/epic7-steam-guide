@@ -30,9 +30,8 @@ export default function AboutPage() {
       </ul>
       <h2>Domain status</h2>
       <p>
-        Chosen target: <strong>{TARGET_DOMAIN}</strong>. Domain purchase /
-        DNS is pending user payment setup — <strong>not live yet</strong>.
-        Other candidates considered:{' '}
+        Apex: <strong>{TARGET_DOMAIN}</strong> (Cloudflare Registrar → Vercel,
+        DNS-only / gray-cloud). Other candidates considered earlier:{' '}
         {DOMAIN_CANDIDATES.filter((d) => d !== TARGET_DOMAIN).join(', ')}.
       </p>
       <h2>Contact</h2>

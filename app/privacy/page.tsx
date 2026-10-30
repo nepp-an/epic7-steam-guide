@@ -16,9 +16,8 @@ export default function PrivacyPage() {
       <p>
         This independent information site (intended host:{' '}
         <strong>{TARGET_DOMAIN}</strong>) does not sell accounts, codes, or
-        personal data. The custom domain is <strong>not connected yet</strong>;
-        until DNS/Vercel alias is live, treat contact addresses below as
-        reserved placeholders.
+        personal data. Domain <strong>epicsevensteam.com</strong> is registered; mailboxes below
+        are still placeholders until MX/mailbox is provisioned.
       </p>
       <h2>What we collect</h2>
       <ul>

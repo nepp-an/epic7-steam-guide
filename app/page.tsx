@@ -111,19 +111,22 @@ export default function HomePage() {
       <section className="hero">
         <h1>Epic Seven on Steam — player guide</h1>
         <p>
-          Steam store entry, STOVE↔Steam account transfer, Foundry new-server
-          schedule, and launch troubleshooting. Independent site targeting{' '}
-          <strong>{TARGET_DOMAIN}</strong> (domain not connected yet).
+          Steam store entry, STOVE↔Steam account transfer, Foundry calendar
+          through 12/31, Secret Rabbit♥Hole, banners, and troubleshooting.
+          Independent guide on <strong>{TARGET_DOMAIN}</strong>.
         </p>
         <div className="cta-row">
           <ExternalLink href={OFFICIAL.steamStore} className="btn btn-primary">
             Official Steam store →
           </ExternalLink>
+          <Link href="/download/" className="btn btn-secondary">
+            Download checklist
+          </Link>
           <Link href="/steam-transfer/" className="btn btn-secondary">
             Transfer steps
           </Link>
           <Link href="/foundry/" className="btn btn-secondary">
-            Foundry overview
+            Foundry calendar
           </Link>
         </div>
       </section>
@@ -202,8 +205,8 @@ export default function HomePage() {
               <tr>
                 <td>Guild War (Foundry)</td>
                 <td>
-                  ~2026-11-21 (community/plan window — confirm on STOVE when
-                  posted)
+                  <strong>2026-11-21 03:00 UTC</strong> (STOVE Foundry open
+                  notice)
                 </td>
               </tr>
               <tr>
@@ -267,21 +270,50 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2>Long-term columns</h2>
-        <ul>
-          <li>
-            <Link href="/foundry/">Foundry schedule &amp; rewards</Link>
-          </li>
-          <li>
-            <Link href="/updates/">New heroes &amp; event updates</Link>
-          </li>
-          <li>
-            <Link href="/steam-notes/">Steam-specific notes</Link>
-          </li>
-          <li>
-            <Link href="/faq/">FAQ &amp; troubleshooting hub</Link>
-          </li>
-        </ul>
+        <h2>Site map — Steam, Foundry, ongoing coverage</h2>
+        <div className="card">
+          <h3>Steam</h3>
+          <ul>
+            <li>
+              <Link href="/download/">Official download / store entry</Link>
+            </li>
+            <li>
+              <Link href="/steam-transfer/">STOVE↔Steam transfer steps</Link>
+            </li>
+            <li>
+              <Link href="/demo-delete-warning/">Demo / delete-account warning</Link>
+            </li>
+            <li>
+              <Link href="/steam-notes/">Steam-specific client notes</Link>
+            </li>
+            <li>
+              <Link href="/faq/">FAQ &amp; troubleshooting</Link>
+            </li>
+          </ul>
+          <h3>Foundry</h3>
+          <ul>
+            <li>
+              <Link href="/foundry/">
+                Calendar through 12/31 — GW 11/21, WA 12/10
+              </Link>
+            </li>
+            <li>
+              <Link href="/secret-rabbit-hole/">Secret Rabbit♥Hole side story</Link>
+            </li>
+          </ul>
+          <h3>Ongoing updates</h3>
+          <ul>
+            <li>
+              <Link href="/banners/">Banners &amp; new heroes</Link>
+            </li>
+            <li>
+              <Link href="/updates/">Updates log</Link>
+            </li>
+            <li>
+              <Link href="/maintenance/">Maintenance &amp; version notes</Link>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section className="sources">
