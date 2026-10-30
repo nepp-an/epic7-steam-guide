@@ -874,6 +874,11 @@ export function FoundryView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveFoundry}>Foundry</ExternalLink>
         </li>
         <li>
+          <ExternalLink href={OFFICIAL.stoveLaunch}>
+            STOVE Launch (view/14606481)
+          </ExternalLink>
+        </li>
+        <li>
           <ExternalLink href={OFFICIAL.stoveHome}>STOVE hub</ExternalLink>
         </li>
         <li>
@@ -1223,6 +1228,12 @@ export function HeroesView({ locale }: { locale: Locale }) {
         <li>
           <ExternalLink href={OFFICIAL.steamStore}>Steam app 5019180</ExternalLink>
         </li>
+        <li>
+          <ExternalLink href={OFFICIAL.stoveSteamFaq}>STOVE Steam FAQ</ExternalLink>
+        </li>
+        <li>
+          <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE Foundry notice</ExternalLink>
+        </li>
       </ul>
     </PageShell>
   );
@@ -1316,6 +1327,12 @@ export function QuestsView({ locale }: { locale: Locale }) {
         </li>
         <li>
           <ExternalLink href={OFFICIAL.stoveSteamFaq}>STOVE Steam FAQ</ExternalLink>
+        </li>
+        <li>
+          <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE Foundry notice (view/14571828)</ExternalLink>
+        </li>
+        <li>
+          <ExternalLink href={OFFICIAL.steamStore}>Steam app 5019180</ExternalLink>
         </li>
       </ul>
     </PageShell>
