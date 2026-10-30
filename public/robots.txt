@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://epicsevensteam.com/sitemap.xml

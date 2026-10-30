@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.vercel
+.vercel/
+.vercel-bypass
+.env*.local
+__pycache__/
+*.pyc
