@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { BRAND, SITE_ORIGIN } from '@/lib/site';
+import Script from 'next/script';
+import { BRAND, GA4_MEASUREMENT_ID, SITE_ORIGIN } from '@/lib/site';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -21,10 +22,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* GA4: inject only after ops provides a real Measurement ID (G-…). Never use a fake ID or ArtCraft property. */}
-        {/* Example (disabled):
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX" strategy="afterInteractive" />
-        */}
+        {/* GA4: E7 Steam Guide property only (G-QY1D1CDXDZ). Not ArtCraft. */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-e7" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA4_MEASUREMENT_ID}');
+        `}</Script>
         {children}
       </body>
     </html>

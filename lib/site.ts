@@ -16,6 +16,12 @@ export const DOMAIN_CONNECTED = true;
 
 export const CONTACT_PRIVACY = `privacy@${TARGET_DOMAIN}`;
 
+/**
+ * GA4 Measurement ID for THIS site only (epicsevensteam.com / E7 Steam Guide).
+ * Stream id 16235788475 — notes only. Never use ArtCraft G-LVEKXCFCER.
+ */
+export const GA4_MEASUREMENT_ID = 'G-QY1D1CDXDZ';
+
 /** L1 locales. Path for Traditional Chinese is /zh-tw/; hreflang uses zh-Hant. */
 export type Locale = 'en' | 'ko' | 'ja' | 'zh-tw';
 export const DEFAULT_LOCALE: Locale = 'en';

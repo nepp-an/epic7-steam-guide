@@ -2823,7 +2823,8 @@ export const CONTENT = {
       "collect": [
         "No account system on this static site. We never ask for STOVE or Steam passwords.",
         "Hosting (Vercel) may process standard server logs (IP, user agent) under the host policy.",
-        "No ads currently. If analytics are added later, this page will be updated first."
+        "We use Google Analytics 4 (GA4) for aggregate traffic measurement (for example page views). We do not collect passwords through analytics.",
+        "No ads on this site."
       ],
       "out_h2": "Outbound links",
       "out": "Links to store.steampowered.com and page.onstove.com are third parties with their own policies.",
@@ -2839,7 +2840,8 @@ export const CONTENT = {
       "collect": [
         "정적 사이트에 계정 시스템 없음. STOVE/Steam 비밀번호를 묻지 않습니다.",
         "호스팅(Vercel)이 IP·UA 등 표준 로그를 처리할 수 있음.",
-        "현재 광고 없음. 분석 추가 시 이 페이지를 먼저 갱신."
+        "Google Analytics 4(GA4)로 집계 트래픽(예: 페이지뷰)을 측정합니다. 분석으로 비밀번호를 수집하지 않습니다.",
+        "이 사이트에는 광고가 없습니다."
       ],
       "out_h2": "외부 링크",
       "out": "Steam 스토어·STOVE는 각사 정책을 따릅니다.",
@@ -2855,7 +2857,8 @@ export const CONTENT = {
       "collect": [
         "静的サイトにアカウント機能なし。STOVE/Steamパスワードは求めません。",
         "ホスティング（Vercel）がIP・UA等の標準ログを処理し得ます。",
-        "現在広告なし。解析追加時はこの頁を先に更新。"
+        "Google Analytics 4（GA4）で集計トラフィック（例：ページビュー）を計測します。解析でパスワードは収集しません。",
+        "本サイトに広告はありません。"
       ],
       "out_h2": "外部リンク",
       "out": "Steamストア・STOVEは各社ポリシーに従います。",
@@ -2871,7 +2874,8 @@ export const CONTENT = {
       "collect": [
         "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。",
         "託管（Vercel）可能依其政策處理 IP、UA 等標準日誌。",
-        "目前無廣告。若日後加入分析，會先更新本頁。"
+        "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。",
+        "本站無廣告。"
       ],
       "out_h2": "外連",
       "out": "Steam 商店與 STOVE 為第三方，適用其各自政策。",
