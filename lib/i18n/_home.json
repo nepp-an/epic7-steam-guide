@@ -1,0 +1,614 @@
+{
+  "en": {
+    "title": "Epic Seven on Steam — player guide",
+    "meta": "Independent Epic Seven Steam guide: store link, STOVE↔Steam transfer, Foundry through 12/31, FAQ. Not Smilegate / STOVE.",
+    "h1": "Epic Seven on Steam — player guide",
+    "hero": "Steam store entry, STOVE↔Steam account transfer, Foundry calendar through 12/31, Secret Rabbit♥Hole, banners, and troubleshooting. Independent guide on epicsevensteam.com.",
+    "cta_store": "Official Steam store →",
+    "cta_dl": "Download checklist",
+    "cta_tr": "Transfer steps",
+    "cta_fd": "Foundry calendar",
+    "transfer_h2": "STOVE ↔ Steam account transfer",
+    "transfer_muted": "Unofficial step diagram summarizing the official process. Follow STOVE screens exactly — we are not Smilegate support.",
+    "diagram": [
+      "Existing email / SNS login",
+      "STOVE convert to Steam login",
+      "Launch Epic Seven on Steam"
+    ],
+    "diagram_aria": "Transfer flow diagram",
+    "steps": [
+      [
+        "Decide:",
+        "Keep old progress? Convert on STOVE first. Fresh start on Foundry? You can create a new Steam-linked account — demo leftover accounts can block a later transfer."
+      ],
+      [
+        "Convert on STOVE:",
+        "Use the official conversion (email/SNS → Simple Login Steam). See Steam FAQ and our deep transfer guide."
+      ],
+      [
+        "If Steam already made a new account:",
+        "Withdraw that Steam-linked STOVE account first, then convert the original."
+      ],
+      [
+        "Then play on Steam:",
+        "Use the official store page. Same account can still work on STOVE PC / mobile after transfer (per FAQ)."
+      ]
+    ],
+    "foundry_h2": "Foundry — new server snapshot",
+    "as_of": "Dates summarized from STOVE notices around the 2026-10-29 launch window. Schedules can shift — verify official posts.",
+    "th_content": "Content",
+    "th_open": "Opening (approx.)",
+    "rows": [
+      [
+        "Steam launch + Foundry open",
+        "2026-10-29 after maintenance"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 after maintenance"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (STOVE Foundry open notice)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 after maintenance (UTC)"
+      ],
+      [
+        "Starter buffs / many Foundry events",
+        "Through ~2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "Highlights: growth buffs, daily free Covenant summons (up to 1,260), Rank 70 Luna join, login gifts. Full breakdown on the Foundry page.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "How do I play Epic Seven on Steam?",
+        "Install from the official Steam store. Convert STOVE email/SNS to Steam login before signing in if you want existing progress. See transfer guide and STOVE Steam FAQ."
+      ],
+      [
+        "Does transfer keep heroes, purchases, and Epic Pass?",
+        "Per official FAQ, progress and data including unclaimed rewards, event items, and Epic Pass carry over. Confirm on STOVE Steam FAQ."
+      ],
+      [
+        "What is Foundry?",
+        "New server opened with the Steam launch window. Starter buffs and celebration events; Foundry-only matchmaking for listed PvP. See Foundry page."
+      ],
+      [
+        "Can demo in-game deletion wipe old progress?",
+        "Yes — after Steam login transfer, in-game account deletion on the demo can delete original-server progress. Read the demo warning and STOVE notice."
+      ]
+    ],
+    "faq_more": "More Q&A → FAQ & troubleshooting.",
+    "trouble_h2": "Quick troubleshooting",
+    "trouble": [
+      [
+        "Wrong / empty account on Steam:",
+        "Steam may have auto-created a new Steam-linked STOVE account. See transfer recovery."
+      ],
+      [
+        "Anti-cheat / launch fail:",
+        "Steam lists kernel-level UNCHEATER. Update drivers; contact official CS if stuck."
+      ],
+      [
+        "Demo leftover risk:",
+        "Do not use in-game account deletion after Steam login transfer."
+      ],
+      [
+        "Events missing:",
+        "Some content is Foundry-only or time-gated — check updates."
+      ]
+    ],
+    "map_h2": "Site map — Steam, Foundry, ongoing coverage",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "Ongoing updates",
+    "map_links_steam": [
+      [
+        "/download/",
+        "Official download / store entry"
+      ],
+      [
+        "/steam-transfer/",
+        "STOVE↔Steam transfer steps"
+      ],
+      [
+        "/demo-delete-warning/",
+        "Demo / delete-account warning"
+      ],
+      [
+        "/steam-notes/",
+        "Steam-specific client notes"
+      ],
+      [
+        "/faq/",
+        "FAQ & troubleshooting"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "Calendar through 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Secret Rabbit♥Hole side story"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/banners/",
+        "Banners & new heroes"
+      ],
+      [
+        "/updates/",
+        "Updates log"
+      ],
+      [
+        "/maintenance/",
+        "Maintenance & version notes"
+      ]
+    ],
+    "sources_h2": "Official sources"
+  },
+  "ko": {
+    "title": "Epic Seven Steam — 플레이어 가이드",
+    "meta": "비공식 Epic Seven Steam 가이드: 스토어 링크, STOVE↔Steam 이전, 파운드리(~12/31), FAQ. Smilegate/STOVE와 무관.",
+    "h1": "Epic Seven Steam — 플레이어 가이드",
+    "hero": "Steam 스토어 진입, STOVE↔Steam 계정 이전, 파운드리 일정(12/31까지), Secret Rabbit♥Hole, 배너·점검 안내. epicsevensteam.com 비공식 가이드.",
+    "cta_store": "공식 Steam 스토어 →",
+    "cta_dl": "다운로드 체크리스트",
+    "cta_tr": "이전 절차",
+    "cta_fd": "파운드리 캘린더",
+    "transfer_h2": "STOVE ↔ Steam 계정 이전",
+    "transfer_muted": "공식 절차를 요약한 비공식 단계도입니다. STOVE 화면을 그대로 따르세요 — 스마일게이트 고객센터가 아닙니다.",
+    "diagram": [
+      "기존 이메일 / SNS 로그인",
+      "STOVE에서 Steam 로그인으로 전환",
+      "Steam에서 Epic Seven 실행"
+    ],
+    "diagram_aria": "계정 이전 흐름도",
+    "steps": [
+      [
+        "결정:",
+        "기존 진행도를 유지하려면 STOVE에서 먼저 전환하세요. 파운드리에서 새로 시작해도 되지만, 데모에서 생긴 계정이 이후 이전을 막을 수 있습니다."
+      ],
+      [
+        "STOVE에서 전환:",
+        "공식 전환(이메일/SNS → Simple Login Steam). Steam FAQ와 상세 이전 가이드를 참고하세요."
+      ],
+      [
+        "Steam이 이미 새 계정을 만든 경우:",
+        "해당 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환하세요."
+      ],
+      [
+        "이후 Steam 플레이:",
+        "공식 스토어에서 실행. FAQ에 따르면 전환 후에도 STOVE PC/모바일 사용 가능."
+      ]
+    ],
+    "foundry_h2": "파운드리 — 신서버 요약",
+    "as_of": "2026-10-29 런칭 전후 STOVE 공지 요약. 일정은 변동될 수 있으니 공식 공지를 확인하세요.",
+    "th_content": "콘텐츠",
+    "th_open": "오픈(대략)",
+    "rows": [
+      [
+        "Steam 정식 + 파운드리 오픈",
+        "2026-10-29 점검 후"
+      ],
+      [
+        "드래프트 아레나(파운드리)",
+        "2026-10-29 점검 후"
+      ],
+      [
+        "길드전(파운드리)",
+        "2026-11-21 03:00 UTC (STOVE 파운드리 오픈 공지)"
+      ],
+      [
+        "월드 아레나(파운드리)",
+        "2026-12-10 점검 후 (UTC)"
+      ],
+      [
+        "스타터 버프 / 다수 이벤트",
+        "~2026-12-31 02:59 UTC까지"
+      ]
+    ],
+    "foundry_p": "성장 버프, 일일 무료 계약 소환(최대 1,260), 랭크 70 루나 합류, 로그인 선물 등. 상세는 파운드리 페이지.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "Steam에서 어떻게 플레이하나요?",
+        "공식 Steam 스토어에서 설치. 기존 진행도를 쓰려면 로그인 전에 STOVE에서 이메일/SNS→Steam 전환. 이전 가이드와 STOVE Steam FAQ 참고."
+      ],
+      [
+        "이전 시 영웅·결제·에픽패스가 유지되나요?",
+        "공식 FAQ상 미수령 보상·이벤트 아이템·에픽패스 포함 데이터가 유지됩니다. STOVE FAQ에서 재확인."
+      ],
+      [
+        "파운드리란?",
+        "Steam 런칭과 함께 열린 신서버. 스타터 버프·기념 이벤트, 명시된 PvP는 파운드리 매칭. 파운드리 페이지 참고."
+      ],
+      [
+        "데모 인게임 삭제가 본 서버 진행도를 지울 수 있나요?",
+        "네. Steam 로그인 전환 후 데모에서 인게임 계정 삭제 시 원 서버 데이터가 삭제될 수 있습니다. 데모 주의·STOVE 공지 확인."
+      ]
+    ],
+    "faq_more": "더 많은 Q&A → FAQ·문제 해결.",
+    "trouble_h2": "빠른 문제 해결",
+    "trouble": [
+      [
+        "Steam에 빈/새 계정:",
+        "Steam 연동 STOVE 계정이 자동 생성됐을 수 있습니다. 이전 복구 절차 참고."
+      ],
+      [
+        "안티치트/실행 실패:",
+        "Steam에 커널급 UNCHEATER 표기. 드라이버 업데이트 후 공식 CS."
+      ],
+      [
+        "데모 잔여 위험:",
+        "Steam 로그인 전환 후 인게임 계정 삭제 금지."
+      ],
+      [
+        "이벤트가 안 보임:",
+        "파운드리 전용·기간 한정일 수 있음 — 업데이트 확인."
+      ]
+    ],
+    "map_h2": "사이트맵 — Steam·파운드리·연속 업데이트",
+    "map_steam": "Steam",
+    "map_foundry": "파운드리",
+    "map_ong": "연속 업데이트",
+    "map_links_steam": [
+      [
+        "/download/",
+        "공식 다운로드/스토어"
+      ],
+      [
+        "/steam-transfer/",
+        "STOVE↔Steam 이전"
+      ],
+      [
+        "/demo-delete-warning/",
+        "데모/계정삭제 주의"
+      ],
+      [
+        "/steam-notes/",
+        "Steam 클라이언트 안내"
+      ],
+      [
+        "/faq/",
+        "FAQ·문제 해결"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "12/31까지 캘린더 — 길드전 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/banners/",
+        "배너·신규 영웅"
+      ],
+      [
+        "/updates/",
+        "업데이트 로그"
+      ],
+      [
+        "/maintenance/",
+        "점검·버전 노트"
+      ]
+    ],
+    "sources_h2": "공식 출처"
+  },
+  "ja": {
+    "title": "Epic Seven Steam — プレイヤーガイド",
+    "meta": "非公式Epic Seven Steamガイド：ストア、STOVE↔Steam引き継ぎ、ファウンドリ（〜12/31）、FAQ。Smilegate/STOVE非公式。",
+    "h1": "Epic Seven Steam — プレイヤーガイド",
+    "hero": "Steamストア入口、STOVE↔Steam引き継ぎ、ファウンドリ日程（12/31まで）、Secret Rabbit♥Hole、バナーとトラブルシュート。epicsevensteam.comの非公式ガイド。",
+    "cta_store": "公式Steamストア →",
+    "cta_dl": "ダウンロード確認リスト",
+    "cta_tr": "引き継ぎ手順",
+    "cta_fd": "ファウンドリ日程",
+    "transfer_h2": "STOVE ↔ Steam アカウント引き継ぎ",
+    "transfer_muted": "公式手順の非公式まとめ図です。STOVE画面に従ってください — 運営サポートではありません。",
+    "diagram": [
+      "既存メール / SNSログイン",
+      "STOVEでSteamログインへ変換",
+      "SteamでEpic Seven起動"
+    ],
+    "diagram_aria": "引き継ぎフロー図",
+    "steps": [
+      [
+        "判断:",
+        "既存データを残すなら先にSTOVEで変換。ファウンドリ新規も可だが、デモ残骸アカウントが後の引き継ぎを妨げることがあります。"
+      ],
+      [
+        "STOVEで変換:",
+        "公式フロー（メール/SNS → Simple Login Steam）。Steam FAQと詳細ガイドを参照。"
+      ],
+      [
+        "Steamが新規を作済みの場合:",
+        "そのSteam連携STOVEアカウントを先に退会し、元アカウントを変換。"
+      ],
+      [
+        "その後Steamでプレイ:",
+        "公式ストアから。FAQ上、変換後もSTOVE PC/モバイル利用可。"
+      ]
+    ],
+    "foundry_h2": "ファウンドリ — 新サーバー概要",
+    "as_of": "2026-10-29前後のSTOVE告知要約。日程は変動し得ます。公式で再確認を。",
+    "th_content": "コンテンツ",
+    "th_open": "開放（目安）",
+    "rows": [
+      [
+        "Steam正式＋ファウンドリ開放",
+        "2026-10-29 メンテ後"
+      ],
+      [
+        "ドラフトアリーナ（ファウンドリ）",
+        "2026-10-29 メンテ後"
+      ],
+      [
+        "ギルド戦（ファウンドリ）",
+        "2026-11-21 03:00 UTC（STOVE告知）"
+      ],
+      [
+        "ワールドアリーナ（ファウンドリ）",
+        "2026-12-10 メンテ後（UTC）"
+      ],
+      [
+        "スターターバフ／多数イベント",
+        "〜2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "成長バフ、毎日無料契約召喚（最大1,260）、ランク70ルナ加入、ログインギフトなど。詳細はファウンドリ頁。",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "Steamでどう遊ぶ？",
+        "公式Steamストアから導入。既存進行を使うならログイン前にSTOVEでメール/SNS→Steam変換。引き継ぎガイドとFAQ参照。"
+      ],
+      [
+        "引き継ぎで英雄・課金・エピックパスは残る？",
+        "公式FAQ上、未受取報酬・イベントアイテム・エピックパス含むデータが維持。STOVE FAQで再確認。"
+      ],
+      [
+        "ファウンドリとは？",
+        "Steam発売窓で開いた新鯖。スターターバフと記念イベント。記載PvPはファウンドリ内マッチ。"
+      ],
+      [
+        "デモのゲーム内削除で本鯖データが消える？",
+        "はい。Steamログイン変換後のデモ内アカウント削除は本鯖進行を消す恐れ。デモ注意とSTOVE告知を読む。"
+      ]
+    ],
+    "faq_more": "追加Q&A → FAQ・トラブルシュート。",
+    "trouble_h2": "クイック対処",
+    "trouble": [
+      [
+        "Steamが空/新規:",
+        "Steam連携STOVEが自動作成された可能性。引き継ぎ復旧を参照。"
+      ],
+      [
+        "アンチチート/起動失敗:",
+        "Steamにカーネル級UNCHEATER表記。ドライバ更新、公式CSへ。"
+      ],
+      [
+        "デモ残骸リスク:",
+        "Steamログイン変換後のゲーム内削除は禁止。"
+      ],
+      [
+        "イベントが見えない:",
+        "ファウンドリ限定や期間限定の可能性 — 更新ログへ。"
+      ]
+    ],
+    "map_h2": "サイトマップ — Steam・ファウンドリ・継続更新",
+    "map_steam": "Steam",
+    "map_foundry": "ファウンドリ",
+    "map_ong": "継続更新",
+    "map_links_steam": [
+      [
+        "/download/",
+        "公式ダウンロード/ストア"
+      ],
+      [
+        "/steam-transfer/",
+        "STOVE↔Steam引き継ぎ"
+      ],
+      [
+        "/demo-delete-warning/",
+        "デモ/削除注意"
+      ],
+      [
+        "/steam-notes/",
+        "Steam固有メモ"
+      ],
+      [
+        "/faq/",
+        "FAQ・トラブル"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "12/31まで日程 — GW 11/21、WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/banners/",
+        "バナー・新英雄"
+      ],
+      [
+        "/updates/",
+        "更新ログ"
+      ],
+      [
+        "/maintenance/",
+        "メンテ・バージョン"
+      ]
+    ],
+    "sources_h2": "公式ソース"
+  },
+  "zh-tw": {
+    "title": "Epic Seven Steam — 玩家指南",
+    "meta": "非官方 Epic Seven Steam 指南：商店連結、STOVE↔Steam 轉移、Foundry（至 12/31）、FAQ。與 Smilegate/STOVE 無關。",
+    "h1": "Epic Seven Steam — 玩家指南",
+    "hero": "Steam 商店入口、STOVE↔Steam 帳號轉移、Foundry 日程（至 12/31）、Secret Rabbit♥Hole、卡池與疑難排解。epicsevensteam.com 非官方指南。",
+    "cta_store": "官方 Steam 商店 →",
+    "cta_dl": "下載檢查清單",
+    "cta_tr": "轉移步驟",
+    "cta_fd": "Foundry 日程",
+    "transfer_h2": "STOVE ↔ Steam 帳號轉移",
+    "transfer_muted": "非官方步驟圖，摘要官方流程。請完全依照 STOVE 畫面操作——我們不是官方客服。",
+    "diagram": [
+      "既有 Email / SNS 登入",
+      "在 STOVE 轉為 Steam 登入",
+      "於 Steam 啟動 Epic Seven"
+    ],
+    "diagram_aria": "帳號轉移流程圖",
+    "steps": [
+      [
+        "先決定：",
+        "要保留舊進度？先在 STOVE 轉換。要在 Foundry 重開也可以，但試玩殘留帳號可能阻礙之後轉移。"
+      ],
+      [
+        "在 STOVE 轉換：",
+        "走官方流程（Email/SNS → Simple Login Steam）。見 Steam FAQ 與詳細轉移指南。"
+      ],
+      [
+        "若 Steam 已建新帳：",
+        "先註銷該 Steam 連結的 STOVE 帳，再轉換原本帳號。"
+      ],
+      [
+        "再到 Steam 遊玩：",
+        "使用官方商店頁。FAQ 指出轉換後仍可用 STOVE PC／手機。"
+      ]
+    ],
+    "foundry_h2": "Foundry — 新伺服器速覽",
+    "as_of": "依 2026-10-29 前後 STOVE 公告摘要。日程可能變動，請以官方為準。",
+    "th_content": "內容",
+    "th_open": "開放（約）",
+    "rows": [
+      [
+        "Steam 正式上架 + Foundry 開服",
+        "2026-10-29 維護後"
+      ],
+      [
+        "Draft Arena（Foundry）",
+        "2026-10-29 維護後"
+      ],
+      [
+        "公會戰（Foundry）",
+        "2026-11-21 03:00 UTC（STOVE Foundry 開服公告）"
+      ],
+      [
+        "World Arena（Foundry）",
+        "2026-12-10 維護後（UTC）"
+      ],
+      [
+        "新手增益／多項 Foundry 活動",
+        "至約 2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "成長增益、每日免費契約召喚（最多 1,260）、Rank 70 Luna 加入、登入禮等。詳見 Foundry 頁。",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "如何在 Steam 遊玩？",
+        "從官方 Steam 商店安裝。若要保留舊進度，登入前先在 STOVE 將 Email/SNS 轉 Steam。見轉移指南與 STOVE FAQ。"
+      ],
+      [
+        "轉移會保留英雄、儲值與 Epic Pass 嗎？",
+        "官方 FAQ：含未領獎勵、活動道具與 Epic Pass 等資料會保留。請再於 STOVE FAQ 確認。"
+      ],
+      [
+        "什麼是 Foundry？",
+        "隨 Steam 上架窗口開啟的新服，有新手增益與慶祝活動；所列 PvP 為 Foundry 內匹配。"
+      ],
+      [
+        "試玩內刪號會清掉本服進度嗎？",
+        "會——已轉 Steam 登入後若在試玩用遊戲內刪號，可能刪除原伺服器進度。見試玩警告與 STOVE 公告。"
+      ]
+    ],
+    "faq_more": "更多問答 → FAQ 與疑難排解。",
+    "trouble_h2": "快速疑難排解",
+    "trouble": [
+      [
+        "Steam 開到空白／新帳：",
+        "可能自動建了 Steam 連結 STOVE 帳。見轉移復原步驟。"
+      ],
+      [
+        "反作弊／無法啟動：",
+        "Steam 標示核心層級 UNCHEATER。更新驅動；卡住請找官方客服。"
+      ],
+      [
+        "試玩殘留風險：",
+        "Steam 登入轉換後勿用遊戲內刪號。"
+      ],
+      [
+        "看不到活動：",
+        "可能是 Foundry 限定或限時——見更新頁。"
+      ]
+    ],
+    "map_h2": "站內導覽 — Steam、Foundry、持續更新",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "持續更新",
+    "map_links_steam": [
+      [
+        "/download/",
+        "官方下載／商店入口"
+      ],
+      [
+        "/steam-transfer/",
+        "STOVE↔Steam 轉移"
+      ],
+      [
+        "/demo-delete-warning/",
+        "試玩／刪號警告"
+      ],
+      [
+        "/steam-notes/",
+        "Steam 專屬說明"
+      ],
+      [
+        "/faq/",
+        "FAQ 與疑難排解"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "日至 12/31 — 公會戰 11/21、WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/banners/",
+        "卡池與新英雄"
+      ],
+      [
+        "/updates/",
+        "更新日誌"
+      ],
+      [
+        "/maintenance/",
+        "維護與版本"
+      ]
+    ],
+    "sources_h2": "官方來源"
+  }
+}

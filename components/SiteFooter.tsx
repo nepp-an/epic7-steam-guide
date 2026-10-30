@@ -1,31 +1,32 @@
 import Link from 'next/link';
-import { BRAND, OFFICIAL } from '@/lib/site';
+import { BRAND, OFFICIAL, type Locale, localizedPath } from '@/lib/site';
+import { FOOTER } from '@/lib/i18n/ui';
 
-export function SiteFooter() {
+export function SiteFooter({ locale = 'en' }: { locale?: Locale }) {
+  const t = FOOTER[locale];
   return (
     <footer className="site-footer">
       <p>
-        <strong>{BRAND}</strong> — independent player information. Not
-        affiliated with Smilegate, STOVE, Valve, or Steam.
+        <strong>{BRAND}</strong> {t.blurb}
       </p>
       <p className="footer-links">
-        <Link href="/privacy/">Privacy</Link>
+        <Link href={localizedPath(locale, '/privacy/')}>{t.privacy}</Link>
         {' · '}
-        <Link href="/about/">About</Link>
+        <Link href={localizedPath(locale, '/about/')}>{t.about}</Link>
         {' · '}
         <a href={OFFICIAL.steamStore} rel="noopener noreferrer" target="_blank">
-          Official Steam store
+          {t.steam}
         </a>
         {' · '}
-        <a href={OFFICIAL.stoveSteamFaq} rel="noopener noreferrer" target="_blank">
-          STOVE Steam FAQ
+        <a
+          href={OFFICIAL.stoveSteamFaq}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {t.faq}
         </a>
       </p>
-      <p className="footer-meta">
-        Epic Seven™ and related marks belong to their respective owners. Content
-        here is short original summary with outbound citations — verify on
-        official sources before acting.
-      </p>
+      <p className="footer-meta">{t.meta}</p>
     </footer>
   );
 }

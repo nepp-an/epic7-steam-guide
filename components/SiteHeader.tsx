@@ -1,33 +1,49 @@
 import Link from 'next/link';
-import { BRAND } from '@/lib/site';
+import {
+  BRAND,
+  LOCALES,
+  LOCALE_LABELS,
+  type Locale,
+  localizedPath,
+} from '@/lib/site';
+import { NAV_ITEMS, NAV_LABELS } from '@/lib/i18n/ui';
 
-const NAV = [
-  { href: '/', label: 'Home' },
-  { href: '/download/', label: 'Download' },
-  { href: '/steam-transfer/', label: 'Transfer' },
-  { href: '/foundry/', label: 'Foundry' },
-  { href: '/secret-rabbit-hole/', label: 'Rabbit Hole' },
-  { href: '/banners/', label: 'Banners' },
-  { href: '/updates/', label: 'Updates' },
-  { href: '/maintenance/', label: 'Maintenance' },
-  { href: '/steam-notes/', label: 'Steam notes' },
-  { href: '/faq/', label: 'FAQ' },
-  { href: '/demo-delete-warning/', label: 'Demo warning' },
-  { href: '/about/', label: 'About' },
-] as const;
-
-export function SiteHeader() {
+export function SiteHeader({
+  locale = 'en',
+  path = '/',
+}: {
+  locale?: Locale;
+  path?: string;
+}) {
+  const labels = NAV_LABELS[locale];
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        <Link href="/" className="brand">
+        <Link href={localizedPath(locale, '/')} className="brand">
           {BRAND}
         </Link>
         <nav aria-label="Primary">
           <ul>
-            {NAV.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href}>{item.label}</Link>
+            {NAV_ITEMS.map((item) => (
+              <li key={item.path}>
+                <Link href={localizedPath(locale, item.path)}>
+                  {labels[item.key]}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <nav aria-label="Language" className="lang-switch">
+          <ul>
+            {LOCALES.map((loc) => (
+              <li key={loc}>
+                <Link
+                  href={localizedPath(loc, path)}
+                  hrefLang={loc === 'zh-tw' ? 'zh-Hant' : loc}
+                  aria-current={loc === locale ? 'page' : undefined}
+                >
+                  {LOCALE_LABELS[loc]}
+                </Link>
               </li>
             ))}
           </ul>

@@ -67,7 +67,7 @@ NEXT_PUBLIC_SITE_ORIGIN=https://epicsevensteam.com
 | `/steam-notes/` | Steam-specific client / anti-cheat / langs / specs |
 | `/faq/` | Expanded FAQ + troubleshooting |
 | `/demo-delete-warning/` | Official demo deletion risk |
-| `/about/`, `/privacy/` | Independent disclosure; contact placeholders |
+| `/about/`, `/privacy/` | Independent disclosure; privacy@ via Cloudflare Email Routing |
 
 ## Hard rules
 
