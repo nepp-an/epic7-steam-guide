@@ -92,6 +92,23 @@ function Fig({
   );
 }
 
+function DeepBlock({
+  h2,
+  paras,
+}: {
+  h2: string;
+  paras: readonly string[];
+}) {
+  return (
+    <section>
+      <h2>{h2}</h2>
+      {paras.map((para) => (
+        <p key={para.slice(0, 32)}>{para}</p>
+      ))}
+    </section>
+  );
+}
+
 function FaqBlock({
   h2,
   faqs,
@@ -376,11 +393,30 @@ export function TransferView({ locale }: { locale: Locale }) {
       />
       <p>{c.goal}</p>
       <Diagram nodes={c.diagram} aria={c.diagram_aria} />
+      <h2>{c.before_h2}</h2>
+      <ul>
+        {c.before.map((s) => (
+          <li key={s.slice(0, 48)}>{s}</li>
+        ))}
+      </ul>
       <h2>{c.rec_h2}</h2>
       <ol className="steps">
-        {c.steps.map(([t, b]) => (
+        {c.steps.map(([t, b], i) => (
           <li key={t}>
             <strong>{t}</strong> {b}
+            {i === 3 ? (
+              <>
+                {' '}
+                <L locale={locale} href="/download/">
+                  {c.link_download}
+                </L>
+                . {c.demo_risk}{' '}
+                <L locale={locale} href="/demo-delete-warning/">
+                  {c.link_demo}
+                </L>
+                .
+              </>
+            ) : null}
           </li>
         ))}
       </ol>
@@ -394,12 +430,48 @@ export function TransferView({ locale }: { locale: Locale }) {
         </ol>
         <p className="muted">{c.conflict_note}</p>
       </div>
+      <h2>{c.tree_h2}</h2>
+      {c.tree.map(([h, body]) => (
+        <div key={h} className="card">
+          <h3>{h}</h3>
+          <p>{body}</p>
+        </div>
+      ))}
+      <h2>{c.vs_h2}</h2>
+      <p>
+        {c.vs}{' '}
+        <L locale={locale} href="/foundry/">
+          {c.link_foundry}
+        </L>
+        .
+      </p>
       <h2>{c.cross_h2}</h2>
       <ul>
-        {c.cross.map((s) => (
-          <li key={s}>{s}</li>
-        ))}
+        <li>{c.cross[0]}</li>
+        <li>
+          {c.cross_foundry_before}{' '}
+          <L locale={locale} href="/foundry/">
+            {c.link_foundry}
+          </L>{' '}
+          {c.cross_foundry_after}
+        </li>
+        <li>
+          {c.related_label}{' '}
+          <L locale={locale} href="/demo-delete-warning/">
+            {c.link_demo}
+          </L>
+          ,{' '}
+          <L locale={locale} href="/steam-notes/">
+            {c.link_notes}
+          </L>
+          ,{' '}
+          <L locale={locale} href="/faq/">
+            {c.link_faq}
+          </L>
+          .
+        </li>
       </ul>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
@@ -412,6 +484,11 @@ export function TransferView({ locale }: { locale: Locale }) {
         <li>
           <ExternalLink href={OFFICIAL.steamStore}>Steam store</ExternalLink>
         </li>
+        <li>
+          <ExternalLink href={OFFICIAL.stoveDemoDelete}>
+            STOVE demo deletion precaution
+          </ExternalLink>
+        </li>
       </ul>
     </PageShell>
   );
@@ -421,8 +498,15 @@ export function DemoView({ locale }: { locale: Locale }) {
   const c = CONTENT['/demo-delete-warning/'][locale];
   return (
     <PageShell locale={locale} path="/demo-delete-warning/">
+      <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <QuickAnswer text={c.answer} />
+      <Fig
+        src="/images/diagram-demo-delete.webp"
+        alt={c.img_alt}
+        credit="Unofficial demo-delete risk diagram"
+      />
       <div className="card warn">
         <p>
           <strong>{c.warn_title}</strong> {c.warn}
@@ -431,6 +515,25 @@ export function DemoView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveDemoDelete}>STOVE</ExternalLink>
         </p>
       </div>
+      <h2>{c.table_h2}</h2>
+      <table className="data">
+        <thead>
+          <tr>
+            {c.th.map((t) => (
+              <th key={t}>{t}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {c.rows.map((row) => (
+            <tr key={row[0]}>
+              {row.map((cell) => (
+                <td key={cell}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <h2>{c.do_h2}</h2>
       <ul>
         {c.dos.map((s) => (
@@ -439,16 +542,28 @@ export function DemoView({ locale }: { locale: Locale }) {
       </ul>
       <h2>{c.diff_h2}</h2>
       <p>{c.diff}</p>
+      <ol>
+        {c.diff_steps.map((s) => (
+          <li key={s.slice(0, 40)}>{s}</li>
+        ))}
+      </ol>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
           <L locale={locale} href="/steam-transfer/">
-            transfer
+            {c.link_transfer}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/steam-notes/">
+            {c.link_notes}
           </L>
         </li>
         <li>
           <L locale={locale} href="/faq/">
-            FAQ
+            {c.link_faq}
           </L>
         </li>
       </ul>
@@ -513,8 +628,15 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
   const c = CONTENT['/steam-notes/'][locale];
   return (
     <PageShell locale={locale} path="/steam-notes/">
+      <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <QuickAnswer text={c.answer} />
+      <Fig
+        src="/images/diagram-steam-notes.webp"
+        alt={c.img_alt}
+        credit="Unofficial Steam bind / launch triage diagram"
+      />
       <p>{c.lead}</p>
       <h2>{c.acct_h2}</h2>
       <ul>
@@ -522,12 +644,35 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
           <li key={s}>{s}</li>
         ))}
       </ul>
+      <h2>{c.bind_h2}</h2>
+      <p>{c.bind_lead}</p>
+      <h3>{c.bind_sym_h3}</h3>
+      <ul>
+        {c.bind_sym.map((s) => (
+          <li key={s.slice(0, 40)}>{s}</li>
+        ))}
+      </ul>
+      <h3>{c.bind_fix_h3}</h3>
+      <p>
+        {c.bind_fix}{' '}
+        <L locale={locale} href="/steam-transfer/">
+          {c.link_transfer}
+        </L>
+        .
+      </p>
       <h2>{c.sec_h2}</h2>
       <ul>
         {c.sec.map((s) => (
           <li key={s}>{s}</li>
         ))}
       </ul>
+      <h2>{c.launch_h2}</h2>
+      {c.launch.map(([h, body]) => (
+        <div key={h} className="card">
+          <h3>{h}</h3>
+          <p>{body}</p>
+        </div>
+      ))}
       <h2>{c.lang_h2}</h2>
       <p>{c.lang}</p>
       <h2>{c.spec_h2}</h2>
@@ -541,6 +686,8 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
           ))}
         </tbody>
       </table>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.get_h2}</h2>
       <p>
         <ExternalLink href={OFFICIAL.steamStore} className="btn btn-outline">
@@ -550,13 +697,23 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
+          <L locale={locale} href="/steam-transfer/">
+            {c.link_transfer}
+          </L>
+        </li>
+        <li>
           <L locale={locale} href="/demo-delete-warning/">
-            demo
+            {c.link_demo}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/download/">
+            {c.link_download}
           </L>
         </li>
         <li>
           <L locale={locale} href="/faq/">
-            FAQ
+            {c.link_faq}
           </L>
         </li>
       </ul>
@@ -584,6 +741,14 @@ export function FoundryView({ locale }: { locale: Locale }) {
       />
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
+      <h2>{c.vs_h2}</h2>
+      <p>
+        {c.vs}{' '}
+        <L locale={locale} href="/steam-transfer/">
+          {c.link_transfer}
+        </L>
+        .
+      </p>
       <h2>{c.unlock_h2}</h2>
       <table className="data">
         <thead>
@@ -644,6 +809,64 @@ export function FoundryView({ locale }: { locale: Locale }) {
           →
         </L>
       </p>
+      <h2 id="guild-war">{c.gw_h2}</h2>
+      <p className="quick-answer">
+        <strong>TL;DR — </strong>
+        {c.gw_answer}
+      </p>
+      <h3>{c.gw_unlock_h3}</h3>
+      <p>{c.gw_unlock}</p>
+      <h3>{c.gw_prep_h3}</h3>
+      <ul>
+        {c.gw_prep.map((s) => (
+          <li key={s.slice(0, 40)}>{s}</li>
+        ))}
+      </ul>
+      <h3>{c.gw_reward_h3}</h3>
+      <p>{c.gw_reward}</p>
+      <h2>{c.ends_h2}</h2>
+      <table className="data">
+        <thead>
+          <tr>
+            {c.ends_th.map((t) => (
+              <th key={t}>{t}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {c.ends.map((row) => (
+            <tr key={row[0]}>
+              {row.map((cell) => (
+                <td key={cell}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <h2>{c.related_h2}</h2>
+      <ul>
+        <li>
+          <L locale={locale} href="/steam-transfer/">
+            {c.link_transfer}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/secret-rabbit-hole/">
+            {c.link_rabbit}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/quests/">
+            {c.link_quests}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/faq/">
+            {c.link_faq}
+          </L>
+        </li>
+      </ul>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
@@ -945,6 +1168,16 @@ export function HeroesView({ locale }: { locale: Locale }) {
         credit="Steam store screenshot · Steam CDN"
       />
       <p>{c.lead}</p>
+      <h2>{c.groups_h2}</h2>
+      {c.groups.map(([h, body]) => (
+        <div key={h} className="card">
+          <h3>{h}</h3>
+          <p>{body}</p>
+        </div>
+      ))}
+      <h2>{c.cite_h2}</h2>
+      <p>{c.cite}</p>
+      <h2>{c.roster_h2}</h2>
       <table className="data">
         <thead>
           <tr>
@@ -968,6 +1201,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
         </tbody>
       </table>
       <p className="muted">{c.note}</p>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
@@ -1013,6 +1247,25 @@ export function QuestsView({ locale }: { locale: Locale }) {
         credit="Steam store screenshot · Steam CDN"
       />
       <p>{c.lead}</p>
+      <p className="muted">{c.reset_note}</p>
+      <h2>{c.foundry_h2}</h2>
+      <ul>
+        {c.foundry_delta.map((s) => (
+          <li key={s.slice(0, 40)}>{s}</li>
+        ))}
+      </ul>
+      <h2>{c.hub_h2}</h2>
+      <p>
+        {c.hub}{' '}
+        <L locale={locale} href="/secret-rabbit-hole/">
+          {c.link_rabbit}
+        </L>{' '}
+        ·{' '}
+        <L locale={locale} href="/foundry/">
+          {c.link_foundry}
+        </L>
+        .
+      </p>
       <h2>{c.main_h2}</h2>
       <ul>
         {c.main.map((s) => (
@@ -1037,6 +1290,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
+      <DeepBlock h2={c.deep_h2} paras={c.deep} />
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
