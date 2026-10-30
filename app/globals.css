@@ -560,3 +560,201 @@ table.data tr:hover td {
   font-size: 0.82rem;
   padding: 0.28rem 0.7rem;
 }
+
+/* —— 序④ hub + heroes card grid —— */
+.hub-section {
+  margin: 1.25rem 0 1.5rem;
+}
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.85rem;
+  margin: 0.75rem 0 1.25rem;
+}
+a.hub-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  border-image: none;
+  background-image: linear-gradient(var(--bg-card), var(--bg-card)),
+    linear-gradient(135deg, rgba(212, 168, 75, 0.55), rgba(139, 108, 255, 0.45));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: 1px solid transparent;
+}
+a.hub-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+  text-decoration: none;
+  color: inherit;
+}
+a.hub-card img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  background: #0a0e16;
+}
+.hub-card-body {
+  padding: 0.75rem 0.9rem 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.hub-card-body strong {
+  color: var(--gold-bright);
+  font-size: 1.02rem;
+}
+.hub-card-body span {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.anchor-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  align-items: center;
+  margin: 0.75rem 0 1rem;
+  padding: 0.55rem 0.75rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+.anchor-nav-label {
+  color: var(--gold-bright);
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+.anchor-nav a {
+  color: var(--steam);
+  text-decoration: none;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(102, 192, 244, 0.35);
+}
+.anchor-nav a:hover {
+  border-color: var(--gold-bright);
+  color: var(--gold-bright);
+}
+
+.prio-note {
+  margin: 0.35rem 0 0.75rem;
+}
+.prio-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
+  margin: 0.55rem 0 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+.prio-bar .prio-label {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.prio-bar .prio-value {
+  letter-spacing: 0.02em;
+}
+.prio-high {
+  background: rgba(232, 93, 76, 0.14);
+  border-color: rgba(232, 93, 76, 0.5);
+  color: #ffb4a8;
+}
+.prio-mid {
+  background: rgba(240, 199, 94, 0.12);
+  border-color: rgba(212, 168, 75, 0.5);
+  color: #ffe9a0;
+}
+.prio-later {
+  background: rgba(154, 166, 188, 0.12);
+  border-color: rgba(154, 166, 188, 0.45);
+  color: #c5cede;
+}
+
+.hero-group {
+  margin: 1.5rem 0 2rem;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.85rem;
+  margin: 0.85rem 0 1.1rem;
+}
+.hero-card {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0.85rem;
+}
+.hero-avatar {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  border: 2px solid rgba(212, 168, 75, 0.45);
+  object-fit: cover;
+  background: #0a0e16;
+}
+.hero-card-main {
+  min-width: 0;
+  flex: 1;
+}
+.hero-card-main h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.02rem;
+}
+.hero-card-main h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero-card-main h3 a:hover {
+  color: var(--gold-bright);
+}
+.hero-card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.4rem;
+}
+.hero-card .prio-bar {
+  margin: 0.35rem 0 0.45rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.78rem;
+}
+.hero-brief {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.further-reading {
+  margin: 1.5rem 0 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+.further-reading summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.further-reading[open] summary {
+  color: var(--gold-bright);
+  margin-bottom: 0.5rem;
+}

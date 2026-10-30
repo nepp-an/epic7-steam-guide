@@ -16,12 +16,18 @@ function L({
   locale,
   href,
   children,
+  className,
 }: {
   locale: Locale;
   href: string;
   children: React.ReactNode;
+  className?: string;
 }) {
-  return <Link href={localizedPath(locale, href)}>{children}</Link>;
+  return (
+    <Link href={localizedPath(locale, href)} className={className}>
+      {children}
+    </Link>
+  );
 }
 
 function Diagram({
@@ -99,6 +105,18 @@ const IMAGE_SIZE: Record<string, readonly [number, number]> = {
   '/images/steam-ss-battle.webp': [960, 540],
   '/images/steam-ss-heroes.webp': [960, 540],
   '/images/steam-ss-world.webp': [600, 338],
+  '/images/avatars/ras.webp': [160, 160],
+  '/images/avatars/mercedes.webp': [160, 160],
+  '/images/avatars/aither.webp': [160, 160],
+  '/images/avatars/judith.webp': [160, 160],
+  '/images/avatars/angelic-montmorancy.webp': [160, 160],
+  '/images/avatars/falconer-kluri.webp': [160, 160],
+  '/images/avatars/commander-lorina.webp': [160, 160],
+  '/images/avatars/alexa.webp': [160, 160],
+  '/images/avatars/furious.webp': [160, 160],
+  '/images/avatars/silk.webp': [160, 160],
+  '/images/avatars/vildred.webp': [160, 160],
+  '/images/avatars/luna.webp': [160, 160],
 };
 
 function elementChipClass(el: string): string {
@@ -110,6 +128,38 @@ function elementChipClass(el: string): string {
   if (key === 'dark') return 'chip chip-dark';
   return 'chip chip-role';
 }
+
+function prioClass(p: string): string {
+  const key = p.trim().toLowerCase();
+  if (key === 'high') return 'prio-bar prio-high';
+  if (key === 'later') return 'prio-bar prio-later';
+  return 'prio-bar prio-mid';
+}
+
+function prioLabel(
+  p: string,
+  labels: { high: string; mid: string; later: string },
+): string {
+  const key = p.trim().toLowerCase();
+  if (key === 'high') return labels.high;
+  if (key === 'later') return labels.later;
+  return labels.mid;
+}
+
+type HeroRow = readonly [
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+];
+
+function heroesInGroup(rows: readonly HeroRow[], group: string): HeroRow[] {
+  return rows.filter((r) => r[5] === group);
+}
+
 
 function Fig({
   src,
@@ -198,8 +248,30 @@ export function HomeView({ locale }: { locale: Locale }) {
         <span className="chip chip-light">Foundry → 2026-12-31</span>
         <span className="chip chip-ice">Independent guide</span>
         <span className="chip chip-fire">Verify on STOVE</span>
+        <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
       <QuickAnswer text={c.answer} />
+      <section className="hub-section" aria-labelledby="hub-cards-h2">
+        <h2 id="hub-cards-h2">{c.hubs_h2}</h2>
+        <div className="hub-grid">
+          {c.hubs.map(([href, title, blurb, img]) => (
+            <L key={href} locale={locale} href={href} className="hub-card">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={img}
+                alt=""
+                width={IMAGE_SIZE[img]?.[0] ?? 1100}
+                height={IMAGE_SIZE[img]?.[1] ?? 300}
+                loading="lazy"
+              />
+              <div className="hub-card-body">
+                <strong>{title}</strong>
+                <span>{blurb}</span>
+              </div>
+            </L>
+          ))}
+        </div>
+      </section>
       <Fig
         src="/images/steam-header.webp"
         alt={c.img_header_alt}
@@ -1251,47 +1323,143 @@ export function PrivacyView({ locale }: { locale: Locale }) {
 
 export function HeroesView({ locale }: { locale: Locale }) {
   const c = CONTENT['/heroes/'][locale];
+  const prioLabels = {
+    high: c.prio_high,
+    mid: c.prio_mid,
+    later: c.prio_later,
+  };
+  const groups: { id: string; key: string; h2: string; body: string; fig: string; alt: string; credit: string }[] = [
+    {
+      id: 'tutorial-early-leads',
+      key: 'tutorial',
+      h2: c.group_tutorial_h2,
+      body: c.group_tutorial_body,
+      fig: '/images/diagram-heroes.webp',
+      alt: c.img_alt,
+      credit: 'Unofficial roles banner · epicsevensteam.com',
+    },
+    {
+      id: 'specialty-change',
+      key: 'specialty',
+      h2: c.group_specialty_h2,
+      body: c.group_specialty_body,
+      fig: '/images/diagram-heroes-groups.webp',
+      alt: c.img_alt2,
+      credit: 'Unofficial on-site hero group cards · epicsevensteam.com',
+    },
+    {
+      id: 'farmers-hunt',
+      key: 'farmer',
+      h2: c.group_farmer_h2,
+      body: c.group_farmer_body,
+      fig: '/images/diagram-heroes-path.webp',
+      alt: c.img_alt4,
+      credit: 'Unofficial early build-order diagram · epicsevensteam.com',
+    },
+  ];
+  const rows = c.heroes as unknown as HeroRow[];
+
   return (
     <PageShell locale={locale} path="/heroes/">
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
-      <Fig
-        src="/images/diagram-heroes.webp"
-        alt={c.img_alt}
-        credit="Unofficial roles banner · epicsevensteam.com"
-      />
+      <nav className="anchor-nav" aria-label={c.anchors_label}>
+        <span className="anchor-nav-label">{c.anchors_label}</span>
+        <a href="#elements">{c.anchor_elements}</a>
+        <a href="#classes">{c.anchor_classes}</a>
+        <a href="#specialty-change">{c.anchor_specialty}</a>
+        <a href="#farmers-hunt">{c.anchor_farmer}</a>
+      </nav>
+      <p className="prio-note muted">{c.prio_note}</p>
+      <div className="kpi-strip" id="elements" aria-label={c.anchor_elements}>
+        <span className="chip chip-fire">Fire</span>
+        <span className="chip chip-ice">Ice</span>
+        <span className="chip chip-earth">Earth</span>
+        <span className="chip chip-light">Light</span>
+        <span className="chip chip-dark">Dark</span>
+      </div>
+      <div className="kpi-strip" id="classes" aria-label={c.anchor_classes}>
+        <span className="chip chip-role">Knight</span>
+        <span className="chip chip-role">Warrior</span>
+        <span className="chip chip-role">Mage</span>
+        <span className="chip chip-role">Ranger</span>
+        <span className="chip chip-role">Soul Weaver</span>
+        <span className="chip chip-role">Thief</span>
+      </div>
       <Fig
         src="/images/steam-ss-heroes.webp"
         alt={c.img_ss_alt}
         credit="Steam store screenshot · Steam CDN"
       />
       <Fig
-        src="/images/diagram-heroes-groups.webp"
-        alt={c.img_alt2}
-        credit="Unofficial on-site hero group cards · epicsevensteam.com"
-      />
-      <Fig
         src="/images/diagram-heroes-compare.webp"
         alt={c.img_alt3}
         credit="Unofficial role focus schematic · epicsevensteam.com"
       />
-      <Fig
-        src="/images/diagram-heroes-path.webp"
-        alt={c.img_alt4}
-        credit="Unofficial early build-order diagram · epicsevensteam.com"
-      />
       <p>{c.lead}</p>
       <h2>{c.onsite_h2}</h2>
       <p>{c.onsite}</p>
-      <h2>{c.groups_h2}</h2>
-      {c.groups.map(([h, body]) => (
-        <div key={h} className="card">
-          <h3>{h}</h3>
-          <p>{body}</p>
-        </div>
-      ))}
+      {groups.map((g) => {
+        const list = heroesInGroup(rows, g.key);
+        return (
+          <section key={g.id} id={g.id} className="hero-group">
+            <h2>{g.h2}</h2>
+            <div
+              className={prioClass(
+                g.key === 'specialty' ? 'high' : g.key === 'tutorial' ? 'mid' : 'mid',
+              )}
+              role="img"
+              aria-label={`${c.prio_label}: ${
+                g.key === 'specialty' ? c.prio_high : c.prio_mid
+              }`}
+            >
+              <span className="prio-label">{c.prio_label}</span>
+              <span className="prio-value">
+                {g.key === 'specialty' ? c.prio_high : c.prio_mid}
+              </span>
+            </div>
+            <p>{g.body}</p>
+            <Fig src={g.fig} alt={g.alt} credit={g.credit} />
+            <div className="hero-grid">
+              {list.map(([slug, name, role, el, brief, _group, prio]) => (
+                <article key={slug} id={slug} className="hero-card card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    className="hero-avatar"
+                    src={`/images/avatars/${slug}.webp`}
+                    alt={`${name}${c.avatar_alt_suffix}`}
+                    width={160}
+                    height={160}
+                    loading="lazy"
+                  />
+                  <div className="hero-card-main">
+                    <h3>
+                      <a href={`#${slug}`}>{name}</a>
+                    </h3>
+                    <div className="hero-card-chips">
+                      <span className={elementChipClass(el)}>{el}</span>
+                      <span className="chip chip-role">{role}</span>
+                    </div>
+                    <div
+                      className={prioClass(prio)}
+                      role="img"
+                      aria-label={`${c.prio_label}: ${prioLabel(prio, prioLabels)}`}
+                    >
+                      <span className="prio-label">{c.prio_label}</span>
+                      <span className="prio-value">
+                        {prioLabel(prio, prioLabels)}
+                      </span>
+                    </div>
+                    <p className="hero-brief">{brief}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        );
+      })}
       <h2>{c.cite_h2}</h2>
       <p>{c.cite}</p>
       <h2>{c.roster_h2}</h2>
@@ -1304,19 +1472,19 @@ export function HeroesView({ locale }: { locale: Locale }) {
           </tr>
         </thead>
         <tbody>
-          {c.heroes.map(([name, role, el, brief, href]) => (
-            <tr key={name}>
-              <td>{name}</td>
+          {rows.map(([slug, name, role, el, brief, _group, prio]) => (
+            <tr key={slug}>
+              <td>
+                <a href={`#${slug}`}>{name}</a>
+              </td>
               <td>
                 <span className="chip chip-role">{role}</span>
               </td>
               <td>
                 <span className={elementChipClass(el)}>{el}</span>
               </td>
+              <td>{prioLabel(prio, prioLabels)}</td>
               <td>{brief}</td>
-              <td>
-                <ExternalLink href={href}>wiki</ExternalLink>
-              </td>
             </tr>
           ))}
         </tbody>
@@ -1342,15 +1510,23 @@ export function HeroesView({ locale }: { locale: Locale }) {
           </L>
         </li>
         <li>
-          <ExternalLink href={OFFICIAL.steamStore}>Steam app 5019180</ExternalLink>
-        </li>
-        <li>
-          <ExternalLink href={OFFICIAL.stoveSteamFaq}>STOVE Steam FAQ</ExternalLink>
-        </li>
-        <li>
-          <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE Foundry notice</ExternalLink>
+          <L locale={locale} href="/steam-transfer/">
+            Steam Transfer
+          </L>
         </li>
       </ul>
+      <details className="further-reading">
+        <summary>{c.further_summary}</summary>
+        <h2>{c.further_h2}</h2>
+        <p className="muted">{c.further_note}</p>
+        <ul>
+          {c.further.map(([name, href]) => (
+            <li key={href}>
+              <ExternalLink href={href}>{name}</ExternalLink>
+            </li>
+          ))}
+        </ul>
+      </details>
     </PageShell>
   );
 }

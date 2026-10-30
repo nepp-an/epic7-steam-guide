@@ -11,6 +11,16 @@ export const CONTENT = {
       "cta_dl": "Download checklist",
       "cta_tr": "Transfer steps",
       "cta_fd": "Foundry calendar",
+      "hubs_h2": "Start here — hub cards",
+      "hubs": [
+        ["/steam-transfer/", "Steam Transfer", "Keep progress: convert STOVE → Steam before a fresh login.", "/images/diagram-transfer.webp"],
+        ["/foundry/", "Foundry", "New-server calendar, buffs, and rewards through 2026-12-31.", "/images/diagram-foundry-calendar.webp"],
+        ["/heroes/", "Heroes", "12 onboarding cards with element chips — on-site, not a wiki jump pad.", "/images/diagram-heroes-groups.webp"],
+        ["/faq/", "FAQ", "Launch, transfer, anti-cheat, and demo wipe answers.", "/images/diagram-steam-notes.webp"],
+        ["/demo-delete-warning/", "Demo warning", "Do not delete the in-game account after Steam transfer.", "/images/diagram-demo-dodont.webp"],
+        ["/banners/", "Banners", "Living pickup notes that cite STOVE — no gray codes.", "/images/steam-ss-heroes.webp"]
+      ],
+      "kpi_covenant": "Free Covenant summons up to 1,260 (Foundry window · cite STOVE)",
       "transfer_h2": "STOVE ↔ Steam account transfer",
       "transfer_muted": "Unofficial step diagram summarizing the official process. Follow STOVE screens exactly — we are not Smilegate support.",
       "diagram": [ "Existing email / SNS login", "STOVE convert to Steam login", "Launch Epic Seven on Steam" ],
@@ -109,6 +119,16 @@ export const CONTENT = {
       "cta_dl": "다운로드 체크리스트",
       "cta_tr": "이전 절차",
       "cta_fd": "파운드리 캘린더",
+      "hubs_h2": "여기서 시작 — 허브 카드",
+      "hubs": [
+        ["/steam-transfer/", "계정 이전", "진행도 유지: 새 로그인 전에 STOVE→Steam 전환.", "/images/diagram-transfer.webp"],
+        ["/foundry/", "파운드리", "신서버 캘린더·버프·보상(~2026-12-31).", "/images/diagram-foundry-calendar.webp"],
+        ["/heroes/", "영웅", "속성 chip 온보딩 카드 12장 — 위키 중계 아님.", "/images/diagram-heroes-groups.webp"],
+        ["/faq/", "FAQ", "런칭·이전·안티치트·데모 삭제 답변.", "/images/diagram-steam-notes.webp"],
+        ["/demo-delete-warning/", "데모 주의", "Steam 전환 후 인게임 계정 삭제 금지.", "/images/diagram-demo-dodont.webp"],
+        ["/banners/", "배너", "STOVE를 인용하는 픽업 노트 — 그레이 코드 없음.", "/images/steam-ss-heroes.webp"]
+      ],
+      "kpi_covenant": "무료 계약 소환 최대 1,260（파운드리 기간 · STOVE 인용）",
       "transfer_h2": "STOVE ↔ Steam 계정 이전",
       "transfer_muted": "공식 절차를 요약한 비공식 단계도입니다. STOVE 화면을 그대로 따르세요 — 스마일게이트 고객센터가 아닙니다.",
       "diagram": [ "기존 이메일 / SNS 로그인", "STOVE에서 Steam 로그인으로 전환", "Steam에서 Epic Seven 실행" ],
@@ -186,6 +206,16 @@ export const CONTENT = {
       "cta_dl": "ダウンロード確認リスト",
       "cta_tr": "引き継ぎ手順",
       "cta_fd": "ファウンドリ日程",
+      "hubs_h2": "ここから — ハブカード",
+      "hubs": [
+        ["/steam-transfer/", "引き継ぎ", "進行維持：新規ログイン前にSTOVE→Steam変換。", "/images/diagram-transfer.webp"],
+        ["/foundry/", "ファウンドリ", "新鯖日程・バフ・報酬（〜2026-12-31）。", "/images/diagram-foundry-calendar.webp"],
+        ["/heroes/", "英雄", "属性chipオンボカード12 — Wiki中継ではありません。", "/images/diagram-heroes-groups.webp"],
+        ["/faq/", "FAQ", "ローンチ・引き継ぎ・アンチチート・デモ削除。", "/images/diagram-steam-notes.webp"],
+        ["/demo-delete-warning/", "デモ注意", "Steam変換後のゲーム内削除禁止。", "/images/diagram-demo-dodont.webp"],
+        ["/banners/", "バナー", "STOVE引用のピックアップノート — 不正コードなし。", "/images/steam-ss-heroes.webp"]
+      ],
+      "kpi_covenant": "無料契約召喚最大1,260（ファウンドリ期間・STOVE引用）",
       "transfer_h2": "STOVE ↔ Steam アカウント引き継ぎ",
       "transfer_muted": "公式手順の非公式まとめ図です。STOVE画面に従ってください — 運営サポートではありません。",
       "diagram": [ "既存メール / SNSログイン", "STOVEでSteamログインへ変換", "SteamでEpic Seven起動" ],
@@ -263,6 +293,16 @@ export const CONTENT = {
       "cta_dl": "下載檢查清單",
       "cta_tr": "轉移步驟",
       "cta_fd": "Foundry 日程",
+      "hubs_h2": "從這裡開始 — Hub 卡",
+      "hubs": [
+        ["/steam-transfer/", "帳號轉移", "保留進度：新登入前先 STOVE→Steam。", "/images/diagram-transfer.webp"],
+        ["/foundry/", "Foundry", "新服日程、增益與獎勵（至 2026-12-31）。", "/images/diagram-foundry-calendar.webp"],
+        ["/heroes/", "英雄", "12 張屬性 chip 上手卡——非 wiki 跳板。", "/images/diagram-heroes-groups.webp"],
+        ["/faq/", "FAQ", "上架、轉移、反作弊與試玩刪號解答。", "/images/diagram-steam-notes.webp"],
+        ["/demo-delete-warning/", "試玩警告", "Steam 轉移後勿遊戲內刪號。", "/images/diagram-demo-dodont.webp"],
+        ["/banners/", "卡池", "引述 STOVE 的 Pickup 筆記——無灰產序號。", "/images/steam-ss-heroes.webp"]
+      ],
+      "kpi_covenant": "免費契約召喚最多 1,260（Foundry 期間 · 引述 STOVE）",
       "transfer_h2": "STOVE ↔ Steam 帳號轉移",
       "transfer_muted": "非官方步驟圖，摘要官方流程。請完全依照 STOVE 畫面操作——我們不是官方客服。",
       "diagram": [ "既有 Email / SNS 登入", "在 STOVE 轉為 Steam 登入", "於 Steam 啟動 Epic Seven" ],
@@ -2283,287 +2323,352 @@ export const CONTENT = {
   "/heroes/": {
     "en": {
       "title": "Epic Seven heroes — beginner & popular picks",
-      "meta": "Independent quick reference of 10 beginner-friendly and popular Epic Seven heroes: role, element, short notes, outbound wiki links. Not Smilegate.",
+      "meta": "Independent Steam/Foundry hero hub: 12 onboarding cards with element chips, priority bars, and on-site notes. Not Smilegate.",
       "h1": "Heroes quick reference",
-      "lead": "Quick reference for beginner-friendly and commonly discussed Epic Seven heroes after the Steam launch window. Roles and notes are community-oriented summaries with outbound wiki links labeled as community sources — not Smilegate kit text. Foundry celebration banners can change availability; always cross-check Banners/Updates and STOVE.",
-      "answer": "New Steam / Foundry players usually prioritize specialty-change supports (e.g. Angelic Montmorancy, Falconer Kluri, Lorina) plus early farmers like Alexa; tutorial leads cover Ras / Mercedes / Aither. This hub is a quick role/element reference with outbound wiki links — not official kits. Banner timing belongs on Banners/Updates citing STOVE.",
+      "lead": "Steam / Foundry onboarding hub for beginner-friendly and commonly discussed heroes. Cards keep names, roles, elements, and one-line briefs on this site — unofficial summaries. Verify kits and banners in the live client and STOVE. We do not host official splash art.",
+      "answer": "New Steam / Foundry players usually prioritize specialty-change supports (Angelic Montmorancy, Falconer Kluri, Commander Lorina) plus an early farmer like Alexa; tutorial leads cover Ras / Mercedes / Aither / Judith. This hub is an unofficial role/element reference with on-site cards — not official kits. Banner timing belongs on Banners/Updates citing STOVE.",
       "img_alt": "Self-drawn heroes roles banner for the independent quick reference",
       "img_ss_alt": "Official Steam screenshot showing Epic Seven character presentation — Steam CDN",
-      "th": [ "Hero", "Role", "Element", "Brief", "Link" ],
-      "heroes": [
-        [ "Ras", "Knight", "Fire", "Story protagonist; early tank / firefight anchor while you learn systems.", "https://epic7x.com/hero/ras/" ],
-        [
-          "Mercedes",
-          "Mage",
-          "Fire",
-          "Starter AoE mage; fine for early Adventure clears before specialty upgrades.",
-          "https://epic7x.com/hero/mercedes/"
-        ],
-        [
-          "Aither",
-          "Soul Weaver",
-          "Ice",
-          "Early healer from the starter path; swap toward stronger SW as you progress.",
-          "https://epic7x.com/hero/aither/"
-        ],
-        [
-          "Angelic Montmorancy",
-          "Soul Weaver",
-          "Ice",
-          "Specialty change from Montmorancy — top free cleanser / heal backbone for PvE.",
-          "https://epic7x.com/hero/angelic-montmorancy/"
-        ],
-        [
-          "Falconer Kluri",
-          "Knight",
-          "Earth",
-          "Specialty change support: defense break + CR tricks; staples many early Hunt teams.",
-          "https://epic7x.com/hero/falconer-kluri/"
-        ],
-        [
-          "Commander Lorina",
-          "Warrior",
-          "Dark",
-          "Specialty change single-target DPS; long-term Adventure / Abyss workhorse.",
-          "https://epic7x.com/hero/commander-lorina/"
-        ],
-        [ "Alexa", "Thief", "Ice", "Common Wyvern 11 dual-attack farmer when built with speed / crit kits.", "https://epic7x.com/hero/alexa/" ],
-        [
-          "Furious",
-          "Ranger",
-          "Ice",
-          "Defense break + target for Wyvern comps; pairs with Alexa-style farmers.",
-          "https://epic7x.com/hero/furious/"
-        ],
-        [ "Silk", "Ranger", "Earth", "Combat-readiness pusher; helps early cleave and some Hunt setups.", "https://epic7x.com/hero/silk/" ],
-        [
-          "Vildred",
-          "Thief",
-          "Earth",
-          "Popular Earth cleave DPS from Covenant; strong Adventure clearer when invested.",
-          "https://epic7x.com/hero/vildred/"
-        ]
-      ],
-      "note": "Links point to epic7x.com fan wiki builds — third party, not Smilegate. Banner schedules: see Banners & Updates. Foundry launch rewards may include limited paths such as Luna — confirm on STOVE. Grouping above is a Steam/Foundry onboarding lens, not a ranking list. Re-check specialty-change requirements after patches.",
-      "faq_h2": "Heroes FAQ",
-      "faqs": [
-        [
-          "Which free units should new Steam / Foundry players prioritize?",
-          "Specialty changes for Angelic Montmorancy, Falconer Kluri, and Commander Lorina are widely recommended early; Alexa/Furious help Wyvern farming."
-        ],
-        [
-          "Where do banner heroes show up on this site?",
-          "Living notes live under Banners and Updates — we cite STOVE rather than inventing rates."
-        ],
-        [
-          "Do you mirror official hero art?",
-          "No. Hub visuals are Steam store CDN shots or self-drawn diagrams; kits link out to wiki / official posts."
-        ],
-        [
-          "Do Foundry buffs change who I should build?",
-          "Buffs speed leveling and some reward cadence, but specialty-change supports and a reliable farmer still unlock the same PvE gates. Treat Foundry as a pacing bonus, not a different hero meta document — verify banners on STOVE."
-        ]
-      ],
-      "related_h2": "Related",
-      "groups_h2": "Starter / specialty-change / farmer",
-      "groups": [
-        [
-          "Tutorial & early leads",
-          "Ras, Mercedes, and Aither cover the opening story beats. Build them enough to clear early Episode stages, then pivot resources into specialty-change supports and a farmer rather than maxing every tutorial unit."
-        ],
-        [
-          "Specialty-change priority",
-          "Angelic Montmorancy (healing/cleanse), Falconer Kluri (defense break utility), and Commander Lorina (single-target damage) remain common early investments because their specialty-change kits stay relevant in PvE gates. Confirm materials in-game — this is not an official order."
-        ],
-        [
-          "Farmers & hunt openers",
-          "Alexa-style ice farmers and other element-matched hunters speed Wyvern/early hunt clears. Pair a farmer with a defense-break support so stamina turns into gear instead of dead runs. Foundry buffs may accelerate leveling but do not replace hunt fundamentals."
-        ]
-      ],
-      "cite_h2": "How we cite sources",
-      "cite": "Hero names/roles here are short original summaries. Stat blocks and skill multipliers should be verified on community wikis (linked per row) and in-client tooltips — those outbound pages are community-maintained, not official Smilegate docs. Banner schedules and Foundry free summons cite STOVE/Steam notices via our Banners, Updates, and Foundry pages.",
-      "roster_h2": "Quick roster table",
-      "deep_h2": "Build pacing tips",
-      "deep": [
-        "Prioritize specialty-change supports and a farmer before every banner; Foundry buffs change pacing, not the role checklist."
-      ],
       "img_alt2": "Self-drawn on-site hero group cards: starter, specialty supports, farmer",
       "img_alt3": "Self-drawn role focus bars schematic for early accounts",
       "img_alt4": "Self-drawn early build order: story, heal/cleanse, def-break, farmer",
+      "th": [
+        "Hero",
+        "Role",
+        "Element",
+        "Priority",
+        "Brief"
+      ],
+      "heroes": [
+        ["ras", "Ras", "Knight", "Fire", "Story protagonist; early tank / firefight anchor while you learn systems. Unofficial summary.", "tutorial", "mid"],
+        ["mercedes", "Mercedes", "Mage", "Fire", "Starter AoE mage; fine for early Adventure clears before specialty upgrades. Unofficial summary.", "tutorial", "mid"],
+        ["aither", "Aither", "Soul Weaver", "Ice", "Early healer from the starter path; swap toward stronger SW as you progress. Unofficial summary.", "tutorial", "later"],
+        ["judith", "Judith", "Thief", "Fire", "Early combat-readiness pusher; helps openers before heavier CR units. Unofficial Steam/Foundry note.", "tutorial", "mid"],
+        ["angelic-montmorancy", "Angelic Montmorancy", "Soul Weaver", "Ice", "Specialty change from Montmorancy — top free cleanser / heal backbone for PvE. Unofficial summary.", "specialty", "high"],
+        ["falconer-kluri", "Falconer Kluri", "Knight", "Earth", "Specialty change support: defense break + CR tricks; staples many early Hunt teams. Unofficial summary.", "specialty", "high"],
+        ["commander-lorina", "Commander Lorina", "Warrior", "Dark", "Specialty change single-target DPS; long-term Adventure / Abyss workhorse. Unofficial summary.", "specialty", "high"],
+        ["alexa", "Alexa", "Thief", "Ice", "Common Wyvern 11 dual-attack farmer when built with speed / crit kits. Unofficial summary.", "farmer", "high"],
+        ["furious", "Furious", "Ranger", "Ice", "Defense break + target for Wyvern comps; pairs with Alexa-style farmers. Unofficial summary.", "farmer", "mid"],
+        ["silk", "Silk", "Ranger", "Earth", "Combat-readiness pusher; helps early cleave and some Hunt setups. Unofficial summary.", "farmer", "mid"],
+        ["vildred", "Vildred", "Thief", "Earth", "Popular Earth cleave DPS from Covenant; strong Adventure clearer when invested. Unofficial summary.", "farmer", "mid"],
+        ["luna", "Luna", "Mage", "Ice", "Foundry celebration path often highlights limited Luna join around Rank 70 — confirm on STOVE; not a full kit page.", "farmer", "mid"]
+      ],
+      "further": [
+        ["Ras", "https://epic7x.com/hero/ras/"],
+        ["Mercedes", "https://epic7x.com/hero/mercedes/"],
+        ["Aither", "https://epic7x.com/hero/aither/"],
+        ["Judith", "https://epic7x.com/hero/judith/"],
+        ["Angelic Montmorancy", "https://epic7x.com/hero/angelic-montmorancy/"],
+        ["Falconer Kluri", "https://epic7x.com/hero/falconer-kluri/"],
+        ["Commander Lorina", "https://epic7x.com/hero/commander-lorina/"],
+        ["Alexa", "https://epic7x.com/hero/alexa/"],
+        ["Furious", "https://epic7x.com/hero/furious/"],
+        ["Silk", "https://epic7x.com/hero/silk/"],
+        ["Vildred", "https://epic7x.com/hero/vildred/"],
+        ["Luna", "https://epic7x.com/hero/luna/"]
+      ],
+      "note": "Table mirrors the cards above for copy/cite. Community wiki links sit under Further reading only — this page is not a jump pad. Banner schedules: Banners & Updates. Unofficial guide — verify STOVE.",
+      "faq_h2": "Heroes FAQ",
+      "faqs": [
+        ["Which free units should new Steam / Foundry players prioritize?", "Specialty changes for Angelic Montmorancy, Falconer Kluri, and Commander Lorina are widely recommended early; Alexa/Furious help Wyvern farming. Unofficial — confirm materials in-game."],
+        ["Where do banner heroes show up on this site?", "Living notes live under Banners and Updates — we cite STOVE rather than inventing rates."],
+        ["Do you mirror official hero art?", "No. Hub visuals are Steam CDN shots, self-drawn diagrams, or element-color avatars we drew — not official splash art."],
+        ["Do Foundry buffs change who I should build?", "Buffs speed leveling, but specialty-change supports and a farmer still unlock the same PvE gates. Verify banners on STOVE."],
+        ["Why no full kits here?", "This site focuses on Steam / Foundry onboarding. Full skill multipliers belong in live client tooltips; community wikis are optional Further reading only."]
+      ],
+      "related_h2": "Related on this site",
+      "groups_h2": "Starter / specialty-change / farmer",
+      "group_tutorial_h2": "Tutorial & early leads",
+      "group_specialty_h2": "Specialty-change priority",
+      "group_farmer_h2": "Farmers & hunt openers",
+      "group_tutorial_body": "Ras, Mercedes, Aither, and Judith cover opening story beats and early CR. Build them enough to clear early Episode stages, then pivot resources into specialty-change supports and a farmer.",
+      "group_specialty_body": "Angelic Montmorancy (healing/cleanse), Falconer Kluri (defense break), and Commander Lorina (single-target) remain common early investments. Confirm materials in-game — not an official order.",
+      "group_farmer_body": "Alexa-style farmers, Furious defense-break, Silk CR, Vildred Adventure clear, and Foundry-path Luna notes speed early hunt / story farming. Verify STOVE for Luna join windows.",
+      "prio_label": "New Steam / Foundry priority",
+      "prio_high": "High",
+      "prio_mid": "Mid",
+      "prio_later": "Later",
+      "prio_note": "Onboarding priority for new Steam / Foundry accounts — not a full-server PvP tier list. Color plus text for accessibility.",
+      "cite_h2": "How we cite sources",
+      "cite": "Hero names/roles are short original summaries. Verify multipliers in-client. Community wikis appear only under Further reading. Banners/Foundry cite STOVE. Unofficial guide.",
+      "roster_h2": "Quick roster table (same cards, copy-friendly)",
+      "deep_h2": "Build pacing tips",
+      "deep": [
+        "Prioritize specialty-change supports and a farmer before every banner; Foundry buffs change pacing, not the role checklist. Unofficial — verify STOVE."
+      ],
       "onsite_h2": "On-site role notes (not a wiki mirror)",
-      "onsite": "This page keeps grouping cards and build-order diagrams here — community-oriented summaries with outbound wiki links only as optional depth. Verify kits and banners in the live client and STOVE / Steam notices. We do not host official splash art or sell accounts.",
-},
+      "onsite": "Grouping cards, priority bars, and diagrams stay here. Community wikis are folded under Further reading so the main path stays on-site.",
+      "anchors_label": "Jump to",
+      "anchor_elements": "Elements",
+      "anchor_classes": "Classes",
+      "anchor_specialty": "Specialty-change",
+      "anchor_farmer": "Farmer",
+      "further_h2": "Further reading (community)",
+      "further_summary": "Optional community wiki links — not required for this guide",
+      "further_note": "Third-party fan wikis (epic7x.com). Not Smilegate. Prefer in-client tooltips for kits.",
+      "avatar_alt_suffix": " — self-drawn element-color avatar (not official art)"
+    },
     "ko": {
       "title": "Epic Seven 영웅 — 초보·인기 빠른 참고",
-      "meta": "초보·인기 영웅 10명의 포지션/속성/한줄평 + 위키 링크. 비공식. Smilegate 아님.",
+      "meta": "비공식 Steam/파운드리 영웅 허브: 온보딩 카드 12장·속성 chip·우선순위 바. Smilegate 아님.",
       "h1": "영웅 빠른 참고",
-      "lead": "Steam 출시 구간 이후 초보 친화·자주 언급되는 Epic Seven 영웅 빠른 참고입니다. 역할·메모는 커뮤니티 관점 요약이며 행마다 커뮤니티 위키로 연결됩니다 — Smilegate 공식 키트 문구가 아닙니다. 파운드리 축하 배너로 획득 가능 영웅이 달라질 수 있으니 배너/업데이트와 STOVE를 교차 확인하세요.",
-      "answer": "새 Steam/파운드리 플레이어는 보통 전직 지원(예: 천사 몽모랑시, 매사냥꾼 클루리, 로리나)과 초반 파머(알렉사 등)를 우선하고, 튜토리얼 주력은 라스/메르세데스/아이테르입니다. 이 허브는 역할·속성 빠른 참고와 커뮤니티 위키 외부 링크용이며 공식 키트가 아닙니다. 배너 시기는 STOVE를 인용하는 배너/업데이트 페이지를 보세요.",
+      "lead": "Steam/파운드리 초보·자주 언급 영웅 온보딩 허브. 카드에 이름·역할·속성·한줄 요약 — 비공식. 스킬·배너는 인게임과 STOVE 확인. 공식 스플래시 미호스팅.",
+      "answer": "신규 Steam/파운드리는 전직 서포트(엔젤릭 몬트모란시, 팔코너 클루리, 커맨더 로리나)와 알렉사 파머를 우선하는 경우가 많고, 튜토리얼은 라스/메르세데스/에이더/주디스입니다. 본 허브는 비공식 역할/속성 카드이며 공식 키트가 아닙니다. 배너는 Banners/Updates에서 STOVE 인용.",
       "img_alt": "영웅 역할 안내 자작 배너",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷 — Steam CDN",
-      "th": [ "영웅", "포지션", "속성", "한줄평", "링크" ],
-      "heroes": [
-        [ "Ras", "Knight", "Fire", "스토리 주인공. 초반 탱/학습용 앵커. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/ras/" ],
-        [ "Mercedes", "Mage", "Fire", "스타터 광역 마법. 초반 모험 정리용. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/mercedes/" ],
-        [ "Aither", "Soul Weaver", "Ice", "초반 힐러. 이후 상위 SW로 교체. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/aither/" ],
-        [
-          "Angelic Montmorancy",
-          "Soul Weaver",
-          "Ice",
-          "몽모랑시 전직 — 무료 클린즈/힐 핵심. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.",
-          "https://epic7x.com/hero/angelic-montmorancy/"
-        ],
-        [ "Falconer Kluri", "Knight", "Earth", "전직 서포트: 방어 감소+CR. 초반 헌트 단골. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/falconer-kluri/" ],
-        [ "Commander Lorina", "Warrior", "Dark", "전직 단일딜. 모험/심연 장기 투자. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/commander-lorina/" ],
-        [ "Alexa", "Thief", "Ice", "대표적인 와이번11 듀얼어택 파머. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/alexa/" ],
-        [ "Furious", "Ranger", "Ice", "와이번용 방어 감소+표식. 알렉사 조합. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/furious/" ],
-        [ "Silk", "Ranger", "Earth", "행동게이지 푸시. 초반 클리브/헌트. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/silk/" ],
-        [ "Vildred", "Thief", "Earth", "인기 지구 광역딜. 투자 시 모험 클리어 강함. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "https://epic7x.com/hero/vildred/" ]
-      ],
-      "note": "위 그룹은 Steam/파운드리 온보딩 관점이며 순위표가 아닙니다. 패치 후 전직 조건을 다시 확인하세요. 커뮤니티 위키 링크는 비공식입니다.",
-      "faq_h2": "영웅 FAQ",
-      "faqs": [
-        [ "초반에 누구를 키우나요?", "전직 지원(몽모랑시·클루리·로리나 계열)과 안정 파머를 우선하고, 튜토리얼 주력은 스토리 진행에 충분할 정도로만. 배너는 STOVE/배너 페이지 확인." ],
-        [ "위키 수치가 공식인가요?", "아니요. 외부 위키는 커뮤니티 유지입니다. 전투 전 인게임 툴팁과 STOVE 공지를 우선하세요." ],
-        [ "파운드리에서도 같은가요?", "성장 속도는 버프로 빨라질 수 있지만 PvE 관문에 필요한 역할(힐/정화/방깎/파머)은 같습니다. 무료 소환·배너는 파운드리/배너 페이지를 보세요." ],
-        [
-          "파운드리 버프가 육성 순서를 바꾸나요?",
-          "버프는 레벨링과 일부 보상 리듬을 빠르게 하지만, 전직 지원과 안정 파머는 같은 PvE 관문을 엽니다. 파운드리를 속도 보너스로 보고, 영웅 메타 문서로 보지 마세요 — 배너는 STOVE에서 확인."
-        ]
-      ],
-      "related_h2": "관련",
-      "groups_h2": "스타터 / 전직 / 파머",
-      "groups": [
-        [ "튜토리얼·초반 주력", "라스·메르세데스·아이테르가 오프닝 스토리를 담당합니다. 초반 에피소드만 밀 정도로 키운 뒤, 모든 튜토리얼 유닛을 풀투자하기보다 전직 지원과 파머로 자원을 돌리세요." ],
-        [ "전직 우선순위", "천사 몽모랑시(힐/정화), 매사냥꾼 클루리(방어 관통 유틸), 지휘관 로리나(단일 딜)는 PvE 관문에서 오래 쓰여 초반 투자로 자주 꼽힙니다. 재료는 인게임 확인 — 공식 순서가 아닙니다." ],
-        [
-          "파머·사냥 오프너",
-          "알렉사형 얼음 파머 등 속성 맞는 사냥 조합이 와이번/초반 사냥을 빠르게 합니다. 방어 감소 지원과 짝을 이뤄 스테미나를 장비로 바꾸세요. 파운드리 버프는 레벨링을 돕지만 사냥 기본을 대체하지 않습니다."
-        ]
-      ],
-      "cite_h2": "출처 표기 방식",
-      "cite": "여기 영웅 이름/역할은 짧은 원문 요약입니다. 수치·스킬 배율은 행별 커뮤니티 위키와 인게임 툴팁으로 검증하세요 — 외부 페이지는 커뮤니티 유지이며 Smilegate 공식 문서가 아닙니다. 배너 일정과 파운드리 무료 소환은 배너·업데이트·파운드리 페이지를 통해 STOVE/Steam 공지를 인용합니다.",
-      "roster_h2": "빠른 명단 표",
-      "deep_h2": "육성 페이스 팁",
-      "deep": [
-        "초반 촉매는 PvE 관문을 부드럽게 여는 전직 지원에 쓰고, 한정 배너를 모두 쫓기 전에 파머 장비부터 맞추세요. 파운드리 무료 소환은 획득 경로를 바꿀 뿐 필요한 역할 체크리스트 자체를 바꾸지 않습니다. 튜토리얼 주력은 스토리 진행에 충분하면 자원 투입을 줄이고, 힐/정화/방깎/단일 딜 공백을 먼저 메우세요. 수치와 스킬 배율은 인게임 툴팁과 커뮤니티 위키를 교차 확인하되, 위키는 비공식입니다. 배너 일정은 STOVE와 본 사이트 배너/업데이트 페이지를 따르세요.",
-        "파운드리와 레거시를 동시에 키울 때는 스테미나·촉매를 나누어 계획하세요. 어느 서버든 「한 명의 완성 딜러」보다 「안정 파머 + 전직 지원」이 초반 장비 루프를 만듭니다. 본 허브는 순위표가 아니라 온보딩 렌즈입니다.",
-        "표의 각 행은 「지금 바로 풀돌」 명령이 아닙니다. 촉매·전달 재료·북마크 예산에 맞춰 한 명씩 완성도를 올리면 스테미나 낭비가 줄어듭니다. 속성 반전 컨텐츠를 앞두고 있다면 파머 속성을 먼저 맞추고, PvP를 급하게 보지 마세요. 커뮤니티 티어 목록은 패치마다 흔들리므로 본 허브의 역할 체크(힐/정화/방깎/파머)만 고정 앵커로 두세요. 배너에서 신규 영웅을 얻어도 장비 없는 상태로 아레나에 넣기보다 사냥 루프에 편입할지를 먼저 판단하세요."
-      ],
       "img_alt2": "스타터·전직 서포트·파머 그룹 카드 자작도",
       "img_alt3": "초반 계정용 역할 포커스 바 자작 모식도",
       "img_alt4": "스토리→힐/정화→방어 감소→파머 초반 순서 자작도",
-      "onsite_h2": "사이트 내 역할 메모(위키 미러 아님)",
-      "onsite": "본 페이지는 그룹 카드와 육성 순서도를 사이트 안에 둡니다. 위키 링크는 선택적 심화용이며, 키트·배너는 인게임과 STOVE/Steam 공지로 확인하세요. 공식 스플래시 아트를 호스팅하거나 계정을 판매하지 않습니다.",
-},
+      "th": [
+        "영웅",
+        "역할",
+        "속성",
+        "우선",
+        "한줄"
+      ],
+      "heroes": [
+        ["ras", "Ras", "Knight", "Fire", "스토리 주인공. 초반 탱/학습용 앵커. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "tutorial", "mid"],
+        ["mercedes", "Mercedes", "Mage", "Fire", "스타터 광역 마법. 초반 모험 정리용. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "tutorial", "mid"],
+        ["aither", "Aither", "Soul Weaver", "Ice", "초반 힐러. 이후 상위 SW로 교체. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "tutorial", "later"],
+        ["judith", "Judith", "Thief", "Fire", "초반 행동게이지 푸셔. 비공식 Steam/파운드리 메모.", "tutorial", "mid"],
+        ["angelic-montmorancy", "Angelic Montmorancy", "Soul Weaver", "Ice", "몽모랑시 전직 — 무료 클린즈/힐 핵심. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "specialty", "high"],
+        ["falconer-kluri", "Falconer Kluri", "Knight", "Earth", "전직 서포트: 방어 감소+CR. 초반 헌트 단골. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "specialty", "high"],
+        ["commander-lorina", "Commander Lorina", "Warrior", "Dark", "전직 단일딜. 모험/심연 장기 투자. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "specialty", "high"],
+        ["alexa", "Alexa", "Thief", "Ice", "대표적인 와이번11 듀얼어택 파머. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "farmer", "high"],
+        ["furious", "Furious", "Ranger", "Ice", "와이번용 방어 감소+표식. 알렉사 조합. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "farmer", "mid"],
+        ["silk", "Silk", "Ranger", "Earth", "행동게이지 푸시. 초반 클리브/헌트. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "farmer", "mid"],
+        ["vildred", "Vildred", "Thief", "Earth", "인기 지구 광역딜. 투자 시 모험 클리어 강함. 초반 편성 참고용 요약이며 공식 평가가 아닙니다.", "farmer", "mid"],
+        ["luna", "Luna", "Mage", "Ice", "파운드리 기념 경로에서 랭크70 루나 합류가 강조되는 경우가 많음 — STOVE 확인. 풀 키트 페이지 아님.", "farmer", "mid"]
+      ],
+      "further": [
+        ["Ras", "https://epic7x.com/hero/ras/"],
+        ["Mercedes", "https://epic7x.com/hero/mercedes/"],
+        ["Aither", "https://epic7x.com/hero/aither/"],
+        ["Judith", "https://epic7x.com/hero/judith/"],
+        ["Angelic Montmorancy", "https://epic7x.com/hero/angelic-montmorancy/"],
+        ["Falconer Kluri", "https://epic7x.com/hero/falconer-kluri/"],
+        ["Commander Lorina", "https://epic7x.com/hero/commander-lorina/"],
+        ["Alexa", "https://epic7x.com/hero/alexa/"],
+        ["Furious", "https://epic7x.com/hero/furious/"],
+        ["Silk", "https://epic7x.com/hero/silk/"],
+        ["Vildred", "https://epic7x.com/hero/vildred/"],
+        ["Luna", "https://epic7x.com/hero/luna/"]
+      ],
+      "note": "표는 위 카드와 동일(복사용). 커뮤니티 위키는 Further reading에만 — 중계 페이지 아님. 비공식 — STOVE 확인.",
+      "faq_h2": "영웅 FAQ",
+      "faqs": [
+        ["신규 Steam/파운드리에서 무료 유닛 우선순위는?", "엔젤릭 몬트모란시·팔코너 클루리·커맨더 로리나 전직이 초반에 자주 추천되고, 알렉사/퓨리어스가 와이번 파밍에 도움이 됩니다. 비공식 — 재료는 인게임 확인."],
+        ["배너 영웅은 어디에 있나요?", "Banners·Updates에 두고 STOVE를 인용합니다."],
+        ["공식 영웅 아트를 미러하나요?", "아니요. Steam CDN 인용, 자작 다이어그램, 자작 속성색 아바타만 사용합니다."],
+        ["파운드리 버프가 육성 순서를 바꾸나요?", "성장 속도는 빨라져도 전직 서포트+파머 관문은 같습니다. 배너는 STOVE 확인."],
+        ["왜 풀 키트가 없나요?", "본 사이트는 Steam/파운드리 온보딩에 집중합니다. 스킬 배수는 클라이언트 툴팁이 기준이고, 커뮤니티 위키는 접힌 Further reading뿐입니다."]
+      ],
+      "related_h2": "이 사이트 관련",
+      "groups_h2": "스타터 / 전직 / 파머",
+      "group_tutorial_h2": "튜토리얼·초반 리드",
+      "group_specialty_h2": "전직 우선",
+      "group_farmer_h2": "파머·헌트 오프너",
+      "group_tutorial_body": "라스·메르세데스·에이더·주디스로 초반 스토리와 CR을 챙깁니다. 에피소드 초반만 클리어할 만큼 키운 뒤 전직 서포트와 파머로 자원을 돌리세요.",
+      "group_specialty_body": "엔젤릭 몬트모란시(힐/정화), 팔코너 클루리(방어 감소), 커맨더 로리나(단일딜)는 PvE 관문에 오래 쓰여 초반 투자로 자주 꼽힙니다. 공식 순서 아님.",
+      "group_farmer_body": "알렉사형 파머, 퓨리어스 방어 감소, 실크 CR, 빌드레드 모험, 파운드리 경로 루나 메모가 초반 헌트/스토리를 돕습니다. 루나 합류는 STOVE 확인.",
+      "prio_label": "New Steam / Foundry 우선순위",
+      "prio_high": "High",
+      "prio_mid": "Mid",
+      "prio_later": "Later",
+      "prio_note": "신규 Steam/파운드리 온보딩 우선 — 전 서버 PvP 티어 아님. 색+문자.",
+      "cite_h2": "출처 표기",
+      "cite": "이름/역할은 짧은 원문 요약. 배수는 인게임 툴팁. 커뮤니티 위키는 Further reading만. 비공식.",
+      "roster_h2": "빠른 명단 표(카드와 동일)",
+      "deep_h2": "육성 페이스 팁",
+      "deep": [
+        "배너보다 전직 서포트+파머를 먼저; 파운드리 버프는 페이스만 바꿉니다. 비공식 — STOVE 확인."
+      ],
+      "onsite_h2": "온사이트 역할 노트(위키 미러 아님)",
+      "onsite": "그룹 카드·우선순위 바·순서도를 본 페이지에 둡니다. 커뮤니티 위키는 Further reading으로 접습니다.",
+      "anchors_label": "바로가기",
+      "anchor_elements": "속성",
+      "anchor_classes": "직업",
+      "anchor_specialty": "전직",
+      "anchor_farmer": "파머",
+      "further_h2": "더 읽기(커뮤니티)",
+      "further_summary": "선택적 커뮤니티 위키 — 본 가이드 필수 아님",
+      "further_note": "서드파티 팬 위키(epic7x.com). Smilegate 아님.",
+      "avatar_alt_suffix": " — 자작 속성색 아바타(공식 아트 아님)"
+    },
     "ja": {
       "title": "Epic Seven英雄 — 初心者・人気クイック",
-      "meta": "初心者向け・人気英雄10体の役割/属性/一言＋Wikiリンク。非公式。Smilegateではありません。",
+      "meta": "非公式Steam/ファウンドリ英雄ハブ：オンボカード12・属性chip・優先バー。Smilegateではありません。",
       "h1": "英雄クイックリファレンス",
-      "lead": "Steam発売枠以降の初心者向け・よく話題のEpic Seven英雄クイック参照。役割・メモはコミュニティ視点の要約で、行ごとにコミュニティWikiへ — Smilegate公式キット文ではありません。ファウンドリお祝いバナーで入手が変わることがあるため、バナー/更新とSTOVEを突き合わせてください。",
-      "answer": "新規Steam/ファウンドリ勢は通常、特化変更サポート（例：エンジェルモンモランシー、ファルコナー・クルリ、ロリーナ）と初期ファーマー（アレクサ等）を優先し、チュートリアル主力はラス/メルセデス/アイテール。本ハブは役割・属性の早見とコミュニティWiki外リンク用で公式キットではありません。バナー時期はSTOVEを引用するバナー/更新頁へ。",
+      "lead": "Steam/ファウンドリ向け初心者・頻出英雄のオンボーディングハブ。カードに名前・ロール・属性・一言 — 非公式。スキル/バナーはゲーム内とSTOVEで確認。",
+      "answer": "新規Steam/ファウンドリは専改サポ（エンジェリック・モンモランシー、ファルコナー・クルリ、コマンダー・ロリーナ）とAlexa系ファーマーを優先し、チュートリアルはラス/メルセデス/エイサー/ジュディスが多いです。本ハブは非公式ロール/属性カードであり公式キットではありません。",
       "img_alt": "英雄ロール案内の自作バナー",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット — Steam CDN",
-      "th": [ "英雄", "ロール", "属性", "一言", "リンク" ],
-      "heroes": [
-        [ "Ras", "Knight", "Fire", "物語主人公。序盤タンク／学習用。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/ras/" ],
-        [ "Mercedes", "Mage", "Fire", "初期範囲mage。序盤冒険向け。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/mercedes/" ],
-        [ "Aither", "Soul Weaver", "Ice", "序盤ヒーラー。後に上位SWへ。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/aither/" ],
-        [
-          "Angelic Montmorancy",
-          "Soul Weaver",
-          "Ice",
-          "モンモランシー専科 — 無料クレンズ／回復の要。 序盤編成用の要約であり公式評価ではありません。",
-          "https://epic7x.com/hero/angelic-montmorancy/"
-        ],
-        [ "Falconer Kluri", "Knight", "Earth", "専科サポ：防御ダウン＋CR。序盤ハント定番。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/falconer-kluri/" ],
-        [ "Commander Lorina", "Warrior", "Dark", "専科単体DPS。冒険／アビスの長期投資。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/commander-lorina/" ],
-        [ "Alexa", "Thief", "Ice", "代表的なワイバーン11デュアルファーマー。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/alexa/" ],
-        [ "Furious", "Ranger", "Ice", "ワイバーン用防御ダウン＋ターゲット。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/furious/" ],
-        [ "Silk", "Ranger", "Earth", "CRプッシュ。序盤クリーブ／ハント。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/silk/" ],
-        [ "Vildred", "Thief", "Earth", "人気の地属性範囲DPS。投資で冒険が楽に。 序盤編成用の要約であり公式評価ではありません。", "https://epic7x.com/hero/vildred/" ]
-      ],
-      "note": "上のグループはSteam/ファウンドリ導入視点でありランキングではありません。パッチ後に特化変更条件を再確認。コミュニティWikiリンクは非公式です。",
-      "faq_h2": "英雄FAQ",
-      "faqs": [
-        [ "序盤は誰を育てる？", "特化変更サポート（モンモランシー・クルリ・ロリーナ系）と安定ファーマーを優先し、チュートリアル主力はストーリー進行に足る程度。バナーはSTOVE/バナー頁。" ],
-        [ "Wiki数値は公式？", "いいえ。外部Wikiはコミュニティ維持。戦闘前はゲーム内ツールチップとSTOVE告知を優先。" ],
-        [ "ファウンドリでも同じ？", "成長速度はバフで上がり得ますが、PvE関門に必要な役割（回復/浄化/防ダウン/ファーマー）は同じ。無料召喚・バナーはファウンドリ/バナー頁へ。" ],
-        [ "ファウンドリバフで育成順は変わる？", "バフはレベリングと一部報酬节奏を早めますが、特化変更サポートと安定ファーマーは同じPvE関門を開きます。ファウンドリは速度ボーナスであり英雄メタ文書ではありません — バナーはSTOVEで確認。" ]
-      ],
-      "related_h2": "関連",
-      "groups_h2": "スターター / 特化変更 / ファーマー",
-      "groups": [
-        [ "チュートリアル・序盤主力", "ラス・メルセデス・アイテールが冒頭ストーリーを担います。序盤エピソードが押せる程度に育て、全チュートリアルをフル投資するより特化変更サポートとファーマーへ資源を回します。" ],
-        [ "特化変更の優先", "エンジェルモンモランシー（回復/浄化）、ファルコナー・クルリ（防御ダウン系）、指揮官ロリーナ（単体火力）はPvE関門で長く使われ初期投資に挙がりやすいです。素材はゲーム内確認 — 公式順序ではありません。" ],
-        [ "ファーマー・ハント始動", "アレクサ系氷ファーマーなど属性合わせハントがワイバーン/序盤ハントを早めます。防御ダウンと組みスタミナを装備に。ファウンドリバフはレベリングを助けますがハント基礎の代わりにはなりません。" ]
-      ],
-      "cite_h2": "出典の示し方",
-      "cite": "ここでの英雄名・役割は短い独自要約です。数値・スキル倍率は行のコミュニティWikiとゲーム内ツールチップで検証 — 外部頁はコミュニティ維持でSmilegate公式文書ではありません。バナー日程とファウンドリ無料召喚はバナー・更新・ファウンドリ頁経由でSTOVE/Steam告知を引用します。",
-      "roster_h2": "クイック名簿表",
-      "deep_h2": "育成ペースのコツ",
-      "deep": [
-        "序盤触媒はPvE関門を楽にする特化変更サポートへ回し、全限定バナーを追う前にファーマー装備を整えましょう。ファウンドリ無料召喚は入手経路を変えるだけで、必要な役割チェック自体は変えません。チュートリアル主力はストーリー進行に足りれば投資を抑え、回復/浄化/防ダウン/単体火力の穴を先に埋めます。数値・倍率はゲーム内ツールチップとコミュニティWikiで突合し、Wikiは非公式です。バナー日程はSTOVEと当サイトのバナー/更新頁に従ってください。",
-        "ファウンドリとレガシーを同時育成するならスタミナ・触媒を分けて計画。どの鯖でも「完成ディーラー一人」より「安定ファーマー＋特化変更サポート」が序盤装備ループを作ります。本ハブはランキングではなく導入レンズです。",
-        "表の各行は「今すぐフル育成」命令ではありません。触媒・伝達素材・ブックマーク予算に合わせて一人ずつ完成度を上げるとスタミナ浪費が減ります。属性逆コンテンツが近いなら先にファーマー属性を合わせ、PvPを急がない。コミュニティティア表はパッチで揺れるので、本ハブの役割チェック（回復/浄化/防ダウン/ファーマー）だけを固定アンカーに。バナーで新英雄を得ても装備なしでアリーナ投入より、ハントループに入れるかを先に判断してください。"
-      ],
       "img_alt2": "スターター・専改サポ・ファーマーの自作グループカード",
       "img_alt3": "序盤向けロール重点バーの自作模式図",
       "img_alt4": "ストーリー→回復/浄化→防御ダウン→ファーマーの自作順序図",
-      "onsite_h2": "サイト内ロールメモ（Wikiミラーではない）",
-      "onsite": "本頁はグループカードと育成順序図をサイト内に置きます。Wikiリンクは任意の深掘り用。キット・バナーはゲーム内とSTOVE/Steam告知で確認。公式スプラッシュや垢販売は扱いません。",
-},
+      "th": [
+        "英雄",
+        "ロール",
+        "属性",
+        "優先",
+        "一言"
+      ],
+      "heroes": [
+        ["ras", "Ras", "Knight", "Fire", "物語主人公。序盤タンク／学習用。 序盤編成用の要約であり公式評価ではありません。。", "tutorial", "mid"],
+        ["mercedes", "Mercedes", "Mage", "Fire", "初期範囲mage。序盤冒険向け。 序盤編成用の要約であり公式評価ではありません。。", "tutorial", "mid"],
+        ["aither", "Aither", "Soul Weaver", "Ice", "序盤ヒーラー。後に上位SWへ。 序盤編成用の要約であり公式評価ではありません。。", "tutorial", "later"],
+        ["judith", "Judith", "Thief", "Fire", "序盤CRプッシャー。非公式Steam/ファウンドリメモ。", "tutorial", "mid"],
+        ["angelic-montmorancy", "Angelic Montmorancy", "Soul Weaver", "Ice", "モンモランシー専科 — 無料クレンズ／回復の要。 序盤編成用の要約であり公式評価ではありません。。", "specialty", "high"],
+        ["falconer-kluri", "Falconer Kluri", "Knight", "Earth", "専科サポ：防御ダウン＋CR。序盤ハント定番。 序盤編成用の要約であり公式評価ではありません。。", "specialty", "high"],
+        ["commander-lorina", "Commander Lorina", "Warrior", "Dark", "専科単体DPS。冒険／アビスの長期投資。 序盤編成用の要約であり公式評価ではありません。。", "specialty", "high"],
+        ["alexa", "Alexa", "Thief", "Ice", "代表的なワイバーン11デュアルファーマー。 序盤編成用の要約であり公式評価ではありません。。", "farmer", "high"],
+        ["furious", "Furious", "Ranger", "Ice", "ワイバーン用防御ダウン＋ターゲット。 序盤編成用の要約であり公式評価ではありません。。", "farmer", "mid"],
+        ["silk", "Silk", "Ranger", "Earth", "CRプッシュ。序盤クリーブ／ハント。 序盤編成用の要約であり公式評価ではありません。。", "farmer", "mid"],
+        ["vildred", "Vildred", "Thief", "Earth", "人気の地属性範囲DPS。投資で冒険が楽に。 序盤編成用の要約であり公式評価ではありません。。", "farmer", "mid"],
+        ["luna", "Luna", "Mage", "Ice", "ファウンドリ記念でランク70ルナ加入が強調されがち — STOVE確認。フルキット頁ではありません。", "farmer", "mid"]
+      ],
+      "further": [
+        ["Ras", "https://epic7x.com/hero/ras/"],
+        ["Mercedes", "https://epic7x.com/hero/mercedes/"],
+        ["Aither", "https://epic7x.com/hero/aither/"],
+        ["Judith", "https://epic7x.com/hero/judith/"],
+        ["Angelic Montmorancy", "https://epic7x.com/hero/angelic-montmorancy/"],
+        ["Falconer Kluri", "https://epic7x.com/hero/falconer-kluri/"],
+        ["Commander Lorina", "https://epic7x.com/hero/commander-lorina/"],
+        ["Alexa", "https://epic7x.com/hero/alexa/"],
+        ["Furious", "https://epic7x.com/hero/furious/"],
+        ["Silk", "https://epic7x.com/hero/silk/"],
+        ["Vildred", "https://epic7x.com/hero/vildred/"],
+        ["Luna", "https://epic7x.com/hero/luna/"]
+      ],
+      "note": "表は上のカードと同じ（コピー用）。コミュニティWikiはFurther readingのみ。非公式 — STOVE確認。",
+      "faq_h2": "英雄FAQ",
+      "faqs": [
+        ["新規Steam/ファウンドリの無料ユニット優先は？", "エンジェリック・モンモランシー、ファルコナー・クルリ、コマンダー・ロリーナ専改が序盤でよく勧告され、Alexa/Furiousがワイバーンに役立ちます。非公式。"],
+        ["バナー英雄はどこ？", "Banners・Updatesに置き、STOVEを引用します。"],
+        ["公式英雄アートをミラーしますか？", "いいえ。Steam CDN引用、自作図、自作属性色アバターのみです。"],
+        ["ファウンドリバフで育成順は変わりますか？", "成長速度は上がっても専改サポ＋ファーマー関門は同じです。バナーはSTOVE確認。"],
+        ["なぜフルキットが無い？", "当サイトはSteam/ファウンドリオンボに集中。スキル倍率はクライアントのツールチップが基準で、Wikiは折りたたみFurther readingのみです。"]
+      ],
+      "related_h2": "当サイト関連",
+      "groups_h2": "スターター / 専改 / ファーマー",
+      "group_tutorial_h2": "チュートリアル・序盤リード",
+      "group_specialty_h2": "専改優先",
+      "group_farmer_h2": "ファーマー・ハント開幕",
+      "group_tutorial_body": "ラス、メルセデス、エイサー、ジュディスで序盤ストーリーとCRを賄います。序盤クリア後は専改サポとファーマーへ。",
+      "group_specialty_body": "エンジェリック・モンモランシー、ファルコナー・クルリ、コマンダー・ロリーナはPvE関門で長く使われ、序盤投資としてよく挙がります。公式順ではありません。",
+      "group_farmer_body": "Alexa系、Furious、Silk、Vildred、ファウンドリ経路Lunaメモが序盤ハント/ストーリーを助けます。ルナ加入はSTOVE確認。",
+      "prio_label": "New Steam / Foundry優先",
+      "prio_high": "High",
+      "prio_mid": "Mid",
+      "prio_later": "Later",
+      "prio_note": "新規オンボ優先 — 全鯖PvPティアではありません。色＋文字。",
+      "cite_h2": "出典の示し方",
+      "cite": "名前/ロールは短い独自要約。倍率はゲーム内ツールチップ。WikiはFurther readingのみ。非公式。",
+      "roster_h2": "クイック名簿表（カードと同じ）",
+      "deep_h2": "育成ペースのヒント",
+      "deep": [
+        "バナーより専改サポ＋ファーマーを先に。ファウンドリバフはペースのみ。非公式 — STOVE確認。"
+      ],
+      "onsite_h2": "オンサイト・ロールノート（Wikiミラーではない）",
+      "onsite": "グループカード・優先バー・順序図を本頁に置きます。コミュニティWikiはFurther readingに折ります。",
+      "anchors_label": "ジャンプ",
+      "anchor_elements": "属性",
+      "anchor_classes": "クラス",
+      "anchor_specialty": "専改",
+      "anchor_farmer": "ファーマー",
+      "further_h2": "参考（コミュニティ）",
+      "further_summary": "任意のコミュニティWiki — 必須ではありません",
+      "further_note": "第三者ファンWiki（epic7x.com）。Smilegateではありません。",
+      "avatar_alt_suffix": " — 自作属性色アバター（公式アートではありません）"
+    },
     "zh-tw": {
       "title": "Epic Seven 英雄 — 新手與熱門速查",
-      "meta": "10 名新手友善／熱門英雄：定位、屬性、短評＋ wiki 連結。非官方。非 Smilegate。",
+      "meta": "非官方 Steam／Foundry 英雄樞紐：12 張上手卡、屬性 chip、優先條。非 Smilegate。",
       "h1": "英雄速查",
-      "lead": "Steam 上架窗口後，偏萌新友善、常被討論的 Epic Seven 英雄速查。職業與備註為社群向摘要，每列連到社群 wiki——不是 Smilegate 官方技能文案。Foundry 慶祝卡池可能改變可取得英雄，請交叉核對卡池／更新與 STOVE。",
-      "answer": "Steam／Foundry 萌新通常優先專職變更輔助（如天使蒙莫朗西、獵鷹克魯利、洛麗娜）與前期刷圖角（如亞歷克莎）；教學主力為拉斯／梅賽德斯／艾特爾。本頁是職業／屬性速查並外連社群 wiki，非官方技能組。卡池時程請看引用 STOVE 的卡池／更新頁。",
+      "lead": "面向 Steam／Foundry 新手與常見英雄的上手樞紐。卡片保留名稱、定位、屬性與一句摘要——非官方。技能與卡池請以遊戲內與 STOVE 為準。",
+      "answer": "新 Steam／Foundry 玩家通常優先專職輔助（Angelic Montmorancy、Falconer Kluri、Commander Lorina）與 Alexa 系刷圖手；劇情線含 Ras／Mercedes／Aither／Judith。本樞紐為非官方定位／屬性卡片，非官方技能表。",
       "img_alt": "英雄定位自繪橫幅",
       "img_ss_alt": "Epic Seven 官方 Steam 截圖 — Steam CDN",
-      "th": [ "英雄", "定位", "屬性", "短評", "連結" ],
-      "heroes": [
-        [ "Ras", "Knight", "Fire", "劇情主角；前期坦克／系統學習錨點。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/ras/" ],
-        [ "Mercedes", "Mage", "Fire", "初始範圍法；前期冒險清圖夠用。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/mercedes/" ],
-        [ "Aither", "Soul Weaver", "Ice", "前期治療；之後換更強靈魂術士。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/aither/" ],
-        [ "Angelic Montmorancy", "Soul Weaver", "Ice", "Montmorancy 專職——免費淨化／治療骨幹。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/angelic-montmorancy/" ],
-        [ "Falconer Kluri", "Knight", "Earth", "專職輔助：破防＋行動條；前期狩獵常用。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/falconer-kluri/" ],
-        [ "Commander Lorina", "Warrior", "Dark", "專職單體輸出；冒險／深淵長期投資。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/commander-lorina/" ],
-        [ "Alexa", "Thief", "Ice", "常見飛龍 11 雙攻農手。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/alexa/" ],
-        [ "Furious", "Ranger", "Ice", "飛龍用破防＋標記；搭配 Alexa 系。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/furious/" ],
-        [ "Silk", "Ranger", "Earth", "推行動條；前期爆發／部分狩獵。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/silk/" ],
-        [ "Vildred", "Thief", "Earth", "熱門地屬範圍輸出；培養後冒險輕鬆。 前期編隊參考摘要，非官方評價。", "https://epic7x.com/hero/vildred/" ]
-      ],
-      "note": "上方分組是 Steam／Foundry 上手視角，不是排行榜。改版後請再確認專職變更條件。社群 wiki 連結為非官方。",
-      "faq_h2": "英雄 FAQ",
-      "faqs": [
-        [ "前期先養誰？", "優先專職變更輔助（蒙莫朗西、克魯利、洛麗娜系）與穩定刷圖角；教學主力養到能推劇情即可。卡池看 STOVE／卡池頁。" ],
-        [ "wiki 數值是官方嗎？", "不是。外連 wiki 由社群維護。開戰前以遊戲內提示與 STOVE 公告為準。" ],
-        [ "在 Foundry 也一樣嗎？", "成長速度可能因增益加快，但 PvE 關卡所需職業（治療／淨化／破防／刷圖）相同。免費召喚與卡池見 Foundry／卡池頁。" ],
-        [ "Foundry 增益會改變養成順序嗎？", "增益加速練等與部分獎勵節奏，但專職變更輔助與穩定刷圖角仍開啟相同 PvE 關卡。把 Foundry 當節奏加成，而非另一套英雄メタ——卡池以 STOVE 為準。" ]
-      ],
-      "related_h2": "相關",
-      "groups_h2": "新手／專職變更／刷圖",
-      "groups": [
-        [ "教學與前期主力", "拉斯、梅賽德斯、艾特爾負擔開場劇情。培養到能推早期 Episode 即可，與其拉滿所有教學角色，不如把資源轉給專職變更輔助與刷圖角。" ],
-        [ "專職變更優先", "天使蒙莫朗西（治療／淨化）、獵鷹克魯利（破防工具）、指揮官洛麗娜（單體輸出）在 PvE 關卡長青，常被列為前期投資。材料以遊戲內為準——非官方順序。" ],
-        [ "刷圖與狩獵開荒", "亞歷克莎系冰屬刷圖等對屬狩獵能加快飛龍／前期狩獵。搭配破防輔助，把體力換成裝備。Foundry 增益加速練等，但不能取代狩獵基本功。" ]
-      ],
-      "cite_h2": "我們如何標註來源",
-      "cite": "此處英雄名稱／職業為簡短原創摘要。數值與技能倍率請以各列社群 wiki 與遊戲內提示驗證——外連為社群維護，非 Smilegate 官方文件。卡池時程與 Foundry 免費召喚經本站卡池、更新、Foundry 頁引用 STOVE／Steam 公告。",
-      "roster_h2": "速查名單表",
-      "deep_h2": "養成節奏提示",
-      "deep": [
-        "前期催化劑優先給能打通 PvE 關卡的專職變更輔助，追所有限定卡池前先把刷圖角裝備做好。Foundry 免費召喚只改變取得路徑，不改你需要的職業清單。教學主力養到能推劇情即可減投資，先補治療／淨化／破防／單體輸出缺口。數值與倍率請交叉遊戲內提示與社群 wiki（非官方）。卡池時程跟 STOVE 與本站卡池／更新頁。",
-        "若同時練 Foundry 與原服，請拆分體力與催化劑。「一個成型輸出」不如「穩定刷圖＋專職變更輔助」更能打開前期裝備循環。本頁是上手視角不是排行榜。",
-        "表上每一列不是「立刻滿配」指令。依催化劑、傳遞材料與書籍預算逐個提高完成度，較省體力。若即將打逆屬內容，先對齊刷圖屬性，別急著 PvP。社群梯隊表隨改版波動，請只把本頁的職業檢查（治療／淨化／破防／刷圖）當固定錨點。卡池抽到新英雄時，先想能否進狩獵循環，而不是沒裝備就丟競技場。"
-      ],
       "img_alt2": "新手核心／專職輔助／刷圖手分組卡自繪圖",
       "img_alt3": "前期帳號定位重點條自繪示意",
       "img_alt4": "劇情→治療淨化→破防→刷圖手早期順序自繪圖",
+      "th": [
+        "英雄",
+        "定位",
+        "屬性",
+        "優先",
+        "一句"
+      ],
+      "heroes": [
+        ["ras", "Ras", "Knight", "Fire", "劇情主角；前期坦克／系統學習錨點。 前期編隊參考摘要，非官方評價。", "tutorial", "mid"],
+        ["mercedes", "Mercedes", "Mage", "Fire", "初始範圍法；前期冒險清圖夠用。 前期編隊參考摘要，非官方評價。", "tutorial", "mid"],
+        ["aither", "Aither", "Soul Weaver", "Ice", "前期治療；之後換更強靈魂術士。 前期編隊參考摘要，非官方評價。", "tutorial", "later"],
+        ["judith", "Judith", "Thief", "Fire", "前期行動條推進；非官方 Steam／Foundry 備註。", "tutorial", "mid"],
+        ["angelic-montmorancy", "Angelic Montmorancy", "Soul Weaver", "Ice", "Montmorancy 專職——免費淨化／治療骨幹。 前期編隊參考摘要，非官方評價。", "specialty", "high"],
+        ["falconer-kluri", "Falconer Kluri", "Knight", "Earth", "專職輔助：破防＋行動條；前期狩獵常用。 前期編隊參考摘要，非官方評價。", "specialty", "high"],
+        ["commander-lorina", "Commander Lorina", "Warrior", "Dark", "專職單體輸出；冒險／深淵長期投資。 前期編隊參考摘要，非官方評價。", "specialty", "high"],
+        ["alexa", "Alexa", "Thief", "Ice", "常見飛龍 11 雙攻農手。 前期編隊參考摘要，非官方評價。", "farmer", "high"],
+        ["furious", "Furious", "Ranger", "Ice", "飛龍用破防＋標記；搭配 Alexa 系。 前期編隊參考摘要，非官方評價。", "farmer", "mid"],
+        ["silk", "Silk", "Ranger", "Earth", "推行動條；前期爆發／部分狩獵。 前期編隊參考摘要，非官方評價。", "farmer", "mid"],
+        ["vildred", "Vildred", "Thief", "Earth", "熱門地屬範圍輸出；培養後冒險輕鬆。 前期編隊參考摘要，非官方評價。", "farmer", "mid"],
+        ["luna", "Luna", "Mage", "Ice", "Foundry 慶祝路線常強調約 Rank 70 Luna 加入——請核對 STOVE；非完整技能頁。", "farmer", "mid"]
+      ],
+      "further": [
+        ["Ras", "https://epic7x.com/hero/ras/"],
+        ["Mercedes", "https://epic7x.com/hero/mercedes/"],
+        ["Aither", "https://epic7x.com/hero/aither/"],
+        ["Judith", "https://epic7x.com/hero/judith/"],
+        ["Angelic Montmorancy", "https://epic7x.com/hero/angelic-montmorancy/"],
+        ["Falconer Kluri", "https://epic7x.com/hero/falconer-kluri/"],
+        ["Commander Lorina", "https://epic7x.com/hero/commander-lorina/"],
+        ["Alexa", "https://epic7x.com/hero/alexa/"],
+        ["Furious", "https://epic7x.com/hero/furious/"],
+        ["Silk", "https://epic7x.com/hero/silk/"],
+        ["Vildred", "https://epic7x.com/hero/vildred/"],
+        ["Luna", "https://epic7x.com/hero/luna/"]
+      ],
+      "note": "表格與上方卡片相同（方便複製）。社群 wiki 僅在 Further reading——本頁非跳板。非官方——請核對 STOVE。",
+      "faq_h2": "英雄 FAQ",
+      "faqs": [
+        ["新 Steam／Foundry 免費角色優先誰？", "Angelic Montmorancy、Falconer Kluri、Commander Lorina 專職常被建議；Alexa／Furious 利於刷龍。非官方。"],
+        ["卡池英雄在哪看？", "放在 Banners／Updates，並引述 STOVE。"],
+        ["會鏡像官方英雄圖嗎？", "不會。只用 Steam CDN 引用、自繪示意與自繪屬性色頭像。"],
+        ["Foundry 增益會改養成順序嗎？", "會加快節奏，但專職輔助＋刷圖手仍解同一批 PvE 關卡。卡池請查 STOVE。"],
+        ["為何沒有完整技能表？", "本站聚焦 Steam／Foundry 上手。技能倍率以客戶端提示為準；社群 wiki 僅摺疊於 Further reading。"]
+      ],
+      "related_h2": "本站相關",
+      "groups_h2": "新手／專職／刷圖",
+      "group_tutorial_h2": "劇情與前期主力",
+      "group_specialty_h2": "專職優先",
+      "group_farmer_h2": "刷圖與狩獵開荒",
+      "group_tutorial_body": "Ras、Mercedes、Aither、Judith 扛開場劇情與前期行動條。劇情前期通關即可，資源轉投專職輔助與刷圖手。",
+      "group_specialty_body": "Angelic Montmorancy、Falconer Kluri、Commander Lorina 在 PvE 關卡耐用，常作前期投資。非官方順序。",
+      "group_farmer_body": "Alexa 系、Furious、Silk、Vildred 與 Foundry 路線 Luna 備註加速前期狩獵／劇情。Luna 窗口請核對 STOVE。",
+      "prio_label": "New Steam／Foundry 優先",
+      "prio_high": "High",
+      "prio_mid": "Mid",
+      "prio_later": "Later",
+      "prio_note": "新帳號上手優先——非全服 PvP Tier。色＋文字。",
+      "cite_h2": "如何標註來源",
+      "cite": "名稱／定位為簡短原創摘要。倍率請看遊戲內提示。社群 wiki 僅 Further reading。非官方指南。",
+      "roster_h2": "速查名單表（與卡片相同）",
+      "deep_h2": "養成節奏提示",
+      "deep": [
+        "先專職輔助＋刷圖手再追卡池；Foundry 增益只改節奏。非官方——請核對 STOVE。"
+      ],
       "onsite_h2": "站內定位說明（非 wiki 鏡像）",
-      "onsite": "本頁把分組卡與養成順序圖放在站內；wiki 連結僅作可選深讀。技能與卡池請以遊戲內與 STOVE／Steam 公告為準。本站不托管官立繪、不賣帳號。",
-}
+      "onsite": "分組卡、優先條與養成順序圖留在本頁。社群 wiki 摺疊於 Further reading。",
+      "anchors_label": "跳轉",
+      "anchor_elements": "屬性",
+      "anchor_classes": "職業",
+      "anchor_specialty": "專職",
+      "anchor_farmer": "刷圖",
+      "further_h2": "延伸閱讀（社群）",
+      "further_summary": "可選社群 wiki——非本指南必讀",
+      "further_note": "第三方粉絲 wiki（epic7x.com）。非 Smilegate。",
+      "avatar_alt_suffix": " — 自繪屬性色頭像（非官方立繪）"
+    }
   },
   "/quests/": {
     "en": {
