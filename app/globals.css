@@ -741,6 +741,35 @@ a.hub-card img {
   font-size: 0.9rem;
   color: var(--text);
 }
+.hero-focus-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  margin-top: 0.4rem;
+}
+.chip-focus {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  font-weight: 700;
+  padding: 0.06rem 0.42rem;
+  background: rgba(212, 168, 75, 0.14);
+  color: #ffe9a0;
+  border-color: rgba(212, 168, 75, 0.42);
+}
+.last-verified {
+  margin: 0.35rem 0 0.85rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.last-verified time {
+  font-variant-numeric: tabular-nums;
+}
+.start-5 {
+  margin: 0.5rem 0 1.25rem;
+}
+.start-5 h2 {
+  margin-bottom: 0.35rem;
+}
 
 .further-reading {
   margin: 1.5rem 0 1rem;

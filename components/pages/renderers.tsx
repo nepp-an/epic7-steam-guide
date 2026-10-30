@@ -4,6 +4,17 @@ import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
 import { CONTENT } from '@/lib/i18n/content';
 import {
+  FOUNDRY_VERIFIED,
+  HEROES_VERIFIED,
+  HOME_VERIFIED,
+  ROLE_CHIPS,
+  START5,
+  TRANSFER_VERIFIED,
+  VERIFIED_DATE,
+  type LineSeg,
+  type VerifiedCopy,
+} from '@/lib/i18n/nextCut';
+import {
   AS_OF,
   CONTACT_PRIVACY,
   OFFICIAL,
@@ -77,6 +88,44 @@ function QuickAnswer({ text }: { text: string }) {
       <strong>TL;DR — </strong>
       {text}
     </p>
+  );
+}
+
+function LastVerified({ copy }: { copy: VerifiedCopy }) {
+  return (
+    <p className="last-verified">
+      {copy.before}
+      <time dateTime={VERIFIED_DATE}>{VERIFIED_DATE}</time>
+      {copy.after}
+    </p>
+  );
+}
+
+function RichLine({
+  locale,
+  segs,
+}: {
+  locale: Locale;
+  segs: readonly LineSeg[];
+}) {
+  return (
+    <>
+      {segs.map(([text, href], i) => {
+        if (!href) return <span key={i}>{text}</span>;
+        if (href.startsWith('#')) {
+          return (
+            <a key={i} href={href}>
+              {text}
+            </a>
+          );
+        }
+        return (
+          <L key={i} locale={locale} href={href}>
+            {text}
+          </L>
+        );
+      })}
+    </>
   );
 }
 
@@ -158,6 +207,14 @@ type HeroRow = readonly [
 
 function heroesInGroup(rows: readonly HeroRow[], group: string): HeroRow[] {
   return rows.filter((r) => r[5] === group);
+}
+
+function roleChipsFor(slug: string) {
+  const chips = ROLE_CHIPS[slug];
+  if (!chips || chips.length < 1 || chips.length > 2) {
+    throw new Error(`Hero card ${slug} needs 1–2 role chips`);
+  }
+  return chips;
 }
 
 
@@ -250,6 +307,7 @@ export function HomeView({ locale }: { locale: Locale }) {
         <span className="chip chip-fire">Verify on STOVE</span>
         <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
+      <LastVerified copy={HOME_VERIFIED[locale]} />
       <QuickAnswer text={c.answer} />
       <section className="hub-section" aria-labelledby="hub-cards-h2">
         <h2 id="hub-cards-h2">{c.hubs_h2}</h2>
@@ -271,6 +329,16 @@ export function HomeView({ locale }: { locale: Locale }) {
             </L>
           ))}
         </div>
+      </section>
+      <section className="start-5" aria-labelledby="get-started-h2">
+        <h2 id="get-started-h2">{START5[locale].h2}</h2>
+        <ol className="steps">
+          {START5[locale].steps.map((segs, i) => (
+            <li key={i}>
+              <RichLine locale={locale} segs={segs} />
+            </li>
+          ))}
+        </ol>
       </section>
       <Fig
         src="/images/steam-header.webp"
@@ -512,6 +580,7 @@ export function TransferView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <LastVerified copy={TRANSFER_VERIFIED[locale]} />
       <QuickAnswer text={c.answer} />
       <Fig
         src="/images/diagram-transfer.webp"
@@ -885,6 +954,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <LastVerified copy={FOUNDRY_VERIFIED[locale]} />
       <QuickAnswer text={c.answer} />
       <Fig
         src="/images/diagram-foundry-calendar.webp"
@@ -1365,6 +1435,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
+      <LastVerified copy={HEROES_VERIFIED[locale]} />
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#elements">{c.anchor_elements}</a>
@@ -1453,6 +1524,19 @@ export function HeroesView({ locale }: { locale: Locale }) {
                       </span>
                     </div>
                     <p className="hero-brief">{brief}</p>
+                    <div className="hero-focus-chips">
+                      {roleChipsFor(slug).map((chip) => (
+                        <span
+                          key={chip.label}
+                          className="chip chip-focus"
+                          {...(chip.aria !== chip.label
+                            ? { 'aria-label': chip.aria }
+                            : {})}
+                        >
+                          {chip.label}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </article>
               ))}

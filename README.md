@@ -74,3 +74,4 @@ NEXT_PUBLIC_SITE_ORIGIN=https://epicsevensteam.com
 - Do not impersonate official sites; independence notice on every page
 - Outbound to Steam store + STOVE FAQ/announcements only for account actions
 - No piracy, cracks, or gray codes
+- When a page’s cited STOVE/Steam dates, Transfer steps, or Foundry calendar change, update that page’s `Last verified` date; do not bump the date only to look fresh.
