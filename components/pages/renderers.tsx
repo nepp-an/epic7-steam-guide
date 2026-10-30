@@ -74,6 +74,43 @@ function QuickAnswer({ text }: { text: string }) {
   );
 }
 
+/** Intrinsic sizes for CLS — keep in sync with public/images/*.webp */
+const IMAGE_SIZE: Record<string, readonly [number, number]> = {
+  '/images/diagram-demo-delete.webp': [1100, 300],
+  '/images/diagram-demo-dodont.webp': [1100, 300],
+  '/images/diagram-foundry-calendar.webp': [1100, 420],
+  '/images/diagram-foundry-milestones.webp': [1100, 280],
+  '/images/diagram-foundry-vs-transfer.webp': [1100, 300],
+  '/images/diagram-heroes-compare.webp': [1100, 320],
+  '/images/diagram-heroes-groups.webp': [1100, 360],
+  '/images/diagram-heroes-path.webp': [1100, 260],
+  '/images/diagram-heroes.webp': [960, 220],
+  '/images/diagram-home-path.webp': [1100, 320],
+  '/images/diagram-quests-foundry-delta.webp': [1100, 300],
+  '/images/diagram-quests-priority.webp': [1100, 280],
+  '/images/diagram-quests.webp': [960, 280],
+  '/images/diagram-steam-bind.webp': [1100, 280],
+  '/images/diagram-steam-notes.webp': [1100, 300],
+  '/images/diagram-transfer-decision.webp': [1100, 360],
+  '/images/diagram-transfer.webp': [1100, 320],
+  '/images/diagram-uncheater.webp': [1100, 300],
+  '/images/steam-capsule.webp': [231, 87],
+  '/images/steam-header.webp': [460, 215],
+  '/images/steam-ss-battle.webp': [960, 540],
+  '/images/steam-ss-heroes.webp': [960, 540],
+  '/images/steam-ss-world.webp': [600, 338],
+};
+
+function elementChipClass(el: string): string {
+  const key = el.trim().toLowerCase();
+  if (key === 'fire') return 'chip chip-fire';
+  if (key === 'ice') return 'chip chip-ice';
+  if (key === 'earth') return 'chip chip-earth';
+  if (key === 'light') return 'chip chip-light';
+  if (key === 'dark') return 'chip chip-dark';
+  return 'chip chip-role';
+}
+
 function Fig({
   src,
   alt,
@@ -83,10 +120,12 @@ function Fig({
   alt: string;
   credit?: string;
 }) {
+  const [w, h] = IMAGE_SIZE[src] ?? [960, 540];
+  const isDiagram = src.includes('/diagram-');
   return (
-    <figure className="site-fig">
+    <figure className={`site-fig ${isDiagram ? 'site-fig--diagram' : 'site-fig--photo'}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={alt} width={960} height={540} loading="lazy" />
+      <img src={src} alt={alt} width={w} height={h} loading="lazy" />
       {credit ? <figcaption className="muted">{credit}</figcaption> : null}
     </figure>
   );
@@ -154,6 +193,12 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       </section>
       <IndepNotice locale={locale} />
+      <div className="kpi-strip" aria-label="Hub highlights">
+        <span className="chip chip-dark">Steam app 5019180</span>
+        <span className="chip chip-light">Foundry → 2026-12-31</span>
+        <span className="chip chip-ice">Independent guide</span>
+        <span className="chip chip-fire">Verify on STOVE</span>
+      </div>
       <QuickAnswer text={c.answer} />
       <Fig
         src="/images/steam-header.webp"
@@ -1262,8 +1307,12 @@ export function HeroesView({ locale }: { locale: Locale }) {
           {c.heroes.map(([name, role, el, brief, href]) => (
             <tr key={name}>
               <td>{name}</td>
-              <td>{role}</td>
-              <td>{el}</td>
+              <td>
+                <span className="chip chip-role">{role}</span>
+              </td>
+              <td>
+                <span className={elementChipClass(el)}>{el}</span>
+              </td>
               <td>{brief}</td>
               <td>
                 <ExternalLink href={href}>wiki</ExternalLink>
