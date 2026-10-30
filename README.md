@@ -25,10 +25,11 @@ npm run dev      # next dev
 
 ## Domain status
 
-- **Chosen target:** `epicsevensteam.com` (user-selected)
-- **Not purchased / not DNS-connected** (Vercel buy card declined earlier — do not retry paid purchase from this scaffold)
-- Candidates (reference only): `epicsevensteam.com`, `epic-seven-steam.com`, `epic7steam.com`, `epicsevenfoundry.com`
-- Copy / `sitemap.xml` / `robots.txt` already use `epicsevensteam.com` as the intended canonical host
+- **Live apex:** https://epicsevensteam.com (Cloudflare Registrar → CF DNS gray-cloud → Vercel)
+- **www:** redirects to apex (308 on Vercel)
+- DNS (proxied=false): A `216.198.79.1` + `64.29.17.1`; CNAME `www` → `7b3ac62823ed2eff.vercel-dns-017.com`
+- Candidates considered earlier: `epic-seven-steam.com`, `epic7steam.com`, `epicsevenfoundry.com`
+- L1 locales next: `en` (default, live), `ko`, `ja`, `/zh-tw/` (zh-Hant) — not shipped in first EN hang
 
 ## Deploy to Vercel (preview, no custom domain)
 
