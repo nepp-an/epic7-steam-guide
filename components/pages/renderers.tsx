@@ -190,6 +190,16 @@ export function HomeView({ locale }: { locale: Locale }) {
           alt={c.img_foundry_alt}
           credit="Unofficial Foundry calendar visual · cite STOVE"
         />
+        <Fig
+          src="/images/diagram-home-path.webp"
+          alt={c.img_path_alt}
+          credit="Unofficial path chooser · epicsevensteam.com"
+        />
+        <Fig
+          src="/images/steam-ss-world.webp"
+          alt={c.img_world_alt}
+          credit="Steam store screenshot · Steam CDN"
+        />
         <div className="card">
           <table className="data">
             <thead>
@@ -391,6 +401,16 @@ export function TransferView({ locale }: { locale: Locale }) {
         alt={c.img_alt}
         credit="Unofficial STOVE→Steam transfer diagram"
       />
+      <Fig
+        src="/images/diagram-transfer-decision.webp"
+        alt={c.img_alt2}
+        credit="Unofficial wrong-bind decision tree · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/steam-header.webp"
+        alt={c.img_alt3}
+        credit="Steam store header · app 5019180 · Steam CDN"
+      />
       <p>{c.goal}</p>
       <Diagram nodes={c.diagram} aria={c.diagram_aria} />
       <h2>{c.before_h2}</h2>
@@ -506,6 +526,16 @@ export function DemoView({ locale }: { locale: Locale }) {
         src="/images/diagram-demo-delete.webp"
         alt={c.img_alt}
         credit="Unofficial demo-delete risk diagram"
+      />
+      <Fig
+        src="/images/diagram-demo-dodont.webp"
+        alt={c.img_alt2}
+        credit="Unofficial Do/Don't diagram · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/steam-capsule.webp"
+        alt={c.img_alt3}
+        credit="Steam store capsule · Steam CDN"
       />
       <div className="card warn">
         <p>
@@ -637,6 +667,16 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
         alt={c.img_alt}
         credit="Unofficial Steam bind / launch triage diagram"
       />
+      <Fig
+        src="/images/diagram-uncheater.webp"
+        alt={c.img_alt2}
+        credit="Unofficial UNCHEATER triage · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-steam-bind.webp"
+        alt={c.img_alt3}
+        credit="Unofficial bind recovery outline · epicsevensteam.com"
+      />
       <p>{c.lead}</p>
       <h2>{c.acct_h2}</h2>
       <ul>
@@ -738,6 +778,16 @@ export function FoundryView({ locale }: { locale: Locale }) {
         src="/images/steam-ss-world.webp"
         alt={c.img_ss_alt}
         credit="Steam store screenshot · Steam CDN"
+      />
+      <Fig
+        src="/images/diagram-foundry-vs-transfer.webp"
+        alt={c.img_alt2}
+        credit="Unofficial Transfer vs Foundry comparison · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-foundry-milestones.webp"
+        alt={c.img_alt3}
+        credit="Unofficial Foundry milestone strip · cite STOVE dates"
       />
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
@@ -1172,7 +1222,24 @@ export function HeroesView({ locale }: { locale: Locale }) {
         alt={c.img_ss_alt}
         credit="Steam store screenshot · Steam CDN"
       />
+      <Fig
+        src="/images/diagram-heroes-groups.webp"
+        alt={c.img_alt2}
+        credit="Unofficial on-site hero group cards · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-heroes-compare.webp"
+        alt={c.img_alt3}
+        credit="Unofficial role focus schematic · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-heroes-path.webp"
+        alt={c.img_alt4}
+        credit="Unofficial early build-order diagram · epicsevensteam.com"
+      />
       <p>{c.lead}</p>
+      <h2>{c.onsite_h2}</h2>
+      <p>{c.onsite}</p>
       <h2>{c.groups_h2}</h2>
       {c.groups.map(([h, body]) => (
         <div key={h} className="card">
@@ -1256,6 +1323,16 @@ export function QuestsView({ locale }: { locale: Locale }) {
         src="/images/steam-ss-world.webp"
         alt={c.img_ss_alt}
         credit="Steam store screenshot · Steam CDN"
+      />
+      <Fig
+        src="/images/diagram-quests-foundry-delta.webp"
+        alt={c.img_alt2}
+        credit="Unofficial Foundry vs legacy quest delta · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-quests-priority.webp"
+        alt={c.img_alt3}
+        credit="Unofficial quest priority strip · epicsevensteam.com"
       />
       <p>{c.lead}</p>
       <p className="muted">{c.reset_note}</p>

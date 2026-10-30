@@ -96,8 +96,10 @@ export const CONTENT = {
       "img_header_alt": "Official Steam store header art for Epic Seven (app 5019180), cited from Steam CDN",
       "img_ss_alt": "Official Steam store screenshot of Epic Seven combat — Steam CDN",
       "img_transfer_alt": "Self-drawn overview diagram of STOVE to Steam account transfer steps",
-      "img_foundry_alt": "Self-drawn Foundry celebration calendar visual through late 2026"
-    },
+      "img_foundry_alt": "Self-drawn Foundry celebration calendar visual through late 2026",
+      "img_path_alt": "Self-drawn path chooser: keep progress, Foundry fresh start, or Steam client tips",
+      "img_world_alt": "Official Steam store world presentation screenshot — Steam CDN citation",
+},
     "ko": {
       "title": "Epic Seven Steam — 플레이어 가이드",
       "meta": "비공식 Epic Seven Steam 가이드: 스토어 링크, STOVE↔Steam 이전, 파운드리(~12/31), FAQ. Smilegate/STOVE와 무관.",
@@ -171,8 +173,10 @@ export const CONTENT = {
       "img_header_alt": "Epic Seven 공식 Steam 스토어 헤더(app 5019180) — Steam CDN 인용",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷(전투) — Steam CDN",
       "img_transfer_alt": "STOVE→Steam 계정 이전 단계 자작 다이어그램",
-      "img_foundry_alt": "파운드리 기념 일정 자작 캘린더 시각자료"
-    },
+      "img_foundry_alt": "파운드리 기념 일정 자작 캘린더 시각자료",
+      "img_path_alt": "진행 유지·파운드리 신규·Steam 클라이언트 안내 자작 경로 선택도",
+      "img_world_alt": "Epic Seven 공식 Steam 월드 스크린샷 — Steam CDN 인용",
+},
     "ja": {
       "title": "Epic Seven Steam — プレイヤーガイド",
       "meta": "非公式Epic Seven Steamガイド：ストア、STOVE↔Steam引き継ぎ、ファウンドリ（〜12/31）、FAQ。Smilegate/STOVE非公式。",
@@ -246,8 +250,10 @@ export const CONTENT = {
       "img_header_alt": "Epic Seven公式Steamストアヘッダー（app 5019180）— Steam CDN引用",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット（戦闘）— Steam CDN",
       "img_transfer_alt": "STOVE→Steam引き継ぎ手順の自作図",
-      "img_foundry_alt": "ファウンドリ記念日程の自作カレンダー図"
-    },
+      "img_foundry_alt": "ファウンドリ記念日程の自作カレンダー図",
+      "img_path_alt": "進行維持・ファウンドリ新規・Steamメモの自作パス選択図",
+      "img_world_alt": "Epic Seven公式Steamワールド画面 — Steam CDN引用",
+},
     "zh-tw": {
       "title": "Epic Seven Steam — 玩家指南",
       "meta": "非官方 Epic Seven Steam 指南：商店連結、STOVE↔Steam 轉移、Foundry（至 12/31）、FAQ。與 Smilegate/STOVE 無關。",
@@ -321,8 +327,10 @@ export const CONTENT = {
       "img_header_alt": "Epic Seven 官方 Steam 商店頭圖（app 5019180）— 引用 Steam CDN",
       "img_ss_alt": "Epic Seven 官方 Steam 戰鬥截圖 — Steam CDN",
       "img_transfer_alt": "STOVE 轉 Steam 帳號步驟自繪示意圖",
-      "img_foundry_alt": "Foundry 慶祝時程自繪月曆視覺"
-    }
+      "img_foundry_alt": "Foundry 慶祝時程自繪月曆視覺",
+      "img_path_alt": "保留進度、Foundry 開荒或 Steam 說明自繪路徑選擇圖",
+      "img_world_alt": "Epic Seven 官方 Steam 世界截圖 — 引用 Steam CDN",
+}
   },
   "/download/": {
     "en": {
@@ -501,8 +509,10 @@ export const CONTENT = {
       "deep_h2": "Read before any delete UI",
       "deep": [
         "Do not confuse STOVE withdraw (wrong Steam link) with in-game demo deletion after transfer — only the latter is the wipe risk in STOVE’s precaution."
-      ]
-    },
+      ],
+      "img_alt2": "Self-drawn Do / Don't comparison for demo delete after transfer",
+      "img_alt3": "Official Steam capsule art for Epic Seven — Steam CDN citation",
+},
     "ko": {
       "title": "Steam 데모 — 전환 후 인게임 계정 삭제 금지",
       "meta": "주의: Steam 로그인 전환 후 데모 인게임 삭제는 원 서버 진행도를 지울 수 있음. STOVE 공지 인용.",
@@ -548,8 +558,10 @@ export const CONTENT = {
         "플레이어는 빈 Steam 연동에 대한 STOVE 계정 탈퇴와 데모 세션의 인게임 계정 삭제를 자주 혼동합니다. 잘못된 연동의 공식형 복구 개요에 나오는 것은 전자뿐입니다. 후자는 Steam 로그인 전환 이후 원서버 진행도가 지워질 수 있다고 STOVE가 경고하는 경로입니다. 친구가 「빈 계정은 인게임에서 그냥 지워」라고 해도 멈추고 STOVE 주의(view/14581667)와 이전 가이드를 여세요. 이미 눌렀다면 추가 실험을 중단하고 스크린샷을 모아 공식 CS만 이용하세요. 본 경고 페이지는 데이터를 복구하지 않으며 Smilegate/STOVE/Steam과 무관합니다. 데모 잔여 계정은 이후 전환을 막을 수 있으니 정식 클라이언트(app 5019180) 설치와 탈퇴→전환 순서를 우선하세요.",
         "작업 체크: ① 지금 Steam이 쓰는 STOVE 신원이 옛 진행도 계정인지 확인 ② 아니면 탈퇴→전환 ③ 삭제 버튼은 누르지 않음 ④ 공식 FAQ·데모 주의 원문 재확인. 정보가 충돌하면 원문이 이깁니다.",
         "삭제 버튼 위치는 클라이언트 버전·데모/정식 여부에 따라 달라 보일 수 있습니다. 버튼 이름이 「계정 삭제」「캐릭터 삭제」「탈퇴」 등으로 달라도 Steam 로그인 전환 이후라면 STOVE 데모 주의를 먼저 읽으세요. 복구용 STOVE 탈퇴 절차는 계정 설정/고객센터 경로에 있으며 인게임 전투 메뉴의 삭제와 다릅니다. 확정이 안 되면 아무 삭제도 누르지 말고 공식 CS에 스크린샷과 함께 문의하세요. 이전 가이드의 충돌 섹션과 본 경고를 나란히 두면 혼동이 줄어듭니다."
-      ]
-    },
+      ],
+      "img_alt2": "전환 후 데모 삭제 Do/Don't 자작 대조도",
+      "img_alt3": "Epic Seven 공식 Steam 캡슐 아트 — Steam CDN",
+},
     "ja": {
       "title": "Steamデモ — 変換後のゲーム内削除禁止",
       "meta": "注意：Steamログイン変換後のデモ内アカウント削除は本鯖進行を消す恐れ。STOVE告知引用。",
@@ -590,8 +602,10 @@ export const CONTENT = {
         "プレイヤーは空のSteam連携に対するSTOVE退会と、デモセッション上のゲーム内削除を混同しがちです。誤連携の公式形復旧骨子に出るのは前者だけです。後者はSteamログイン変換後に原鯖進行が消える恐れがあるとSTOVEが警告する経路です。友人が「空アカはゲーム内で消せ」と言っても止まり、STOVE注意（view/14581667）と引き継ぎガイドを開いてください。既に押したら追加実験を止め、スクショを集め公式CSのみ。本警告頁はデータを戻せません。デモ残存は後の変換を阻むことがあるので正式クライアント（app 5019180）導入と退会→変換を優先。",
         "作業チェック：①今Steamが使うSTOVE身元が旧進行アカか確認 ②違えば退会→変換 ③削除ボタンは押さない ④公式FAQ・デモ注意原文を再確認。衝突したら原文が勝ちます。",
         "削除ボタンの位置はクライアント版・デモ/正式で違って見えることがあります。名称が「アカウント削除」「キャラ削除」「退会」等でも、Steamログイン変換後なら先にSTOVEデモ注意を読んでください。復旧用のSTOVE退会はアカウント設定/CS経路にあり、ゲーム内戦闘メニューの削除とは別です。確信がなければ何も押さず、スクショ付きで公式CSへ。引き継ぎガイドの衝突節と本警告を並べると混同が減ります。"
-      ]
-    },
+      ],
+      "img_alt2": "変換後デモ削除のDo/Don't自作対照図",
+      "img_alt3": "Epic Seven公式Steamカプセル — Steam CDN",
+},
     "zh-tw": {
       "title": "Steam 試玩 — 轉移後勿遊戲內刪號",
       "meta": "警告：轉 Steam 登入後在試玩遊戲內刪號，可能清除原伺服器進度。引述 STOVE。",
@@ -632,8 +646,10 @@ export const CONTENT = {
         "玩家常把「註銷空白 Steam 連結的 STOVE 帳」與「在試玩階段按遊戲內刪號」搞混。錯綁的官方形復原大綱只出現前者；後者是 STOVE 警告在 Steam 登入轉換後可能抹掉原服進度的路徑。若有人叫你「空白帳直接遊戲內刪掉」，請停下並打開 STOVE 注意（view/14581667）與轉移指南。若已按下，停止繼續試驗、收集截圖，只走官方客服。本警告頁無法復原資料。試玩殘留可能擋住之後轉換，請優先安裝正式客戶端（app 5019180）並走註銷→轉換。",
         "操作檢查：①確認目前 Steam 使用的 STOVE 身分是否為舊進度帳 ②若否→註銷→轉換 ③不要按刪號 ④再對官方 FAQ 與試玩注意原文。衝突時以原文為準。",
         "刪號按鈕位置可能因客戶端版本、試玩／正式而不同。即使名稱叫「刪除帳號」「刪除角色」「註銷」，只要已做 Steam 登入轉換，就先讀 STOVE 試玩注意。復原用的 STOVE 註銷在帳號設定／客服路徑，與遊戲內戰鬥選單的刪除不同。不確定就什麼都別按，帶截圖找官方客服。把轉移指南的衝突段與本警告並排可減少混淆。"
-      ]
-    }
+      ],
+      "img_alt2": "轉移後試玩刪號 Do／Don't 自繪對照圖",
+      "img_alt3": "Epic Seven 官方 Steam 膠囊圖 — 引用 Steam CDN",
+}
   },
   "/steam-transfer/": {
     "en": {
@@ -739,8 +755,10 @@ export const CONTENT = {
       "deep_h2": "Why players get stuck (unofficial)",
       "deep": [
         "Most launch-week mistakes are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow withdraw→convert and cite STOVE FAQ / demo precaution."
-      ]
-    },
+      ],
+      "img_alt2": "Self-drawn wrong-bind decision tree for empty Steam Heir and recovery",
+      "img_alt3": "Official Steam header for Epic Seven app 5019180 — Steam CDN",
+},
     "ko": {
       "title": "STOVE ↔ Steam 계정 이전 가이드",
       "meta": "Epic Seven STOVE 이메일/SNS를 Steam용으로 전환하는 비공식 단계 가이드. 데모 계정 충돌 복구 포함.",
@@ -823,8 +841,10 @@ export const CONTENT = {
         "이 페이지는 지도일 뿐 고객지원 창구가 아닙니다. 대기 시간을 초기화하거나 Steam 연동을 강제로 풀거나 삭제된 진행도를 복구할 수 없습니다. 스크린샷을 남기고 공식 CS를 이용하며, 점검 패치로 문구가 바뀌면 최신 STOVE 화면을 다시 읽으세요. 올바른 전환 이후의 크로스플레이는 공식 FAQ에 설명되어 있고, 파운드리는 별도의 서버 선택이며 길드전 시각은 STOVE 축하 표 기준 약 2026-11-21 03:00 UTC입니다. 이전 가이드·데모 주의·파운드리 캘린더·Steam 안내·다운로드 체크리스트를 함께 열어 두고 작업하세요.",
         "구매·미수령 보상·에픽패스 이전 여부는 공식 Steam FAQ 문구를 기준으로 하되, 실행 직전 다시 확인하세요. 제3자 「즉시 해제」 툴, 계정 거래, 비공식 실행 파일은 악성코드·약관 위반 위험이 큽니다. 정보가 충돌하면 항상 STOVE와 Steam 스토어(app 5019180) 원문을 우선합니다. 본 사이트 epicsevensteam.com은 Smilegate·STOVE·Valve·Steam과 무관한 비공식 플레이어 정보입니다.",
         "추가로, Steam 데모와 정식 클라이언트를 혼용할 때는 항상 정식 app 5019180 설치 상태를 먼저 확인하세요. 데모 잔여 로그인이 남아 있으면 전환 UI가 「이미 연동됨」으로 막힐 수 있고, 이때 인게임 삭제로 해결하려 하면 STOVE 주의가 경고한 원서버 데이터 손실 경로로 빠질 수 있습니다. 복구는 탈퇴→전환만 따르고, 대기 기간 중에는 새 캐릭터를 키워 손해를 키우지 마세요. 크로스플레이·가격·에픽패스 문구는 공식 FAQ를 재확인하고, 파운드리 참가 여부는 이전과 별도로 결정하세요. 작업 중 다운로드 체크리스트·Steam 안내·데모 주의·FAQ 허브를 함께 두면 실수가 줄어듭니다. 본 비공식 가이드는 고객지원을 대체하지 않습니다."
-      ]
-    },
+      ],
+      "img_alt2": "빈 Steam 후계자·복구용 잘못된 연동 결정 트리 자작도",
+      "img_alt3": "Epic Seven 공식 Steam 헤더(app 5019180) — Steam CDN",
+},
     "ja": {
       "title": "STOVE ↔ Steam引き継ぎガイド",
       "meta": "Epic SevenのSTOVEメール/SNSをSteam向けに変換する非公式手順。デモ垢衝突の復旧含む。",
@@ -891,8 +911,10 @@ export const CONTENT = {
         "本頁は地図でありサポート窓口ではありません。待ち時間の解除もSteam連携の強制解除も、消えた進行の復元もできません。スクショを残し公式CSを使い、メンテで文面が変わったら最新STOVE画面を再読してください。正しい変換後のクロスプレイは公式FAQにあり、ファウンドリは別鯖選択で、ギルド戦時刻はSTOVEお祝い表で約2026-11-21 03:00 UTCです。引き継ぎ・デモ注意・ファウンドリカレンダー・Steamメモ・ダウンロード手順を並べて作業すると安全です。",
         "課金・未受取・エピックパスの引き継ぎ可否は公式Steam FAQ文面を基準にし、実行直前に再確認。第三者の「即解除」ツール、垢売買、非公式実行ファイルはマルウェア・規約違反リスクが高います。情報が衝突したら常にSTOVEとSteamストア（app 5019180）原文を優先。本サイトepicsevensteam.comはSmilegate・STOVE・Valve・Steamと無関係の非公式プレイヤー情報です。",
         "さらに、Steamデモと正式クライアントを混用するときは、必ず正式app 5019180の導入状態を先に確認してください。デモ残ログインが残っていると変換UIが「既に連携済み」で止まることがあり、そのときゲーム内削除で解決しようとすると、STOVE注意が警告する原鯖データ損失ルートに入り得ます。復旧は退会→変換のみに従い、待ち時間中に新規キャラを育てて損失を増やさないでください。クロスプレイ・価格・エピックパス文面は公式FAQを再確認し、ファウンドリ参加は引き継ぎと別に決めてください。作業中はダウンロード手順・Steamメモ・デモ注意・FAQハブを並べるとミスが減ります。本非公式ガイドはサポート窓口の代わりになりません。"
-      ]
-    },
+      ],
+      "img_alt2": "空のSteam後継者向け誤連携決定ツリーの自作図",
+      "img_alt3": "Epic Seven公式Steamヘッダー（app 5019180）— Steam CDN",
+},
     "zh-tw": {
       "title": "STOVE ↔ Steam 帳號轉移指南",
       "meta": "將 Epic Seven STOVE Email/SNS 轉為 Steam 登入的非官方逐步指南，含試玩帳衝突處理。",
@@ -956,8 +978,10 @@ export const CONTENT = {
         "本頁只是地圖，不是客服窗口。我們無法重設等待、強制解綁 Steam，或復原已清除的進度。請保留截圖、走官方客服，並在維護改文案後重讀最新 STOVE 畫面。正確轉換後的跨平台以官方 FAQ 為準；Foundry 是另一個伺服器選擇，公會戰時間依 STOVE 慶祝表約為 2026-11-21 03:00 UTC。操作時建議同時打開轉移指南、試玩警告、Foundry 日程、Steam 說明與下載清單。",
         "儲值、未領獎勵、Epic Pass 是否帶過以官方 Steam FAQ 原文為準，動手前記得再查一次。第三方「立刻解綁」工具、賣帳、非官方執行檔有惡意軟體與違規風險。資訊衝突時永遠優先 STOVE 與 Steam 商店（app 5019180）原文。本站 epicsevensteam.com 為與 Smilegate、STOVE、Valve、Steam 無關的非官方玩家資訊。",
         "此外，混用 Steam 試玩與正式客戶端時，請先確認已安裝正式 app 5019180。若仍留有試玩登入，轉換介面可能顯示「已連結」而卡住；若此時想用遊戲內刪號解決，就可能掉進 STOVE 注意所警告的原服資料損失路徑。復原只走註銷→轉換，等待期間不要去養成新角色加深損失。跨平台、售價、Epic Pass 文案請再對官方 FAQ；是否進 Foundry 與轉移分開決定。操作時同時開著下載清單、Steam 說明、試玩警告與 FAQ 中心可減少失誤。本非官方指南不能取代客服。"
-      ]
-    }
+      ],
+      "img_alt2": "空白 Steam 後繼者錯綁決策樹自繪圖",
+      "img_alt3": "Epic Seven 官方 Steam 頭圖（app 5019180）— Steam CDN",
+}
   },
   "/faq/": {
     "en": {
@@ -1140,8 +1164,10 @@ export const CONTENT = {
       "deep_h2": "Support boundaries",
       "deep": [
         "Verify files, update drivers, and use official CS for UNCHEATER blocks. Wrong-bind recovery is on the transfer guide — not third-party binders."
-      ]
-    },
+      ],
+      "img_alt2": "Self-drawn UNCHEATER triage steps for Steam launch failures",
+      "img_alt3": "Self-drawn Steam bind symptoms and recovery outline",
+},
     "ko": {
       "title": "Epic Seven Steam 전용 안내",
       "meta": "STOVE 연동, 안티치트, 언어, 사양, 크로스플레이. 비공식 가이드.",
@@ -1205,8 +1231,10 @@ export const CONTENT = {
         "이 안내는 Steam 파일 검증, GPU 드라이버 업데이트, STOVE CS를 대체하지 않습니다. 관리 장치에서 커널 안티치트가 막히는 경우는 게임 버그보다 IT 정책 문제인 경우가 많습니다. Epic Seven은 공식 스토어 app 5019180만 사용하고, 사이드로드 「수정」 빌드는 무시하세요. 잘못된 연동은 이전 가이드의 탈퇴→전환을 따르고, 데모 삭제는 데모 주의 페이지를 따릅니다. 언어·지역 이상도 제재로 단정하기 전에 클라이언트와 STOVE 설정을 재확인하세요. 본 사이트는 비공식이며 계정 복구를 수행하지 않습니다.",
         "실행 실패 체크리스트를 짧게 반복하면: 공식 앱 확인 → 파일 검증 → OS/GPU 업데이트 → 백신 격리 확인 → UNCHEATER 권한 프롬프트 허용 여부 → 그래도 실패 시 공식 CS. 회사 PC면 STOVE PC/모바일 우회를 먼저 시도하는 편이 안전합니다.",
         "UNCHEATER 설치 프롬프트가 반복되면 강제 종료 대신 재부팅 후 Steam을 관리자 권한으로 한 번 실행해 보고, 백신 예외가 필요한지 IT 정책 범위 안에서만 검토하세요. 「크랙」「우회 패치」 검색 결과는 무시하는 것이 안전합니다. 로그인 루프가 계속되면 캐릭터를 더 만들지 말고 이전 가이드의 잘못된 연동 트리를 따르세요. 언어팩 다운로드 중 오류는 Steam 라이브러리 속성에서 언어를 다시 선택해 보세요. 모든 실패 로그는 공식 CS에 전달할 수 있도록 텍스트로 보존합니다."
-      ]
-    },
+      ],
+      "img_alt2": "UNCHEATER 실행 실패 분류 자작 단계도",
+      "img_alt3": "Steam 연동 증상·복구 개요 자작도",
+},
     "ja": {
       "title": "Epic Seven Steam固有メモ",
       "meta": "STOVE連携、アンチチート、言語、スペック、クロスプレイ。非公式ガイド。",
@@ -1270,8 +1298,10 @@ export const CONTENT = {
         "本メモはSteamファイル検証、GPUドライバ更新、STOVE CSの代わりになりません。管理端末でカーネルアンチチートが拒まれるのはバグよりITポリシーであることが多いです。Epic Sevenは公式ストアapp 5019180のみを使い、サイドロード「修正」ビルドは無視。誤連携は引き継ぎガイドの退会→変換、デモ削除はデモ注意頁に従ってください。言語・地域の違和感も制裁決めつけの前にクライアントとSTOVE設定を再確認。本サイトは非公式でアカウント復旧は行いません。",
         "起動失敗チェックを短く繰り返す：公式アプリ確認→ファイル検証→OS/GPU更新→隔離確認→UNCHEATER昇格可否→だめなら公式CS。会社PCなら先にSTOVE PC/モバイル回避を試す方が安全です。",
         "UNCHEATER導入プロンプトが繰り返すなら強制終了せず、再起動後にSteamを管理者で一度起動し、ワクチン例外が要るかはITポリシー内でのみ検討。クラックや回避パッチの検索結果は無視するのが安全です。ログインループが続くならキャラを増やさず、引き継ぎガイドの誤連携ツリーへ。言語パックエラーはSteamライブラリのプロパティで言語を選び直す。失敗ログは公式CSへ渡せるようテキスト保存します。"
-      ]
-    },
+      ],
+      "img_alt2": "UNCHEATER起動失敗切り分けの自作手順図",
+      "img_alt3": "Steam連携症状と復旧骨子の自作図",
+},
     "zh-tw": {
       "title": "Epic Seven Steam 專屬說明",
       "meta": "STOVE 連結、反作弊、語言、規格、跨平台。非官方指南。",
@@ -1335,8 +1365,10 @@ export const CONTENT = {
         "本說明不能取代 Steam 檔案驗證、GPU 驅動更新或 STOVE 客服。受管裝置擋核心反作弊，往往是 IT 政策而非遊戲 bug。請只從官方商店 app 5019180 安裝，忽略側載「修復」包。錯綁走轉移指南的註銷→轉換；試玩刪號走試玩警告頁。語言／地區異常也先重查客戶端與 STOVE 設定，別先假設被封。本站為非官方，不代為復原帳號。",
         "啟動失敗短清單：確認官方 app → 驗證檔案 → 更新 OS／GPU → 查防毒隔離 → 是否允許 UNCHEATER 權限 → 仍失敗才找官方客服。公司電腦可先改走 STOVE PC／手機較安全。",
         "若 UNCHEATER 安裝提示反覆出現，不要強制結束；重開機後用系統管理員權限啟動一次 Steam，並只在 IT 政策允許範圍內評估防毒例外。搜尋到的「破解／繞過」請一律忽略。登入迴圈持續時不要再創角，改走轉移指南的錯綁決策樹。語系包錯誤可在 Steam 庫內容屬性重選語言。失敗紀錄請存成文字以便交給官方客服。"
-      ]
-    }
+      ],
+      "img_alt2": "UNCHEATER 啟動失敗分流自繪步驟圖",
+      "img_alt3": "Steam 綁定症狀與復原概要自繪圖",
+}
   },
   "/foundry/": {
     "en": {
@@ -1450,8 +1482,10 @@ export const CONTENT = {
       "deep_h2": "Planning notes (unofficial)",
       "deep": [
         "Use the unlock table with the Guild War section; claim mail early; treat legacy and Foundry characters as separate stamina pools. Re-check STOVE after maintenance."
-      ]
-    },
+      ],
+      "img_alt2": "Self-drawn Transfer vs Foundry two-decision comparison",
+      "img_alt3": "Self-drawn Foundry milestone strip: launch, Guild War, World Arena, 12/31",
+},
     "ko": {
       "title": "파운드리 — 12/31까지 캘린더·보상·길드전",
       "meta": "드래프트, 길드전 2026-11-21, 월드아레나 2026-12-10, 버프~12/31. STOVE 인용.",
@@ -1551,8 +1585,10 @@ export const CONTENT = {
         "Steam 로그인 전환으로 레거시 후계자도 유지한다면 두 캐릭터를 별도 스테미나 소비로 보세요. 이전 질문은 이전 가이드, 퀘스트·사냥 루프는 퀘스트 허브로 보냅니다. 점검이 끝나면 반드시 STOVE 파운드리 공지(view/14571828)와 Steam 뉴스를 다시 여세요. 본 캘린더는 공개 공지 요약이며 Smilegate/STOVE 공식 UI가 아닙니다. 날짜가 충돌하면 원문 공지가 이깁니다. 파운드리 전용 매칭 PvP는 로그인 전환과 무관하게 파운드리 캐릭이 필요합니다.",
         "보상·버프 수치는 패치로 바뀔 수 있으니 「대략」 프레임만 기억하고 상세 표는 STOVE를 따릅니다. 길드전 보상 창을 축하 구간 안에서 소화하되, 자원 소모 전 실시간 공지를 재확인하세요. epicsevensteam.com은 비공식 정보 사이트입니다.",
         "파운드리 길드전 절의 체크리스트를 실제로 달력에 옮겨 적어두면 실수를 줄일 수 있습니다. 11/21 전에 길드 가입을 끝내고, 일일 길드 미션을 밀려 두지 않으며, 공/방 코어 영웅의 장비 최소선을 정해 두세요. 12/10 월드 아레나 라인과 12/31 버프 종료 프레임은 별개이므로 「시즌 하나」로 뭉뚱그리지 마세요. 사이드 스토리·래빗 홀·행운 보드는 로비 아이콘이 사라지기 전에 재화를 소진하세요. 레거시 캐릭과 동시 육성 시 스테미나 예산을 주 단위로 나누고, 이전 가이드와 퀘스트 허브 링크를 북마크하세요. 공지 원문과 본 요약이 다르면 원문이 우선입니다."
-      ]
-    },
+      ],
+      "img_alt2": "이전 vs 파운드리 두 결정 비교 자작도",
+      "img_alt3": "런칭·길드전·WA·12/31 파운드리 마일스톤 자작 스트립",
+},
     "ja": {
       "title": "ファウンドリ — 12/31までの日程・報酬・ギルド戦",
       "meta": "ドラフト、ギルド戦2026-11-21、WA 2026-12-10、バフ〜12/31。STOVE引用。",
@@ -1652,8 +1688,10 @@ export const CONTENT = {
         "Steamログイン変換でレガシー後継者も残すなら、二キャラを別スタミナ消費として扱います。引き継ぎ質問は引き継ぎガイド、クエスト・ハントループはクエストハブへ。メンテ後は必ずSTOVEファウンドリ告知（view/14571828）とSteamニュースを開き直してください。本カレンダーは公開告知の要約でありSmilegate/STOVE公式UIではありません。日付が衝突したら原文告知が勝ちます。ファウンドリ専用マッチPvPはログイン変換と無関係にファウンドリキャラが必要です。",
         "報酬・バフ数値はパッチで変わり得るので「おおよそ」の枠だけ覚え、詳細表はSTOVEに従ってください。ギルド戦報酬窓をお祝い枠内で消化しつつ、資源消費前にライブ告知を再確認。epicsevensteam.comは非公式情報サイトです。",
         "ファウンドリギルド戦節のチェックを実際のカレンダーへ書き写すとミスが減ります。11/21前にギルド加入を終え、日次ギルドを溜めず、攻防コアの装備下限を決めておきましょう。12/10のWA線と12/31バフ終了枠は別物なので「ひとつのシーズン」に丸めないでください。サイド・ラビットホール・ラッキーボードはロビーアイコン消失前に通貨を使い切る。レガシーと同時育成なら週単位でスタミナ予算を分け、引き継ぎガイドとクエストハブをブックマーク。告知原文と本要約が違えば原文優先です。"
-      ]
-    },
+      ],
+      "img_alt2": "引き継ぎ vs ファウンドリ二択の自作比較図",
+      "img_alt3": "ローンチ・ギルド戦・WA・12/31の自作マイルストーン帯",
+},
     "zh-tw": {
       "title": "Foundry — 日至 12/31、獎勵、公會戰",
       "meta": "Draft、公會戰 2026-11-21、WA 2026-12-10、增益至 12/31。引述 STOVE。",
@@ -1753,8 +1791,10 @@ export const CONTENT = {
         "若你也用 Steam 登入轉換保留原服繼承人，請把兩個角色當成兩套體力池。轉移問題去轉移指南，任務／狩獵循環去任務總覽。維護結束後務必重開 STOVE Foundry 公告（view/14571828）與 Steam 新聞。本日程是公開公告摘要，不是 Smilegate／STOVE 官方介面。日期衝突時以原文公告為準。Foundry 專用匹配 PvP 與登入轉換無關，需要 Foundry 角色。",
         "獎勵與增益數字可能隨改版變動，只記「大約」框架，細節表跟 STOVE。公會戰獎勵窗放在慶祝區間內消化，但花資源前再查即時公告。epicsevensteam.com 為非官方資訊站。",
         "把 Foundry 公會戰章節的清單實際寫進日曆可減少失誤：11/21 前完成入會、別堆每日公會、先訂攻防核心裝備下限。12/10 世界競技場線與 12/31 增益結束框架是兩件事，別併成「同一個賽季」。支線、兔子洞、幸運盤在大廳圖示消失前把貨幣用完。若同時練原服，按週拆體力預算，並收藏轉移指南與任務總覽。公告原文與本摘要衝突時以原文為準。"
-      ]
-    }
+      ],
+      "img_alt2": "轉移與 Foundry 兩決策對比自繪圖",
+      "img_alt3": "上架、公會戰、WA、12/31 Foundry 里程碑自繪條",
+}
   },
   "/secret-rabbit-hole/": {
     "en": {
@@ -2346,8 +2386,13 @@ export const CONTENT = {
       "deep_h2": "Build pacing tips",
       "deep": [
         "Prioritize specialty-change supports and a farmer before every banner; Foundry buffs change pacing, not the role checklist."
-      ]
-    },
+      ],
+      "img_alt2": "Self-drawn on-site hero group cards: starter, specialty supports, farmer",
+      "img_alt3": "Self-drawn role focus bars schematic for early accounts",
+      "img_alt4": "Self-drawn early build order: story, heal/cleanse, def-break, farmer",
+      "onsite_h2": "On-site role notes (not a wiki mirror)",
+      "onsite": "This page keeps grouping cards and build-order diagrams here — community-oriented summaries with outbound wiki links only as optional depth. Verify kits and banners in the live client and STOVE / Steam notices. We do not host official splash art or sell accounts.",
+},
     "ko": {
       "title": "Epic Seven 영웅 — 초보·인기 빠른 참고",
       "meta": "초보·인기 영웅 10명의 포지션/속성/한줄평 + 위키 링크. 비공식. Smilegate 아님.",
@@ -2404,8 +2449,13 @@ export const CONTENT = {
         "초반 촉매는 PvE 관문을 부드럽게 여는 전직 지원에 쓰고, 한정 배너를 모두 쫓기 전에 파머 장비부터 맞추세요. 파운드리 무료 소환은 획득 경로를 바꿀 뿐 필요한 역할 체크리스트 자체를 바꾸지 않습니다. 튜토리얼 주력은 스토리 진행에 충분하면 자원 투입을 줄이고, 힐/정화/방깎/단일 딜 공백을 먼저 메우세요. 수치와 스킬 배율은 인게임 툴팁과 커뮤니티 위키를 교차 확인하되, 위키는 비공식입니다. 배너 일정은 STOVE와 본 사이트 배너/업데이트 페이지를 따르세요.",
         "파운드리와 레거시를 동시에 키울 때는 스테미나·촉매를 나누어 계획하세요. 어느 서버든 「한 명의 완성 딜러」보다 「안정 파머 + 전직 지원」이 초반 장비 루프를 만듭니다. 본 허브는 순위표가 아니라 온보딩 렌즈입니다.",
         "표의 각 행은 「지금 바로 풀돌」 명령이 아닙니다. 촉매·전달 재료·북마크 예산에 맞춰 한 명씩 완성도를 올리면 스테미나 낭비가 줄어듭니다. 속성 반전 컨텐츠를 앞두고 있다면 파머 속성을 먼저 맞추고, PvP를 급하게 보지 마세요. 커뮤니티 티어 목록은 패치마다 흔들리므로 본 허브의 역할 체크(힐/정화/방깎/파머)만 고정 앵커로 두세요. 배너에서 신규 영웅을 얻어도 장비 없는 상태로 아레나에 넣기보다 사냥 루프에 편입할지를 먼저 판단하세요."
-      ]
-    },
+      ],
+      "img_alt2": "스타터·전직 서포트·파머 그룹 카드 자작도",
+      "img_alt3": "초반 계정용 역할 포커스 바 자작 모식도",
+      "img_alt4": "스토리→힐/정화→방어 감소→파머 초반 순서 자작도",
+      "onsite_h2": "사이트 내 역할 메모(위키 미러 아님)",
+      "onsite": "본 페이지는 그룹 카드와 육성 순서도를 사이트 안에 둡니다. 위키 링크는 선택적 심화용이며, 키트·배너는 인게임과 STOVE/Steam 공지로 확인하세요. 공식 스플래시 아트를 호스팅하거나 계정을 판매하지 않습니다.",
+},
     "ja": {
       "title": "Epic Seven英雄 — 初心者・人気クイック",
       "meta": "初心者向け・人気英雄10体の役割/属性/一言＋Wikiリンク。非公式。Smilegateではありません。",
@@ -2456,8 +2506,13 @@ export const CONTENT = {
         "序盤触媒はPvE関門を楽にする特化変更サポートへ回し、全限定バナーを追う前にファーマー装備を整えましょう。ファウンドリ無料召喚は入手経路を変えるだけで、必要な役割チェック自体は変えません。チュートリアル主力はストーリー進行に足りれば投資を抑え、回復/浄化/防ダウン/単体火力の穴を先に埋めます。数値・倍率はゲーム内ツールチップとコミュニティWikiで突合し、Wikiは非公式です。バナー日程はSTOVEと当サイトのバナー/更新頁に従ってください。",
         "ファウンドリとレガシーを同時育成するならスタミナ・触媒を分けて計画。どの鯖でも「完成ディーラー一人」より「安定ファーマー＋特化変更サポート」が序盤装備ループを作ります。本ハブはランキングではなく導入レンズです。",
         "表の各行は「今すぐフル育成」命令ではありません。触媒・伝達素材・ブックマーク予算に合わせて一人ずつ完成度を上げるとスタミナ浪費が減ります。属性逆コンテンツが近いなら先にファーマー属性を合わせ、PvPを急がない。コミュニティティア表はパッチで揺れるので、本ハブの役割チェック（回復/浄化/防ダウン/ファーマー）だけを固定アンカーに。バナーで新英雄を得ても装備なしでアリーナ投入より、ハントループに入れるかを先に判断してください。"
-      ]
-    },
+      ],
+      "img_alt2": "スターター・専改サポ・ファーマーの自作グループカード",
+      "img_alt3": "序盤向けロール重点バーの自作模式図",
+      "img_alt4": "ストーリー→回復/浄化→防御ダウン→ファーマーの自作順序図",
+      "onsite_h2": "サイト内ロールメモ（Wikiミラーではない）",
+      "onsite": "本頁はグループカードと育成順序図をサイト内に置きます。Wikiリンクは任意の深掘り用。キット・バナーはゲーム内とSTOVE/Steam告知で確認。公式スプラッシュや垢販売は扱いません。",
+},
     "zh-tw": {
       "title": "Epic Seven 英雄 — 新手與熱門速查",
       "meta": "10 名新手友善／熱門英雄：定位、屬性、短評＋ wiki 連結。非官方。非 Smilegate。",
@@ -2502,8 +2557,13 @@ export const CONTENT = {
         "前期催化劑優先給能打通 PvE 關卡的專職變更輔助，追所有限定卡池前先把刷圖角裝備做好。Foundry 免費召喚只改變取得路徑，不改你需要的職業清單。教學主力養到能推劇情即可減投資，先補治療／淨化／破防／單體輸出缺口。數值與倍率請交叉遊戲內提示與社群 wiki（非官方）。卡池時程跟 STOVE 與本站卡池／更新頁。",
         "若同時練 Foundry 與原服，請拆分體力與催化劑。「一個成型輸出」不如「穩定刷圖＋專職變更輔助」更能打開前期裝備循環。本頁是上手視角不是排行榜。",
         "表上每一列不是「立刻滿配」指令。依催化劑、傳遞材料與書籍預算逐個提高完成度，較省體力。若即將打逆屬內容，先對齊刷圖屬性，別急著 PvP。社群梯隊表隨改版波動，請只把本頁的職業檢查（治療／淨化／破防／刷圖）當固定錨點。卡池抽到新英雄時，先想能否進狩獵循環，而不是沒裝備就丟競技場。"
-      ]
-    }
+      ],
+      "img_alt2": "新手核心／專職輔助／刷圖手分組卡自繪圖",
+      "img_alt3": "前期帳號定位重點條自繪示意",
+      "img_alt4": "劇情→治療淨化→破防→刷圖手早期順序自繪圖",
+      "onsite_h2": "站內定位說明（非 wiki 鏡像）",
+      "onsite": "本頁把分組卡與養成順序圖放在站內；wiki 連結僅作可選深讀。技能與卡池請以遊戲內與 STOVE／Steam 公告為準。本站不托管官立繪、不賣帳號。",
+}
   },
   "/quests/": {
     "en": {
@@ -2580,8 +2640,10 @@ export const CONTENT = {
       "link_rabbit": "Secret Rabbit♥Hole",
       "link_foundry": "Foundry calendar",
       "deep_h2": "Stamina routing",
-      "deep": [ "Clear timed lobby currencies first, then hunts. Foundry and legacy quest checkmarks stay separate after transfer." ]
-    },
+      "deep": [ "Clear timed lobby currencies first, then hunts. Foundry and legacy quest checkmarks stay separate after transfer." ],
+      "img_alt2": "Self-drawn Foundry vs legacy quest delta comparison",
+      "img_alt3": "Self-drawn quest priority strip: timed currency, dailies, hunt, weekly",
+},
     "ko": {
       "title": "Epic Seven 퀘스트 — 메인·일일·주간",
       "meta": "Steam/파운드리 기준 메인·일일·주간·이벤트 퀘스트 비공식 개요. 기간 이벤트는 STOVE 인용.",
@@ -2633,8 +2695,10 @@ export const CONTENT = {
         "축하 이벤트가 겹치면 시한 로비 재화부터 처리한 뒤 남은 AP를 아직 필요한 사냥에 쏟으세요. 로그인 이전 후에도 파운드리와 레거시는 미션 체크를 공유하지 않습니다. 일일 루프는 우편→이벤트 일일→친밀도/아레나→사냥 순이 충돌이 적고, 주간은 리셋 직전에 몰아치지 않도록 평일에 분산하세요. 길드전 해금 전 주에는 길드 미션을 밀려 두지 않는 편이 안전합니다. 타이머는 항상 클라이언트/STOVE를 따르고 본 비공식 요약보다 우선합니다.",
         "레거시만 하는 계정은 파운드리 전용 미션을 무시해도 됩니다. 반대로 파운드리 온보딩이면 레거시 주간을 억지로 맞출 필요가 없습니다. 두 캐릭을 키울 때만 스테미나 예산을 명시적으로 나누세요. 이벤트 아이콘이 사라지기 전에 교환 상점 재화를 소진하는 습관이 손실을 줄입니다.",
         "주간 리셋이 월요일 경계든 다른 경계든, 클라이언트에 표시된 남은 시간을 스크린샷으로 남기면 논쟁이 줄어듭니다. 이벤트 허브 재화는 「나중에」가 곧 소멸인 경우가 많으니 교환 상점 우선순위를 미리 적어 두세요. 파운드리 전용 미션이 안 보이면 레거시 캐릭으로 접속 중인지 확인하고, 반대로 레거시 주간이 안 보이면 서버를 다시 고르세요. 본 페이지의 순서는 권장 루틴일 뿐 강제 숙제가 아닙니다."
-      ]
-    },
+      ],
+      "img_alt2": "파운드리 vs 레거시 퀘스트 차이 자작 비교도",
+      "img_alt3": "기간 통화·일일·사냥·주간 우선순위 자작 스트립",
+},
     "ja": {
       "title": "Epic Sevenクエスト — メイン/デイリー/ウィークリー",
       "meta": "Steam/ファウンドリ向けメイン・毎日・毎週・イベントクエストの非公式概要。期間はSTOVE引用。",
@@ -2676,8 +2740,10 @@ export const CONTENT = {
         "お祝いイベントが重なったら期限付きロビー通貨を先に処理し、残APをまだ必要なハントへ。ログイン引き継ぎ後もファウンドリとレガシーはミッション打点を共有しません。日次はメール→イベント日次→親密度/アリーナ→ハントの順が衝突しにくく、週次はリセット直前に詰め込まず平日に分散。ギルド戦解禁前の週はギルドミッションを溜めない方が安全。タイマーは常にクライアント/STOVE優先で、本非公式要約より上です。",
         "レガシーのみのアカはファウンドリ専用ミッションを無視してよい。逆にファウンドリ導入中ならレガシー週次を無理に合わせる必要はありません。二キャラ育成時だけスタミナ予算を明示的に分ける。イベントアイコン消失前に交換通貨を使い切る習慣が損失を減らします。",
         "週次リセットが月曜境界でも別境界でも、クライアント表示の残り時間をスクショすると議論が減ります。イベントハブ通貨は「あとで」が消滅になりがちなので交換優先度を先にメモ。ファウンドリ専用ミッションが見えないならレガシーキャラでログインしていないか確認し、逆にレガシー週次が見えないなら鯖選択を見直す。本頁の順序は推奨ルーチンであり強制宿題ではありません。"
-      ]
-    },
+      ],
+      "img_alt2": "ファウンドリ vs 既存クエスト差の自作比較図",
+      "img_alt3": "期限通貨・デイリー・ハント・週次の自作優先帯",
+},
     "zh-tw": {
       "title": "Epic Seven 任務 — 主線／每日／每週",
       "meta": "Steam／Foundry 主線、每日、每週與活動任務非官方概要。有期限活動引述 STOVE。",
@@ -2719,8 +2785,10 @@ export const CONTENT = {
         "慶祝活動重疊時，先清有時限的大廳貨幣，再把剩餘體力丟進仍缺的狩獵。登入轉移後 Foundry 與原服仍不共用任務勾選。每日建議：信箱→活動每日→好感／競技場→狩獵；週任不要堆到重置前一夜。公會戰解鎖前一週別積壓公會任務。計時永遠以客戶端／STOVE 為準，高於本非官方摘要。",
         "只玩原服可忽略 Foundry 專屬任務；只開 Foundry 也不必硬湊原服週任。兩角同練才需要明確拆體力預算。活動圖示消失前把兌換貨幣用完，可減少損失。",
         "無論週重置是週一邊界或其他邊界，把客戶端顯示的剩餘時間截圖可減少爭議。活動入口貨幣常常「之後再說」就過期，請先寫下兌換優先順序。看不到 Foundry 專屬任務時，確認是否登在原服角色；反之看不到原服週任就重選伺服器。本頁順序只是建議節奏，不是強制作業。"
-      ]
-    }
+      ],
+      "img_alt2": "Foundry 與舊服任務差異自繪對比圖",
+      "img_alt3": "限時貨幣、每日、狩獵、每週優先自繪條",
+}
   }
 } as const;
 
