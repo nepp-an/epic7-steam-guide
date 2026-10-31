@@ -1028,11 +1028,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ & Troubleshooting | Independent Guide",
       "meta": "Expanded FAQ: launch issues, transfer, Foundry, demo risks, anti-cheat. Independent guide with official links.",
       "h1": "FAQ & troubleshooting",
+      "answer": "This page expands the homepage FAQ. A wrong bind or a brand-new Heir starts on the transfer guide: withdraw the empty Steam link, then convert the original login. Foundry is a separate new server, not an account or server transfer. In-game delete after conversion can wipe legacy progress, so read the demo warning before you reinstall. Anti-cheat and launch failures are covered in Steam notes. This is an unofficial info site; STOVE and Steam stay authoritative.",
+      "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
       "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
           "Steam opens a brand-new Heir — where is my old account?",
-          "Steam likely created a new Steam-linked STOVE login. Withdraw that new account, then convert your original. See transfer guide · STOVE FAQ."
+          "Steam likely created a new Steam-linked STOVE login. Withdraw that new account, then convert your original. See the [[transfer guide|/steam-transfer/]] (/steam-transfer/) · [[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -1040,11 +1042,11 @@ export const CONTENT = {
         ],
         [
           "Is Guild War live on Foundry yet?",
-          "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE. World Arena: 2026-12-10. See Foundry page."
+          "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE. World Arena: 2026-12-10. See the [[Foundry calendar|/foundry/]] (/foundry/)."
         ],
         [
           "Game will not start / anti-cheat error",
-          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS."
+          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/)."
         ],
         [
           "Are Steam prices different from mobile?",
@@ -1052,7 +1054,7 @@ export const CONTENT = {
         ],
         [
           "Demo ended — do I need to reinstall?",
-          "Install/update the full Steam release from the store page. Account state depends on whether you converted login — read demo warning."
+          "Install/update the full Steam release from the [[Download / store entry|/download/]] (/download/). Account state depends on whether you converted login — read the [[demo delete warning|/demo-delete-warning/]] (/demo-delete-warning/)."
         ]
       ],
       "check_h2": "Short troubleshooting checklist",
@@ -1069,14 +1071,16 @@ export const CONTENT = {
       "title": "FAQ·문제 해결 — Epic Seven Steam",
       "meta": "런칭 이슈·이전·파운드리·데모 위험·안티치트 FAQ. 공식 링크 포함 비공식 가이드.",
       "h1": "FAQ·문제 해결",
+      "answer": "이 페이지는 홈 FAQ를 보강합니다. 잘못된 연동이나 새 후계자는 이전 가이드에서 시작하세요. 빈 Steam 연동을 탈퇴한 뒤 원래 로그인을 전환합니다. Foundry는 계정 이전이나 서버 이전이 아니라 별도 신서버입니다. 전환 후 게임 내 삭제는 기존 진행을 지울 수 있으니 재설치 전에 데모 삭제 경고를 읽으세요. 안티치트와 실행 실패는 Steam 안내를 보세요. 이곳은 비공식 정보 사이트이며, 기준은 STOVE와 Steam입니다.",
+      "img_alt": "비공식 FAQ 흐름도: 잘못된 연동 후 탈퇴하고 이어서 전환",
       "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
       "faqs": [
-        [ "Steam에 새 후계자가 뜹니다 — 옛 계정은?", "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. 이전 가이드·STOVE FAQ." ],
+        [ "Steam에 새 후계자가 뜹니다 — 옛 계정은?", "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. [[이전 가이드|/steam-transfer/]](/steam-transfer/) · [[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]." ],
         [ "Steam 파운드리를 모바일에서도?", "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음." ],
-        [ "파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC. 월드 아레나: 2026-12-10. 파운드리 페이지." ],
-        [ "실행 안 됨 / 안티치트 오류", "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만." ],
+        [ "파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC. 월드 아레나: 2026-12-10. [[파운드리 일정|/foundry/]](/foundry/)." ],
+        [ "실행 안 됨 / 안티치트 오류", "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/)." ],
         [ "Steam 가격이 모바일과 다른가?", "FAQ상 플랫폼 간 가격 차 없음. 그래도 지역 상점 UI를 비교." ],
-        [ "데모 종료 — 재설치?", "스토어에서 정식 빌드 설치/업데이트. 계정 상태는 전환 여부에 따라 — 데모 주의." ]
+        [ "데모 종료 — 재설치?", "스토어에서 정식 빌드 설치/업데이트. [[다운로드 / 상점 입구|/download/]](/download/). 계정 상태는 전환 여부에 따라 — [[데모 삭제 경고|/demo-delete-warning/]](/demo-delete-warning/)." ]
       ],
       "check_h2": "짧은 점검 목록",
       "checks": [ "공식 Steam app 5019180인지 확인.", "Steam이 쓰는 STOVE 로그인 확인.", "STOVE 점검/파운드리 배너 확인.", "Steam 로그인 전환 후 인게임 삭제 금지.", "그래도 안 되면 STOVE 공식 CS." ],
@@ -1086,14 +1090,16 @@ export const CONTENT = {
       "title": "FAQ・トラブルシュート — Epic Seven Steam",
       "meta": "起動不具合・引き継ぎ・ファウンドリ・デモリスク・アンチチート。公式リンク付き非公式ガイド。",
       "h1": "FAQ・トラブルシュート",
+      "answer": "このページはホームFAQを補います。誤連携や新しい継承者は引き継ぎガイドから確認してください。空のSteam連携を退会してから、元のログインを変換します。ファウンドリはアカウント引き継ぎやサーバー移転ではなく、別の新サーバーです。変換後のゲーム内削除は旧進行を消すことがあるので、再導入の前にデモ削除の注意を読んでください。アンチチートと起動失敗はSteamメモを参照します。当サイトは非公式の情報サイトで、正本はSTOVEとSteamです。",
+      "img_alt": "非公式FAQフロー図：誤連携のあと退会し、続けて変換",
       "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。",
       "faqs": [
-        [ "Steamが新人継者になる — 旧アカは？", "Steam連携STOVE新規の可能性。退会後に本アカ変換。引き継ぎガイド・FAQ。" ],
+        [ "Steamが新人継者になる — 旧アカは？", "Steam連携STOVE新規の可能性。退会後に本アカ変換。[[引き継ぎガイド|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
         [ "Steamファウンドリをモバイルでも？", "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。" ],
-        [ "ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC。WA：2026-12-10。ファウンドリ頁。" ],
-        [ "起動しない／アンチチート", "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。" ],
+        [ "ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC。WA：2026-12-10。[[ファウンドリ日程|/foundry/]]（/foundry/）。" ],
+        [ "起動しない／アンチチート", "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。" ],
         [ "Steam価格はモバイルと違う？", "FAQ上プラットフォーム差なし。それでも地域ショップUIを比較。" ],
-        [ "デモ終了 — 再導入？", "ストアから正式版を導入/更新。アカ状態は変換有無次第 — デモ注意。" ]
+        [ "デモ終了 — 再導入？", "ストアから正式版を導入/更新。[[ダウンロード／ストア入口|/download/]]（/download/）。アカ状態は変換有無次第 — [[デモ削除の注意|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
       ],
       "check_h2": "短いチェックリスト",
       "checks": [ "公式Steam app 5019180か確認。", "Steamが使うSTOVEログインを確認。", "STOVEメンテ／ファウンドリバナー。", "Steamログイン変換後のゲーム内削除禁止。", "ダメならSTOVE公式CS。" ],
@@ -1103,14 +1109,16 @@ export const CONTENT = {
       "title": "FAQ 與疑難排解 — Epic Seven Steam",
       "meta": "啟動問題、轉移、Foundry、試玩風險、反作弊 FAQ。附官方連結之非官方指南。",
       "h1": "FAQ 與疑難排解",
+      "answer": "本頁補首頁 FAQ。錯綁或全新繼承人請先看轉移指南：先註銷空白 Steam 連結，再轉換原本登入。Foundry 是另一個新伺服器，不是帳號轉移或轉服。轉換後遊戲內刪號可能清掉舊進度，重裝前請先讀試玩刪號警告。反作弊與啟動問題見 Steam 說明。本站是非官方資訊站，以 STOVE 與 Steam 為準。",
+      "img_alt": "非官方 FAQ 流程圖：錯綁後先註銷，再轉換",
       "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。",
       "faqs": [
-        [ "Steam 開到全新繼承人——舊帳呢？", "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見轉移指南·STOVE FAQ。" ],
+        [ "Steam 開到全新繼承人——舊帳呢？", "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見[[轉移指南|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
         [ "Steam 的 Foundry 能在手機繼續嗎？", "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。" ],
-        [ "Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC。WA：2026-12-10。見 Foundry 頁。" ],
-        [ "無法啟動／反作弊錯誤", "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。" ],
+        [ "Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC。WA：2026-12-10。見[[Foundry 日程|/foundry/]]（/foundry/）。" ],
+        [ "無法啟動／反作弊錯誤", "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。" ],
         [ "Steam 價格與手機不同？", "FAQ 稱平台無差價。仍請比對你區商店 UI。" ],
-        [ "試玩結束——要重裝？", "從商店安裝／更新正式版。帳號狀態視是否已轉換——見試玩警告。" ]
+        [ "試玩結束——要重裝？", "從商店安裝／更新正式版。[[下載／商店入口|/download/]]（/download/）。帳號狀態視是否已轉換——見[[試玩刪號警告|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
       ],
       "check_h2": "短檢查清單",
       "checks": [ "確認官方 Steam app 5019180。", "確認 Steam 使用的 STOVE 登入。", "查看 STOVE 維護／Foundry 橫幅。", "Steam 登入轉換後禁止遊戲內刪號。", "仍卡住 → STOVE 官方客服。" ],
