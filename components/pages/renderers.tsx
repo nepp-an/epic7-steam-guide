@@ -275,6 +275,48 @@ function FaqBlock({
   );
 }
 
+/**
+ * FAQ hub answers may mark one phrase as a link: [[label|/path/]] or
+ * [[label|https://…]]. Visible text drops the markup; JSON-LD uses the same
+ * plain string (paths stay as text, not HTML).
+ */
+function faqPlain(marked: string): string {
+  return marked.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1');
+}
+
+function FaqRich({ locale, marked }: { locale: Locale; marked: string }) {
+  const nodes: React.ReactNode[] = [];
+  const re = /\[\[([^|\]]+)\|([^\]]+)\]\]/g;
+  let last = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(marked))) {
+    if (match.index > last) {
+      nodes.push(<span key={key++}>{marked.slice(last, match.index)}</span>);
+    }
+    const label = match[1];
+    const href = match[2];
+    if (href.startsWith('https://') || href.startsWith('http://')) {
+      nodes.push(
+        <ExternalLink key={key++} href={href}>
+          {label}
+        </ExternalLink>,
+      );
+    } else {
+      nodes.push(
+        <L key={key++} locale={locale} href={href}>
+          {label}
+        </L>,
+      );
+    }
+    last = match.index + match[0].length;
+  }
+  if (last < marked.length) {
+    nodes.push(<span key={key++}>{marked.slice(last)}</span>);
+  }
+  return <p>{nodes}</p>;
+}
+
 
 export function HomeView({ locale }: { locale: Locale }) {
   const c = CONTENT['/'][locale];
@@ -795,7 +837,7 @@ export function FaqView({ locale }: { locale: Locale }) {
     mainEntity: c.faqs.map(([q, a]) => ({
       '@type': 'Question',
       name: q,
-      acceptedAnswer: { '@type': 'Answer', text: a },
+      acceptedAnswer: { '@type': 'Answer', text: faqPlain(a) },
     })),
   };
   return (
@@ -806,12 +848,18 @@ export function FaqView({ locale }: { locale: Locale }) {
       />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <QuickAnswer text={c.answer} />
+      <Fig
+        src="/images/diagram-transfer-decision.webp"
+        alt={c.img_alt}
+        credit="Unofficial FAQ flowchart · wrong bind, withdraw, then convert"
+      />
       <p>{c.lead}</p>
       <section className="faq">
         {c.faqs.map(([q, a]) => (
           <details key={q}>
             <summary>{q}</summary>
-            <p>{a}</p>
+            <FaqRich locale={locale} marked={a} />
           </details>
         ))}
       </section>
