@@ -384,13 +384,13 @@ export const CONTENT = {
         "Decide whether you need existing progress. If yes, convert STOVE email/SNS → Steam login first (transfer guide).",
         "If the Steam demo already spawned a throwaway account, resolve that conflict before converting — see transfer + demo warning.",
         "Expect kernel-level anti-cheat (UNCHEATER) prompts — details on Steam notes. Corporate PCs may block launch.",
-        "New-server players: read Foundry calendar through 12/31 and Secret Rabbit♥Hole.",
+        "New-server players: read [[Foundry calendar|/foundry/]] through 12/31 and [[Secret Rabbit♥Hole|/secret-rabbit-hole/]].",
         "Minimum specs (Steam): Win10 64-bit, i5-class CPU, 8GB RAM, GTX 1060-class GPU, ~10GB free. Recommended 16GB / GTX 1660-class."
       ],
       "after_h2": "After install checklist",
       "after": [
         "Confirm which STOVE login Steam is using before spending currency.",
-        "Foundry vs legacy: transferring login does not move an old character onto Foundry — Foundry is a separate server.",
+        "Foundry vs legacy: transferring login does not move an old character onto [[Foundry|/foundry/]] — Foundry is a separate server. See the [[transfer guide|/steam-transfer/]].",
         "Wishlist / launch mails on Foundry are time-gated — claim from mailbox before expiry."
       ],
       "refs_h2": "Official launch references",
@@ -407,7 +407,7 @@ export const CONTENT = {
         ],
         [
           "Does the Steam demo affect my real account?",
-          "Misusing in-game deletion after a successful Steam login transfer can wipe original-server data — read the demo warning and STOVE post."
+          "Misusing in-game deletion after a successful Steam login transfer can wipe original-server data — read the demo warning and STOVE post. [[demo delete warning|/demo-delete-warning/]] (/demo-delete-warning/)."
         ]
       ]
     },
@@ -422,11 +422,11 @@ export const CONTENT = {
         "기존 진행도가 필요하면 먼저 STOVE에서 이메일/SNS→Steam 전환(이전 가이드).",
         "데모가 이미 임시 계정을 만들었다면 전환 전에 충돌을 해소 — 이전 + 데모 주의.",
         "커널급 안티치트(UNCHEATER) 안내 가능 — Steam 안내 페이지. 회사 PC는 실행이 막힐 수 있음.",
-        "신서버: 파운드리 캘린더(12/31까지)와 Secret Rabbit♥Hole 확인.",
+        "신서버: [[파운드리 캘린더|/foundry/]](12/31까지)와 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]] 확인.",
         "최소 사양(Steam): Win10 64비트, i5급, RAM 8GB, GTX 1060급, 약 10GB. 권장 16GB / GTX 1660급."
       ],
       "after_h2": "설치 후 체크",
-      "after": [ "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.", "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 파운드리로 옮겨지지 않음 — 별도 서버.", "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령." ],
+      "after": [ "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.", "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 [[파운드리|/foundry/]]로 옮겨지지 않음 — 별도 서버. [[이전 가이드|/steam-transfer/]]를 확인하세요.", "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령." ],
       "refs_h2": "공식 런칭 참고",
       "related_h2": "관련 허브",
       "answer": "Epic Seven은 공식 Steam 스토어(app 5019180)에서만 받으세요. 기존 진행도가 있으면 설치·플레이 전에 STOVE→Steam 전환을, 데모 삭제 경고도 확인하세요.",
@@ -436,7 +436,7 @@ export const CONTENT = {
       "faqs": [
         [ "안전한 다운로드 위치는?", "store.steampowered.com/app/5019180 만 — 본 사이트는 설치파일·그레이 코드를 호스팅하지 않습니다." ],
         [ "설치 전 전환이 필요한가요?", "옛 진행도가 중요하면 새 Steam 캐릭에 의존하기 전에 STOVE 로그인을 Steam으로 전환하세요." ],
-        [ "데모가 본 계정에 영향?", "Steam 로그인 전환 후 인게임 삭제를 잘못 쓰면 원 서버 데이터가 지워질 수 있음 — 데모 경고·STOVE 공지." ]
+        [ "데모가 본 계정에 영향?", "Steam 로그인 전환 후 인게임 삭제를 잘못 쓰면 원 서버 데이터가 지워질 수 있음 — 데모 경고·STOVE 공지. [[데모 삭제 경고|/demo-delete-warning/]](/demo-delete-warning/)." ]
       ]
     },
     "ja": {
@@ -450,11 +450,11 @@ export const CONTENT = {
         "既存進行が必要なら先にSTOVEでメール/SNS→Steam変換（引き継ぎガイド）。",
         "デモが捨て垢を作済みなら、変換前に衝突を解消 — 引き継ぎ＋デモ注意。",
         "カーネル級アンチチート（UNCHEATER）の可能性 — Steamメモ参照。社用PCは起動不可も。",
-        "新鯖向け：ファウンドリ日程（〜12/31）とSecret Rabbit♥Hole。",
+        "新鯖向け：[[ファウンドリ日程|/foundry/]]（〜12/31）と[[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
         "最低仕様（Steam）：Win10 64bit、i5級、8GB、GTX1060級、約10GB。推奨16GB / GTX1660級。"
       ],
       "after_h2": "導入後チェック",
-      "after": [ "課金前にSteamがどのSTOVEログインか確認。", "ファウンドリと既存：ログイン変換だけでは旧キャラは移らない — 別鯖。", "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。" ],
+      "after": [ "課金前にSteamがどのSTOVEログインか確認。", "[[ファウンドリ|/foundry/]]と既存：ログイン変換だけでは旧キャラは移らない — 別鯖。[[引き継ぎガイド|/steam-transfer/]]を参照。", "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。" ],
       "refs_h2": "公式ローンチ参照",
       "related_h2": "関連ハブ",
       "answer": "Epic Sevenは公式Steamストア（app 5019180）からのみ導入。旧進行が必要なら先にSTOVE→Steam変換し、デモ削除警告も読んでください。",
@@ -464,7 +464,7 @@ export const CONTENT = {
       "faqs": [
         [ "安全な入手先は？", "store.steampowered.com/app/5019180 のみ — 当サイトはインストーラや不正コードを配布しません。" ],
         [ "導入前に変換すべき？", "旧進行が大切なら、新規Steamキャラに頼る前にSTOVEログインをSteamへ変換。" ],
-        [ "デモは本アカに影響する？", "Steamログイン変換後のゲーム内削除の誤用で本鯖データが消える恐れ — デモ注意とSTOVE告知。" ]
+        [ "デモは本アカに影響する？", "Steamログイン変換後のゲーム内削除の誤用で本鯖データが消える恐れ — デモ注意とSTOVE告知。[[デモ削除の注意|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
       ]
     },
     "zh-tw": {
@@ -478,11 +478,11 @@ export const CONTENT = {
         "若要保留舊進度，先在 STOVE 將 Email/SNS 轉 Steam（轉移指南）。",
         "若試玩已建臨時帳，轉換前先處理衝突——見轉移＋試玩警告。",
         "可能出現核心層級反作弊（UNCHEATER）——見 Steam 說明。公司電腦可能無法啟動。",
-        "新服玩家：讀 Foundry 日程（至 12/31）與 Secret Rabbit♥Hole。",
+        "新服玩家：讀 [[Foundry 日程|/foundry/]]（至 12/31）與 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
         "最低規格（Steam）：Win10 64 位、i5 級、8GB、GTX 1060 級、約 10GB。建議 16GB／GTX 1660 級。"
       ],
       "after_h2": "安裝後檢查",
-      "after": [ "消費前確認 Steam 使用哪個 STOVE 登入。", "Foundry 與舊服：僅轉移登入不會把舊角色搬到 Foundry——是不同伺服器。", "Foundry 信箱／願望單獎勵有時限——到期前領取。" ],
+      "after": [ "消費前確認 Steam 使用哪個 STOVE 登入。", "Foundry 與舊服：僅轉移登入不會把舊角色搬到 [[Foundry|/foundry/]]——是不同伺服器。見[[轉移指南|/steam-transfer/]]。", "Foundry 信箱／願望單獎勵有時限——到期前領取。" ],
       "refs_h2": "官方上架參考",
       "related_h2": "相關導覽",
       "answer": "請只從官方 Steam 商店（app 5019180）下載。若要舊進度，先完成 STOVE→Steam 轉換，並閱讀試玩刪號警告。",
@@ -492,7 +492,7 @@ export const CONTENT = {
       "faqs": [
         [ "安全下載在哪？", "僅 store.steampowered.com/app/5019180——本站不提供安裝檔或灰產序號。" ],
         [ "安裝前要先轉移嗎？", "若在意舊進度，勿依賴全新 Steam 角色前，先把 STOVE 登入轉 Steam。" ],
-        [ "試玩會影響本帳嗎？", "Steam 登入轉換後誤用遊戲內刪號可能清掉原服資料——見試玩警告與 STOVE 公告。" ]
+        [ "試玩會影響本帳嗎？", "Steam 登入轉換後誤用遊戲內刪號可能清掉原服資料——見試玩警告與 STOVE 公告。[[試玩刪號警告|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
       ]
     }
   },

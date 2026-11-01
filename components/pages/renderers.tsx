@@ -284,7 +284,7 @@ function faqPlain(marked: string): string {
   return marked.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1');
 }
 
-function FaqRich({ locale, marked }: { locale: Locale; marked: string }) {
+function richParts(locale: Locale, marked: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
   const re = /\[\[([^|\]]+)\|([^\]]+)\]\]/g;
   let last = 0;
@@ -314,7 +314,15 @@ function FaqRich({ locale, marked }: { locale: Locale; marked: string }) {
   if (last < marked.length) {
     nodes.push(<span key={key++}>{marked.slice(last)}</span>);
   }
-  return <p>{nodes}</p>;
+  return nodes;
+}
+
+function FaqRich({ locale, marked }: { locale: Locale; marked: string }) {
+  return <p>{richParts(locale, marked)}</p>;
+}
+
+function RichInline({ locale, marked }: { locale: Locale; marked: string }) {
+  return <>{richParts(locale, marked)}</>;
 }
 
 
@@ -544,11 +552,19 @@ export function HomeView({ locale }: { locale: Locale }) {
   );
 }
 
+const DOWNLOAD_FOUNDRY_LABEL: Record<Locale, string> = {
+  en: 'Foundry calendar',
+  ko: '파운드리 캘린더',
+  ja: 'ファウンドリ日程',
+  'zh-tw': 'Foundry 日程',
+};
+
 export function DownloadView({ locale }: { locale: Locale }) {
   const c = CONTENT['/download/'][locale];
+  const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
   return (
     <PageShell locale={locale} path="/download/">
-      <FaqJsonLd faqs={c.faqs} />
+      <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
@@ -571,13 +587,17 @@ export function DownloadView({ locale }: { locale: Locale }) {
       <h2>{c.before_h2}</h2>
       <ol className="steps">
         {c.steps.map((s) => (
-          <li key={s.slice(0, 24)}>{s}</li>
+          <li key={s.slice(0, 24)}>
+            <RichInline locale={locale} marked={s} />
+          </li>
         ))}
       </ol>
       <h2>{c.after_h2}</h2>
       <ul>
         {c.after.map((s) => (
-          <li key={s.slice(0, 24)}>{s}</li>
+          <li key={s.slice(0, 24)}>
+            <RichInline locale={locale} marked={s} />
+          </li>
         ))}
       </ul>
       <h2>{c.refs_h2}</h2>
@@ -592,7 +612,15 @@ export function DownloadView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveSteamFaq}>Steam FAQ</ExternalLink>
         </li>
       </ul>
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <section className="faq">
+        <h2>{c.faq_h2}</h2>
+        {c.faqs.map(([q, a]) => (
+          <details key={q}>
+            <summary>{q}</summary>
+            <FaqRich locale={locale} marked={a} />
+          </details>
+        ))}
+      </section>
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
@@ -608,6 +636,11 @@ export function DownloadView({ locale }: { locale: Locale }) {
         <li>
           <L locale={locale} href="/steam-notes/">
             Steam notes
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/foundry/">
+            {DOWNLOAD_FOUNDRY_LABEL[locale]}
           </L>
         </li>
       </ul>
