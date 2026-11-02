@@ -325,6 +325,12 @@ function RichInline({ locale, marked }: { locale: Locale; marked: string }) {
   return <>{richParts(locale, marked)}</>;
 }
 
+const GW_LINK: Record<Locale, string> = {
+  en: 'Guild War on Foundry',
+  ko: '파운드리 길드전',
+  ja: 'ファウンドリのギルド戦',
+  'zh-tw': 'Foundry 公會戰',
+};
 
 export function HomeView({ locale }: { locale: Locale }) {
   const c = CONTENT['/'][locale];
@@ -457,6 +463,10 @@ export function HomeView({ locale }: { locale: Locale }) {
             <L locale={locale} href="/foundry/">
               →
             </L>{' '}
+            <L locale={locale} href="/foundry/#guild-war">
+              {GW_LINK[locale]}
+            </L>
+            {' · '}
             <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE</ExternalLink>
           </p>
         </div>
@@ -650,13 +660,17 @@ export function DownloadView({ locale }: { locale: Locale }) {
 
 export function TransferView({ locale }: { locale: Locale }) {
   const c = CONTENT['/steam-transfer/'][locale];
+  const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
   return (
     <PageShell locale={locale} path="/steam-transfer/">
-      <FaqJsonLd faqs={c.faqs} />
+      <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <LastVerified copy={TRANSFER_VERIFIED[locale]} />
-      <QuickAnswer text={c.answer} />
+      <p className="quick-answer">
+        <strong>TL;DR — </strong>
+        <RichInline locale={locale} marked={c.answer} />
+      </p>
       <Fig
         src="/images/diagram-transfer.webp"
         alt={c.img_alt}
@@ -726,6 +740,16 @@ export function TransferView({ locale }: { locale: Locale }) {
         </L>
         .
       </p>
+      <p>
+        <RichInline locale={locale} marked={c.vs_more} />
+      </p>
+      <ol className="steps">
+        {c.vs_steps.map((s) => (
+          <li key={s.slice(0, 40)}>
+            <RichInline locale={locale} marked={s} />
+          </li>
+        ))}
+      </ol>
       <h2>{c.cross_h2}</h2>
       <ul>
         <li>{c.cross[0]}</li>
@@ -749,11 +773,23 @@ export function TransferView({ locale }: { locale: Locale }) {
           <L locale={locale} href="/faq/">
             {c.link_faq}
           </L>
+          ,{' '}
+          <L locale={locale} href="/foundry/#guild-war">
+            {GW_LINK[locale]}
+          </L>
           .
         </li>
       </ul>
       <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <section className="faq">
+        <h2>{c.faq_h2}</h2>
+        {c.faqs.map(([q, a]) => (
+          <details key={q}>
+            <summary>{q}</summary>
+            <FaqRich locale={locale} marked={a} />
+          </details>
+        ))}
+      </section>
       <h2>{c.src_h2}</h2>
       <ul className="sources">
         <li>
@@ -782,7 +818,8 @@ export function DemoView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <h2>TL;DR</h2>
+      <p className="quick-answer">{c.answer}</p>
       <Fig
         src="/images/diagram-demo-delete.webp"
         alt={c.img_alt}
@@ -968,11 +1005,16 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
         .
       </p>
       <h2>{c.sec_h2}</h2>
-      <ul>
+      <p>
+        <RichInline locale={locale} marked={c.sec_prose} />
+      </p>
+      <ol className="steps">
         {c.sec.map((s) => (
-          <li key={s}>{s}</li>
+          <li key={s.slice(0, 48)}>
+            <RichInline locale={locale} marked={s} />
+          </li>
         ))}
-      </ul>
+      </ol>
       <h2>{c.launch_h2}</h2>
       {c.launch.map(([h, body]) => (
         <div key={h} className="card">
@@ -1185,6 +1227,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         </li>
       </ul>
       <DeepBlock h2={c.deep_h2} paras={c.deep} />
+      <p>{c.codes_note}</p>
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
@@ -1774,6 +1817,9 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
+      <p>
+        <RichInline locale={locale} marked={c.foundry_track} />
+      </p>
       <h2>{c.hub_h2}</h2>
       <p>
         {c.hub}{' '}
