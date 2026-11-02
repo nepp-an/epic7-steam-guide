@@ -694,7 +694,7 @@ export const CONTENT = {
   "/steam-transfer/": {
     "en": {
       "title": "STOVE ↔ Steam Transfer Guide (Keep Progress) | E7 Steam",
-      "meta": "Step-by-step independent guide converting Epic Seven STOVE email/SNS for Steam, including demo-account conflict recovery.",
+      "meta": "STOVE→Steam transfer: convert your Epic Seven login to keep progress. Wrong-bind withdraw, demo wipe, and transfer is not Foundry. Unofficial guide.",
       "h1": "STOVE ↔ Steam account transfer",
       "goal": "Goal: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [ "Mobile / STOVE PC account", "Convert login on STOVE", "Steam client login" ],
@@ -733,7 +733,7 @@ export const CONTENT = {
         "Related: demo warning, Steam notes, FAQ hub."
       ],
       "src_h2": "Official sources",
-      "answer": "To keep progress, convert your existing STOVE email/SNS login to Steam Simple Login on STOVE before treating a fresh Steam session as your main account. If Steam already created an empty linked account, withdraw that new STOVE link first, then convert the original — cite the official Steam FAQ. Transfer does not move you onto Foundry; Foundry is a separate server. This site is an unofficial player guide.",
+      "answer": "Steam transfer converts a STOVE to Steam login so you keep progress on the same account. Finish that STOVE to Steam convert, including a wrong-bind withdraw, before you trust a fresh Steam session. Transfer ≠ Foundry — conversion does not start you on the new server; see [[Guild War on Foundry|/foundry/#guild-war]]. This site is an unofficial player guide.",
       "img_alt": "Self-drawn STOVE to Steam transfer steps diagram",
       "faq_h2": "Transfer FAQ",
       "faqs": [
@@ -747,7 +747,7 @@ export const CONTENT = {
         ],
         [
           "Does transfer move me onto Foundry?",
-          "No. Login conversion keeps your existing server progress. Foundry is a separate new server you opt into — see /foundry/."
+          "No. Login conversion keeps your existing server progress. Foundry is a separate new server you opt into — see [[Guild War on Foundry|/foundry/#guild-war]]."
         ],
         [
           "Can deleting a Steam demo account wipe my old progress?",
@@ -792,6 +792,12 @@ export const CONTENT = {
       ],
       "vs_h2": "Transfer vs Foundry",
       "vs": "Account transfer only changes how you log in (email/SNS → Steam Simple Login) and keeps legacy-server progress. Foundry is a separate new server with its own characters, buffs, and PvP schedule — converting login does not move you there. Choose Foundry deliberately after reading the",
+      "vs_more": "If the roster you care about is the legacy Heir — heroes, purchases, and Epic Pass — finish the STOVE email/SNS to Steam Simple Login convert and stay on that server. If you want Foundry celebration buffs and Guild War, create a Foundry character on purpose; conversion does not move the old Heir. Read [[Guild War on Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, about 2026-11-21 03:00 UTC) before you spend the first week there.",
+      "vs_steps": [
+        "Keep legacy progress: on STOVE PC, convert the email or SNS that owns your heroes to Steam Simple Login before you press Play on a fresh Steam session. Follow STOVE Steam FAQ view/14378309, not a third-party binder.",
+        "Foundry fresh start: after Steam is on the login you intend, create a Foundry character for celebration buffs and Guild War. Dates follow STOVE Foundry view/14571828 and Launch view/14606481 — see [[Guild War on Foundry|/foundry/#guild-war]].",
+        "Wrong bind: if Steam shows an empty Heir, withdraw that Steam-linked STOVE account, wait out any holding period the STOVE UI shows, then convert the original. Do not use in-game account deletion (STOVE demo precaution view/14581667)."
+      ],
       "deep_h2": "Why players get stuck (unofficial)",
       "deep": [
         "Most launch-week mistakes are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow withdraw→convert and cite STOVE FAQ / demo precaution."
@@ -801,7 +807,7 @@ export const CONTENT = {
 },
     "ko": {
       "title": "STOVE ↔ Steam 계정 이전 가이드",
-      "meta": "Epic Seven STOVE 이메일/SNS를 Steam용으로 전환하는 비공식 단계 가이드. 데모 계정 충돌 복구 포함.",
+      "meta": "STOVE에서 Steam으로 Epic Seven 로그인을 전환해 진행도를 유지하세요. 잘못된 연동은 탈퇴로 되돌리고, 이전은 Foundry가 아니며 데모 삭제에 주의하세요. 비공식 가이드.",
       "h1": "STOVE ↔ Steam 계정 이전",
       "goal": "목표: Steam 새 세션에 의존하기 전에 STOVE에서 Simple Login(Steam)으로 전환해 기존 진행도를 유지하는 것. 공개 STOVE FAQ를 요약했을 뿐이니 실제 UI와 공지 문구를 반드시 따르세요. 데모/빈 연동 계정이 있으면 탈퇴→전환 순서를 먼저 계획하세요.",
       "diagram": [ "모바일 / STOVE PC 계정", "STOVE에서 로그인 전환", "Steam 클라이언트 로그인" ],
@@ -831,13 +837,13 @@ export const CONTENT = {
         "관련: 데모 주의, Steam 안내, FAQ."
       ],
       "src_h2": "공식 출처",
-      "answer": "진행도를 유지하려면 새 Steam 세션을 본계정처럼 쓰기 전에, STOVE에서 기존 이메일/SNS 로그인을 Steam Simple Login으로 전환하세요. Steam이 이미 빈 연동 계정을 만들었다면 그 새 STOVE 연동을 먼저 탈퇴한 뒤 원 계정을 전환하세요 — 공식 Steam FAQ를 인용·확인하세요. 계정 이전은 파운드리로 옮기지 않습니다. 파운드리는 별도 신서버입니다. 본 사이트는 비공식 플레이어 가이드입니다.",
+      "answer": "Steam 이전은 STOVE에서 Steam으로 로그인을 바꿔 같은 계정의 진행도를 유지하는 절차입니다. 새 Steam 세션을 믿기 전에 STOVE에서 Steam 전환을 끝내고, 잘못된 연동으로 생긴 빈 계정은 먼저 탈퇴하세요. 이전 ≠ Foundry — 로그인 전환만으로 신서버가 시작되지 않으니 [[파운드리 길드전|/foundry/#guild-war]]을 보세요. 본 사이트는 비공식 플레이어 가이드입니다.",
       "img_alt": "STOVE에서 Steam으로 이전하는 비공식 단계 다이어그램",
       "faq_h2": "이전 FAQ",
       "faqs": [
         [ "Steam 전환 시 영웅을 잃나요?", "공식 FAQ상 올바르게 전환하면 진행도·영웅·아이템·결제·에픽패스가 유지됩니다. 실행 전 STOVE 문구를 다시 확인하세요." ],
         [ "Steam이 이미 새 계정을 만들면?", "새 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 로그인을 전환하세요 — 충돌 섹션과 STOVE FAQ를 보세요." ],
-        [ "전환하면 파운드리로 옮겨지나요?", "아니요. 로그인 전환은 기존 서버 진행도를 유지합니다. 파운드리는 별도로 선택하는 신서버입니다 — /foundry/ 참고." ],
+        [ "전환하면 파운드리로 옮겨지나요?", "아니요. 로그인 전환은 기존 서버 진행도를 유지합니다. 파운드리는 별도로 선택하는 신서버입니다 — [[파운드리 길드전|/foundry/#guild-war]]을 보세요." ],
         [
           "Steam 데모 계정 삭제가 옛 진행도를 지울 수 있나요?",
           "공식 STOVE 주의에 따르면 Steam 로그인 전환 후 데모/클라이언트에서 인게임 계정 삭제를 쓰면 원서버 진행도가 지워질 수 있습니다. 이 페이지의 복구 경로를 우선하고, 데모 주의 페이지를 읽은 뒤 STOVE에서 확인하세요. 본 사이트는 비공식 가이드입니다."
@@ -875,6 +881,12 @@ export const CONTENT = {
       ],
       "vs_h2": "계정 이전 vs 파운드리",
       "vs": "계정 이전은 로그인 방식만 바꿉니다(이메일/SNS → Steam Simple Login)며 기존 서버 진행도를 유지합니다. 파운드리는 자체 캐릭터·버프·PvP 일정을 가진 별도 신서버이며, 로그인 전환만으로 옮겨지지 않습니다. 파운드리를 선택하기 전에 다음을 읽으세요:",
+      "vs_more": "남기고 싶은 명단이 레거시 후계자(영웅·결제·에픽패스)라면 STOVE에서 이메일/SNS를 Steam Simple Login으로 전환하고 그 서버에 남으세요. 파운드리 축하 버프와 길드전이 목표면 파운드리 캐릭터를 일부러 만드세요. 전환은 옛 후계자를 옮기지 않습니다. 첫 주를 쓰기 전에 [[파운드리 길드전|/foundry/#guild-war]](STOVE 파운드리 view/14571828, 약 2026-11-21 03:00 UTC)을 읽으세요.",
+      "vs_steps": [
+        "레거시 진행 유지: STOVE PC에서 영웅이 묶인 이메일/SNS를 Steam Simple Login으로 바꾼 뒤에야 새 Steam 세션에서 Play를 누르세요. 제3자 바인더가 아니라 STOVE Steam FAQ view/14378309를 따르세요.",
+        "파운드리 개척: Steam이 의도한 로그인인 뒤에 축하 버프와 길드전용 파운드리 캐릭터를 만드세요. 날짜는 STOVE 파운드리 view/14571828과 런칭 view/14606481을 따릅니다 — [[파운드리 길드전|/foundry/#guild-war]].",
+        "잘못된 연동: Steam에 빈 후계자가 뜨면 그 Steam 연동 STOVE 계정을 탈퇴하고, STOVE UI에 나온 대기 기간을 기다린 뒤 원 로그인을 전환하세요. 인게임 계정 삭제는 쓰지 마세요(STOVE 데모 주의 view/14581667)."
+      ],
       "deep_h2": "플레이어가 막히는 이유(비공식)",
       "deep": [
         "런칭 주간에 공개 FAQ 스레드에서 자주 보이는 막힘은 대개 세 갈래입니다. Steam을 전환 전에 먼저 실행한 경우, 빈 데모 계정을 인게임 삭제로 「정리」하려 한 경우, 계정 이전이 곧 파운드리 입장인 줄 아는 경우입니다. 복구 순서는 항상 같습니다. Steam이 인가한 STOVE 신원을 확인하고, 필요하면 빈 Steam 연동 STOVE 계정을 탈퇴한 뒤, 원래 이메일/SNS 로그인을 전환하세요. 파괴적인 UI를 누르기 전에 STOVE Steam FAQ(view/14378309)와 데모 주의(view/14581667)를 인용·확인하세요. 탈퇴에는 대기 기간이 있을 수 있으니 STOVE 화면과 고객센터 안내를 따릅니다.",
@@ -887,7 +899,7 @@ export const CONTENT = {
 },
     "ja": {
       "title": "STOVE ↔ Steam引き継ぎガイド",
-      "meta": "Epic SevenのSTOVEメール/SNSをSteam向けに変換する非公式手順。デモ垢衝突の復旧含む。",
+      "meta": "STOVEからSteamへEpic Sevenのログインを変換し、進行を残す引き継ぎ案内です。誤連携は退会で戻し、引き継ぎはFoundryではなく、デモ削除に注意。非公式ガイド。",
       "h1": "STOVE ↔ Steamアカウント引き継ぎ",
       "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開STOVE FAQの要約に過ぎないので、必ず実画面と告知文面に従ってください。デモ/空連携があるなら退会→変換の順を先に計画します。",
       "diagram": [ "モバイル / STOVE PCアカウント", "STOVEでログイン変換", "Steamクライアントログイン" ],
@@ -907,13 +919,13 @@ export const CONTENT = {
       "cross_h2": "クロスプレイメモ",
       "cross": [ "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。", "関連：デモ注意、Steamメモ、FAQ。" ],
       "src_h2": "公式ソース",
-      "answer": "進行を残すなら、新規Steamセッションを本アカ扱いする前に、STOVEで既存のメール/SNSログインをSteamシンプルログインへ変換してください。Steamが空の連携アカを既に作っている場合は、その新規STOVE連携を先に退会してから本アカを変換します — 公式Steam FAQを確認・引用。引き継ぎはファウンドリへ移しません。ファウンドリは別の新鯖です。本サイトは非公式プレイヤーガイドです。",
+      "answer": "Steam引き継ぎは、STOVEからSteamへログインを変換して同じアカウントの進行を残す手順です。新しいSteamセッションを信じる前にSTOVEからSteamへの変換を終え、誤連携の空アカウントは先に退会してください。引き継ぎ≠Foundry — ログイン変換だけでは新鯖は始まらないので、[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。本サイトは非公式プレイヤーガイドです。",
       "img_alt": "STOVEからSteamへの非公式引き継ぎ手順図",
       "faq_h2": "引き継ぎFAQ",
       "faqs": [
         [ "Steam変換で英雄は消えますか？", "公式FAQでは正しく変換すれば進行・英雄・アイテム・課金・エピックパスが維持されるとあります。実行前にSTOVE文面を再確認。" ],
         [ "Steamが既に新規垢を作った場合は？", "新規Steam連携STOVEを先に退会し、元ログインを変換 — 衝突セクションとSTOVE FAQ。" ],
-        [ "変換するとファウンドリへ移りますか？", "いいえ。ログイン変換は既存鯖の進行を維持します。ファウンドリは別途選ぶ新鯖です — /foundry/ を参照。" ],
+        [ "変換するとファウンドリへ移りますか？", "いいえ。ログイン変換は既存鯖の進行を維持します。ファウンドリは別途選ぶ新鯖です — [[ファウンドリのギルド戦|/foundry/#guild-war]]を参照。" ],
         [
           "Steamデモ垢の削除で旧進行が消えますか？",
           "公式STOVE注意では、Steamログイン変換後にデモ/クライアントでゲーム内アカウント削除を使うと原鯖進行が消える恐れがあるとあります。この頁の復旧ルートを優先し、デモ注意を読んでSTOVEで確認。本サイトは非公式ガイドです。"
@@ -945,6 +957,12 @@ export const CONTENT = {
       ],
       "vs_h2": "引き継ぎ vs ファウンドリ",
       "vs": "アカウント引き継ぎはログイン方式だけを変え（メール/SNS→Steamシンプルログイン）、既存鯖の進行を残します。ファウンドリは独自キャラ・バフ・PvP予定の別新鯖で、ログイン変換だけでは移りません。選ぶ前に次を読んでください：",
+      "vs_more": "残したい編成がレガシー後継者（英雄・課金・エピックパス）なら、STOVEでメール/SNSをSteamシンプルログインへ変換してその鯖に留まってください。ファウンドリのお祝いバフとギルド戦が目的なら、ファウンドリキャラを意図して作成します。変換は旧後継者を移しません。最初の一週間を使う前に[[ファウンドリのギルド戦|/foundry/#guild-war]]（STOVEファウンドリ view/14571828、約2026-11-21 03:00 UTC）を読んでください。",
+      "vs_steps": [
+        "レガシー進行を残す: STOVE PCで英雄が紐づくメール/SNSをSteamシンプルログインへ変えてから、新しいSteamセッションでPlayを押す。第三者バインダではなくSTOVE Steam FAQ view/14378309に従う。",
+        "ファウンドリ開拓: Steamが意図したログインになってから、お祝いバフとギルド戦用のファウンドリキャラを作る。日付はSTOVEファウンドリ view/14571828とローンチ view/14606481 — [[ファウンドリのギルド戦|/foundry/#guild-war]]。",
+        "誤連携: Steamが空の後継者なら、そのSteam連携STOVEを退会し、STOVE UIの待ち時間を待ってから本ログインを変換。ゲーム内アカウント削除は使わない（STOVEデモ注意 view/14581667）。"
+      ],
       "deep_h2": "詰まりやすい理由（非公式）",
       "deep": [
         "発売週の公開FAQスレでよく見る詰まりは概ね三つです。変換前にSteamを起動した、空のデモ垢をゲーム内削除で「掃除」しようとした、引き継ぎ＝ファウンドリ入場だと思った、です。復旧順は常に同じで、Steamが認可したSTOVE身元を確認し、必要なら空のSteam連携STOVEを退会してから、元のメール/SNSログインを変換します。破壊的UIを押す前にSTOVE Steam FAQ（view/14378309）とデモ注意（view/14581667）を確認・引用してください。退会に待ち時間がある場合は画面とCS案内に従います。",
@@ -957,7 +975,7 @@ export const CONTENT = {
 },
     "zh-tw": {
       "title": "STOVE ↔ Steam 帳號轉移指南",
-      "meta": "將 Epic Seven STOVE Email/SNS 轉為 Steam 登入的非官方逐步指南，含試玩帳衝突處理。",
+      "meta": "將 STOVE 的 Epic Seven 登入轉換到 Steam，以保留進度。錯綁請先註銷，轉移不是 Foundry，並注意試玩刪號。非官方指南。",
       "h1": "STOVE ↔ Steam 帳號轉移",
       "goal": "目標：在依賴全新 Steam 工作階段前，於 STOVE 轉為 Simple Login（Steam）以保留進度。此為公開 STOVE FAQ 摘要，請務必跟實際畫面與公告原文。若已有試玩／空白連結帳，請先規劃註銷→轉換順序。",
       "diagram": [ "手機 / STOVE PC 帳號", "在 STOVE 轉換登入", "Steam 客戶端登入" ],
@@ -977,13 +995,13 @@ export const CONTENT = {
       "cross_h2": "跨平台備註",
       "cross": [ "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。", "相關：試玩警告、Steam 說明、FAQ。" ],
       "src_h2": "官方來源",
-      "answer": "若要保留進度，請在把全新 Steam 連線當主帳之前，先在 STOVE 將既有 Email／SNS 登入轉成 Steam Simple Login。若 Steam 已建立空白連結帳，請先註銷該新 STOVE 連結，再轉換原本帳號——請查閱並引用官方 Steam FAQ。帳號轉移不會把你搬到 Foundry；Foundry 是另一個新服。本站為非官方玩家指南。",
+      "answer": "Steam 轉移是把 STOVE 登入換成 Steam，藉此在同一帳號保留進度。把全新 Steam 連線當成主帳之前，先完成 STOVE 到 Steam 的轉換，並先註銷錯綁產生的空白帳。轉移≠Foundry——只轉換登入不會讓你在新服開局，請看[[Foundry 公會戰|/foundry/#guild-war]]。本站為非官方玩家指南。",
       "img_alt": "STOVE 轉 Steam 非官方步驟示意圖",
       "faq_h2": "轉移 FAQ",
       "faqs": [
         [ "轉 Steam 會丢掉英雄嗎？", "官方 FAQ 寫明正確轉換可保留進度、英雄、道具、儲值與 Epic Pass。操作前請再對 STOVE 原文。" ],
         [ "Steam 已建新帳怎麼辦？", "先註銷新建的 Steam 連結 STOVE 帳，再轉換原本登入——見衝突段與 STOVE FAQ。" ],
-        [ "轉換會把我搬到 Foundry 嗎？", "不會。登入轉換保留原伺服器進度。Foundry 是另行選擇的新服——見 /foundry/。" ],
+        [ "轉換會把我搬到 Foundry 嗎？", "不會。登入轉換保留原伺服器進度。Foundry 是另行選擇的新服——見[[Foundry 公會戰|/foundry/#guild-war]]。" ],
         [ "刪除 Steam 試玩帳會清掉舊進度嗎？", "官方 STOVE 注意指出：Steam 登入轉換後，若在試玩／客戶端使用遊戲內刪號，可能抹掉原服進度。請優先用本頁復原路徑，閱讀試玩警告並在 STOVE 核對後再操作。本站為非官方指南。" ],
         [ "儲值與 Epic Pass 會帶過嗎？", "依官方 STOVE Steam FAQ，正確轉換登入時，儲值、未領獎勵、活動道具與 Epic Pass 等資料會一併帶過。操作前請再查最新 FAQ。" ]
       ],
@@ -1012,6 +1030,12 @@ export const CONTENT = {
       ],
       "vs_h2": "帳號轉移 vs Foundry",
       "vs": "帳號轉移只改變登入方式（Email／SNS → Steam Simple Login），並保留原服進度。Foundry 是擁有獨立角色、增益與 PvP 時程的新服，只轉換登入不會把你搬過去。決定前請先閱讀：",
+      "vs_more": "若在意的陣容是原服繼承人（英雄、儲值、Epic Pass），請在 STOVE 把 Email／SNS 轉成 Steam Simple Login 並留在該服。若要的是 Foundry 慶祝增益與公會戰，請刻意建立 Foundry 角色；轉換不會搬走舊繼承人。花掉第一週之前先讀[[Foundry 公會戰|/foundry/#guild-war]]（STOVE Foundry view/14571828，約 2026-11-21 03:00 UTC）。",
+      "vs_steps": [
+        "保留原服進度：在 STOVE PC 把擁有英雄的 Email 或 SNS 轉成 Steam Simple Login，之後才在全新 Steam 連線按 Play。跟 STOVE Steam FAQ view/14378309，不要用第三方綁定器。",
+        "Foundry 開荒：確認 Steam 登入的是你要的帳之後，再建立用來拿慶祝增益與打公會戰的 Foundry 角色。日期依 STOVE Foundry view/14571828 與 Launch view/14606481——見[[Foundry 公會戰|/foundry/#guild-war]]。",
+        "錯綁：若 Steam 出現空白繼承人，先註銷該 Steam 連結 STOVE 帳，等 STOVE 介面顯示的等待期，再轉換原本登入。不要用遊戲內刪號（STOVE 試玩注意 view/14581667）。"
+      ],
       "deep_h2": "玩家卡關常見原因（非官方）",
       "deep": [
         "上架週在公開 FAQ 討論裡常見的卡住點大致三類：轉換前就先開 Steam、想用遊戲內刪號「清掉」空白試玩帳、以為帳號轉移等於進入 Foundry。復原順序永遠相同：確認 Steam 授權的是哪個 STOVE 身分，必要時先註銷空白 Steam 連結 STOVE 帳，再轉換原本 Email／SNS 登入。按下破壞性介面前，請查閱並引用 STOVE Steam FAQ（view/14378309）與試玩注意（view/14581667）。註銷可能有等待期，請跟 STOVE 畫面與客服說明。",
@@ -1042,7 +1066,7 @@ export const CONTENT = {
         ],
         [
           "Is Guild War live on Foundry yet?",
-          "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE. World Arena: 2026-12-10. See the [[Foundry calendar|/foundry/]] (/foundry/)."
+          "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE Foundry view/14571828. World Arena: 2026-12-10. See [[Guild War on Foundry|/foundry/#guild-war]]."
         ],
         [
           "Game will not start / anti-cheat error",
@@ -1077,7 +1101,7 @@ export const CONTENT = {
       "faqs": [
         [ "Steam에 새 후계자가 뜹니다 — 옛 계정은?", "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. [[이전 가이드|/steam-transfer/]](/steam-transfer/) · [[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]." ],
         [ "Steam 파운드리를 모바일에서도?", "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음." ],
-        [ "파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC. 월드 아레나: 2026-12-10. [[파운드리 일정|/foundry/]](/foundry/)." ],
+        [ "파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC (STOVE 파운드리 view/14571828). 월드 아레나: 2026-12-10. [[파운드리 길드전|/foundry/#guild-war]]을 보세요." ],
         [ "실행 안 됨 / 안티치트 오류", "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/)." ],
         [ "Steam 가격이 모바일과 다른가?", "FAQ상 플랫폼 간 가격 차 없음. 그래도 지역 상점 UI를 비교." ],
         [ "데모 종료 — 재설치?", "스토어에서 정식 빌드 설치/업데이트. [[다운로드 / 상점 입구|/download/]](/download/). 계정 상태는 전환 여부에 따라 — [[데모 삭제 경고|/demo-delete-warning/]](/demo-delete-warning/)." ]
@@ -1096,7 +1120,7 @@ export const CONTENT = {
       "faqs": [
         [ "Steamが新人継者になる — 旧アカは？", "Steam連携STOVE新規の可能性。退会後に本アカ変換。[[引き継ぎガイド|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
         [ "Steamファウンドリをモバイルでも？", "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。" ],
-        [ "ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC。WA：2026-12-10。[[ファウンドリ日程|/foundry/]]（/foundry/）。" ],
+        [ "ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC（STOVEファウンドリ view/14571828）。WA：2026-12-10。[[ファウンドリのギルド戦|/foundry/#guild-war]]を参照。" ],
         [ "起動しない／アンチチート", "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。" ],
         [ "Steam価格はモバイルと違う？", "FAQ上プラットフォーム差なし。それでも地域ショップUIを比較。" ],
         [ "デモ終了 — 再導入？", "ストアから正式版を導入/更新。[[ダウンロード／ストア入口|/download/]]（/download/）。アカ状態は変換有無次第 — [[デモ削除の注意|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
@@ -1115,7 +1139,7 @@ export const CONTENT = {
       "faqs": [
         [ "Steam 開到全新繼承人——舊帳呢？", "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見[[轉移指南|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
         [ "Steam 的 Foundry 能在手機繼續嗎？", "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。" ],
-        [ "Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC。WA：2026-12-10。見[[Foundry 日程|/foundry/]]（/foundry/）。" ],
+        [ "Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC（STOVE Foundry view/14571828）。WA：2026-12-10。見[[Foundry 公會戰|/foundry/#guild-war]]。" ],
         [ "無法啟動／反作弊錯誤", "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。" ],
         [ "Steam 價格與手機不同？", "FAQ 稱平台無差價。仍請比對你區商店 UI。" ],
         [ "試玩結束——要重裝？", "從商店安裝／更新正式版。[[下載／商店入口|/download/]]（/download/）。帳號狀態視是否已轉換——見[[試玩刪號警告|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
@@ -1139,12 +1163,13 @@ export const CONTENT = {
         "Foundry characters are separate from legacy progress even on the same STOVE login."
       ],
       "sec_h2": "UNCHEATER / anti-cheat",
+      "sec_prose": "Steam’s store page lists kernel-level anti-cheat UNCHEATER for Epic Seven. On the first launch, approve the Windows elevation prompt so the driver can install, then reboot once if the client still exits. Work and school images often block that kernel driver by policy, so a managed PC can fail even when you installed the official build. Do not download a ban bypass, crack, or “UNCHEATER bypass” patch — those files are malware and break the game terms. If the prompt is refused, play the same converted account on the STOVE client or on a personal PC you administer. Contact official customer support only after a clean install, file verify, and driver update still fail, and keep the error text. Get the build from the [[download checklist|/download/]] and official [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]. This note is an unofficial guide, not Smilegate, STOVE, or Steam support.",
       "sec": [
-        "Steam store lists kernel-level anti-cheat UNCHEATER for Epic Seven.",
-        "Expect administrator/elevation prompts on first launch; corporate or school images may block the driver.",
-        "Do not download “UNCHEATER bypass” cracks — that is malware territory and against the game ToS.",
-        "If launch fails on a locked-down PC, try STOVE PC/mobile with the same converted account, or use a personal machine.",
-        "Update OS and GPU drivers before filing CS tickets about anti-cheat errors."
+        "First launch: approve the UNCHEATER elevation prompt, wait until the driver finishes, then reboot once if Epic Seven still closes. The Steam store lists this kernel anti-cheat for app 5019180.",
+        "Work or school image: if the prompt never appears, or policy blocks the driver, stop retrying on that PC. Do not install a ban bypass, crack, or “UNCHEATER bypass.”",
+        "Fallback: open the same converted STOVE account in the STOVE PC client or on mobile, or move the install to a personal PC you administer. Cross-play after a correct link is in STOVE Steam FAQ view/14378309.",
+        "Before a ticket: Steam → verify game files → update the OS and GPU driver → check whether antivirus quarantined UNCHEATER files → reboot after a failed driver install.",
+        "Still failing: copy the error text and contact official STOVE customer support only. Install from the [[download checklist|/download/]] and [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
       ],
       "lang_h2": "Languages (Steam listing)",
       "lang": "Interface includes EN/KR/JP/ZH(trad/simp)/DE/FR/ES/PT/TH (per launch notice). Voice at launch: Korean / English; Japanese VO delayed with later resume planned.",
@@ -1203,6 +1228,10 @@ export const CONTENT = {
         [
           "Is account-bind a separate tool?",
           "This site folds bind/wrong-link recovery into the transfer guide and these Steam notes. There is no unofficial third-party binder — use STOVE’s own conversion UI."
+        ],
+        [
+          "Will a work or school PC block UNCHEATER?",
+          "Often yes. Managed images refuse the elevation prompt kernel anti-cheat needs. Do not install a bypass or crack. Use the STOVE client or a personal PC, run verify-files and the driver update there, then official STOVE customer support if it still fails. Install only Steam app 5019180."
         ]
       ],
       "link_transfer": "Transfer guide",
@@ -1229,12 +1258,13 @@ export const CONTENT = {
         "같은 STOVE 로그인이어도 파운드리 캐릭은 레거시 진행과 별개."
       ],
       "sec_h2": "UNCHEATER / 안티치트",
+      "sec_prose": "Steam 스토어는 Epic Seven에 커널급 안티치트 UNCHEATER를 명시합니다. 첫 실행에서는 Windows 권한 상승 프롬프트를 승인해야 드라이버가 설치되며, 클라이언트가 바로 종료되면 한 번 재부팅하세요. 회사·학교 이미지는 정책으로 커널 드라이버를 막는 경우가 많아, 공식 빌드를 설치해도 관리 PC에서는 실패할 수 있습니다. 밴 우회, 크랙, 「UNCHEATER 우회」 패치는 받지 마세요. 악성코드이고 게임 약관 위반입니다. 권한 프롬프트가 거부되면 같은 전환 계정으로 STOVE 클라이언트를 쓰거나, 직접 관리하는 개인 PC에서 플레이하세요. 클린 설치와 파일 검증, 드라이버 업데이트 후에도 실패할 때만 오류 문구를 보관하고 공식 고객지원에 문의하세요. 빌드는 [[다운로드 체크리스트|/download/]]와 공식 [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]에서 받으세요. 이 안내는 비공식 가이드이며 Smilegate, STOVE, Steam 지원 창구가 아닙니다.",
       "sec": [
-        "Steam 스토어는 Epic Seven에 커널급 안티치트 UNCHEATER를 명시합니다.",
-        "첫 실행 시 관리자/권한 상승 프롬프트를 예상하세요. 회사·학교 이미지는 드라이버를 막을 수 있습니다.",
-        "「UNCHEATER 우회」 크랙을 받지 마세요 — 악성코드·약관 위반 영역입니다.",
-        "잠긴 PC에서 실패하면 같은 전환 계정으로 STOVE PC/모바일을 쓰거나 개인 PC를 사용하세요.",
-        "안티치트 오류로 CS에 문의하기 전에 OS·GPU 드라이버를 업데이트하세요."
+        "첫 실행: UNCHEATER 권한 상승을 승인하고 드라이버가 끝날 때까지 기다린 뒤, Epic Seven이 바로 꺼지면 한 번 재부팅하세요. Steam 스토어는 이 커널 안티치트를 app 5019180에 명시합니다.",
+        "회사·학교 이미지: 프롬프트가 안 뜨거나 정책이 드라이버를 막으면 그 PC에서 재시도를 멈추세요. 밴 우회, 크랙, 「UNCHEATER 우회」는 설치하지 마세요.",
+        "대체 경로: 같은 전환 계정을 STOVE PC 클라이언트나 모바일로 열거나, 직접 관리하는 개인 PC로 설치를 옮기세요. 올바른 연동 후 크로스플레이는 STOVE Steam FAQ view/14378309에 있습니다.",
+        "문의 전: Steam에서 파일 검증 → OS·GPU 드라이버 업데이트 → 백신이 UNCHEATER 파일을 격리했는지 확인 → 실패한 드라이버 설치 후 재부팅.",
+        "그래도 실패하면 오류 문구를 복사해 공식 STOVE 고객지원에만 보내세요. [[다운로드 체크리스트|/download/]]와 [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]에서만 설치하세요."
       ],
       "lang_h2": "언어(Steam 표기)",
       "lang": "인터페이스: EN/KR/JP/ZH(번/간)/DE/FR/ES/PT/TH 등(런칭 공지). 음성: 한/영; 일본어 VO는 런칭 시 지연·추후 예정.",
@@ -1268,7 +1298,8 @@ export const CONTENT = {
         [ "Steam이 새 계정을 만든 이유는?", "이메일/SNS→Steam Simple Login 전환 없이 실행하면 새 Steam 연동 STOVE 로그인이 자주 생깁니다. 탈퇴 후 원 계정을 전환 — 이전 가이드." ],
         [ "UNCHEATER란?", "Steam 스토어가 명시한 커널급 안티치트입니다. 권한 상승을 예상하고, 관리 PC는 드라이버를 거부할 수 있습니다. 안전한 「크랙」은 없으며 막히면 공식 CS." ],
         [ "설치 후 실행이 안 됨", "파일 검증, OS/GPU 업데이트, 백신 격리 확인, app 5019180인지 확인. 공식 STOVE CS로만 에스컬레이션." ],
-        [ "계정 바인드 전용 툴이 있나요?", "본 사이트는 연동/오연동 복구를 이전 가이드와 이 Steam 안내에 통합합니다. 비공식 제3자 바인더는 없으며 STOVE 자체 전환 UI를 쓰세요." ]
+        [ "계정 바인드 전용 툴이 있나요?", "본 사이트는 연동/오연동 복구를 이전 가이드와 이 Steam 안내에 통합합니다. 비공식 제3자 바인더는 없으며 STOVE 자체 전환 UI를 쓰세요." ],
+        [ "회사·학교 PC가 UNCHEATER를 막나요?", "자주 그렇습니다. 관리 이미지는 커널 안티치트에 필요한 권한 상승을 거부합니다. 우회나 크랙을 설치하지 마세요. STOVE 클라이언트나 개인 PC에서 파일 검증과 드라이버 업데이트를 한 뒤, 그래도 실패하면 공식 STOVE 고객지원으로 가세요. 설치는 Steam app 5019180만 사용하세요." ]
       ],
       "link_transfer": "계정 이전 가이드",
       "link_demo": "데모 삭제 주의",
@@ -1296,12 +1327,13 @@ export const CONTENT = {
         "同一STOVEでもファウンドリキャラはレガシー進行と別。"
       ],
       "sec_h2": "UNCHEATER / アンチチート",
+      "sec_prose": "SteamストアはEpic Sevenにカーネル級アンチチートUNCHEATERを明記しています。初回起動ではWindowsの昇格プロンプトを許可してドライバを入れ、クライアントがすぐ終了するなら一度再起動してください。会社や学校のイメージはポリシーでカーネルドライバを拒むことが多く、公式ビルドでも管理PCでは失敗します。BAN回避、クラック、「UNCHEATER回避」パッチは入れないでください。マルウェアでありゲーム規約違反です。プロンプトが拒否されたら、同じ変換アカウントでSTOVEクライアントを使うか、自分で管理する個人PCで遊んでください。クリーン導入、ファイル検証、ドライバ更新のあとでも失敗するときだけ、エラー文を残して公式カスタマーサポートへ連絡します。ビルドは[[ダウンロード手順|/download/]]と公式[[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]から入手してください。このメモは非公式ガイドであり、Smilegate、STOVE、Steamのサポート窓口ではありません。",
       "sec": [
-        "SteamストアはEpic Sevenにカーネル級UNCHEATERを明記。",
-        "初回起動で管理者/昇格プロンプトを想定。会社・学校イメージはドライバを拒む場合あり。",
-        "「UNCHEATER回避」クラックを入れない — マルウェア・規約違反領域。",
-        "管理PCで失敗したら同一変換アカでSTOVE PC/モバイル、または個人PC。",
-        "アンチチートエラーでCSへ行く前にOS/GPUを更新。"
+        "初回起動: UNCHEATERの昇格プロンプトを許可し、ドライバ完了まで待ってから、Epic Sevenがすぐ閉じるなら一度再起動。Steamストアはこのカーネルアンチチートをapp 5019180に記載。",
+        "会社・学校イメージ: プロンプトが出ない、またはポリシーがドライバを拒むならそのPCでの再試行を止める。BAN回避・クラック・「UNCHEATER回避」は入れない。",
+        "代替: 同じ変換アカウントをSTOVE PCクライアントかモバイルで開くか、自分で管理する個人PCへ導入を移す。正しい連携後のクロスプレイはSTOVE Steam FAQ view/14378309。",
+        "問い合わせ前: Steamでファイル検証 → OSとGPUドライバ更新 → ワクチンがUNCHEATERを隔離していないか確認 → 失敗したドライバ導入のあと再起動。",
+        "それでも失敗したらエラー文をコピーし公式STOVEカスタマーサポートだけへ。[[ダウンロード手順|/download/]]と[[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]からのみ導入。"
       ],
       "lang_h2": "言語（Steam表記）",
       "lang": "UI：EN/KR/JP/ZH（繁/簡）/DE/FR/ES/PT/TH等。音声：韓/英；日本語VOは発売時遅延・後日予定。",
@@ -1335,7 +1367,8 @@ export const CONTENT = {
         [ "なぜSteamが新規を作る？", "メール/SNS→Steamシンプルログイン未変換で起動すると新規Steam連携STOVEができがち。退会後に本アカ変換 — 引き継ぎガイド。" ],
         [ "UNCHEATERとは？", "ストア記載のカーネル級アンチチート。昇格を想定し、管理PCはドライバ拒否もあり。安全なクラックはなく、拒否時は公式CS。" ],
         [ "導入後に起動しない", "ファイル検証、OS/GPU更新、隔離確認、app 5019180か確認。公式STOVE CSのみへ。" ],
-        [ "アカウントバインド専用ツールは？", "当サイトは連携/誤連携復旧を引き継ぎガイドと本Steamメモに統合。非公式第三者バインダはなく、STOVE自身の変換UIを使用。" ]
+        [ "アカウントバインド専用ツールは？", "当サイトは連携/誤連携復旧を引き継ぎガイドと本Steamメモに統合。非公式第三者バインダはなく、STOVE自身の変換UIを使用。" ],
+        [ "会社や学校のPCはUNCHEATERを拒みますか？", "多いです。管理イメージはカーネルアンチチートに必要な昇格を拒否します。回避やクラックは入れないでください。STOVEクライアントか個人PCでファイル検証とドライバ更新を行い、それでも失敗なら公式STOVEカスタマーサポートへ。導入はSteam app 5019180だけです。" ]
       ],
       "link_transfer": "引き継ぎガイド",
       "link_demo": "デモ削除注意",
@@ -1363,12 +1396,13 @@ export const CONTENT = {
         "即使同一 STOVE 登入，Foundry 角色仍與原服進度分開。"
       ],
       "sec_h2": "UNCHEATER／反作弊",
+      "sec_prose": "Steam 商店為 Epic Seven 列出核心層反作弊 UNCHEATER。首次啟動請允許 Windows 權限提升，驅動才能安裝；若客戶端立刻結束，請重開機一次。公司或學校映像常依政策擋住核心驅動，即使安裝的是官方版本，受管電腦仍可能失敗。不要下載封號繞過、破解，或「UNCHEATER 繞過」補丁——那些檔案是惡意軟體，也違反遊戲條款。若權限提示被拒，請用同一組已轉換帳號改走 STOVE 客戶端，或改在自己管理的個人電腦上游玩。只有在乾淨安裝、驗證檔案、更新驅動之後仍然失敗時，才保留錯誤文字並聯絡官方客服。請從[[下載檢查清單|/download/]]與官方[[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]取得客戶端。本說明是非官方指南，不是 Smilegate、STOVE 或 Steam 的客服窗口。",
       "sec": [
-        "Steam 商店為 Epic Seven 列出核心層反作弊 UNCHEATER。",
-        "首次啟動請預期管理員／權限提升提示；公司或學校映像可能擋驅動。",
-        "不要下載「UNCHEATER 破解」——屬惡意軟體與違規範圍。",
-        "受管電腦啟動失敗時，可用同一轉換帳走 STOVE PC／手機，或改用個人電腦。",
-        "因反作弊錯誤找客服前，先更新 OS 與 GPU 驅動。"
+        "首次啟動：允許 UNCHEATER 權限提升，等驅動裝完；若 Epic Seven 仍立刻關閉就重開機一次。Steam 商店把這套核心反作弊列在 app 5019180。",
+        "公司或學校映像：提示沒出現，或政策擋住驅動，就停止在那台電腦重試。不要安裝封號繞過、破解或「UNCHEATER 繞過」。",
+        "改道：用同一組已轉換帳號開 STOVE PC 客戶端或手機，或把安裝換到自己管理的個人電腦。正確連結後的跨平台見 STOVE Steam FAQ view/14378309。",
+        "找客服之前：Steam 驗證檔案 → 更新 OS 與 GPU 驅動 → 檢查防毒是否隔離 UNCHEATER 檔案 → 驅動安裝失敗後重開機。",
+        "以上仍失敗：複製錯誤文字，只聯絡官方 STOVE 客服。只從[[下載檢查清單|/download/]]與[[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]安裝。"
       ],
       "lang_h2": "語言（Steam 標示）",
       "lang": "介面含英／韓／日／繁簡中／德／法／西／葡／泰等。語音：韓／英；日語 VO 上架時延後、計畫後日恢復。",
@@ -1402,7 +1436,8 @@ export const CONTENT = {
         [ "為什麼 Steam 會建新帳？", "未先將 Email／SNS→Steam Simple Login 就啟動，常會建新的 Steam 連結 STOVE 登入。先註銷再轉本帳——見轉移指南。" ],
         [ "UNCHEATER 是什麼？", "商店列出的核心層反作弊。請預期權限提升；受管電腦可能拒驅動。沒有安全「破解」，被擋請走官方客服。" ],
         [ "安裝後無法啟動", "驗證檔案、更新 OS／GPU、查防毒隔離、確認是 app 5019180。只經官方 STOVE 客服升級。" ],
-        [ "有獨立的綁定工具嗎？", "本站把綁定／錯連結復原收進轉移指南與本 Steam 說明。沒有非官方第三方綁定器——請用 STOVE 自己的轉換介面。" ]
+        [ "有獨立的綁定工具嗎？", "本站把綁定／錯連結復原收進轉移指南與本 Steam 說明。沒有非官方第三方綁定器——請用 STOVE 自己的轉換介面。" ],
+        [ "公司或學校電腦會擋住 UNCHEATER 嗎？", "常常會。受管映像會拒絕核心反作弊需要的權限提升。不要安裝繞過或破解。請在 STOVE 客戶端或個人電腦上驗證檔案並更新驅動，仍失敗再找官方 STOVE 客服。只安裝 Steam app 5019180。" ]
       ],
       "link_transfer": "帳號轉移指南",
       "link_demo": "試玩刪號警告",
@@ -1514,10 +1549,16 @@ export const CONTENT = {
         "Clear daily guild missions and donate when available to build guild level/currency.",
         "Stock stamina items and keep a usable PvP core (tank/healer/cleanser) ready for guild offense/defense.",
         "Confirm your character is on Foundry — legacy-server guilds do not count as Foundry GW.",
-        "Watch STOVE for any GW rule or schedule errata after maintenance."
+        "Watch STOVE for any GW rule or schedule errata after maintenance.",
+        "Join the day the Foundry guild button opens on that character. A request still pending at 2026-11-21 03:00 UTC (STOVE Foundry view/14571828) sits out the first war.",
+        "Before each in-game reset, clear guild member missions and check-in. A missing name once war locks is a roster hole you cannot backfill.",
+        "Spend the daily donate or contribute cap every reset. Missed contribution days do not stack, so skipping several days costs more guild progress than skipping one hunt.",
+        "Use Foundry Draft Arena, open since the Steam launch (STOVE Launch view/14606481), as Guild War practice: gear a tank, a cleanser, and a healer you can field on both attack and defense, not a one-shot team you cannot hold a tower with.",
+        "The day membership shows accepted, set offense and defense. After every maintenance, re-open STOVE Foundry view/14571828 and Launch view/14606481 before you spend leifs or guild marks."
       ],
       "gw_reward_h3": "Rewards window",
-      "gw_reward": "Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many Foundry starter buffs and login gifts are posted through about 2026-12-31 02:59 UTC — GW itself unlocks earlier (≈11/21) so you can earn GW rewards inside that broader celebration window. Re-check STOVE before spending resources.",
+      "gw_reward": "Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many Foundry starter buffs and login gifts are posted through about 2026-12-31 02:59 UTC — GW itself unlocks earlier (≈11/21) so you can earn GW rewards inside that broader celebration window. Re-check STOVE before spending resources. Dates and loot windows on this page follow STOVE Foundry notice view/14571828 and Launch notice view/14606481, and may change after maintenance — if those posts disagree, follow the newer STOVE notice.",
+      "codes_note": "Searches for Foundry codes usually mean celebration rewards, not a coupon list. Those rewards are mailbox gifts, login items, and buffs published on STOVE Foundry view/14571828 and Launch view/14606481. This unofficial page does not publish, sell, or redeem coupon codes. If another site offers Foundry codes, ignore it and claim only what the in-game mailbox shows after you check those two STOVE notices.",
       "ends_h2": "What ends on 12/31",
       "ends_th": [ "Item / buff", "Approx. end (UTC)", "Notes" ],
       "ends": [
@@ -1614,10 +1655,16 @@ export const CONTENT = {
         "가능한 일일 길드 미션·기부를 처리해 길드 레벨/재화를 쌓으세요.",
         "스태미나 아이템을 확보하고 길드 공/수용 탱·힐·정화 코어를 준비하세요.",
         "캐릭터가 파운드리에 있는지 확인 — 레거시 서버 길드는 파운드리 길드전으로 치지 않습니다.",
-        "점검 후 길드전 규칙/일정 정정이 있는지 STOVE를 주시하세요."
+        "점검 후 길드전 규칙/일정 정정이 있는지 STOVE를 주시하세요.",
+        "그 캐릭터에서 파운드리 길드 버튼이 열리는 날에 가입하세요. 2026-11-21 03:00 UTC(STOVE 파운드리 view/14571828)에 신청이 대기 중이면 첫 길드전에 나가지 못합니다.",
+        "인게임 리셋 전에 길드원 미션과 출석을 끝내세요. 전쟁이 잠긴 뒤 빈 이름은 나중에 메울 수 없는 로스터 구멍입니다.",
+        "매일 리셋마다 일일 기부·기여 한도를 소진하세요. 빠진 날은 쌓이지 않으므로, 며칠을 건너뛰면 사냥 한 번을 빼는 것보다 길드 진행 손해가 큽니다.",
+        "Steam 런칭부터 열린 파운드리 드래프트 아레나(STOVE 런칭 view/14606481)를 길드전 연습으로 쓰세요. 한 방 공격이 아니라 공격과 수비 모두에 낼 수 있는 탱커·정화·힐러를 장비하세요.",
+        "멤버십이 수락된 날에 공격·수비 팀을 고정하세요. 점검이 끝날 때마다 리프나 길드 재화를 쓰기 전에 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 여세요."
       ],
       "gw_reward_h3": "보상 구간",
-      "gw_reward": "길드전 보상은 파운드리 축하 일정에 속한다고 보고, 정확한 보상표는 STOVE를 따릅니다. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지로 안내됩니다. 길드전 자체는 더 이른 시점(≈11/21)에 열리므로 그 넓은 축하 구간 안에서 보상을 받을 수 있습니다. 자원을 쓰기 전 STOVE를 재확인하세요.",
+      "gw_reward": "길드전 보상은 파운드리 축하 일정에 속한다고 보고, 정확한 보상표는 STOVE를 따릅니다. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지로 안내됩니다. 길드전 자체는 더 이른 시점(≈11/21)에 열리므로 그 넓은 축하 구간 안에서 보상을 받을 수 있습니다. 자원을 쓰기 전 STOVE를 재확인하세요. 이 페이지의 날짜와 보상 구간은 STOVE 파운드리 공지 view/14571828과 런칭 공지 view/14606481을 따르며 점검 후 바뀔 수 있습니다. 두 공지가 다르면 더 최신 STOVE 글을 따르세요.",
+      "codes_note": "파운드리 코드 검색은 대개 쿠폰 목록이 아니라 축하 보상을 가리킵니다. 그 보상은 STOVE 파운드리 view/14571828과 런칭 view/14606481에 공개된 우편 선물, 로그인 아이템, 버프입니다. 이 비공식 페이지는 쿠폰 코드를 게시·판매·교환하지 않습니다. 다른 사이트가 파운드리 코드를 내놓으면 무시하고, 두 STOVE 공지를 확인한 뒤 인게임 우편함에 있는 것만 수령하세요.",
       "ends_h2": "12/31에 끝나는 것",
       "ends_th": [ "항목 / 버프", "대략 종료(UTC)", "메모" ],
       "ends": [
@@ -1717,10 +1764,16 @@ export const CONTENT = {
         "可能な日次ギルドミッション・寄付でギルドLv/通貨を積む。",
         "スタミナアイテムを確保し、ギルド攻/防用のタンク・ヒーラー・浄化コアを用意。",
         "キャラがファウンドリ上か確認 — レガシー鯖ギルドはファウンドリGWにならない。",
-        "メンテ後のGWルール/日程正誤をSTOVEで監視。"
+        "メンテ後のGWルール/日程正誤をSTOVEで監視。",
+        "そのキャラでファウンドリのギルドボタンが開いた日に加入する。2026-11-21 03:00 UTC（STOVEファウンドリ view/14571828）に申請が保留のままだと初戦に出られない。",
+        "ゲーム内リセット前にギルドメンバーミッションと出席を終える。戦争がロックされたあとの欠員は後から埋められない。",
+        "毎日のリセットで寄付・貢献の日次上限を使い切る。抜けた日は繰り越されないので、数日飛ばすとハント一回を休むよりギルド進行の損失が大きい。",
+        "Steamローンチから開いているファウンドリのドラフトアリーナ（STOVEローンチ view/14606481）をギルド戦の練習にする。一撃編成ではなく、攻撃と防衛の両方に出せるタンク・浄化・ヒーラーを装備する。",
+        "所属が承認された日に攻撃と防衛をセットする。メンテのたびに、リーフやギルド通貨を使う前にSTOVEファウンドリ view/14571828とローンチ view/14606481を開き直す。"
       ],
       "gw_reward_h3": "報酬ウィンドウ",
-      "gw_reward": "ギルド戦報酬はファウンドリお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまでと案内。GW自体はより早い時点（≈11/21）に開くため、その広いお祝い枠の中で受け取れます。資源消費前にSTOVEを再確認。",
+      "gw_reward": "ギルド戦報酬はファウンドリお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまでと案内。GW自体はより早い時点（≈11/21）に開くため、その広いお祝い枠の中で受け取れます。資源消費前にSTOVEを再確認。この頁の日付と報酬枠はSTOVEファウンドリ告知 view/14571828 とローンチ告知 view/14606481 に従い、メンテ後に変わることがあります。二つの告知が食い違う場合は新しいSTOVE投稿に従ってください。",
+      "codes_note": "ファウンドリのコード検索は、クーポン一覧ではなくお祝い報酬を指すことが多いです。報酬はSTOVEファウンドリ view/14571828 とローンチ view/14606481 に掲載されたメール贈り物、ログインアイテム、バフです。本非公式頁はクーポンコードを公開・販売・引き換えしません。他サイトがファウンドリコードを出しても無視し、二つのSTOVE告知を確認したうえでゲーム内メールに出ているものだけ受け取ってください。",
       "ends_h2": "12/31に終わるもの",
       "ends_th": [ "項目 / バフ", "おおよその終了(UTC)", "メモ" ],
       "ends": [
@@ -1820,10 +1873,16 @@ export const CONTENT = {
         "盡量完成每日公會任務與捐獻，累積公會等級／貨幣。",
         "備妥體力道具，並準備可用的公會攻／防坦克、治療、淨化核心。",
         "確認角色在 Foundry——原服公會不算 Foundry 公會戰。",
-        "關注 STOVE 是否在維護後更正公會戰規則或時程。"
+        "關注 STOVE 是否在維護後更正公會戰規則或時程。",
+        "該角色的 Foundry 公會按鈕一開就加入。申請若在 2026-11-21 03:00 UTC（STOVE Foundry view/14571828）仍在等待，就打不了第一場。",
+        "每次遊戲內重置前清完公會成員任務與簽到。戰爭鎖定後缺的名字無法事後補上。",
+        "每次重置都用完當日捐獻／貢獻上限。漏掉的日子不會累積，連跳數日比少打一次狩獵更傷公會進度。",
+        "把 Steam 上架起就開的 Foundry Draft Arena（STOVE Launch view/14606481）當成公會戰練習：養成攻防都能上場的坦克、淨化、治療，而不是守不住塔的一波隊。",
+        "會籍顯示通過的當天就設定攻擊與防守。每次維護後，花樹葉或公會貨幣之前先重開 STOVE Foundry view/14571828 與 Launch view/14606481。"
       ],
       "gw_reward_h3": "獎勵區間",
-      "gw_reward": "請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。公會戰本身較早開放（≈11/21），可在更寬的慶祝窗口內領獎。花費資源前請再查 STOVE。",
+      "gw_reward": "請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。公會戰本身較早開放（≈11/21），可在更寬的慶祝窗口內領獎。花費資源前請再查 STOVE。本頁日期與獎勵區間依 STOVE Foundry 公告 view/14571828 與 Launch 公告 view/14606481，維護後可能變更。兩則公告不一致時，跟較新的 STOVE 貼文。",
+      "codes_note": "搜尋 Foundry codes 通常指的是慶祝獎勵，不是兌換序號清單。那些獎勵是 STOVE Foundry view/14571828 與 Launch view/14606481 公布的信箱禮物、登入道具與增益。本非官方頁不發布、不販售、也不代兌優惠序號。若其他網站提供 Foundry 序號，請忽略，核對這兩則 STOVE 公告後只領遊戲內信箱實際出現的內容。",
       "ends_h2": "12/31 結束項目",
       "ends_th": [ "項目／增益", "大約結束（UTC）", "備註" ],
       "ends": [
@@ -2862,6 +2921,7 @@ export const CONTENT = {
         "Guild War / Draft / World Arena unlock dates on Foundry follow the Foundry calendar (GW ≈2026-11-21 03:00 UTC per STOVE) — not your legacy guild schedule.",
         "Transferring login keeps legacy quest progress on the legacy server; it does not auto-complete Foundry missions."
       ],
+      "foundry_track": "Your legacy quest track is the Episode clears, abyss floors, and weekly guild chores on the old-server Heir. A Steam transfer leaves those checkmarks on that server (STOVE Steam FAQ view/14378309). A Foundry fresh track starts at zero on a new character, including story gates and celebration missions that never appear on legacy. Finishing one track does not tick the other, so do not spend Foundry stamina expecting legacy weeklies to complete. Dated unlocks for the fresh track, including Guild War, are on the [[Foundry calendar|/foundry/]] and in [[Guild War on Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
       "hub_h2": "Event hub map",
       "hub": "Launch-window side stories and boards (Secret Rabbit♥Hole, lucky boards, Foundry mail) are summarized on",
       "link_rabbit": "Secret Rabbit♥Hole",
@@ -2913,6 +2973,7 @@ export const CONTENT = {
         "파운드리 길드전/드래프트/월드 아레나 해금일은 파운드리 캘린더를 따릅니다(길드전 ≈2026-11-21 03:00 UTC, STOVE) — 레거시 길드 일정이 아닙니다.",
         "로그인 이전은 레거시 서버의 퀘스트 진행을 유지하며 파운드리 미션을 자동 완료하지 않습니다."
       ],
+      "foundry_track": "레거시 퀘스트 트랙은 옛 서버 후계자의 에피소드 클리어, 심연 층, 주간 길드 숙제입니다. Steam 이전은 그 체크를 그 서버에 남깁니다(STOVE Steam FAQ view/14378309). 파운드리 개척 트랙은 새 캐릭터에서 0부터 시작하며, 레거시에 없는 스토리 관문과 축하 미션이 포함됩니다. 한쪽을 끝내도 다른 쪽이 완료되지 않으니, 레거시 주간이 끝날 것이라며 파운드리 스테미나를 쓰지 마세요. 개척 트랙의 날짜형 해금(길드전 포함)은 [[파운드리 캘린더|/foundry/]]와 [[파운드리 길드전|/foundry/#guild-war]]에 있습니다(STOVE 파운드리 view/14571828, 런칭 view/14606481).",
       "hub_h2": "이벤트 허브 지도",
       "hub": "런칭 창 사이드 스토리·보드(시크릿 래빗♥홀, 럭키 보드, 파운드리 우편) 요약은",
       "link_rabbit": "시크릿 래빗♥홀",
@@ -2958,6 +3019,7 @@ export const CONTENT = {
         "ファウンドリのギルド戦/ドラフト/WA解禁日はファウンドリカレンダー準拠（GW≈2026-11-21 03:00 UTC、STOVE）— レガシーギルド予定ではない。",
         "ログイン引き継ぎはレガシー鯖のクエスト進行を残し、ファウンドリミッションを自動完了しません。"
       ],
+      "foundry_track": "レガシークエストトラックは旧鯖後継者のエピソードクリア、深淵階層、週次ギルド雑務です。Steam引き継ぎはその打点をその鯖に残します（STOVE Steam FAQ view/14378309）。ファウンドリの開拓トラックは新キャラでゼロから始まり、レガシーに無いストーリー関門とお祝いミッションを含みます。片方を終えてももう片方は完了しないので、レガシー週次が終わる前提でファウンドリのスタミナを使わないでください。開拓トラックの日付付き解禁（ギルド戦を含む）は[[ファウンドリカレンダー|/foundry/]]と[[ファウンドリのギルド戦|/foundry/#guild-war]]にあります（STOVEファウンドリ view/14571828、ローンチ view/14606481）。",
       "hub_h2": "イベントハブ地図",
       "hub": "ローンチ枠サイドストーリー・ボード（シークレットラビット♥ホール、ラッキーボード、ファウンドリメール）の要約は",
       "link_rabbit": "シークレットラビット♥ホール",
@@ -3003,6 +3065,7 @@ export const CONTENT = {
         "Foundry 公會戰／Draft／世界競技場解鎖日跟 Foundry 日程（公會戰 ≈2026-11-21 03:00 UTC，STOVE）——不是原服公會時程。",
         "登入轉移保留原服任務進度，不會自動完成 Foundry 任務。"
       ],
+      "foundry_track": "原服任務軌是舊服繼承人的章節通關、深淵層數與每週公會雜務。Steam 轉移會把那些勾選留在原服（STOVE Steam FAQ view/14378309）。Foundry 開荒軌從新角色的零開始，包含原服沒有的劇情關卡與慶祝任務。完成其中一軌不會勾掉另一軌，不要以為原服週任會完成就去花 Foundry 體力。這條開荒軌的日期解鎖（含公會戰）在[[Foundry 日程|/foundry/]]與[[Foundry 公會戰|/foundry/#guild-war]]（STOVE Foundry view/14571828、Launch view/14606481）。",
       "hub_h2": "活動入口地圖",
       "hub": "上架窗口支線與面板（Secret Rabbit♥Hole、幸運盤、Foundry 信箱）摘要見",
       "link_rabbit": "Secret Rabbit♥Hole",

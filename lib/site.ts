@@ -58,8 +58,13 @@ export function localeDir(_locale: Locale | string): 'ltr' {
 
 export function normalizePath(path: string): string {
   if (!path || path === '/') return '/';
-  const withSlash = path.startsWith('/') ? path : `/${path}`;
-  return withSlash.endsWith('/') ? withSlash : `${withSlash}/`;
+  const hashAt = path.indexOf('#');
+  const hash = hashAt >= 0 ? path.slice(hashAt) : '';
+  const base = hashAt >= 0 ? path.slice(0, hashAt) : path;
+  if (!base || base === '/') return hash ? `/${hash}` : '/';
+  const withSlash = base.startsWith('/') ? base : `/${base}`;
+  const normalized = withSlash.endsWith('/') ? withSlash : `${withSlash}/`;
+  return `${normalized}${hash}`;
 }
 
 export function localizedPath(locale: Locale | string, path: string): string {
