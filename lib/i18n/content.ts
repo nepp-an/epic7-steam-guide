@@ -2277,7 +2277,7 @@ export const CONTENT = {
         "Not a full wiki replacement — we cite official posts."
       ],
       "dom_h2": "Domain status",
-      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Vercel, DNS-only / gray-cloud).",
+      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages, project epicsevensteam, branch master).",
       "contact_h2": "Contact",
       "contact": "privacy@epicsevensteam.com (Cloudflare Email Routing → site operator). Do not send passwords.",
       "off_h2": "Official destinations"
@@ -2290,7 +2290,7 @@ export const CONTENT = {
       "not_h2": "우리가 아닌 것",
       "nots": [ "Smilegate/STOVE/Valve/Steam 고객센터 아님.", "그레이 코드·계정 거래·크랙 판매 아님.", "전체 위키 대체 아님 — 공식 공지를 인용." ],
       "dom_h2": "도메인",
-      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Vercel, 회雲 DNS).",
+      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages, 프로젝트 epicsevensteam, 브랜치 master).",
       "contact_h2": "연락",
       "contact": "privacy@epicsevensteam.com (Cloudflare Email Routing → 운영자). 비밀번호를 보내지 마세요.",
       "off_h2": "공식 목적지"
@@ -2303,7 +2303,7 @@ export const CONTENT = {
       "not_h2": "私たちではないもの",
       "nots": [ "Smilegate/STOVE/Valve/Steamサポートではない。", "不正コード・垢売買・クラック販売ではない。", "完全Wiki置換ではない — 公式告知を引用。" ],
       "dom_h2": "ドメイン",
-      "dom": "Apex: epicsevensteam.com（Cloudflare Registrar → Vercel、灰雲DNS）。",
+      "dom": "Apex: epicsevensteam.com（Cloudflare Registrar → Cloudflare Pages、プロジェクト epicsevensteam、ブランチ master）。",
       "contact_h2": "連絡",
       "contact": "privacy@epicsevensteam.com（Cloudflare Email Routing → 運営）。パスワードは送らないでください。",
       "off_h2": "公式先"
@@ -2316,7 +2316,7 @@ export const CONTENT = {
       "not_h2": "我們不是",
       "nots": [ "不是 Smilegate／STOVE／Valve／Steam 客服。", "不賣灰產序號、帳號或破解。", "不是完整 wiki——我們引用官方公告。" ],
       "dom_h2": "網域狀態",
-      "dom": "Apex：epicsevensteam.com（Cloudflare Registrar → Vercel，灰雲 DNS）。",
+      "dom": "Apex：epicsevensteam.com（Cloudflare Registrar → Cloudflare Pages，專案 epicsevensteam，分支 master）。",
       "contact_h2": "聯絡",
       "contact": "privacy@epicsevensteam.com（Cloudflare Email Routing → 站長）。請勿寄密碼。",
       "off_h2": "官方目的地"
@@ -2421,7 +2421,7 @@ export const CONTENT = {
       "collect_h2": "What we collect",
       "collect": [
         "No account system on this static site. We never ask for STOVE or Steam passwords.",
-        "Hosting (Vercel) may process standard server logs (IP, user agent) under the host policy.",
+        "Hosting (Cloudflare Pages) may process standard server logs (IP, user agent) under the host policy.",
         "We use Google Analytics 4 (GA4) for aggregate traffic measurement (for example page views). We do not collect passwords through analytics.",
         "No ads on this site."
       ],
@@ -2444,7 +2444,7 @@ export const CONTENT = {
       "collect_h2": "수집 항목",
       "collect": [
         "정적 사이트에 계정 시스템 없음. STOVE/Steam 비밀번호를 묻지 않습니다.",
-        "호스팅(Vercel)이 IP·UA 등 표준 로그를 처리할 수 있음.",
+        "호스팅(Cloudflare Pages)이 IP·UA 등 표준 로그를 처리할 수 있음.",
         "Google Analytics 4(GA4)로 집계 트래픽(예: 페이지뷰)을 측정합니다. 분석으로 비밀번호를 수집하지 않습니다.",
         "이 사이트에는 광고가 없습니다."
       ],
@@ -2467,7 +2467,7 @@ export const CONTENT = {
       "collect_h2": "収集するもの",
       "collect": [
         "静的サイトにアカウント機能なし。STOVE/Steamパスワードは求めません。",
-        "ホスティング（Vercel）がIP・UA等の標準ログを処理し得ます。",
+        "ホスティング（Cloudflare Pages）がIP・UA等の標準ログを処理し得ます。",
         "Google Analytics 4（GA4）で集計トラフィック（例：ページビュー）を計測します。解析でパスワードは収集しません。",
         "本サイトに広告はありません。"
       ],
@@ -2488,7 +2488,7 @@ export const CONTENT = {
       "h1": "隱私權",
       "p1": "本非官方資訊站（epicsevensteam.com）不販售帳號、序號或個資。郵件經 Cloudflare Email Routing 轉寄。",
       "collect_h2": "我們收集什麼",
-      "collect": [ "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。", "託管（Vercel）可能依其政策處理 IP、UA 等標準日誌。", "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。", "本站無廣告。" ],
+      "collect": [ "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。", "託管（Cloudflare Pages）可能依其政策處理 IP、UA 等標準日誌。", "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。", "本站無廣告。" ],
       "ads_h2": "尚未啟用廣告",
       "ads": [
         "本站未啟用 Google AdSense、展示廣告或聯盟廣告。",

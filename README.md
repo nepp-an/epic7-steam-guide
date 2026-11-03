@@ -6,13 +6,13 @@ Unofficial English-first info site for **Epic Seven on Steam**: store entry, STO
 
 ## Local path
 
-`/workspace/sites/epic7-steam/scaffold`
+`/workspace/cf-migrate/epic7-steam-guide`
 
 ## Stack
 
 - Next.js 14 App Router
 - Static export: `output: 'export'`, `trailingSlash: true`, `images.unoptimized`
-- Deploy target: Vercel (static `out/`)
+- Deploy target: Cloudflare Pages (static `out/`; project `epicsevensteam`, branch `master`)
 
 ## Scripts
 
@@ -25,36 +25,20 @@ npm run dev      # next dev
 
 ## Domain status
 
-- **Live apex:** https://epicsevensteam.com (Cloudflare Registrar → CF DNS gray-cloud → Vercel)
-- **www:** redirects to apex (308 on Vercel)
-- DNS (proxied=false): A `216.198.79.1` + `64.29.17.1`; CNAME `www` → `7b3ac62823ed2eff.vercel-dns-017.com`
+- **Live apex:** https://epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages project `epicsevensteam`, branch `master`)
+- **www:** redirects to apex
 - Candidates considered earlier: `epic-seven-steam.com`, `epic7steam.com`, `epicsevenfoundry.com`
-- L1 locales next: `en` (default, live), `ko`, `ja`, `/zh-tw/` (zh-Hant) — not shipped in first EN hang
+- L1 locales: `en` (default), `ko`, `ja`, `/zh-tw/` (zh-Hant)
 
-## Deploy to Vercel (preview, no custom domain)
+## Deploy to Cloudflare Pages
 
-```bash
-cd /workspace/sites/epic7-steam/scaffold
-npx vercel --yes          # preview deployment → *.vercel.app
-# production alias on vercel.app only if desired:
-# npx vercel --prod --yes
-```
+Pushes to `master` are built by the Cloudflare Pages project `epicsevensteam` from the repo root. `npm run build` writes `out/`. Do not push this repo to Vercel.
 
-Or connect the Git repo in Vercel UI → automatic previews.
-
-Optional env when domain is live:
+Optional env when needed:
 
 ```
 NEXT_PUBLIC_SITE_ORIGIN=https://epicsevensteam.com
 ```
-
-## Attach custom domain after purchase
-
-1. Buy/register `epicsevensteam.com` at your registrar (user payment — not this bot).
-2. Vercel project → Settings → Domains → Add `epicsevensteam.com` (+ `www` if wanted).
-3. Set DNS as Vercel shows (usually A/`76.76.21.21` or the provided CNAME for `www`).
-4. Wait for SSL. Confirm `https://epicsevensteam.com/` serves `out/`.
-5. Optional: set `NEXT_PUBLIC_SITE_ORIGIN` and redeploy so metadataBase matches.
 
 ## Pages
 

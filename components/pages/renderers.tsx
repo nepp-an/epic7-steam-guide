@@ -15,6 +15,15 @@ import {
   type VerifiedCopy,
 } from '@/lib/i18n/nextCut';
 import {
+  BANNERS_SUPPLEMENT,
+  FAQ_EXTRA,
+  FAQ_GROUPS,
+  MAINTENANCE_SUPPLEMENT,
+  RABBIT_SUPPLEMENT,
+  UPDATES_SUPPLEMENT,
+  type SupplementSection,
+} from '@/lib/i18n/supplement';
+import {
   AS_OF,
   CONTACT_PRIVACY,
   OFFICIAL,
@@ -272,6 +281,34 @@ function FaqBlock({
         </details>
       ))}
     </section>
+  );
+}
+
+/** Late-2026 on-page additions for the thinnest content pages. */
+function SupplementSections({
+  sections,
+}: {
+  sections: readonly SupplementSection[];
+}) {
+  return (
+    <>
+      {sections.map((s) => (
+        <section key={s.h2}>
+          <h2>{s.h2}</h2>
+          <p>{s.intro}</p>
+          <ul>
+            {s.bullets.map((b) => (
+              <li key={b.slice(0, 48)}>{b}</li>
+            ))}
+          </ul>
+          {s.source ? (
+            <p className="sources">
+              <ExternalLink href={s.source.href}>{s.source.label}</ExternalLink>
+            </p>
+          ) : null}
+        </section>
+      ))}
+    </>
   );
 }
 
@@ -901,10 +938,11 @@ export function DemoView({ locale }: { locale: Locale }) {
 
 export function FaqView({ locale }: { locale: Locale }) {
   const c = CONTENT['/faq/'][locale];
+  const allFaqs = [...c.faqs, ...FAQ_EXTRA[locale]];
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: c.faqs.map(([q, a]) => ({
+    mainEntity: allFaqs.map(([q, a]) => ({
       '@type': 'Question',
       name: q,
       acceptedAnswer: { '@type': 'Answer', text: faqPlain(a) },
@@ -925,14 +963,21 @@ export function FaqView({ locale }: { locale: Locale }) {
         credit="Unofficial FAQ flowchart · wrong bind, withdraw, then convert"
       />
       <p>{c.lead}</p>
-      <section className="faq">
-        {c.faqs.map(([q, a]) => (
-          <details key={q}>
-            <summary>{q}</summary>
-            <FaqRich locale={locale} marked={a} />
-          </details>
-        ))}
-      </section>
+      {FAQ_GROUPS[locale].map((group) => (
+        <section className="faq" key={group.h2}>
+          <h2>{group.h2}</h2>
+          <p>{group.intro}</p>
+          {group.items.map((i) => {
+            const [q, a] = allFaqs[i];
+            return (
+              <details key={q}>
+                <summary>{q}</summary>
+                <FaqRich locale={locale} marked={a} />
+              </details>
+            );
+          })}
+        </section>
+      ))}
       <h2>{c.check_h2}</h2>
       <ol>
         {c.checks.map((s) => (
@@ -1298,6 +1343,7 @@ export function RabbitView({ locale }: { locale: Locale }) {
         {c.daily}{' '}
         <ExternalLink href={OFFICIAL.stoveLuckyBoard}>STOVE</ExternalLink>
       </p>
+      <SupplementSections sections={RABBIT_SUPPLEMENT[locale]} />
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
@@ -1347,6 +1393,7 @@ export function BannersView({ locale }: { locale: Locale }) {
           ))}
         </ul>
       </article>
+      <SupplementSections sections={BANNERS_SUPPLEMENT[locale]} />
       <p>
         {c.also}{' '}
         <L locale={locale} href="/heroes/">
@@ -1389,6 +1436,7 @@ export function UpdatesView({ locale }: { locale: Locale }) {
           {src ? <p className="sources">{src}</p> : null}
         </article>
       ))}
+      <SupplementSections sections={UPDATES_SUPPLEMENT[locale]} />
       <p>
         {c.cont}{' '}
         <L locale={locale} href="/foundry/">
@@ -1438,6 +1486,7 @@ export function MaintenanceView({ locale }: { locale: Locale }) {
           ))}
         </ul>
       </article>
+      <SupplementSections sections={MAINTENANCE_SUPPLEMENT[locale]} />
       <p>
         <L locale={locale} href="/updates/">
           Updates

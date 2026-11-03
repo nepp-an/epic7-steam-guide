@@ -3,7 +3,8 @@
 export const BRAND = 'Epic Seven Steam Guide';
 
 /**
- * Apex: epicsevensteam.com (Cloudflare Registrar; DNS → Vercel, gray-cloud).
+ * Apex: epicsevensteam.com (Cloudflare Registrar; Cloudflare Pages, project
+ * epicsevensteam, branch master).
  * Override with NEXT_PUBLIC_SITE_ORIGIN if needed.
  */
 export const TARGET_DOMAIN = 'epicsevensteam.com';

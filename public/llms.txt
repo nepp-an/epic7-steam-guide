@@ -1,0 +1,11 @@
+# Epic Seven Steam Guide — epicsevensteam.com
+
+Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with Smilegate, STOVE, or Valve/Steam; official pages remain authoritative. Last reviewed: 2026-11-03.
+
+## Preferred pages
+- Home — start here for the Steam entry, transfer decision, and Foundry snapshot: https://epicsevensteam.com/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
+- Foundry — new-server calendar, buffs, Guild War 2026-11-21, and rewards through 2026-12-31: https://epicsevensteam.com/foundry/ (official source: https://page.onstove.com/epicseven/global/view/14571828)
+- Steam transfer — convert STOVE email/SNS login to Steam and recover a wrong bind: https://epicsevensteam.com/steam-transfer/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
+- FAQ — launch, transfer, Foundry, anti-cheat, and demo-deletion answers: https://epicsevensteam.com/faq/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
+- Download — official Steam store entry and pre-install checklist: https://epicsevensteam.com/download/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
+- Steam notes — client, anti-cheat, and cross-play notes: https://epicsevensteam.com/steam-notes/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)

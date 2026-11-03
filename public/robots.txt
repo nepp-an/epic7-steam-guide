@@ -1,3 +1,5 @@
+# llms.txt: https://epicsevensteam.com/llms.txt — preferred-page answers for AI assistants.
+# AI crawlers are allowed; no AI user-agent is disallowed.
 User-agent: *
 Allow: /
 
