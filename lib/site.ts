@@ -146,6 +146,7 @@ export const CORE_PATHS = [
   '/foundry/',
   '/secret-rabbit-hole/',
   '/heroes/',
+  '/tier-list/',
   '/quests/',
   '/banners/',
   '/updates/',

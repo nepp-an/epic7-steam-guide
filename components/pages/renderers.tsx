@@ -31,6 +31,14 @@ import {
   type Locale,
   localizedPath,
 } from '@/lib/site';
+import {
+  TIER_HEROES,
+  TIER_LIST_COPY,
+  TIER_ORDER,
+  type Tier,
+  type TierHero,
+  type TierScenario,
+} from '@/lib/i18n/tier-list';
 
 function L({
   locale,
@@ -367,6 +375,20 @@ const GW_LINK: Record<Locale, string> = {
   ko: '파운드리 길드전',
   ja: 'ファウンドリのギルド戦',
   'zh-tw': 'Foundry 公會戰',
+};
+
+const TIER_LINK_LABEL: Record<Locale, string> = {
+  en: 'Tier list — Steam/transfer lens',
+  ko: '티어표 — Steam/이전 관점',
+  ja: 'ティア表 — Steam/引き継ぎ視点',
+  'zh-tw': '節奏榜 — Steam／轉移視角',
+};
+
+const TIER_AVATAR_ALT: Record<Locale, string> = {
+  en: ' — self-drawn element-colour avatar (not official art)',
+  ko: ' — 자작 속성색 아바타(공식 아트 아님)',
+  ja: ' — 自作属性色アバター（公式アートではありません）',
+  'zh-tw': ' — 自繪屬性色頭像（非官方立繪）',
 };
 
 export function HomeView({ locale }: { locale: Locale }) {
@@ -1293,6 +1315,11 @@ export function FoundryView({ locale }: { locale: Locale }) {
             {c.link_faq}
           </L>
         </li>
+        <li>
+          <L locale={locale} href="/tier-list/">
+            {TIER_LINK_LABEL[locale]}
+          </L>
+        </li>
       </ul>
       <DeepBlock h2={c.deep_h2} paras={c.deep} />
       <p className="quick-answer">{c.codes_note}</p>
@@ -1450,6 +1477,10 @@ export function BannersView({ locale }: { locale: Locale }) {
         ·{' '}
         <L locale={locale} href="/foundry/">
           Foundry
+        </L>
+        {' · '}
+        <L locale={locale} href="/tier-list/">
+          {TIER_LINK_LABEL[locale]}
         </L>
       </p>
     </PageShell>
@@ -1860,6 +1891,11 @@ export function HeroesView({ locale }: { locale: Locale }) {
             Steam Transfer
           </L>
         </li>
+        <li>
+          <L locale={locale} href="/tier-list/">
+            {TIER_LINK_LABEL[locale]}
+          </L>
+        </li>
       </ul>
       <details className="further-reading">
         <summary>{c.further_summary}</summary>
@@ -1986,6 +2022,437 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.steamStore}>Steam app 5019180</ExternalLink>
         </li>
       </ul>
+    </PageShell>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* /tier-list/ — Steam/transfer lens. Kept outside CONTENT so the page */
+/* can use typed scenario bands without widening every locale object.  */
+/* ------------------------------------------------------------------ */
+
+function TierBadge({ tier, label }: { tier: Tier; label?: string }) {
+  return (
+    <span className={`tier-badge tier-${tier.toLowerCase()}`}>
+      {label ? `${label} ` : ''}
+      {tier}
+    </span>
+  );
+}
+
+function TierItem({ hero, locale }: { hero: TierHero; locale: Locale }) {
+  const content = (
+    <>
+      {hero.avatar ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          className="tier-avatar"
+          src={`/images/avatars/${hero.slug}.webp`}
+          alt={`${hero.name}${TIER_AVATAR_ALT[locale]}`}
+          width={28}
+          height={28}
+          loading="lazy"
+        />
+      ) : (
+        <span className="tier-initial" aria-hidden="true">
+          {hero.name.slice(0, 1)}
+        </span>
+      )}
+      <span>{hero.name}</span>
+    </>
+  );
+  if (!hero.avatar) {
+    return <span className="tier-chip tier-chip--text">{content}</span>;
+  }
+  return (
+    <L locale={locale} href={`/heroes/#${hero.slug}`} className="tier-chip">
+      {content}
+    </L>
+  );
+}
+
+function TierBoard({
+  locale,
+  scenario,
+  side,
+}: {
+  locale: Locale;
+  scenario: TierScenario;
+  side?: 'offense' | 'defense';
+}) {
+  return (
+    <div className="tier-board">
+      {TIER_ORDER.map((tier) => {
+        const list = TIER_HEROES.filter((hero) => {
+          if (hero[scenario] !== tier) return false;
+          if (!side) return true;
+          return (
+            hero.gwSide === side ||
+            hero.gwSide === 'both' ||
+            hero.gwSide === 'flex'
+          );
+        });
+        if (list.length === 0) return null;
+        return (
+          <div className="tier-row" key={tier}>
+            <div className={`tier-label tier-${tier.toLowerCase()}`}>{tier}</div>
+            <div className="tier-items">
+              {list.map((hero) => (
+                <TierItem key={hero.slug} hero={hero} locale={locale} />
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function TierHeroCard({
+  hero,
+  locale,
+  note,
+}: {
+  hero: TierHero;
+  locale: Locale;
+  note: string;
+}) {
+  return (
+    <article className="hero-card tier-card">
+      {hero.avatar ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          className="hero-avatar"
+          src={`/images/avatars/${hero.slug}.webp`}
+          alt={`${hero.name}${TIER_AVATAR_ALT[locale]}`}
+          width={160}
+          height={160}
+          loading="lazy"
+        />
+      ) : (
+        <span className="tier-monogram" aria-hidden="true">
+          {hero.name.slice(0, 1)}
+        </span>
+      )}
+      <div className="hero-card-main">
+        <h3>
+          {hero.avatar ? (
+            <L locale={locale} href={`/heroes/#${hero.slug}`}>
+              {hero.name}
+            </L>
+          ) : (
+            hero.name
+          )}
+        </h3>
+        <div className="hero-card-chips">
+          <span className={elementChipClass(hero.element)}>{hero.element}</span>
+          <span className="chip chip-role">{hero.role}</span>
+        </div>
+        <div className="tier-badges">
+          <TierBadge tier={hero.pve} label="PvE" />
+          <TierBadge tier={hero.gw} label="GW" />
+          <TierBadge tier={hero.wa} label="WA" />
+        </div>
+        <p className="hero-brief">{note}</p>
+      </div>
+    </article>
+  );
+}
+
+export function TierListView({ locale }: { locale: Locale }) {
+  const c = TIER_LIST_COPY[locale];
+  const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
+  const avatarHeroes = TIER_HEROES.filter((hero) => hero.avatar);
+  const beyondHeroes = TIER_HEROES.filter((hero) => !hero.avatar);
+
+  return (
+    <PageShell locale={locale} path="/tier-list/">
+      <FaqJsonLd faqs={faqs} />
+      <h1>{c.h1}</h1>
+      <IndepNotice locale={locale} />
+      <p className="last-verified">
+        {c.last_before}
+        <time dateTime="2026-11-03">2026-11-03</time>
+        {c.last_after}
+      </p>
+      <QuickAnswer text={c.answer} />
+      <nav className="anchor-nav" aria-label={c.anchors_label}>
+        <span className="anchor-nav-label">{c.anchors_label}</span>
+        <a href="#steam-lens">{c.anchor_why}</a>
+        <a href="#bands">{c.anchor_bands}</a>
+        <a href="#steam-constraints">{c.anchor_constraints}</a>
+        <a href="#pve">{c.anchor_pve}</a>
+        <a href="#guild-war">{c.anchor_gw}</a>
+        <a href="#world-arena">{c.anchor_wa}</a>
+        <a href="#budget">{c.anchor_budget}</a>
+        <a href="#plan">{c.anchor_plan}</a>
+        <a href="#roster">{c.anchor_roster}</a>
+        <a href="#faq">{c.anchor_faq}</a>
+      </nav>
+      <p className="prio-note muted">{c.lens_note}</p>
+      <Fig
+        src="/images/steam-ss-battle.webp"
+        alt={c.img_alt_battle}
+        credit="Steam store screenshot · app 5019180 · Steam CDN"
+      />
+      <p>{c.lead}</p>
+
+      <section id="steam-lens">
+        <h2>{c.why_h2}</h2>
+        <p>{c.why_p1}</p>
+        <p>{c.why_p2}</p>
+        <p>{c.why_p3}</p>
+        <aside className="card warn">
+          <h3>{c.not_h2}</h3>
+          <p>{c.not_p}</p>
+          <ul className="sources">
+            {c.consensus.map((item) => (
+              <li key={item.href}>
+                <ExternalLink href={item.href}>{item.name}</ExternalLink> —{' '}
+                {item.note}
+              </li>
+            ))}
+          </ul>
+        </aside>
+      </section>
+
+      <section id="bands">
+        <h2>{c.bands_h2}</h2>
+        <p>{c.bands_intro}</p>
+        <table className="data">
+          <thead>
+            <tr>
+              {c.bands_th.map((th) => (
+                <th key={th}>{th}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {c.bands.map((band) => (
+              <tr key={band.tier}>
+                <td>
+                  <TierBadge tier={band.tier} />
+                </td>
+                <td>
+                  <strong>{band.label}</strong>
+                </td>
+                <td>
+                  {band.meaning} <span className="muted">{band.action}</span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="muted">{c.bands_note}</p>
+      </section>
+
+      <section id="steam-constraints">
+        <h2>{c.constraints_h2}</h2>
+        <p>{c.constraints_intro}</p>
+        <Fig
+          src="/images/diagram-foundry-calendar.webp"
+          alt={c.img_alt_calendar}
+          credit="Unofficial Foundry calendar · cite STOVE dates"
+        />
+        <ul>
+          {c.constraints.map((item) => (
+            <li key={item.slice(0, 40)}>
+              <RichInline locale={locale} marked={item} />
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section id="pve">
+        <h2>{c.pve_h2}</h2>
+        <p>{c.pve_intro}</p>
+        <TierBoard locale={locale} scenario="pve" />
+        <p className="muted">{c.pve_note}</p>
+      </section>
+
+      <section id="guild-war">
+        <h2>{c.gw_h2}</h2>
+        <p className="quick-answer">
+          <strong>TL;DR — </strong>
+          {c.gw_answer}
+        </p>
+        <p>{c.gw_intro}</p>
+        <h3>{c.gw_off_h3}</h3>
+        <TierBoard locale={locale} scenario="gw" side="offense" />
+        <p className="muted">{c.gw_off_note}</p>
+        <h3>{c.gw_def_h3}</h3>
+        <TierBoard locale={locale} scenario="gw" side="defense" />
+        <p className="muted">{c.gw_def_note}</p>
+        <h3>{c.gw_prep_h3}</h3>
+        <ul>
+          {c.gw_prep.map((item) => (
+            <li key={item.slice(0, 40)}>{item}</li>
+          ))}
+        </ul>
+        <p>
+          <L locale={locale} href="/foundry/#guild-war">
+            {c.gw_link_label}
+          </L>
+        </p>
+      </section>
+
+      <section id="world-arena">
+        <h2>{c.wa_h2}</h2>
+        <p className="quick-answer">
+          <strong>TL;DR — </strong>
+          {c.wa_answer}
+        </p>
+        <p>{c.wa_intro}</p>
+        <TierBoard locale={locale} scenario="wa" />
+        <h3>{c.wa_draft_h3}</h3>
+        <ul>
+          {c.wa_draft.map((item) => (
+            <li key={item.slice(0, 40)}>{item}</li>
+          ))}
+        </ul>
+        <h3>{c.wa_counter_h3}</h3>
+        <ul>
+          {c.wa_counter.map((item) => (
+            <li key={item.slice(0, 40)}>{item}</li>
+          ))}
+        </ul>
+        <p className="muted">{c.wa_note}</p>
+      </section>
+
+      <section id="budget">
+        <h2>{c.budget_h2}</h2>
+        <p>{c.budget_intro}</p>
+        <table className="data">
+          <thead>
+            <tr>
+              {c.budget_th.map((th) => (
+                <th key={th}>{th}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {c.budget.map((row) => (
+              <tr key={row[0]}>
+                {row.map((cell) => (
+                  <td key={cell}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section id="plan">
+        <h2>{c.plan_h2}</h2>
+        <p>{c.plan_intro}</p>
+        <ol className="steps">
+          {c.plan.map((item) => (
+            <li key={item.slice(0, 40)}>
+              <RichInline locale={locale} marked={item} />
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section id="roster">
+        <h2>{c.roster_h2}</h2>
+        <p>
+          <RichInline locale={locale} marked={c.roster_intro} />
+        </p>
+        <div className="hero-grid tier-hero-grid">
+          {avatarHeroes.map((hero) => (
+            <TierHeroCard
+              key={hero.slug}
+              hero={hero}
+              locale={locale}
+              note={c.hero_notes[hero.slug] ?? ''}
+            />
+          ))}
+        </div>
+        <h2>{c.beyond_h2}</h2>
+        <p>{c.beyond_intro}</p>
+        <div className="hero-grid tier-hero-grid">
+          {beyondHeroes.map((hero) => (
+            <TierHeroCard
+              key={hero.slug}
+              hero={hero}
+              locale={locale}
+              note={c.hero_notes[hero.slug] ?? ''}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section id="banners">
+        <h2>{c.banners_h2}</h2>
+        <p>
+          <RichInline locale={locale} marked={c.banners_p} />
+        </p>
+      </section>
+
+      <section className="faq" id="faq">
+        <h2>{c.faq_h2}</h2>
+        {c.faqs.map(([q, a]) => (
+          <details key={q}>
+            <summary>{q}</summary>
+            <FaqRich locale={locale} marked={a} />
+          </details>
+        ))}
+      </section>
+
+      <section className="sources">
+        <h2>{c.sources_h2}</h2>
+        <p className="muted">{c.sources_note}</p>
+        <ul>
+          <li>
+            <ExternalLink href={OFFICIAL.stoveHome}>
+              STOVE — Epic Seven notices
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href={OFFICIAL.steamStore}>
+              Steam — Epic Seven (app 5019180)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href={OFFICIAL.stoveFoundry}>
+              STOVE — Foundry notice (view/14571828)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href={OFFICIAL.stoveSteamFaq}>
+              STOVE — Steam FAQ (view/14378309)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://epic7db.com/">epic7db</ExternalLink> —{' '}
+            full-roster reference
+          </li>
+          <li>
+            <ExternalLink href="https://www.prydwen.gg/epic-seven/">
+              Prydwen — Epic Seven
+            </ExternalLink>{' '}
+            — patch rankings
+          </li>
+          <li>
+            <ExternalLink href="https://epic7x.com/">epic7x</ExternalLink> —
+            hero kit pages
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>{c.related_h2}</h2>
+        <ul>
+          {c.related.map(([href, label]) => (
+            <li key={href}>
+              <L locale={locale} href={href}>
+                {label}
+              </L>
+            </li>
+          ))}
+        </ul>
+      </section>
     </PageShell>
   );
 }

@@ -5,6 +5,7 @@ Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with
 ## Preferred pages
 - Home — start here for the Steam entry, transfer decision, and Foundry snapshot: https://epicsevensteam.com/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
 - Foundry — new-server calendar, buffs, Guild War checklist (~2026-11-21), and rewards through 2026-12-31: https://epicsevensteam.com/foundry/ (Guild War anchor: https://epicsevensteam.com/foundry/#guild-war; official source: https://page.onstove.com/epicseven/global/view/14571828)
+- Tier list — Steam/transfer lens with separate PvE, Guild War, and World Arena build bands, post-transfer resource limits, and budget swaps (not a global ranking): https://epicsevensteam.com/tier-list/ (official source: https://page.onstove.com/epicseven/global; public full-roster references: https://epic7db.com/ , https://www.prydwen.gg/epic-seven/)
 - Steam transfer — convert STOVE email/SNS login to Steam, recover a wrong bind, and the “already registered” / 3-month cooldown path: https://epicsevensteam.com/steam-transfer/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
 - FAQ — launch, transfer errors, Foundry, anti-cheat, and demo-deletion answers: https://epicsevensteam.com/faq/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
 - Download — official Steam store entry and pre-install checklist: https://epicsevensteam.com/download/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)

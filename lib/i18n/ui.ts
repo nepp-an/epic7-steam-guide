@@ -7,6 +7,7 @@ export type NavKey =
   | 'foundry'
   | 'rabbit'
   | 'heroes'
+  | 'tier'
   | 'quests'
   | 'banners'
   | 'updates'
@@ -23,6 +24,7 @@ export const NAV_ITEMS: { key: NavKey; path: string }[] = [
   { key: 'foundry', path: '/foundry/' },
   { key: 'rabbit', path: '/secret-rabbit-hole/' },
   { key: 'heroes', path: '/heroes/' },
+  { key: 'tier', path: '/tier-list/' },
   { key: 'quests', path: '/quests/' },
   { key: 'banners', path: '/banners/' },
   { key: 'updates', path: '/updates/' },
@@ -41,6 +43,7 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
     foundry: 'Foundry',
     rabbit: 'Rabbit Hole',
     heroes: 'Heroes',
+    tier: 'Tier list',
     quests: 'Quests',
     banners: 'Banners',
     updates: 'Updates',
@@ -57,6 +60,7 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
     foundry: '파운드리',
     rabbit: '래빗 홀',
     heroes: '영웅',
+    tier: '티어표',
     quests: '퀘스트',
     banners: '배너',
     updates: '업데이트',
@@ -73,6 +77,7 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
     foundry: 'ファウンドリ',
     rabbit: 'ラビットホール',
     heroes: '英雄',
+    tier: 'ティア表',
     quests: 'クエスト',
     banners: 'バナー',
     updates: '更新',
@@ -89,6 +94,7 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
     foundry: 'Foundry',
     rabbit: '兔子洞',
     heroes: '英雄',
+    tier: 'Tier 表',
     quests: '任務',
     banners: '卡池',
     updates: '更新',
