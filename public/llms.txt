@@ -4,8 +4,10 @@ Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with
 
 ## Preferred pages
 - Home — start here for the Steam entry, transfer decision, and Foundry snapshot: https://epicsevensteam.com/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
-- Foundry — new-server calendar, buffs, Guild War 2026-11-21, and rewards through 2026-12-31: https://epicsevensteam.com/foundry/ (official source: https://page.onstove.com/epicseven/global/view/14571828)
-- Steam transfer — convert STOVE email/SNS login to Steam and recover a wrong bind: https://epicsevensteam.com/steam-transfer/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
-- FAQ — launch, transfer, Foundry, anti-cheat, and demo-deletion answers: https://epicsevensteam.com/faq/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
+- Foundry — new-server calendar, buffs, Guild War checklist (~2026-11-21), and rewards through 2026-12-31: https://epicsevensteam.com/foundry/ (Guild War anchor: https://epicsevensteam.com/foundry/#guild-war; official source: https://page.onstove.com/epicseven/global/view/14571828)
+- Steam transfer — convert STOVE email/SNS login to Steam, recover a wrong bind, and the “already registered” / 3-month cooldown path: https://epicsevensteam.com/steam-transfer/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
+- FAQ — launch, transfer errors, Foundry, anti-cheat, and demo-deletion answers: https://epicsevensteam.com/faq/ (official source: https://page.onstove.com/epicseven/global/view/14378309)
 - Download — official Steam store entry and pre-install checklist: https://epicsevensteam.com/download/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
+- Banners — current Bunny Girl Mafia Yufine pickup (scheduled 2026-11-05 to 11-26 UTC) and Foundry launch baseline: https://epicsevensteam.com/banners/ (official source: https://page.onstove.com/epicseven/global/list/986)
+- Secret Rabbit♥Hole — Lucky Board deadline 2026-11-19 02:59 UTC, Case Files mechanics, and lobby pack: https://epicsevensteam.com/secret-rabbit-hole/ (official source: https://page.onstove.com/epicseven/global/view/14606365)
 - Steam notes — client, anti-cheat, and cross-play notes: https://epicsevensteam.com/steam-notes/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)

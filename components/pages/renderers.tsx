@@ -762,6 +762,29 @@ export function TransferView({ locale }: { locale: Locale }) {
         </ol>
         <p className="muted">{c.conflict_note}</p>
       </div>
+      <h2 id="cooldown">{c.cooldown_h2}</h2>
+      <div className="card warn">
+        <p>{c.cooldown_lead}</p>
+        <table className="data">
+          <thead>
+            <tr>
+              {c.cooldown_th.map((t) => (
+                <th key={t}>{t}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {c.cooldown_rows.map((row) => (
+              <tr key={row[0]}>
+                {row.map((cell) => (
+                  <td key={cell}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="muted">{c.cooldown_note}</p>
+      </div>
       <h2>{c.tree_h2}</h2>
       {c.tree.map(([h, body]) => (
         <div key={h} className="card">
@@ -1272,7 +1295,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         </li>
       </ul>
       <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <p>{c.codes_note}</p>
+      <p className="quick-answer">{c.codes_note}</p>
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
@@ -1306,6 +1329,10 @@ export function RabbitView({ locale }: { locale: Locale }) {
     <PageShell locale={locale} path="/secret-rabbit-hole/">
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      <div className="card warn">
+        <h2>{c.deadline_h2}</h2>
+        <p>{c.deadline_text}</p>
+      </div>
       <p>{c.lead}</p>
       <h2>{c.glance_h2}</h2>
       <table className="data">
@@ -1374,6 +1401,23 @@ export function BannersView({ locale }: { locale: Locale }) {
         credit="Steam store screenshot · Steam CDN"
       />
       <p>{c.lead}</p>
+      <article className="card pickup">
+        <p className="as-of">{c.pickup_kicker}</p>
+        <h2>{c.pickup_h2}</h2>
+        <p>
+          <strong>{c.pickup_artifact}</strong>
+        </p>
+        <p className="pickup-window">{c.pickup_window}</p>
+        <p>
+          <RichInline locale={locale} marked={c.pickup_body} />
+        </p>
+        <p className="muted">{c.pickup_note}</p>
+        <p className="sources">
+          <ExternalLink href={OFFICIAL.stoveAnnouncements}>
+            {c.pickup_source}
+          </ExternalLink>
+        </p>
+      </article>
       <article className="card">
         <h2>{c.launch_h2}</h2>
         <ul>

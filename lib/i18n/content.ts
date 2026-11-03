@@ -390,7 +390,7 @@ export const CONTENT = {
       "after_h2": "After install checklist",
       "after": [
         "Confirm which STOVE login Steam is using before spending currency.",
-        "Foundry vs legacy: transferring login does not move an old character onto [[Foundry|/foundry/]] — Foundry is a separate server. See the [[transfer guide|/steam-transfer/]].",
+        "Foundry vs legacy: transferring login does not move an old character onto [[Foundry|/foundry/]] — Foundry is a separate server. See the [[transfer guide|/steam-transfer/]] and the [[Guild War checklist|/foundry/#guild-war]].",
         "Wishlist / launch mails on Foundry are time-gated — claim from mailbox before expiry."
       ],
       "refs_h2": "Official launch references",
@@ -426,7 +426,7 @@ export const CONTENT = {
         "최소 사양(Steam): Win10 64비트, i5급, RAM 8GB, GTX 1060급, 약 10GB. 권장 16GB / GTX 1660급."
       ],
       "after_h2": "설치 후 체크",
-      "after": [ "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.", "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 [[파운드리|/foundry/]]로 옮겨지지 않음 — 별도 서버. [[이전 가이드|/steam-transfer/]]를 확인하세요.", "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령." ],
+      "after": [ "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.", "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 [[파운드리|/foundry/]]로 옮겨지지 않음 — 별도 서버. [[이전 가이드|/steam-transfer/]]와 [[길드전 체크리스트|/foundry/#guild-war]]를 확인하세요.", "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령." ],
       "refs_h2": "공식 런칭 참고",
       "related_h2": "관련 허브",
       "answer": "Epic Seven은 공식 Steam 스토어(app 5019180)에서만 받으세요. 기존 진행도가 있으면 설치·플레이 전에 STOVE→Steam 전환을, 데모 삭제 경고도 확인하세요.",
@@ -454,7 +454,7 @@ export const CONTENT = {
         "最低仕様（Steam）：Win10 64bit、i5級、8GB、GTX1060級、約10GB。推奨16GB / GTX1660級。"
       ],
       "after_h2": "導入後チェック",
-      "after": [ "課金前にSteamがどのSTOVEログインか確認。", "[[ファウンドリ|/foundry/]]と既存：ログイン変換だけでは旧キャラは移らない — 別鯖。[[引き継ぎガイド|/steam-transfer/]]を参照。", "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。" ],
+      "after": [ "課金前にSteamがどのSTOVEログインか確認。", "[[ファウンドリ|/foundry/]]と既存：ログイン変換だけでは旧キャラは移らない — 別鯖。[[引き継ぎガイド|/steam-transfer/]]と[[ギルド戦チェック|/foundry/#guild-war]]を参照。", "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。" ],
       "refs_h2": "公式ローンチ参照",
       "related_h2": "関連ハブ",
       "answer": "Epic Sevenは公式Steamストア（app 5019180）からのみ導入。旧進行が必要なら先にSTOVE→Steam変換し、デモ削除警告も読んでください。",
@@ -482,7 +482,7 @@ export const CONTENT = {
         "最低規格（Steam）：Win10 64 位、i5 級、8GB、GTX 1060 級、約 10GB。建議 16GB／GTX 1660 級。"
       ],
       "after_h2": "安裝後檢查",
-      "after": [ "消費前確認 Steam 使用哪個 STOVE 登入。", "Foundry 與舊服：僅轉移登入不會把舊角色搬到 [[Foundry|/foundry/]]——是不同伺服器。見[[轉移指南|/steam-transfer/]]。", "Foundry 信箱／願望單獎勵有時限——到期前領取。" ],
+      "after": [ "消費前確認 Steam 使用哪個 STOVE 登入。", "Foundry 與舊服：僅轉移登入不會把舊角色搬到 [[Foundry|/foundry/]]——是不同伺服器。見[[轉移指南|/steam-transfer/]]與[[公會戰檢查清單|/foundry/#guild-war]]。", "Foundry 信箱／願望單獎勵有時限——到期前領取。" ],
       "refs_h2": "官方上架參考",
       "related_h2": "相關導覽",
       "answer": "請只從官方 Steam 商店（app 5019180）下載。若要舊進度，先完成 STOVE→Steam 轉換，並閱讀試玩刪號警告。",
@@ -726,6 +726,15 @@ export const CONTENT = {
         "Then convert your original email/SNS account to Steam login."
       ],
       "conflict_note": "Withdrawal may involve a waiting period — confirm in STOVE UI / CS. Do not invent third-party unlock tools.",
+      "cooldown_h2": "“Already registered” and the 3-month cooldown",
+      "cooldown_lead": "Two errors account for most stuck transfers. Read the exact STOVE message before creating another account or deleting anything.",
+      "cooldown_th": [ "What you see", "Likely cause", "Safe next step" ],
+      "cooldown_rows": [
+        [ "“This information has already been registered.”", "That Steam ID is already linked to another STOVE login — often the empty account Steam made on first launch.", "Authorize that Steam ID on STOVE, withdraw the extra STOVE account, then convert the original email/SNS login. Do not open more Steam accounts." ],
+        [ "Transfer button greyed out", "STOVE is showing a hold or cooldown, or the login is not eligible yet. Players commonly report a 3-month cooldown after a wrong-bind cleanup.", "Read the date and scope in STOVE. Wait it out or ask STOVE CS; no third-party unlock can shorten it." ],
+        [ "Converted, but old heroes are missing", "Steam authorized a different STOVE identity than the one that owns the roster.", "Confirm the login pair, then use withdraw→convert. Never use in-game account deletion after transfer." ]
+      ],
+      "cooldown_note": "A 3-month cooldown is a STOVE-side account rule, not a site policy. The exact trigger and start date appear in your STOVE account UI or CS reply — this unofficial guide cannot reset it.",
       "cross_h2": "Cross-play notes",
       "cross": [
         "Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).",
@@ -733,10 +742,14 @@ export const CONTENT = {
         "Related: demo warning, Steam notes, FAQ hub."
       ],
       "src_h2": "Official sources",
-      "answer": "Steam transfer converts a STOVE to Steam login so you keep progress on the same account. Finish that STOVE to Steam convert, including a wrong-bind withdraw, before you trust a fresh Steam session. Transfer ≠ Foundry — conversion does not start you on the new server; see [[Guild War on Foundry|/foundry/#guild-war]]. This site is an unofficial player guide.",
+      "answer": "Steam transfer only converts a STOVE email/SNS login to Steam Simple Login so the same account keeps its legacy heroes. It is not Foundry and does not start Guild War. If STOVE says “already registered” or Transfer is greyed out, withdraw the extra Steam-linked account first — a 3-month cooldown may apply. See [[Guild War on Foundry|/foundry/#guild-war]].",
       "img_alt": "Self-drawn STOVE to Steam transfer steps diagram",
       "faq_h2": "Transfer FAQ",
       "faqs": [
+        [
+          "STOVE says “already been registered” — what now?",
+          "That Steam ID is already linked to another STOVE login. Authorize that Steam ID on STOVE, withdraw the extra account, then convert the original email/SNS login. Do not keep creating Steam accounts. A 3-month cooldown may apply after the cleanup; confirm the date in STOVE UI or CS. See the cooldown section above."
+        ],
         [
           "Do I lose heroes when transferring to Steam?",
           "Official FAQ states progress, heroes, items, purchases, and Epic Pass carry when you convert login correctly. Always re-check STOVE wording before acting."
@@ -830,6 +843,15 @@ export const CONTENT = {
         "이후 원래 이메일/SNS 계정을 Steam 로그인으로 전환합니다."
       ],
       "conflict_note": "탈퇴에 대기 기간이 있을 수 있습니다 — STOVE UI/고객센터에서 확인하세요. 제3자 해제 툴은 사용하지 마세요. 본 사이트는 비공식 안내입니다.",
+      "cooldown_h2": "“이미 등록됨” 오류와 3개월 쿨다운",
+      "cooldown_lead": "이전이 막히는 경우는 대개 두 가지 오류입니다. 새 계정을 만들거나 삭제하기 전에 STOVE 문구를 정확히 읽으세요.",
+      "cooldown_th": [ "보이는 화면", "가능한 원인", "안전한 다음 단계" ],
+      "cooldown_rows": [
+        [ "“This information has already been registered.”", "해당 Steam ID가 다른 STOVE 로그인(첫 실행 때 Steam이 만든 빈 계정인 경우가 많음)에 이미 연결되어 있습니다.", "STOVE에서 그 Steam ID를 인가하고, 여분의 STOVE 계정을 탈퇴한 뒤, 원래 이메일/SNS 로그인을 전환하세요. Steam 계정을 더 만들지 마세요." ],
+        [ "이전 버튼이 비활성화됨", "STOVE가 보류/쿨다운을 표시 중이거나 아직 자격이 없습니다. 잘못된 연동 정리 후 3개월 쿨다운은 흔히 보고됩니다.", "STOVE에 표시된 날짜와 범위를 읽으세요. 기다리거나 STOVE 고객지원에 문의하세요. 제3자 해제로 기간을 줄일 수 없습니다." ],
+        [ "전환했는데 옛 영웅이 없음", "Steam이 명단을 가진 STOVE 신원과 다른 계정을 인가했습니다.", "로그인 쌍을 확인한 뒤 탈퇴→전환을 사용하세요. 전환 후 인게임 계정 삭제는 절대 쓰지 마세요." ]
+      ],
+      "cooldown_note": "3개월 쿨다운은 사이트 정책이 아니라 STOVE 계정 규칙입니다. 정확한 발동 조건과 시작일은 STOVE 계정 UI나 CS 답변에 있습니다. 본 비공식 가이드는 이를 초기화할 수 없습니다.",
       "cross_h2": "크로스플레이 메모",
       "cross": [
         "Steam·STOVE PC·모바일은 동일 경험과 크로스플레이를 지원한다고 FAQ에 안내됩니다.",
@@ -837,10 +859,14 @@ export const CONTENT = {
         "관련: 데모 주의, Steam 안내, FAQ."
       ],
       "src_h2": "공식 출처",
-      "answer": "Steam 이전은 STOVE에서 Steam으로 로그인을 바꿔 같은 계정의 진행도를 유지하는 절차입니다. 새 Steam 세션을 믿기 전에 STOVE에서 Steam 전환을 끝내고, 잘못된 연동으로 생긴 빈 계정은 먼저 탈퇴하세요. 이전 ≠ Foundry — 로그인 전환만으로 신서버가 시작되지 않으니 [[파운드리 길드전|/foundry/#guild-war]]을 보세요. 본 사이트는 비공식 플레이어 가이드입니다.",
+      "answer": "Steam 이전은 STOVE 이메일/SNS 로그인을 Steam Simple Login으로 바꿔 같은 계정의 레거시 영웅을 유지하는 절차일 뿐입니다. Foundry도, 길드전 시작도 아닙니다. STOVE에 “already registered”가 뜨거나 이전 버튼이 비활성화되면 여분의 Steam 연동 계정을 먼저 탈퇴하세요. 3개월 쿨다운이 적용될 수 있습니다. [[파운드리 길드전|/foundry/#guild-war]]을 보세요.",
       "img_alt": "STOVE에서 Steam으로 이전하는 비공식 단계 다이어그램",
       "faq_h2": "이전 FAQ",
       "faqs": [
+        [
+          "STOVE에 “already been registered”가 뜨면 어떻게 하나요?",
+          "해당 Steam ID가 다른 STOVE 로그인에 이미 연결되어 있습니다. STOVE에서 그 Steam ID를 인가하고, 여분 계정을 탈퇴한 뒤 원래 이메일/SNS 로그인을 전환하세요. Steam 계정을 계속 만들지 마세요. 정리 후 3개월 쿨다운이 적용될 수 있으니 STOVE UI/CS에서 날짜를 확인하세요. 위 쿨다운 절을 보세요."
+        ],
         [ "Steam 전환 시 영웅을 잃나요?", "공식 FAQ상 올바르게 전환하면 진행도·영웅·아이템·결제·에픽패스가 유지됩니다. 실행 전 STOVE 문구를 다시 확인하세요." ],
         [ "Steam이 이미 새 계정을 만들면?", "새 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 로그인을 전환하세요 — 충돌 섹션과 STOVE FAQ를 보세요." ],
         [ "전환하면 파운드리로 옮겨지나요?", "아니요. 로그인 전환은 기존 서버 진행도를 유지합니다. 파운드리는 별도로 선택하는 신서버입니다 — [[파운드리 길드전|/foundry/#guild-war]]을 보세요." ],
@@ -916,13 +942,23 @@ export const CONTENT = {
       "conflict_intro": "公式復旧の骨子（要約）：新規Steam連携STOVEを先に退会し、本アカを変換。待ち時間がある場合あり — UI/CSで確認。",
       "conflict_steps": [ "STOVEログインでSteam種別を選ぶ。", "Epic Sevenに使ったSteamを認可。", "必要ならSTOVE登録/認証。", "そのSteam連携STOVEをUI案内どおり退会。", "その後、元メール/SNSをSteamログインへ。" ],
       "conflict_note": "退会に待ち時間がある場合あり — STOVE UI/CSで確認。第三者ツール禁止。本サイトは非公式案内です。",
+      "cooldown_h2": "「already registered」エラーと3か月クールダウン",
+      "cooldown_lead": "引き継ぎが止まる原因は主に二つのエラーです。新しいアカウントを作る前、削除する前にSTOVEの文面を正確に読んでください。",
+      "cooldown_th": [ "表示", "考えられる原因", "安全な次の手" ],
+      "cooldown_rows": [
+        [ "「This information has already been registered.」", "そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った空アカウントが多い）に既に紐づいています。", "STOVEでそのSteam IDを認可し、余分なSTOVEアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やさないでください。" ],
+        [ "引き継ぎボタンがグレー表示", "STOVEが保留/クールダウンを表示しているか、まだ対象外です。誤連携の整理後に3か月クールダウンが適用されたという報告が一般的です。", "STOVEに表示された日付と範囲を読んでください。待つかSTOVE公式サポートへ。第三者の解除で短縮はできません。" ],
+        [ "変換したのに旧英雄がいない", "Steamが名簿を持つSTOVE身元とは別のアカウントを認可しています。", "ログインの組み合わせを確認し、退会→変換を使います。変換後のゲーム内アカウント削除は絶対に使わないでください。" ]
+      ],
+      "cooldown_note": "3か月クールダウンは当サイトのルールではなくSTOVE側のアカウント規則です。正確な発動条件と開始日はSTOVEアカウント画面かCS回答にあります。本非公式ガイドは短縮・解除できません。",
       "cross_h2": "クロスプレイメモ",
       "cross": [ "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。", "関連：デモ注意、Steamメモ、FAQ。" ],
       "src_h2": "公式ソース",
-      "answer": "Steam引き継ぎは、STOVEからSteamへログインを変換して同じアカウントの進行を残す手順です。新しいSteamセッションを信じる前にSTOVEからSteamへの変換を終え、誤連携の空アカウントは先に退会してください。引き継ぎ≠Foundry — ログイン変換だけでは新鯖は始まらないので、[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。本サイトは非公式プレイヤーガイドです。",
+      "answer": "Steam引き継ぎは、STOVEのメール/SNSログインをSteamシンプルログインへ変換し、同じアカウントのレガシー英雄を残すだけの手順です。Foundryでもギルド戦開始でもありません。STOVEで「already registered」が出る、または引き継ぎボタンがグレーのときは、余分なSteam連携アカウントを先に退会してください。3か月のクールダウンが適用される場合があります。[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。",
       "img_alt": "STOVEからSteamへの非公式引き継ぎ手順図",
       "faq_h2": "引き継ぎFAQ",
       "faqs": [
+        [ "STOVEで「already been registered」と出たら？", "そのSteam IDは別のSTOVEログインに既に紐づいています。STOVEでそのSteam IDを認可し、余分なアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やし続けないでください。整理後に3か月のクールダウンが適用される場合があるので、STOVE UI/CSで日付を確認してください。上のクールダウン節を参照。" ],
         [ "Steam変換で英雄は消えますか？", "公式FAQでは正しく変換すれば進行・英雄・アイテム・課金・エピックパスが維持されるとあります。実行前にSTOVE文面を再確認。" ],
         [ "Steamが既に新規垢を作った場合は？", "新規Steam連携STOVEを先に退会し、元ログインを変換 — 衝突セクションとSTOVE FAQ。" ],
         [ "変換するとファウンドリへ移りますか？", "いいえ。ログイン変換は既存鯖の進行を維持します。ファウンドリは別途選ぶ新鯖です — [[ファウンドリのギルド戦|/foundry/#guild-war]]を参照。" ],
@@ -992,13 +1028,23 @@ export const CONTENT = {
       "conflict_intro": "官方復原大綱（摘要）：先註銷新建的 Steam 連結 STOVE 帳，再轉換本帳。可能有等待期——以 UI／客服為準。",
       "conflict_steps": [ "STOVE 登入選 Steam 類型。", "授權用於 Epic Seven 的 Steam 帳。", "必要時完成 STOVE 註冊／驗證。", "依 STOVE 介面註銷該 Steam 連結帳。", "再將原本 Email／SNS 轉為 Steam 登入。" ],
       "conflict_note": "註銷可能有等待期——以 STOVE UI／客服為準。禁止第三方工具。本站為非官方說明。",
+      "cooldown_h2": "「already registered」錯誤與三個月冷靜期",
+      "cooldown_lead": "轉移卡住多半是這兩種錯誤。在建立新帳號或刪除任何東西前，先讀清楚 STOVE 的原文。",
+      "cooldown_th": [ "看到什麼", "可能原因", "安全下一步" ],
+      "cooldown_rows": [
+        [ "「This information has already been registered.」", "該 Steam ID 已連結另一個 STOVE 登入——常見是首次啟動時 Steam 建立的空白帳號。", "在 STOVE 授權該 Steam ID、註銷多出來的 STOVE 帳號，再轉換原本的 Email／SNS 登入。不要一直新開 Steam 帳號。" ],
+        [ "轉移按鈕灰掉", "STOVE 顯示保留期／冷靜期，或這個登入尚未符合資格。錯綁清理後三個月冷靜期是玩家常見回報。", "讀 STOVE 顯示的日期與範圍。等待或詢問 STOVE 客服；第三方解鎖無法縮短。" ],
+        [ "轉換了但舊英雄不見", "Steam 授權到另一個 STOVE 身分，不是擁有原陣容的那個。", "確認登入組合，走註銷→轉換。轉移後絕不要用遊戲內刪號。" ]
+      ],
+      "cooldown_note": "三個月冷靜期是 STOVE 帳號規則，不是本站政策。確切觸發條件與起算日以你的 STOVE 帳號介面或客服回覆為準；本非官方指南無法解除。",
       "cross_h2": "跨平台備註",
       "cross": [ "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。", "相關：試玩警告、Steam 說明、FAQ。" ],
       "src_h2": "官方來源",
-      "answer": "Steam 轉移是把 STOVE 登入換成 Steam，藉此在同一帳號保留進度。把全新 Steam 連線當成主帳之前，先完成 STOVE 到 Steam 的轉換，並先註銷錯綁產生的空白帳。轉移≠Foundry——只轉換登入不會讓你在新服開局，請看[[Foundry 公會戰|/foundry/#guild-war]]。本站為非官方玩家指南。",
+      "answer": "Steam 轉移只是把 STOVE Email／SNS 登入換成 Steam Simple Login，讓同一帳號保留原服英雄；它不是 Foundry，也不會開始公會戰。若 STOVE 顯示「already registered」或轉移按鈕灰掉，先註銷多出來的 Steam 連結帳號——可能有三個月冷靜期。見[[Foundry 公會戰|/foundry/#guild-war]]。",
       "img_alt": "STOVE 轉 Steam 非官方步驟示意圖",
       "faq_h2": "轉移 FAQ",
       "faqs": [
+        [ "STOVE 顯示「already been registered」怎麼辦？", "該 Steam ID 已連結另一個 STOVE 登入。在 STOVE 授權該 Steam ID、註銷多出來的帳號，再轉換原本的 Email／SNS 登入。不要一直新開 Steam 帳號。清理後可能套用三個月冷靜期，請在 STOVE UI／客服確認日期。見上方冷靜期段。" ],
         [ "轉 Steam 會丢掉英雄嗎？", "官方 FAQ 寫明正確轉換可保留進度、英雄、道具、儲值與 Epic Pass。操作前請再對 STOVE 原文。" ],
         [ "Steam 已建新帳怎麼辦？", "先註銷新建的 Steam 連結 STOVE 帳，再轉換原本登入——見衝突段與 STOVE FAQ。" ],
         [ "轉換會把我搬到 Foundry 嗎？", "不會。登入轉換保留原伺服器進度。Foundry 是另行選擇的新服——見[[Foundry 公會戰|/foundry/#guild-war]]。" ],
@@ -1052,7 +1098,7 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ & Troubleshooting | Independent Guide",
       "meta": "Expanded FAQ: launch issues, transfer, Foundry, demo risks, anti-cheat. Independent guide with official links.",
       "h1": "FAQ & troubleshooting",
-      "answer": "This page expands the homepage FAQ. A wrong bind or a brand-new Heir starts on the transfer guide: withdraw the empty Steam link, then convert the original login. Foundry is a separate new server, not an account or server transfer. In-game delete after conversion can wipe legacy progress, so read the demo warning before you reinstall. Anti-cheat and launch failures are covered in Steam notes. This is an unofficial info site; STOVE and Steam stay authoritative.",
+      "answer": "This page expands the homepage FAQ. A wrong bind or a brand-new Heir starts on the transfer guide: withdraw the empty Steam link, then convert the original login. If STOVE says “already registered”, the Steam ID is tied to another login; withdraw that extra account first, and expect a possible 3-month cooldown. Foundry is a separate new server, not an account or server transfer. In-game delete after conversion can wipe legacy progress, so read the demo warning before you reinstall. Anti-cheat and launch failures are covered in Steam notes. This is an unofficial info site; STOVE and Steam stay authoritative.",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
       "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.",
       "faqs": [
@@ -1095,7 +1141,7 @@ export const CONTENT = {
       "title": "FAQ·문제 해결 — Epic Seven Steam",
       "meta": "런칭 이슈·이전·파운드리·데모 위험·안티치트 FAQ. 공식 링크 포함 비공식 가이드.",
       "h1": "FAQ·문제 해결",
-      "answer": "이 페이지는 홈 FAQ를 보강합니다. 잘못된 연동이나 새 후계자는 이전 가이드에서 시작하세요. 빈 Steam 연동을 탈퇴한 뒤 원래 로그인을 전환합니다. Foundry는 계정 이전이나 서버 이전이 아니라 별도 신서버입니다. 전환 후 게임 내 삭제는 기존 진행을 지울 수 있으니 재설치 전에 데모 삭제 경고를 읽으세요. 안티치트와 실행 실패는 Steam 안내를 보세요. 이곳은 비공식 정보 사이트이며, 기준은 STOVE와 Steam입니다.",
+      "answer": "이 페이지는 홈 FAQ를 보강합니다. 잘못된 연동이나 새 후계자는 이전 가이드에서 시작하세요. 빈 Steam 연동을 탈퇴한 뒤 원래 로그인을 전환합니다. STOVE가 “already registered”를 표시하면 해당 Steam ID가 다른 로그인에 묶여 있다는 뜻이니, 그 여분 계정을 먼저 탈퇴하고 3개월 쿨다운 가능성을 확인하세요. Foundry는 계정 이전이나 서버 이전이 아니라 별도 신서버입니다. 전환 후 게임 내 삭제는 기존 진행을 지울 수 있으니 재설치 전에 데모 삭제 경고를 읽으세요. 안티치트와 실행 실패는 Steam 안내를 보세요. 이곳은 비공식 정보 사이트이며, 기준은 STOVE와 Steam입니다.",
       "img_alt": "비공식 FAQ 흐름도: 잘못된 연동 후 탈퇴하고 이어서 전환",
       "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
       "faqs": [
@@ -1114,7 +1160,7 @@ export const CONTENT = {
       "title": "FAQ・トラブルシュート — Epic Seven Steam",
       "meta": "起動不具合・引き継ぎ・ファウンドリ・デモリスク・アンチチート。公式リンク付き非公式ガイド。",
       "h1": "FAQ・トラブルシュート",
-      "answer": "このページはホームFAQを補います。誤連携や新しい継承者は引き継ぎガイドから確認してください。空のSteam連携を退会してから、元のログインを変換します。ファウンドリはアカウント引き継ぎやサーバー移転ではなく、別の新サーバーです。変換後のゲーム内削除は旧進行を消すことがあるので、再導入の前にデモ削除の注意を読んでください。アンチチートと起動失敗はSteamメモを参照します。当サイトは非公式の情報サイトで、正本はSTOVEとSteamです。",
+      "answer": "このページはホームFAQを補います。誤連携や新しい継承者は引き継ぎガイドから確認してください。空のSteam連携を退会してから、元のログインを変換します。STOVEが「already registered」と表示する場合、そのSteam IDは別ログインに紐づいています。余分なアカウントを先に退会し、3か月クールダウンの可能性を確認してください。ファウンドリはアカウント引き継ぎやサーバー移転ではなく、別の新サーバーです。変換後のゲーム内削除は旧進行を消すことがあるので、再導入の前にデモ削除の注意を読んでください。アンチチートと起動失敗はSteamメモを参照します。当サイトは非公式の情報サイトで、正本はSTOVEとSteamです。",
       "img_alt": "非公式FAQフロー図：誤連携のあと退会し、続けて変換",
       "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。",
       "faqs": [
@@ -1133,7 +1179,7 @@ export const CONTENT = {
       "title": "FAQ 與疑難排解 — Epic Seven Steam",
       "meta": "啟動問題、轉移、Foundry、試玩風險、反作弊 FAQ。附官方連結之非官方指南。",
       "h1": "FAQ 與疑難排解",
-      "answer": "本頁補首頁 FAQ。錯綁或全新繼承人請先看轉移指南：先註銷空白 Steam 連結，再轉換原本登入。Foundry 是另一個新伺服器，不是帳號轉移或轉服。轉換後遊戲內刪號可能清掉舊進度，重裝前請先讀試玩刪號警告。反作弊與啟動問題見 Steam 說明。本站是非官方資訊站，以 STOVE 與 Steam 為準。",
+      "answer": "本頁補首頁 FAQ。錯綁或全新繼承人請先看轉移指南：先註銷空白 Steam 連結，再轉換原本登入。若 STOVE 顯示「already registered」，表示該 Steam ID 已綁另一個登入；先註銷多出來的帳號，並預期可能有三個月冷靜期。Foundry 是另一個新伺服器，不是帳號轉移或轉服。轉換後遊戲內刪號可能清掉舊進度，重裝前請先讀試玩刪號警告。反作弊與啟動問題見 Steam 說明。本站是非官方資訊站，以 STOVE 與 Steam 為準。",
       "img_alt": "非官方 FAQ 流程圖：錯綁後先註銷，再轉換",
       "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。",
       "faqs": [
@@ -1530,6 +1576,10 @@ export const CONTENT = {
         [
           "Can I play Guild War on legacy after transfer?",
           "Login transfer keeps your legacy-server character where it was. Foundry Guild War is a Foundry-side unlock (~2026-11-21 03:00 UTC per STOVE). A legacy Heir does not automatically join Foundry GW; you need a Foundry character. See the Guild War section above and STOVE Foundry notices."
+        ],
+        [
+          "Are there Foundry codes to redeem?",
+          "No coupon list is published here. Searches for “Foundry codes” usually mean celebration rewards — mailbox gifts, login items, and buffs posted on STOVE Foundry view/14571828 and Launch view/14606481. Claim only what the in-game mailbox shows; this unofficial guide does not publish, sell, or redeem codes."
         ]
       ],
       "vs_h2": "Transfer vs start on Foundry",
@@ -1545,12 +1595,13 @@ export const CONTENT = {
       "gw_unlock": "STOVE’s Foundry celebration table lists Guild War opening at approximately 2026-11-21 03:00 UTC. Draft Arena opened with the Steam launch window; World Arena is listed after 2026-12-10 maintenance (UTC). Always re-open the live STOVE Foundry notice before scheduling guild activities — patches can move windows.",
       "gw_prep_h3": "Pre-open checklist",
       "gw_prep": [
-        "Join or create a Foundry guild well before 2026-11-21 so membership is settled.",
+        "Reach the posted guild-entry requirement first — the community checklist cites account Rank 10; confirm the live gate in-game — then join or create a Foundry guild well before 2026-11-21.",
         "Clear daily guild missions and donate when available to build guild level/currency.",
         "Stock stamina items and keep a usable PvP core (tank/healer/cleanser) ready for guild offense/defense.",
         "Confirm your character is on Foundry — legacy-server guilds do not count as Foundry GW.",
+        "Transferring login does not enroll a legacy Heir in Foundry Guild War. The GW roster is built from your Foundry character and its accepted guild membership.",
         "Watch STOVE for any GW rule or schedule errata after maintenance.",
-        "Join the day the Foundry guild button opens on that character. A request still pending at 2026-11-21 03:00 UTC (STOVE Foundry view/14571828) sits out the first war.",
+        "Send the join request early and confirm it shows Accepted, not Pending. A request still pending at 2026-11-21 03:00 UTC (STOVE Foundry view/14571828) sits out the first war.",
         "Before each in-game reset, clear guild member missions and check-in. A missing name once war locks is a roster hole you cannot backfill.",
         "Spend the daily donate or contribute cap every reset. Missed contribution days do not stack, so skipping several days costs more guild progress than skipping one hunt.",
         "Use Foundry Draft Arena, open since the Steam launch (STOVE Launch view/14606481), as Guild War practice: gear a tank, a cleanser, and a healer you can field on both attack and defense, not a one-shot team you cannot hold a tower with.",
@@ -1558,7 +1609,7 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "Rewards window",
       "gw_reward": "Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many Foundry starter buffs and login gifts are posted through about 2026-12-31 02:59 UTC — GW itself unlocks earlier (≈11/21) so you can earn GW rewards inside that broader celebration window. Re-check STOVE before spending resources. Dates and loot windows on this page follow STOVE Foundry notice view/14571828 and Launch notice view/14606481, and may change after maintenance — if those posts disagree, follow the newer STOVE notice.",
-      "codes_note": "Searches for Foundry codes usually mean celebration rewards, not a coupon list. Those rewards are mailbox gifts, login items, and buffs published on STOVE Foundry view/14571828 and Launch view/14606481. This unofficial page does not publish, sell, or redeem coupon codes. If another site offers Foundry codes, ignore it and claim only what the in-game mailbox shows after you check those two STOVE notices.",
+      "codes_note": "Short answer: Foundry “codes” usually mean celebration rewards, not coupon strings. Check STOVE Foundry view/14571828 and Launch view/14606481, then claim only what the in-game mailbox shows. This unofficial page does not publish, sell, or redeem codes.",
       "ends_h2": "What ends on 12/31",
       "ends_th": [ "Item / buff", "Approx. end (UTC)", "Notes" ],
       "ends": [
@@ -1636,6 +1687,10 @@ export const CONTENT = {
         [
           "이전 후에도 레거시에서 길드전을 할 수 있나요?",
           "로그인 이전은 레거시 서버 캐릭터를 그 자리에 둡니다. 파운드리 길드전은 파운드리 측 해금(STOVE 기준 약 2026-11-21 03:00 UTC)입니다. 레거시 후계자가 자동으로 파운드리 GW에 참가하지 않으며 파운드리 캐릭이 필요합니다. 위 길드전 절과 STOVE 공지를 보세요."
+        ],
+        [
+          "파운드리 코드를 교환할 수 있나요?",
+          "여기에는 쿠폰 목록이 없습니다. “Foundry codes” 검색은 보통 축하 보상—STOVE 파운드리 view/14571828과 런칭 view/14606481에 게시된 우편 선물, 로그인 아이템, 버프—을 뜻합니다. 인게임 우편함에 표시된 것만 수령하세요. 본 비공식 가이드는 코드를 게시·판매·교환하지 않습니다."
         ]
       ],
       "vs_h2": "계정 이전 vs 파운드리 시작",
@@ -1651,12 +1706,13 @@ export const CONTENT = {
       "gw_unlock": "STOVE 파운드리 축하 표는 길드전 오픈을 약 2026-11-21 03:00 UTC로 안내합니다. 드래프트 아레나는 Steam 런칭 구간과 함께 열렸고, 월드 아레나는 2026-12-10 점검 후(UTC)로 안내됩니다. 길드 일정을 잡기 전에 반드시 최신 STOVE 파운드리 공지를 다시 여세요 — 패치로 창이 이동할 수 있습니다.",
       "gw_prep_h3": "오픈 전 체크리스트",
       "gw_prep": [
-        "2026-11-21 전에 파운드리 길드에 가입하거나 생성해 멤버십을 안정화하세요.",
+        "먼저 공지된 길드 가입 요건을 충족하세요 — 커뮤니티 체크리스트는 계정 Rank 10을 언급하며, 실제 기준은 인게임에서 확인 — 그다음 2026-11-21 전에 파운드리 길드에 가입하거나 생성해 멤버십을 안정화하세요.",
         "가능한 일일 길드 미션·기부를 처리해 길드 레벨/재화를 쌓으세요.",
         "스태미나 아이템을 확보하고 길드 공/수용 탱·힐·정화 코어를 준비하세요.",
         "캐릭터가 파운드리에 있는지 확인 — 레거시 서버 길드는 파운드리 길드전으로 치지 않습니다.",
+        "로그인 이전만으로 레거시 후계자가 파운드리 길드전에 등록되지는 않습니다. GW 로스터는 파운드리 캐릭터와 수락된 길드 소속으로 만들어집니다.",
         "점검 후 길드전 규칙/일정 정정이 있는지 STOVE를 주시하세요.",
-        "그 캐릭터에서 파운드리 길드 버튼이 열리는 날에 가입하세요. 2026-11-21 03:00 UTC(STOVE 파운드리 view/14571828)에 신청이 대기 중이면 첫 길드전에 나가지 못합니다.",
+        "가입 신청을 일찍 보내고 상태가 Pending이 아니라 Accepted로 표시되는지 확인하세요. 2026-11-21 03:00 UTC(STOVE 파운드리 view/14571828)에 신청이 대기 중이면 첫 길드전에 나가지 못합니다.",
         "인게임 리셋 전에 길드원 미션과 출석을 끝내세요. 전쟁이 잠긴 뒤 빈 이름은 나중에 메울 수 없는 로스터 구멍입니다.",
         "매일 리셋마다 일일 기부·기여 한도를 소진하세요. 빠진 날은 쌓이지 않으므로, 며칠을 건너뛰면 사냥 한 번을 빼는 것보다 길드 진행 손해가 큽니다.",
         "Steam 런칭부터 열린 파운드리 드래프트 아레나(STOVE 런칭 view/14606481)를 길드전 연습으로 쓰세요. 한 방 공격이 아니라 공격과 수비 모두에 낼 수 있는 탱커·정화·힐러를 장비하세요.",
@@ -1664,7 +1720,7 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "보상 구간",
       "gw_reward": "길드전 보상은 파운드리 축하 일정에 속한다고 보고, 정확한 보상표는 STOVE를 따릅니다. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지로 안내됩니다. 길드전 자체는 더 이른 시점(≈11/21)에 열리므로 그 넓은 축하 구간 안에서 보상을 받을 수 있습니다. 자원을 쓰기 전 STOVE를 재확인하세요. 이 페이지의 날짜와 보상 구간은 STOVE 파운드리 공지 view/14571828과 런칭 공지 view/14606481을 따르며 점검 후 바뀔 수 있습니다. 두 공지가 다르면 더 최신 STOVE 글을 따르세요.",
-      "codes_note": "파운드리 코드 검색은 대개 쿠폰 목록이 아니라 축하 보상을 가리킵니다. 그 보상은 STOVE 파운드리 view/14571828과 런칭 view/14606481에 공개된 우편 선물, 로그인 아이템, 버프입니다. 이 비공식 페이지는 쿠폰 코드를 게시·판매·교환하지 않습니다. 다른 사이트가 파운드리 코드를 내놓으면 무시하고, 두 STOVE 공지를 확인한 뒤 인게임 우편함에 있는 것만 수령하세요.",
+      "codes_note": "짧은 답: 파운드리 “코드”는 대개 쿠폰 문자열이 아니라 축하 보상입니다. STOVE 파운드리 view/14571828과 런칭 view/14606481을 확인하고 인게임 우편함에 표시된 것만 수령하세요. 본 비공식 페이지는 코드를 게시·판매·교환하지 않습니다.",
       "ends_h2": "12/31에 끝나는 것",
       "ends_th": [ "항목 / 버프", "대략 종료(UTC)", "메모" ],
       "ends": [
@@ -1745,6 +1801,10 @@ export const CONTENT = {
         [
           "引き継ぎ後もレガシーでギルド戦できますか？",
           "ログイン引き継ぎはレガシー鯖キャラをその場に残します。ファウンドリGWはファウンドリ側解禁（STOVEで約2026-11-21 03:00 UTC）。レガシー後継者は自動参加せず、ファウンドリキャラが必要。上のGW節とSTOVEを参照。"
+        ],
+        [
+          "ファウンドリのコードは引き換えられますか？",
+          "ここにクーポン一覧はありません。「Foundry codes」検索は通常、お祝い報酬—STOVEファウンドリ view/14571828 とローンチ view/14606481 に掲載されたメール贈り物、ログインアイテム、バフ—を指します。ゲーム内メールに表示されたものだけ受け取ってください。本非公式ガイドはコードを公開・販売・引き換えしません。"
         ]
       ],
       "vs_h2": "引き継ぎ vs ファウンドリ開始",
@@ -1760,12 +1820,13 @@ export const CONTENT = {
       "gw_unlock": "STOVEファウンドリお祝い表はギルド戦開始を約2026-11-21 03:00 UTCと記載。ドラフトアリーナはSteamローンチ枠と同時、ワールドアリーナは2026-12-10メンテ後（UTC）。ギルド予定の前に最新STOVE告知を開き直すこと — パッチで窓が動く場合あり。",
       "gw_prep_h3": "解禁前チェック",
       "gw_prep": [
-        "2026-11-21より前にファウンドリギルドへ加入/作成し所属を安定させる。",
+        "まず告知されたギルド参加条件を満たしてください — コミュニティのチェックリストはアカウントRank 10に言及しており、実際の条件はゲーム内で確認 — そのうえで2026-11-21より前にファウンドリギルドへ加入/作成し所属を安定させます。",
         "可能な日次ギルドミッション・寄付でギルドLv/通貨を積む。",
         "スタミナアイテムを確保し、ギルド攻/防用のタンク・ヒーラー・浄化コアを用意。",
         "キャラがファウンドリ上か確認 — レガシー鯖ギルドはファウンドリGWにならない。",
+        "ログイン引き継ぎだけではレガシー後継者はファウンドリGWに登録されません。GWのロスターはファウンドリキャラと承認されたギルド所属で作られます。",
         "メンテ後のGWルール/日程正誤をSTOVEで監視。",
-        "そのキャラでファウンドリのギルドボタンが開いた日に加入する。2026-11-21 03:00 UTC（STOVEファウンドリ view/14571828）に申請が保留のままだと初戦に出られない。",
+        "加入申請は早めに送り、状態がPendingではなくAcceptedと表示されるか確認する。2026-11-21 03:00 UTC（STOVEファウンドリ view/14571828）に申請が保留のままだと初戦に出られない。",
         "ゲーム内リセット前にギルドメンバーミッションと出席を終える。戦争がロックされたあとの欠員は後から埋められない。",
         "毎日のリセットで寄付・貢献の日次上限を使い切る。抜けた日は繰り越されないので、数日飛ばすとハント一回を休むよりギルド進行の損失が大きい。",
         "Steamローンチから開いているファウンドリのドラフトアリーナ（STOVEローンチ view/14606481）をギルド戦の練習にする。一撃編成ではなく、攻撃と防衛の両方に出せるタンク・浄化・ヒーラーを装備する。",
@@ -1773,7 +1834,7 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "報酬ウィンドウ",
       "gw_reward": "ギルド戦報酬はファウンドリお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまでと案内。GW自体はより早い時点（≈11/21）に開くため、その広いお祝い枠の中で受け取れます。資源消費前にSTOVEを再確認。この頁の日付と報酬枠はSTOVEファウンドリ告知 view/14571828 とローンチ告知 view/14606481 に従い、メンテ後に変わることがあります。二つの告知が食い違う場合は新しいSTOVE投稿に従ってください。",
-      "codes_note": "ファウンドリのコード検索は、クーポン一覧ではなくお祝い報酬を指すことが多いです。報酬はSTOVEファウンドリ view/14571828 とローンチ view/14606481 に掲載されたメール贈り物、ログインアイテム、バフです。本非公式頁はクーポンコードを公開・販売・引き換えしません。他サイトがファウンドリコードを出しても無視し、二つのSTOVE告知を確認したうえでゲーム内メールに出ているものだけ受け取ってください。",
+      "codes_note": "短い答え：ファウンドリの「コード」は通常、クーポン文字列ではなくお祝い報酬です。STOVEファウンドリ view/14571828 とローンチ view/14606481 を確認し、ゲーム内メールに表示されたものだけ受け取ってください。本非公式頁はコードを公開・販売・引き換えしません。",
       "ends_h2": "12/31に終わるもの",
       "ends_th": [ "項目 / バフ", "おおよその終了(UTC)", "メモ" ],
       "ends": [
@@ -1854,6 +1915,10 @@ export const CONTENT = {
         [
           "轉移後还能在原服打公會戰嗎？",
           "登入轉移會把原服角色留在原處。Foundry 公會戰是 Foundry 側解鎖（STOVE 約 2026-11-21 03:00 UTC）。原服繼承人不會自動參加 Foundry GW，需要 Foundry 角色。見上方公會戰節與 STOVE。"
+        ],
+        [
+          "Foundry 序號可以兌換嗎？",
+          "本頁不提供序號清單。搜尋「Foundry codes」通常指慶祝獎勵——STOVE Foundry view/14571828 與 Launch view/14606481 公布的信箱禮物、登入道具與增益。只領遊戲內信箱實際顯示的內容；本非官方指南不發布、不販售、也不代兌序號。"
         ]
       ],
       "vs_h2": "帳號轉移 vs 在 Foundry 開荒",
@@ -1869,12 +1934,13 @@ export const CONTENT = {
       "gw_unlock": "STOVE Foundry 慶祝表將公會戰開設約標為 2026-11-21 03:00 UTC。Draft Arena 隨 Steam 上架窗口開放；世界競技場標為 2026-12-10 維護後（UTC）。安排公會活動前請重新開啟最新 STOVE Foundry 公告——改版可能移動時段。",
       "gw_prep_h3": "開放前檢查清單",
       "gw_prep": [
-        "在 2026-11-21 前加入或建立 Foundry 公會，穩定成員身分。",
+        "先達到公告的公會加入門檻——社群清單提到帳號 Rank 10，實際條件請在遊戲內確認——再於 2026-11-21 前加入或建立 Foundry 公會，穩定成員身分。",
         "盡量完成每日公會任務與捐獻，累積公會等級／貨幣。",
         "備妥體力道具，並準備可用的公會攻／防坦克、治療、淨化核心。",
         "確認角色在 Foundry——原服公會不算 Foundry 公會戰。",
+        "只轉移登入不會把原服繼承人登錄到 Foundry 公會戰。GW 名單由你的 Foundry 角色與已通過的公會會籍建立。",
         "關注 STOVE 是否在維護後更正公會戰規則或時程。",
-        "該角色的 Foundry 公會按鈕一開就加入。申請若在 2026-11-21 03:00 UTC（STOVE Foundry view/14571828）仍在等待，就打不了第一場。",
+        "提早送出加入申請，並確認狀態顯示 Accepted 而不是 Pending。申請若在 2026-11-21 03:00 UTC（STOVE Foundry view/14571828）仍在等待，就打不了第一場。",
         "每次遊戲內重置前清完公會成員任務與簽到。戰爭鎖定後缺的名字無法事後補上。",
         "每次重置都用完當日捐獻／貢獻上限。漏掉的日子不會累積，連跳數日比少打一次狩獵更傷公會進度。",
         "把 Steam 上架起就開的 Foundry Draft Arena（STOVE Launch view/14606481）當成公會戰練習：養成攻防都能上場的坦克、淨化、治療，而不是守不住塔的一波隊。",
@@ -1882,7 +1948,7 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "獎勵區間",
       "gw_reward": "請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。公會戰本身較早開放（≈11/21），可在更寬的慶祝窗口內領獎。花費資源前請再查 STOVE。本頁日期與獎勵區間依 STOVE Foundry 公告 view/14571828 與 Launch 公告 view/14606481，維護後可能變更。兩則公告不一致時，跟較新的 STOVE 貼文。",
-      "codes_note": "搜尋 Foundry codes 通常指的是慶祝獎勵，不是兌換序號清單。那些獎勵是 STOVE Foundry view/14571828 與 Launch view/14606481 公布的信箱禮物、登入道具與增益。本非官方頁不發布、不販售、也不代兌優惠序號。若其他網站提供 Foundry 序號，請忽略，核對這兩則 STOVE 公告後只領遊戲內信箱實際出現的內容。",
+      "codes_note": "簡短回答：Foundry「序號」通常指慶祝獎勵，不是兌換字串。請查 STOVE Foundry view/14571828 與 Launch view/14606481，只領遊戲內信箱顯示的內容。本非官方頁不發布、不販售、也不代兌序號。",
       "ends_h2": "12/31 結束項目",
       "ends_th": [ "項目／增益", "大約結束（UTC）", "備註" ],
       "ends": [
@@ -1909,6 +1975,8 @@ export const CONTENT = {
       "meta": "Six-week side story, Alencia Case Files, Lucky Board, lobby pack. Independent overview citing STOVE.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Special side story with the Steam / Foundry launch window. Enter via lobby Secret Rabbit♥Hole icon. Summaries cite STOVE — schedules can change in-game.",
+      "deadline_h2": "Lucky Board deadline — 2026-11-19 02:59 UTC",
+      "deadline_text": "The Daily Investigation / Lucky Board closes at 2026-11-19 02:59 UTC. The posted cap is 720 points per day, so missed days cannot be fully recovered — spend tickets and Leif milestones before the reset. Confirm the live timer in-game and on STOVE; Case Files answers are not published here.",
       "glance_h2": "At a glance",
       "th": [ "Piece", "Window (as posted)", "Notes" ],
       "rows": [
@@ -1934,6 +2002,8 @@ export const CONTENT = {
       "meta": "6주 사이드, 알렌시아 사건파일, 럭키보드, 로비팩. STOVE 인용 비공식 요약.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Steam/파운드리 런칭과 함께하는 특별 사이드. 로비 아이콘으로 진입. STOVE 요약 — 인게임 일정이 바뀔 수 있음.",
+      "deadline_h2": "럭키보드 마감 — 2026-11-19 02:59 UTC",
+      "deadline_text": "일일 조사/럭키보드는 2026-11-19 02:59 UTC에 닫힙니다. 공지 상한은 하루 720포인트라 놓친 날은 완전히 되돌릴 수 없으니, 리셋 전에 티켓과 Leif 마일스톤을 쓰세요. 실제 타이머는 게임 내와 STOVE에서 확인하고, 케이스 파일 정답은 여기서 공개하지 않습니다.",
       "glance_h2": "한눈에",
       "th": [ "구성", "기간(공지)", "메모" ],
       "rows": [
@@ -1954,6 +2024,8 @@ export const CONTENT = {
       "meta": "6週サイド、アレンシア事件簿、ラッキーボード、ロビーパック。STOVE引用の非公式概要。",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Steam/ファウンドリ発売窓の特別サイド。ロビーアイコンから。STOVE要約 — ゲーム内日程は変動し得ます。",
+      "deadline_h2": "ラッキーボード締切 — 2026-11-19 02:59 UTC",
+      "deadline_text": "毎日捜査／ラッキーボードは2026-11-19 02:59 UTCに終了します。告知上の上限は1日720ポイントで、抜けた日は完全には取り戻せません。リセット前にチケットとLeifマイルストーンを使ってください。実際のタイマーはゲーム内とSTOVEで確認し、事件簿の答えは当頁では公開しません。",
       "glance_h2": "一覧",
       "th": [ "内容", "期間（告知）", "メモ" ],
       "rows": [
@@ -1974,6 +2046,8 @@ export const CONTENT = {
       "meta": "六週支線、Alencia 案件檔、幸運盤、大廳包。引述 STOVE 之非官方摘要。",
       "h1": "Secret Rabbit♥Hole",
       "lead": "搭配 Steam／Foundry 上架窗口的特別支線。大廳圖示進入。摘要自 STOVE——遊戲內日程可能變動。",
+      "deadline_h2": "幸運盤截止——2026-11-19 02:59 UTC",
+      "deadline_text": "每日調查／幸運盤將於 2026-11-19 02:59 UTC 結束。公告上限為每天 720 點，漏掉的天數無法完整補回，請在重置前用掉抽獎券與 Leif 里程碑。實際計時以遊戲內與 STOVE 為準；本頁不公布案件檔答案。",
       "glance_h2": "一覽",
       "th": [ "項目", "期間（公告）", "備註" ],
       "rows": [
@@ -1995,10 +2069,17 @@ export const CONTENT = {
       "title": "Epic Seven Banners & New Heroes (Steam Window) | Guide",
       "meta": "Living banner / new-hero log for Steam & Foundry. Independent summaries with STOVE citations.",
       "h1": "Banners & new heroes",
-      "lead": "Continuously updated. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
-      "launch_h2": "Launch window (2026-10-29+)",
+      "lead": "Current window first, then the Foundry launch baseline. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
+      "pickup_kicker": "Current pickup · scheduled",
+      "pickup_h2": "Bunny Girl Mafia Yufine",
+      "pickup_artifact": "5★ artifact A Boss's Dignity",
+      "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
+      "pickup_body": "Current limited pickup for this window. The in-client banner is the authority for cost, pity, and eligible characters; this page only tracks the public schedule. Check the [[Foundry calendar|/foundry/]] and [[heroes|/heroes/]] before spending.",
+      "pickup_note": "Scheduled window — re-check the STOVE pickup notice and the in-client banner before pulling. Pity and rates are client-only; Luna is not this pickup.",
+      "pickup_source": "STOVE announcements",
+      "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
-        "Foundry Rank 70 — Luna Joins: limited 5★ Luna + Glacial Purity path through ~12/31 02:59 UTC (Foundry rewards).",
+        "Luna is a launch reward baseline, not the current pickup: limited 5★ Luna + Glacial Purity path through ~12/31 02:59 UTC (Foundry rewards).",
         "Daily free Covenant summons on Foundry Summon Support (up to 1,260 over the posted window).",
         "Side-story cosmetics / lobby pack tied to Secret Rabbit♥Hole.",
         "Track pickup banners after each weekly maintenance — add a card below when STOVE posts."
@@ -2011,16 +2092,23 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Launch-window banners center on Foundry Rank 70 Luna path and daily free Covenant summons through ~2026-12-31; new pickups are added after each STOVE maintenance post."
+      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through ~2026-12-31. Pity and rates are client-only; verify STOVE before pulling."
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",
       "meta": "Steam·파운드리용 배너/신규 로그. STOVE 인용 비공식 요약.",
       "h1": "배너·신규 영웅",
-      "lead": "지속 업데이트. 북마크·그레이 코드 판매 없음 — 천장/확률은 공식 클라이언트만.",
-      "launch_h2": "런칭 윈도우(2026-10-29+)",
+      "lead": "현재 창을 먼저, 그다음 파운드리 런칭 기준선입니다. 북마크·그레이 코드 판매 없음 — 천장/확률은 공식 클라이언트에만 있습니다.",
+      "pickup_kicker": "현재 픽업 · 예정",
+      "pickup_h2": "버니 걸 마피아 유핀",
+      "pickup_artifact": "5★ 아티팩트 A Boss's Dignity",
+      "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
+      "pickup_body": "이번 창의 현재 한정 픽업입니다. 소환 비용·천장·대상 캐릭터는 게임 내 배너가 기준이며, 이 페이지는 공개 일정만 정리합니다. 재화를 쓰기 전에 [[파운드리 캘린더|/foundry/]]와 [[영웅|/heroes/]]을 확인하세요.",
+      "pickup_note": "예정 창입니다 — 뽑기 전에 STOVE 픽업 공지와 게임 내 배너를 다시 확인하세요. 천장·확률은 클라이언트 전용이며, 루나는 이번 픽업이 아닙니다.",
+      "pickup_source": "STOVE 공지",
+      "launch_h2": "파운드리 런칭 기준선(2026-10-29+)",
       "launch": [
-        "파운드리 랭크70 루나 합류: 한정 5★ 루나+Glacial Purity 경로 ~12/31 02:59 UTC.",
+        "루나는 현재 픽업이 아니라 런칭 보상 기준선입니다: 한정 5★ 루나 + Glacial Purity 경로 ~12/31 02:59 UTC(파운드리 보상).",
         "파운드리 소환 지원 일일 무료 계약(공지 기간 최대 1,260).",
         "Secret Rabbit♥Hole 연계 코스메틱/로비팩.",
         "주간 점검 후 픽업 배너는 아래에 카드 추가."
@@ -2029,16 +2117,23 @@ export const CONTENT = {
       "how": [ "신규 한정/콜라보 → UTC 기간+STOVE 링크 카드.", "파운드리 전용 vs 기존 차이는 공식 문구 기준.", "비공식 확률표·계정 판매 없음." ],
       "also": "업데이트·점검 페이지도 보세요.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "런칭 창 배너는 파운드리 랭크70 루나 경로와 일일 무료 계약(~2026-12-31)이 중심이며, 신규 픽업은 STOVE 점검 공지 후 추가합니다."
+      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요."
     },
     "ja": {
       "title": "バナー・新英雄 — Steam窓",
       "meta": "Steam＆ファウンドリ向けバナー/新英雄ログ。STOVE引用の非公式要約。",
       "h1": "バナー・新英雄",
-      "lead": "継続更新。ブックマークや不正コードは扱いません — 天井/確率は公式クライアントのみ。",
-      "launch_h2": "ローンチ窓（2026-10-29+）",
+      "lead": "現在の枠を先に、次にファウンドリのローンチ基準を掲載します。ブックマークや不正コードは扱いません — 天井/確率は公式クライアントのみです。",
+      "pickup_kicker": "現在のピックアップ · 予定",
+      "pickup_h2": "バニーガール・マフィア・ユフィン",
+      "pickup_artifact": "5★アーティファクト A Boss's Dignity",
+      "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
+      "pickup_body": "この枠の現在の限定ピックアップです。召喚コスト・天井・対象キャラはゲーム内バナーが基準で、当頁は公開日程のみを整理します。消費前に[[ファウンドリ日程|/foundry/]]と[[英雄|/heroes/]]を確認してください。",
+      "pickup_note": "予定枠です — 引く前にSTOVEのピックアップ告知とゲーム内バナーを再確認してください。天井・確率はクライアント内のみで、ルナは今回のピックアップではありません。",
+      "pickup_source": "STOVE告知",
+      "launch_h2": "ファウンドリ ローンチ基準(2026-10-29+)",
       "launch": [
-        "ファウンドリランク70ルナ加入：限定5★ルナ＋Glacial Purity 〜12/31 02:59 UTC。",
+        "ルナは現在のピックアップではなくローンチ報酬の基準です：限定5★ルナ + Glacial Purity 〜12/31 02:59 UTC（ファウンドリ報酬）。",
         "召喚支援の毎日無料契約（告知期間最大1,260）。",
         "Secret Rabbit♥Hole連動コスメ／ロビーパック。",
         "週次メンテ後のピックアップは下にカード追加。"
@@ -2047,16 +2142,23 @@ export const CONTENT = {
       "how": [ "新規限定/コラボ→UTC期間＋STOVEリンクのカード。", "ファウンドリ専用差は公式文面ベース。", "非公式確率表・垢販売なし。" ],
       "also": "更新・メンテ頁も参照。",
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "ローンチ窓のバナーはファウンドリランク70ルナ経路と毎日無料契約（〜2026-12-31）が中心。新規ピックアップはSTOVEメンテ後に追加。"
+      "answer": "現在の予定ピックアップはバニーガール・マフィア・ユフィン + 5★アーティファクト A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)。ファウンドリのランク70ルナと毎日無料契約は〜2026-12-31。天井・確率はクライアント内のみなので、引く前にSTOVEを確認してください。"
     },
     "zh-tw": {
       "title": "卡池與新英雄 — Steam 窗口",
       "meta": "Steam／Foundry 卡池與新英雄日誌。引述 STOVE 之非官方摘要。",
       "h1": "卡池與新英雄",
-      "lead": "持續更新。不賣書籤或灰產序號——保底／機率只以官方客戶端為準。",
-      "launch_h2": "上架窗口（2026-10-29+）",
+      "lead": "先看目前窗口，再看 Foundry 上架基準。不賣書籤或灰產序號——保底／機率只以官方客戶端為準。",
+      "pickup_kicker": "目前 Pickup · 預定",
+      "pickup_h2": "兔女郎黑手黨 優芬妮",
+      "pickup_artifact": "5★ 神器 A Boss's Dignity",
+      "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
+      "pickup_body": "這是本期窗口的限定 Pickup。召喚成本、保底與適用角色以遊戲內卡池為準；本頁只整理公開時程。投入資源前請看[[Foundry 日程|/foundry/]]與[[英雄|/heroes/]]。",
+      "pickup_note": "預定窗口——抽之前請再核 STOVE Pickup 公告與遊戲內卡池。保底／機率只在客戶端，Luna 不是本期 Pickup。",
+      "pickup_source": "STOVE 公告",
+      "launch_h2": "Foundry 上架基準（2026-10-29+）",
       "launch": [
-        "Foundry Rank 70 Luna 加入：限定 5★ Luna＋Glacial Purity 至約 12/31 02:59 UTC。",
+        "Luna 不是目前 Pickup，而是上架獎勵基準：限定 5★ Luna＋Glacial Purity 至約 12/31 02:59 UTC（Foundry 獎勵）。",
         "Foundry 召喚支援每日免費契約（公告期間最多 1,260）。",
         "與 Secret Rabbit♥Hole 相關外觀／大廳包。",
         "每週維護後的 Pickup 在下方加卡片。"
@@ -2065,7 +2167,7 @@ export const CONTENT = {
       "how": [ "新限定／聯動 → 含 UTC 期間與 STOVE 連結的卡片。", "Foundry 與舊服差異以官方文字為準。", "無非官方機率表或賣帳。" ],
       "also": "另見更新與維護頁。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "上架窗口卡池以 Foundry Rank 70 Luna 路徑與每日免費契約（約至 2026-12-31）為主；新 Pickup 於 STOVE 維護公告後補上。"
+      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。"
     }
   },
   "/updates/": {

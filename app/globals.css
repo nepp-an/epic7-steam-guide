@@ -466,6 +466,22 @@ table.data tr:hover td {
   box-shadow: var(--shadow-card);
 }
 
+.card.pickup {
+  border-color: var(--border-gold);
+  background: linear-gradient(135deg, rgba(212, 168, 75, 0.08), var(--bg-card));
+}
+
+.pickup-window {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--gold-bright);
+  border: 1px solid var(--border-gold);
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  background: rgba(212, 168, 75, 0.08);
+}
+
 /* Figures: diagram = contain (no crop); photo = cover ok */
 .site-fig {
   margin: 1rem 0 1.25rem;

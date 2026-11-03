@@ -164,6 +164,7 @@ export const OFFICIAL = {
   stoveFoundry: 'https://page.onstove.com/epicseven/global/view/14571828',
   stoveDemoDelete: 'https://page.onstove.com/epicseven/global/view/14581667',
   stoveHome: 'https://page.onstove.com/epicseven/global',
+  stoveAnnouncements: 'https://page.onstove.com/epicseven/global/list/986',
   stoveSecretRabbitCase:
     'https://page.onstove.com/epicseven/global/view/14606293',
   stoveLuckyBoard: 'https://page.onstove.com/epicseven/global/view/14606365',

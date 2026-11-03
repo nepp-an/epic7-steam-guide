@@ -29,6 +29,14 @@ export const FAQ_EXTRA: Record<
       'Do purchases, unclaimed rewards, and Epic Pass carry over?',
       'Per the STOVE Steam FAQ, progress and data — including unclaimed rewards, event items, and Epic Pass — carry over when the original login is converted. Verify current details on the [[official FAQ|https://page.onstove.com/epicseven/global/view/14378309]] before converting.',
     ],
+    [
+      'STOVE says “already been registered” — what does that mean?',
+      'That message usually means the Steam ID is already tied to another STOVE login, often the empty account Steam created on first launch. Authorize that Steam ID on STOVE, withdraw the extra STOVE account, then convert the original email/SNS login. Do not create more Steam accounts. Check the exact wording on the [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]].',
+    ],
+    [
+      'Why is the Transfer button greyed out for three months?',
+      'STOVE can place a holding or cooldown period on transfer after a wrong-bind cleanup or withdrawal; players commonly report three months. The exact start date and scope are shown in your STOVE account UI, not on this site. Wait it out or ask STOVE customer support — never use a third-party unlock service.',
+    ],
   ],
   ko: [
     [
@@ -38,6 +46,14 @@ export const FAQ_EXTRA: Record<
     [
       '구매 내역, 미수령 보상, Epic Pass도 넘어가나요?',
       'STOVE Steam FAQ 기준으로 미수령 보상, 이벤트 아이템, Epic Pass를 포함한 진행과 데이터가 원래 로그인을 전환할 때 이어집니다. 전환 전에 [[공식 FAQ|https://page.onstove.com/epicseven/global/view/14378309]]에서 최신 내용을 확인하세요.',
+    ],
+    [
+      'STOVE에 “already been registered”가 뜨면 무슨 뜻인가요?',
+      '보통 해당 Steam ID가 다른 STOVE 로그인(첫 실행 때 Steam이 만든 빈 계정인 경우가 많음)에 이미 묶여 있다는 뜻입니다. STOVE에서 그 Steam ID를 인가하고, 여분의 STOVE 계정을 탈퇴한 뒤, 원래 이메일/SNS 로그인을 전환하세요. Steam 계정을 더 만들지 마세요. 정확한 문구는 [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]에서 확인하세요.',
+    ],
+    [
+      '이전 버튼이 3개월 동안 비활성화되는 이유는?',
+      '잘못된 연동 정리나 탈퇴 후 STOVE가 이전에 보류/쿨다운 기간을 둘 수 있으며, 흔히 3개월로 보고됩니다. 정확한 시작일과 범위는 이 사이트가 아니라 STOVE 계정 UI에 표시됩니다. 기다리거나 STOVE 고객지원에 문의하고, 제3자 해제 서비스는 쓰지 마세요.',
     ],
   ],
   ja: [
@@ -49,6 +65,14 @@ export const FAQ_EXTRA: Record<
       '購入、未受け取り報酬、Epic Passも引き継げますか？',
       'STOVE Steam FAQでは、未受け取り報酬・イベントアイテム・Epic Passを含む進行とデータが、元のログインを変換すると引き継がれるとされています。変換前に[[公式FAQ|https://page.onstove.com/epicseven/global/view/14378309]]で最新情報を確認してください。',
     ],
+    [
+      'STOVEで「already been registered」と出たら？',
+      '通常、そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った空アカウントが多い）に既に紐づいているという意味です。STOVEでそのSteam IDを認可し、余分なSTOVEアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やさないでください。正確な文面は[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]で確認してください。',
+    ],
+    [
+      '引き継ぎボタンが3か月間グレーになるのはなぜ？',
+      '誤連携の整理や退会のあと、STOVEが引き継ぎに保留・クールダウン期間を設けることがあり、一般に3か月と報告されています。正確な開始日と範囲は当サイトではなくSTOVEアカウント画面に表示されます。待つかSTOVE公式サポートへ問い合わせ、第三者の解除サービスは使わないでください。',
+    ],
   ],
   'zh-tw': [
     [
@@ -58,6 +82,14 @@ export const FAQ_EXTRA: Record<
     [
       '購買、未領取獎勵與 Epic Pass 會保留嗎？',
       '依 STOVE Steam FAQ，轉換原本登入後，包含未領取獎勵、活動道具與 Epic Pass 的進度與資料會一併保留。轉換前請在[[官方 FAQ|https://page.onstove.com/epicseven/global/view/14378309]]確認最新說明。',
+    ],
+    [
+      'STOVE 顯示「already been registered」是什麼意思？',
+      '通常表示該 Steam ID 已綁定另一個 STOVE 登入（常見是首次啟動時 Steam 自動建立的空白帳號）。請在 STOVE 授權該 Steam ID、註銷多出來的 STOVE 帳號，再轉換原本的 Email／SNS 登入。不要一直新開 Steam 帳號。實際文案請見[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。',
+    ],
+    [
+      '為什麼轉移按鈕會灰掉三個月？',
+      '錯綁清理或註銷後，STOVE 可能對轉移設下保留期／冷靜期，玩家常見回報為三個月。確切起算日與範圍以你的 STOVE 帳號介面為準，不是本站。請等待或詢問 STOVE 客服，切勿使用第三方解鎖服務。',
     ],
   ],
 };
@@ -71,8 +103,8 @@ export const FAQ_GROUPS: Record<
     {
       h2: 'Account transfer & wrong Steam bind',
       intro:
-        'Start here if Steam shows a new Heir or an empty account. The usual cause is a second Steam-linked STOVE login, not deleted progress.',
-      items: [0, 6, 7],
+        'Start here if Steam shows a new Heir, STOVE says “already registered”, or Transfer is greyed out. The usual cause is a second Steam-linked STOVE login, not deleted progress.',
+      items: [0, 6, 7, 8, 9],
     },
     {
       h2: 'Foundry, cross-play & schedules',
@@ -97,8 +129,8 @@ export const FAQ_GROUPS: Record<
     {
       h2: '계정 이전·Steam 잘못 연동',
       intro:
-        'Steam에 새 후계자나 빈 계정이 보이면 여기부터 확인하세요. 흔한 원인은 진행 삭제가 아니라 Steam 연동 STOVE 계정이 하나 더 생긴 것입니다.',
-      items: [0, 6, 7],
+        'Steam에 새 후계자가 보이거나, STOVE가 “already registered”를 표시하거나, 이전 버튼이 비활성화되면 여기부터 확인하세요. 흔한 원인은 진행 삭제가 아니라 Steam 연동 STOVE 계정이 하나 더 생긴 것입니다.',
+      items: [0, 6, 7, 8, 9],
     },
     {
       h2: '파운드리·크로스플레이·일정',
@@ -123,8 +155,8 @@ export const FAQ_GROUPS: Record<
     {
       h2: 'アカウント引き継ぎ・Steamの誤連携',
       intro:
-        'Steamで新しい継承者や空のアカウントが出たら、まずここを確認してください。よくある原因は進行消去ではなく、Steam連携のSTOVEアカウントが二重にできたことです。',
-      items: [0, 6, 7],
+        'Steamで新しい継承者が出る、STOVEが「already registered」と表示する、引き継ぎボタンがグレーのときは、まずここを確認してください。よくある原因は進行消去ではなく、Steam連携のSTOVEアカウントが二重にできたことです。',
+      items: [0, 6, 7, 8, 9],
     },
     {
       h2: 'ファウンドリ・クロスプレイ・日程',
@@ -149,8 +181,8 @@ export const FAQ_GROUPS: Record<
     {
       h2: '帳號轉移與 Steam 錯綁',
       intro:
-        '若 Steam 出現全新繼承人或空白帳號，先看這裡。常見原因是多了一個 Steam 連結的 STOVE 帳號，而不是進度被刪除。',
-      items: [0, 6, 7],
+        '若 Steam 出現全新繼承人、STOVE 顯示「already registered」，或轉移按鈕灰掉，先看這裡。常見原因是多了一個 Steam 連結的 STOVE 帳號，而不是進度被刪除。',
+      items: [0, 6, 7, 8, 9],
     },
     {
       h2: 'Foundry、跨平台與日程',
@@ -181,7 +213,7 @@ export const BANNERS_SUPPLEMENT: Record<
     {
       h2: 'Luna path vs a normal pickup banner',
       intro:
-        'The Rank 70 Luna join is a Foundry launch reward path, not a standard limited pickup with its own separate pity counter. Check the in-game banner details before spending.',
+        'Luna is not the current pickup. The Rank 70 Luna join is a Foundry launch reward path, not a standard limited pickup with its own separate pity counter. Check the in-game banner details before spending.',
       bullets: [
         'Posted window: through ~2026-12-31 02:59 UTC on Foundry, per the STOVE Foundry notice.',
         'Verify in-client: summon cost, current pity state, and whether the banner is Foundry-only.',
@@ -205,7 +237,7 @@ export const BANNERS_SUPPLEMENT: Record<
     {
       h2: '루나 경로와 일반 픽업 배너의 차이',
       intro:
-        'Rank 70 루나 합류는 Foundry 출시 보상 경로이며, 별도 천장이 있는 일반 한정 픽업과 같지 않습니다. 재화를 쓰기 전에 게임 내 배너 설명을 확인하세요.',
+        '루나는 현재 픽업이 아닙니다. Rank 70 루나 합류는 Foundry 출시 보상 경로이며, 별도 천장이 있는 일반 한정 픽업과 같지 않습니다. 재화를 쓰기 전에 게임 내 배너 설명을 확인하세요.',
       bullets: [
         '공지 기준 기간: Foundry에서 2026-12-31 02:59 UTC경까지(STOVE Foundry 공지).',
         '게임 내 확인: 소환 비용, 현재 천장 상태, 해당 배너가 Foundry 전용인지.',
@@ -229,7 +261,7 @@ export const BANNERS_SUPPLEMENT: Record<
     {
       h2: 'ルナ導線と通常ピックアップの違い',
       intro:
-        'Rank 70ルナ加入はファウンドリのローンチ報酬導線で、独自の天井を持つ通常の限定ピックアップとは異なります。消費前にゲーム内のバナー説明を確認してください。',
+        'ルナは現在のピックアップではありません。Rank 70ルナ加入はファウンドリのローンチ報酬導線で、独自の天井を持つ通常の限定ピックアップとは異なります。消費前にゲーム内のバナー説明を確認してください。',
       bullets: [
         '告知上の期間：ファウンドリで2026-12-31 02:59 UTC頃まで（STOVEファウンドリ告知）。',
         'ゲーム内で確認：召喚コスト、現在の天井状態、ファウンドリ限定かどうか。',
@@ -253,7 +285,7 @@ export const BANNERS_SUPPLEMENT: Record<
     {
       h2: 'Luna 路線與一般限定召喚的差別',
       intro:
-        'Rank 70 Luna 加入是 Foundry 開服獎勵路線，不是另一個有獨立保底的限定召喚。投入資源前請先看遊戲內召喚說明。',
+        'Luna 不是目前 Pickup。Rank 70 Luna 加入是 Foundry 開服獎勵路線，不是另一個有獨立保底的限定召喚。投入資源前請先看遊戲內召喚說明。',
       bullets: [
         '公告期間：Foundry 約至 2026-12-31 02:59 UTC（STOVE Foundry 公告）。',
         '遊戲內確認：召喚成本、目前保底狀態、是否為 Foundry 限定。',
