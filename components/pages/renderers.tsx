@@ -1582,6 +1582,9 @@ export function PrivacyView({ locale }: { locale: Locale }) {
   return (
     <PageShell locale={locale} path="/privacy/">
       <h1>{c.h1}</h1>
+      <p className="muted">
+        <time dateTime="2026-11-03">{c.updated}</time>
+      </p>
       <IndepNotice locale={locale} compact />
       <p>{c.p1}</p>
       <h2>{c.collect_h2}</h2>

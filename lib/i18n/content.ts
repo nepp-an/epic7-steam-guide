@@ -2417,19 +2417,20 @@ export const CONTENT = {
       "title": "Privacy",
       "meta": "Privacy disclosure for Epic Seven Steam Guide. Contact privacy@epicsevensteam.com.",
       "h1": "Privacy",
+      "updated": "Last updated 2026-11-03",
       "p1": "This independent information site (epicsevensteam.com) does not sell accounts, codes, or personal data. Contact mail is routed via Cloudflare Email Routing.",
       "collect_h2": "What we collect",
       "collect": [
         "No account system on this static site. We never ask for STOVE or Steam passwords.",
         "Hosting (Cloudflare Pages) may process standard server logs (IP, user agent) under the host policy.",
         "We use Google Analytics 4 (GA4) for aggregate traffic measurement (for example page views). We do not collect passwords through analytics.",
-        "No ads on this site."
+        "We have enabled Google AdSense (publisher ca-pub-3175943774981621) on this site. Google and its partners may use cookies or similar technologies to serve ads based on prior visits to this and other sites."
       ],
-      "ads_h2": "Advertising is not enabled",
+      "ads_h2": "Advertising — Google AdSense",
       "ads": [
-        "Google AdSense, display ads, and affiliate ads are not enabled on this site.",
-        "While advertising stays disabled, this site does not set advertising cookies.",
-        "Before advertising is enabled, this privacy policy will be updated, a real ads.txt will be published, and an on-page disclosure will be added."
+        "Google AdSense is enabled on epicsevensteam.com with publisher ID ca-pub-3175943774981621. Auto ads may place ads on pages; there are no manual ad slots.",
+        "The authorized seller record is published at /ads.txt: google.com, pub-3175943774981621, DIRECT, f08c47fec0942fa0.",
+        "Google and third-party vendors may use advertising cookies to serve ads based on prior visits. You can opt out of personalized advertising in Google Ads Settings (https://adssettings.google.com/) or manage cookies in your browser. Ads do not change our editorial content or the unofficial disclaimer."
       ],
       "out_h2": "Outbound links",
       "out": "Links to store.steampowered.com and page.onstove.com are third parties with their own policies.",
@@ -2440,19 +2441,20 @@ export const CONTENT = {
       "title": "개인정보",
       "meta": "Epic Seven Steam Guide 개인정보 안내. privacy@epicsevensteam.com.",
       "h1": "개인정보",
+      "updated": "최종 업데이트 2026-11-03",
       "p1": "본 비공식 정보 사이트(epicsevensteam.com)는 계정·코드·개인정보를 판매하지 않습니다. 메일은 Cloudflare Email Routing으로 전달됩니다.",
       "collect_h2": "수집 항목",
       "collect": [
         "정적 사이트에 계정 시스템 없음. STOVE/Steam 비밀번호를 묻지 않습니다.",
         "호스팅(Cloudflare Pages)이 IP·UA 등 표준 로그를 처리할 수 있음.",
         "Google Analytics 4(GA4)로 집계 트래픽(예: 페이지뷰)을 측정합니다. 분석으로 비밀번호를 수집하지 않습니다.",
-        "이 사이트에는 광고가 없습니다."
+        "본 사이트에는 Google AdSense(게시자 ca-pub-3175943774981621)가 활성화되어 있습니다. Google과 파트너는 이전 방문 기록을 바탕으로 광고를 게재하기 위해 쿠키 등을 사용할 수 있습니다."
       ],
-      "ads_h2": "광고는 사용하지 않습니다",
+      "ads_h2": "광고 — Google AdSense",
       "ads": [
-        "이 사이트는 Google AdSense, 디스플레이 광고, 제휴 광고를 사용하지 않습니다.",
-        "광고를 켜지 않은 동안 이 사이트는 광고 쿠키를 설정하지 않습니다.",
-        "광고를 켜기 전에는 이 개인정보 안내를 고치고, 실제 ads.txt를 게시하며, 페이지 안에 광고 안내를 넣습니다."
+        "epicsevensteam.com에는 게시자 ID ca-pub-3175943774981621로 Google AdSense가 활성화되어 있습니다. Auto ads가 페이지에 광고를 배치할 수 있으며 수동 광고 슬롯은 두지 않습니다.",
+        "승인된 판매자 정보는 /ads.txt에 게시되어 있습니다: google.com, pub-3175943774981621, DIRECT, f08c47fec0942fa0.",
+        "Google 및 제3자 공급업체는 이전 방문 기록을 기반으로 광고를 게재하기 위해 광고 쿠키를 사용할 수 있습니다. Google 광고 설정(https://adssettings.google.com/)에서 맞춤 광고를 끄거나 브라우저에서 쿠키를 관리할 수 있습니다. 광고는 비공식 고지와 편집 내용에 영향을 주지 않습니다."
       ],
       "out_h2": "외부 링크",
       "out": "Steam 스토어·STOVE는 각사 정책을 따릅니다.",
@@ -2463,19 +2465,20 @@ export const CONTENT = {
       "title": "プライバシー",
       "meta": "Epic Seven Steam Guideのプライバシー。privacy@epicsevensteam.com。",
       "h1": "プライバシー",
+      "updated": "最終更新 2026-11-03",
       "p1": "本非公式サイト（epicsevensteam.com）は垢・コード・個人情報を販売しません。メールはCloudflare Email Routingで転送されます。",
       "collect_h2": "収集するもの",
       "collect": [
         "静的サイトにアカウント機能なし。STOVE/Steamパスワードは求めません。",
         "ホスティング（Cloudflare Pages）がIP・UA等の標準ログを処理し得ます。",
         "Google Analytics 4（GA4）で集計トラフィック（例：ページビュー）を計測します。解析でパスワードは収集しません。",
-        "本サイトに広告はありません。"
+        "本サイトでは Google AdSense（パブリッシャー ca-pub-3175943774981621）を有効にしています。Google とそのパートナーは、過去の訪問履歴に基づく広告配信のために Cookie 等を使用することがあります。"
       ],
-      "ads_h2": "広告は有効にしていません",
+      "ads_h2": "広告 — Google AdSense",
       "ads": [
-        "本サイトでは Google AdSense、ディスプレイ広告、アフィリエイト広告を有効にしていません。",
-        "広告を無効にしている間、本サイトは広告クッキーを設定しません。",
-        "広告を有効にする前に、このプライバシーを更新し、実際の ads.txt を公開し、ページ上の開示を追加します。"
+        "epicsevensteam.com ではパブリッシャー ID ca-pub-3175943774981621 で Google AdSense を有効にしています。Auto ads によりページに広告が配置される場合があり、手動の広告枠は設置していません。",
+        "承認済み販売者情報は /ads.txt に公開しています：google.com, pub-3175943774981621, DIRECT, f08c47fec0942fa0。",
+        "Google および第三者ベンダーは、過去の訪問履歴に基づく広告配信のため広告 Cookie を使用することがあります。Google 広告設定（https://adssettings.google.com/）でパーソナライズ広告を無効にするか、ブラウザで Cookie を管理できます。広告は非公式の注意書きや編集内容には影響しません。"
       ],
       "out_h2": "外部リンク",
       "out": "Steamストア・STOVEは各社ポリシーに従います。",
@@ -2486,14 +2489,15 @@ export const CONTENT = {
       "title": "隱私權",
       "meta": "Epic Seven Steam Guide 隱私說明。聯絡 privacy@epicsevensteam.com。",
       "h1": "隱私權",
+      "updated": "最後更新 2026-11-03",
       "p1": "本非官方資訊站（epicsevensteam.com）不販售帳號、序號或個資。郵件經 Cloudflare Email Routing 轉寄。",
       "collect_h2": "我們收集什麼",
-      "collect": [ "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。", "託管（Cloudflare Pages）可能依其政策處理 IP、UA 等標準日誌。", "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。", "本站無廣告。" ],
-      "ads_h2": "尚未啟用廣告",
+      "collect": [ "靜態站無帳號系統。從不索取 STOVE／Steam 密碼。", "託管（Cloudflare Pages）可能依其政策處理 IP、UA 等標準日誌。", "我們使用 Google Analytics 4（GA4）做彙總流量統計（例如瀏覽頁面）。分析不會收集密碼。", "本站已啟用 Google AdSense（發布商 ca-pub-3175943774981621）。Google 及其合作夥伴可能使用 Cookie 等技術，根據先前的造訪記錄放送廣告。" ],
+      "ads_h2": "廣告 — Google AdSense",
       "ads": [
-        "本站未啟用 Google AdSense、展示廣告或聯盟廣告。",
-        "廣告停用期間，本站不設定廣告 Cookie。",
-        "啟用廣告之前，會先更新本隱私說明、發布真實的 ads.txt，並在頁面上加上廣告揭露。"
+        "epicsevensteam.com 已啟用 Google AdSense（發布商 ID ca-pub-3175943774981621）。Auto ads 可能自動在頁面放置廣告；本站不設手動廣告位。",
+        "已於 /ads.txt 發布授權賣方記錄：google.com, pub-3175943774981621, DIRECT, f08c47fec0942fa0。",
+        "Google 與第三方廠商可能使用廣告 Cookie，根據先前的造訪記錄放送廣告。你可在 Google 廣告設定（https://adssettings.google.com/）停用個人化廣告，或於瀏覽器管理 Cookie。廣告不影響本站的非官方聲明與編輯內容。"
       ],
       "out_h2": "外連",
       "out": "Steam 商店與 STOVE 為第三方，適用其各自政策。",

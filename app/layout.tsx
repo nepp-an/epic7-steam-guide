@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     'Independent guide to Epic Seven on Steam: official store link, STOVE↔Steam account transfer, Foundry schedule & rewards, FAQ. Not affiliated with Smilegate or STOVE.',
   robots: { index: true, follow: true },
+  other: {
+    'google-adsense-account': 'ca-pub-3175943774981621',
+  },
 };
 
 export default function RootLayout({
@@ -21,6 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google AdSense — Auto ads only; async so it never blocks the disclaimer or CTAs. */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3175943774981621"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>
         {/* GA4: E7 Steam Guide property only (G-QY1D1CDXDZ). Not ArtCraft. */}
         <Script
