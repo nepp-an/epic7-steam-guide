@@ -742,10 +742,14 @@ export const CONTENT = {
         "Related: demo warning, Steam notes, FAQ hub."
       ],
       "src_h2": "Official sources",
-      "answer": "Steam transfer only converts a STOVE email/SNS login to Steam Simple Login so the same account keeps its legacy heroes. It is not Foundry and does not start Guild War. If STOVE says “already registered” or Transfer is greyed out, withdraw the extra Steam-linked account first — a 3-month cooldown may apply. See [[Guild War on Foundry|/foundry/#guild-war]].",
+      "answer": "Link your Epic Seven STOVE email/SNS and transfer to Steam Simple Login so the same account keeps progress. Wrong-bind: withdraw the empty Steam-linked STOVE account, then convert the original. Steam transfer is not Foundry and does not start Guild War. See [[Guild War on Foundry|/foundry/#guild-war]].",
       "img_alt": "Self-drawn STOVE to Steam transfer steps diagram",
       "faq_h2": "Transfer FAQ",
       "faqs": [
+        [
+          "How do I STOVE→Steam transfer and keep progress?",
+          "Convert your Epic Seven STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: withdraw the empty Steam-linked account, then convert the original. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
+        ],
         [
           "STOVE says “already been registered” — what now?",
           "That Steam ID is already linked to another STOVE login. Authorize that Steam ID on STOVE, withdraw the extra account, then convert the original email/SNS login. Do not keep creating Steam accounts. A 3-month cooldown may apply after the cleanup; confirm the date in STOVE UI or CS. See the cooldown section above."
@@ -859,10 +863,14 @@ export const CONTENT = {
         "관련: 데모 주의, Steam 안내, FAQ."
       ],
       "src_h2": "공식 출처",
-      "answer": "Steam 이전은 STOVE 이메일/SNS 로그인을 Steam Simple Login으로 바꿔 같은 계정의 레거시 영웅을 유지하는 절차일 뿐입니다. Foundry도, 길드전 시작도 아닙니다. STOVE에 “already registered”가 뜨거나 이전 버튼이 비활성화되면 여분의 Steam 연동 계정을 먼저 탈퇴하세요. 3개월 쿨다운이 적용될 수 있습니다. [[파운드리 길드전|/foundry/#guild-war]]을 보세요.",
+      "answer": "Epic Seven STOVE 이메일/SNS를 Steam Simple Login으로 연동·이전하면 같은 계정의 진행도가 유지됩니다. 잘못된 연동: 빈 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환하세요. Steam 이전은 Foundry가 아니며 길드전을 시작하지 않습니다. [[파운드리 길드전|/foundry/#guild-war]]을 보세요.",
       "img_alt": "STOVE에서 Steam으로 이전하는 비공식 단계 다이어그램",
       "faq_h2": "이전 FAQ",
       "faqs": [
+        [
+          "STOVE→Steam 이전으로 진행도를 유지하려면?",
+          "Epic Seven STOVE 이메일/SNS 로그인을 Steam Simple Login으로 전환하면 진행도가 유지됩니다. 잘못된 연동: 빈 Steam 연동 계정을 먼저 탈퇴한 뒤 원 계정을 전환하세요. 이전 후 데모 삭제는 원서버 진행도를 지울 수 있습니다. 이전은 Foundry가 아닙니다. 비공식 가이드 — STOVE에서 확인하세요."
+        ],
         [
           "STOVE에 “already been registered”가 뜨면 어떻게 하나요?",
           "해당 Steam ID가 다른 STOVE 로그인에 이미 연결되어 있습니다. STOVE에서 그 Steam ID를 인가하고, 여분 계정을 탈퇴한 뒤 원래 이메일/SNS 로그인을 전환하세요. Steam 계정을 계속 만들지 마세요. 정리 후 3개월 쿨다운이 적용될 수 있으니 STOVE UI/CS에서 날짜를 확인하세요. 위 쿨다운 절을 보세요."
@@ -954,10 +962,14 @@ export const CONTENT = {
       "cross_h2": "クロスプレイメモ",
       "cross": [ "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。", "関連：デモ注意、Steamメモ、FAQ。" ],
       "src_h2": "公式ソース",
-      "answer": "Steam引き継ぎは、STOVEのメール/SNSログインをSteamシンプルログインへ変換し、同じアカウントのレガシー英雄を残すだけの手順です。Foundryでもギルド戦開始でもありません。STOVEで「already registered」が出る、または引き継ぎボタンがグレーのときは、余分なSteam連携アカウントを先に退会してください。3か月のクールダウンが適用される場合があります。[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。",
+      "answer": "Epic SevenのSTOVEメール/SNSをSteamシンプルログインへ引き継ぎ・連携すると、同じアカウントの進行が残ります。誤連携：空のSteam連携STOVEアカウントを先に退会してから本アカを変換してください。Steam引き継ぎはFoundryではなく、ギルド戦も開始しません。[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。",
       "img_alt": "STOVEからSteamへの非公式引き継ぎ手順図",
       "faq_h2": "引き継ぎFAQ",
       "faqs": [
+        [
+          "STOVE→Steam引き継ぎで進行を残すには？",
+          "Epic SevenのSTOVEメール/SNSログインをSteamシンプルログインへ変換すると進行が残ります。誤連携：空のSteam連携アカウントを先に退会してから本ログインを変換。引き継ぎ後のデモ削除は原鯖進行を消す恐れがあります。引き継ぎはFoundryではありません。非公式ガイド — STOVEで確認してください。"
+        ],
         [ "STOVEで「already been registered」と出たら？", "そのSteam IDは別のSTOVEログインに既に紐づいています。STOVEでそのSteam IDを認可し、余分なアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やし続けないでください。整理後に3か月のクールダウンが適用される場合があるので、STOVE UI/CSで日付を確認してください。上のクールダウン節を参照。" ],
         [ "Steam変換で英雄は消えますか？", "公式FAQでは正しく変換すれば進行・英雄・アイテム・課金・エピックパスが維持されるとあります。実行前にSTOVE文面を再確認。" ],
         [ "Steamが既に新規垢を作った場合は？", "新規Steam連携STOVEを先に退会し、元ログインを変換 — 衝突セクションとSTOVE FAQ。" ],
@@ -1040,10 +1052,14 @@ export const CONTENT = {
       "cross_h2": "跨平台備註",
       "cross": [ "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。", "相關：試玩警告、Steam 說明、FAQ。" ],
       "src_h2": "官方來源",
-      "answer": "Steam 轉移只是把 STOVE Email／SNS 登入換成 Steam Simple Login，讓同一帳號保留原服英雄；它不是 Foundry，也不會開始公會戰。若 STOVE 顯示「already registered」或轉移按鈕灰掉，先註銷多出來的 Steam 連結帳號——可能有三個月冷靜期。見[[Foundry 公會戰|/foundry/#guild-war]]。",
+      "answer": "將 Epic Seven 的 STOVE Email／SNS 連結並轉移到 Steam Simple Login，同一帳號可保留進度。錯綁：先註銷空白的 Steam 連結 STOVE 帳，再轉換原本帳號。Steam 轉移不是 Foundry，也不會開始公會戰。見[[Foundry 公會戰|/foundry/#guild-war]]。",
       "img_alt": "STOVE 轉 Steam 非官方步驟示意圖",
       "faq_h2": "轉移 FAQ",
       "faqs": [
+        [
+          "如何 STOVE→Steam 轉移並保留進度？",
+          "將 Epic Seven 的 STOVE Email／SNS 登入轉換為 Steam Simple Login 即可保留進度。錯綁：先註銷空白的 Steam 連結帳，再轉換原本登入。轉移後使用試玩刪號可能抹掉原服進度。轉移不是 Foundry。非官方指南——請在 STOVE 核對。"
+        ],
         [ "STOVE 顯示「already been registered」怎麼辦？", "該 Steam ID 已連結另一個 STOVE 登入。在 STOVE 授權該 Steam ID、註銷多出來的帳號，再轉換原本的 Email／SNS 登入。不要一直新開 Steam 帳號。清理後可能套用三個月冷靜期，請在 STOVE UI／客服確認日期。見上方冷靜期段。" ],
         [ "轉 Steam 會丢掉英雄嗎？", "官方 FAQ 寫明正確轉換可保留進度、英雄、道具、儲值與 Epic Pass。操作前請再對 STOVE 原文。" ],
         [ "Steam 已建新帳怎麼辦？", "先註銷新建的 Steam 連結 STOVE 帳，再轉換原本登入——見衝突段與 STOVE FAQ。" ],
