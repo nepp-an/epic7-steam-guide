@@ -1191,6 +1191,27 @@ export function FoundryView({ locale }: { locale: Locale }) {
       />
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
+      <h2 id="server-guide">{c.guide_h2}</h2>
+      <table className="data">
+        <thead>
+          <tr>
+            {c.guide_th.map((t) => (
+              <th key={t}>{t}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {c.guide.map((row) => (
+            <tr key={row[0]}>
+              {row.map((cell) => (
+                <td key={cell}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <h2 id="codes">{c.codes_h2}</h2>
+      <p>{c.codes_note}</p>
       <h2>{c.vs_h2}</h2>
       <p>
         {c.vs}{' '}
@@ -1322,7 +1343,6 @@ export function FoundryView({ locale }: { locale: Locale }) {
         </li>
       </ul>
       <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <p className="quick-answer">{c.codes_note}</p>
       <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">

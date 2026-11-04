@@ -1572,7 +1572,7 @@ export const CONTENT = {
       "side_h2": "Side story",
       "side": "Deep dive: Secret Rabbit♥Hole (Case Files, Lucky Board, lobby pack).",
       "src_h2": "Sources",
-      "answer": "Foundry is Epic Seven’s new Steam-era server with celebration buffs and rewards posted through about 2026-12-31 UTC. Per STOVE’s launch table, Guild War opens around 2026-11-21 03:00 UTC and World Arena after 2026-12-10 maintenance — always re-check STOVE for patches. Logging into Steam with a converted account keeps legacy progress; it does not auto-place you on Foundry. Unofficial guide on epicsevensteam.com.",
+      "answer": "This Foundry server guide covers Epic Seven’s new-server progress track: celebration calendar, rewards, Guild War, and World Arena. Draft Arena is live; Guild War ~2026-11-21 03:00 UTC; World Arena after 2026-12-10 maint; many buffs through ~12/31 — verify on STOVE. “Foundry codes” means celebration or official notices, not a coupon list. Transfer keeps legacy progress; it does not auto-join Foundry.",
       "img_alt": "Self-drawn Foundry calendar visual covering launch buffs, Rabbit Hole, Guild War, and World Arena",
       "img_ss_alt": "Official Steam screenshot illustrating Epic Seven presentation — Steam CDN",
       "faq_h2": "Foundry FAQ",
@@ -1595,7 +1595,7 @@ export const CONTENT = {
         ],
         [
           "Are there Foundry codes to redeem?",
-          "No coupon list is published here. Searches for “Foundry codes” usually mean celebration rewards — mailbox gifts, login items, and buffs posted on STOVE Foundry view/14571828 and Launch view/14606481. Claim only what the in-game mailbox shows; this unofficial guide does not publish, sell, or redeem codes."
+          "No. This Foundry server guide does not publish coupon strings. “Foundry codes” searches usually mean celebration rewards and official STOVE notices (mailbox gifts, login items, buffs on Foundry view/14571828 and Launch view/14606481) — not a redeemable list. Claim only what the in-game mailbox shows; never trust third-party fake codes."
         ]
       ],
       "vs_h2": "Transfer vs start on Foundry",
@@ -1625,7 +1625,16 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "Rewards window",
       "gw_reward": "Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many Foundry starter buffs and login gifts are posted through about 2026-12-31 02:59 UTC — GW itself unlocks earlier (≈11/21) so you can earn GW rewards inside that broader celebration window. Re-check STOVE before spending resources. Dates and loot windows on this page follow STOVE Foundry notice view/14571828 and Launch notice view/14606481, and may change after maintenance — if those posts disagree, follow the newer STOVE notice.",
-      "codes_note": "Short answer: Foundry “codes” usually mean celebration rewards, not coupon strings. Check STOVE Foundry view/14571828 and Launch view/14606481, then claim only what the in-game mailbox shows. This unofficial page does not publish, sell, or redeem codes.",
+      "codes_h2": "Foundry codes vs celebration rewards",
+      "codes_note": "Searches for “Foundry codes” or “Foundry server codes” usually point at celebration rewards and official STOVE notices — mailbox gifts, login items, and starter buffs — not a redeemable coupon list. This unofficial Foundry server guide never publishes, sells, or redeems fake codes. Claim only what the in-game mailbox shows, and re-check STOVE Foundry view/14571828 and Launch view/14606481 when windows move.",
+      "guide_h2": "Foundry server guide — key dates",
+      "guide_th": [ "Milestone", "Date (UTC)", "Verify" ],
+      "guide": [
+        [ "Draft Arena", "2026-10-29 after maint", "Per STOVE" ],
+        [ "Guild War", "2026-11-21 03:00", "Per STOVE" ],
+        [ "World Arena", "2026-12-10 after maint", "Per STOVE" ],
+        [ "Celebration buffs window", "Through ~2026-12-31 02:59", "Per STOVE" ]
+      ],
       "ends_h2": "What ends on 12/31",
       "ends_th": [ "Item / buff", "Approx. end (UTC)", "Notes" ],
       "ends": [
@@ -1692,7 +1701,7 @@ export const CONTENT = {
       "side_h2": "사이드 스토리",
       "side": "상세: Secret Rabbit♥Hole.",
       "src_h2": "출처",
-      "answer": "파운드리는 Epic Seven의 Steam 시대 신서버로, 축하 버프·보상이 약 2026-12-31 UTC까지 안내됩니다. STOVE 런칭 표 기준 길드전은 약 2026-11-21 03:00 UTC에 열리고, 월드 아레나는 2026-12-10 점검 이후로 안내됩니다 — 패치 전 STOVE를 다시 확인하세요. 전환된 계정으로 Steam에 로그인하면 기존(레거시) 진행도는 유지되지만, 자동으로 파운드리에 배치되지는 않습니다. epicsevensteam.com의 비공식 가이드입니다.",
+      "answer": "이 Foundry 서버 가이드는 Epic Seven 신서버 진행 트랙의 캘린더·보상·길드전·월드 아레나를 정리합니다. Draft Arena는 오픈됨; 길드전 ~2026-11-21 03:00 UTC; WA는 2026-12-10 점검 후; 다수 버프 ~12/31 — STOVE 재확인. “Foundry codes”는 쿠폰 목록이 아니라 축하/공식 공지 보상입니다. 로그인 전환은 레거시 진행을 유지할 뿐 자동으로 파운드리에 넣지 않습니다.",
       "img_alt": "파운드리 캘린더 자작 시각자료(버프·래빗홀·길드전·WA)",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷 — Steam CDN",
       "faq_h2": "파운드리 FAQ",
@@ -1706,7 +1715,7 @@ export const CONTENT = {
         ],
         [
           "파운드리 코드를 교환할 수 있나요?",
-          "여기에는 쿠폰 목록이 없습니다. “Foundry codes” 검색은 보통 축하 보상—STOVE 파운드리 view/14571828과 런칭 view/14606481에 게시된 우편 선물, 로그인 아이템, 버프—을 뜻합니다. 인게임 우편함에 표시된 것만 수령하세요. 본 비공식 가이드는 코드를 게시·판매·교환하지 않습니다."
+          "아니요. 본 Foundry 서버 가이드는 쿠폰 문자열을 올리지 않습니다. “Foundry codes” 검색은 대개 축하 보상과 공식 STOVE 공지(우편 선물·로그인 아이템·버프, view/14571828·14606481)를 뜻하며 교환 목록이 아닙니다. 인게임 우편함만 수령하고 제3자 가짜 코드를 믿지 마세요."
         ]
       ],
       "vs_h2": "계정 이전 vs 파운드리 시작",
@@ -1736,7 +1745,16 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "보상 구간",
       "gw_reward": "길드전 보상은 파운드리 축하 일정에 속한다고 보고, 정확한 보상표는 STOVE를 따릅니다. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지로 안내됩니다. 길드전 자체는 더 이른 시점(≈11/21)에 열리므로 그 넓은 축하 구간 안에서 보상을 받을 수 있습니다. 자원을 쓰기 전 STOVE를 재확인하세요. 이 페이지의 날짜와 보상 구간은 STOVE 파운드리 공지 view/14571828과 런칭 공지 view/14606481을 따르며 점검 후 바뀔 수 있습니다. 두 공지가 다르면 더 최신 STOVE 글을 따르세요.",
-      "codes_note": "짧은 답: 파운드리 “코드”는 대개 쿠폰 문자열이 아니라 축하 보상입니다. STOVE 파운드리 view/14571828과 런칭 view/14606481을 확인하고 인게임 우편함에 표시된 것만 수령하세요. 본 비공식 페이지는 코드를 게시·판매·교환하지 않습니다.",
+      "codes_h2": "Foundry codes vs celebration rewards",
+      "codes_note": "“Foundry codes” 또는 “Foundry server codes” 검색은 대개 쿠폰 문자열이 아니라 축하 보상과 공식 STOVE 공지—우편 선물, 로그인 아이템, 스타터 버프—를 가리킵니다. 본 비공식 Foundry 서버 가이드는 가짜 코드를 게시·판매·교환하지 않습니다. 인게임 우편함에 보이는 것만 수령하고, 창이 바뀌면 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 확인하세요.",
+      "guide_h2": "Foundry server guide — 핵심 일정",
+      "guide_th": [ "마일스톤", "일시(UTC)", "확인" ],
+      "guide": [
+        [ "Draft Arena", "2026-10-29 점검 후", "STOVE 기준" ],
+        [ "길드전", "2026-11-21 03:00", "STOVE 기준" ],
+        [ "월드 아레나", "2026-12-10 점검 후", "STOVE 기준" ],
+        [ "축하 버프 창", "~2026-12-31 02:59까지", "STOVE 기준" ]
+      ],
       "ends_h2": "12/31에 끝나는 것",
       "ends_th": [ "항목 / 버프", "대략 종료(UTC)", "메모" ],
       "ends": [
@@ -1806,7 +1824,7 @@ export const CONTENT = {
       "side_h2": "サイドストーリー",
       "side": "詳細：Secret Rabbit♥Hole。",
       "src_h2": "ソース",
-      "answer": "ファウンドリはEpic SevenのSteam時代の新鯖で、お祝いバフ・報酬はおおよそ2026-12-31 UTCまで案内されています。STOVEのローンチ表ではギルド戦は約2026-11-21 03:00 UTC解禁、ワールドアリーナは2026-12-10メンテ後 — パッチ前に必ずSTOVEを再確認。変換済みアカでSteamログインしてもレガシー進行は残りますが、自動でファウンドリ配置にはなりません。epicsevensteam.comの非公式ガイドです。",
+      "answer": "このFoundryサーバーガイドは、Epic Seven新鯖の進行トラック（カレンダー・報酬・ギルド戦・WA）をまとめます。Draft Arenaは開放済み；ギルド戦〜2026-11-21 03:00 UTC；WAは2026-12-10メンテ後；多くのバフ〜12/31 — STOVEで再確認。「Foundry codes」はクーポン一覧ではなくお祝い/公式告知の報酬です。ログイン変換はレガシー進行を残すだけで自動配置しません。",
       "img_alt": "ファウンドリ日程の自作カレンダー図",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット — Steam CDN",
       "faq_h2": "ファウンドリFAQ",
@@ -1820,7 +1838,7 @@ export const CONTENT = {
         ],
         [
           "ファウンドリのコードは引き換えられますか？",
-          "ここにクーポン一覧はありません。「Foundry codes」検索は通常、お祝い報酬—STOVEファウンドリ view/14571828 とローンチ view/14606481 に掲載されたメール贈り物、ログインアイテム、バフ—を指します。ゲーム内メールに表示されたものだけ受け取ってください。本非公式ガイドはコードを公開・販売・引き換えしません。"
+          "いいえ。本Foundryサーバーガイドはクーポン文字列を掲載しません。「Foundry codes」検索は通常、お祝い報酬と公式STOVE告知（メール贈り物・ログインアイテム・バフ、view/14571828・14606481）を指し、引き換え一覧ではありません。ゲーム内メールだけ受け取り、第三者の偽コードを信じないでください。"
         ]
       ],
       "vs_h2": "引き継ぎ vs ファウンドリ開始",
@@ -1850,7 +1868,16 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "報酬ウィンドウ",
       "gw_reward": "ギルド戦報酬はファウンドリお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまでと案内。GW自体はより早い時点（≈11/21）に開くため、その広いお祝い枠の中で受け取れます。資源消費前にSTOVEを再確認。この頁の日付と報酬枠はSTOVEファウンドリ告知 view/14571828 とローンチ告知 view/14606481 に従い、メンテ後に変わることがあります。二つの告知が食い違う場合は新しいSTOVE投稿に従ってください。",
-      "codes_note": "短い答え：ファウンドリの「コード」は通常、クーポン文字列ではなくお祝い報酬です。STOVEファウンドリ view/14571828 とローンチ view/14606481 を確認し、ゲーム内メールに表示されたものだけ受け取ってください。本非公式頁はコードを公開・販売・引き換えしません。",
+      "codes_h2": "Foundry codes vs celebration rewards",
+      "codes_note": "「Foundry codes」「Foundry server codes」検索は、クーポン文字列ではなくお祝い報酬と公式STOVE告知—メール贈り物、ログインアイテム、スターターバフ—を指すことが多いです。本非公式Foundryサーバーガイドは偽コードを公開・販売・引き換えしません。ゲーム内メールに表示されたものだけ受け取り、窓が動いたらSTOVEファウンドリ view/14571828 とローンチ view/14606481 を再確認してください。",
+      "guide_h2": "Foundry server guide — 主要日程",
+      "guide_th": [ "マイルストーン", "日時(UTC)", "確認" ],
+      "guide": [
+        [ "Draft Arena", "2026-10-29メンテ後", "STOVE準拠" ],
+        [ "ギルド戦", "2026-11-21 03:00", "STOVE準拠" ],
+        [ "ワールドアリーナ", "2026-12-10メンテ後", "STOVE準拠" ],
+        [ "お祝いバフ枠", "〜2026-12-31 02:59", "STOVE準拠" ]
+      ],
       "ends_h2": "12/31に終わるもの",
       "ends_th": [ "項目 / バフ", "おおよその終了(UTC)", "メモ" ],
       "ends": [
@@ -1920,7 +1947,7 @@ export const CONTENT = {
       "side_h2": "支線",
       "side": "詳見：Secret Rabbit♥Hole。",
       "src_h2": "來源",
-      "answer": "Foundry 是 Epic Seven 在 Steam 時代的新伺服器，慶祝增益與獎勵公告約至 2026-12-31 UTC。依 STOVE 上線表，公會戰約於 2026-11-21 03:00 UTC 開放，世界競技場於 2026-12-10 維護後——改版前請再查 STOVE。以已轉換帳號登入 Steam 可保留原服進度，但不會自動被放到 Foundry。epicsevensteam.com 非官方指南。",
+      "answer": "本 Foundry 伺服器指南整理 Epic Seven 新服進度軌的日程、獎勵、公會戰與世界競技場。Draft Arena 已開；公會戰約 2026-11-21 03:00 UTC；WA 於 2026-12-10 維護後；多數增益至約 12/31——請以 STOVE 為準。「Foundry codes」指慶祝／官方公告獎勵，不是兌換碼清單。登入轉換只保留原服進度，不會自動進 Foundry。",
       "img_alt": "Foundry 日程自繪月曆（增益、兔子洞、公會戰、WA）",
       "img_ss_alt": "Epic Seven 官方 Steam 截圖 — Steam CDN",
       "faq_h2": "Foundry FAQ",
@@ -1934,7 +1961,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 序號可以兌換嗎？",
-          "本頁不提供序號清單。搜尋「Foundry codes」通常指慶祝獎勵——STOVE Foundry view/14571828 與 Launch view/14606481 公布的信箱禮物、登入道具與增益。只領遊戲內信箱實際顯示的內容；本非官方指南不發布、不販售、也不代兌序號。"
+          "不行。本 Foundry 伺服器指南不發布兌換字串。搜尋「Foundry codes」多半指慶祝獎勵與官方 STOVE 公告（信箱禮物、登入道具、增益；view/14571828、14606481），不是可兌換清單。只領遊戲內信箱顯示內容，勿信第三方假碼。"
         ]
       ],
       "vs_h2": "帳號轉移 vs 在 Foundry 開荒",
@@ -1964,7 +1991,16 @@ export const CONTENT = {
       ],
       "gw_reward_h3": "獎勵區間",
       "gw_reward": "請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。公會戰本身較早開放（≈11/21），可在更寬的慶祝窗口內領獎。花費資源前請再查 STOVE。本頁日期與獎勵區間依 STOVE Foundry 公告 view/14571828 與 Launch 公告 view/14606481，維護後可能變更。兩則公告不一致時，跟較新的 STOVE 貼文。",
-      "codes_note": "簡短回答：Foundry「序號」通常指慶祝獎勵，不是兌換字串。請查 STOVE Foundry view/14571828 與 Launch view/14606481，只領遊戲內信箱顯示的內容。本非官方頁不發布、不販售、也不代兌序號。",
+      "codes_h2": "Foundry codes vs celebration rewards",
+      "codes_note": "搜尋「Foundry codes」或「Foundry server codes」多半指向慶祝獎勵與官方 STOVE 公告——信箱禮物、登入道具、新手增益——而不是可兌換序號清單。本非官方 Foundry 伺服器指南從不發布、販售或代兌假碼。只領遊戲內信箱實際顯示的內容；時窗變動時請再查 STOVE Foundry view/14571828 與 Launch view/14606481。",
+      "guide_h2": "Foundry server guide — 關鍵日程",
+      "guide_th": [ "里程碑", "日期（UTC）", "核對" ],
+      "guide": [
+        [ "Draft Arena", "2026-10-29 維護後", "以 STOVE 為準" ],
+        [ "公會戰", "2026-11-21 03:00", "以 STOVE 為準" ],
+        [ "世界競技場", "2026-12-10 維護後", "以 STOVE 為準" ],
+        [ "慶祝增益窗口", "至約 2026-12-31 02:59", "以 STOVE 為準" ]
+      ],
       "ends_h2": "12/31 結束項目",
       "ends_th": [ "項目／增益", "大約結束（UTC）", "備註" ],
       "ends": [
