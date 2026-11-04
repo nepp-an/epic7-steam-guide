@@ -1,0 +1,10 @@
+# Guild War deep-link: GSC /guild-war/ → Foundry #guild-war (CF Pages static redirects)
+# Destinations may include fragments per https://developers.cloudflare.com/pages/configuration/redirects/
+/guild-war/ /foundry/#guild-war 301
+/guild-war /foundry/#guild-war 301
+/ko/guild-war/ /ko/foundry/#guild-war 301
+/ko/guild-war /ko/foundry/#guild-war 301
+/ja/guild-war/ /ja/foundry/#guild-war 301
+/ja/guild-war /ja/foundry/#guild-war 301
+/zh-tw/guild-war/ /zh-tw/foundry/#guild-war 301
+/zh-tw/guild-war /zh-tw/foundry/#guild-war 301
