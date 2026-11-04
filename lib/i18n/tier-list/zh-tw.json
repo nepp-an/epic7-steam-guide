@@ -195,7 +195,7 @@
   "related_h2": "本站相關",
   "related": [
     ["/heroes/", "英雄 — 站內 12 張卡"],
-    ["/foundry/", "Foundry 日程"],
+    ["/foundry/#server-guide", "Foundry 伺服器指南"],
     ["/foundry/#guild-war", "Foundry 公會戰準備"],
     ["/steam-transfer/", "STOVE → Steam 轉移"],
     ["/banners/", "卡池與 Pickup"],

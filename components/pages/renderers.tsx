@@ -256,9 +256,11 @@ function Fig({
 }
 
 function DeepBlock({
+  locale,
   h2,
   paras,
 }: {
+  locale: Locale;
   h2: string;
   paras: readonly string[];
 }) {
@@ -266,16 +268,20 @@ function DeepBlock({
     <section>
       <h2>{h2}</h2>
       {paras.map((para) => (
-        <p key={para.slice(0, 32)}>{para}</p>
+        <p key={para.slice(0, 32)}>
+          <RichInline locale={locale} marked={para} />
+        </p>
       ))}
     </section>
   );
 }
 
 function FaqBlock({
+  locale,
   h2,
   faqs,
 }: {
+  locale: Locale;
   h2: string;
   faqs: readonly (readonly [string, string])[];
 }) {
@@ -285,7 +291,7 @@ function FaqBlock({
       {faqs.map(([q, a]) => (
         <details key={q}>
           <summary>{q}</summary>
-          <p>{a}</p>
+          <FaqRich locale={locale} marked={a} />
         </details>
       ))}
     </section>
@@ -522,7 +528,7 @@ export function HomeView({ locale }: { locale: Locale }) {
           </table>
           <p>
             {c.foundry_p}{' '}
-            <L locale={locale} href="/foundry/">
+            <L locale={locale} href="/foundry/#server-guide">
               →
             </L>{' '}
             <L locale={locale} href="/foundry/#guild-war">
@@ -820,7 +826,7 @@ export function TransferView({ locale }: { locale: Locale }) {
       <h2>{c.vs_h2}</h2>
       <p>
         {c.vs}{' '}
-        <L locale={locale} href="/foundry/">
+        <L locale={locale} href="/foundry/#server-guide">
           {c.link_foundry}
         </L>
         .
@@ -865,7 +871,7 @@ export function TransferView({ locale }: { locale: Locale }) {
           .
         </li>
       </ul>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
       <section className="faq">
         <h2>{c.faq_h2}</h2>
         {c.faqs.map(([q, a]) => (
@@ -960,8 +966,8 @@ export function DemoView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ol>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
@@ -977,6 +983,11 @@ export function DemoView({ locale }: { locale: Locale }) {
         <li>
           <L locale={locale} href="/faq/">
             {c.link_faq}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/foundry/">
+            {c.link_foundry}
           </L>
         </li>
       </ul>
@@ -1131,8 +1142,8 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
           ))}
         </tbody>
       </table>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.get_h2}</h2>
       <p>
         <ExternalLink href={OFFICIAL.steamStore} className="btn btn-outline">
@@ -1159,6 +1170,11 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
         <li>
           <L locale={locale} href="/faq/">
             {c.link_faq}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/foundry/">
+            {c.link_foundry}
           </L>
         </li>
       </ul>
@@ -1347,9 +1363,29 @@ export function FoundryView({ locale }: { locale: Locale }) {
             {TIER_LINK_LABEL[locale]}
           </L>
         </li>
+        <li>
+          <L locale={locale} href="/download/">
+            {c.link_download}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/heroes/">
+            {c.link_heroes}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/banners/">
+            {c.link_banners}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/demo-delete-warning/">
+            {c.link_demo}
+          </L>
+        </li>
       </ul>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
         <li>
@@ -1427,8 +1463,8 @@ export function RabbitView({ locale }: { locale: Locale }) {
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
-          <L locale={locale} href="/foundry/">
-            Foundry
+          <L locale={locale} href="/foundry/#guild-war">
+            {GW_LINK[locale]}
           </L>
         </li>
         <li>
@@ -1503,6 +1539,10 @@ export function BannersView({ locale }: { locale: Locale }) {
         ·{' '}
         <L locale={locale} href="/foundry/">
           Foundry
+        </L>
+        {' · '}
+        <L locale={locale} href="/foundry/#guild-war">
+          {GW_LINK[locale]}
         </L>
         {' · '}
         <L locale={locale} href="/tier-list/">
@@ -1893,8 +1933,8 @@ export function HeroesView({ locale }: { locale: Locale }) {
         </tbody>
       </table>
       <p className="muted">{c.note}</p>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
@@ -2017,8 +2057,8 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
-      <DeepBlock h2={c.deep_h2} paras={c.deep} />
-      <FaqBlock h2={c.faq_h2} faqs={c.faqs} />
+      <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
         <li>

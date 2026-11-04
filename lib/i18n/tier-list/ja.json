@@ -195,7 +195,7 @@
   "related_h2": "当サイト関連",
   "related": [
     ["/heroes/", "英雄 — サイト内カード12枚"],
-    ["/foundry/", "ファウンドリ日程"],
+    ["/foundry/#server-guide", "ファウンドリ鯖ガイド"],
     ["/foundry/#guild-war", "ファウンドリ ギルド戦準備"],
     ["/steam-transfer/", "STOVE → Steam引き継ぎ"],
     ["/banners/", "バナー・ピックアップ"],

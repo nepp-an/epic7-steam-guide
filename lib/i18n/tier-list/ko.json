@@ -195,7 +195,7 @@
   "related_h2": "이 사이트 관련",
   "related": [
     ["/heroes/", "영웅 — 사이트 내 카드 12장"],
-    ["/foundry/", "파운드리 캘린더"],
+    ["/foundry/#server-guide", "파운드리 서버 가이드"],
     ["/foundry/#guild-war", "파운드리 길드전 준비"],
     ["/steam-transfer/", "STOVE → Steam 이전"],
     ["/banners/", "배너·픽업"],

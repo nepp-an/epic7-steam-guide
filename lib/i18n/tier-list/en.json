@@ -195,7 +195,7 @@
   "related_h2": "Related on this site",
   "related": [
     ["/heroes/", "Heroes — 12 on-site cards"],
-    ["/foundry/", "Foundry calendar"],
+    ["/foundry/#server-guide", "Foundry server guide"],
     ["/foundry/#guild-war", "Foundry Guild War prep"],
     ["/steam-transfer/", "STOVE → Steam transfer"],
     ["/banners/", "Banners & pickups"],

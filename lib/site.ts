@@ -100,6 +100,8 @@ export type PageSeo = {
   path: string;
   locale?: Locale;
   absoluteTitle?: boolean;
+  /** Site-relative path under /public, e.g. /images/diagram-foundry-calendar.webp */
+  ogImage?: string;
 };
 
 export function pageMetadata({
@@ -108,10 +110,14 @@ export function pageMetadata({
   path,
   locale = DEFAULT_LOCALE,
   absoluteTitle,
+  ogImage,
 }: PageSeo) {
   const full = absoluteTitle ? title : `${title} | ${BRAND}`;
   const canonicalPath = localizedPath(locale, path);
   const url = absoluteUrl(canonicalPath);
+  const images = ogImage
+    ? [{ url: absoluteUrl(ogImage.startsWith('/') ? ogImage : `/${ogImage}`) }]
+    : undefined;
   return {
     title: { absolute: full },
     description,
@@ -126,11 +132,13 @@ export function pageMetadata({
       siteName: BRAND,
       locale: OG_LOCALE[locale] || 'en_US',
       type: 'website' as const,
+      ...(images ? { images } : {}),
     },
     twitter: {
-      card: 'summary' as const,
+      card: images ? ('summary_large_image' as const) : ('summary' as const),
       title: full,
       description,
+      ...(images ? { images: [images[0].url] } : {}),
     },
   };
 }
