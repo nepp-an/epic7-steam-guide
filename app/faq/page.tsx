@@ -13,6 +13,7 @@ export const metadata: Metadata = pageMetadata({
   path: PATH,
   locale: LOCALE,
   absoluteTitle: true,
+  ogImage: '/images/diagram-transfer-decision.webp',
 });
 
 export default function Page() {

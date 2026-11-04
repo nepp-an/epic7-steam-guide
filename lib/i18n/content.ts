@@ -3,8 +3,8 @@ import type { Locale } from '@/lib/site';
 export const CONTENT = {
   "/": {
     "en": {
-      "title": "Epic Seven Steam: Transfer, Foundry Server Guide & FAQ | E7 Steam Guide",
-      "meta": "Keep progress STOVE→Steam; Foundry calendar to Dec 31; official store link. Unofficial.",
+      "title": "Epic Seven Steam Guide — Transfer & Foundry Hub",
+      "meta": "Epic Seven Steam hub: STOVE→Steam transfer to keep progress, Foundry calendar, official download, and FAQ. Unofficial guide.",
       "h1": "Epic Seven on Steam — player guide",
       "hero": "Steam store entry, STOVE↔Steam account transfer, Foundry calendar through 12/31, Secret Rabbit♥Hole, banners, and troubleshooting. Independent guide on epicsevensteam.com.",
       "cta_store": "Official Steam store →",
@@ -102,7 +102,7 @@ export const CONTENT = {
         [ "/maintenance/", "Maintenance & version notes" ]
       ],
       "sources_h2": "Official sources",
-      "answer": "Three paths: [[Steam transfer|/steam-transfer/]] converts STOVE email/SNS → Steam Simple Login to keep progress; [[Foundry|/foundry/]] is the new-server calendar through Dec 31 (not a transfer); [[Download|/download/]] is the official store entry for app 5019180. Unofficial guide — verify on STOVE.",
+      "answer": "Epic Seven Steam hub in three paths: [[Steam transfer|/steam-transfer/]] converts STOVE email/SNS → Steam Simple Login to keep progress; [[Foundry|/foundry/]] is the new-server calendar through Dec 31 (not a transfer); [[Download|/download/]] is the official store entry for app 5019180. Unofficial guide — verify on STOVE.",
       "img_header_alt": "Official Steam store header art for Epic Seven (app 5019180), cited from Steam CDN",
       "img_ss_alt": "Official Steam store screenshot of Epic Seven combat — Steam CDN",
       "img_transfer_alt": "Self-drawn overview diagram of STOVE to Steam account transfer steps",
@@ -111,8 +111,8 @@ export const CONTENT = {
       "img_world_alt": "Official Steam store world presentation screenshot — Steam CDN citation",
 },
     "ko": {
-      "title": "Epic Seven Steam: 이전·파운드리 서버 가이드 & FAQ",
-      "meta": "STOVE→Steam 진행 유지; 파운드리 캘린더(~12/31); 공식 스토어 링크. 비공식.",
+      "title": "Epic Seven Steam 가이드 — 이전·파운드리 허브",
+      "meta": "Epic Seven Steam 허브: 진행 유지용 STOVE→Steam 이전, 파운드리 캘린더, 공식 다운로드, FAQ. 비공식 가이드.",
       "h1": "Epic Seven Steam — 플레이어 가이드",
       "hero": "Steam 스토어 진입, STOVE↔Steam 계정 이전, 파운드리 일정(12/31까지), Secret Rabbit♥Hole, 배너·점검 안내. epicsevensteam.com 비공식 가이드.",
       "cta_store": "공식 Steam 스토어 →",
@@ -198,8 +198,8 @@ export const CONTENT = {
       "img_world_alt": "Epic Seven 공식 Steam 월드 스크린샷 — Steam CDN 인용",
 },
     "ja": {
-      "title": "Epic Seven Steam: 引き継ぎ・ファウンドリサーバーガイド & FAQ",
-      "meta": "STOVE→Steamで進行維持; ファウンドリカレンダー（〜12/31）; 公式ストアリンク。非公式。",
+      "title": "Epic Seven Steamガイド — 引き継ぎ・ファウンドリ",
+      "meta": "Epic Seven Steamハブ：進行維持のSTOVE→Steam引き継ぎ、ファウンドリカレンダー、公式ダウンロード、FAQ。非公式ガイド。",
       "h1": "Epic Seven Steam — プレイヤーガイド",
       "hero": "Steamストア入口、STOVE↔Steam引き継ぎ、ファウンドリ日程（12/31まで）、Secret Rabbit♥Hole、バナーとトラブルシュート。epicsevensteam.comの非公式ガイド。",
       "cta_store": "公式Steamストア →",
@@ -285,8 +285,8 @@ export const CONTENT = {
       "img_world_alt": "Epic Seven公式Steamワールド画面 — Steam CDN引用",
 },
     "zh-tw": {
-      "title": "Epic Seven Steam：轉移、Foundry 伺服器指南與 FAQ",
-      "meta": "STOVE→Steam 保留進度；Foundry 日程至 12/31；官方商店連結。非官方。",
+      "title": "Epic Seven Steam 指南 — 轉移與 Foundry 樞紐",
+      "meta": "Epic Seven Steam 樞紐：保留進度的 STOVE→Steam 轉移、Foundry 日程、官方下載與 FAQ。非官方指南。",
       "h1": "Epic Seven Steam — 玩家指南",
       "hero": "Steam 商店入口、STOVE↔Steam 帳號轉移、Foundry 日程（至 12/31）、Secret Rabbit♥Hole、卡池與疑難排解。epicsevensteam.com 非官方指南。",
       "cta_store": "官方 Steam 商店 →",
@@ -374,127 +374,325 @@ export const CONTENT = {
   },
   "/download/": {
     "en": {
-      "title": "Download Epic Seven on Steam (Official Store) | Steam Guide",
-      "meta": "Official Steam store entry for Epic Seven plus pre-install transfer checklist, system notes, and demo risks. Independent guide.",
+      "title": "Download Epic Seven on Steam | Official Store | E7",
+      "meta": "Official Epic Seven Steam download via Steam store app 5019180. Pre-install transfer checklist, demo vs full, UNCHEATER notes. Unofficial guide.",
       "h1": "Download Epic Seven on Steam",
-      "lead": "Use only the official Steam store. This site does not host installers, cracks, or gray codes.",
+      "lead": "Use only the official Steam store for any Epic Seven Steam download. This site does not host installers, cracks, or gray codes.",
       "cta": "Open official Steam store — Epic Seven (app 5019180)",
-      "before_h2": "Before you click Play",
+      "before_h2": "Pre-install checklist before you download on Steam",
       "steps": [
-        "Decide whether you need existing progress. If yes, convert STOVE email/SNS → Steam login first (transfer guide).",
-        "If the Steam demo already spawned a throwaway account, resolve that conflict before converting — see transfer + demo warning.",
-        "Expect kernel-level anti-cheat (UNCHEATER) prompts — details on Steam notes. Corporate PCs may block launch.",
-        "New-server players: read the [[Foundry server guide|/foundry/#server-guide]] through 12/31 and [[Secret Rabbit♥Hole|/secret-rabbit-hole/]].",
-        "Minimum specs (Steam): Win10 64-bit, i5-class CPU, 8GB RAM, GTX 1060-class GPU, ~10GB free. Recommended 16GB / GTX 1660-class."
+        "Decide whether you need existing progress. If yes, convert STOVE email/SNS → Steam login first using the [[Epic Seven Steam transfer guide|/steam-transfer/]] before you treat a fresh Steam Heir as your main.",
+        "If the Steam demo already spawned a throwaway account, resolve that conflict before converting — see transfer + [[demo delete warning|/demo-delete-warning/]].",
+        "Expect kernel-level anti-cheat (UNCHEATER) prompts on first launch — details below and on [[Steam notes|/steam-notes/]]. Corporate PCs may block the Epic Seven Steam download client.",
+        "New-server players: read the [[Foundry server guide|/foundry/#server-guide]] through 12/31 and [[Secret Rabbit♥Hole|/secret-rabbit-hole/]] after install.",
+        "Minimum specs (Steam): Win10 64-bit, i5-class CPU, 8GB RAM, GTX 1060-class GPU, ~10GB free. Recommended 16GB / GTX 1660-class. Confirm free disk space before the Epic Seven Steam download finishes.",
+        "Wishlist or library: open app 5019180 only from store.steampowered.com. Bookmark this checklist so you do not accept a mirror, Discord DM installer, or “faster download” crack."
       ],
-      "after_h2": "After install checklist",
+      "after_h2": "After the Epic Seven Steam download installs",
       "after": [
         "Confirm which STOVE login Steam is using before spending currency.",
         "Foundry vs legacy: transferring login does not move an old character onto [[Foundry|/foundry/]] — Foundry is a separate server. See the [[transfer guide|/steam-transfer/]] and the [[Guild War checklist|/foundry/#guild-war]].",
-        "Wishlist / launch mails on Foundry are time-gated — claim from mailbox before expiry."
+        "Wishlist / launch mails on Foundry are time-gated — claim from mailbox before expiry.",
+        "If the Heir looks brand-new, stop and open the transfer recovery path before you invest time or money.",
+        "Keep Steam → Verify integrity of game files handy if UNCHEATER or launch fails after the download."
+      ],
+      "demo_h2": "Steam demo vs full Epic Seven download",
+      "demo": [
+        "The Steam demo and the full Epic Seven Steam download share branding, but they are not the same product path. The full client is Steam app 5019180. Demo leftover accounts can sit on a Steam-linked STOVE login that blocks a later convert. Prefer installing the full release instead of “cleaning up” a demo with in-game deletion.",
+        "After a successful Steam login transfer, STOVE warns that using in-game account deletion on the demo or client can wipe original-server progress. That is why this download page links the [[demo delete warning|/demo-delete-warning/]] next to the store button. If you already opened the demo, do not press delete — use withdraw-then-convert on the [[transfer guide|/steam-transfer/]].",
+        "When friends say “just delete the empty demo and redownload,” treat that as unsafe advice for transferred accounts. Redownloading the full Epic Seven Steam download is fine; deleting the in-game account after transfer is the danger called out by STOVE view/14581667."
+      ],
+      "anticheat_h2": "Anti-cheat notes for the Steam download client",
+      "anticheat": [
+        "Steam lists kernel-level UNCHEATER for Epic Seven. On first launch after your Epic Seven Steam download, approve the Windows elevation prompt so the driver can install. Reboot once if the client still exits. Managed work or school images often block that driver by policy — do not install a bypass, crack, or “UNCHEATER fix” from Discord.",
+        "If the anti-cheat prompt never appears or policy blocks it, play the same converted account on the STOVE PC client or a personal PC you administer. Verify game files, update GPU drivers, and check antivirus quarantines before opening an official CS ticket. Longer triage lives on [[Steam notes|/steam-notes/]]."
+      ],
+      "deep_h2": "Epic Seven Steam download — player guide (unofficial)",
+      "deep": [
+        "An Epic Seven Steam download should always start from the official store page for app 5019180. This independent checklist exists because launch week mixes three separate decisions: whether to keep legacy progress, whether to open a Foundry character, and whether the PC can run kernel anti-cheat. Mixing those decisions is how players end up on an empty Heir or a blocked convert. Read the store page system requirements, then decide transfer vs Foundry before you click Play for the first time.",
+        "If you care about heroes, purchases, and Epic Pass on a legacy server, finish the STOVE email/SNS → Steam Simple Login convert described in the [[Epic Seven Steam transfer|/steam-transfer/]] guide before you rely on Steam as your daily launcher. The download itself does not move progress; the login convert does. If Steam already created an empty linked STOVE account, withdraw that link first, wait out any STOVE holding period, then convert the original. Never use in-game account deletion after transfer to “clear” the empty slot.",
+        "If you want Foundry celebration buffs and Guild War instead of (or in addition to) legacy progress, install the full client, confirm you are on the login you intend, then create a Foundry character on purpose. Login conversion does not place an old Heir onto Foundry. Calendar details, Guild War timing, and codes notes stay on the [[Foundry server guide|/foundry/#server-guide]] — keep date noise off this download page.",
+        "Storage and network tips: leave ~10GB free, prefer a wired or stable Wi-Fi link while Steam finishes the Epic Seven Steam download, and pause other large updates so the verify step does not fail mid-way. After install, open the game once to let UNCHEATER finish, then confirm the STOVE identity shown in account menus. If anything looks wrong, stop spending and cross-check the [[FAQ hub|/faq/]] plus official STOVE Steam FAQ view/14378309.",
+        "This site never hosts installers, mirrors, gray redeem codes, or cracked clients. If a search result offers an “Epic Seven Steam download” ZIP, torrent, or free skin pack, treat it as malware. Stick to store.steampowered.com/app/5019180, cite STOVE for account rules, and remember epicsevensteam.com is an unofficial player guide — not Smilegate, STOVE, Valve, or Steam support."
       ],
       "refs_h2": "Official launch references",
       "related_h2": "Related hub pages",
-      "answer": "Download Epic Seven only from the official Steam store page for app 5019180. Convert STOVE→Steam first if you need existing progress, and read the demo deletion warning.",
+      "answer": "Get the Epic Seven Steam download only from the official Steam store page for app 5019180. Convert STOVE→Steam first if you need existing progress, compare demo vs full carefully, and read the demo deletion warning before any delete UI.",
       "img_alt": "Official Steam header for Epic Seven app 5019180",
       "img_cap_alt": "Official Steam capsule art for Epic Seven",
-      "faq_h2": "Download FAQ",
+      "faq_h2": "Download FAQ — Epic Seven on Steam",
       "faqs": [
-        [ "Where is the safe download?", "Only store.steampowered.com/app/5019180 — this site never hosts installers or gray codes." ],
+        [
+          "Where is the safe Epic Seven Steam download?",
+          "Only store.steampowered.com/app/5019180 — this site never hosts installers or gray codes. Ignore mirrors, torrents, and Discord DMs offering a faster Epic Seven Steam download."
+        ],
         [
           "Should I transfer before installing?",
-          "If you care about old progress, convert STOVE login to Steam before relying on a fresh Steam character."
+          "If you care about old progress, convert STOVE login to Steam before relying on a fresh Steam character. The [[transfer guide|/steam-transfer/]] covers wrong-bind recovery."
         ],
         [
           "Does the Steam demo affect my real account?",
-          "Misusing in-game deletion after a successful Steam login transfer can wipe original-server data — read the demo warning and STOVE post. [[demo delete warning|/demo-delete-warning/]] (/demo-delete-warning/)."
+          "Misusing in-game deletion after a successful Steam login transfer can wipe original-server data — read the [[demo delete warning|/demo-delete-warning/]] and STOVE post."
+        ],
+        [
+          "Demo vs full client — which should I install?",
+          "Prefer the full Epic Seven Steam download (app 5019180). Demo leftovers can block a later convert; never “fix” that with in-game delete after transfer."
+        ],
+        [
+          "What about UNCHEATER after download?",
+          "Expect a kernel-level anti-cheat prompt on first launch. Update drivers, verify files, and avoid bypass tools. See [[Steam notes|/steam-notes/]]."
+        ],
+        [
+          "Does downloading move me to Foundry?",
+          "No. Download and login transfer keep or create access on Steam; Foundry is a separate new-server choice. See [[Foundry|/foundry/]]."
         ]
-      ]
-    },
-    "ko": {
-      "title": "Epic Seven Steam 다운로드 (공식 스토어)",
-      "meta": "공식 Steam 스토어 진입 + 설치 전 계정 이전 체크리스트·사양·데모 위험. 비공식 가이드.",
-      "h1": "Epic Seven Steam 다운로드",
-      "lead": "공식 Steam 스토어만 사용하세요. 본 사이트는 설치 파일·크랙·그레이 코드를 호스팅하지 않습니다.",
-      "cta": "공식 Steam 스토어 열기 — Epic Seven (app 5019180)",
-      "before_h2": "Play 누르기 전",
-      "steps": [
-        "기존 진행도가 필요하면 먼저 STOVE에서 이메일/SNS→Steam 전환(이전 가이드).",
-        "데모가 이미 임시 계정을 만들었다면 전환 전에 충돌을 해소 — 이전 + 데모 주의.",
-        "커널급 안티치트(UNCHEATER) 안내 가능 — Steam 안내 페이지. 회사 PC는 실행이 막힐 수 있음.",
-        "신서버: [[파운드리 서버 가이드|/foundry/#server-guide]](12/31까지)와 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]] 확인.",
-        "최소 사양(Steam): Win10 64비트, i5급, RAM 8GB, GTX 1060급, 약 10GB. 권장 16GB / GTX 1660급."
       ],
-      "after_h2": "설치 후 체크",
-      "after": [ "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.", "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 [[파운드리|/foundry/]]로 옮겨지지 않음 — 별도 서버. [[이전 가이드|/steam-transfer/]]와 [[길드전 체크리스트|/foundry/#guild-war]]를 확인하세요.", "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령." ],
+      "link_transfer": "STOVE↔Steam transfer guide",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_notes": "Steam client notes (UNCHEATER)",
+      "link_foundry": "Foundry server guide",
+      "link_demo": "Demo delete warning",
+},
+    "ko": {
+      "title": "Epic Seven Steam 다운로드 | 공식 스토어 | E7",
+      "meta": "공식 Epic Seven Steam 다운로드(app 5019180). 설치 전 이전 체크리스트, 데모 vs 정식, UNCHEATER. 비공식 가이드.",
+      "h1": "Epic Seven Steam 다운로드",
+      "lead": "Epic Seven Steam 다운로드는 공식 Steam 스토어만 사용하세요. 본 사이트는 설치 파일·크랙·그레이 코드를 호스팅하지 않습니다.",
+      "cta": "공식 Steam 스토어 열기 — Epic Seven (app 5019180)",
+      "before_h2": "Steam에서 다운로드하기 전 체크리스트",
+      "steps": [
+        "기존 진행도가 필요하면 먼저 STOVE에서 이메일/SNS→Steam 전환([[Epic Seven Steam 이전 가이드|/steam-transfer/]]).",
+        "데모가 이미 임시 계정을 만들었다면 전환 전에 충돌을 해소 — 이전 + [[데모 삭제 경고|/demo-delete-warning/]].",
+        "커널급 안티치트(UNCHEATER) 안내 가능 — 아래와 [[Steam 안내|/steam-notes/]]. 회사 PC는 Epic Seven Steam 다운로드 클라이언트가 막힐 수 있음.",
+        "신서버: [[파운드리 서버 가이드|/foundry/#server-guide]](12/31까지)와 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]] 확인.",
+        "최소 사양(Steam): Win10 64비트, i5급, RAM 8GB, GTX 1060급, 약 10GB. 권장 16GB / GTX 1660급. Epic Seven Steam 다운로드 전에 여유 공간 확인.",
+        "라이브러리/위시는 app 5019180만. 미러·디스코드 DM 설치파일·크랙은 거부하세요."
+      ],
+      "after_h2": "Epic Seven Steam 다운로드 설치 후",
+      "after": [
+        "재화 사용 전 Steam이 어떤 STOVE 로그인인지 확인.",
+        "파운드리 vs 기존: 로그인 전환만으로 옛 캐릭터가 [[파운드리|/foundry/]]로 옮겨지지 않음 — [[이전 가이드|/steam-transfer/]]와 [[길드전 체크리스트|/foundry/#guild-war]].",
+        "파운드리 우편/위시 보상은 기간 제한 — 만료 전 수령.",
+        "후계자가 완전 신규처럼 보이면 시간과 돈을 쓰기 전에 이전 복구 경로를 여세요.",
+        "다운로드 후 UNCHEATER/실행 실패 시 Steam 파일 무결성 검증을 준비하세요."
+      ],
+      "demo_h2": "Steam 데모 vs 정식 Epic Seven 다운로드",
+      "demo": [
+        "Steam 데모와 정식 Epic Seven Steam 다운로드는 브랜드만 비슷할 뿐 같은 제품 경로가 아닙니다. 정식은 app 5019180입니다. 데모 잔여 계정이 Steam 연동 STOVE 로그인에 남아 이후 전환을 막을 수 있습니다. 인게임 삭제로 데모를 「정리」하지 말고 정식 빌드를 설치하세요.",
+        "Steam 로그인 전환 후 데모/클라이언트 인게임 삭제는 원서버 진행도를 지울 수 있다고 STOVE가 경고합니다. 그래서 이 다운로드 페이지는 스토어 버튼 옆에 [[데모 삭제 경고|/demo-delete-warning/]]를 둡니다. 이미 데모를 켰다면 삭제 대신 [[이전 가이드|/steam-transfer/]]의 탈퇴→전환을 쓰세요.",
+        "친구가 「빈 데모 지우고 다시 받으면 된다」고 해도, 전환된 계정에는 위험한 조언입니다. 정식 Epic Seven Steam 다운로드를 다시 받는 것은 괜찮고, 전환 후 인게임 삭제가 STOVE view/14581667이 경고하는 위험입니다."
+      ],
+      "anticheat_h2": "Steam 다운로드 클라이언트의 안티치트",
+      "anticheat": [
+        "Steam은 Epic Seven에 커널급 UNCHEATER를 표기합니다. Epic Seven Steam 다운로드 후 첫 실행에서 Windows 권한 상승을 허용하세요. 그래도 종료되면 한 번 재부팅. 회사/학교 PC는 정책으로 드라이버를 막을 수 있으니 디스코드의 우회·크랙을 설치하지 마세요.",
+        "프롬프트가 없거나 정책에 막히면 같은 전환 계정을 STOVE PC/모바일 또는 본인 PC에서 플레이하세요. 파일 검증·GPU 드라이버·백신 격리함을 확인한 뒤 공식 CS. 자세한 절차는 [[Steam 안내|/steam-notes/]]."
+      ],
+      "deep_h2": "Epic Seven Steam 다운로드 — 플레이어 가이드(비공식)",
+      "deep": [
+        "Epic Seven Steam 다운로드는 항상 공식 스토어 app 5019180에서 시작하세요. 런칭 주간에는 레거시 진행 유지, 파운드리 캐릭 생성, 커널 안티치트 통과라는 세 결정이 섞입니다. 섞이면 빈 후계자나 막힌 전환으로 이어집니다. 스토어 사양을 확인한 뒤 첫 Play 전에 이전 vs 파운드리를 정하세요.",
+        "레거시 서버의 영웅·결제·에픽패스가 중요하면 [[Epic Seven Steam 이전|/steam-transfer/]] 가이드의 STOVE 이메일/SNS→Steam Simple Login 전환을 먼저 끝내세요. 다운로드 자체가 진행도를 옮기지 않습니다 — 로그인 전환이 합니다. Steam이 빈 연동 STOVE를 이미 만들었다면 탈퇴→대기→원 로그인 전환. 전환 후 인게임 삭제로 빈 칸을 「비우지」 마세요.",
+        "파운드리 축하 버프와 길드전이 목표면 정식 클라이언트를 설치하고, 의도한 로그인인지 확인한 뒤 파운드리 캐릭을 일부러 만드세요. 로그인 전환만으로 옛 후계자가 파운드리로 가지 않습니다. 일정·길드전·코드 메모는 [[파운드리 서버 가이드|/foundry/#server-guide]]에 두고, 이 다운로드 페이지에는 날짜 소음을 줄입니다.",
+        "저장공간·네트워크: 약 10GB 여유, Epic Seven Steam 다운로드 중에는 안정적인 연결을 유지하고 다른 대용량 업데이트를 잠시 멈추세요. 설치 후 한 번 실행해 UNCHEATER를 끝낸 뒤 계정 메뉴의 STOVE 신원을 확인하세요. 이상하면 재화 사용을 멈추고 [[FAQ|/faq/]]와 공식 STOVE Steam FAQ view/14378309를 대조하세요.",
+        "본 사이트는 설치파일·미러·그레이 코드·크랙을 호스팅하지 않습니다. 검색 결과의 ZIP·토렌트·무료 스킨팩 「Epic Seven Steam download」는 악성코드로 보세요. store.steampowered.com/app/5019180만 쓰고, 계정 규칙은 STOVE를 인용하세요. epicsevensteam.com은 Smilegate/STOVE/Valve/Steam과 무관한 비공식 가이드입니다."
+      ],
       "refs_h2": "공식 런칭 참고",
       "related_h2": "관련 허브",
-      "answer": "Epic Seven은 공식 Steam 스토어(app 5019180)에서만 받으세요. 기존 진행도가 있으면 설치·플레이 전에 STOVE→Steam 전환을, 데모 삭제 경고도 확인하세요.",
+      "answer": "Epic Seven Steam 다운로드는 공식 Steam 스토어(app 5019180)에서만 받으세요. 기존 진행도가 있으면 설치·플레이 전에 STOVE→Steam 전환을, 데모 vs 정식과 데모 삭제 경고도 확인하세요.",
       "img_alt": "Epic Seven 공식 Steam 헤더(app 5019180)",
       "img_cap_alt": "Epic Seven 공식 Steam 캡슐 아트",
-      "faq_h2": "다운로드 FAQ",
+      "faq_h2": "다운로드 FAQ — Epic Seven on Steam",
       "faqs": [
-        [ "안전한 다운로드 위치는?", "store.steampowered.com/app/5019180 만 — 본 사이트는 설치파일·그레이 코드를 호스팅하지 않습니다." ],
-        [ "설치 전 전환이 필요한가요?", "옛 진행도가 중요하면 새 Steam 캐릭에 의존하기 전에 STOVE 로그인을 Steam으로 전환하세요." ],
-        [ "데모가 본 계정에 영향?", "Steam 로그인 전환 후 인게임 삭제를 잘못 쓰면 원 서버 데이터가 지워질 수 있음 — 데모 경고·STOVE 공지. [[데모 삭제 경고|/demo-delete-warning/]](/demo-delete-warning/)." ]
-      ]
-    },
-    "ja": {
-      "title": "Epic Seven Steamダウンロード（公式ストア）",
-      "meta": "公式Steamストア入口＋導入前の引き継ぎ確認・スペック・デモ注意。非公式ガイド。",
-      "h1": "Epic Seven をSteamでダウンロード",
-      "lead": "公式Steamストアのみを使ってください。当サイトはインストーラ・クラック・不正コードを配布しません。",
-      "cta": "公式Steamストアを開く — Epic Seven (app 5019180)",
-      "before_h2": "Playの前に",
-      "steps": [
-        "既存進行が必要なら先にSTOVEでメール/SNS→Steam変換（引き継ぎガイド）。",
-        "デモが捨て垢を作済みなら、変換前に衝突を解消 — 引き継ぎ＋デモ注意。",
-        "カーネル級アンチチート（UNCHEATER）の可能性 — Steamメモ参照。社用PCは起動不可も。",
-        "新鯖向け：[[ファウンドリ鯖ガイド|/foundry/#server-guide]]（〜12/31）と[[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
-        "最低仕様（Steam）：Win10 64bit、i5級、8GB、GTX1060級、約10GB。推奨16GB / GTX1660級。"
+        [
+          "안전한 Epic Seven Steam 다운로드 위치는?",
+          "store.steampowered.com/app/5019180 만 — 본 사이트는 설치파일·그레이 코드를 호스팅하지 않습니다. 미러·토렌트·빠른 다운로드 DM은 무시하세요."
+        ],
+        [
+          "설치 전 전환이 필요한가요?",
+          "옛 진행도가 중요하면 새 Steam 캐릭에 의존하기 전에 STOVE 로그인을 Steam으로 전환하세요. [[이전 가이드|/steam-transfer/]]에 잘못된 연동 복구가 있습니다."
+        ],
+        [
+          "데모가 본 계정에 영향?",
+          "Steam 로그인 전환 후 인게임 삭제를 잘못 쓰면 원 서버 데이터가 지워질 수 있음 — [[데모 삭제 경고|/demo-delete-warning/]]·STOVE 공지."
+        ],
+        [
+          "데모 vs 정식 — 무엇을 설치?",
+          "정식 Epic Seven Steam 다운로드(app 5019180)를 우선하세요. 데모 잔여가 전환을 막을 수 있고, 전환 후 인게임 삭제로 「해결」하지 마세요."
+        ],
+        [
+          "다운로드 후 UNCHEATER는?",
+          "첫 실행에 커널급 안티치트 프롬프트가 뜹니다. 드라이버 업데이트·파일 검증·우회 툴 금지. [[Steam 안내|/steam-notes/]]."
+        ],
+        [
+          "다운로드하면 파운드리로 가나요?",
+          "아니요. 다운로드와 로그인 이전은 Steam 접근을 만들고, 파운드리는 별도 신서버 선택입니다. [[파운드리|/foundry/]]."
+        ]
       ],
-      "after_h2": "導入後チェック",
-      "after": [ "課金前にSteamがどのSTOVEログインか確認。", "[[ファウンドリ|/foundry/]]と既存：ログイン変換だけでは旧キャラは移らない — 別鯖。[[引き継ぎガイド|/steam-transfer/]]と[[ギルド戦チェック|/foundry/#guild-war]]を参照。", "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。" ],
+      "link_transfer": "STOVE↔Steam 이전 가이드",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_notes": "Steam 클라이언트 안내(UNCHEATER)",
+      "link_foundry": "파운드리 서버 가이드",
+      "link_demo": "데모 삭제 경고",
+},
+    "ja": {
+      "title": "Epic Seven Steamダウンロード | 公式ストア | E7",
+      "meta": "公式Epic Seven Steamダウンロード（app 5019180）。導入前の引き継ぎ確認、デモ vs 正式、UNCHEATER。非公式ガイド。",
+      "h1": "Epic Seven をSteamでダウンロード",
+      "lead": "Epic Seven Steamダウンロードは公式Steamストアのみ。当サイトはインストーラ・クラック・不正コードを配布しません。",
+      "cta": "公式Steamストアを開く — Epic Seven (app 5019180)",
+      "before_h2": "Steamでダウンロードする前のチェックリスト",
+      "steps": [
+        "既存進行が必要なら先にSTOVEでメール/SNS→Steam変換（[[Epic Seven Steam引き継ぎガイド|/steam-transfer/]]）。",
+        "デモが捨て垢を作済みなら、変換前に衝突を解消 — 引き継ぎ＋[[デモ削除の注意|/demo-delete-warning/]]。",
+        "カーネル級アンチチート（UNCHEATER）の可能性 — 下記と[[Steamメモ|/steam-notes/]]。社用PCはEpic Seven Steamダウンロードクライアントが起動不可も。",
+        "新鯖向け：[[ファウンドリ鯖ガイド|/foundry/#server-guide]]（〜12/31）と[[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
+        "最低仕様（Steam）：Win10 64bit、i5級、8GB、GTX1060級、約10GB。推奨16GB / GTX1660級。Epic Seven Steamダウンロード前に空き容量を確認。",
+        "ライブラリ/ウィッシュはapp 5019180のみ。ミラー・Discord DM・クラックは拒否。"
+      ],
+      "after_h2": "Epic Seven Steamダウンロード導入後",
+      "after": [
+        "課金前にSteamがどのSTOVEログインか確認。",
+        "[[ファウンドリ|/foundry/]]と既存：ログイン変換だけでは旧キャラは移らない — [[引き継ぎガイド|/steam-transfer/]]と[[ギルド戦チェック|/foundry/#guild-war]]。",
+        "ファウンドリメール／ウィッシュ報酬は期限あり — 期限前に受取。",
+        "後継者が真っ新なら、時間や課金の前に引き継ぎ復旧を開く。",
+        "ダウンロード後のUNCHEATER/起動失敗に備え、Steamのファイル整合性確認を用意。"
+      ],
+      "demo_h2": "Steamデモ vs 正式Epic Sevenダウンロード",
+      "demo": [
+        "Steamデモと正式のEpic Seven Steamダウンロードは見た目が似ていても同じ製品経路ではありません。正式はapp 5019180。デモ残存がSteam連携STOVEに残り、後の変換を阻むことがあります。ゲーム内削除でデモを「掃除」せず正式版を入れてください。",
+        "Steamログイン変換後のデモ/クライアント内削除は原鯖進行を消す恐れがあるとSTOVEが警告します。そのため本ダウンロード頁はストアボタン横に[[デモ削除の注意|/demo-delete-warning/]]を置きます。既にデモを開いたなら削除せず[[引き継ぎガイド|/steam-transfer/]]の退会→変換を使ってください。",
+        "友人が「空デモを消して再DLすればいい」と言っても、変換済みアカには危険です。正式Epic Seven Steamダウンロードの再取得は問題なく、変換後のゲーム内削除がSTOVE view/14581667の警告対象です。"
+      ],
+      "anticheat_h2": "Steamダウンロードクライアントのアンチチート",
+      "anticheat": [
+        "SteamはEpic Sevenにカーネル級UNCHEATERを記載。Epic Seven Steamダウンロード後の初回起動でWindows昇格を許可。それでも終了するなら再起動。社用/学校PCはポリシーでドライバを拒否し得るので、Discordのバイパスやクラックを入れないでください。",
+        "プロンプトが出ない／拒否されるなら、同じ変換アカをSTOVE PC/モバイルか自分管理のPCで。ファイル検証・GPUドライバ・ウイルス対策の隔離を確認してから公式CS。詳細は[[Steamメモ|/steam-notes/]]。"
+      ],
+      "deep_h2": "Epic Seven Steamダウンロード — プレイヤーガイド（非公式）",
+      "deep": [
+        "Epic Seven Steamダウンロードは必ず公式ストアapp 5019180から。発売週はレガシー進行の維持、ファウンドリキャラ作成、カーネルアンチチート通過の三判断が混ざりやすいです。混ぜると空の後継者や変換不能につながります。ストア要件を確認し、初Play前に引き継ぎ vs ファウンドリを決めてください。",
+        "レガシー鯖の英雄・課金・エピックパスが大切なら、[[Epic Seven Steam引き継ぎ|/steam-transfer/]]のSTOVEメール/SNS→Steamシンプルログイン変換を先に完了。ダウンロード自体は進行を移しません — ログイン変換が移します。Steamが空連携を作済みなら退会→待ち→本ログイン変換。変換後のゲーム内削除で空枠を「掃除」しないでください。",
+        "ファウンドリのお祝いバフとギルド戦が目的なら正式クライアントを入れ、意図したログインか確認してからファウンドリキャラを意図して作成。ログイン変換だけでは旧後継者は移りません。日程・ギルド戦・コードメモは[[ファウンドリ鯖ガイド|/foundry/#server-guide]]に残し、本ダウンロード頁の日付ノイズは抑えます。",
+        "容量・回線：約10GB空き、Epic Seven Steamダウンロード中は安定回線を保ち他の大型更新を一時停止。導入後一度起動してUNCHEATERを終え、アカウントメニューのSTOVE身元を確認。おかしければ課金を止め[[FAQ|/faq/]]と公式STOVE Steam FAQ view/14378309を照合。",
+        "当サイトはインストーラ・ミラー・不正コード・クラックを配布しません。検索のZIP・トレント・無料スキン「Epic Seven Steam download」はマルウェア扱い。store.steampowered.com/app/5019180のみ、アカウント規則はSTOVE引用。epicsevensteam.comはSmilegate/STOVE/Valve/Steamと無関係の非公式ガイドです。"
+      ],
       "refs_h2": "公式ローンチ参照",
       "related_h2": "関連ハブ",
-      "answer": "Epic Sevenは公式Steamストア（app 5019180）からのみ導入。旧進行が必要なら先にSTOVE→Steam変換し、デモ削除警告も読んでください。",
+      "answer": "Epic Seven Steamダウンロードは公式Steamストア（app 5019180）からのみ。旧進行が必要なら先にSTOVE→Steam変換し、デモ vs 正式とデモ削除警告も読んでください。",
       "img_alt": "Epic Seven公式Steamヘッダー（app 5019180）",
       "img_cap_alt": "Epic Seven公式Steamカプセルアート",
-      "faq_h2": "ダウンロードFAQ",
+      "faq_h2": "ダウンロードFAQ — Epic Seven on Steam",
       "faqs": [
-        [ "安全な入手先は？", "store.steampowered.com/app/5019180 のみ — 当サイトはインストーラや不正コードを配布しません。" ],
-        [ "導入前に変換すべき？", "旧進行が大切なら、新規Steamキャラに頼る前にSTOVEログインをSteamへ変換。" ],
-        [ "デモは本アカに影響する？", "Steamログイン変換後のゲーム内削除の誤用で本鯖データが消える恐れ — デモ注意とSTOVE告知。[[デモ削除の注意|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
-      ]
-    },
-    "zh-tw": {
-      "title": "下載 Epic Seven Steam（官方商店）",
-      "meta": "官方 Steam 商店入口＋安裝前轉移檢查、規格與試玩風險。非官方指南。",
-      "h1": "在 Steam 下載 Epic Seven",
-      "lead": "請只使用官方 Steam 商店。本站不提供安裝檔、破解或灰產序號。",
-      "cta": "開啟官方 Steam 商店 — Epic Seven（app 5019180）",
-      "before_h2": "按下 Play 之前",
-      "steps": [
-        "若要保留舊進度，先在 STOVE 將 Email/SNS 轉 Steam（轉移指南）。",
-        "若試玩已建臨時帳，轉換前先處理衝突——見轉移＋試玩警告。",
-        "可能出現核心層級反作弊（UNCHEATER）——見 Steam 說明。公司電腦可能無法啟動。",
-        "新服玩家：讀 [[Foundry 伺服器指南|/foundry/#server-guide]]（至 12/31）與 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
-        "最低規格（Steam）：Win10 64 位、i5 級、8GB、GTX 1060 級、約 10GB。建議 16GB／GTX 1660 級。"
+        [
+          "安全なEpic Seven Steamダウンロード先は？",
+          "store.steampowered.com/app/5019180のみ — 当サイトはインストーラや不正コードを配布しません。ミラー・トレント・高速DLのDMは無視。"
+        ],
+        [
+          "導入前に変換すべき？",
+          "旧進行が大切なら、新規Steamキャラに頼る前にSTOVEログインをSteamへ。[[引き継ぎガイド|/steam-transfer/]]に誤連携復旧あり。"
+        ],
+        [
+          "デモは本アカに影響する？",
+          "Steamログイン変換後のゲーム内削除の誤用で本鯖データが消える恐れ — [[デモ削除の注意|/demo-delete-warning/]]とSTOVE告知。"
+        ],
+        [
+          "デモ vs 正式 — どちらを入れる？",
+          "正式Epic Seven Steamダウンロード（app 5019180）を優先。デモ残が変換を阻むことがあり、変換後のゲーム内削除で「解決」しない。"
+        ],
+        [
+          "ダウンロード後のUNCHEATERは？",
+          "初回起動でカーネル級プロンプト。ドライバ更新・ファイル検証・バイパス禁止。[[Steamメモ|/steam-notes/]]。"
+        ],
+        [
+          "ダウンロードでファウンドリへ移る？",
+          "いいえ。ダウンロードとログイン引き継ぎはSteamアクセスを作り、ファウンドリは別の新鯖選択です。[[ファウンドリ|/foundry/]]。"
+        ]
       ],
-      "after_h2": "安裝後檢查",
-      "after": [ "消費前確認 Steam 使用哪個 STOVE 登入。", "Foundry 與舊服：僅轉移登入不會把舊角色搬到 [[Foundry|/foundry/]]——是不同伺服器。見[[轉移指南|/steam-transfer/]]與[[公會戰檢查清單|/foundry/#guild-war]]。", "Foundry 信箱／願望單獎勵有時限——到期前領取。" ],
+      "link_transfer": "STOVE↔Steam引き継ぎガイド",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_notes": "Steamクライアントメモ（UNCHEATER）",
+      "link_foundry": "ファウンドリ鯖ガイド",
+      "link_demo": "デモ削除の注意",
+},
+    "zh-tw": {
+      "title": "下載 Epic Seven Steam | 官方商店 | E7",
+      "meta": "官方 Epic Seven Steam 下載（app 5019180）。安裝前轉移檢查、試玩 vs 正式、UNCHEATER。非官方指南。",
+      "h1": "在 Steam 下載 Epic Seven",
+      "lead": "Epic Seven Steam 下載請只使用官方 Steam 商店。本站不提供安裝檔、破解或灰產序號。",
+      "cta": "開啟官方 Steam 商店 — Epic Seven（app 5019180）",
+      "before_h2": "在 Steam 下載前的檢查清單",
+      "steps": [
+        "若要保留舊進度，先在 STOVE 將 Email/SNS 轉 Steam（[[Epic Seven Steam 轉移指南|/steam-transfer/]]）。",
+        "若試玩已建臨時帳，轉換前先處理衝突——見轉移＋[[試玩刪號警告|/demo-delete-warning/]]。",
+        "可能出現核心層級反作弊（UNCHEATER）——見下方與[[Steam 說明|/steam-notes/]]。公司電腦可能無法啟動 Epic Seven Steam 下載客戶端。",
+        "新服玩家：讀 [[Foundry 伺服器指南|/foundry/#server-guide]]（至 12/31）與 [[Secret Rabbit♥Hole|/secret-rabbit-hole/]]。",
+        "最低規格（Steam）：Win10 64 位、i5 級、8GB、GTX 1060 級、約 10GB。建議 16GB／GTX 1660 級。Epic Seven Steam 下載前確認磁碟空間。",
+        "願望單／庫存僅用 app 5019180。拒絕鏡像、Discord 私訊安裝檔或破解。"
+      ],
+      "after_h2": "Epic Seven Steam 下載安裝之後",
+      "after": [
+        "消費前確認 Steam 使用哪個 STOVE 登入。",
+        "Foundry 與舊服：僅轉移登入不會把舊角色搬到 [[Foundry|/foundry/]]——見[[轉移指南|/steam-transfer/]]與[[公會戰檢查清單|/foundry/#guild-war]]。",
+        "Foundry 信箱／願望單獎勵有時限——到期前領取。",
+        "若繼承人看起來是全新的，先打開轉移復原路徑，再投入時間或金錢。",
+        "下載後若 UNCHEATER／無法啟動，準備好 Steam 驗證遊戲檔完整性。"
+      ],
+      "demo_h2": "Steam 試玩 vs 正式 Epic Seven 下載",
+      "demo": [
+        "Steam 試玩與正式 Epic Seven Steam 下載品牌相近，但不是同一產品路徑。正式為 app 5019180。試玩殘留可能佔住 Steam 連結 STOVE 登入，擋住之後轉換。請安裝正式版，不要用遊戲內刪號「清」試玩。",
+        "Steam 登入轉換後，STOVE 警告在試玩／客戶端使用遊戲內刪號可能抹掉原服進度。因此本下載頁在商店按鈕旁放上[[試玩刪號警告|/demo-delete-warning/]]。若已開過試玩，請勿刪號，改走[[轉移指南|/steam-transfer/]]的註銷→轉換。",
+        "若有人說「空白試玩刪掉再下載就好」，對已轉換帳號這是危險建議。重新取得正式 Epic Seven Steam 下載沒問題；轉移後遊戲內刪號才是 STOVE view/14581667 警告的風險。"
+      ],
+      "anticheat_h2": "Steam 下載客戶端的反作弊說明",
+      "anticheat": [
+        "Steam 標示 Epic Seven 使用核心層級 UNCHEATER。Epic Seven Steam 下載後首次啟動請允許 Windows 權限提升。若仍結束就重開機一次。公司／學校電腦常以政策擋驅動——不要安裝 Discord 上流傳的繞過或破解。",
+        "若沒有提示或被政策拒絕，請在 STOVE PC／手機或你管理的個人電腦使用同一已轉換帳號。先驗證檔案、更新 GPU 驅動、檢查防毒隔離，再找官方客服。細節見[[Steam 說明|/steam-notes/]]。"
+      ],
+      "deep_h2": "Epic Seven Steam 下載 — 玩家指南（非官方）",
+      "deep": [
+        "Epic Seven Steam 下載請一律從官方商店 app 5019180 開始。上架週常把三件事混在一起：是否保留原服進度、是否開 Foundry 角色、電腦能否通過核心反作弊。混在一起就容易開到空白繼承人或轉換被擋。先看商店規格，第一次按 Play 前決定轉移 vs Foundry。",
+        "若在意原服英雄、儲值與 Epic Pass，先完成[[Epic Seven Steam 轉移|/steam-transfer/]]指南中的 STOVE Email／SNS→Steam Simple Login 轉換。下載本身不會搬進度——登入轉換才會。若 Steam 已建立空白連結 STOVE 帳，先註銷→等待→再轉原本登入。轉移後不要用遊戲內刪號「清」空白欄。",
+        "若要的是 Foundry 慶祝增益與公會戰，安裝正式客戶端、確認登入無誤後，刻意建立 Foundry 角色。只做登入轉換不會把舊繼承人搬過去。日程、公會戰與序號說明留在[[Foundry 伺服器指南|/foundry/#server-guide]]，本下載頁少堆日期噪音。",
+        "空間與網路：預留約 10GB，Epic Seven Steam 下載期間保持穩定連線並暫停其他大型更新。安裝後先啟動一次讓 UNCHEATER 完成，再確認帳號選單中的 STOVE 身分。有異狀就停止消費，並對照[[FAQ|/faq/]]與官方 STOVE Steam FAQ view/14378309。",
+        "本站不提供安裝檔、鏡像、灰產序號或破解。搜尋結果若出現 ZIP、種子或免費外觀包「Epic Seven Steam download」，一律當惡意軟體。只使用 store.steampowered.com/app/5019180，帳號規則以 STOVE 為準。epicsevensteam.com 為與 Smilegate／STOVE／Valve／Steam 無關的非官方指南。"
+      ],
       "refs_h2": "官方上架參考",
       "related_h2": "相關導覽",
-      "answer": "請只從官方 Steam 商店（app 5019180）下載。若要舊進度，先完成 STOVE→Steam 轉換，並閱讀試玩刪號警告。",
+      "answer": "請只從官方 Steam 商店（app 5019180）取得 Epic Seven Steam 下載。若要舊進度，先完成 STOVE→Steam 轉換，並比較試玩 vs 正式、閱讀試玩刪號警告。",
       "img_alt": "Epic Seven 官方 Steam 頭圖（app 5019180）",
       "img_cap_alt": "Epic Seven 官方 Steam 膠囊圖",
-      "faq_h2": "下載 FAQ",
+      "faq_h2": "下載 FAQ — Epic Seven on Steam",
       "faqs": [
-        [ "安全下載在哪？", "僅 store.steampowered.com/app/5019180——本站不提供安裝檔或灰產序號。" ],
-        [ "安裝前要先轉移嗎？", "若在意舊進度，勿依賴全新 Steam 角色前，先把 STOVE 登入轉 Steam。" ],
-        [ "試玩會影響本帳嗎？", "Steam 登入轉換後誤用遊戲內刪號可能清掉原服資料——見試玩警告與 STOVE 公告。[[試玩刪號警告|/demo-delete-warning/]]（/demo-delete-warning/）。" ]
-      ]
-    }
+        [
+          "安全的 Epic Seven Steam 下載在哪？",
+          "僅 store.steampowered.com/app/5019180——本站不提供安裝檔或灰產序號。忽略鏡像、種子與「加速下載」私訊。"
+        ],
+        [
+          "安裝前要先轉移嗎？",
+          "若在意舊進度，勿依賴全新 Steam 角色前，先把 STOVE 登入轉 Steam。見[[轉移指南|/steam-transfer/]]的錯綁復原。"
+        ],
+        [
+          "試玩會影響本帳嗎？",
+          "Steam 登入轉換後誤用遊戲內刪號可能清掉原服資料——見[[試玩刪號警告|/demo-delete-warning/]]與 STOVE 公告。"
+        ],
+        [
+          "試玩 vs 正式——裝哪個？",
+          "優先正式 Epic Seven Steam 下載（app 5019180）。試玩殘留可能擋轉換；轉移後不要用遊戲內刪號「解決」。"
+        ],
+        [
+          "下載後的 UNCHEATER？",
+          "首次啟動會有核心層級反作弊提示。更新驅動、驗證檔案、禁止繞過工具。見[[Steam 說明|/steam-notes/]]。"
+        ],
+        [
+          "下載會把我送到 Foundry 嗎？",
+          "不會。下載與登入轉移只建立 Steam 存取；Foundry 是另一個新服選擇。見[[Foundry|/foundry/]]。"
+        ]
+      ],
+      "link_transfer": "STOVE↔Steam 轉移指南",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_notes": "Steam 客戶端說明（UNCHEATER）",
+      "link_foundry": "Foundry 伺服器指南",
+      "link_demo": "試玩刪號警告",
+}
   },
   "/demo-delete-warning/": {
     "en": {
@@ -701,10 +899,10 @@ export const CONTENT = {
   },
   "/steam-transfer/": {
     "en": {
-      "title": "STOVE ↔ Steam Transfer Guide (Keep Progress) | E7 Steam",
+      "title": "Epic Seven Steam Transfer Guide | Keep Progress | E7",
       "meta": "STOVE→Steam transfer: convert your Epic Seven login to keep progress. Wrong-bind withdraw, demo wipe, and transfer is not Foundry. Unofficial guide.",
-      "h1": "STOVE ↔ Steam account transfer",
-      "goal": "Goal: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
+      "h1": "Epic Seven Steam transfer — keep progress",
+      "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [ "Mobile / STOVE PC account", "Convert login on STOVE", "Steam client login" ],
       "diagram_aria": "Recommended transfer path",
       "rec_h2": "Recommended path (keep progress)",
@@ -747,16 +945,16 @@ export const CONTENT = {
       "cross": [
         "Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).",
         "Steam can access new and existing worlds; Foundry has separate matchmaking for listed PvP.",
-        "Related: demo warning, Steam notes, FAQ hub."
+        "Related after Epic Seven Steam transfer: demo warning, Steam notes, FAQ hub, and the download checklist."
       ],
       "src_h2": "Official sources",
-      "answer": "Link your Epic Seven STOVE email/SNS and transfer to Steam Simple Login so the same account keeps progress. Wrong-bind: withdraw the empty Steam-linked STOVE account, then convert the original. Steam transfer is not Foundry and does not start Guild War. See [[Guild War on Foundry|/foundry/#guild-war]].",
+      "answer": "This Epic Seven Steam transfer guide converts STOVE email/SNS to Steam Simple Login so the same account keeps progress. Wrong-bind: withdraw the empty Steam-linked STOVE account, then convert the original. Epic Seven Steam transfer is not Foundry and does not start Guild War. See [[Guild War on Foundry|/foundry/#guild-war]].",
       "img_alt": "Self-drawn STOVE to Steam transfer steps diagram",
       "faq_h2": "Transfer FAQ",
       "faqs": [
         [
-          "How do I STOVE→Steam transfer and keep progress?",
-          "Convert your Epic Seven STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: withdraw the empty Steam-linked account, then convert the original. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
+          "How does Epic Seven Steam transfer keep progress?",
+          "This Epic Seven Steam transfer converts your STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: withdraw the empty Steam-linked account, then convert the original. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
         ],
         [
           "STOVE says “already been registered” — what now?",
@@ -792,11 +990,11 @@ export const CONTENT = {
         "If a demo/empty Steam-linked account already exists, plan the withdraw-then-convert path first."
       ],
       "demo_risk": "After conversion, do not use in-game account deletion on a demo/client session — see",
-      "link_download": "Download / store entry",
+      "link_download": "Download checklist before convert",
       "link_demo": "demo delete warning",
       "link_notes": "Steam notes",
-      "link_faq": "FAQ hub",
-      "link_foundry": "Foundry server guide",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_foundry": "Foundry server guide (≠ transfer)",
       "related_label": "Related:",
       "cross_foundry_before": "Steam can access new and existing worlds;",
       "cross_foundry_after": "has separate matchmaking for listed PvP (transfer ≠ joining Foundry).",
@@ -825,15 +1023,15 @@ export const CONTENT = {
       ],
       "deep_h2": "Why players get stuck (unofficial)",
       "deep": [
-        "Most launch-week mistakes are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow withdraw→convert and cite STOVE FAQ / demo precaution."
+        "Most launch-week mistakes on Epic Seven Steam transfer are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow withdraw→convert and cite STOVE FAQ / demo precaution. Before you convert, open the [[download checklist|/download/]] so the full client (app 5019180) is ready."
       ],
       "img_alt2": "Self-drawn wrong-bind decision tree for empty Steam Heir and recovery",
       "img_alt3": "Official Steam header for Epic Seven app 5019180 — Steam CDN",
 },
     "ko": {
-      "title": "STOVE ↔ Steam 계정 이전 가이드",
+      "title": "Epic Seven Steam 이전 가이드 | 진행 유지 | E7",
       "meta": "STOVE에서 Steam으로 Epic Seven 로그인을 전환해 진행도를 유지하세요. 잘못된 연동은 탈퇴로 되돌리고, 이전은 Foundry가 아니며 데모 삭제에 주의하세요. 비공식 가이드.",
-      "h1": "STOVE ↔ Steam 계정 이전",
+      "h1": "Epic Seven Steam 이전 — 진행도 유지",
       "goal": "목표: Steam 새 세션에 의존하기 전에 STOVE에서 Simple Login(Steam)으로 전환해 기존 진행도를 유지하는 것. 공개 STOVE FAQ를 요약했을 뿐이니 실제 UI와 공지 문구를 반드시 따르세요. 데모/빈 연동 계정이 있으면 탈퇴→전환 순서를 먼저 계획하세요.",
       "diagram": [ "모바일 / STOVE PC 계정", "STOVE에서 로그인 전환", "Steam 클라이언트 로그인" ],
       "diagram_aria": "권장 이전 경로",
@@ -871,7 +1069,7 @@ export const CONTENT = {
         "관련: 데모 주의, Steam 안내, FAQ."
       ],
       "src_h2": "공식 출처",
-      "answer": "Epic Seven STOVE 이메일/SNS를 Steam Simple Login으로 연동·이전하면 같은 계정의 진행도가 유지됩니다. 잘못된 연동: 빈 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환하세요. Steam 이전은 Foundry가 아니며 길드전을 시작하지 않습니다. [[파운드리 길드전|/foundry/#guild-war]]을 보세요.",
+      "answer": "이 Epic Seven Steam 이전 가이드는 STOVE 이메일/SNS를 Steam Simple Login으로 전환해 같은 계정의 진행도를 유지합니다. 잘못된 연동: 빈 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환하세요. Epic Seven Steam 이전은 Foundry가 아니며 길드전을 시작하지 않습니다. [[파운드리 길드전|/foundry/#guild-war]]을 보세요.",
       "img_alt": "STOVE에서 Steam으로 이전하는 비공식 단계 다이어그램",
       "faq_h2": "이전 FAQ",
       "faqs": [
@@ -901,11 +1099,11 @@ export const CONTENT = {
         "데모/빈 Steam 연동 계정이 이미 있다면 탈퇴 후 전환 경로를 먼저 준비하세요."
       ],
       "demo_risk": "전환 후에는 데모/클라이언트 세션에서 인게임 계정 삭제를 쓰지 마세요 — 자세한 내용:",
-      "link_download": "다운로드 / 스토어 안내",
+      "link_download": "전환 전 다운로드 체크리스트",
       "link_demo": "데모 삭제 주의",
       "link_notes": "Steam 안내",
-      "link_faq": "FAQ 허브",
-      "link_foundry": "파운드리 캘린더",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_foundry": "파운드리 서버 가이드(≠이전)",
       "related_label": "관련:",
       "cross_foundry_before": "Steam은 신/기존 월드 모두 접근 가능하며,",
       "cross_foundry_after": "는 안내된 PvP에 대해 서버 내 매칭을 사용합니다(이전 ≠ 파운드리 참가).",
@@ -940,9 +1138,9 @@ export const CONTENT = {
       "img_alt3": "Epic Seven 공식 Steam 헤더(app 5019180) — Steam CDN",
 },
     "ja": {
-      "title": "STOVE ↔ Steam引き継ぎガイド",
+      "title": "Epic Seven Steam引き継ぎガイド | 進行維持 | E7",
       "meta": "STOVEからSteamへEpic Sevenのログインを変換し、進行を残す引き継ぎ案内です。誤連携は退会で戻し、引き継ぎはFoundryではなく、デモ削除に注意。非公式ガイド。",
-      "h1": "STOVE ↔ Steamアカウント引き継ぎ",
+      "h1": "Epic Seven Steam引き継ぎ — 進行を残す",
       "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開STOVE FAQの要約に過ぎないので、必ず実画面と告知文面に従ってください。デモ/空連携があるなら退会→変換の順を先に計画します。",
       "diagram": [ "モバイル / STOVE PCアカウント", "STOVEでログイン変換", "Steamクライアントログイン" ],
       "diagram_aria": "推奨引き継ぎパス",
@@ -970,7 +1168,7 @@ export const CONTENT = {
       "cross_h2": "クロスプレイメモ",
       "cross": [ "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。", "関連：デモ注意、Steamメモ、FAQ。" ],
       "src_h2": "公式ソース",
-      "answer": "Epic SevenのSTOVEメール/SNSをSteamシンプルログインへ引き継ぎ・連携すると、同じアカウントの進行が残ります。誤連携：空のSteam連携STOVEアカウントを先に退会してから本アカを変換してください。Steam引き継ぎはFoundryではなく、ギルド戦も開始しません。[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。",
+      "answer": "このEpic Seven Steam引き継ぎガイドは、STOVEメール/SNSをSteamシンプルログインへ変換し、同じアカウントの進行を残します。誤連携：空のSteam連携STOVEを先に退会してから本アカを変換。Epic Seven Steam引き継ぎはFoundryではなく、ギルド戦も開始しません。[[ファウンドリのギルド戦|/foundry/#guild-war]]を確認してください。",
       "img_alt": "STOVEからSteamへの非公式引き継ぎ手順図",
       "faq_h2": "引き継ぎFAQ",
       "faqs": [
@@ -997,11 +1195,11 @@ export const CONTENT = {
         "デモ/空のSteam連携が既にあるなら、退会→変換ルートを先に用意する。"
       ],
       "demo_risk": "変換後はデモ/クライアント上のゲーム内アカウント削除を使わないでください — 詳細：",
-      "link_download": "ダウンロード / ストア案内",
+      "link_download": "変換前のダウンロード手順",
       "link_demo": "デモ削除注意",
       "link_notes": "Steamメモ",
-      "link_faq": "FAQハブ",
-      "link_foundry": "ファウンドリカレンダー",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_foundry": "ファウンドリ鯖ガイド（≠引き継ぎ）",
       "related_label": "関連：",
       "cross_foundry_before": "Steamは新旧ワールドに入れますが、",
       "cross_foundry_after": "は掲載PvPで鯖内マッチを使います（引き継ぎ≠ファウンドリ参加）。",
@@ -1030,9 +1228,9 @@ export const CONTENT = {
       "img_alt3": "Epic Seven公式Steamヘッダー（app 5019180）— Steam CDN",
 },
     "zh-tw": {
-      "title": "STOVE ↔ Steam 帳號轉移指南",
+      "title": "Epic Seven Steam 轉移指南 | 保留進度 | E7",
       "meta": "將 STOVE 的 Epic Seven 登入轉換到 Steam，以保留進度。錯綁請先註銷，轉移不是 Foundry，並注意試玩刪號。非官方指南。",
-      "h1": "STOVE ↔ Steam 帳號轉移",
+      "h1": "Epic Seven Steam 轉移 — 保留進度",
       "goal": "目標：在依賴全新 Steam 工作階段前，於 STOVE 轉為 Simple Login（Steam）以保留進度。此為公開 STOVE FAQ 摘要，請務必跟實際畫面與公告原文。若已有試玩／空白連結帳，請先規劃註銷→轉換順序。",
       "diagram": [ "手機 / STOVE PC 帳號", "在 STOVE 轉換登入", "Steam 客戶端登入" ],
       "diagram_aria": "建議轉移路徑",
@@ -1060,7 +1258,7 @@ export const CONTENT = {
       "cross_h2": "跨平台備註",
       "cross": [ "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。", "相關：試玩警告、Steam 說明、FAQ。" ],
       "src_h2": "官方來源",
-      "answer": "將 Epic Seven 的 STOVE Email／SNS 連結並轉移到 Steam Simple Login，同一帳號可保留進度。錯綁：先註銷空白的 Steam 連結 STOVE 帳，再轉換原本帳號。Steam 轉移不是 Foundry，也不會開始公會戰。見[[Foundry 公會戰|/foundry/#guild-war]]。",
+      "answer": "本 Epic Seven Steam 轉移指南把 STOVE Email／SNS 轉成 Steam Simple Login，同一帳號可保留進度。錯綁：先註銷空白的 Steam 連結 STOVE 帳，再轉換原本帳號。Epic Seven Steam 轉移不是 Foundry，也不會開始公會戰。見[[Foundry 公會戰|/foundry/#guild-war]]。",
       "img_alt": "STOVE 轉 Steam 非官方步驟示意圖",
       "faq_h2": "轉移 FAQ",
       "faqs": [
@@ -1084,11 +1282,11 @@ export const CONTENT = {
         "若已有試玩／空白 Steam 連結帳，先準備註銷後再轉換的路徑。"
       ],
       "demo_risk": "轉換後請勿在試玩／客戶端使用遊戲內刪號——詳見",
-      "link_download": "下載／商店入口",
+      "link_download": "轉換前下載檢查清單",
       "link_demo": "試玩刪號警告",
       "link_notes": "Steam 說明",
-      "link_faq": "FAQ 中心",
-      "link_foundry": "Foundry 日程",
+      "link_faq": "Epic Seven Steam FAQ",
+      "link_foundry": "Foundry 伺服器指南（≠轉移）",
       "related_label": "相關：",
       "cross_foundry_before": "Steam 可進新／舊世界；",
       "cross_foundry_after": "對所列 PvP 使用服內匹配（轉移≠加入 Foundry）。",
@@ -1119,16 +1317,16 @@ export const CONTENT = {
   },
   "/faq/": {
     "en": {
-      "title": "Epic Seven Steam FAQ — Transfer, Foundry & Demo | E7 Steam Guide",
+      "title": "Epic Seven Steam FAQ — Transfer & Foundry | E7",
       "meta": "Steam transfer, Foundry, and launch FAQ for Epic Seven on Steam: wrong bind, demo wipe, anti-cheat. Official links. Unofficial.",
-      "h1": "FAQ & troubleshooting",
-      "answer": "Steam transfer keeps legacy progress via STOVE→Steam Simple Login — see [[transfer guide|/steam-transfer/]]. Foundry is a separate new server, not a transfer — see [[Foundry|/foundry/]]. Demo in-game delete after conversion can wipe original-server progress — read the [[demo warning|/demo-delete-warning/]]. Unofficial FAQ hub.",
+      "h1": "Epic Seven Steam FAQ & troubleshooting",
+      "answer": "This Epic Seven Steam FAQ covers transfer, Foundry, and launch issues. Steam transfer keeps legacy progress via STOVE→Steam Simple Login — see [[transfer guide|/steam-transfer/]]. Foundry is a separate new server, not a transfer — see [[Foundry|/foundry/]]. Demo in-game delete after conversion can wipe original-server progress — read the [[demo warning|/demo-delete-warning/]]. Unofficial Epic Seven Steam FAQ hub.",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
-      "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.",
+      "lead": "Use this Epic Seven Steam FAQ alongside the homepage cards. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
-          "What does this Steam transfer + Foundry FAQ cover — and why a new Heir?",
-          "Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — withdraw it, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
+          "What does this Epic Seven Steam FAQ cover — and why a new Heir?",
+          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — withdraw it, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -1162,12 +1360,12 @@ export const CONTENT = {
       "src_h2": "Official links"
     },
     "ko": {
-      "title": "Epic Seven Steam FAQ — 이전·파운드리·데모",
+      "title": "Epic Seven Steam FAQ — 이전·파운드리 | E7",
       "meta": "Steam transfer·파운드리·런칭 FAQ: 잘못된 연동, 데모 삭제, 안티치트. 공식 링크. 비공식.",
-      "h1": "FAQ·문제 해결",
-      "answer": "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다 — [[이전 가이드|/steam-transfer/]]. Foundry는 이전이 아닌 별도 신서버입니다 — [[파운드리|/foundry/]]. 전환 후 데모 인게임 삭제는 원서버 진행을 지울 수 있으니 [[데모 삭제 경고|/demo-delete-warning/]]를 읽으세요. 비공식 FAQ 허브.",
+      "h1": "Epic Seven Steam FAQ · 문제 해결",
+      "answer": "이 Epic Seven Steam FAQ는 이전·파운드리·런칭 이슈를 다룹니다. Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다 — [[이전 가이드|/steam-transfer/]]. Foundry는 이전이 아닌 별도 신서버입니다 — [[파운드리|/foundry/]]. 전환 후 데모 인게임 삭제는 원서버 진행을 지울 수 있으니 [[데모 삭제 경고|/demo-delete-warning/]]를 읽으세요. 비공식 Epic Seven Steam FAQ 허브.",
       "img_alt": "비공식 FAQ 흐름도: 잘못된 연동 후 탈퇴하고 이어서 전환",
-      "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
+      "lead": "홈 카드와 함께 이 Epic Seven Steam FAQ를 쓰세요. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
       "faqs": [
         [ "이 Steam transfer + Foundry FAQ는 무엇을 다루며, 새 후계자는 왜 뜨나요?", "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다. 새 후계자는 대개 Steam이 만든 빈 연동 STOVE 계정이니 탈퇴 후 원 로그인을 전환하세요([[이전 가이드|/steam-transfer/]]). Foundry는 계정 이전이 아닌 별도 신서버([[파운드리 서버 가이드|/foundry/#server-guide]]). 전환 후 데모 삭제는 레거시 진행을 지울 수 있습니다([[데모 삭제 경고|/demo-delete-warning/]]). 비공식 — STOVE 확인." ],
         [ "Steam 파운드리를 모바일에서도?", "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음." ],
@@ -1181,12 +1379,12 @@ export const CONTENT = {
       "src_h2": "공식 링크"
     },
     "ja": {
-      "title": "Epic Seven Steam FAQ — 引き継ぎ・ファウンドリ・デモ",
+      "title": "Epic Seven Steam FAQ — 引き継ぎ・ファウンドリ | E7",
       "meta": "Steam transfer・ファウンドリ・ローンチFAQ：誤連携、デモ削除、アンチチート。公式リンク。非公式。",
-      "h1": "FAQ・トラブルシュート",
-      "answer": "Steam transferはSTOVE→Steamシンプルログインで進行を残します — [[引き継ぎガイド|/steam-transfer/]]。ファウンドリは引き継ぎではない別の新鯖です — [[ファウンドリ|/foundry/]]。変換後のデモ内削除は本鯖進行を消す恐れがあるので[[デモ削除の注意|/demo-delete-warning/]]を読んでください。非公式FAQハブ。",
+      "h1": "Epic Seven Steam FAQ・トラブルシュート",
+      "answer": "このEpic Seven Steam FAQは引き継ぎ・ファウンドリ・ローンチの詰まりを扱います。Steam transferはSTOVE→Steamシンプルログインで進行を残します — [[引き継ぎガイド|/steam-transfer/]]。ファウンドリは引き継ぎではない別の新鯖です — [[ファウンドリ|/foundry/]]。変換後のデモ内削除は本鯖進行を消す恐れがあるので[[デモ削除の注意|/demo-delete-warning/]]を読んでください。非公式Epic Seven Steam FAQハブ。",
       "img_alt": "非公式FAQフロー図：誤連携のあと退会し、続けて変換",
-      "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。",
+      "lead": "ホームのカードとあわせてこのEpic Seven Steam FAQを使ってください。第三者スクリプトよりSTOVE画面を優先。",
       "faqs": [
         [ "このSteam transfer + Foundry FAQは何を扱い、新人継者はなぜ出る？", "Steam transferはSTOVE→Steamシンプルログインで進行を残します。新人継者は大抵Steamが作った空の連携STOVEなので、退会してから本ログインを変換([[引き継ぎガイド|/steam-transfer/]])。ファウンドリはアカウント引き継ぎではない別の新鯖([[ファウンドリ鯖ガイド|/foundry/#server-guide]])。変換後のデモ削除はレガシー進行を消す恐れ([[デモ削除の注意|/demo-delete-warning/]])。非公式 — STOVEで確認。" ],
         [ "Steamファウンドリをモバイルでも？", "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。" ],
@@ -1200,12 +1398,12 @@ export const CONTENT = {
       "src_h2": "公式リンク"
     },
     "zh-tw": {
-      "title": "Epic Seven Steam FAQ — 轉移、Foundry、試玩",
+      "title": "Epic Seven Steam FAQ — 轉移與 Foundry | E7",
       "meta": "Steam transfer、Foundry 與上架 FAQ：錯綁、試玩刪號、反作弊。官方連結。非官方。",
-      "h1": "FAQ 與疑難排解",
-      "answer": "Steam transfer 以 STOVE→Steam Simple Login 保留進度——見[[轉移指南|/steam-transfer/]]。Foundry 是另一個新服，不是轉移——見[[Foundry|/foundry/]]。轉換後試玩內刪號可能抹掉原服進度——請讀[[試玩刪號警告|/demo-delete-warning/]]。非官方 FAQ 樞紐。",
+      "h1": "Epic Seven Steam FAQ 與疑難排解",
+      "answer": "本 Epic Seven Steam FAQ 涵蓋轉移、Foundry 與上架問題。Steam transfer 以 STOVE→Steam Simple Login 保留進度——見[[轉移指南|/steam-transfer/]]。Foundry 是另一個新服，不是轉移——見[[Foundry|/foundry/]]。轉換後試玩內刪號可能抹掉原服進度——請讀[[試玩刪號警告|/demo-delete-warning/]]。非官方 Epic Seven Steam FAQ 樞紐。",
       "img_alt": "非官方 FAQ 流程圖：錯綁後先註銷，再轉換",
-      "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。",
+      "lead": "請搭配首頁卡片使用本 Epic Seven Steam FAQ。請相信 STOVE 畫面，勿信第三方腳本。",
       "faqs": [
         [ "這份 Steam transfer + Foundry FAQ 涵蓋什麼——為何出現全新繼承人？", "Steam transfer 以 STOVE→Steam Simple Login 保留進度。全新繼承人多半是 Steam 建的空白連結 STOVE——先註銷再轉原本登入（[[轉移指南|/steam-transfer/]]）。Foundry 是另一個新服，不是帳號轉移（[[Foundry 伺服器指南|/foundry/#server-guide]]）。轉換後試玩刪號可能抹掉原服進度（[[試玩刪號警告|/demo-delete-warning/]]）。非官方——請在 STOVE 核對。" ],
         [ "Steam 的 Foundry 能在手機繼續嗎？", "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。" ],

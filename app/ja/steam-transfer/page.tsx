@@ -12,6 +12,8 @@ export const metadata: Metadata = pageMetadata({
   description: copy.meta,
   path: PATH,
   locale: LOCALE,
+  absoluteTitle: true,
+  ogImage: '/images/diagram-transfer.webp',
 });
 
 export default function Page() {

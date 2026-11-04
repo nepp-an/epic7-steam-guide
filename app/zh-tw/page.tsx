@@ -12,6 +12,8 @@ export const metadata: Metadata = pageMetadata({
   description: copy.meta,
   path: PATH,
   locale: LOCALE,
+  absoluteTitle: true,
+  ogImage: '/images/steam-header.webp',
 });
 
 export default function Page() {

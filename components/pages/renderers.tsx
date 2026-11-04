@@ -638,7 +638,19 @@ const DOWNLOAD_FOUNDRY_LABEL: Record<Locale, string> = {
 };
 
 export function DownloadView({ locale }: { locale: Locale }) {
-  const c = CONTENT['/download/'][locale];
+  const c = CONTENT['/download/'][locale] as typeof CONTENT['/download/']['en'] & {
+    demo_h2?: string;
+    demo?: readonly string[];
+    anticheat_h2?: string;
+    anticheat?: readonly string[];
+    deep_h2?: string;
+    deep?: readonly string[];
+    link_transfer?: string;
+    link_faq?: string;
+    link_notes?: string;
+    link_foundry?: string;
+    link_demo?: string;
+  };
   const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
   return (
     <PageShell locale={locale} path="/download/">
@@ -678,6 +690,29 @@ export function DownloadView({ locale }: { locale: Locale }) {
           </li>
         ))}
       </ul>
+      {c.demo_h2 && c.demo ? (
+        <section>
+          <h2>{c.demo_h2}</h2>
+          {c.demo.map((para) => (
+            <p key={para.slice(0, 32)}>
+              <RichInline locale={locale} marked={para} />
+            </p>
+          ))}
+        </section>
+      ) : null}
+      {c.anticheat_h2 && c.anticheat ? (
+        <section>
+          <h2>{c.anticheat_h2}</h2>
+          {c.anticheat.map((para) => (
+            <p key={para.slice(0, 32)}>
+              <RichInline locale={locale} marked={para} />
+            </p>
+          ))}
+        </section>
+      ) : null}
+      {c.deep_h2 && c.deep ? (
+        <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      ) : null}
       <h2>{c.refs_h2}</h2>
       <ul className="sources">
         <li>
@@ -703,22 +738,27 @@ export function DownloadView({ locale }: { locale: Locale }) {
       <ul>
         <li>
           <L locale={locale} href="/steam-transfer/">
-            transfer
+            {c.link_transfer || 'STOVE↔Steam transfer guide'}
           </L>
         </li>
         <li>
           <L locale={locale} href="/faq/">
-            FAQ
+            {c.link_faq || 'Epic Seven Steam FAQ'}
           </L>
         </li>
         <li>
           <L locale={locale} href="/steam-notes/">
-            Steam notes
+            {c.link_notes || 'Steam client notes'}
           </L>
         </li>
         <li>
           <L locale={locale} href="/foundry/">
-            {DOWNLOAD_FOUNDRY_LABEL[locale]}
+            {c.link_foundry || DOWNLOAD_FOUNDRY_LABEL[locale]}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/demo-delete-warning/">
+            {c.link_demo || 'Demo delete warning'}
           </L>
         </li>
       </ul>
