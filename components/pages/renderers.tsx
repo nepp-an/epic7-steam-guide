@@ -398,6 +398,10 @@ export function HomeView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <section className="hero">
         <h1>{c.h1}</h1>
+        <p className="quick-answer">
+          <strong>TL;DR — </strong>
+          <RichInline locale={locale} marked={c.answer} />
+        </p>
         <p>{c.hero}</p>
         <div className="cta-row">
           <ExternalLink href={OFFICIAL.steamStore} className="btn btn-primary">
@@ -423,7 +427,6 @@ export function HomeView({ locale }: { locale: Locale }) {
         <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
       <LastVerified copy={HOME_VERIFIED[locale]} />
-      <QuickAnswer text={c.answer} />
       <section className="hub-section" aria-labelledby="hub-cards-h2">
         <h2 id="hub-cards-h2">{c.hubs_h2}</h2>
         <div className="hub-grid">
@@ -1001,7 +1004,10 @@ export function FaqView({ locale }: { locale: Locale }) {
       />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <p className="quick-answer">
+        <strong>TL;DR — </strong>
+        <RichInline locale={locale} marked={c.answer} />
+      </p>
       <Fig
         src="/images/diagram-transfer-decision.webp"
         alt={c.img_alt}
@@ -1940,7 +1946,10 @@ export function QuestsView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <p className="quick-answer">
+        <strong>TL;DR — </strong>
+        <RichInline locale={locale} marked={c.answer} />
+      </p>
       <Fig
         src="/images/diagram-quests.webp"
         alt={c.img_alt}

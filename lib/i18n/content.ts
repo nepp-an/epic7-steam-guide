@@ -3,8 +3,8 @@ import type { Locale } from '@/lib/site';
 export const CONTENT = {
   "/": {
     "en": {
-      "title": "Epic Seven on Steam Guide — Transfer, Foundry & FAQ",
-      "meta": "Independent Epic Seven Steam guide: store link, STOVE↔Steam transfer, Foundry through 12/31, FAQ. Not Smilegate / STOVE.",
+      "title": "Epic Seven Steam: Transfer, Foundry Server Guide & FAQ | E7 Steam Guide",
+      "meta": "Keep progress STOVE→Steam; Foundry calendar to Dec 31; official store link. Unofficial.",
       "h1": "Epic Seven on Steam — player guide",
       "hero": "Steam store entry, STOVE↔Steam account transfer, Foundry calendar through 12/31, Secret Rabbit♥Hole, banners, and troubleshooting. Independent guide on epicsevensteam.com.",
       "cta_store": "Official Steam store →",
@@ -102,7 +102,7 @@ export const CONTENT = {
         [ "/maintenance/", "Maintenance & version notes" ]
       ],
       "sources_h2": "Official sources",
-      "answer": "Epic Seven is free on Steam (app 5019180). Convert STOVE email/SNS → Steam login before playing if you need old progress; Foundry is a separate new server with rewards through 2026-12-31.",
+      "answer": "Three paths: [[Steam transfer|/steam-transfer/]] converts STOVE email/SNS → Steam Simple Login to keep progress; [[Foundry|/foundry/]] is the new-server calendar through Dec 31 (not a transfer); [[Download|/download/]] is the official store entry for app 5019180. Unofficial guide — verify on STOVE.",
       "img_header_alt": "Official Steam store header art for Epic Seven (app 5019180), cited from Steam CDN",
       "img_ss_alt": "Official Steam store screenshot of Epic Seven combat — Steam CDN",
       "img_transfer_alt": "Self-drawn overview diagram of STOVE to Steam account transfer steps",
@@ -111,8 +111,8 @@ export const CONTENT = {
       "img_world_alt": "Official Steam store world presentation screenshot — Steam CDN citation",
 },
     "ko": {
-      "title": "Epic Seven Steam — 플레이어 가이드",
-      "meta": "비공식 Epic Seven Steam 가이드: 스토어 링크, STOVE↔Steam 이전, 파운드리(~12/31), FAQ. Smilegate/STOVE와 무관.",
+      "title": "Epic Seven Steam: 이전·파운드리 서버 가이드 & FAQ",
+      "meta": "STOVE→Steam 진행 유지; 파운드리 캘린더(~12/31); 공식 스토어 링크. 비공식.",
       "h1": "Epic Seven Steam — 플레이어 가이드",
       "hero": "Steam 스토어 진입, STOVE↔Steam 계정 이전, 파운드리 일정(12/31까지), Secret Rabbit♥Hole, 배너·점검 안내. epicsevensteam.com 비공식 가이드.",
       "cta_store": "공식 Steam 스토어 →",
@@ -189,7 +189,7 @@ export const CONTENT = {
         [ "/maintenance/", "점검·버전 노트" ]
       ],
       "sources_h2": "공식 출처",
-      "answer": "Epic Seven은 Steam(app 5019180)에서 무료입니다. 기존 진행도가 필요하면 플레이 전에 STOVE 이메일/SNS→Steam 로그인을 전환하세요. 파운드리는 별도 신서버이며 보상은 2026-12-31까지입니다.",
+      "answer": "세 경로: [[계정 이전|/steam-transfer/]]은 STOVE 이메일/SNS→Steam Simple Login으로 진행을 유지하고, [[파운드리|/foundry/]]는 12/31까지 신서버 캘린더(이전이 아님), [[다운로드|/download/]]는 app 5019180 공식 스토어 입구입니다. 비공식 가이드 — STOVE에서 확인하세요.",
       "img_header_alt": "Epic Seven 공식 Steam 스토어 헤더(app 5019180) — Steam CDN 인용",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷(전투) — Steam CDN",
       "img_transfer_alt": "STOVE→Steam 계정 이전 단계 자작 다이어그램",
@@ -198,8 +198,8 @@ export const CONTENT = {
       "img_world_alt": "Epic Seven 공식 Steam 월드 스크린샷 — Steam CDN 인용",
 },
     "ja": {
-      "title": "Epic Seven Steam — プレイヤーガイド",
-      "meta": "非公式Epic Seven Steamガイド：ストア、STOVE↔Steam引き継ぎ、ファウンドリ（〜12/31）、FAQ。Smilegate/STOVE非公式。",
+      "title": "Epic Seven Steam: 引き継ぎ・ファウンドリサーバーガイド & FAQ",
+      "meta": "STOVE→Steamで進行維持; ファウンドリカレンダー（〜12/31）; 公式ストアリンク。非公式。",
       "h1": "Epic Seven Steam — プレイヤーガイド",
       "hero": "Steamストア入口、STOVE↔Steam引き継ぎ、ファウンドリ日程（12/31まで）、Secret Rabbit♥Hole、バナーとトラブルシュート。epicsevensteam.comの非公式ガイド。",
       "cta_store": "公式Steamストア →",
@@ -276,7 +276,7 @@ export const CONTENT = {
         [ "/maintenance/", "メンテ・バージョン" ]
       ],
       "sources_h2": "公式ソース",
-      "answer": "Epic SevenはSteam（app 5019180）で無料。旧進行が必要ならプレイ前にSTOVEのメール/SNS→Steamログインへ変換。ファウンドリは別の新鯖で、報酬は2026-12-31まで。",
+      "answer": "三つの道：[[引き継ぎ|/steam-transfer/]]はSTOVEメール/SNS→Steamシンプルログインで進行を残し、[[ファウンドリ|/foundry/]]は12/31までの新鯖カレンダー（引き継ぎではない）、[[ダウンロード|/download/]]はapp 5019180公式ストア入口。非公式ガイド — STOVEで確認。",
       "img_header_alt": "Epic Seven公式Steamストアヘッダー（app 5019180）— Steam CDN引用",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット（戦闘）— Steam CDN",
       "img_transfer_alt": "STOVE→Steam引き継ぎ手順の自作図",
@@ -285,8 +285,8 @@ export const CONTENT = {
       "img_world_alt": "Epic Seven公式Steamワールド画面 — Steam CDN引用",
 },
     "zh-tw": {
-      "title": "Epic Seven Steam — 玩家指南",
-      "meta": "非官方 Epic Seven Steam 指南：商店連結、STOVE↔Steam 轉移、Foundry（至 12/31）、FAQ。與 Smilegate/STOVE 無關。",
+      "title": "Epic Seven Steam：轉移、Foundry 伺服器指南與 FAQ",
+      "meta": "STOVE→Steam 保留進度；Foundry 日程至 12/31；官方商店連結。非官方。",
       "h1": "Epic Seven Steam — 玩家指南",
       "hero": "Steam 商店入口、STOVE↔Steam 帳號轉移、Foundry 日程（至 12/31）、Secret Rabbit♥Hole、卡池與疑難排解。epicsevensteam.com 非官方指南。",
       "cta_store": "官方 Steam 商店 →",
@@ -363,7 +363,7 @@ export const CONTENT = {
         [ "/maintenance/", "維護與版本" ]
       ],
       "sources_h2": "官方來源",
-      "answer": "Epic Seven 在 Steam（app 5019180）免費。若要舊進度，開玩前先將 STOVE Email／SNS 轉 Steam 登入。Foundry 是獨立新服，獎勵至 2026-12-31。",
+      "answer": "三條路：[[帳號轉移|/steam-transfer/]]把 STOVE Email／SNS 轉成 Steam Simple Login 保留進度；[[Foundry|/foundry/]]是至 12/31 的新服日程（不是轉移）；[[下載|/download/]]是 app 5019180 官方商店入口。非官方指南——請在 STOVE 核對。",
       "img_header_alt": "Epic Seven 官方 Steam 商店頭圖（app 5019180）— 引用 Steam CDN",
       "img_ss_alt": "Epic Seven 官方 Steam 戰鬥截圖 — Steam CDN",
       "img_transfer_alt": "STOVE 轉 Steam 帳號步驟自繪示意圖",
@@ -1111,16 +1111,16 @@ export const CONTENT = {
   },
   "/faq/": {
     "en": {
-      "title": "Epic Seven Steam FAQ & Troubleshooting | Independent Guide",
-      "meta": "Expanded FAQ: launch issues, transfer, Foundry, demo risks, anti-cheat. Independent guide with official links.",
+      "title": "Epic Seven Steam FAQ — Transfer, Foundry & Demo | E7 Steam Guide",
+      "meta": "Steam transfer, Foundry, and launch FAQ for Epic Seven on Steam: wrong bind, demo wipe, anti-cheat. Official links. Unofficial.",
       "h1": "FAQ & troubleshooting",
-      "answer": "This page expands the homepage FAQ. A wrong bind or a brand-new Heir starts on the transfer guide: withdraw the empty Steam link, then convert the original login. If STOVE says “already registered”, the Steam ID is tied to another login; withdraw that extra account first, and expect a possible 3-month cooldown. Foundry is a separate new server, not an account or server transfer. In-game delete after conversion can wipe legacy progress, so read the demo warning before you reinstall. Anti-cheat and launch failures are covered in Steam notes. This is an unofficial info site; STOVE and Steam stay authoritative.",
+      "answer": "Steam transfer keeps legacy progress via STOVE→Steam Simple Login — see [[transfer guide|/steam-transfer/]]. Foundry is a separate new server, not a transfer — see [[Foundry|/foundry/]]. Demo in-game delete after conversion can wipe original-server progress — read the [[demo warning|/demo-delete-warning/]]. Unofficial FAQ hub.",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
       "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
-          "Steam opens a brand-new Heir — where is my old account?",
-          "Steam likely created a new Steam-linked STOVE login. Withdraw that new account, then convert your original. See the [[transfer guide|/steam-transfer/]] (/steam-transfer/) · [[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
+          "What does this Steam transfer + Foundry FAQ cover — and why a new Heir?",
+          "Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — withdraw it, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry|/foundry/]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -1154,14 +1154,14 @@ export const CONTENT = {
       "src_h2": "Official links"
     },
     "ko": {
-      "title": "FAQ·문제 해결 — Epic Seven Steam",
-      "meta": "런칭 이슈·이전·파운드리·데모 위험·안티치트 FAQ. 공식 링크 포함 비공식 가이드.",
+      "title": "Epic Seven Steam FAQ — 이전·파운드리·데모",
+      "meta": "Steam transfer·파운드리·런칭 FAQ: 잘못된 연동, 데모 삭제, 안티치트. 공식 링크. 비공식.",
       "h1": "FAQ·문제 해결",
-      "answer": "이 페이지는 홈 FAQ를 보강합니다. 잘못된 연동이나 새 후계자는 이전 가이드에서 시작하세요. 빈 Steam 연동을 탈퇴한 뒤 원래 로그인을 전환합니다. STOVE가 “already registered”를 표시하면 해당 Steam ID가 다른 로그인에 묶여 있다는 뜻이니, 그 여분 계정을 먼저 탈퇴하고 3개월 쿨다운 가능성을 확인하세요. Foundry는 계정 이전이나 서버 이전이 아니라 별도 신서버입니다. 전환 후 게임 내 삭제는 기존 진행을 지울 수 있으니 재설치 전에 데모 삭제 경고를 읽으세요. 안티치트와 실행 실패는 Steam 안내를 보세요. 이곳은 비공식 정보 사이트이며, 기준은 STOVE와 Steam입니다.",
+      "answer": "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다 — [[이전 가이드|/steam-transfer/]]. Foundry는 이전이 아닌 별도 신서버입니다 — [[파운드리|/foundry/]]. 전환 후 데모 인게임 삭제는 원서버 진행을 지울 수 있으니 [[데모 삭제 경고|/demo-delete-warning/]]를 읽으세요. 비공식 FAQ 허브.",
       "img_alt": "비공식 FAQ 흐름도: 잘못된 연동 후 탈퇴하고 이어서 전환",
       "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
       "faqs": [
-        [ "Steam에 새 후계자가 뜹니다 — 옛 계정은?", "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. [[이전 가이드|/steam-transfer/]](/steam-transfer/) · [[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]." ],
+        [ "이 Steam transfer + Foundry FAQ는 무엇을 다루며, 새 후계자는 왜 뜨나요?", "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다. 새 후계자는 대개 Steam이 만든 빈 연동 STOVE 계정이니 탈퇴 후 원 로그인을 전환하세요([[이전 가이드|/steam-transfer/]]). Foundry는 계정 이전이 아닌 별도 신서버([[파운드리|/foundry/]]). 전환 후 데모 삭제는 레거시 진행을 지울 수 있습니다([[데모 삭제 경고|/demo-delete-warning/]]). 비공식 — STOVE 확인." ],
         [ "Steam 파운드리를 모바일에서도?", "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음." ],
         [ "파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC (STOVE 파운드리 view/14571828). 월드 아레나: 2026-12-10. [[파운드리 길드전|/foundry/#guild-war]]을 보세요." ],
         [ "실행 안 됨 / 안티치트 오류", "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/)." ],
@@ -1173,14 +1173,14 @@ export const CONTENT = {
       "src_h2": "공식 링크"
     },
     "ja": {
-      "title": "FAQ・トラブルシュート — Epic Seven Steam",
-      "meta": "起動不具合・引き継ぎ・ファウンドリ・デモリスク・アンチチート。公式リンク付き非公式ガイド。",
+      "title": "Epic Seven Steam FAQ — 引き継ぎ・ファウンドリ・デモ",
+      "meta": "Steam transfer・ファウンドリ・ローンチFAQ：誤連携、デモ削除、アンチチート。公式リンク。非公式。",
       "h1": "FAQ・トラブルシュート",
-      "answer": "このページはホームFAQを補います。誤連携や新しい継承者は引き継ぎガイドから確認してください。空のSteam連携を退会してから、元のログインを変換します。STOVEが「already registered」と表示する場合、そのSteam IDは別ログインに紐づいています。余分なアカウントを先に退会し、3か月クールダウンの可能性を確認してください。ファウンドリはアカウント引き継ぎやサーバー移転ではなく、別の新サーバーです。変換後のゲーム内削除は旧進行を消すことがあるので、再導入の前にデモ削除の注意を読んでください。アンチチートと起動失敗はSteamメモを参照します。当サイトは非公式の情報サイトで、正本はSTOVEとSteamです。",
+      "answer": "Steam transferはSTOVE→Steamシンプルログインで進行を残します — [[引き継ぎガイド|/steam-transfer/]]。ファウンドリは引き継ぎではない別の新鯖です — [[ファウンドリ|/foundry/]]。変換後のデモ内削除は本鯖進行を消す恐れがあるので[[デモ削除の注意|/demo-delete-warning/]]を読んでください。非公式FAQハブ。",
       "img_alt": "非公式FAQフロー図：誤連携のあと退会し、続けて変換",
       "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。",
       "faqs": [
-        [ "Steamが新人継者になる — 旧アカは？", "Steam連携STOVE新規の可能性。退会後に本アカ変換。[[引き継ぎガイド|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
+        [ "このSteam transfer + Foundry FAQは何を扱い、新人継者はなぜ出る？", "Steam transferはSTOVE→Steamシンプルログインで進行を残します。新人継者は大抵Steamが作った空の連携STOVEなので、退会してから本ログインを変換([[引き継ぎガイド|/steam-transfer/]])。ファウンドリはアカウント引き継ぎではない別の新鯖([[ファウンドリ|/foundry/]])。変換後のデモ削除はレガシー進行を消す恐れ([[デモ削除の注意|/demo-delete-warning/]])。非公式 — STOVEで確認。" ],
         [ "Steamファウンドリをモバイルでも？", "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。" ],
         [ "ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC（STOVEファウンドリ view/14571828）。WA：2026-12-10。[[ファウンドリのギルド戦|/foundry/#guild-war]]を参照。" ],
         [ "起動しない／アンチチート", "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。" ],
@@ -1192,14 +1192,14 @@ export const CONTENT = {
       "src_h2": "公式リンク"
     },
     "zh-tw": {
-      "title": "FAQ 與疑難排解 — Epic Seven Steam",
-      "meta": "啟動問題、轉移、Foundry、試玩風險、反作弊 FAQ。附官方連結之非官方指南。",
+      "title": "Epic Seven Steam FAQ — 轉移、Foundry、試玩",
+      "meta": "Steam transfer、Foundry 與上架 FAQ：錯綁、試玩刪號、反作弊。官方連結。非官方。",
       "h1": "FAQ 與疑難排解",
-      "answer": "本頁補首頁 FAQ。錯綁或全新繼承人請先看轉移指南：先註銷空白 Steam 連結，再轉換原本登入。若 STOVE 顯示「already registered」，表示該 Steam ID 已綁另一個登入；先註銷多出來的帳號，並預期可能有三個月冷靜期。Foundry 是另一個新伺服器，不是帳號轉移或轉服。轉換後遊戲內刪號可能清掉舊進度，重裝前請先讀試玩刪號警告。反作弊與啟動問題見 Steam 說明。本站是非官方資訊站，以 STOVE 與 Steam 為準。",
+      "answer": "Steam transfer 以 STOVE→Steam Simple Login 保留進度——見[[轉移指南|/steam-transfer/]]。Foundry 是另一個新服，不是轉移——見[[Foundry|/foundry/]]。轉換後試玩內刪號可能抹掉原服進度——請讀[[試玩刪號警告|/demo-delete-warning/]]。非官方 FAQ 樞紐。",
       "img_alt": "非官方 FAQ 流程圖：錯綁後先註銷，再轉換",
       "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。",
       "faqs": [
-        [ "Steam 開到全新繼承人——舊帳呢？", "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見[[轉移指南|/steam-transfer/]]（/steam-transfer/）·[[STOVE FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。" ],
+        [ "這份 Steam transfer + Foundry FAQ 涵蓋什麼——為何出現全新繼承人？", "Steam transfer 以 STOVE→Steam Simple Login 保留進度。全新繼承人多半是 Steam 建的空白連結 STOVE——先註銷再轉原本登入（[[轉移指南|/steam-transfer/]]）。Foundry 是另一個新服，不是帳號轉移（[[Foundry|/foundry/]]）。轉換後試玩刪號可能抹掉原服進度（[[試玩刪號警告|/demo-delete-warning/]]）。非官方——請在 STOVE 核對。" ],
         [ "Steam 的 Foundry 能在手機繼續嗎？", "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。" ],
         [ "Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC（STOVE Foundry view/14571828）。WA：2026-12-10。見[[Foundry 公會戰|/foundry/#guild-war]]。" ],
         [ "無法啟動／反作弊錯誤", "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。" ],
@@ -3011,11 +3011,11 @@ export const CONTENT = {
   },
   "/quests/": {
     "en": {
-      "title": "Epic Seven quests — main, daily, weekly",
-      "meta": "Independent overview of Epic Seven main story, dailies, weeklies, and event quests around the Steam / Foundry launch. Cite STOVE for dated events.",
+      "title": "Epic Seven Foundry Quests vs Legacy — Daily/Weekly Guide | E7 Steam Guide",
+      "meta": "Foundry quests ≠ legacy progress after Steam transfer. Daily/weekly rhythm + Foundry calendar. Cite STOVE. Unofficial.",
       "h1": "Quests — main / daily / weekly",
       "lead": "Steam-era quest rhythm for Epic Seven: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
-      "answer": "Clear main Episode stages for unlocks and skystones, run friendship / Hunt / Arena dailies every reset, and finish weeklies before weekly reset. Launch-window events (e.g. Secret Rabbit♥Hole) live in lobby hubs while posted. Legacy transfer progress and Foundry quests are separate tracks — see Foundry calendar for dated unlocks.",
+      "answer": "Foundry quests are a fresh track — they do not inherit legacy Episode/daily/weekly checkmarks after login transfer. Clear timed Foundry missions first, then dailies/weeklies on that character. Dated unlocks including Guild War live on the [[Foundry calendar|/foundry/]] and [[Guild War on Foundry|/foundry/#guild-war]]. Unofficial guide — cite STOVE.",
       "img_alt": "Self-drawn quest rhythm diagram: main, daily, weekly, events",
       "img_ss_alt": "Official Steam screenshot of Epic Seven world presentation — Steam CDN",
       "main_h2": "Main story",
@@ -3090,11 +3090,11 @@ export const CONTENT = {
       "img_alt3": "Self-drawn quest priority strip: timed currency, dailies, hunt, weekly",
 },
     "ko": {
-      "title": "Epic Seven 퀘스트 — 메인·일일·주간",
-      "meta": "Steam/파운드리 기준 메인·일일·주간·이벤트 퀘스트 비공식 개요. 기간 이벤트는 STOVE 인용.",
+      "title": "Epic Seven 파운드리 퀘스트 vs 레거시 — 일일/주간 가이드",
+      "meta": "파운드리 퀘스트 ≠ Steam 이전 후 레거시 진행. 일일/주간 리듬 + 파운드리 캘린더. STOVE 인용. 비공식.",
       "h1": "퀘스트 — 메인 / 일일 / 주간",
       "lead": "Epic Seven Steam 시대 퀘스트 리듬: 스토리 해금, 일일/주간 루프, 런칭 창 이벤트 허브. 타이머는 인게임 시계와 STOVE 공지를 따르며 이 비공식 페이지가 아닙니다. 파운드리 캐릭 퀘스트는 레거시 후계자와 별도로 집계됩니다.",
-      "answer": "해금·스카이스톤을 위해 메인 에피소드 스테이지를 밀고, 매 리셋마다 친밀도/사냥/아레나 일일을 돌리며, 주간 리셋 전에 주간을 끝으세요. 런칭 창 이벤트(예: 시크릿 래빗♥홀)는 게시 기간 동안 로비 허브에 있습니다. 레거시 이전 진행도와 파운드리 퀘스트는 별도 트랙이니 날짜형 해금은 파운드리 캘린더를 보세요.",
+      "answer": "파운드리 퀘스트는 새 트랙입니다 — 로그인 이전 후 레거시 에피소드/일일/주간 체크를 상속하지 않습니다. 시한 파운드리 미션을 먼저 처리한 뒤 그 캐릭의 일일/주간을 돌리세요. 길드전 포함 날짜형 해금은 [[파운드리 캘린더|/foundry/]]와 [[파운드리 길드전|/foundry/#guild-war]]에 있습니다. 비공식 — STOVE 인용.",
       "img_alt": "메인/일일/주간/이벤트 퀘스트 리듬 자작 도해",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷 — Steam CDN",
       "main_h2": "메인 스토리",
@@ -3146,11 +3146,11 @@ export const CONTENT = {
       "img_alt3": "기간 통화·일일·사냥·주간 우선순위 자작 스트립",
 },
     "ja": {
-      "title": "Epic Sevenクエスト — メイン/デイリー/ウィークリー",
-      "meta": "Steam/ファウンドリ向けメイン・毎日・毎週・イベントクエストの非公式概要。期間はSTOVE引用。",
+      "title": "Epic Sevenファウンドリクエスト vs レガシー — デイリー/ウィークリーガイド",
+      "meta": "ファウンドリクエスト ≠ Steam引き継ぎ後のレガシー進行。日次/週次リズム + ファウンドリカレンダー。STOVE引用。非公式。",
       "h1": "クエスト — メイン / デイリー / ウィークリー",
       "lead": "Epic Seven Steam時代のクエスト节奏：ストーリー解除、日次/週次ループ、ローンチ枠イベントハブ。タイマーはゲーム内時計とSTOVE告知に従い、この非公式頁ではありません。ファウンドリキャラのクエストはレガシー後継者と別集計です。",
-      "answer": "解除とスカイストーンのためメインエピソードを進め、毎リセットで親密度/ハント/アリーナ日次を回し、週次リセット前に週次を終わらせる。ローンチ枠イベント（例：シークレットラビット♥ホール）は掲載中ロビーハブにあります。レガシー引き継ぎ進行とファウンドリクエストは別トラック — 日付付き解除はファウンドリカレンダーへ。",
+      "answer": "ファウンドリクエストは新規トラックです — ログイン引き継ぎ後もレガシーのエピソード/日次/週次打点を継承しません。期限付きファウンドリミッションを先に処理し、そのキャラの日次/週次を回してください。ギルド戦を含む日付付き解除は[[ファウンドリカレンダー|/foundry/]]と[[ファウンドリのギルド戦|/foundry/#guild-war]]にあります。非公式 — STOVE引用。",
       "img_alt": "メイン/デイリー/ウィークリー/イベントの自作図",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット — Steam CDN",
       "main_h2": "メインストーリー",
@@ -3192,11 +3192,11 @@ export const CONTENT = {
       "img_alt3": "期限通貨・デイリー・ハント・週次の自作優先帯",
 },
     "zh-tw": {
-      "title": "Epic Seven 任務 — 主線／每日／每週",
-      "meta": "Steam／Foundry 主線、每日、每週與活動任務非官方概要。有期限活動引述 STOVE。",
+      "title": "Epic Seven Foundry 任務 vs 原服 — 每日／每週指南",
+      "meta": "Foundry 任務 ≠ Steam 轉移後的原服進度。每日／每週節奏 + Foundry 日程。引述 STOVE。非官方。",
       "h1": "任務 — 主線／每日／每週",
       "lead": "Epic Seven Steam 時代任務節奏：劇情解鎖、每日／每週循環，以及上架窗口活動入口。計時以遊戲內時鐘與 STOVE 公告為準，不是本非官方頁。Foundry 角色任務與原服繼承人分開計算。",
-      "answer": "為解鎖與天空石推主線 Episode，每個重置跑好感／狩獵／競技場每日，並在週重置前打完週任。上架窗口活動（如 Secret Rabbit♥Hole）公告期間在大廳入口。原服轉移進度與 Foundry 任務分軌——有日期的解鎖見 Foundry 日程。",
+      "answer": "Foundry 任務是全新軌道——登入轉移後不會繼承原服 Episode／每日／每週勾選。先清有時限的 Foundry 任務，再跑該角色的每日／每週。含公會戰的日期解鎖見[[Foundry 日程|/foundry/]]與[[Foundry 公會戰|/foundry/#guild-war]]。非官方——引述 STOVE。",
       "img_alt": "主線／每日／每週／活動節奏自繪圖",
       "img_ss_alt": "Epic Seven 官方 Steam 截圖 — Steam CDN",
       "main_h2": "主線劇情",
