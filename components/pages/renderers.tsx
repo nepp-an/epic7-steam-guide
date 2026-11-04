@@ -377,24 +377,39 @@ function RichInline({ locale, marked }: { locale: Locale; marked: string }) {
 }
 
 const GW_LINK: Record<Locale, string> = {
-  en: 'Guild War on Foundry',
-  ko: '파운드리 길드전',
-  ja: 'ファウンドリのギルド戦',
-  'zh-tw': 'Foundry 公會戰',
+  "en": "Guild War on Foundry",
+  "ko": "파운드리 길드전",
+  "ja": "ファウンドリのギルド戦",
+  "zh-tw": "Foundry 公會戰",
+  "th": "Guild War บน Foundry",
+  "es": "Guild War en Foundry",
+  "pt": "Guild War no Foundry",
+  "de": "Guild War auf Foundry",
+  "fr": "Guild War sur Foundry"
 };
 
 const TIER_LINK_LABEL: Record<Locale, string> = {
-  en: 'Tier list — Steam/transfer lens',
-  ko: '티어표 — Steam/이전 관점',
-  ja: 'ティア表 — Steam/引き継ぎ視点',
-  'zh-tw': '節奏榜 — Steam／轉移視角',
+  "en": "Tier list — Steam/transfer lens",
+  "ko": "티어표 — Steam/이전 관점",
+  "ja": "ティア表 — Steam/引き継ぎ視点",
+  "zh-tw": "節奏榜 — Steam／轉移視角",
+  "th": "จัดอันดับ — มุมมอง Steam/โอนบัญชี",
+  "es": "Tier list — enfoque Steam/transferencia",
+  "pt": "Lista de tiers — foco Steam/transferência",
+  "de": "Tier-Liste — Steam-/Transfer-Perspektive",
+  "fr": "Liste de tiers — approche Steam/transfert"
 };
 
 const TIER_AVATAR_ALT: Record<Locale, string> = {
-  en: ' — self-drawn element-colour avatar (not official art)',
-  ko: ' — 자작 속성색 아바타(공식 아트 아님)',
-  ja: ' — 自作属性色アバター（公式アートではありません）',
-  'zh-tw': ' — 自繪屬性色頭像（非官方立繪）',
+  "en": " — self-drawn element-colour avatar (not official art)",
+  "ko": " — 자작 속성색 아바타(공식 아트 아님)",
+  "ja": " — 自作属性色アバター（公式アートではありません）",
+  "zh-tw": " — 自繪屬性色頭像（非官方立繪）",
+  "th": " — อวตารสีตามธาตุที่วาดเอง (ไม่ใช่ภาพทางการ)",
+  "es": " — avatar propio con colores de elemento (no es arte oficial)",
+  "pt": " — avatar de cor de elemento desenhado por nós (não é arte oficial)",
+  "de": " — selbst gezeichneter Elementarfarben-Avatar (keine offizielle Art)",
+  "fr": " — avatar dessiné par nos soins aux couleurs de l’élément (pas un visuel officiel)"
 };
 
 export function HomeView({ locale }: { locale: Locale }) {
@@ -631,10 +646,15 @@ export function HomeView({ locale }: { locale: Locale }) {
 }
 
 const DOWNLOAD_FOUNDRY_LABEL: Record<Locale, string> = {
-  en: 'Foundry calendar',
-  ko: '파운드리 캘린더',
-  ja: 'ファウンドリ日程',
-  'zh-tw': 'Foundry 日程',
+  "en": "Foundry calendar",
+  "ko": "파운드리 캘린더",
+  "ja": "ファウンドリ日程",
+  "zh-tw": "Foundry 日程",
+  "th": "ปฏิทิน Foundry",
+  "es": "Calendario de Foundry",
+  "pt": "Calendário do Foundry",
+  "de": "Foundry-Kalender",
+  "fr": "Calendrier Foundry"
 };
 
 export function DownloadView({ locale }: { locale: Locale }) {

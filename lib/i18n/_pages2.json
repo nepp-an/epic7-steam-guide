@@ -1,1 +1,843 @@
-{"/steam-transfer/": {"en": {"title": "STOVE ↔ Steam account transfer guide", "meta": "Step-by-step independent guide converting Epic Seven STOVE email/SNS for Steam, including demo-account conflict recovery.", "h1": "STOVE ↔ Steam account transfer", "goal": "Goal: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.", "diagram": ["Mobile / STOVE PC account", "Convert login on STOVE", "Steam client login"], "diagram_aria": "Recommended transfer path", "rec_h2": "Recommended path (keep progress)", "steps": [["Do not rush into Steam first", "if you care about the old account. Launching without conversion often creates a new Steam-linked STOVE account."], ["Open official STOVE account tools", "on PC and convert email or SNS → Simple Login (Steam). Transfers are described as available anytime."], ["Complete Steam authorization", "when prompted, then confirm the linked login on STOVE."], ["Install / play via Steam", "from the official store. Per FAQ, STOVE PC and mobile still work afterward."], ["What carries over:", "progress, heroes, items, purchases, unclaimed rewards, event items, Epic Pass — as stated officially. Re-check if policies change."]], "conflict_h2": "If Steam already created a new account", "conflict_intro": "Official recovery outline (paraphrased): withdraw the new Steam-linked STOVE account first, then convert your original.", "conflict_steps": ["On STOVE login, choose Steam account type.", "Authorize the Steam account used for Epic Seven.", "Finish STOVE registration / verification if asked.", "Withdraw that Steam-linked STOVE account per STOVE UI.", "Then convert your original email/SNS account to Steam login."], "conflict_note": "Withdrawal may involve a waiting period — confirm in STOVE UI / CS. Do not invent third-party unlock tools.", "cross_h2": "Cross-play notes", "cross": ["Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).", "Steam can access new and existing worlds; Foundry has separate matchmaking for listed PvP.", "Related: demo warning, Steam notes, FAQ hub."], "src_h2": "Official sources"}, "ko": {"title": "STOVE ↔ Steam 계정 이전 가이드", "meta": "Epic Seven STOVE 이메일/SNS를 Steam용으로 전환하는 비공식 단계 가이드. 데모 계정 충돌 복구 포함.", "h1": "STOVE ↔ Steam 계정 이전", "goal": "목표: Steam 새 세션에 의존하기 전에 STOVE에서 Simple Login(Steam)으로 전환해 기존 진행도를 유지. 공개 FAQ 요약 — 실제 UI를 따르세요.", "diagram": ["모바일 / STOVE PC 계정", "STOVE에서 로그인 전환", "Steam 클라이언트 로그인"], "diagram_aria": "권장 이전 경로", "rec_h2": "권장 경로(진행도 유지)", "steps": [["Steam을 먼저 급히 켜지 마세요", "기존 계정이 중요하면. 전환 없이 실행하면 Steam 연동 STOVE 계정이 자주 생깁니다."], ["공식 STOVE 계정 도구", "PC에서 이메일/SNS → Simple Login(Steam) 전환. 별도 신청 기간 없이 가능하다고 안내됨."], ["Steam 인증 완료", "후 STOVE에서 연동 로그인 확인."], ["Steam으로 설치/플레이", "공식 스토어. FAQ상 이후에도 STOVE PC/모바일 가능."], ["이전되는 것:", "진행도·영웅·아이템·결제·미수령 보상·이벤트·에픽패스 — 공식 문구. 정책 변경 시 재확인."]], "conflict_h2": "Steam이 이미 새 계정을 만든 경우", "conflict_intro": "공식 복구 요지(요약): 새 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환.", "conflict_steps": ["STOVE 로그인에서 Steam 유형 선택.", "Epic Seven에 쓴 Steam 계정 인증.", "필요 시 STOVE 가입/인증 완료.", "해당 Steam 연동 STOVE 계정 탈퇴.", "이후 원 이메일/SNS를 Steam 로그인으로 전환."], "conflict_note": "탈퇴에 대기 기간이 있을 수 있음 — STOVE UI/CS 확인. 제3자 툴 금지.", "cross_h2": "크로스플레이 메모", "cross": ["Steam·STOVE PC·모바일 동일 경험·크로스플레이(FAQ).", "Steam은 신/기존 월드 모두 가능; 파운드리 일부 PvP는 서버 내 매칭.", "관련: 데모 주의, Steam 안내, FAQ."], "src_h2": "공식 출처"}, "ja": {"title": "STOVE ↔ Steam引き継ぎガイド", "meta": "Epic SevenのSTOVEメール/SNSをSteam向けに変換する非公式手順。デモ垢衝突の復旧含む。", "h1": "STOVE ↔ Steamアカウント引き継ぎ", "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開FAQの要約 — 画面に従うこと。", "diagram": ["モバイル / STOVE PCアカウント", "STOVEでログイン変換", "Steamクライアントログイン"], "diagram_aria": "推奨引き継ぎパス", "rec_h2": "推奨ルート（進行維持）", "steps": [["先にSteamを急がない", "旧アカ重視なら。未変換起動はSteam連携STOVE新規を作りがち。"], ["公式STOVEアカウント操作", "PCでメール/SNS→Simple Login（Steam）。随時可能と案内。"], ["Steam認可を完了", "し、STOVE側の連携を確認。"], ["Steamで導入/プレイ", "公式ストア。FAQ上、以後もSTOVE PC/モバイル可。"], ["引き継がれるもの:", "進行・英雄・アイテム・課金・未受取・イベント・エピックパス — 公式記述。変更時は再確認。"]], "conflict_h2": "Steamが新規を作済みの場合", "conflict_intro": "公式復旧の骨子（要約）：新規Steam連携STOVEを先に退会し、本アカを変換。", "conflict_steps": ["STOVEログインでSteam種別を選ぶ。", "Epic Sevenに使ったSteamを認可。", "必要ならSTOVE登録/認証。", "そのSteam連携STOVEを退会。", "その後、元メール/SNSをSteamログインへ。"], "conflict_note": "退会に待ち時間がある場合あり — UI/CSで確認。第三者ツール禁止。", "cross_h2": "クロスプレイメモ", "cross": ["Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。", "関連：デモ注意、Steamメモ、FAQ。"], "src_h2": "公式ソース"}, "zh-tw": {"title": "STOVE ↔ Steam 帳號轉移指南", "meta": "將 Epic Seven STOVE Email/SNS 轉為 Steam 登入的非官方逐步指南，含試玩帳衝突處理。", "h1": "STOVE ↔ Steam 帳號轉移", "goal": "目標：在依賴全新 Steam 工作階段前，於 STOVE 轉為 Simple Login（Steam）以保留進度。摘要公開 FAQ——請跟實際畫面。", "diagram": ["手機 / STOVE PC 帳號", "在 STOVE 轉換登入", "Steam 客戶端登入"], "diagram_aria": "建議轉移路徑", "rec_h2": "建議路徑（保留進度）", "steps": [["先別急著開 Steam", "若在意舊帳。未轉換就啟動常會建 Steam 連結 STOVE 新帳。"], ["用官方 STOVE 帳號工具", "在 PC 將 Email/SNS → Simple Login（Steam）。公告指隨時可轉。"], ["完成 Steam 授權", "並在 STOVE 確認連結登入。"], ["以 Steam 安裝／遊玩", "官方商店。FAQ：之後仍可用 STOVE PC／手機。"], ["會帶過的內容：", "進度、英雄、道具、儲值、未領獎勵、活動、Epic Pass——以官方為準，政策變動請再查。"]], "conflict_h2": "若 Steam 已建立新帳", "conflict_intro": "官方復原大綱（摘要）：先註銷新建的 Steam 連結 STOVE 帳，再轉換本帳。", "conflict_steps": ["STOVE 登入選 Steam 類型。", "授權用於 Epic Seven 的 Steam 帳。", "必要時完成 STOVE 註冊／驗證。", "依 STOVE 介面註銷該 Steam 連結帳。", "再將原本 Email/SNS 轉為 Steam 登入。"], "conflict_note": "註銷可能有等待期——以 STOVE UI／客服為準。禁止第三方工具。", "cross_h2": "跨平台備註", "cross": ["Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。", "相關：試玩警告、Steam 說明、FAQ。"], "src_h2": "官方來源"}}, "/faq/": {"en": {"title": "FAQ & troubleshooting — Epic Seven Steam", "meta": "Expanded FAQ: launch issues, transfer, Foundry, demo risks, anti-cheat. Independent guide with official links.", "h1": "FAQ & troubleshooting", "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.", "faqs": [["Steam opens a brand-new Heir — where is my old account?", "Steam likely created a new Steam-linked STOVE login. Withdraw that new account, then convert your original. See transfer guide · STOVE FAQ."], ["Can I play Foundry on Steam and continue on mobile?", "Cross-play is supported with the same account after proper linking. Foundry characters live on Foundry — transferring login alone does not move a legacy character onto Foundry."], ["Is Guild War live on Foundry yet?", "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE. World Arena: 2026-12-10. See Foundry page."], ["Game will not start / anti-cheat error", "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS."], ["Are Steam prices different from mobile?", "STOVE FAQ states no price differences between platforms. Still compare live shop UI in your region."], ["Demo ended — do I need to reinstall?", "Install/update the full Steam release from the store page. Account state depends on whether you converted login — read demo warning."]], "check_h2": "Short troubleshooting checklist", "checks": ["Confirm you are on official Steam app 5019180.", "Confirm which STOVE login Steam is using.", "Check STOVE maintenance / Foundry banners.", "Never use in-game account deletion after Steam login transfer.", "Still stuck → Epic Seven CS via STOVE (not Discord DMs selling fixes)."], "src_h2": "Official links"}, "ko": {"title": "FAQ·문제 해결 — Epic Seven Steam", "meta": "런칭 이슈·이전·파운드리·데모 위험·안티치트 FAQ. 공식 링크 포함 비공식 가이드.", "h1": "FAQ·문제 해결", "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.", "faqs": [["Steam에 새 후계자가 뜹니다 — 옛 계정은?", "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. 이전 가이드·STOVE FAQ."], ["Steam 파운드리를 모바일에서도?", "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음."], ["파운드리 길드전은 열렸나?", "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC. 월드 아레나: 2026-12-10. 파운드리 페이지."], ["실행 안 됨 / 안티치트 오류", "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만."], ["Steam 가격이 모바일과 다른가?", "FAQ상 플랫폼 간 가격 차 없음. 그래도 지역 상점 UI를 비교."], ["데모 종료 — 재설치?", "스토어에서 정식 빌드 설치/업데이트. 계정 상태는 전환 여부에 따라 — 데모 주의."]], "check_h2": "짧은 점검 목록", "checks": ["공식 Steam app 5019180인지 확인.", "Steam이 쓰는 STOVE 로그인 확인.", "STOVE 점검/파운드리 배너 확인.", "Steam 로그인 전환 후 인게임 삭제 금지.", "그래도 안 되면 STOVE 공식 CS."], "src_h2": "공식 링크"}, "ja": {"title": "FAQ・トラブルシュート — Epic Seven Steam", "meta": "起動不具合・引き継ぎ・ファウンドリ・デモリスク・アンチチート。公式リンク付き非公式ガイド。", "h1": "FAQ・トラブルシュート", "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。", "faqs": [["Steamが新人継者になる — 旧アカは？", "Steam連携STOVE新規の可能性。退会後に本アカ変換。引き継ぎガイド・FAQ。"], ["Steamファウンドリをモバイルでも？", "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。"], ["ギルド戦は開始済み？", "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC。WA：2026-12-10。ファウンドリ頁。"], ["起動しない／アンチチート", "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。"], ["Steam価格はモバイルと違う？", "FAQ上プラットフォーム差なし。それでも地域ショップUIを比較。"], ["デモ終了 — 再導入？", "ストアから正式版を導入/更新。アカ状態は変換有無次第 — デモ注意。"]], "check_h2": "短いチェックリスト", "checks": ["公式Steam app 5019180か確認。", "Steamが使うSTOVEログインを確認。", "STOVEメンテ／ファウンドリバナー。", "Steamログイン変換後のゲーム内削除禁止。", "ダメならSTOVE公式CS。"], "src_h2": "公式リンク"}, "zh-tw": {"title": "FAQ 與疑難排解 — Epic Seven Steam", "meta": "啟動問題、轉移、Foundry、試玩風險、反作弊 FAQ。附官方連結之非官方指南。", "h1": "FAQ 與疑難排解", "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。", "faqs": [["Steam 開到全新繼承人——舊帳呢？", "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見轉移指南·STOVE FAQ。"], ["Steam 的 Foundry 能在手機繼續嗎？", "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。"], ["Foundry 公會戰開了嗎？", "Draft 隨開服。公會戰：2026-11-21 03:00 UTC。WA：2026-12-10。見 Foundry 頁。"], ["無法啟動／反作弊錯誤", "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。"], ["Steam 價格與手機不同？", "FAQ 稱平台無差價。仍請比對你區商店 UI。"], ["試玩結束——要重裝？", "從商店安裝／更新正式版。帳號狀態視是否已轉換——見試玩警告。"]], "check_h2": "短檢查清單", "checks": ["確認官方 Steam app 5019180。", "確認 Steam 使用的 STOVE 登入。", "查看 STOVE 維護／Foundry 橫幅。", "Steam 登入轉換後禁止遊戲內刪號。", "仍卡住 → STOVE 官方客服。"], "src_h2": "官方連結"}}}
+{
+  "/steam-transfer/": {
+    "en": {
+      "title": "STOVE ↔ Steam account transfer guide",
+      "meta": "Step-by-step independent guide converting Epic Seven STOVE email/SNS for Steam, including demo-account conflict recovery.",
+      "h1": "STOVE ↔ Steam account transfer",
+      "goal": "Goal: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
+      "diagram": [
+        "Mobile / STOVE PC account",
+        "Convert login on STOVE",
+        "Steam client login"
+      ],
+      "diagram_aria": "Recommended transfer path",
+      "rec_h2": "Recommended path (keep progress)",
+      "steps": [
+        [
+          "Do not rush into Steam first",
+          "if you care about the old account. Launching without conversion often creates a new Steam-linked STOVE account."
+        ],
+        [
+          "Open official STOVE account tools",
+          "on PC and convert email or SNS → Simple Login (Steam). Transfers are described as available anytime."
+        ],
+        [
+          "Complete Steam authorization",
+          "when prompted, then confirm the linked login on STOVE."
+        ],
+        [
+          "Install / play via Steam",
+          "from the official store. Per FAQ, STOVE PC and mobile still work afterward."
+        ],
+        [
+          "What carries over:",
+          "progress, heroes, items, purchases, unclaimed rewards, event items, Epic Pass — as stated officially. Re-check if policies change."
+        ]
+      ],
+      "conflict_h2": "If Steam already created a new account",
+      "conflict_intro": "Official recovery outline (paraphrased): withdraw the new Steam-linked STOVE account first, then convert your original.",
+      "conflict_steps": [
+        "On STOVE login, choose Steam account type.",
+        "Authorize the Steam account used for Epic Seven.",
+        "Finish STOVE registration / verification if asked.",
+        "Withdraw that Steam-linked STOVE account per STOVE UI.",
+        "Then convert your original email/SNS account to Steam login."
+      ],
+      "conflict_note": "Withdrawal may involve a waiting period — confirm in STOVE UI / CS. Do not invent third-party unlock tools.",
+      "cross_h2": "Cross-play notes",
+      "cross": [
+        "Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).",
+        "Steam can access new and existing worlds; Foundry has separate matchmaking for listed PvP.",
+        "Related: demo warning, Steam notes, FAQ hub."
+      ],
+      "src_h2": "Official sources"
+    },
+    "ko": {
+      "title": "STOVE ↔ Steam 계정 이전 가이드",
+      "meta": "Epic Seven STOVE 이메일/SNS를 Steam용으로 전환하는 비공식 단계 가이드. 데모 계정 충돌 복구 포함.",
+      "h1": "STOVE ↔ Steam 계정 이전",
+      "goal": "목표: Steam 새 세션에 의존하기 전에 STOVE에서 Simple Login(Steam)으로 전환해 기존 진행도를 유지. 공개 FAQ 요약 — 실제 UI를 따르세요.",
+      "diagram": [
+        "모바일 / STOVE PC 계정",
+        "STOVE에서 로그인 전환",
+        "Steam 클라이언트 로그인"
+      ],
+      "diagram_aria": "권장 이전 경로",
+      "rec_h2": "권장 경로(진행도 유지)",
+      "steps": [
+        [
+          "Steam을 먼저 급히 켜지 마세요",
+          "기존 계정이 중요하면. 전환 없이 실행하면 Steam 연동 STOVE 계정이 자주 생깁니다."
+        ],
+        [
+          "공식 STOVE 계정 도구",
+          "PC에서 이메일/SNS → Simple Login(Steam) 전환. 별도 신청 기간 없이 가능하다고 안내됨."
+        ],
+        [
+          "Steam 인증 완료",
+          "후 STOVE에서 연동 로그인 확인."
+        ],
+        [
+          "Steam으로 설치/플레이",
+          "공식 스토어. FAQ상 이후에도 STOVE PC/모바일 가능."
+        ],
+        [
+          "이전되는 것:",
+          "진행도·영웅·아이템·결제·미수령 보상·이벤트·에픽패스 — 공식 문구. 정책 변경 시 재확인."
+        ]
+      ],
+      "conflict_h2": "Steam이 이미 새 계정을 만든 경우",
+      "conflict_intro": "공식 복구 요지(요약): 새 Steam 연동 STOVE 계정을 먼저 탈퇴한 뒤 원 계정을 전환.",
+      "conflict_steps": [
+        "STOVE 로그인에서 Steam 유형 선택.",
+        "Epic Seven에 쓴 Steam 계정 인증.",
+        "필요 시 STOVE 가입/인증 완료.",
+        "해당 Steam 연동 STOVE 계정 탈퇴.",
+        "이후 원 이메일/SNS를 Steam 로그인으로 전환."
+      ],
+      "conflict_note": "탈퇴에 대기 기간이 있을 수 있음 — STOVE UI/CS 확인. 제3자 툴 금지.",
+      "cross_h2": "크로스플레이 메모",
+      "cross": [
+        "Steam·STOVE PC·모바일 동일 경험·크로스플레이(FAQ).",
+        "Steam은 신/기존 월드 모두 가능; 파운드리 일부 PvP는 서버 내 매칭.",
+        "관련: 데모 주의, Steam 안내, FAQ."
+      ],
+      "src_h2": "공식 출처"
+    },
+    "ja": {
+      "title": "STOVE ↔ Steam引き継ぎガイド",
+      "meta": "Epic SevenのSTOVEメール/SNSをSteam向けに変換する非公式手順。デモ垢衝突の復旧含む。",
+      "h1": "STOVE ↔ Steamアカウント引き継ぎ",
+      "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開FAQの要約 — 画面に従うこと。",
+      "diagram": [
+        "モバイル / STOVE PCアカウント",
+        "STOVEでログイン変換",
+        "Steamクライアントログイン"
+      ],
+      "diagram_aria": "推奨引き継ぎパス",
+      "rec_h2": "推奨ルート（進行維持）",
+      "steps": [
+        [
+          "先にSteamを急がない",
+          "旧アカ重視なら。未変換起動はSteam連携STOVE新規を作りがち。"
+        ],
+        [
+          "公式STOVEアカウント操作",
+          "PCでメール/SNS→Simple Login（Steam）。随時可能と案内。"
+        ],
+        [
+          "Steam認可を完了",
+          "し、STOVE側の連携を確認。"
+        ],
+        [
+          "Steamで導入/プレイ",
+          "公式ストア。FAQ上、以後もSTOVE PC/モバイル可。"
+        ],
+        [
+          "引き継がれるもの:",
+          "進行・英雄・アイテム・課金・未受取・イベント・エピックパス — 公式記述。変更時は再確認。"
+        ]
+      ],
+      "conflict_h2": "Steamが新規を作済みの場合",
+      "conflict_intro": "公式復旧の骨子（要約）：新規Steam連携STOVEを先に退会し、本アカを変換。",
+      "conflict_steps": [
+        "STOVEログインでSteam種別を選ぶ。",
+        "Epic Sevenに使ったSteamを認可。",
+        "必要ならSTOVE登録/認証。",
+        "そのSteam連携STOVEを退会。",
+        "その後、元メール/SNSをSteamログインへ。"
+      ],
+      "conflict_note": "退会に待ち時間がある場合あり — UI/CSで確認。第三者ツール禁止。",
+      "cross_h2": "クロスプレイメモ",
+      "cross": [
+        "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。",
+        "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内マッチ。",
+        "関連：デモ注意、Steamメモ、FAQ。"
+      ],
+      "src_h2": "公式ソース"
+    },
+    "zh-tw": {
+      "title": "STOVE ↔ Steam 帳號轉移指南",
+      "meta": "將 Epic Seven STOVE Email/SNS 轉為 Steam 登入的非官方逐步指南，含試玩帳衝突處理。",
+      "h1": "STOVE ↔ Steam 帳號轉移",
+      "goal": "目標：在依賴全新 Steam 工作階段前，於 STOVE 轉為 Simple Login（Steam）以保留進度。摘要公開 FAQ——請跟實際畫面。",
+      "diagram": [
+        "手機 / STOVE PC 帳號",
+        "在 STOVE 轉換登入",
+        "Steam 客戶端登入"
+      ],
+      "diagram_aria": "建議轉移路徑",
+      "rec_h2": "建議路徑（保留進度）",
+      "steps": [
+        [
+          "先別急著開 Steam",
+          "若在意舊帳。未轉換就啟動常會建 Steam 連結 STOVE 新帳。"
+        ],
+        [
+          "用官方 STOVE 帳號工具",
+          "在 PC 將 Email/SNS → Simple Login（Steam）。公告指隨時可轉。"
+        ],
+        [
+          "完成 Steam 授權",
+          "並在 STOVE 確認連結登入。"
+        ],
+        [
+          "以 Steam 安裝／遊玩",
+          "官方商店。FAQ：之後仍可用 STOVE PC／手機。"
+        ],
+        [
+          "會帶過的內容：",
+          "進度、英雄、道具、儲值、未領獎勵、活動、Epic Pass——以官方為準，政策變動請再查。"
+        ]
+      ],
+      "conflict_h2": "若 Steam 已建立新帳",
+      "conflict_intro": "官方復原大綱（摘要）：先註銷新建的 Steam 連結 STOVE 帳，再轉換本帳。",
+      "conflict_steps": [
+        "STOVE 登入選 Steam 類型。",
+        "授權用於 Epic Seven 的 Steam 帳。",
+        "必要時完成 STOVE 註冊／驗證。",
+        "依 STOVE 介面註銷該 Steam 連結帳。",
+        "再將原本 Email/SNS 轉為 Steam 登入。"
+      ],
+      "conflict_note": "註銷可能有等待期——以 STOVE UI／客服為準。禁止第三方工具。",
+      "cross_h2": "跨平台備註",
+      "cross": [
+        "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。",
+        "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。",
+        "相關：試玩警告、Steam 說明、FAQ。"
+      ],
+      "src_h2": "官方來源"
+    },
+    "th": {
+      "title": "คู่มือย้าย Epic Seven ไป Steam | เก็บความคืบหน้า | E7",
+      "meta": "ย้ายจาก STOVE→Steam: แปลงการเข้าสู่ระบบ Epic Seven เพื่อเก็บความคืบหน้า ถ้าผูกผิดให้ถอนบัญชี demo อาจลบข้อมูล และการย้ายไม่ใช่ Foundry คู่มือไม่เป็นทางการ",
+      "h1": "ย้าย Epic Seven ไป Steam — เก็บความคืบหน้า",
+      "goal": "เป้าหมายของขั้นตอนย้าย Epic Seven ไป Steam นี้: เก็บความคืบหน้าเดิมไว้ด้วยการแปลงเป็น Simple Login (Steam) บน STOVE ก่อนจะใช้เซสชัน Steam ใหม่ สรุปจาก STOVE FAQ สาธารณะ — ให้ดู UI จริงประกอบ",
+      "diagram": [
+        "บัญชีมือถือ / STOVE PC",
+        "แปลงการเข้าสู่ระบบบน STOVE",
+        "เข้าสู่ระบบด้วย Steam client"
+      ],
+      "diagram_aria": "เส้นทางการย้ายที่แนะนำ",
+      "rec_h2": "เส้นทางที่แนะนำ (เก็บความคืบหน้า)",
+      "steps": [
+        [
+          "อย่ารีบเข้า Steam ก่อน",
+          "ถ้ายังแคร์บัญชีเดิม การเปิดเกมโดยยังไม่แปลงมักสร้างบัญชี STOVE ใหม่ที่ผูกกับ Steam"
+        ],
+        [
+          "เปิดเครื่องมือบัญชี STOVE อย่างเป็นทางการ",
+          "บน PC แล้วแปลง email หรือ SNS → Simple Login (Steam) ทางการระบุว่าย้ายได้ตลอดเวลา"
+        ],
+        [
+          "ทำการอนุญาต Steam ให้เสร็จ",
+          "เมื่อมีข้อความขึ้น แล้วยืนยันการเข้าสู่ระบบที่ผูกไว้บน STOVE"
+        ],
+        [
+          "ติดตั้ง / เล่นผ่าน Steam",
+          "จากร้านค้าทางการ ตาม FAQ แล้ว STOVE PC และมือถือยังใช้ได้ตามปกติ"
+        ],
+        [
+          "สิ่งที่ติดไปด้วย:",
+          "ความคืบหน้า, ฮีโร่, ไอเทม, การซื้อ, รางวัลที่ยังไม่รับ, ไอเทมอีเวนต์, Epic Pass — ตามที่ทางการระบุ ตรวจสอบอีกครั้งหากนโยบายเปลี่ยน"
+        ]
+      ],
+      "conflict_h2": "ถ้า Steam สร้างบัญชีใหม่ไปแล้ว",
+      "conflict_intro": "แนวทางกู้คืนทางการ (สรุปความ): ให้ถอนบัญชี STOVE ที่ผูกกับ Steam ใหม่ก่อน แล้วค่อยแปลงบัญชีเดิม",
+      "conflict_steps": [
+        "ที่หน้าเข้าสู่ระบบ STOVE เลือกประเภทบัญชี Steam",
+        "อนุญาตบัญชี Steam ที่ใช้เล่น Epic Seven",
+        "ลงทะเบียน / ยืนยัน STOVE ให้เสร็จถ้ามีการขอ",
+        "ถอนบัญชี STOVE ที่ผูกกับ Steam นั้นตาม UI ของ STOVE",
+        "จากนั้นแปลงบัญชี email/SNS เดิมให้เข้าสู่ระบบด้วย Steam"
+      ],
+      "conflict_note": "การถอนอาจมีระยะรอ — ยืนยันใน UI STOVE / CS อย่าใช้เครื่องมือปลดล็อกจากบุคคลที่สาม",
+      "cross_h2": "หมายเหตุ cross-play",
+      "cross": [
+        "Steam, STOVE PC และมือถือเล่นร่วมกันได้ด้วย cross-play (ตาม FAQ)",
+        "Steam เข้าได้ทั้งโลกใหม่และโลกที่มีอยู่ ส่วน Foundry มีการจับคู่แยกสำหรับ PvP ที่ระบุไว้",
+        "ที่เกี่ยวข้องหลังย้าย Epic Seven ไป Steam: คำเตือน demo, หมายเหตุ Steam, ศูนย์รวม FAQ และเช็กลิสต์ดาวน์โหลด"
+      ],
+      "src_h2": "แหล่งข้อมูลทางการ"
+    },
+    "es": {
+      "title": "Transferencia de Epic Seven a Steam: conserva tu progreso | E7",
+      "meta": "Transferencia STOVE→Steam: convierte tu inicio de sesión de Epic Seven para conservar el progreso. Retirada tras una vinculación errónea, borrado de la demo y la transferencia no es Foundry. Guía no oficial.",
+      "h1": "Transferencia de Epic Seven a Steam — conserva tu progreso",
+      "goal": "Objetivo de esta guía paso a paso para la transferencia de Epic Seven a Steam: conservar el progreso existente convirtiendo a Simple Login (Steam) en STOVE antes de confiar en una sesión nueva de Steam. Parafrasea las preguntas frecuentes públicas de STOVE — sigue la interfaz en vivo.",
+      "diagram": [
+        "Cuenta móvil / STOVE PC",
+        "Convierte el inicio de sesión en STOVE",
+        "Inicio de sesión en el cliente de Steam"
+      ],
+      "diagram_aria": "Ruta de transferencia recomendada",
+      "rec_h2": "Ruta recomendada (conserva el progreso)",
+      "steps": [
+        [
+          "No te lances a Steam primero",
+          "si te importa la cuenta antigua. Abrir el juego sin convertir suele crear una cuenta STOVE nueva vinculada a Steam."
+        ],
+        [
+          "Abre las herramientas oficiales de cuenta de STOVE",
+          "en PC y convierte email o SNS → Simple Login (Steam). Según la información oficial, las transferencias se describen como disponibles en cualquier momento."
+        ],
+        [
+          "Completa la autorización de Steam",
+          "cuando se te pida, y luego confirma el inicio de sesión vinculado en STOVE."
+        ],
+        [
+          "Instala / juega a través de Steam",
+          "desde la tienda oficial. Según las preguntas frecuentes, STOVE PC y móvil siguen funcionando después."
+        ],
+        [
+          "Qué se conserva:",
+          "progreso, héroes, objetos, compras, recompensas sin reclamar, objetos de evento, Epic Pass — según lo indicado oficialmente. Vuelve a comprobarlo si cambian las políticas."
+        ]
+      ],
+      "conflict_h2": "Si Steam ya creó una cuenta nueva",
+      "conflict_intro": "Esquema oficial de recuperación (parafraseado): retira primero la nueva cuenta STOVE vinculada a Steam y después convierte la original.",
+      "conflict_steps": [
+        "En el inicio de sesión de STOVE, elige el tipo de cuenta Steam.",
+        "Autoriza la cuenta de Steam que usas para Epic Seven.",
+        "Termina el registro / la verificación de STOVE si se solicita.",
+        "Retira esa cuenta STOVE vinculada a Steam según la interfaz de STOVE.",
+        "Después, convierte tu cuenta original de email/SNS a inicio de sesión con Steam."
+      ],
+      "conflict_note": "La retirada puede implicar un periodo de espera — confírmalo en la interfaz de STOVE / con atención al cliente. No inventes herramientas de desbloqueo de terceros.",
+      "cross_h2": "Notas sobre cross-play",
+      "cross": [
+        "Steam, STOVE PC y móvil comparten el juego con cross-play (según las preguntas frecuentes).",
+        "Steam puede acceder a mundos nuevos y existentes; Foundry tiene emparejamiento independiente para el PvP indicado.",
+        "Relacionado después de la transferencia de Epic Seven a Steam: advertencia de demo, notas de Steam, centro de preguntas frecuentes y la lista de descarga."
+      ],
+      "src_h2": "Fuentes oficiales"
+    },
+    "pt": {
+      "title": "Guia de transferência Epic Seven para Steam | Progresso | E7",
+      "meta": "Transferência STOVE→Steam: converta seu login de Epic Seven para manter o progresso. Retirada em caso de vínculo errado, apagamento da demo e a transferência não é Foundry. Guia não oficial.",
+      "h1": "Transferência do Epic Seven para Steam — mantenha o progresso",
+      "goal": "Objetivo deste passo a passo de transferência do Epic Seven para Steam: manter o progresso existente convertendo para o Simple Login (Steam) no STOVE antes de confiar em uma sessão nova da Steam. Parafraseia o FAQ público do STOVE — siga a interface em tempo real.",
+      "diagram": [
+        "Conta móvel / STOVE PC",
+        "Converta o login no STOVE",
+        "Login no cliente Steam"
+      ],
+      "diagram_aria": "Caminho de transferência recomendado",
+      "rec_h2": "Caminho recomendado (mantenha o progresso)",
+      "steps": [
+        [
+          "Não corra para a Steam primeiro",
+          "se você se importa com a conta antiga. Abrir o jogo sem converter costuma criar uma nova conta STOVE vinculada à Steam."
+        ],
+        [
+          "Abra as ferramentas oficiais de conta do STOVE",
+          "no PC e converta e-mail ou SNS → Simple Login (Steam). A transferência é descrita como disponível a qualquer momento."
+        ],
+        [
+          "Conclua a autorização da Steam",
+          "quando solicitado, e depois confirme o login vinculado no STOVE."
+        ],
+        [
+          "Instale / jogue pela Steam",
+          "pela loja oficial. Segundo o FAQ, o STOVE PC e o mobile continuam funcionando depois."
+        ],
+        [
+          "O que é mantido:",
+          "progresso, heróis, itens, compras, recompensas não resgatadas, itens de evento, Epic Pass — conforme declarado oficialmente. Verifique de novo se as políticas mudarem."
+        ]
+      ],
+      "conflict_h2": "Se a Steam já criou uma conta nova",
+      "conflict_intro": "Resumo oficial de recuperação (parafraseado): retire primeiro a nova conta STOVE vinculada à Steam e depois converta a sua original.",
+      "conflict_steps": [
+        "No login do STOVE, escolha o tipo de conta Steam.",
+        "Autorize a conta Steam usada no Epic Seven.",
+        "Conclua o cadastro / a verificação no STOVE, se pedirem.",
+        "Retire essa conta STOVE vinculada à Steam conforme a interface do STOVE.",
+        "Depois converta sua conta original de e-mail/SNS para o login Steam."
+      ],
+      "conflict_note": "A retirada pode envolver um período de espera — confirme na interface do STOVE / com o suporte. Não invente ferramentas de desbloqueio de terceiros.",
+      "cross_h2": "Notas sobre cross-play",
+      "cross": [
+        "Steam, STOVE PC e mobile compartilham o jogo com cross-play (segundo o FAQ).",
+        "A Steam pode acessar mundos novos e existentes; o Foundry tem matchmaking separado para o PvP listado.",
+        "Relacionados após a transferência do Epic Seven para Steam: aviso da demo, notas da Steam, central de FAQ e o checklist de download."
+      ],
+      "src_h2": "Fontes oficiais"
+    },
+    "de": {
+      "title": "Epic Seven Steam-Transfer-Guide: Fortschritt behalten | E7",
+      "meta": "STOVE→Steam-Transfer: Epic Seven-Login umstellen und Fortschritt behalten. Rückzug bei falscher Verknüpfung, Demo-Wipe – und Transfer ist nicht Foundry. Unabhängiger Guide.",
+      "h1": "Epic Seven Steam-Transfer — Fortschritt behalten",
+      "goal": "Ziel dieser Epic Seven Steam-Transfer-Anleitung: Behalte deinen bestehenden Fortschritt, indem du auf STOVE auf Simple Login (Steam) umstellst, bevor du dich auf eine frische Steam-Sitzung verlässt. Gibt die öffentliche STOVE-FAQ sinngemäß wieder — folge der aktuellen UI.",
+      "diagram": [
+        "Mobil- oder STOVE-PC-Konto",
+        "Login auf STOVE umstellen",
+        "Login im Steam-Client"
+      ],
+      "diagram_aria": "Empfohlener Transfer-Weg",
+      "rec_h2": "Empfohlener Weg (Fortschritt behalten)",
+      "steps": [
+        [
+          "Nicht vorschnell zuerst Steam starten",
+          "wenn dir das alte Konto wichtig ist. Ein Start ohne Umstellung erzeugt oft ein neues Steam-verknüpftes STOVE-Konto."
+        ],
+        [
+          "Offizielle STOVE-Kontotools öffnen",
+          "am PC und E-Mail oder SNS → Simple Login (Steam) umstellen. Laut Beschreibung ist der Transfer jederzeit möglich."
+        ],
+        [
+          "Steam-Autorisierung abschließen",
+          "wenn du dazu aufgefordert wirst, und bestätige dann den verknüpften Login auf STOVE."
+        ],
+        [
+          "Über Steam installieren / spielen",
+          "aus dem offiziellen Store. Laut FAQ funktionieren STOVE-PC und Mobil danach weiterhin."
+        ],
+        [
+          "Was übernommen wird:",
+          "Fortschritt, Helden, Items, Käufe, nicht abgeholte Belohnungen, Event-Items, Epic Pass — wie offiziell angegeben. Prüfe erneut, falls sich Richtlinien ändern."
+        ]
+      ],
+      "conflict_h2": "Wenn Steam bereits ein neues Konto erstellt hat",
+      "conflict_intro": "Offizielle Wiederherstellungs-Skizze (sinngemäß): Ziehe zuerst das neue Steam-verknüpfte STOVE-Konto zurück und stelle dann dein ursprüngliches Konto um.",
+      "conflict_steps": [
+        "Wähle beim STOVE-Login den Kontotyp Steam.",
+        "Autorisiere das Steam-Konto, das du für Epic Seven verwendest.",
+        "Schließe die STOVE-Registrierung / Verifizierung ab, falls du dazu aufgefordert wirst.",
+        "Ziehe dieses Steam-verknüpfte STOVE-Konto gemäß STOVE-UI zurück.",
+        "Stelle danach dein ursprüngliches E-Mail-/SNS-Konto auf Steam-Login um."
+      ],
+      "conflict_note": "Der Rückzug kann eine Wartezeit beinhalten — bestätige das in der STOVE-UI / beim Support. Erfinde keine Drittanbieter-Tools zum Entsperren.",
+      "cross_h2": "Hinweise zum Cross-Play",
+      "cross": [
+        "Steam, STOVE-PC und Mobil teilen das Gameplay per Cross-Play (laut FAQ).",
+        "Steam kann auf neue und bestehende Welten zugreifen; Foundry hat ein separates Matchmaking für das aufgeführte PvP.",
+        "Passend zum Epic Seven Steam-Transfer: Demo-Warnung, Steam-Hinweise, FAQ-Hub und die Download-Checkliste."
+      ],
+      "src_h2": "Offizielle Quellen"
+    },
+    "fr": {
+      "title": "Guide de transfert Steam Epic Seven | Garder sa progression | E7",
+      "meta": "Transfert STOVE→Steam : convertissez votre connexion Epic Seven pour garder votre progression. Retrait en cas de mauvais lien, effacement de la démo, et le transfert n'est pas Foundry. Guide non officiel.",
+      "h1": "Transfert Steam Epic Seven — garder sa progression",
+      "goal": "Objectif de ce guide de transfert Steam Epic Seven : conserver la progression existante en passant à Simple Login (Steam) sur STOVE avant de vous fier à une nouvelle session Steam. Paraphrase de la FAQ publique STOVE — suivez l'interface en ligne.",
+      "diagram": [
+        "Compte mobile / STOVE PC",
+        "Convertir la connexion sur STOVE",
+        "Connexion au client Steam"
+      ],
+      "diagram_aria": "Parcours de transfert recommandé",
+      "rec_h2": "Parcours recommandé (garder sa progression)",
+      "steps": [
+        [
+          "Ne vous précipitez pas sur Steam",
+          "si vous tenez à l'ancien compte. Lancer le jeu sans conversion crée souvent un nouveau compte STOVE lié à Steam."
+        ],
+        [
+          "Ouvrez les outils de compte STOVE officiels",
+          "sur PC et convertissez l'e-mail ou le SNS → Simple Login (Steam). Les transferts sont décrits comme disponibles à tout moment."
+        ],
+        [
+          "Terminez l'autorisation Steam",
+          "quand elle vous est demandée, puis confirmez la connexion liée sur STOVE."
+        ],
+        [
+          "Installez / jouez via Steam",
+          "depuis la boutique officielle. Selon la FAQ, STOVE PC et mobile fonctionnent toujours ensuite."
+        ],
+        [
+          "Ce qui est conservé :",
+          "progression, héros, objets, achats, récompenses non réclamées, objets d'événement, Epic Pass — comme indiqué officiellement. Vérifiez à nouveau si les règles changent."
+        ]
+      ],
+      "conflict_h2": "Si Steam a déjà créé un nouveau compte",
+      "conflict_intro": "Résumé officiel de la récupération (paraphrasé) : retirez d'abord le nouveau compte STOVE lié à Steam, puis convertissez votre compte d'origine.",
+      "conflict_steps": [
+        "Sur la connexion STOVE, choisissez le type de compte Steam.",
+        "Autorisez le compte Steam utilisé pour Epic Seven.",
+        "Terminez l'inscription / vérification STOVE si elle est demandée.",
+        "Retirez ce compte STOVE lié à Steam via l'interface STOVE.",
+        "Convertissez ensuite votre compte e-mail/SNS d'origine en connexion Steam."
+      ],
+      "conflict_note": "Le retrait peut impliquer un délai d'attente — confirmez dans l'interface STOVE / le service client. N'inventez pas d'outils de déblocage tiers.",
+      "cross_h2": "Notes sur le cross-play",
+      "cross": [
+        "Steam, STOVE PC et mobile partagent le jeu via le cross-play (selon la FAQ).",
+        "Steam donne accès aux nouveaux mondes et aux mondes existants ; Foundry a un matchmaking séparé pour le PvP listé.",
+        "À lire ensuite après le transfert Steam Epic Seven : l'avertissement sur la démo, les notes Steam, le hub FAQ et la checklist de téléchargement."
+      ],
+      "src_h2": "Sources officielles"
+    }
+  },
+  "/faq/": {
+    "en": {
+      "title": "FAQ & troubleshooting — Epic Seven Steam",
+      "meta": "Expanded FAQ: launch issues, transfer, Foundry, demo risks, anti-cheat. Independent guide with official links.",
+      "h1": "FAQ & troubleshooting",
+      "lead": "Complements the homepage FAQ with launch-week pain points. Trust STOVE screens over any third-party script.",
+      "faqs": [
+        [
+          "Steam opens a brand-new Heir — where is my old account?",
+          "Steam likely created a new Steam-linked STOVE login. Withdraw that new account, then convert your original. See transfer guide · STOVE FAQ."
+        ],
+        [
+          "Can I play Foundry on Steam and continue on mobile?",
+          "Cross-play is supported with the same account after proper linking. Foundry characters live on Foundry — transferring login alone does not move a legacy character onto Foundry."
+        ],
+        [
+          "Is Guild War live on Foundry yet?",
+          "Draft Arena opened with launch. Guild War: 2026-11-21 03:00 UTC per STOVE. World Arena: 2026-12-10. See Foundry page."
+        ],
+        [
+          "Game will not start / anti-cheat error",
+          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS."
+        ],
+        [
+          "Are Steam prices different from mobile?",
+          "STOVE FAQ states no price differences between platforms. Still compare live shop UI in your region."
+        ],
+        [
+          "Demo ended — do I need to reinstall?",
+          "Install/update the full Steam release from the store page. Account state depends on whether you converted login — read demo warning."
+        ]
+      ],
+      "check_h2": "Short troubleshooting checklist",
+      "checks": [
+        "Confirm you are on official Steam app 5019180.",
+        "Confirm which STOVE login Steam is using.",
+        "Check STOVE maintenance / Foundry banners.",
+        "Never use in-game account deletion after Steam login transfer.",
+        "Still stuck → Epic Seven CS via STOVE (not Discord DMs selling fixes)."
+      ],
+      "src_h2": "Official links"
+    },
+    "ko": {
+      "title": "FAQ·문제 해결 — Epic Seven Steam",
+      "meta": "런칭 이슈·이전·파운드리·데모 위험·안티치트 FAQ. 공식 링크 포함 비공식 가이드.",
+      "h1": "FAQ·문제 해결",
+      "lead": "홈 FAQ를 보강한 런칭 주간 이슈 모음. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
+      "faqs": [
+        [
+          "Steam에 새 후계자가 뜹니다 — 옛 계정은?",
+          "Steam 연동 STOVE 신규일 가능성. 그 계정을 탈퇴한 뒤 원 계정 전환. 이전 가이드·STOVE FAQ."
+        ],
+        [
+          "Steam 파운드리를 모바일에서도?",
+          "올바른 연동 후 동일 계정 크로스플레이. 파운드리 캐릭은 파운드리에 존재 — 로그인 전환만으로 구캐릭이 파운드리로 가지 않음."
+        ],
+        [
+          "파운드리 길드전은 열렸나?",
+          "드래프트는 오픈과 함께. 길드전: 2026-11-21 03:00 UTC. 월드 아레나: 2026-12-10. 파운드리 페이지."
+        ],
+        [
+          "실행 안 됨 / 안티치트 오류",
+          "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만."
+        ],
+        [
+          "Steam 가격이 모바일과 다른가?",
+          "FAQ상 플랫폼 간 가격 차 없음. 그래도 지역 상점 UI를 비교."
+        ],
+        [
+          "데모 종료 — 재설치?",
+          "스토어에서 정식 빌드 설치/업데이트. 계정 상태는 전환 여부에 따라 — 데모 주의."
+        ]
+      ],
+      "check_h2": "짧은 점검 목록",
+      "checks": [
+        "공식 Steam app 5019180인지 확인.",
+        "Steam이 쓰는 STOVE 로그인 확인.",
+        "STOVE 점검/파운드리 배너 확인.",
+        "Steam 로그인 전환 후 인게임 삭제 금지.",
+        "그래도 안 되면 STOVE 공식 CS."
+      ],
+      "src_h2": "공식 링크"
+    },
+    "ja": {
+      "title": "FAQ・トラブルシュート — Epic Seven Steam",
+      "meta": "起動不具合・引き継ぎ・ファウンドリ・デモリスク・アンチチート。公式リンク付き非公式ガイド。",
+      "h1": "FAQ・トラブルシュート",
+      "lead": "ホームFAQを補う発売週の詰まりどころ。第三者スクリプトよりSTOVE画面を優先。",
+      "faqs": [
+        [
+          "Steamが新人継者になる — 旧アカは？",
+          "Steam連携STOVE新規の可能性。退会後に本アカ変換。引き継ぎガイド・FAQ。"
+        ],
+        [
+          "Steamファウンドリをモバイルでも？",
+          "正しい連携後は同一アカでクロスプレイ。ファウンドリキャラはファウンドリ上 — ログイン変換だけでは旧キャラは移らない。"
+        ],
+        [
+          "ギルド戦は開始済み？",
+          "ドラフトはローンチと同時。ギルド戦：2026-11-21 03:00 UTC。WA：2026-12-10。ファウンドリ頁。"
+        ],
+        [
+          "起動しない／アンチチート",
+          "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。"
+        ],
+        [
+          "Steam価格はモバイルと違う？",
+          "FAQ上プラットフォーム差なし。それでも地域ショップUIを比較。"
+        ],
+        [
+          "デモ終了 — 再導入？",
+          "ストアから正式版を導入/更新。アカ状態は変換有無次第 — デモ注意。"
+        ]
+      ],
+      "check_h2": "短いチェックリスト",
+      "checks": [
+        "公式Steam app 5019180か確認。",
+        "Steamが使うSTOVEログインを確認。",
+        "STOVEメンテ／ファウンドリバナー。",
+        "Steamログイン変換後のゲーム内削除禁止。",
+        "ダメならSTOVE公式CS。"
+      ],
+      "src_h2": "公式リンク"
+    },
+    "zh-tw": {
+      "title": "FAQ 與疑難排解 — Epic Seven Steam",
+      "meta": "啟動問題、轉移、Foundry、試玩風險、反作弊 FAQ。附官方連結之非官方指南。",
+      "h1": "FAQ 與疑難排解",
+      "lead": "補強首頁 FAQ 的上架週痛點。請相信 STOVE 畫面，勿信第三方腳本。",
+      "faqs": [
+        [
+          "Steam 開到全新繼承人——舊帳呢？",
+          "多半是新建 Steam 連結 STOVE。先註銷再轉本帳。見轉移指南·STOVE FAQ。"
+        ],
+        [
+          "Steam 的 Foundry 能在手機繼續嗎？",
+          "正確連結後同帳跨平台。Foundry 角色在 Foundry——只轉登入不會把舊角搬過去。"
+        ],
+        [
+          "Foundry 公會戰開了嗎？",
+          "Draft 隨開服。公會戰：2026-11-21 03:00 UTC。WA：2026-12-10。見 Foundry 頁。"
+        ],
+        [
+          "無法啟動／反作弊錯誤",
+          "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。"
+        ],
+        [
+          "Steam 價格與手機不同？",
+          "FAQ 稱平台無差價。仍請比對你區商店 UI。"
+        ],
+        [
+          "試玩結束——要重裝？",
+          "從商店安裝／更新正式版。帳號狀態視是否已轉換——見試玩警告。"
+        ]
+      ],
+      "check_h2": "短檢查清單",
+      "checks": [
+        "確認官方 Steam app 5019180。",
+        "確認 Steam 使用的 STOVE 登入。",
+        "查看 STOVE 維護／Foundry 橫幅。",
+        "Steam 登入轉換後禁止遊戲內刪號。",
+        "仍卡住 → STOVE 官方客服。"
+      ],
+      "src_h2": "官方連結"
+    },
+    "th": {
+      "title": "Epic Seven Steam FAQ — ย้ายข้อมูล & Foundry | E7",
+      "meta": "คำถามที่พบบ่อยเรื่องการย้ายข้อมูล Steam, Foundry และการเปิดตัว Epic Seven บน Steam: ผูกบัญชีผิด, demo ถูกล้าง, anti-cheat พร้อมลิงก์ทางการ ไม่ใช่เว็บทางการ",
+      "h1": "คำถามที่พบบ่อยและวิธีแก้ปัญหา Epic Seven บน Steam",
+      "lead": "ใช้ FAQ นี้ควบคู่กับการ์ดบนหน้าแรก เชื่อหน้าจอ STOVE มากกว่าสคริปต์ของบุคคลที่สามใด ๆ",
+      "faqs": [
+        [
+          "FAQ นี้ครอบคลุมอะไรบ้าง — และทำไมถึงได้ Heir ใหม่?",
+          "FAQ นี้อธิบายเรื่องการย้ายข้อมูล Foundry และปัญหาการเปิดตัว การย้ายข้อมูลบน Steam รักษาความคืบหน้าผ่าน STOVE→Steam Simple Login การที่ได้ Heir ใหม่เอี่ยมมักหมายความว่า Steam สร้าง STOVE login ที่ผูกไว้แบบว่างเปล่าขึ้นมา — ให้ถอนลิงก์นั้นแล้วแปลงบัญชีเดิม (ดู [[คู่มือย้ายข้อมูล|/steam-transfer/]]) Foundry เป็นเซิร์ฟเวอร์ใหม่แยกต่างหาก ไม่ใช่การย้ายบัญชี ([[คู่มือเซิร์ฟเวอร์ Foundry|/foundry/#server-guide]]) การล้างข้อมูล demo หลังการแปลงอาจลบความคืบหน้าเดิม ([[คำเตือนเรื่อง demo|/demo-delete-warning/]]) ไม่เป็นทางการ — ตรวจสอบบน STOVE"
+        ],
+        [
+          "เล่น Foundry บน Steam แล้วไปเล่นต่อบนมือถือได้ไหม?",
+          "รองรับ cross-play ด้วยบัญชีเดียวกันหลังผูกบัญชีอย่างถูกต้อง ตัวละคร Foundry อยู่บน Foundry — การย้ายแค่ login ไม่ได้ย้ายตัวละครเดิมไปยัง Foundry"
+        ],
+        [
+          "Guild War เปิดบน Foundry แล้วหรือยัง?",
+          "Draft Arena เปิดพร้อมการเปิดตัว Guild War: 2026-11-21 03:00 UTC ตาม STOVE Foundry view/14571828 World Arena: 2026-12-10 ดู [[Guild War บน Foundry|/foundry/#guild-war]]"
+        ],
+        [
+          "เกมไม่เริ่มทำงาน / เกิดข้อผิดพลาด anti-cheat",
+          "Steam ระบุว่าใช้ UNCHEATER ระดับ kernel อัปเดตไดรเวอร์ OS/GPU เครื่องที่ถูกจัดการโดยองค์กรอาจต้องใช้ STOVE PC หรือมือถือแทน ส่งเรื่องต่อผ่านฝ่ายบริการลูกค้าทางการเท่านั้น ดู [[บันทึกเกี่ยวกับ Steam|/steam-notes/]] (/steam-notes/)"
+        ],
+        [
+          "ราคาบน Steam ต่างจากบนมือถือไหม?",
+          "FAQ ของ STOVE ระบุว่าไม่มีส่วนต่างราคาระหว่างแพลตฟอร์ม แต่ก็ควรเทียบหน้าร้านค้าจริงในภูมิภาคของคุณ"
+        ],
+        [
+          "demo จบแล้ว — ต้องติดตั้งใหม่ไหม?",
+          "ติดตั้ง/อัปเดตตัวเกม Steam ฉบับเต็มจาก [[ดาวน์โหลด / หน้าร้านค้า|/download/]] (/download/) สถานะบัญชีขึ้นอยู่กับว่าได้แปลง login แล้วหรือไม่ — อ่าน [[คำเตือนการลบข้อมูล demo|/demo-delete-warning/]] (/demo-delete-warning/)"
+        ]
+      ],
+      "check_h2": "เช็กลิสต์แก้ปัญหาแบบสั้น",
+      "checks": [
+        "ตรวจสอบว่าใช้ Steam app 5019180 ฉบับทางการ",
+        "ตรวจสอบว่า Steam ใช้ STOVE login ใดอยู่",
+        "ตรวจสอบประกาศปิดปรับปรุงของ STOVE / แบนเนอร์ Foundry",
+        "ห้ามใช้การลบบัญชีในเกมหลังย้าย login ไป Steam",
+        "ยังติดอยู่ → ติดต่อฝ่ายบริการลูกค้า Epic Seven ผ่าน STOVE (ไม่ใช่ DM ใน Discord ที่ขายวิธีแก้)"
+      ],
+      "src_h2": "ลิงก์ทางการ"
+    },
+    "es": {
+      "title": "Epic Seven Steam FAQ — Transferencia y Foundry | E7",
+      "meta": "FAQ de transferencia a Steam, Foundry y lanzamiento de Epic Seven en Steam: vinculación incorrecta, borrado de la demo, anti-cheat. Enlaces oficiales. No oficial.",
+      "h1": "FAQ y solución de problemas de Epic Seven en Steam",
+      "lead": "Usa esta FAQ de Epic Seven en Steam junto con las tarjetas de la página de inicio. Confía en las pantallas de STOVE antes que en cualquier script de terceros.",
+      "faqs": [
+        [
+          "¿Qué cubre esta FAQ de Epic Seven en Steam y por qué aparece un Heredero nuevo?",
+          "Esta FAQ de Epic Seven en Steam explica la transferencia, Foundry y los problemas de lanzamiento. La transferencia a Steam conserva el progreso mediante STOVE→Steam Simple Login. Un Heredero totalmente nuevo suele significar que Steam creó un inicio de sesión de STOVE vinculado y vacío; retíralo y luego convierte el original (consulta la [[guía de transferencia|/steam-transfer/]]). Foundry es un servidor nuevo aparte, no una transferencia de cuenta ([[guía del servidor Foundry|/foundry/#server-guide]]). El borrado de la demo tras la conversión puede eliminar el progreso anterior ([[advertencia sobre la demo|/demo-delete-warning/]]). No oficial: verifica en STOVE."
+        ],
+        [
+          "¿Puedo jugar en Foundry desde Steam y continuar en el móvil?",
+          "El juego cruzado es compatible con la misma cuenta tras una vinculación correcta. Los personajes de Foundry viven en Foundry; transferir solo el inicio de sesión no lleva un personaje anterior a Foundry."
+        ],
+        [
+          "¿Guild War ya está disponible en Foundry?",
+          "Draft Arena se abrió con el lanzamiento. Guild War: 2026-11-21 03:00 UTC según STOVE Foundry view/14571828. World Arena: 2026-12-10. Consulta [[Guild War en Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "El juego no arranca / error de anti-cheat",
+          "Steam indica UNCHEATER a nivel de kernel. Actualiza los controladores del sistema operativo y de la GPU. Los equipos gestionados quizá necesiten STOVE PC o el móvil en su lugar. Escala el problema solo por la atención al cliente oficial. Consulta las [[notas de Steam|/steam-notes/]] (/steam-notes/)."
+        ],
+        [
+          "¿Los precios de Steam son diferentes a los del móvil?",
+          "La FAQ de STOVE indica que no hay diferencias de precio entre plataformas. Aun así, compara la interfaz de la tienda en tu región."
+        ],
+        [
+          "La demo terminó: ¿tengo que reinstalar?",
+          "Instala o actualiza la versión completa de Steam desde la [[entrada de descarga / tienda|/download/]] (/download/). El estado de la cuenta depende de si convertiste el inicio de sesión; lee la [[advertencia de borrado de la demo|/demo-delete-warning/]] (/demo-delete-warning/)."
+        ]
+      ],
+      "check_h2": "Lista breve de comprobación",
+      "checks": [
+        "Confirma que usas la app oficial de Steam 5019180.",
+        "Confirma qué inicio de sesión de STOVE está usando Steam.",
+        "Revisa los avisos de mantenimiento de STOVE y de Foundry.",
+        "Nunca uses el borrado de cuenta desde el juego después de transferir el inicio de sesión a Steam.",
+        "Si sigues atascado → atención al cliente de Epic Seven por STOVE (no mensajes privados de Discord que venden soluciones)."
+      ],
+      "src_h2": "Enlaces oficiales"
+    },
+    "pt": {
+      "title": "Epic Seven no Steam: FAQ de transferência e Foundry | E7",
+      "meta": "Transferência para o Steam, Foundry e perguntas frequentes do lançamento de Epic Seven no Steam: vínculo errado, apagamento da demo, anti-cheat. Links oficiais. Não oficial.",
+      "h1": "Perguntas frequentes e solução de problemas do Epic Seven no Steam",
+      "lead": "Use estas perguntas frequentes do Epic Seven no Steam junto com os cards da página inicial. Confie nas telas do STOVE em vez de qualquer script de terceiros.",
+      "faqs": [
+        [
+          "O que estas perguntas frequentes do Epic Seven no Steam cobrem — e por que um novo Herdeiro?",
+          "Estas perguntas frequentes explicam transferência, Foundry e problemas de lançamento. A transferência para o Steam mantém o progresso via STOVE→Steam Simple Login. Um Herdeiro totalmente novo geralmente significa que o Steam criou um login STOVE vinculado vazio — retire-o e depois converta o original (veja o [[guia de transferência|/steam-transfer/]]). Foundry é um servidor novo e separado, não uma transferência de conta ([[guia do servidor Foundry|/foundry/#server-guide]]). Apagar a demo depois da conversão pode apagar o progresso antigo ([[aviso sobre a demo|/demo-delete-warning/]]). Não oficial — confirme no STOVE."
+        ],
+        [
+          "Posso jogar Foundry no Steam e continuar no celular?",
+          "Cross-play é suportado com a mesma conta após um vínculo correto. Personagens de Foundry ficam em Foundry — transferir apenas o login não move um personagem antigo para Foundry."
+        ],
+        [
+          "Guild War já está disponível no Foundry?",
+          "A Draft Arena abriu com o lançamento. Guild War: 2026-11-21 03:00 UTC, conforme a visão do Foundry no STOVE view/14571828. World Arena: 2026-12-10. Veja [[Guild War no Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "O jogo não inicia / erro de anti-cheat",
+          "O Steam lista o UNCHEATER em nível de kernel. Atualize o sistema operacional e os drivers da GPU. PCs gerenciados podem precisar do STOVE PC ou do celular. Escale apenas pelo suporte oficial. Veja [[notas do Steam|/steam-notes/]] (/steam-notes/)."
+        ],
+        [
+          "Os preços no Steam são diferentes do celular?",
+          "A FAQ do STOVE afirma que não há diferença de preços entre plataformas. Ainda assim, compare a interface da loja ao vivo na sua região."
+        ],
+        [
+          "A demo acabou — preciso reinstalar?",
+          "Instale/atualize o lançamento completo do Steam pela [[entrada de download / loja|/download/]] (/download/). O estado da conta depende de você ter convertido o login — leia o [[aviso de exclusão da demo|/demo-delete-warning/]] (/demo-delete-warning/)."
+        ]
+      ],
+      "check_h2": "Checklist rápido de solução de problemas",
+      "checks": [
+        "Confirme que você está no app oficial do Steam 5019180.",
+        "Confirme qual login STOVE o Steam está usando.",
+        "Verifique a manutenção do STOVE e os banners do Foundry.",
+        "Nunca use a exclusão de conta no jogo depois de transferir o login para o Steam.",
+        "Ainda travado → suporte do Epic Seven via STOVE (não DMs no Discord vendendo correções)."
+      ],
+      "src_h2": "Links oficiais"
+    },
+    "de": {
+      "title": "Epic Seven Steam FAQ — Transfer & Foundry | E7",
+      "meta": "Steam-Transfer, Foundry und Launch-FAQ zu Epic Seven auf Steam: falsche Verknüpfung, Demo-Löschung, Anti-Cheat. Offizielle Links. Inoffiziell.",
+      "h1": "Epic Seven Steam FAQ & Fehlerbehebung",
+      "lead": "Nutze diese Epic Seven Steam FAQ zusammen mit den Karten auf der Startseite. Vertraue den STOVE-Bildschirmen mehr als jedem Drittanbieter-Skript.",
+      "faqs": [
+        [
+          "Was deckt diese Epic Seven Steam FAQ ab — und warum ein neuer Erbe?",
+          "Diese Epic Seven Steam FAQ erklärt Transfer, Foundry und Launch-Probleme. Der Steam-Transfer erhält deinen Fortschritt über STOVE→Steam Simple Login. Ein brandneuer Erbe bedeutet meistens, dass Steam einen leeren verknüpften STOVE-Login erstellt hat — zieh ihn zurück und stelle dann den ursprünglichen um (siehe [[Transfer-Anleitung|/steam-transfer/]]). Foundry ist ein separater neuer Server, kein Account-Transfer ([[Foundry-Server-Anleitung|/foundry/#server-guide]]). Die Demo-Löschung nach der Umstellung kann dazu führen, dass bisheriger Fortschritt verloren geht ([[Demo-Warnung|/demo-delete-warning/]]). Inoffiziell — prüfe auf STOVE."
+        ],
+        [
+          "Kann ich Foundry auf Steam spielen und auf dem Handy weiterspielen?",
+          "Cross-Play wird mit demselben Account nach korrekter Verknüpfung unterstützt. Foundry-Charaktere bleiben auf Foundry — durch bloßes Übertragen des Logins kommt kein bestehender Charakter auf Foundry."
+        ],
+        [
+          "Ist Guild War auf Foundry schon live?",
+          "Draft Arena ist zum Launch geöffnet worden. Guild War: 2026-11-21 03:00 UTC laut STOVE Foundry view/14571828. World Arena: 2026-12-10. Siehe [[Guild War auf Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "Spiel startet nicht / Anti-Cheat-Fehler",
+          "Steam listet das Kernel-Level-Anti-Cheat UNCHEATER. Aktualisiere Betriebssystem und GPU-Treiber. Verwaltete PCs brauchen eventuell stattdessen STOVE PC oder Mobile. Wende dich nur an den offiziellen Support. Siehe [[Steam-Hinweise|/steam-notes/]] (/steam-notes/)."
+        ],
+        [
+          "Sind die Steam-Preise anders als auf dem Handy?",
+          "Laut STOVE-FAQ gibt es keine Preisunterschiede zwischen den Plattformen. Vergleiche trotzdem die aktuelle Shop-Anzeige in deiner Region."
+        ],
+        [
+          "Demo beendet — muss ich neu installieren?",
+          "Installiere bzw. aktualisiere die vollständige Steam-Version über den [[Download-/Shop-Eintrag|/download/]] (/download/). Der Account-Status hängt davon ab, ob du den Login umgestellt hast — lies die [[Demo-Löschwarnung|/demo-delete-warning/]] (/demo-delete-warning/)."
+        ]
+      ],
+      "check_h2": "Kurze Checkliste zur Fehlerbehebung",
+      "checks": [
+        "Prüfe, dass du die offizielle Steam-App 5019180 nutzt.",
+        "Prüfe, welchen STOVE-Login Steam verwendet.",
+        "Prüfe STOVE-Wartungshinweise / Foundry-Banner.",
+        "Nutze nach dem Steam-Login-Transfer niemals die Account-Löschung im Spiel.",
+        "Weiterhin hängengeblieben → Epic Seven Support über STOVE (keine Discord-DMs, die Lösungen verkaufen)."
+      ],
+      "src_h2": "Offizielle Links"
+    },
+    "fr": {
+      "title": "FAQ Epic Seven Steam — transfert et Foundry | E7",
+      "meta": "Transfert Steam, Foundry et FAQ de lancement pour Epic Seven sur Steam : mauvaise liaison, effacement de la démo, anti-triche. Liens officiels. Non officiel.",
+      "h1": "FAQ et dépannage Epic Seven sur Steam",
+      "lead": "Utilisez cette FAQ d'Epic Seven sur Steam avec les cartes de la page d'accueil. Faites davantage confiance aux écrans STOVE qu'à n'importe quel script tiers.",
+      "faqs": [
+        [
+          "Que couvre cette FAQ d'Epic Seven sur Steam — et pourquoi un nouvel Héritier ?",
+          "Cette FAQ d'Epic Seven sur Steam explique le transfert, Foundry et les problèmes de lancement. Le transfert Steam conserve la progression via STOVE→Steam Simple Login. Un Héritier tout neuf signifie généralement que Steam a créé un identifiant STOVE lié vide — retirez-le, puis convertissez l'original (voir le [[guide de transfert|/steam-transfer/]]). Foundry est un nouveau serveur distinct, pas un transfert de compte ([[guide du serveur Foundry|/foundry/#server-guide]]). L'effacement de la démo après conversion peut effacer la progression existante ([[avertissement sur la démo|/demo-delete-warning/]]). Non officiel — vérifiez sur STOVE."
+        ],
+        [
+          "Puis-je jouer à Foundry sur Steam et continuer sur mobile ?",
+          "Le cross-play est pris en charge avec le même compte après une liaison correcte. Les personnages Foundry restent sur Foundry — transférer uniquement l'identifiant ne déplace pas un personnage existant vers Foundry."
+        ],
+        [
+          "Guild War est-il déjà disponible sur Foundry ?",
+          "Draft Arena a ouvert au lancement. Guild War : 2026-11-21 03:00 UTC selon STOVE Foundry view/14571828. World Arena : 2026-12-10. Voir [[Guild War sur Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "Le jeu ne démarre pas / erreur anti-triche",
+          "Steam indique l'anti-triche au niveau noyau UNCHEATER. Mettez à jour le système d'exploitation et les pilotes GPU. Les PC gérés peuvent nécessiter STOVE PC ou mobile à la place. Ne remontez le problème qu'au support officiel. Voir [[notes Steam|/steam-notes/]] (/steam-notes/)."
+        ],
+        [
+          "Les prix Steam sont-ils différents de ceux du mobile ?",
+          "La FAQ STOVE indique qu'il n'y a pas de différence de prix entre les plateformes. Comparez tout de même la boutique en direct dans votre région."
+        ],
+        [
+          "La démo est terminée — dois-je réinstaller ?",
+          "Installez/mettez à jour la version complète Steam depuis l'[[entrée Téléchargement / boutique|/download/]] (/download/). L'état du compte dépend de si vous avez converti l'identifiant — lisez l'[[avertissement de suppression de la démo|/demo-delete-warning/]] (/demo-delete-warning/)."
+        ]
+      ],
+      "check_h2": "Liste de vérification rapide",
+      "checks": [
+        "Vérifiez que vous utilisez bien l'app Steam officielle 5019180.",
+        "Vérifiez quel identifiant STOVE Steam utilise.",
+        "Consultez les bannières de maintenance STOVE / Foundry.",
+        "N'utilisez jamais la suppression de compte en jeu après le transfert de l'identifiant Steam.",
+        "Toujours bloqué → support Epic Seven via STOVE (pas les messages privés Discord qui vendent des solutions)."
+      ],
+      "src_h2": "Liens officiels"
+    }
+  }
+}

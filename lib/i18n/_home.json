@@ -610,5 +610,810 @@
       ]
     ],
     "sources_h2": "官方來源"
+  },
+  "th": {
+    "title": "คู่มือ Epic Seven บน Steam — ศูนย์รวมการย้ายบัญชีและ Foundry",
+    "meta": "ศูนย์รวม Epic Seven บน Steam: ย้ายบัญชี STOVE→Steam เพื่อเก็บความคืบหน้า ปฏิทิน Foundry ลิงก์ดาวน์โหลดทางการ และ FAQ คู่มือจากผู้เล่น ไม่เป็นทางการ",
+    "h1": "Epic Seven บน Steam — คู่มือผู้เล่น",
+    "hero": "หน้าร้านค้า Steam การย้ายบัญชี STOVE↔Steam ปฏิทิน Foundry ถึง 12/31 Secret Rabbit♥Hole ตู้สุ่ม และการแก้ปัญหา คู่มืออิสระบน epicsevensteam.com",
+    "cta_store": "ร้านค้า Steam ทางการ →",
+    "cta_dl": "เช็กลิสต์การดาวน์โหลด",
+    "cta_tr": "ขั้นตอนการย้ายบัญชี",
+    "cta_fd": "ปฏิทิน Foundry",
+    "transfer_h2": "การย้ายบัญชี STOVE ↔ Steam",
+    "transfer_muted": "แผนภาพขั้นตอนแบบไม่เป็นทางการที่สรุปกระบวนการทางการ โปรดทำตามหน้าจอ STOVE อย่างเคร่งครัด — เราไม่ใช่ฝ่ายสนับสนุนของ Smilegate",
+    "diagram": [
+      "เข้าสู่ระบบด้วยอีเมล / SNS เดิม",
+      "แปลง STOVE เป็นการเข้าสู่ระบบผ่าน Steam",
+      "เปิด Epic Seven บน Steam"
+    ],
+    "diagram_aria": "แผนภาพขั้นตอนการย้ายบัญชี",
+    "steps": [
+      [
+        "ตัดสินใจ:",
+        "จะเก็บความคืบหน้าเดิมไหม? ถ้าใช่ ให้แปลงบน STOVE ก่อน เริ่มใหม่บน Foundry? สร้างบัญชีใหม่ที่ผูกกับ Steam ได้ — บัญชีเดโมที่ค้างอยู่อาจขวางการย้ายภายหลัง"
+      ],
+      [
+        "แปลงบน STOVE:",
+        "ใช้ระบบแปลงบัญชีทางการ (อีเมล/SNS → Simple Login Steam) ดู Steam FAQ และคู่มือการย้ายบัญชีฉบับละเอียดของเรา"
+      ],
+      [
+        "ถ้า Steam สร้างบัญชีใหม่ไปแล้ว:",
+        "ถอนบัญชี STOVE ที่ผูกกับ Steam นั้นก่อน แล้วจึงแปลงบัญชีเดิม"
+      ],
+      [
+        "จากนั้นเล่นบน Steam:",
+        "ใช้หน้าร้านค้าทางการ บัญชีเดียวกันยังใช้บน STOVE PC / มือถือได้หลังย้าย (ตาม FAQ)"
+      ]
+    ],
+    "foundry_h2": "Foundry — ภาพรวมเซิร์ฟเวอร์ใหม่",
+    "as_of": "วันที่สรุปจากประกาศ STOVE ช่วงเปิดตัว 2026-10-29 ตารางอาจเปลี่ยนแปลง — โปรดตรวจสอบประกาศทางการ",
+    "th_content": "เนื้อหา",
+    "th_open": "เปิด (โดยประมาณ)",
+    "rows": [
+      [
+        "เปิดตัว Steam + เปิด Foundry",
+        "2026-10-29 หลังปิดปรับปรุง"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 หลังปิดปรับปรุง"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (ประกาศเปิด Foundry ของ STOVE)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 หลังปิดปรับปรุง (UTC)"
+      ],
+      [
+        "บัฟเริ่มต้น / อีเวนต์ Foundry หลายรายการ",
+        "ถึงประมาณ 2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "ไฮไลต์: บัฟการเติบโต การอัญเชิญ Covenant ฟรีรายวัน (สูงสุด 1,260 ครั้ง) Luna Rank 70 เข้าร่วม ของขวัญล็อกอิน รายละเอียดครบในคู่มือเซิร์ฟเวอร์ Foundry บนหน้า Foundry",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "เล่น Epic Seven บน Steam ได้อย่างไร?",
+        "ติดตั้งจากร้านค้า Steam ทางการ แปลงอีเมล/SNS ของ STOVE เป็นการเข้าสู่ระบบ Steam ก่อนลงชื่อเข้าใช้ หากต้องการความคืบหน้าเดิม ดูคู่มือการย้ายบัญชีและ STOVE Steam FAQ"
+      ],
+      [
+        "การย้ายบัญชีเก็บฮีโร่ การซื้อ และ Epic Pass ไว้ไหม?",
+        "ตาม FAQ ทางการ ความคืบหน้าและข้อมูลรวมถึงรางวัลที่ยังไม่รับ ไอเทมอีเวนต์ และ Epic Pass จะถูกย้ายไปด้วย โปรดยืนยันที่ STOVE Steam FAQ"
+      ],
+      [
+        "Foundry คืออะไร?",
+        "เซิร์ฟเวอร์ใหม่ที่เปิดพร้อมช่วงเปิดตัว Steam มีบัฟเริ่มต้นและอีเวนต์ฉลอง พร้อมการจับคู่เฉพาะ Foundry สำหรับ PvP ที่ระบุ ดูหน้า Foundry"
+      ],
+      [
+        "การลบบัญชีในเกมของเดโมล้างความคืบหน้าเดิมได้ไหม?",
+        "ได้ — หลังย้ายการเข้าสู่ระบบไป Steam การลบบัญชีในเกมบนเดโมอาจลบความคืบหน้าของเซิร์ฟเวอร์เดิม อ่านคำเตือนเดโมและประกาศ STOVE"
+      ]
+    ],
+    "faq_more": "คำถาม-คำตอบเพิ่มเติม → FAQ และการแก้ปัญหา",
+    "trouble_h2": "แก้ปัญหาเบื้องต้น",
+    "trouble": [
+      [
+        "บัญชีผิด / ว่างเปล่าบน Steam:",
+        "Steam อาจสร้างบัญชี STOVE ที่ผูกกับ Steam ใหม่โดยอัตโนมัติ ดูการกู้คืนการย้ายบัญชี"
+      ],
+      [
+        "ระบบป้องกันโกง / เปิดเกมไม่ขึ้น:",
+        "Steam ระบุ UNCHEATER ระดับเคอร์เนล อัปเดตไดรเวอร์ หากติดขัดให้ติดต่อฝ่ายบริการลูกค้าทางการ"
+      ],
+      [
+        "ความเสี่ยงจากเดโมที่ค้างอยู่:",
+        "อย่าใช้การลบบัญชีในเกมหลังย้ายการเข้าสู่ระบบไป Steam"
+      ],
+      [
+        "อีเวนต์ไม่ปรากฏ:",
+        "บางเนื้อหามีเฉพาะ Foundry หรือมีกำหนดเวลา — ตรวจสอบอัปเดต"
+      ]
+    ],
+    "map_h2": "แผนผังเว็บไซต์ — Steam, Foundry และความคืบหน้าที่อัปเดตต่อเนื่อง",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "อัปเดตต่อเนื่อง",
+    "map_links_steam": [
+      [
+        "/download/",
+        "ดาวน์โหลด / หน้าร้านค้าทางการ"
+      ],
+      [
+        "/steam-transfer/",
+        "ขั้นตอนย้ายบัญชี STOVE↔Steam"
+      ],
+      [
+        "/demo-delete-warning/",
+        "คำเตือนเดโม / การลบบัญชี"
+      ],
+      [
+        "/steam-notes/",
+        "บันทึกไคลเอนต์เฉพาะ Steam"
+      ],
+      [
+        "/faq/",
+        "FAQ และการแก้ปัญหา"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "ปฏิทินถึง 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "เรื่องราวเสริม Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/quests/",
+        "เควส — หลัก / รายวัน / รายสัปดาห์"
+      ],
+      [
+        "/heroes/",
+        "ข้อมูลฮีโร่ฉบับย่อ"
+      ],
+      [
+        "/banners/",
+        "ตู้สุ่มและฮีโร่ใหม่"
+      ],
+      [
+        "/updates/",
+        "บันทึกอัปเดต"
+      ],
+      [
+        "/maintenance/",
+        "ปิดปรับปรุงและบันทึกเวอร์ชัน"
+      ]
+    ],
+    "sources_h2": "แหล่งข้อมูลทางการ"
+  },
+  "es": {
+    "title": "Guía de Epic Seven en Steam — Transferencia y Foundry",
+    "meta": "Epic Seven en Steam: transferencia STOVE→Steam para conservar el progreso, calendario de Foundry, descarga oficial y FAQ. Guía no oficial.",
+    "h1": "Epic Seven en Steam — guía para jugadores",
+    "hero": "Ficha de la tienda de Steam, transferencia de cuenta STOVE↔Steam, calendario de Foundry hasta 12/31, Secret Rabbit♥Hole, banners y solución de problemas. Guía independiente en epicsevensteam.com.",
+    "cta_store": "Tienda oficial de Steam →",
+    "cta_dl": "Lista de descarga",
+    "cta_tr": "Pasos de transferencia",
+    "cta_fd": "Calendario de Foundry",
+    "transfer_h2": "Transferencia de cuenta STOVE ↔ Steam",
+    "transfer_muted": "Diagrama de pasos no oficial que resume el proceso oficial. Sigue las pantallas de STOVE al pie de la letra — no somos el soporte de Smilegate.",
+    "diagram": [
+      "Inicio de sesión con correo / SNS existente",
+      "Convertir STOVE a inicio de sesión con Steam",
+      "Abrir Epic Seven en Steam"
+    ],
+    "diagram_aria": "Diagrama del flujo de transferencia",
+    "steps": [
+      [
+        "Decide:",
+        "¿Conservar el progreso anterior? Convierte primero en STOVE. ¿Empezar de cero en Foundry? Puedes crear una cuenta nueva vinculada a Steam — las cuentas sobrantes de la demo pueden bloquear una transferencia posterior."
+      ],
+      [
+        "Convierte en STOVE:",
+        "Usa la conversión oficial (correo/SNS → Simple Login Steam). Consulta la FAQ de Steam y nuestra guía detallada de transferencia."
+      ],
+      [
+        "Si Steam ya creó una cuenta nueva:",
+        "Retira primero esa cuenta STOVE vinculada a Steam y luego convierte la original."
+      ],
+      [
+        "Después juega en Steam:",
+        "Usa la página oficial de la tienda. La misma cuenta puede seguir funcionando en STOVE PC / móvil después de la transferencia (según la FAQ)."
+      ]
+    ],
+    "foundry_h2": "Foundry — resumen del servidor nuevo",
+    "as_of": "Fechas resumidas de los avisos de STOVE alrededor de la ventana de lanzamiento del 2026-10-29. Los calendarios pueden cambiar — verifica las publicaciones oficiales.",
+    "th_content": "Contenido",
+    "th_open": "Apertura (aprox.)",
+    "rows": [
+      [
+        "Lanzamiento en Steam + apertura de Foundry",
+        "2026-10-29 tras el mantenimiento"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 tras el mantenimiento"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (aviso de apertura de Foundry en STOVE)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 tras el mantenimiento (UTC)"
+      ],
+      [
+        "Buffs de inicio / muchos eventos de Foundry",
+        "Hasta ~2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "Lo destacado: buffs de crecimiento, invocaciones Covenant gratis diarias (hasta 1,260), Luna se une con rango 70, regalos de inicio de sesión. En la página de Foundry tienes el desglose completo de la guía del servidor.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "¿Cómo juego Epic Seven en Steam?",
+        "Instala desde la tienda oficial de Steam. Convierte el correo/SNS de STOVE a inicio de sesión con Steam antes de entrar si quieres conservar el progreso existente. Consulta la guía de transferencia y la FAQ de Steam de STOVE."
+      ],
+      [
+        "¿La transferencia conserva héroes, compras y Epic Pass?",
+        "Según la FAQ oficial, el progreso y los datos, incluidas las recompensas sin reclamar, los objetos de evento y Epic Pass, se transfieren. Confírmalo en la FAQ de Steam de STOVE."
+      ],
+      [
+        "¿Qué es Foundry?",
+        "Servidor nuevo abierto con la ventana de lanzamiento en Steam. Buffs de inicio y eventos de celebración; emparejamiento exclusivo de Foundry para el PvP indicado. Consulta la página de Foundry."
+      ],
+      [
+        "¿El borrado de la demo en el juego puede eliminar el progreso anterior?",
+        "Sí — tras la transferencia del inicio de sesión a Steam, borrar la cuenta en el juego desde la demo puede eliminar el progreso del servidor original. Lee el aviso sobre la demo y la nota de STOVE."
+      ]
+    ],
+    "faq_more": "Más preguntas → FAQ y solución de problemas.",
+    "trouble_h2": "Solución de problemas rápida",
+    "trouble": [
+      [
+        "Cuenta equivocada o vacía en Steam:",
+        "Es posible que Steam haya creado automáticamente una cuenta STOVE nueva vinculada a Steam. Consulta la recuperación de la transferencia."
+      ],
+      [
+        "Antitrampas / fallo al iniciar:",
+        "Steam lista UNCHEATER a nivel de kernel. Actualiza los controladores; contacta con el soporte oficial si sigues atascado."
+      ],
+      [
+        "Riesgo de restos de la demo:",
+        "No uses el borrado de cuenta en el juego después de transferir el inicio de sesión a Steam."
+      ],
+      [
+        "Faltan eventos:",
+        "Parte del contenido es exclusivo de Foundry o está limitado por tiempo — revisa las actualizaciones."
+      ]
+    ],
+    "map_h2": "Mapa del sitio — Steam, Foundry y cobertura continua",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "Actualizaciones continuas",
+    "map_links_steam": [
+      [
+        "/download/",
+        "Descarga oficial / ficha de la tienda"
+      ],
+      [
+        "/steam-transfer/",
+        "Pasos de transferencia STOVE↔Steam"
+      ],
+      [
+        "/demo-delete-warning/",
+        "Aviso sobre la demo y el borrado de cuenta"
+      ],
+      [
+        "/steam-notes/",
+        "Notas del cliente específicas de Steam"
+      ],
+      [
+        "/faq/",
+        "FAQ y solución de problemas"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "Calendario hasta 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Historia secundaria Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/quests/",
+        "Misiones — principal / diarias / semanales"
+      ],
+      [
+        "/heroes/",
+        "Referencia rápida de héroes"
+      ],
+      [
+        "/banners/",
+        "Banners y héroes nuevos"
+      ],
+      [
+        "/updates/",
+        "Registro de actualizaciones"
+      ],
+      [
+        "/maintenance/",
+        "Mantenimiento y notas de versión"
+      ]
+    ],
+    "sources_h2": "Fuentes oficiales"
+  },
+  "pt": {
+    "title": "Guia de Epic Seven no Steam — Transferência e Foundry",
+    "meta": "Epic Seven no Steam: transferência STOVE→Steam para manter o progresso, calendário do Foundry, download oficial e FAQ. Guia não oficial.",
+    "h1": "Epic Seven no Steam — guia do jogador",
+    "hero": "Página da loja do Steam, transferência de conta STOVE↔Steam, calendário do Foundry até 12/31, Secret Rabbit♥Hole, banners e solução de problemas. Guia independente em epicsevensteam.com.",
+    "cta_store": "Loja oficial do Steam →",
+    "cta_dl": "Checklist de download",
+    "cta_tr": "Passos da transferência",
+    "cta_fd": "Calendário do Foundry",
+    "transfer_h2": "Transferência de conta STOVE ↔ Steam",
+    "transfer_muted": "Diagrama não oficial que resume o processo oficial. Siga as telas da STOVE exatamente — não somos o suporte da Smilegate.",
+    "diagram": [
+      "Login por e-mail / SNS existente",
+      "Converter STOVE para login Steam",
+      "Abrir Epic Seven no Steam"
+    ],
+    "diagram_aria": "Diagrama do fluxo de transferência",
+    "steps": [
+      [
+        "Decida:",
+        "Manter o progresso antigo? Converta na STOVE primeiro. Começar do zero no Foundry? Você pode criar uma nova conta vinculada ao Steam — contas deixadas pela demo podem bloquear uma transferência posterior."
+      ],
+      [
+        "Converta na STOVE:",
+        "Use a conversão oficial (e-mail/SNS → Simple Login Steam). Veja o FAQ do Steam e nosso guia detalhado de transferência."
+      ],
+      [
+        "Se o Steam já criou uma nova conta:",
+        "Retire primeiro essa conta STOVE vinculada ao Steam e depois converta a original."
+      ],
+      [
+        "Depois jogue no Steam:",
+        "Use a página oficial da loja. A mesma conta ainda funciona na STOVE PC / mobile após a transferência (segundo o FAQ)."
+      ]
+    ],
+    "foundry_h2": "Foundry — visão do servidor novo",
+    "as_of": "Datas resumidas dos comunicados da STOVE em torno da janela de lançamento de 2026-10-29. Os cronogramas podem mudar — confirme nos posts oficiais.",
+    "th_content": "Conteúdo",
+    "th_open": "Abertura (aprox.)",
+    "rows": [
+      [
+        "Lançamento no Steam + abertura do Foundry",
+        "2026-10-29 após a manutenção"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 após a manutenção"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (aviso de abertura do Foundry na STOVE)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 após a manutenção (UTC)"
+      ],
+      [
+        "Buffs de início / vários eventos do Foundry",
+        "Até ~2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "Destaques: buffs de crescimento, invocações Covenant grátis diárias (até 1,260), Luna de Rank 70 no time, presentes de login. Análise completa do servidor Foundry na página do Foundry.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "Como jogar Epic Seven no Steam?",
+        "Instale pela loja oficial do Steam. Converta o e-mail/SNS da STOVE para login Steam antes de entrar, se quiser o progresso existente. Veja o guia de transferência e o FAQ Steam da STOVE."
+      ],
+      [
+        "A transferência mantém heróis, compras e o Epic Pass?",
+        "Segundo o FAQ oficial, o progresso e os dados, incluindo recompensas não resgatadas, itens de evento e o Epic Pass, são mantidos. Confirme no FAQ Steam da STOVE."
+      ],
+      [
+        "O que é o Foundry?",
+        "Servidor novo aberto junto com a janela de lançamento no Steam. Buffs de início e eventos de comemoração; matchmaking exclusivo do Foundry para os PvP listados. Veja a página do Foundry."
+      ],
+      [
+        "A exclusão da conta na demo pode apagar o progresso antigo?",
+        "Sim — após a transferência do login Steam, a exclusão da conta no jogo na demo pode apagar o progresso do servidor original. Leia o aviso da demo e o comunicado da STOVE."
+      ]
+    ],
+    "faq_more": "Mais perguntas → FAQ e solução de problemas.",
+    "trouble_h2": "Solução de problemas rápida",
+    "trouble": [
+      [
+        "Conta errada / vazia no Steam:",
+        "O Steam pode ter criado automaticamente uma nova conta STOVE vinculada. Veja a recuperação da transferência."
+      ],
+      [
+        "Anti-cheat / falha ao abrir:",
+        "O Steam lista o UNCHEATER em nível de kernel. Atualize os drivers; se não resolver, fale com o suporte oficial."
+      ],
+      [
+        "Risco de sobra da demo:",
+        "Não use a exclusão de conta no jogo depois da transferência do login Steam."
+      ],
+      [
+        "Eventos ausentes:",
+        "Parte do conteúdo é exclusiva do Foundry ou limitada por tempo — confira as atualizações."
+      ]
+    ],
+    "map_h2": "Mapa do site — Steam, Foundry, cobertura contínua",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "Atualizações contínuas",
+    "map_links_steam": [
+      [
+        "/download/",
+        "Download oficial / página da loja"
+      ],
+      [
+        "/steam-transfer/",
+        "Passos da transferência STOVE↔Steam"
+      ],
+      [
+        "/demo-delete-warning/",
+        "Aviso da demo / exclusão de conta"
+      ],
+      [
+        "/steam-notes/",
+        "Notas do cliente Steam"
+      ],
+      [
+        "/faq/",
+        "FAQ e solução de problemas"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "Calendário até 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Side Story Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/quests/",
+        "Missões — principal / diária / semanal"
+      ],
+      [
+        "/heroes/",
+        "Referência rápida de heróis"
+      ],
+      [
+        "/banners/",
+        "Banners e novos heróis"
+      ],
+      [
+        "/updates/",
+        "Registro de atualizações"
+      ],
+      [
+        "/maintenance/",
+        "Manutenção e notas de versão"
+      ]
+    ],
+    "sources_h2": "Fontes oficiais"
+  },
+  "de": {
+    "title": "Epic Seven Steam-Guide — Transfer & Foundry-Hub",
+    "meta": "Epic-Seven-Steam-Hub: STOVE→Steam-Transfer für deinen Fortschritt, Foundry-Kalender, offizieller Download und FAQ. Inoffizieller Guide.",
+    "h1": "Epic Seven auf Steam — Spieler-Guide",
+    "hero": "Steam-Store-Eintrag, STOVE↔Steam-Konto-Transfer, Foundry-Kalender bis 12/31, Secret Rabbit♥Hole, Banner und Fehlerbehebung. Unabhängiger Guide auf epicsevensteam.com.",
+    "cta_store": "Offizieller Steam-Store →",
+    "cta_dl": "Download-Checkliste",
+    "cta_tr": "Transfer-Schritte",
+    "cta_fd": "Foundry-Kalender",
+    "transfer_h2": "STOVE ↔ Steam-Konto-Transfer",
+    "transfer_muted": "Inoffizielles Schritt-Diagramm, das den offiziellen Ablauf zusammenfasst. Folge den STOVE-Bildschirmen genau — wir sind nicht der Smilegate-Support.",
+    "diagram": [
+      "Bestehender E-Mail-/SNS-Login",
+      "STOVE in Steam-Login umwandeln",
+      "Epic Seven auf Steam starten"
+    ],
+    "diagram_aria": "Diagramm zum Transfer-Ablauf",
+    "steps": [
+      [
+        "Entscheiden:",
+        "Alten Fortschritt behalten? Wandle zuerst auf STOVE um. Neustart auf Foundry? Du kannst ein neues Steam-verknüpftes Konto erstellen — übrig gebliebene Demo-Konten können einen späteren Transfer blockieren."
+      ],
+      [
+        "Auf STOVE umwandeln:",
+        "Nutze die offizielle Umwandlung (E-Mail/SNS → Simple Login Steam). Siehe Steam-FAQ und unseren ausführlichen Transfer-Guide."
+      ],
+      [
+        "Wenn Steam bereits ein neues Konto erstellt hat:",
+        "Ziehe zuerst dieses Steam-verknüpfte STOVE-Konto zurück und wandle dann das ursprüngliche um."
+      ],
+      [
+        "Dann auf Steam spielen:",
+        "Nutze die offizielle Store-Seite. Dasselbe Konto kann nach dem Transfer weiterhin auf STOVE PC / Mobil funktionieren (laut FAQ)."
+      ]
+    ],
+    "foundry_h2": "Foundry — Momentaufnahme des neuen Servers",
+    "as_of": "Daten zusammengefasst aus STOVE-Hinweisen rund um das Launch-Fenster am 2026-10-29. Zeitpläne können sich verschieben — prüfe die offiziellen Beiträge.",
+    "th_content": "Inhalt",
+    "th_open": "Öffnung (ca.)",
+    "rows": [
+      [
+        "Steam-Launch + Foundry-Öffnung",
+        "2026-10-29 nach Wartung"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 nach Wartung"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (STOVE-Hinweis zur Foundry-Öffnung)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 nach Wartung (UTC)"
+      ],
+      [
+        "Starter-Buffs / viele Foundry-Events",
+        "Bis ~2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "Highlights: Wachstums-Buffs, täglich kostenlose Covenant-Beschwörungen (bis zu 1,260), Luna ab Rang 70, Login-Geschenke. Die vollständige Aufschlüsselung des Foundry-Servers findest du auf der Foundry-Seite.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "Wie spiele ich Epic Seven auf Steam?",
+        "Installiere das Spiel aus dem offiziellen Steam-Store. Wandle STOVE E-Mail/SNS vor dem Anmelden in einen Steam-Login um, wenn du bestehenden Fortschritt behalten willst. Siehe Transfer-Guide und STOVE-Steam-FAQ."
+      ],
+      [
+        "Bleiben beim Transfer Helden, Käufe und Epic Pass erhalten?",
+        "Laut offizieller FAQ werden Fortschritt und Daten inklusive nicht abgeholter Belohnungen, Event-Gegenstände und Epic Pass übernommen. Bestätige das in der STOVE-Steam-FAQ."
+      ],
+      [
+        "Was ist Foundry?",
+        "Ein neuer Server, der zum Steam-Launch-Fenster geöffnet wurde. Starter-Buffs und Feier-Events; Foundry-eigenes Matchmaking für das aufgeführte PvP. Siehe Foundry-Seite."
+      ],
+      [
+        "Kann das Löschen im Demo-Spiel alten Fortschritt auslöschen?",
+        "Ja — nach dem Steam-Login-Transfer kann das Löschen des In-Game-Kontos in der Demo den Fortschritt auf dem ursprünglichen Server löschen. Lies die Demo-Warnung und den STOVE-Hinweis."
+      ]
+    ],
+    "faq_more": "Weitere Fragen → FAQ & Fehlerbehebung.",
+    "trouble_h2": "Schnelle Fehlerbehebung",
+    "trouble": [
+      [
+        "Falsches / leeres Konto auf Steam:",
+        "Steam hat eventuell automatisch ein neues Steam-verknüpftes STOVE-Konto erstellt. Siehe Transfer-Wiederherstellung."
+      ],
+      [
+        "Anti-Cheat / Start scheitert:",
+        "Steam nennt UNCHEATER auf Kernel-Ebene. Aktualisiere die Treiber; kontaktiere den offiziellen Support, wenn du nicht weiterkommst."
+      ],
+      [
+        "Risiko durch Demo-Reste:",
+        "Nutze nach dem Steam-Login-Transfer nicht die In-Game-Kontolöschung."
+      ],
+      [
+        "Events fehlen:",
+        "Manche Inhalte sind nur auf Foundry oder zeitlich begrenzt — prüfe die Updates."
+      ]
+    ],
+    "map_h2": "Seitenübersicht — Steam, Foundry, laufende Berichterstattung",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "Laufende Updates",
+    "map_links_steam": [
+      [
+        "/download/",
+        "Offizieller Download / Store-Eintrag"
+      ],
+      [
+        "/steam-transfer/",
+        "STOVE↔Steam-Transfer-Schritte"
+      ],
+      [
+        "/demo-delete-warning/",
+        "Demo- / Konto-Löschwarnung"
+      ],
+      [
+        "/steam-notes/",
+        "Steam-spezifische Client-Hinweise"
+      ],
+      [
+        "/faq/",
+        "FAQ & Fehlerbehebung"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "Kalender bis 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Nebenstory Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/quests/",
+        "Quests — Haupt / täglich / wöchentlich"
+      ],
+      [
+        "/heroes/",
+        "Helden-Schnellreferenz"
+      ],
+      [
+        "/banners/",
+        "Banner & neue Helden"
+      ],
+      [
+        "/updates/",
+        "Update-Protokoll"
+      ],
+      [
+        "/maintenance/",
+        "Wartung & Versionshinweise"
+      ]
+    ],
+    "sources_h2": "Offizielle Quellen"
+  },
+  "fr": {
+    "title": "Guide Epic Seven Steam — Transfert et hub Foundry",
+    "meta": "Hub Epic Seven Steam : transfert STOVE→Steam pour conserver votre progression, calendrier Foundry, téléchargement officiel et FAQ. Guide non officiel.",
+    "h1": "Epic Seven sur Steam — guide du joueur",
+    "hero": "Fiche du Steam Store, transfert de compte STOVE↔Steam, calendrier Foundry jusqu'au 12/31, Secret Rabbit♥Hole, bannières et dépannage. Guide indépendant sur epicsevensteam.com.",
+    "cta_store": "Steam Store officiel →",
+    "cta_dl": "Checklist de téléchargement",
+    "cta_tr": "Étapes du transfert",
+    "cta_fd": "Calendrier Foundry",
+    "transfer_h2": "Transfert de compte STOVE ↔ Steam",
+    "transfer_muted": "Schéma non officiel des étapes résumant le processus officiel. Suivez exactement les écrans STOVE — nous ne sommes pas le support Smilegate.",
+    "diagram": [
+      "Connexion e-mail / SNS existante",
+      "Conversion STOVE vers la connexion Steam",
+      "Lancez Epic Seven sur Steam"
+    ],
+    "diagram_aria": "Schéma du flux de transfert",
+    "steps": [
+      [
+        "Décidez :",
+        "Garder l'ancienne progression ? Convertissez d'abord sur STOVE. Nouveau départ sur Foundry ? Vous pouvez créer un nouveau compte lié à Steam — les comptes restants de la démo peuvent bloquer un transfert ultérieur."
+      ],
+      [
+        "Convertissez sur STOVE :",
+        "Utilisez la conversion officielle (e-mail/SNS → Simple Login Steam). Consultez la FAQ Steam et notre guide détaillé du transfert."
+      ],
+      [
+        "Si Steam a déjà créé un nouveau compte :",
+        "Retirez d'abord ce compte STOVE lié à Steam, puis convertissez l'original."
+      ],
+      [
+        "Jouez ensuite sur Steam :",
+        "Utilisez la page officielle du store. Le même compte peut toujours fonctionner sur STOVE PC / mobile après le transfert (selon la FAQ)."
+      ]
+    ],
+    "foundry_h2": "Foundry — aperçu du nouveau serveur",
+    "as_of": "Dates résumées à partir des annonces STOVE autour de la fenêtre de lancement du 2026-10-29. Les calendriers peuvent changer — vérifiez les publications officielles.",
+    "th_content": "Contenu",
+    "th_open": "Ouverture (approx.)",
+    "rows": [
+      [
+        "Lancement Steam + ouverture Foundry",
+        "2026-10-29 après maintenance"
+      ],
+      [
+        "Draft Arena (Foundry)",
+        "2026-10-29 après maintenance"
+      ],
+      [
+        "Guild War (Foundry)",
+        "2026-11-21 03:00 UTC (annonce d'ouverture Foundry STOVE)"
+      ],
+      [
+        "World Arena (Foundry)",
+        "2026-12-10 après maintenance (UTC)"
+      ],
+      [
+        "Buffs de départ / nombreux événements Foundry",
+        "Jusqu'au ~2026-12-31 02:59 UTC"
+      ]
+    ],
+    "foundry_p": "Points forts : buffs de progression, invocations Covenant gratuites quotidiennes (jusqu'à 1 260), arrivée de Luna rang 70, cadeaux de connexion. Détail complet du guide du serveur Foundry sur la page Foundry.",
+    "faq_h2": "FAQ",
+    "faqs": [
+      [
+        "Comment jouer à Epic Seven sur Steam ?",
+        "Installez depuis le Steam Store officiel. Convertissez la connexion STOVE e-mail/SNS en connexion Steam avant de vous connecter si vous voulez conserver votre progression. Consultez le guide de transfert et la FAQ Steam de STOVE."
+      ],
+      [
+        "Le transfert conserve-t-il les héros, les achats et l'Epic Pass ?",
+        "Selon la FAQ officielle, la progression et les données, y compris les récompenses non réclamées, les objets d'événement et l'Epic Pass, sont conservées. À confirmer sur la FAQ Steam de STOVE."
+      ],
+      [
+        "Qu'est-ce que Foundry ?",
+        "Nouveau serveur ouvert avec la fenêtre de lancement Steam. Buffs de départ et événements de célébration ; matchmaking réservé à Foundry pour le PvP listé. Voir la page Foundry."
+      ],
+      [
+        "La suppression en jeu de la démo peut-elle effacer l'ancienne progression ?",
+        "Oui — après le transfert de connexion Steam, la suppression du compte en jeu sur la démo peut effacer la progression du serveur d'origine. Lisez l'avertissement démo et l'annonce STOVE."
+      ]
+    ],
+    "faq_more": "Plus de Q&R → FAQ et dépannage.",
+    "trouble_h2": "Dépannage rapide",
+    "trouble": [
+      [
+        "Mauvais compte / compte vide sur Steam :",
+        "Steam a peut-être créé automatiquement un nouveau compte STOVE lié à Steam. Voir la récupération du transfert."
+      ],
+      [
+        "Anti-triche / échec de lancement :",
+        "Steam indique UNCHEATER au niveau du noyau. Mettez à jour vos pilotes ; contactez le support officiel si le problème persiste."
+      ],
+      [
+        "Risque lié aux restes de la démo :",
+        "N'utilisez pas la suppression du compte en jeu après le transfert de connexion Steam."
+      ],
+      [
+        "Événements manquants :",
+        "Certains contenus sont réservés à Foundry ou limités dans le temps — consultez les mises à jour."
+      ]
+    ],
+    "map_h2": "Plan du site — Steam, Foundry, suivi continu",
+    "map_steam": "Steam",
+    "map_foundry": "Foundry",
+    "map_ong": "Mises à jour continues",
+    "map_links_steam": [
+      [
+        "/download/",
+        "Téléchargement officiel / fiche du store"
+      ],
+      [
+        "/steam-transfer/",
+        "Étapes du transfert STOVE↔Steam"
+      ],
+      [
+        "/demo-delete-warning/",
+        "Avertissement démo / suppression de compte"
+      ],
+      [
+        "/steam-notes/",
+        "Notes spécifiques au client Steam"
+      ],
+      [
+        "/faq/",
+        "FAQ et dépannage"
+      ]
+    ],
+    "map_links_fd": [
+      [
+        "/foundry/",
+        "Calendrier jusqu'au 12/31 — GW 11/21, WA 12/10"
+      ],
+      [
+        "/secret-rabbit-hole/",
+        "Histoire annexe Secret Rabbit♥Hole"
+      ]
+    ],
+    "map_links_ong": [
+      [
+        "/quests/",
+        "Quêtes — principale / journalière / hebdomadaire"
+      ],
+      [
+        "/heroes/",
+        "Référence rapide des héros"
+      ],
+      [
+        "/banners/",
+        "Bannières et nouveaux héros"
+      ],
+      [
+        "/updates/",
+        "Journal des mises à jour"
+      ],
+      [
+        "/maintenance/",
+        "Maintenance et notes de version"
+      ]
+    ],
+    "sources_h2": "Sources officielles"
   }
 }

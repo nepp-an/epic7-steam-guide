@@ -2,88 +2,288 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://epicsevensteam.com/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/download/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/download/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/download/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/download/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/download/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/download/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/download/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/download/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/download/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/download/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/download/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/download/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -95,6 +295,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -106,6 +311,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -117,6 +327,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -128,94 +343,379 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/steam-transfer/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/steam-transfer/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/steam-transfer/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/steam-transfer/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/steam-transfer/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-transfer/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-transfer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-transfer/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/demo-delete-warning/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/demo-delete-warning/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/demo-delete-warning/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/demo-delete-warning/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/demo-delete-warning/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/demo-delete-warning/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/demo-delete-warning/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/demo-delete-warning/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/demo-delete-warning/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/demo-delete-warning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/demo-delete-warning/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/demo-delete-warning/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/steam-notes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/steam-notes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/steam-notes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/steam-notes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/steam-notes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/steam-notes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/steam-notes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/steam-notes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/steam-notes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/steam-notes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/steam-notes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-notes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -227,6 +727,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -238,6 +743,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -249,6 +759,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -260,6 +775,91 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/faq/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/faq/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/faq/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/faq/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/faq/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/faq/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/faq/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -271,6 +871,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -282,6 +887,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -293,6 +903,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -304,6 +919,91 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/foundry/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/foundry/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/foundry/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/foundry/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/foundry/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/foundry/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/foundry/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/foundry/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/foundry/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/foundry/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/foundry/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/foundry/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/foundry/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/foundry/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -315,6 +1015,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -326,6 +1031,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -337,6 +1047,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -348,50 +1063,235 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/secret-rabbit-hole/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/secret-rabbit-hole/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/secret-rabbit-hole/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/secret-rabbit-hole/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/secret-rabbit-hole/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/secret-rabbit-hole/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/secret-rabbit-hole/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/secret-rabbit-hole/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/heroes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/heroes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/heroes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/heroes/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/heroes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/heroes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/heroes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/heroes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/heroes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/heroes/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/heroes/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/heroes/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/heroes/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/heroes/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/heroes/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/heroes/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/heroes/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/heroes/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -403,9 +1303,14 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/tier-list/</loc>
@@ -414,6 +1319,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -425,6 +1335,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -436,50 +1351,235 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/tier-list/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/tier-list/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/tier-list/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/tier-list/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/tier-list/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/tier-list/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/tier-list/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/tier-list/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/quests/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/quests/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/quests/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/quests/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/quests/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/quests/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/quests/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/quests/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/quests/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/quests/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/quests/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/quests/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/quests/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/quests/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/quests/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/quests/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/quests/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/quests/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/quests/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -491,6 +1591,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -502,6 +1607,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -513,6 +1623,11 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -524,226 +1639,811 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/banners/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/banners/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/banners/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/banners/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/banners/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/banners/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/banners/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/banners/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/banners/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/banners/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/banners/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/banners/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/banners/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/banners/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/banners/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/banners/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/banners/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/banners/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/banners/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/updates/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/updates/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/updates/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/updates/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/updates/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/updates/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/updates/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/updates/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/updates/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/updates/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/updates/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/updates/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/updates/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/updates/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/updates/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/updates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/updates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/updates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/updates/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/maintenance/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/maintenance/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/maintenance/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/maintenance/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/maintenance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/maintenance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/maintenance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/maintenance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/maintenance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/maintenance/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/maintenance/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/maintenance/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/about/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/about/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/about/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/about/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/about/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/about/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/about/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/about/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/about/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/about/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/about/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/about/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/contact/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/contact/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/contact/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/contact/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/contact/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/contact/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/contact/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/contact/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/contact/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/contact/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/contact/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/contact/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/privacy/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ko/privacy/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/ja/privacy/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://epicsevensteam.com/zh-tw/privacy/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/es/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/pt/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/de/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/fr/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://epicsevensteam.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/privacy/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://epicsevensteam.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://epicsevensteam.com/pt/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://epicsevensteam.com/de/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://epicsevensteam.com/fr/privacy/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/privacy/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

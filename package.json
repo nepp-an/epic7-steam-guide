@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "node scripts/fix-html-lang.mjs"
   },
   "dependencies": {
     "next": "^14.2.18",

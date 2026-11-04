@@ -1,0 +1,288 @@
+{
+  "title": "Epic-Seven-Tier-Liste für Steam & Transfer (GW/WA getrennt)",
+  "meta": "Steam-/Transfer-fokussierte Epic-Seven-Tier-Liste: Build-Bänder für Guild War und World Arena, Ressourcengrenzen nach dem Transfer, Budget-Alternativen und FAQ. Kein globales Ranking.",
+  "h1": "Epic-Seven-Tier-Liste — Steam- & Transfer-Perspektive",
+  "lead": "Die meisten Tier-Listen beantworten die Frage „Wer ist mit dem vollen Roster am stärksten?“ Diese hier beantwortet eine engere Frage: Mit einem Steam-/Foundry-Konto – oder einem Alt-Konto, das du gerade auf Steam umgestellt hast – welche Helden solltest du für PvE, Guild War und World Arena tatsächlich zuerst bauen? Die Bänder spiegeln die Build-Priorität für dieses Konto wider, kein absolutes globales Ranking.",
+  "answer": "Kurz gesagt: Baue zuerst einen PvE-Kern (Angelic Montmorancy, Falconer Kluri, Commander Lorina, plus einen Farmer wie Alexa), dann ein Guild-War-Rückgrat (Tank + Revive/Reinigung) und einen World-Arena-Opener (Speed/CR oder Kontrolle). Der Transfer behält deinen alten Fortschritt, bringt aber keinen Alt-Erben auf Foundry; Foundry-GW und -WA werden an unterschiedlichen Daten freigeschaltet, also plane Ressourcen nach diesen Daten – nicht nach jedem Banner.",
+  "lens_note": "Bänder = Investitionsreihenfolge für ein Steam-/Transfer-Konto. Sie behaupten nicht, dass ein Held global S-Tier ist.",
+  "anchors_label": "Springe zu",
+  "anchor_why": "Steam-Perspektive",
+  "anchor_bands": "Bänder",
+  "anchor_constraints": "Ressourcen",
+  "anchor_pve": "PvE",
+  "anchor_gw": "Guild War",
+  "anchor_wa": "World Arena",
+  "anchor_budget": "Budget-Alternativen",
+  "anchor_plan": "14-Tage-Plan",
+  "anchor_roster": "Roster",
+  "anchor_faq": "FAQ",
+  "img_alt_battle": "Offizieller Steam-Store-Screenshot des Epic-Seven-Kampfs — Steam-CDN-Quellenangabe",
+  "img_alt_calendar": "Selbst gezeichnete Foundry-Kalender-Grafik: Launch-Buffs, Guild War, World Arena und das Fenster bis 12/31",
+  "why_h2": "Warum das keine weitere globale Tier-Liste ist",
+  "why_p1": "Öffentliche Tier-Listen wie epic7db und Prydwen bewerten das volle Roster für den aktuellen Patch. Sie sind nützlich, wenn du die meisten Helden besitzt und die absolut beste Wahl willst. Weniger nützlich sind sie, wenn dein Konto eine Woche alt ist, deine Ausrüstung aus einem einzigen Wyvern-Set besteht oder du gerade einen Alt-Login umgestellt hast und dir kein zweites Roster auf Foundry leisten kannst.",
+  "why_p2": "Unsere Perspektive ist enger und praktischer: kostenlose oder günstige Einheiten, die du auf einem Steam-/Foundry-Konto wirklich bekommst, plus eine kleine Auswahl oft zitierter GW/WA-Standards, die die Rollen zeigen, die dein Starter-Roster nicht abdeckt. Wo wir diese Standards nennen, wiederholen wir den öffentlichen Konsens, statt ein neues Ranking zu erfinden. Prüfe die verlinkten Quellen für vollständige Kits, aktuelle Patch Notes und die absolute PvP-Einordnung.",
+  "why_p3": "Die Ressourcengrenze ist der ganze Punkt. Ein Transfer-Konto behält Fortschritt, Käufe und nicht abgeholte Belohnungen, aber Foundry ist eine separate Server-Spur mit eigenen Charakteren und eigenem Matchmaking. Du bekommst keine zweite Ausrüstungsbibliothek, keinen zweiten Molagora-Vorrat und keinen automatischen Foundry-Zugang. Das ändert die Antwort von „den besten Helden bauen“ zu „das kleinste Roster bauen, das das nächste Gate schafft“.",
+  "not_h2": "Was wir bewusst nicht tun",
+  "not_p": "Wir veröffentlichen kein globales Ranking mit 100 Helden, keine Sternebewertungen und keine erfundenen Multiplikatoren. Wir scrapen oder kopieren keine Tabelle einer anderen Seite. Wir verlinken öffentliche Referenzen und halten die Steam-/Foundry-Szenariohinweise eigenständig.",
+  "consensus": [
+    {
+      "name": "epic7db — hero database & tier lists",
+      "href": "https://epic7db.com/",
+      "note": "Referenz für das volle Roster; nützlich, sobald du die meisten Helden besitzt."
+    },
+    {
+      "name": "Prydwen — Epic Seven",
+      "href": "https://www.prydwen.gg/epic-seven/",
+      "note": "PvE-/PvP-Rankings und Builds pro Patch."
+    },
+    {
+      "name": "epic7x — hero pages",
+      "href": "https://epic7x.com/",
+      "note": "Kit-Texte und Multiplikatoren; im Client prüfen."
+    },
+    {
+      "name": "STOVE — Epic Seven notices",
+      "href": "https://page.onstove.com/epicseven/global",
+      "note": "Offizielle Zeitpläne, Foundry-Daten und Patch Notes."
+    }
+  ],
+  "bands_h2": "Was die Bänder bedeuten",
+  "bands_intro": "Lies jedes Band als Investitionsanweisung für ein ressourcenbegrenztes Konto, nicht als Urteil über die absolute Stärke des Helden. Ein Held kann hier A sein und in einem anderen Roster trotzdem die beste Wahl.",
+  "bands_th": [
+    "Band",
+    "Label",
+    "Was es für ein Steam-/Transfer-Konto bedeutet"
+  ],
+  "bands": [
+    {
+      "tier": "S",
+      "label": "Zuerst bauen",
+      "meaning": "Szenario-prägend; schaltet das nächste Gate frei oder deckt die Rolle ab, die dein Konto nicht überspringen kann.",
+      "action": "Leveln, erwecken und zuerst die beste Ausrüstung geben."
+    },
+    {
+      "tier": "A",
+      "label": "Als Nächstes bauen",
+      "meaning": "Stark und flexibel; deckt eine Rolle ab, die dein S-Kern nicht abdeckt, oder verbessert eine kostenlose Option.",
+      "action": "Bauen, sobald dein S-Kern ein brauchbares Ausrüstungsset hat."
+    },
+    {
+      "tier": "B",
+      "label": "Budget / situativ",
+      "meaning": "Nützlich mit kostenloser Ausrüstung oder in einem bestimmten Slot; keine Priorität gegenüber dem S/A-Kern.",
+      "action": "Auf brauchbarem Level halten; nicht nach perfekter Ausrüstung jagen."
+    },
+    {
+      "tier": "C",
+      "label": "Vorerst überspringen",
+      "meaning": "Geringer Ertrag für ein Steam-/Foundry-Konto, bis Roster und Ausrüstungsbibliothek größer sind.",
+      "action": "Noch kein Molagora oder keine Charms ausgeben."
+    }
+  ],
+  "bands_note": "Die Tier-Buchstaben sind die Build-Bänder dieser Seite. Sie sind keine offiziellen Bewertungen und ersetzen weder Full-Roster-Rankings noch Tests im Client.",
+  "constraints_h2": "Ressourcenrealität nach dem Transfer",
+  "constraints_intro": "Der Transfer löst das Login-Problem, nicht das Ressourcenproblem. Diese Grenzen ändern die Build-Reihenfolge.",
+  "constraints": [
+    "Ein Ausrüstungsset, nicht zwei. Der Transfer behält, was auf deinen Alt-Helden liegt; er dupliziert keine Ausrüstung für Foundry. Verschiebe deine besten Speed-/Effektivitäts-Teile zu dem Helden, den du wirklich einsetzt – nicht zu dem mit dem höchsten Tier-Abzeichen.",
+    "Molagora ist der eigentliche Engpass. Eine Tier-Liste mit 20 Helden ist kein Build-Plan. Skille zuerst vier bis sechs Helden; lass den Rest bei +0, bis sie einen festen Slot haben.",
+    "Gold und Charms verschwinden schneller als Bookmarks. Schmiede nicht jeden Drop neu. Wähle ein Wyvern-Team, farme ein Set und höre auf, wenn die Hauptwerte brauchbar sind.",
+    "Leifs sind für Buff-Fenster da, nicht für Ungeduld. Foundry-Starter-Buffs und Feier-Post laufen mit eigenen Timern; prüfe STOVE, bevor du Leifs an einem Tag ohne Buff verbrennst.",
+    "Bookmarks sind eine Banner-Entscheidung, keine Tier-Entscheidung. Dass ein Held auf dieser Seite S ist, heißt nicht, jetzt zu ziehen. Prüfe [[Banner|/banners/]] für das aktuelle Pickup und bestätige den Pity-Stand im Client.",
+    "Foundry ist kein Transfer-Ziel. Ein umgestellter Alt-Login bleibt auf seinem Server; Foundry-GW/WA brauchen einen Foundry-Charakter. Plane separat, wenn du beides spielst.",
+    "Lösche das Ingame-Konto nach dem Transfer nicht, um die Demo „aufzuräumen“. Die [[Demo-Warnung|/demo-delete-warning/]] existiert, weil diese Aktion den Fortschritt auf dem Original-Server entfernen kann.",
+    "Daten schlagen Tier-Listen. Foundry-Guild-War ist um 2026-11-21 03:00 UTC angekündigt, World Arena nach der Wartung am 2026-12-10. Baue auf das Datum, an dem du wirklich ein Team aufstellen kannst."
+  ],
+  "pve_h2": "PvE- / Steam-Onboarding-Band",
+  "pve_intro": "Das ist die Liste „das nächste Gate schaffen“: Story, Wyvern und das erste stabile Hunt-Team. Auf einem neuen Steam-/Foundry-Konto erledigen kostenlose Spezialisierungswechsel-Einheiten den Großteil der Arbeit; Banner-Helden sind optionale Beschleuniger. Wenn du bereits ein ausgerüstetes Alt-Konto umgestellt hast, kannst du dieses Band größtenteils überspringen und direkt zu Guild War und World Arena gehen.",
+  "pve_note": "PvE-Bänder belohnen Zuverlässigkeit und geringe Ausrüstungskosten. Ein Held, der mit kostenloser Speed-Ausrüstung räumt, ist für ein neues Konto mehr wert als ein Premium-Held, der ein volles Set braucht, das du nicht besitzt.",
+  "gw_h2": "Guild-War-Band (Foundry-Freischaltung um 2026-11-21)",
+  "gw_answer": "Für Guild War baue einen Tank, der einen Turm halten kann, einen Revive-/Reinigungs-Support und einen Schadensverursacher, den du offensiv und defensiv einsetzen kannst. Baue nicht zwölf Guild-War-Helden; baue vier, die beide Seiten abdecken.",
+  "gw_intro": "Guild War belohnt Rollenabdeckung mehr als rohe Tier-Stärke. Ein Team, das die ersten zwei Züge überlebt und einen Revive recycelt, ist meist nützlicher als eine Glaskanone, die einen Angriff gewinnt und jede Verteidigung verliert. Foundry-Guild-War ist laut STOVEs Feier-Tabelle um 2026-11-21 03:00 UTC angesetzt; prüfe den Live-Hinweis erneut, bevor du Gilden-Resets planst.",
+  "gw_off_h3": "Offensiv-Kern",
+  "gw_off_note": "Offensive will einen zuverlässigen Opener, einen Defense-Break oder Strip und einen Schadensverursacher, der keine perfekte Ausrüstung braucht. Speed-Tuning ist wichtiger als ein hohes Tier-Abzeichen.",
+  "gw_def_h3": "Defensiv-Kern",
+  "gw_def_note": "Defensive will einen Tank, eine Reinigung/einen Revive und genug Effektwiderstand, um die erste Kontrollwelle zu überleben. Ein Verteidigungsteam, das verzögert, erfüllt seine Aufgabe auch dann, wenn es nicht tötet.",
+  "gw_prep_h3": "Checkliste vor der Öffnung",
+  "gw_prep": [
+    "Bestätige, dass dein Charakter auf dem richtigen Server ist. Eine Alt-Gilde zählt nicht als Foundry-Guild-War-Roster.",
+    "Tritt vor dem Freischaltdatum einer Gilde bei oder gründe eine, und stelle sicher, dass die Anfrage „Angenommen“ und nicht „Ausstehend“ zeigt.",
+    "Erledige tägliche Gildenmissionen und spende im Limit; verpasste Beitragstage summieren sich nicht.",
+    "Stelle Offensiv- und Defensivteams am Tag der Annahme der Mitgliedschaft auf und prüfe sie nach jeder Wartung erneut.",
+    "Nutze die Foundry Draft Arena als Übung: Stelle einen Tank, einen Reiniger und einen Heiler auf, die du auch defensiv nutzen kannst.",
+    "Gib keine Leifs oder Gildenwährung für einen Helden aus, der nur auf einer Kriegsseite funktioniert."
+  ],
+  "gw_link_label": "Details zu Foundry Guild War",
+  "wa_h2": "World-Arena-Band (Foundry-Freischaltung nach 2026-12-10)",
+  "wa_answer": "World Arena belohnt Draft-Abdeckung: Speed-/CR-Opener, Kontrolle und ein oder zwei Counterpicks. Für ein ressourcenbegrenztes Konto baue einen schnellen Opener und einen flexiblen Schadensverursacher, bevor du Nischen-Counter jagst.",
+  "wa_intro": "World Arena ist nicht Guild War mit einem anderen Button. Du brauchst einen Plan für Zugreihenfolge, Reinigung und Ban/Pick des Gegners. Die Helden, die ein Starter-Konto tragen, sind meist die, die die Zugkette starten oder die Kette des Gegners stoppen – nicht die mit dem höchsten PvE-Schaden.",
+  "wa_draft_h3": "Draft-Faustregeln",
+  "wa_draft": [
+    "Wähle zuerst einen Speed-Opener; ohne Zugreihenfolge ist der Rest des Drafts Dekoration.",
+    "Füge eine Reinigungs- oder Immunitätsoption hinzu, damit eine einzelne Kontrolleinheit nicht das Match beendet.",
+    "Halte einen Schadensverursacher flexibel genug, um einen tanklastigen Draft zu bestrafen.",
+    "Drafte nicht drei Einheiten, die alle denselben Support brauchen; ein gebannter Support lässt dich ohne Plan zurück.",
+    "Prüfe die Live-Ban/Pick-Regeln im Client; sie können von der vorherigen Saison abweichen."
+  ],
+  "wa_counter_h3": "Budget-Counterpicks",
+  "wa_counter": [
+    "Anti-Cleave: ein Barrier-/Reinigungs-Support plus eine Einheit, die das erste AoE bestraft.",
+    "Anti-Tank: ein Defense-Break- oder HP-skalierender Schadensverursacher; roher Angriff allein verzögert nur.",
+    "Anti-Kontrolle: Immunität/Reinigung plus Effektwiderstand auf der Einheit, die handeln muss.",
+    "Budget-Lösung: Nutze den PvE-Kern mit einem Speed-Set wieder; baue kein separates World-Arena-Roster von null auf."
+  ],
+  "wa_note": "Genaue Pick/Ban-Regeln und Saisonbelohnungen sind Client-/offizielle Angaben. Diese Seite behandelt nur die Build-Reihenfolge für ein Steam-/Transfer-Konto.",
+  "budget_h2": "Budget-Alternativen: Wer die Aufgabe günstiger erledigt",
+  "budget_intro": "Bevor du einem Premium-Banner nachjagst, prüfe, ob eine kostenlose oder bereits vorhandene Einheit dieselbe Aufgabe übernimmt. Eine günstigere Einheit mit der richtigen Geschwindigkeit kann einen unausgerüsteten Premium-Helden schlagen.",
+  "budget_th": [
+    "Bedarf",
+    "Budget-/kostenlose Option",
+    "Warum es funktioniert"
+  ],
+  "budget": [
+    [
+      "Reinigung + Heilung",
+      "Angelic Montmorancy",
+      "Spezialisierungswechsel; kostenlos und weiterhin ein echter Reinigungs-/Heilungsslot."
+    ],
+    [
+      "Defense Break + CR",
+      "Falconer Kluri",
+      "Spezialisierungswechsel; öffnet Hunt und Guild-War-Offensive ohne Premium-Ausrüstung."
+    ],
+    [
+      "Single-Target-Schaden",
+      "Commander Lorina",
+      "Spezialisierungswechsel; langfristiger PvE-Schaden, der kein limitiertes Banner braucht."
+    ],
+    [
+      "Wyvern-Farmer",
+      "Alexa",
+      "Gängiger Double-Attack-Farmer; harmoniert mit Furious und einem Tank."
+    ],
+    [
+      "Guild-War-Tank",
+      "Ras / Fallen Cecilia",
+      "Ras ist kostenlos und früh brauchbar; Fallen Cecilia ist laut öffentlichem Konsens das Upgrade, wenn du sie besitzt."
+    ],
+    [
+      "Revive / GW-Verteidigung",
+      "Ruele of Light / Maid Chloe",
+      "Defensive Supports laut öffentlichem Konsens; nur nutzen, wenn bereits vorhanden – jage keinem Banner für einen Verteidigungsslot nach, den du nicht ausrüsten kannst."
+    ],
+    [
+      "World-Arena-Speed-Opener",
+      "Judith / Silk",
+      "Kostenlose CR-Werkzeuge für den Anfang; ersetze sie durch einen Premium-Opener, wenn du die Ausrüstung hast."
+    ],
+    [
+      "World-Arena-Kontrolle",
+      "Cerise / Fairytale Tenebria",
+      "Weit zitierte Kontroll-Picks; prüfe den aktuellen Patch, bevor du investierst."
+    ]
+  ],
+  "plan_h2": "Ein 14-Tage-Build-Plan für ein umgestelltes oder neues Steam-Konto",
+  "plan_intro": "Zwei Wochen reichen, um ein PvE-Team und einen Guild-War-Kern aufzustellen, wenn du aufhörst, Ressourcen zu streuen. Passe es an deine tatsächliche Spielzeit an; die Reihenfolge zählt mehr als der Kalender.",
+  "plan": [
+    "Tag 1: Entscheide den Konto-Weg. Alt-Fortschritt behalten? Stelle STOVE→Steam vor einem frischen Login um. Start auf Foundry? Akzeptiere, dass es ein separates Roster ist. Lies zuerst [[Steam-Transfer|/steam-transfer/]] und [[Foundry|/foundry/]].",
+    "Tag 1–2: Wähle vier Helden, nicht zwölf. Ein Farmer, ein Defense-Break, eine Reinigung/Heilung, ein Schadensverursacher. Lege deine beste Speed-Ausrüstung auf den Opener.",
+    "Tag 3–5: Räume die erste Wyvern-Stufe mit dem kostenlosen Kern. Schmiede keine Off-Set-Ausrüstung neu; behalte Gold für die Teile, die du wirklich trägst.",
+    "Tag 6–8: Schließe die gewählten Spezialisierungswechsel ab. Beginne kein fünftes Projekt, nur weil ein Banner gut aussah.",
+    "Tag 9–10: Baue den Guild-War-Verteidigungskern (Tank + Reinigung/Revive). Teste ihn in der Draft Arena vor der Freischaltung am 2026-11-21.",
+    "Tag 11–12: Stelle Offensive und Defensive auf, tritt einer Gilde bei und bestätige den Status „Angenommen“. Erledige tägliche Gildenmissionen.",
+    "Tag 13–14: Starte den World-Arena-Opener. Ein Speed-Set, eine Reinigungsoption, ein flexibler Schadensverursacher. Spare den Rest für das WA-Fenster am 2026-12-10."
+  ],
+  "roster_h2": "Die 12 Helden auf dieser Seite (Avatare auf der Website)",
+  "roster_intro": "Das sind dieselben 12 Karten, die auf [[Helden|/heroes/]] dokumentiert sind, damit Artwork und Namen auf der Website bleiben. Die Tier-Buchstaben unter jeder Karte sind die Szenario-Bänder dieser Seite, keine offiziellen Bewertungen.",
+  "hero_notes": {
+    "ras": "Kostenloser Ritter und Story-Anker. Früher Tank für PvE und ein brauchbarer Guild-War-Körper, wenn du keinen Premium-Tank hast.",
+    "mercedes": "Starter-AoE-Magierin. Gut für Story-Durchläufe; keine Priorität, sobald ein echter Farmer läuft.",
+    "aither": "Früher Heiler. Wechsle so bald wie möglich zu Angelic Montmorancy oder einem anderen Reinigungs-Support.",
+    "judith": "Kostenloser CR-Pusher. Ein Budget-World-Arena-Opener, bis du eine Premium-Speed-Einheit besitzt.",
+    "angelic-montmorancy": "Kostenloser Reinigungs-/Heilungs-Spezialisierungswechsel. Die beste frühe Support-Investition auf einem ressourcenbegrenzten Konto.",
+    "falconer-kluri": "Spezialisierungswechsel für Defense Break und CR. Öffnet Hunt und Guild-War-Offensive ohne Premium-Ausrüstung.",
+    "commander-lorina": "Spezialisierungswechsel für Single-Target-Schaden. Langsam aufzubauen, aber eine langfristige PvE-Antwort, die kein limitiertes Banner braucht.",
+    "alexa": "Wyvern-Farmerin. Baue sie für eine Aufgabe und höre dann auf; sie ist kein Guild-War- oder World-Arena-Pick.",
+    "furious": "Defense Break und Ziel für Wyvern. Ein PvE-Enabler; halte ihn auf der PvE-Seite des Kontos.",
+    "silk": "Kostenloser CR-Push. Nützlich, solange dir ein Speed-Opener fehlt; ersetze sie, statt überzuinvestieren.",
+    "vildred": "Erd-Cleave-Schaden. Beschleunigt Story und einige PvE-Farms; fällt in einem ernsthaften World-Arena-Draft ab.",
+    "luna": "Der Foundry-Feier-Pfad hebt oft einen limitierten Luna-Beitritt um Rang 70 hervor – bestätige das auf STOVE. Starker PvE-Schaden; keine universelle GW/WA-Antwort.",
+    "tamarinne": "Heilung, Reinigung und CR in einem Slot. Der übliche Upgrade-Pfad von Aither oder Montmorancy für Spieler, die sie besitzen.",
+    "fallen-cecilia": "Dunkler Ritter für Guild-War-Verteidigung. Wenn du sie besitzt, ist sie meist der erste Tank, den du ausrüstest.",
+    "ruele-of-light": "Defensiver Revive-/Reinigungs-Support. Ein Guild-War-Verteidigungsstandard, wenn er mit einem echten Tank kombiniert wird.",
+    "seaside-bellona": "AoE-Debuff-Schaden, der in PvE und beiden PvP-Modi funktioniert. Flexibel, aber ausrüstungshungrig.",
+    "specter-tenebria": "Single-Target-Dunkelschaden mit Debuff-Druck. Ein Guild-War-/WA-Pick, kein Starter-Farmer.",
+    "arbiter-vildred": "Cleave-/Revive-Bedrohung und ein häufiger World-Arena-Opener. Teuer auszurüsten; jage ihm nicht nach, bevor dein PvE-Kern steht.",
+    "politis": "Anti-Cleave und CR-Störung. Eine World-Arena-Antwort auf Speed-Drafts; im PvE nischig.",
+    "cerise": "Kontroll-Opener für World Arena. Stark, wenn der Draft sie zuerst handeln lässt; prüfe den aktuellen Patch."
+  },
+  "beyond_h2": "Acht GW/WA-Standards jenseits der Starter-12",
+  "beyond_intro": "Diese Namen werden in der öffentlichen Epic-Seven-PvP-Diskussion häufig zitiert. Wir listen sie, um zu zeigen, welche Rollen dein Starter-Roster nicht abdeckt; wir behaupten kein neues globales Ranking. Prüfe Kits und aktuelle Einordnung in den verlinkten Referenzen.",
+  "banners_h2": "Banner: Wann eine Tier-Liste die Entscheidung nicht treffen sollte",
+  "banners_p": "Das Band eines Helden auf dieser Seite ist keine Pull-Empfehlung. Banner-Timing, Pity und Raten stehen im Client; Zeitplan-Hinweise stehen auf [[Banner|/banners/]]. Wenn ein Pickup keinen deiner vier offenen Slots füllt, überspringe es. Wenn du auf Foundry bist, denk daran, dass der Rang-70-Luna-Pfad und die täglichen kostenlosen Covenant-Beschwörungen Feier-Belohnungen mit eigenem Zeitfenster sind – kein Grund, deinen Build-Plan aufzugeben. Siehe [[Foundry|/foundry/]] für den Kalender und [[FAQ|/faq/]] für Transfer-Fragen.",
+  "faq_h2": "Tier-Listen-FAQ",
+  "faqs": [
+    [
+      "Ist das eine globale Epic-Seven-Tier-Liste?",
+      "Nein. Sie ordnet die Build-Priorität für Steam-/Foundry- und umgestellte Konten ein. Für Full-Roster-Rankings nutze epic7db oder Prydwen; wir verlinken sie und veröffentlichen ihre Tabellen nicht erneut."
+    ],
+    [
+      "Verschiebt ein Kontotransfer meine Helden auf Foundry?",
+      "Nein. Der Transfer behält Alt-Fortschritt, Käufe und nicht abgeholte Belohnungen, aber Foundry ist eine separate Server-Spur mit eigenen Charakteren und eigenem Matchmaking. Ein Alt-Erbe tritt nicht automatisch Foundry-Guild-War oder World Arena bei."
+    ],
+    [
+      "Wen sollte ich auf einem neuen Steam-Konto zuerst bauen?",
+      "Einen PvE-Kern: Angelic Montmorancy, Falconer Kluri, Commander Lorina und einen Farmer wie Alexa. Füge Furious hinzu, wenn dein Wyvern-Team Defense Break braucht. Beginne nicht zwölf Projekte."
+    ],
+    [
+      "Was ändert sich für Guild War?",
+      "Rollenabdeckung: ein Tank, ein Reinigungs-/Revive-Support und ein Schadensverursacher, den du auf beiden Seiten einsetzen kannst. Foundry-GW ist um 2026-11-21 03:00 UTC angekündigt; bestätige den Live-STOVE-Hinweis und die Gildenmitgliedschaft."
+    ],
+    [
+      "Was ändert sich für World Arena?",
+      "Zugreihenfolge und Draft-Abdeckung: ein Speed-/CR-Opener, eine Reinigungs-/Immunitätsoption, ein flexibler Schadensverursacher und ein Counterpick. Foundry-WA ist nach der Wartung am 2026-12-10 angekündigt."
+    ],
+    [
+      "Kann ich meine Alt-Ausrüstung auf Foundry nutzen?",
+      "Nur was du tatsächlich mitnimmst oder neu farmst. Der Transfer dupliziert weder Ausrüstung noch Molagora. Behandle Foundry als separates Ressourcenbudget, es sei denn, du spielst den Alt-Charakter nur auf Steam."
+    ],
+    [
+      "Sollte ich einen Helden ziehen, weil er auf dieser Seite S ist?",
+      "Nein. Bänder sind Build-Priorität, keine Banner-Empfehlung. Prüfe das aktuelle Pickup auf /banners/, deinen Pity-Stand im Client und ob der Held einen offenen Slot füllt."
+    ],
+    [
+      "Wie oft wird diese Seite aktualisiert?",
+      "Dieser Stand spiegelt öffentliche STOVE-/Steam-Informationen vom 2026-11-03. Prüfe STOVE nach der Wartung erneut; Zeitpläne und PvP-Einordnung können sich ändern."
+    ]
+  ],
+  "sources_h2": "Quellen & wie du sie prüfst",
+  "sources_note": "Offizielle Daten und Transfer-Regeln: STOVE/Steam. Full-Roster-Rankings und Kits: epic7db, Prydwen, epic7x. Die Steam-/Transfer-Szenariohinweise dieser Seite sind eigenständig; wenn ein offizieller Hinweis dieser Seite widerspricht, gewinnt der offizielle Hinweis.",
+  "related_h2": "Verwandte Seiten auf dieser Website",
+  "related": [
+    [
+      "/heroes/",
+      "Helden — 12 Karten auf der Website"
+    ],
+    [
+      "/foundry/#server-guide",
+      "Foundry-Server-Guide"
+    ],
+    [
+      "/foundry/#guild-war",
+      "Vorbereitung auf Foundry Guild War"
+    ],
+    [
+      "/steam-transfer/",
+      "STOVE → Steam-Transfer"
+    ],
+    [
+      "/banners/",
+      "Banner & Pickups"
+    ],
+    [
+      "/faq/",
+      "FAQ & Fehlerbehebung"
+    ]
+  ],
+  "last_before": "Zuletzt geprüft: ",
+  "last_after": " (Steam-/Transfer-Perspektive · prüfe STOVE-Daten und Live-PvP-Regeln)"
+}

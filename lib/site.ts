@@ -24,9 +24,19 @@ export const CONTACT_PRIVACY = `privacy@${TARGET_DOMAIN}`;
 export const GA4_MEASUREMENT_ID = 'G-QY1D1CDXDZ';
 
 /** L1 locales. Path for Traditional Chinese is /zh-tw/; hreflang uses zh-Hant. */
-export type Locale = 'en' | 'ko' | 'ja' | 'zh-tw';
+export type Locale = 'en' | 'ko' | 'ja' | 'zh-tw' | 'th' | 'es' | 'pt' | 'de' | 'fr';
 export const DEFAULT_LOCALE: Locale = 'en';
-export const LOCALES: readonly Locale[] = ['en', 'ko', 'ja', 'zh-tw'] as const;
+export const LOCALES: readonly Locale[] = [
+  'en',
+  'ko',
+  'ja',
+  'zh-tw',
+  'th',
+  'es',
+  'pt',
+  'de',
+  'fr',
+] as const;
 export const NON_DEFAULT_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
 
 export const LOCALE_LABELS: Record<Locale, string> = {
@@ -34,6 +44,11 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   ko: '한국어',
   ja: '日本語',
   'zh-tw': '繁體中文',
+  th: 'ไทย',
+  es: 'Español',
+  pt: 'Português',
+  de: 'Deutsch',
+  fr: 'Français',
 };
 
 /** HTML lang attribute (zh-tw → zh-Hant). */
@@ -51,6 +66,11 @@ export const OG_LOCALE: Record<Locale, string> = {
   ko: 'ko_KR',
   ja: 'ja_JP',
   'zh-tw': 'zh_TW',
+  th: 'th_TH',
+  es: 'es_ES',
+  pt: 'pt_BR',
+  de: 'de_DE',
+  fr: 'fr_FR',
 };
 
 export function localeDir(_locale: Locale | string): 'ltr' {

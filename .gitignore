@@ -12,3 +12,6 @@ out/
 .env*.local
 __pycache__/
 *.pyc
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo

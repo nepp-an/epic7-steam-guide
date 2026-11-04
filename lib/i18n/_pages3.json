@@ -1,1 +1,1798 @@
-{"/steam-notes/": {"en": {"title": "Epic Seven Steam-specific notes", "meta": "STOVE link, anti-cheat, languages, system requirements, cross-play. Independent guide.", "h1": "Steam-specific notes", "lead": "Practical differences on the Steam build vs mobile / STOVE PC. Drawn from public Steam store + STOVE FAQ.", "acct_h2": "Account & platform", "acct": ["Steam requires a third-party STOVE account (supports linking to Steam).", "Convert existing email/SNS → Steam login to keep progress (guide).", "Cross-play across Steam, STOVE PC, and mobile (per FAQ).", "Steam can play new and existing worlds; Foundry has separate matchmaking for listed PvP modes."], "sec_h2": "Client & security", "sec": ["Steam store lists kernel-level anti-cheat UNCHEATER. Expect elevated prompts; locked-down PCs may block launch.", "Third-party EULA agreement required.", "Free-to-play with in-app purchases; Family Sharing flagged on store."], "lang_h2": "Languages (Steam listing)", "lang": "Interface includes EN/KR/JP/ZH(trad/simp)/DE/FR/ES/PT/TH (per launch notice). Voice at launch: Korean / English; Japanese VO delayed with later resume planned.", "spec_h2": "System requirements (Steam minimum)", "specs": [["OS", "Windows 10 64-bit+"], ["CPU", "Intel i5 or higher (min)"], ["RAM", "8 GB (min) / 16 GB (rec)"], ["GPU", "GTX 1060+ (min) / GTX 1660+ (rec)"], ["Storage", "~10 GB"]], "get_h2": "Get the game", "cta": "Official Steam store — Epic Seven", "related_h2": "Related"}, "ko": {"title": "Epic Seven Steam 전용 안내", "meta": "STOVE 연동, 안티치트, 언어, 사양, 크로스플레이. 비공식 가이드.", "h1": "Steam 전용 안내", "lead": "Steam 빌드와 모바일/STOVE PC 차이 실무 요약. 공개 Steam 스토어·STOVE FAQ 기준.", "acct_h2": "계정·플랫폼", "acct": ["Steam은 제3자 STOVE 계정 필요(Steam 연동 지원).", "기존 이메일/SNS→Steam 전환으로 진행도 유지(가이드).", "Steam·STOVE PC·모바일 크로스플레이(FAQ).", "Steam은 신/기존 월드 가능; 파운드리 일부 PvP는 서버 내 매칭."], "sec_h2": "클라이언트·보안", "sec": ["커널급 안티치트 UNCHEATER 표기. 권한 상승 가능, 잠긴 PC는 실행 불가.", "제3자 EULA 동의 필요.", "F2P+인앱결제; Family Sharing 표기."], "lang_h2": "언어(Steam 표기)", "lang": "인터페이스: EN/KR/JP/ZH(번/간)/DE/FR/ES/PT/TH 등(런칭 공지). 음성: 한/영; 일본어 VO는 런칭 시 지연·추후 예정.", "spec_h2": "시스템 요구(최소)", "specs": [["OS", "Windows 10 64비트+"], ["CPU", "Intel i5 이상(최소)"], ["RAM", "8GB(최소)/16GB(권장)"], ["GPU", "GTX 1060+(최소)/1660+(권장)"], ["저장", "약 10GB"]], "get_h2": "게임 받기", "cta": "공식 Steam 스토어 — Epic Seven", "related_h2": "관련"}, "ja": {"title": "Epic Seven Steam固有メモ", "meta": "STOVE連携、アンチチート、言語、スペック、クロスプレイ。非公式ガイド。", "h1": "Steam固有メモ", "lead": "Steam版とモバイル/STOVE PCの実務差。公開ストア＋FAQ準拠。", "acct_h2": "アカウント・平台", "acct": ["Steamは第三者STOVE必須（Steam連携可）。", "既存メール/SNS→Steam変換で進行維持（ガイド）。", "Steam・STOVE PC・モバイルでクロスプレイ（FAQ）。", "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内。"], "sec_h2": "クライアント・セキュリティ", "sec": ["カーネル級UNCHEATER。昇格プロンプトあり、管理PCは起動不可も。", "第三者EULA同意が必要。", "F2P＋アプリ内課金；Family Sharing表記。"], "lang_h2": "言語（Steam表記）", "lang": "UI：EN/KR/JP/ZH（繁/簡）/DE/FR/ES/PT/TH等。音声：韓/英；日本語VOは発売時遅延・後日予定。", "spec_h2": "動作環境（最低）", "specs": [["OS", "Windows 10 64bit+"], ["CPU", "Intel i5以上（最低）"], ["RAM", "8GB（最低）/16GB（推奨）"], ["GPU", "GTX1060+（最低）/1660+（推奨）"], ["容量", "約10GB"]], "get_h2": "入手", "cta": "公式Steamストア — Epic Seven", "related_h2": "関連"}, "zh-tw": {"title": "Epic Seven Steam 專屬說明", "meta": "STOVE 連結、反作弊、語言、規格、跨平台。非官方指南。", "h1": "Steam 專屬說明", "lead": "Steam 版相對手機／STOVE PC 的實務差異。依公開商店與 FAQ。", "acct_h2": "帳號與平台", "acct": ["Steam 需第三方 STOVE 帳（可連結 Steam）。", "Email/SNS→Steam 以保留進度（指南）。", "Steam、STOVE PC、手機跨平台（FAQ）。", "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。"], "sec_h2": "客戶端與安全", "sec": ["標示核心層級 UNCHEATER。可能出現權限提示；鎖定電腦可能無法啟動。", "需同意第三方 EULA。", "免費＋內購；商店標 Family Sharing。"], "lang_h2": "語言（Steam 標示）", "lang": "介面含英／韓／日／繁簡中／德／法／西／葡／泰等。語音：韓／英；日語 VO 上架時延後、計畫後日恢復。", "spec_h2": "系統需求（最低）", "specs": [["OS", "Windows 10 64 位以上"], ["CPU", "Intel i5 以上（最低）"], ["RAM", "8GB（最低）／16GB（建議）"], ["GPU", "GTX 1060+（最低）／1660+（建議）"], ["容量", "約 10GB"]], "get_h2": "取得遊戲", "cta": "官方 Steam 商店 — Epic Seven", "related_h2": "相關"}}, "/foundry/": {"en": {"title": "Foundry server — calendar through Dec 31, rewards, Guild War", "meta": "Foundry schedule: Draft Arena, Guild War 2026-11-21, World Arena 2026-12-10, buffs through 12/31. Cite STOVE.", "h1": "Foundry — schedule & rewards", "lead": "Foundry opened with the Steam launch. Listed PvP matchmaking is Foundry-only initially. Living calendar — re-check official notices.", "as_of": "Snapshot around 2026-10-29. Times UTC unless noted.", "unlock_h2": "Content unlock calendar", "th": ["Feature", "Open (UTC)", "Source note"], "unlock": [["Foundry + Steam launch", "2026-10-29 after maint", "Launch notice"], ["Draft Arena", "2026-10-29 after maint", "Foundry-only matchmaking"], ["Guild War", "2026-11-21 03:00", "STOVE Foundry open notice"], ["World Arena", "2026-12-10 after maint", "STOVE schedule table"]], "cal_h2": "Calendar through 2026-12-31", "th2": ["Event / buff", "Start", "End"], "events": [["Starter Support Full Buff", "10/29 after maint", "12/31 02:59"], ["Rank 70 Luna Joins", "10/29 after maint", "12/31 02:59"], ["Summon Support (daily free Covenant)", "10/29 after maint", "12/31 02:59"], ["Get Ready! World Arena points", "10/29 after maint", "12/31 02:59"], ["Foundry Welcome login gift (skin)", "10/29 after maint", "12/31 02:59 (once)"], ["Foundry mailbox growth pack", "10/29 after maint", "11/26 14:59"], ["Steam 100k wishlist mail (Foundry login)", "10/29 after maint", "~11/19 03:00"], ["Emergency Mission: Catalyst week 1", "10/29 after maint", "11/5 02:59"], ["Emergency Mission: Charm week 1", "11/5 03:00", "11/12 02:59"], ["Emergency Mission: Catalyst week 2", "11/12 03:00", "11/19 02:59"], ["Emergency Mission: Charm week 2", "11/19 after maint", "11/26 02:59"], ["Secret Rabbit♥Hole + Case Files", "10/29 after maint", "~6 weeks"], ["Daily Investigation / Lucky Board", "10/29 after maint", "11/19 02:59"], ["Bunny Girl Party Hall lobby pack", "10/29 after maint", "12/10 02:59"], ["Guild War", "11/21 03:00", "ongoing"], ["World Arena", "12/10 after maint", "ongoing"]], "buff_h2": "Starter Support buffs", "buffs": ["Growth: +50% catalyst points; 2× Spirit Altar rune drop; +30% hero EXP / gold / account rank EXP; 2× Arena conquest points", "Hunt: +50% hunt craft material drop; +10% Otherworld Breach & Hunt otherworldly equipment drop", "Stacks with new / returning player buffs (per notice)"], "reward_h2": "Reward highlights", "rewards": [["Luna Joins (Rank 70)", "Limited 5★ Luna, Glacial Purity skin, Experienced Penguins ×15."], ["Summon Support", "+20 free Covenant summons daily (up to 1,260 over the window) + Belche SD sticker once."], ["Login gifts", "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). Mailbox pack through ~11/26 — claim before 7-day expiry."], ["World Arena prep ladder", "Arena points → charms, Demon cursed accessories, Lv.85 chests, Skin Tickets — full ladder on STOVE."]], "side_h2": "Side story", "side": "Deep dive: Secret Rabbit♥Hole (Case Files, Lucky Board, lobby pack).", "src_h2": "Sources"}, "ko": {"title": "파운드리 — 12/31까지 캘린더·보상·길드전", "meta": "드래프트, 길드전 2026-11-21, 월드아레나 2026-12-10, 버프~12/31. STOVE 인용.", "h1": "파운드리 — 일정·보상", "lead": "Steam 런칭과 함께 열린 신서버. 초기 명시 PvP는 파운드리 매칭. 공식 공지를 재확인하세요.", "as_of": "2026-10-29 전후 스냅샷. 시간은 UTC.", "unlock_h2": "콘텐츠 해금 캘린더", "th": ["콘텐츠", "오픈(UTC)", "출처"], "unlock": [["파운드리+Steam 런칭", "2026-10-29 점검 후", "런칭 공지"], ["드래프트 아레나", "2026-10-29 점검 후", "파운드리 매칭"], ["길드전", "2026-11-21 03:00", "STOVE 파운드리 오픈"], ["월드 아레나", "2026-12-10 점검 후", "STOVE 일정표"]], "cal_h2": "2026-12-31까지 캘린더", "th2": ["이벤트/버프", "시작", "종료"], "events": [["스타터 지원 풀 버프", "10/29 점검 후", "12/31 02:59"], ["랭크70 루나 합류", "10/29 점검 후", "12/31 02:59"], ["소환 지원(일일 무료 계약)", "10/29 점검 후", "12/31 02:59"], ["월드아레나 준비 포인트", "10/29 점검 후", "12/31 02:59"], ["환영 로그인 선물(스킨)", "10/29 점검 후", "12/31 02:59(1회)"], ["우편 성장 팩", "10/29 점검 후", "11/26 14:59"], ["Steam 10만 위시 우편", "10/29 점검 후", "~11/19 03:00"], ["비상임무 촉매 1주", "10/29 점검 후", "11/5 02:59"], ["비상임무 매력 1주", "11/5 03:00", "11/12 02:59"], ["비상임무 촉매 2주", "11/12 03:00", "11/19 02:59"], ["비상임무 매력 2주", "11/19 점검 후", "11/26 02:59"], ["Secret Rabbit♥Hole+사건파일", "10/29 점검 후", "약 6주"], ["일일수사/럭키보드", "10/29 점검 후", "11/19 02:59"], ["바니걸 로비팩", "10/29 점검 후", "12/10 02:59"], ["길드전", "11/21 03:00", "시즌"], ["월드 아레나", "12/10 점검 후", "시즌"]], "buff_h2": "스타터 지원 버프", "buffs": ["성장: 촉매포인트 +50%; 영혼제단 룬 2배; 영웅/골드/계정 경험 +30%; 아레나 정복 2배", "헌트: 제작재료 +50%; 이계 장비 드롭 +10%", "신규/복귀 버프와 중첩(공지)"], "reward_h2": "보상 하이라이트", "rewards": [["루나 합류(랭크70)", "한정 5★ 루나, Glacial Purity 스킨, 숙련 펭귄 ×15"], ["소환 지원", "매일 무료 계약 +20(기간 최대 1,260) + Belche SD 1회"], ["로그인 선물", "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 ~11/26 — 7일 내 수령"], ["WA 준비 사다리", "아레나 포인트→매력/저주장신구/85상자/스킨티켓 — STOVE 표 참고"]], "side_h2": "사이드 스토리", "side": "상세: Secret Rabbit♥Hole.", "src_h2": "출처"}, "ja": {"title": "ファウンドリ — 12/31までの日程・報酬・ギルド戦", "meta": "ドラフト、ギルド戦2026-11-21、WA 2026-12-10、バフ〜12/31。STOVE引用。", "h1": "ファウンドリ — 日程と報酬", "lead": "Steam発売と同時に開いた新鯖。記載PvPは当面ファウンドリ内マッチ。公式で再確認を。", "as_of": "2026-10-29前後スナップショット。時刻はUTC。", "unlock_h2": "コンテンツ解放", "th": ["内容", "開放(UTC)", "出典"], "unlock": [["ファウンドリ+Steam", "2026-10-29メンテ後", "ローンチ告知"], ["ドラフトアリーナ", "2026-10-29メンテ後", "鯖内マッチ"], ["ギルド戦", "2026-11-21 03:00", "STOVE開放告知"], ["ワールドアリーナ", "2026-12-10メンテ後", "STOVE表"]], "cal_h2": "2026-12-31までのカレンダー", "th2": ["イベント/バフ", "開始", "終了"], "events": [["スターター支援フルバフ", "10/29メンテ後", "12/31 02:59"], ["ランク70ルナ加入", "10/29メンテ後", "12/31 02:59"], ["召喚支援（毎日無料契約）", "10/29メンテ後", "12/31 02:59"], ["WA準備ポイント", "10/29メンテ後", "12/31 02:59"], ["歓迎ログインギフト（スキン）", "10/29メンテ後", "12/31 02:59（1回）"], ["メール成長パック", "10/29メンテ後", "11/26 14:59"], ["Steam10万ウィッシュメール", "10/29メンテ後", "〜11/19 03:00"], ["緊急：触媒週1", "10/29メンテ後", "11/5 02:59"], ["緊急：チャーム週1", "11/5 03:00", "11/12 02:59"], ["緊急：触媒週2", "11/12 03:00", "11/19 02:59"], ["緊急：チャーム週2", "11/19メンテ後", "11/26 02:59"], ["Secret Rabbit♥Hole+事件簿", "10/29メンテ後", "約6週"], ["毎日捜査/ラッキーボード", "10/29メンテ後", "11/19 02:59"], ["バニーロビーパック", "10/29メンテ後", "12/10 02:59"], ["ギルド戦", "11/21 03:00", "シーズン"], ["ワールドアリーナ", "12/10メンテ後", "シーズン"]], "buff_h2": "スターター支援バフ", "buffs": ["成長：触媒+50%；魂の祭壇ルーン2倍；英雄/ゴールド/アカウントEXP+30%；アリーナ征服2倍", "ハント：素材+50%；異界装備+10%", "新規/復帰バフと併用可（告知）"], "reward_h2": "報酬ハイライト", "rewards": [["ルナ加入（ランク70）", "限定5★ルナ、Glacial Purity、熟練ペンギン×15"], ["召喚支援", "毎日無料契約+20（期間最大1,260）+Belche SD1回"], ["ログインギフト", "歓迎：New Moon Lunaエピックスキン+SD。メールパック〜11/26 — 7日内受取"], ["WA準備ラダー", "アリーナpt→チャーム等 — STOVE表"]], "side_h2": "サイドストーリー", "side": "詳細：Secret Rabbit♥Hole。", "src_h2": "ソース"}, "zh-tw": {"title": "Foundry — 日至 12/31、獎勵、公會戰", "meta": "Draft、公會戰 2026-11-21、WA 2026-12-10、增益至 12/31。引述 STOVE。", "h1": "Foundry — 日程與獎勵", "lead": "隨 Steam 上架開啟的新服。所列 PvP 初期為 Foundry 內匹配。請再查官方公告。", "as_of": "約 2026-10-29 快照。時間為 UTC。", "unlock_h2": "內容解鎖", "th": ["項目", "開放（UTC）", "來源"], "unlock": [["Foundry + Steam", "2026-10-29 維護後", "上架公告"], ["Draft Arena", "2026-10-29 維護後", "服內匹配"], ["公會戰", "2026-11-21 03:00", "STOVE 開服公告"], ["World Arena", "2026-12-10 維護後", "STOVE 表"]], "cal_h2": "至 2026-12-31 日程", "th2": ["活動／增益", "開始", "結束"], "events": [["新手支援滿增益", "10/29 維護後", "12/31 02:59"], ["Rank 70 Luna 加入", "10/29 維護後", "12/31 02:59"], ["召喚支援（每日免費契約）", "10/29 維護後", "12/31 02:59"], ["WA 準備點數", "10/29 維護後", "12/31 02:59"], ["歡迎登入禮（皮膚）", "10/29 維護後", "12/31 02:59（一次）"], ["信箱成長包", "10/29 維護後", "11/26 14:59"], ["Steam 十萬願望單信", "10/29 維護後", "約 11/19 03:00"], ["緊急任務：催化週1", "10/29 維護後", "11/5 02:59"], ["緊急任務：魅力週1", "11/5 03:00", "11/12 02:59"], ["緊急任務：催化週2", "11/12 03:00", "11/19 02:59"], ["緊急任務：魅力週2", "11/19 維護後", "11/26 02:59"], ["Secret Rabbit♥Hole＋案件", "10/29 維護後", "約 6 週"], ["每日調查／幸運盤", "10/29 維護後", "11/19 02:59"], ["兔女郎大廳包", "10/29 維護後", "12/10 02:59"], ["公會戰", "11/21 03:00", "賽季"], ["World Arena", "12/10 維護後", "賽季"]], "buff_h2": "新手支援增益", "buffs": ["成長：催化點 +50%；靈魂祭壇符文 2 倍；英雄／金幣／帳號經驗 +30%；競技場征服 2 倍", "狩獵：製作材料 +50%；異界裝備 +10%", "可與新手／回歸增益疊加（公告）"], "reward_h2": "獎勵重點", "rewards": [["Luna 加入（Rank 70）", "限定 5★ Luna、Glacial Purity、熟練企鵝 ×15"], ["召喚支援", "每日免費契約 +20（期間最多 1,260）＋ Belche SD 一次"], ["登入禮", "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包至約 11/26 — 7 日內領"], ["WA 準備階梯", "競技場點→魅力等 — 見 STOVE 表"]], "side_h2": "支線", "side": "詳見：Secret Rabbit♥Hole。", "src_h2": "來源"}}}
+{
+  "/steam-notes/": {
+    "en": {
+      "title": "Epic Seven Steam-specific notes",
+      "meta": "STOVE link, anti-cheat, languages, system requirements, cross-play. Independent guide.",
+      "h1": "Steam-specific notes",
+      "lead": "Practical differences on the Steam build vs mobile / STOVE PC. Drawn from public Steam store + STOVE FAQ.",
+      "acct_h2": "Account & platform",
+      "acct": [
+        "Steam requires a third-party STOVE account (supports linking to Steam).",
+        "Convert existing email/SNS → Steam login to keep progress (guide).",
+        "Cross-play across Steam, STOVE PC, and mobile (per FAQ).",
+        "Steam can play new and existing worlds; Foundry has separate matchmaking for listed PvP modes."
+      ],
+      "sec_h2": "Client & security",
+      "sec": [
+        "Steam store lists kernel-level anti-cheat UNCHEATER. Expect elevated prompts; locked-down PCs may block launch.",
+        "Third-party EULA agreement required.",
+        "Free-to-play with in-app purchases; Family Sharing flagged on store."
+      ],
+      "lang_h2": "Languages (Steam listing)",
+      "lang": "Interface includes EN/KR/JP/ZH(trad/simp)/DE/FR/ES/PT/TH (per launch notice). Voice at launch: Korean / English; Japanese VO delayed with later resume planned.",
+      "spec_h2": "System requirements (Steam minimum)",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64-bit+"
+        ],
+        [
+          "CPU",
+          "Intel i5 or higher (min)"
+        ],
+        [
+          "RAM",
+          "8 GB (min) / 16 GB (rec)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (min) / GTX 1660+ (rec)"
+        ],
+        [
+          "Storage",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "Get the game",
+      "cta": "Official Steam store — Epic Seven",
+      "related_h2": "Related"
+    },
+    "ko": {
+      "title": "Epic Seven Steam 전용 안내",
+      "meta": "STOVE 연동, 안티치트, 언어, 사양, 크로스플레이. 비공식 가이드.",
+      "h1": "Steam 전용 안내",
+      "lead": "Steam 빌드와 모바일/STOVE PC 차이 실무 요약. 공개 Steam 스토어·STOVE FAQ 기준.",
+      "acct_h2": "계정·플랫폼",
+      "acct": [
+        "Steam은 제3자 STOVE 계정 필요(Steam 연동 지원).",
+        "기존 이메일/SNS→Steam 전환으로 진행도 유지(가이드).",
+        "Steam·STOVE PC·모바일 크로스플레이(FAQ).",
+        "Steam은 신/기존 월드 가능; 파운드리 일부 PvP는 서버 내 매칭."
+      ],
+      "sec_h2": "클라이언트·보안",
+      "sec": [
+        "커널급 안티치트 UNCHEATER 표기. 권한 상승 가능, 잠긴 PC는 실행 불가.",
+        "제3자 EULA 동의 필요.",
+        "F2P+인앱결제; Family Sharing 표기."
+      ],
+      "lang_h2": "언어(Steam 표기)",
+      "lang": "인터페이스: EN/KR/JP/ZH(번/간)/DE/FR/ES/PT/TH 등(런칭 공지). 음성: 한/영; 일본어 VO는 런칭 시 지연·추후 예정.",
+      "spec_h2": "시스템 요구(최소)",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64비트+"
+        ],
+        [
+          "CPU",
+          "Intel i5 이상(최소)"
+        ],
+        [
+          "RAM",
+          "8GB(최소)/16GB(권장)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+(최소)/1660+(권장)"
+        ],
+        [
+          "저장",
+          "약 10GB"
+        ]
+      ],
+      "get_h2": "게임 받기",
+      "cta": "공식 Steam 스토어 — Epic Seven",
+      "related_h2": "관련"
+    },
+    "ja": {
+      "title": "Epic Seven Steam固有メモ",
+      "meta": "STOVE連携、アンチチート、言語、スペック、クロスプレイ。非公式ガイド。",
+      "h1": "Steam固有メモ",
+      "lead": "Steam版とモバイル/STOVE PCの実務差。公開ストア＋FAQ準拠。",
+      "acct_h2": "アカウント・平台",
+      "acct": [
+        "Steamは第三者STOVE必須（Steam連携可）。",
+        "既存メール/SNS→Steam変換で進行維持（ガイド）。",
+        "Steam・STOVE PC・モバイルでクロスプレイ（FAQ）。",
+        "Steamは新旧ワールド可；ファウンドリ一部PvPは鯖内。"
+      ],
+      "sec_h2": "クライアント・セキュリティ",
+      "sec": [
+        "カーネル級UNCHEATER。昇格プロンプトあり、管理PCは起動不可も。",
+        "第三者EULA同意が必要。",
+        "F2P＋アプリ内課金；Family Sharing表記。"
+      ],
+      "lang_h2": "言語（Steam表記）",
+      "lang": "UI：EN/KR/JP/ZH（繁/簡）/DE/FR/ES/PT/TH等。音声：韓/英；日本語VOは発売時遅延・後日予定。",
+      "spec_h2": "動作環境（最低）",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64bit+"
+        ],
+        [
+          "CPU",
+          "Intel i5以上（最低）"
+        ],
+        [
+          "RAM",
+          "8GB（最低）/16GB（推奨）"
+        ],
+        [
+          "GPU",
+          "GTX1060+（最低）/1660+（推奨）"
+        ],
+        [
+          "容量",
+          "約10GB"
+        ]
+      ],
+      "get_h2": "入手",
+      "cta": "公式Steamストア — Epic Seven",
+      "related_h2": "関連"
+    },
+    "zh-tw": {
+      "title": "Epic Seven Steam 專屬說明",
+      "meta": "STOVE 連結、反作弊、語言、規格、跨平台。非官方指南。",
+      "h1": "Steam 專屬說明",
+      "lead": "Steam 版相對手機／STOVE PC 的實務差異。依公開商店與 FAQ。",
+      "acct_h2": "帳號與平台",
+      "acct": [
+        "Steam 需第三方 STOVE 帳（可連結 Steam）。",
+        "Email/SNS→Steam 以保留進度（指南）。",
+        "Steam、STOVE PC、手機跨平台（FAQ）。",
+        "Steam 可進新／舊世界；Foundry 部分 PvP 為服內匹配。"
+      ],
+      "sec_h2": "客戶端與安全",
+      "sec": [
+        "標示核心層級 UNCHEATER。可能出現權限提示；鎖定電腦可能無法啟動。",
+        "需同意第三方 EULA。",
+        "免費＋內購；商店標 Family Sharing。"
+      ],
+      "lang_h2": "語言（Steam 標示）",
+      "lang": "介面含英／韓／日／繁簡中／德／法／西／葡／泰等。語音：韓／英；日語 VO 上架時延後、計畫後日恢復。",
+      "spec_h2": "系統需求（最低）",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64 位以上"
+        ],
+        [
+          "CPU",
+          "Intel i5 以上（最低）"
+        ],
+        [
+          "RAM",
+          "8GB（最低）／16GB（建議）"
+        ],
+        [
+          "GPU",
+          "GTX 1060+（最低）／1660+（建議）"
+        ],
+        [
+          "容量",
+          "約 10GB"
+        ]
+      ],
+      "get_h2": "取得遊戲",
+      "cta": "官方 Steam 商店 — Epic Seven",
+      "related_h2": "相關"
+    },
+    "th": {
+      "title": "บันทึก Epic Seven บน Steam — เคล็ดลับไคลเอนต์ | คู่มืออิสระ",
+      "meta": "การผูก STOVE, anti-cheat, ภาษา, สเปกเครื่อง, cross-play คู่มืออิสระ",
+      "h1": "บันทึกเฉพาะของ Steam",
+      "lead": "บันทึกเกี่ยวกับ Steam สำหรับผู้เล่น Epic Seven app 5019180: การผูกบัญชี, สิ่งที่ควรคาดหวังจาก anti-cheat และปัญหาการเปิดเกมที่พบบ่อย สรุปจากข้อความหน้าร้านค้า/FAQ สาธารณะ — ตรวจสอบหน้าจอ Steam และ STOVE จริง คู่มืออิสระ",
+      "acct_h2": "บัญชีและแพลตฟอร์ม",
+      "acct": [
+        "ไคลเอนต์ Steam ยังคงยืนยันตัวตนบัญชี STOVE อยู่เบื้องหลัง",
+        "แปลง email/SNS → Steam Simple Login ก่อนจะถือว่า Steam เป็นช่องทางหลัก หากต้องการรักษาความคืบหน้า",
+        "cross-play กับ STOVE PC/มือถือ มีอธิบายใน FAQ ทางการของ Steam หลังผูกบัญชีอย่างถูกต้อง",
+        "ตัวละคร Foundry แยกจากความคืบหน้าเดิม แม้จะใช้ STOVE login เดียวกัน"
+      ],
+      "sec_h2": "UNCHEATER / anti-cheat",
+      "sec": [
+        "เปิดครั้งแรก: กดอนุญาตพรอมต์ยกระดับสิทธิ์ของ UNCHEATER รอให้ไดรเวอร์ทำงานเสร็จ แล้วรีสตาร์ทหนึ่งครั้งหาก Epic Seven ยังปิดตัวเอง หน้าร้านค้า Steam ระบุ anti-cheat ระดับ kernel นี้สำหรับ app 5019180",
+        "อิมเมจระบบที่ทำงานหรือโรงเรียน: หากพรอมต์ไม่เคยปรากฏ หรือนโยบายบล็อกไดรเวอร์ ให้หยุดลองซ้ำบนเครื่องนั้น ห้ามติดตั้งตัวข้ามแบน, crack หรือ “UNCHEATER bypass”",
+        "ทางเลือกสำรอง: เปิดบัญชี STOVE ที่แปลงแล้วบัญชีเดียวกันในไคลเอนต์ STOVE PC หรือบนมือถือ หรือย้ายการติดตั้งไปยังเครื่องส่วนตัวที่ดูแลเอง cross-play หลังผูกบัญชีอย่างถูกต้องอยู่ใน STOVE Steam FAQ view/14378309",
+        "ก่อนแจ้งปัญหา: Steam → ตรวจสอบไฟล์เกม → อัปเดต OS และไดรเวอร์ GPU → ตรวจว่าโปรแกรมป้องกันไวรัสกักกันไฟล์ UNCHEATER หรือไม่ → รีสตาร์ทหลังการติดตั้งไดรเวอร์ล้มเหลว",
+        "ยังไม่สำเร็จ: คัดลอกข้อความ error แล้วติดต่อฝ่ายบริการลูกค้า STOVE ทางการเท่านั้น ติดตั้งจาก [[เช็กลิสต์ดาวน์โหลด|/download/]] และ [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]"
+      ],
+      "lang_h2": "ภาษา (หน้าร้านค้า Steam)",
+      "lang": "อินเทอร์เฟซมี EN/KR/JP/ZH(ตัวเต็ม/ตัวย่อ)/DE/FR/ES/PT/TH (ตามประกาศเปิดตัว) เสียงพากย์ตอนเปิดตัว: เกาหลี / อังกฤษ; เสียงพากย์ญี่ปุ่นล่าช้า โดยมีแผนกลับมาเปิดภายหลัง",
+      "spec_h2": "ความต้องการของระบบ (ขั้นต่ำบน Steam)",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64-bit+"
+        ],
+        [
+          "CPU",
+          "Intel i5 ขึ้นไป (ขั้นต่ำ)"
+        ],
+        [
+          "RAM",
+          "8 GB (ขั้นต่ำ) / 16 GB (แนะนำ)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (ขั้นต่ำ) / GTX 1660+ (แนะนำ)"
+        ],
+        [
+          "พื้นที่จัดเก็บ",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "รับเกม",
+      "cta": "ร้านค้า Steam ทางการ — Epic Seven",
+      "related_h2": "ที่เกี่ยวข้อง"
+    },
+    "es": {
+      "title": "Notas de Epic Seven Steam — consejos | Guía independiente",
+      "meta": "Vinculación con STOVE, anti-cheat, idiomas, requisitos del sistema y juego cruzado. Guía independiente.",
+      "h1": "Notas específicas de Steam",
+      "lead": "Notas de Steam para jugadores de Epic Seven app 5019180: vinculación de cuentas, qué esperar del anti-cheat y fallos comunes de lanzamiento. Parafrasea textos públicos de la tienda y la FAQ; verifica las pantallas actuales de Steam y STOVE. Guía independiente.",
+      "acct_h2": "Cuenta y plataforma",
+      "acct": [
+        "Los clientes de Steam siguen autenticando una cuenta de STOVE en segundo plano.",
+        "Convierte el inicio de sesión por correo/SNS → Steam Simple Login antes de usar Steam como principal si quieres conservar el progreso.",
+        "El juego cruzado con STOVE PC y móvil se describe en la FAQ oficial de Steam tras una vinculación correcta.",
+        "Los personajes de Foundry están separados del progreso anterior incluso con el mismo inicio de sesión de STOVE."
+      ],
+      "sec_h2": "UNCHEATER / anti-cheat",
+      "sec": [
+        "Primer lanzamiento: aprueba el aviso de elevación de UNCHEATER, espera a que termine el controlador y reinicia una vez si Epic Seven sigue cerrándose. La tienda de Steam indica este anti-cheat de kernel para la app 5019180.",
+        "Imagen de trabajo o escuela: si el aviso nunca aparece o la política bloquea el controlador, deja de reintentar en ese PC. No instales un bypass de ban, un crack ni un «UNCHEATER bypass».",
+        "Alternativa: abre la misma cuenta de STOVE convertida en el cliente de STOVE PC o en el móvil, o traslada la instalación a un PC personal que administres. El juego cruzado tras una vinculación correcta está en STOVE Steam FAQ view/14378309.",
+        "Antes de abrir un ticket: Steam → verifica los archivos del juego → actualiza el sistema operativo y el controlador de la GPU → comprueba si el antivirus puso en cuarentena archivos de UNCHEATER → reinicia tras una instalación fallida del controlador.",
+        "Si sigue fallando: copia el texto del error y contacta solo con la atención al cliente oficial de STOVE. Instala desde la [[lista de descarga|/download/]] y la [[app de Steam 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
+      ],
+      "lang_h2": "Idiomas (ficha de Steam)",
+      "lang": "La interfaz incluye EN/KR/JP/ZH(trad/simp)/DE/FR/ES/PT/TH (según el aviso de lanzamiento). Voces en el lanzamiento: coreano / inglés; el doblaje japonés se retrasó y se prevé reanudarlo más adelante.",
+      "spec_h2": "Requisitos del sistema (mínimos de Steam)",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 de 64 bits o superior"
+        ],
+        [
+          "CPU",
+          "Intel i5 o superior (mín.)"
+        ],
+        [
+          "RAM",
+          "8 GB (mín.) / 16 GB (rec.)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (mín.) / GTX 1660+ (rec.)"
+        ],
+        [
+          "Almacenamiento",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "Consigue el juego",
+      "cta": "Tienda oficial de Steam — Epic Seven",
+      "related_h2": "Relacionado"
+    },
+    "pt": {
+      "title": "Epic Seven no Steam: notas do cliente | Guia independente",
+      "meta": "Vínculo STOVE, anti-cheat, idiomas, requisitos de sistema, cross-play. Guia independente.",
+      "h1": "Notas específicas do Steam",
+      "lead": "Notas do Steam para jogadores do Epic Seven app 5019180: vínculo de conta, expectativas de anti-cheat e falhas comuns de lançamento. Paráfrases de textos públicos da loja e da FAQ — confirme nas telas ao vivo do Steam e do STOVE. Guia independente.",
+      "acct_h2": "Conta e plataforma",
+      "acct": [
+        "Os clientes Steam ainda autenticam uma conta STOVE nos bastidores.",
+        "Converta e-mail/SNS → Steam Simple Login antes de tratar o Steam como principal, se você quiser manter o progresso.",
+        "O cross-play com STOVE PC/celular é descrito na FAQ oficial do Steam após um vínculo correto.",
+        "Personagens de Foundry são separados do progresso antigo, mesmo no mesmo login STOVE."
+      ],
+      "sec_h2": "UNCHEATER / anti-cheat",
+      "sec": [
+        "Primeiro lançamento: aprove o prompt de elevação do UNCHEATER, espere o driver terminar e reinicie uma vez se o Epic Seven ainda fechar. A loja do Steam lista esse anti-cheat de kernel para o app 5019180.",
+        "Imagem de trabalho ou escola: se o prompt nunca aparecer, ou a política bloquear o driver, pare de tentar naquele PC. Não instale um bypass de ban, crack ou “bypass do UNCHEATER”.",
+        "Alternativa: abra a mesma conta STOVE convertida no cliente STOVE PC ou no celular, ou mova a instalação para um PC pessoal que você administra. O cross-play após um vínculo correto está na FAQ do Steam do STOVE view/14378309.",
+        "Antes de abrir um ticket: Steam → verificar arquivos do jogo → atualizar o sistema e o driver da GPU → verificar se o antivírus colocou arquivos do UNCHEATER em quarentena → reiniciar após uma instalação de driver que falhou.",
+        "Ainda falhando: copie o texto do erro e contate apenas o suporte oficial do STOVE. Instale pelo [[checklist de download|/download/]] e pelo [[app 5019180 do Steam|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
+      ],
+      "lang_h2": "Idiomas (listagem do Steam)",
+      "lang": "A interface inclui EN/KR/JP/ZH (tradicional/simplificado)/DE/FR/ES/PT/TH (conforme o aviso de lançamento). Voz no lançamento: coreano / inglês; a VO japonesa foi adiada com retomada prevista para depois.",
+      "spec_h2": "Requisitos de sistema (mínimo do Steam)",
+      "specs": [
+        [
+          "SO",
+          "Windows 10 64 bits+"
+        ],
+        [
+          "CPU",
+          "Intel i5 ou superior (mín.)"
+        ],
+        [
+          "RAM",
+          "8 GB (mín.) / 16 GB (rec.)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (mín.) / GTX 1660+ (rec.)"
+        ],
+        [
+          "Armazenamento",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "Baixe o jogo",
+      "cta": "Loja oficial do Steam — Epic Seven",
+      "related_h2": "Relacionado"
+    },
+    "de": {
+      "title": "Epic Seven Steam-Hinweise — Client-Tipps | Unabhängiger Guide",
+      "meta": "STOVE-Verknüpfung, Anti-Cheat, Sprachen, Systemanforderungen, Cross-Play. Unabhängiger Guide.",
+      "h1": "Steam-spezifische Hinweise",
+      "lead": "Steam-Hinweise für Spieler zu Epic Seven App 5019180: Account-Verknüpfung, Anti-Cheat-Erwartungen und häufige Startprobleme. Die Hinweise geben öffentliche Store-/FAQ-Texte wieder — prüfe die aktuellen Steam- und STOVE-Bildschirme. Unabhängiger Guide.",
+      "acct_h2": "Account & Plattform",
+      "acct": [
+        "Steam-Clients authentifizieren im Hintergrund weiterhin einen STOVE-Account.",
+        "Wenn du deinen Fortschritt behalten willst, stelle E-Mail/SNS → Steam Simple Login um, bevor du Steam als primär betrachtest.",
+        "Cross-Play mit STOVE PC/Mobile wird in der offiziellen Steam-FAQ nach einer korrekten Verknüpfung beschrieben.",
+        "Foundry-Charaktere sind selbst beim selben STOVE-Login getrennt vom bisherigen Fortschritt."
+      ],
+      "sec_h2": "UNCHEATER / Anti-Cheat",
+      "sec": [
+        "Erster Start: Bestätige die UNCHEATER-Administratorabfrage, warte, bis der Treiber fertig ist, und starte einmal neu, wenn Epic Seven sich weiterhin schließt. Der Steam-Store listet dieses Kernel-Anti-Cheat für App 5019180.",
+        "Arbeits- oder Schulumgebung: Wenn die Abfrage nie erscheint oder eine Richtlinie den Treiber blockiert, versuche es auf diesem PC nicht weiter. Installiere keinen Bann-Bypass, Crack oder „UNCHEATER-Bypass“.",
+        "Ausweichlösung: Öffne denselben umgestellten STOVE-Account im STOVE-PC-Client oder auf dem Handy oder verschiebe die Installation auf einen persönlichen PC, den du selbst verwaltest. Cross-Play nach korrekter Verknüpfung steht in der STOVE-Steam-FAQ view/14378309.",
+        "Vor einem Ticket: Steam → Spieldateien überprüfen → Betriebssystem und GPU-Treiber aktualisieren → prüfen, ob der Virenscanner UNCHEATER-Dateien in Quarantäne verschoben hat → nach einer fehlgeschlagenen Treiberinstallation neu starten.",
+        "Weiterhin fehlgeschlagen: Kopiere den Fehlertext und wende dich ausschließlich an den offiziellen STOVE-Kundensupport. Installiere über die [[Download-Checkliste|/download/]] und die [[Steam-App 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
+      ],
+      "lang_h2": "Sprachen (Steam-Listeneintrag)",
+      "lang": "Die Oberfläche umfasst EN/KR/JP/ZH (trad./simp.)/DE/FR/ES/PT/TH (laut Launch-Hinweis). Stimme zum Launch: Koreanisch / Englisch; japanische VO verzögert, spätere Fortsetzung geplant.",
+      "spec_h2": "Systemanforderungen (Steam-Minimum)",
+      "specs": [
+        [
+          "Betriebssystem",
+          "Windows 10 64-Bit+"
+        ],
+        [
+          "CPU",
+          "Intel i5 oder höher (min.)"
+        ],
+        [
+          "RAM",
+          "8 GB (min.) / 16 GB (empf.)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (min.) / GTX 1660+ (empf.)"
+        ],
+        [
+          "Speicher",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "Spiel holen",
+      "cta": "Offizieller Steam-Store — Epic Seven",
+      "related_h2": "Verwandte Themen"
+    },
+    "fr": {
+      "title": "Notes Steam Epic Seven — astuces client | Guide indépendant",
+      "meta": "Liaison STOVE, anti-triche, langues, configuration requise, cross-play. Guide indépendant.",
+      "h1": "Notes spécifiques à Steam",
+      "lead": "Notes Steam destinées aux joueurs pour Epic Seven app 5019180 : liaison de compte, attentes anti-triche et échecs de lancement courants. Paraphrase des textes publics de la boutique/FAQ — vérifiez les écrans Steam et STOVE en direct. Guide indépendant.",
+      "acct_h2": "Compte et plateforme",
+      "acct": [
+        "Les clients Steam authentifient toujours un compte STOVE en arrière-plan.",
+        "Convertissez l'identifiant e-mail/SNS → Steam Simple Login avant de considérer Steam comme principal si vous conservez votre progression.",
+        "Le cross-play avec STOVE PC/mobile est décrit dans la FAQ officielle Steam après une liaison correcte.",
+        "Les personnages Foundry sont séparés de la progression existante, même avec le même identifiant STOVE."
+      ],
+      "sec_h2": "UNCHEATER / anti-triche",
+      "sec": [
+        "Premier lancement : acceptez l'invite d'élévation UNCHEATER, attendez que le pilote termine, puis redémarrez une fois si Epic Seven se ferme encore. La boutique Steam indique cet anti-triche noyau pour l'app 5019180.",
+        "Image d'entreprise ou scolaire : si l'invite n'apparaît jamais, ou si une stratégie bloque le pilote, arrêtez de réessayer sur ce PC. N'installez pas de contournement de bannissement, de crack ou de « UNCHEATER bypass ».",
+        "Solution de repli : ouvrez le même compte STOVE converti dans le client STOVE PC ou sur mobile, ou déplacez l'installation sur un PC personnel que vous administrez. Le cross-play après une liaison correcte est décrit dans STOVE Steam FAQ view/14378309.",
+        "Avant un ticket : Steam → vérifier les fichiers du jeu → mettre à jour le système d'exploitation et le pilote GPU → vérifier si l'antivirus a mis en quarantaine des fichiers UNCHEATER → redémarrer après une installation de pilote échouée.",
+        "Toujours en échec : copiez le texte de l'erreur et ne contactez que le support client officiel STOVE. Installez depuis la [[liste de vérification du téléchargement|/download/]] et l'[[application Steam 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
+      ],
+      "lang_h2": "Langues (fiche Steam)",
+      "lang": "L'interface inclut EN/KR/JP/ZH (trad/simpl)/DE/FR/ES/PT/TH (selon l'avis de lancement). Voix au lancement : coréen / anglais ; la VO japonaise est retardée, avec une reprise prévue plus tard.",
+      "spec_h2": "Configuration système (minimum Steam)",
+      "specs": [
+        [
+          "OS",
+          "Windows 10 64 bits+"
+        ],
+        [
+          "CPU",
+          "Intel i5 ou supérieur (min)"
+        ],
+        [
+          "RAM",
+          "8 Go (min) / 16 Go (rec)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (min) / GTX 1660+ (rec)"
+        ],
+        [
+          "Stockage",
+          "~10 Go"
+        ]
+      ],
+      "get_h2": "Obtenir le jeu",
+      "cta": "Boutique Steam officielle — Epic Seven",
+      "related_h2": "En lien"
+    }
+  },
+  "/foundry/": {
+    "en": {
+      "title": "Foundry server — calendar through Dec 31, rewards, Guild War",
+      "meta": "Foundry schedule: Draft Arena, Guild War 2026-11-21, World Arena 2026-12-10, buffs through 12/31. Cite STOVE.",
+      "h1": "Foundry — schedule & rewards",
+      "lead": "Foundry opened with the Steam launch. Listed PvP matchmaking is Foundry-only initially. Living calendar — re-check official notices.",
+      "as_of": "Snapshot around 2026-10-29. Times UTC unless noted.",
+      "unlock_h2": "Content unlock calendar",
+      "th": [
+        "Feature",
+        "Open (UTC)",
+        "Source note"
+      ],
+      "unlock": [
+        [
+          "Foundry + Steam launch",
+          "2026-10-29 after maint",
+          "Launch notice"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 after maint",
+          "Foundry-only matchmaking"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "STOVE Foundry open notice"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 after maint",
+          "STOVE schedule table"
+        ]
+      ],
+      "cal_h2": "Calendar through 2026-12-31",
+      "th2": [
+        "Event / buff",
+        "Start",
+        "End"
+      ],
+      "events": [
+        [
+          "Starter Support Full Buff",
+          "10/29 after maint",
+          "12/31 02:59"
+        ],
+        [
+          "Rank 70 Luna Joins",
+          "10/29 after maint",
+          "12/31 02:59"
+        ],
+        [
+          "Summon Support (daily free Covenant)",
+          "10/29 after maint",
+          "12/31 02:59"
+        ],
+        [
+          "Get Ready! World Arena points",
+          "10/29 after maint",
+          "12/31 02:59"
+        ],
+        [
+          "Foundry Welcome login gift (skin)",
+          "10/29 after maint",
+          "12/31 02:59 (once)"
+        ],
+        [
+          "Foundry mailbox growth pack",
+          "10/29 after maint",
+          "11/26 14:59"
+        ],
+        [
+          "Steam 100k wishlist mail (Foundry login)",
+          "10/29 after maint",
+          "~11/19 03:00"
+        ],
+        [
+          "Emergency Mission: Catalyst week 1",
+          "10/29 after maint",
+          "11/5 02:59"
+        ],
+        [
+          "Emergency Mission: Charm week 1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Emergency Mission: Catalyst week 2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Emergency Mission: Charm week 2",
+          "11/19 after maint",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 after maint",
+          "~6 weeks"
+        ],
+        [
+          "Daily Investigation / Lucky Board",
+          "10/29 after maint",
+          "11/19 02:59"
+        ],
+        [
+          "Bunny Girl Party Hall lobby pack",
+          "10/29 after maint",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "ongoing"
+        ],
+        [
+          "World Arena",
+          "12/10 after maint",
+          "ongoing"
+        ]
+      ],
+      "buff_h2": "Starter Support buffs",
+      "buffs": [
+        "Growth: +50% catalyst points; 2× Spirit Altar rune drop; +30% hero EXP / gold / account rank EXP; 2× Arena conquest points",
+        "Hunt: +50% hunt craft material drop; +10% Otherworld Breach & Hunt otherworldly equipment drop",
+        "Stacks with new / returning player buffs (per notice)"
+      ],
+      "reward_h2": "Reward highlights",
+      "rewards": [
+        [
+          "Luna Joins (Rank 70)",
+          "Limited 5★ Luna, Glacial Purity skin, Experienced Penguins ×15."
+        ],
+        [
+          "Summon Support",
+          "+20 free Covenant summons daily (up to 1,260 over the window) + Belche SD sticker once."
+        ],
+        [
+          "Login gifts",
+          "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). Mailbox pack through ~11/26 — claim before 7-day expiry."
+        ],
+        [
+          "World Arena prep ladder",
+          "Arena points → charms, Demon cursed accessories, Lv.85 chests, Skin Tickets — full ladder on STOVE."
+        ]
+      ],
+      "side_h2": "Side story",
+      "side": "Deep dive: Secret Rabbit♥Hole (Case Files, Lucky Board, lobby pack).",
+      "src_h2": "Sources"
+    },
+    "ko": {
+      "title": "파운드리 — 12/31까지 캘린더·보상·길드전",
+      "meta": "드래프트, 길드전 2026-11-21, 월드아레나 2026-12-10, 버프~12/31. STOVE 인용.",
+      "h1": "파운드리 — 일정·보상",
+      "lead": "Steam 런칭과 함께 열린 신서버. 초기 명시 PvP는 파운드리 매칭. 공식 공지를 재확인하세요.",
+      "as_of": "2026-10-29 전후 스냅샷. 시간은 UTC.",
+      "unlock_h2": "콘텐츠 해금 캘린더",
+      "th": [
+        "콘텐츠",
+        "오픈(UTC)",
+        "출처"
+      ],
+      "unlock": [
+        [
+          "파운드리+Steam 런칭",
+          "2026-10-29 점검 후",
+          "런칭 공지"
+        ],
+        [
+          "드래프트 아레나",
+          "2026-10-29 점검 후",
+          "파운드리 매칭"
+        ],
+        [
+          "길드전",
+          "2026-11-21 03:00",
+          "STOVE 파운드리 오픈"
+        ],
+        [
+          "월드 아레나",
+          "2026-12-10 점검 후",
+          "STOVE 일정표"
+        ]
+      ],
+      "cal_h2": "2026-12-31까지 캘린더",
+      "th2": [
+        "이벤트/버프",
+        "시작",
+        "종료"
+      ],
+      "events": [
+        [
+          "스타터 지원 풀 버프",
+          "10/29 점검 후",
+          "12/31 02:59"
+        ],
+        [
+          "랭크70 루나 합류",
+          "10/29 점검 후",
+          "12/31 02:59"
+        ],
+        [
+          "소환 지원(일일 무료 계약)",
+          "10/29 점검 후",
+          "12/31 02:59"
+        ],
+        [
+          "월드아레나 준비 포인트",
+          "10/29 점검 후",
+          "12/31 02:59"
+        ],
+        [
+          "환영 로그인 선물(스킨)",
+          "10/29 점검 후",
+          "12/31 02:59(1회)"
+        ],
+        [
+          "우편 성장 팩",
+          "10/29 점검 후",
+          "11/26 14:59"
+        ],
+        [
+          "Steam 10만 위시 우편",
+          "10/29 점검 후",
+          "~11/19 03:00"
+        ],
+        [
+          "비상임무 촉매 1주",
+          "10/29 점검 후",
+          "11/5 02:59"
+        ],
+        [
+          "비상임무 매력 1주",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "비상임무 촉매 2주",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "비상임무 매력 2주",
+          "11/19 점검 후",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole+사건파일",
+          "10/29 점검 후",
+          "약 6주"
+        ],
+        [
+          "일일수사/럭키보드",
+          "10/29 점검 후",
+          "11/19 02:59"
+        ],
+        [
+          "바니걸 로비팩",
+          "10/29 점검 후",
+          "12/10 02:59"
+        ],
+        [
+          "길드전",
+          "11/21 03:00",
+          "시즌"
+        ],
+        [
+          "월드 아레나",
+          "12/10 점검 후",
+          "시즌"
+        ]
+      ],
+      "buff_h2": "스타터 지원 버프",
+      "buffs": [
+        "성장: 촉매포인트 +50%; 영혼제단 룬 2배; 영웅/골드/계정 경험 +30%; 아레나 정복 2배",
+        "헌트: 제작재료 +50%; 이계 장비 드롭 +10%",
+        "신규/복귀 버프와 중첩(공지)"
+      ],
+      "reward_h2": "보상 하이라이트",
+      "rewards": [
+        [
+          "루나 합류(랭크70)",
+          "한정 5★ 루나, Glacial Purity 스킨, 숙련 펭귄 ×15"
+        ],
+        [
+          "소환 지원",
+          "매일 무료 계약 +20(기간 최대 1,260) + Belche SD 1회"
+        ],
+        [
+          "로그인 선물",
+          "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 ~11/26 — 7일 내 수령"
+        ],
+        [
+          "WA 준비 사다리",
+          "아레나 포인트→매력/저주장신구/85상자/스킨티켓 — STOVE 표 참고"
+        ]
+      ],
+      "side_h2": "사이드 스토리",
+      "side": "상세: Secret Rabbit♥Hole.",
+      "src_h2": "출처"
+    },
+    "ja": {
+      "title": "ファウンドリ — 12/31までの日程・報酬・ギルド戦",
+      "meta": "ドラフト、ギルド戦2026-11-21、WA 2026-12-10、バフ〜12/31。STOVE引用。",
+      "h1": "ファウンドリ — 日程と報酬",
+      "lead": "Steam発売と同時に開いた新鯖。記載PvPは当面ファウンドリ内マッチ。公式で再確認を。",
+      "as_of": "2026-10-29前後スナップショット。時刻はUTC。",
+      "unlock_h2": "コンテンツ解放",
+      "th": [
+        "内容",
+        "開放(UTC)",
+        "出典"
+      ],
+      "unlock": [
+        [
+          "ファウンドリ+Steam",
+          "2026-10-29メンテ後",
+          "ローンチ告知"
+        ],
+        [
+          "ドラフトアリーナ",
+          "2026-10-29メンテ後",
+          "鯖内マッチ"
+        ],
+        [
+          "ギルド戦",
+          "2026-11-21 03:00",
+          "STOVE開放告知"
+        ],
+        [
+          "ワールドアリーナ",
+          "2026-12-10メンテ後",
+          "STOVE表"
+        ]
+      ],
+      "cal_h2": "2026-12-31までのカレンダー",
+      "th2": [
+        "イベント/バフ",
+        "開始",
+        "終了"
+      ],
+      "events": [
+        [
+          "スターター支援フルバフ",
+          "10/29メンテ後",
+          "12/31 02:59"
+        ],
+        [
+          "ランク70ルナ加入",
+          "10/29メンテ後",
+          "12/31 02:59"
+        ],
+        [
+          "召喚支援（毎日無料契約）",
+          "10/29メンテ後",
+          "12/31 02:59"
+        ],
+        [
+          "WA準備ポイント",
+          "10/29メンテ後",
+          "12/31 02:59"
+        ],
+        [
+          "歓迎ログインギフト（スキン）",
+          "10/29メンテ後",
+          "12/31 02:59（1回）"
+        ],
+        [
+          "メール成長パック",
+          "10/29メンテ後",
+          "11/26 14:59"
+        ],
+        [
+          "Steam10万ウィッシュメール",
+          "10/29メンテ後",
+          "〜11/19 03:00"
+        ],
+        [
+          "緊急：触媒週1",
+          "10/29メンテ後",
+          "11/5 02:59"
+        ],
+        [
+          "緊急：チャーム週1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "緊急：触媒週2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "緊急：チャーム週2",
+          "11/19メンテ後",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole+事件簿",
+          "10/29メンテ後",
+          "約6週"
+        ],
+        [
+          "毎日捜査/ラッキーボード",
+          "10/29メンテ後",
+          "11/19 02:59"
+        ],
+        [
+          "バニーロビーパック",
+          "10/29メンテ後",
+          "12/10 02:59"
+        ],
+        [
+          "ギルド戦",
+          "11/21 03:00",
+          "シーズン"
+        ],
+        [
+          "ワールドアリーナ",
+          "12/10メンテ後",
+          "シーズン"
+        ]
+      ],
+      "buff_h2": "スターター支援バフ",
+      "buffs": [
+        "成長：触媒+50%；魂の祭壇ルーン2倍；英雄/ゴールド/アカウントEXP+30%；アリーナ征服2倍",
+        "ハント：素材+50%；異界装備+10%",
+        "新規/復帰バフと併用可（告知）"
+      ],
+      "reward_h2": "報酬ハイライト",
+      "rewards": [
+        [
+          "ルナ加入（ランク70）",
+          "限定5★ルナ、Glacial Purity、熟練ペンギン×15"
+        ],
+        [
+          "召喚支援",
+          "毎日無料契約+20（期間最大1,260）+Belche SD1回"
+        ],
+        [
+          "ログインギフト",
+          "歓迎：New Moon Lunaエピックスキン+SD。メールパック〜11/26 — 7日内受取"
+        ],
+        [
+          "WA準備ラダー",
+          "アリーナpt→チャーム等 — STOVE表"
+        ]
+      ],
+      "side_h2": "サイドストーリー",
+      "side": "詳細：Secret Rabbit♥Hole。",
+      "src_h2": "ソース"
+    },
+    "zh-tw": {
+      "title": "Foundry — 日至 12/31、獎勵、公會戰",
+      "meta": "Draft、公會戰 2026-11-21、WA 2026-12-10、增益至 12/31。引述 STOVE。",
+      "h1": "Foundry — 日程與獎勵",
+      "lead": "隨 Steam 上架開啟的新服。所列 PvP 初期為 Foundry 內匹配。請再查官方公告。",
+      "as_of": "約 2026-10-29 快照。時間為 UTC。",
+      "unlock_h2": "內容解鎖",
+      "th": [
+        "項目",
+        "開放（UTC）",
+        "來源"
+      ],
+      "unlock": [
+        [
+          "Foundry + Steam",
+          "2026-10-29 維護後",
+          "上架公告"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 維護後",
+          "服內匹配"
+        ],
+        [
+          "公會戰",
+          "2026-11-21 03:00",
+          "STOVE 開服公告"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 維護後",
+          "STOVE 表"
+        ]
+      ],
+      "cal_h2": "至 2026-12-31 日程",
+      "th2": [
+        "活動／增益",
+        "開始",
+        "結束"
+      ],
+      "events": [
+        [
+          "新手支援滿增益",
+          "10/29 維護後",
+          "12/31 02:59"
+        ],
+        [
+          "Rank 70 Luna 加入",
+          "10/29 維護後",
+          "12/31 02:59"
+        ],
+        [
+          "召喚支援（每日免費契約）",
+          "10/29 維護後",
+          "12/31 02:59"
+        ],
+        [
+          "WA 準備點數",
+          "10/29 維護後",
+          "12/31 02:59"
+        ],
+        [
+          "歡迎登入禮（皮膚）",
+          "10/29 維護後",
+          "12/31 02:59（一次）"
+        ],
+        [
+          "信箱成長包",
+          "10/29 維護後",
+          "11/26 14:59"
+        ],
+        [
+          "Steam 十萬願望單信",
+          "10/29 維護後",
+          "約 11/19 03:00"
+        ],
+        [
+          "緊急任務：催化週1",
+          "10/29 維護後",
+          "11/5 02:59"
+        ],
+        [
+          "緊急任務：魅力週1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "緊急任務：催化週2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "緊急任務：魅力週2",
+          "11/19 維護後",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole＋案件",
+          "10/29 維護後",
+          "約 6 週"
+        ],
+        [
+          "每日調查／幸運盤",
+          "10/29 維護後",
+          "11/19 02:59"
+        ],
+        [
+          "兔女郎大廳包",
+          "10/29 維護後",
+          "12/10 02:59"
+        ],
+        [
+          "公會戰",
+          "11/21 03:00",
+          "賽季"
+        ],
+        [
+          "World Arena",
+          "12/10 維護後",
+          "賽季"
+        ]
+      ],
+      "buff_h2": "新手支援增益",
+      "buffs": [
+        "成長：催化點 +50%；靈魂祭壇符文 2 倍；英雄／金幣／帳號經驗 +30%；競技場征服 2 倍",
+        "狩獵：製作材料 +50%；異界裝備 +10%",
+        "可與新手／回歸增益疊加（公告）"
+      ],
+      "reward_h2": "獎勵重點",
+      "rewards": [
+        [
+          "Luna 加入（Rank 70）",
+          "限定 5★ Luna、Glacial Purity、熟練企鵝 ×15"
+        ],
+        [
+          "召喚支援",
+          "每日免費契約 +20（期間最多 1,260）＋ Belche SD 一次"
+        ],
+        [
+          "登入禮",
+          "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包至約 11/26 — 7 日內領"
+        ],
+        [
+          "WA 準備階梯",
+          "競技場點→魅力等 — 見 STOVE 表"
+        ]
+      ],
+      "side_h2": "支線",
+      "side": "詳見：Secret Rabbit♥Hole。",
+      "src_h2": "來源"
+    },
+    "th": {
+      "title": "ไกด์ Foundry Epic Seven: ปฏิทินและ Guild War | E7",
+      "meta": "ไกด์ Foundry ครอบคลุมปฏิทินเซิร์ฟเวอร์ใหม่ รางวัล และ Guild War ช่วง 2026-11-21 03:00 UTC (World Arena 2026-12-10) อ้างอิง STOVE",
+      "h1": "ไกด์เซิร์ฟเวอร์ Foundry — กำหนดการและรางวัล",
+      "lead": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: บัฟผู้เริ่มต้น เมลฉลอง และการจับคู่เฉพาะ Foundry สำหรับ PvP ที่ระบุไว้ Guild War ประกาศไว้ราว 2026-11-21 03:00 UTC สรุปจากประกาศสาธารณะของ STOVE/Steam — กำหนดการอาจเลื่อนหลังปิดปรับปรุง ไกด์อิสระ ไม่ใช่ Smilegate หรือ STOVE",
+      "as_of": "ข้อมูล ณ ประมาณ 2026-10-29 เวลาเป็น UTC เว้นแต่ระบุไว้เป็นอย่างอื่น",
+      "unlock_h2": "ปฏิทินปลดล็อกเนื้อหา",
+      "th": [
+        "เนื้อหา",
+        "เปิด (UTC)",
+        "หมายเหตุแหล่งที่มา"
+      ],
+      "unlock": [
+        [
+          "Foundry + เปิดตัวบน Steam",
+          "2026-10-29 หลังปิดปรับปรุง",
+          "ประกาศเปิดตัว"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 หลังปิดปรับปรุง",
+          "จับคู่เฉพาะ Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "ประกาศเปิด Foundry ของ STOVE"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 หลังปิดปรับปรุง",
+          "ตารางกำหนดการ STOVE"
+        ]
+      ],
+      "cal_h2": "ปฏิทินถึง 2026-12-31",
+      "th2": [
+        "อีเวนต์ / บัฟ",
+        "เริ่ม",
+        "สิ้นสุด"
+      ],
+      "events": [
+        [
+          "บัฟสนับสนุนผู้เริ่มต้นแบบเต็ม",
+          "10/29 หลังปิดปรับปรุง",
+          "12/31 02:59"
+        ],
+        [
+          "Luna เข้าร่วม (Rank 70)",
+          "10/29 หลังปิดปรับปรุง",
+          "12/31 02:59"
+        ],
+        [
+          "สนับสนุนการอัญเชิญ (Covenant ฟรีรายวัน)",
+          "10/29 หลังปิดปรับปรุง",
+          "12/31 02:59"
+        ],
+        [
+          "เตรียมตัว! แต้ม World Arena",
+          "10/29 หลังปิดปรับปรุง",
+          "12/31 02:59"
+        ],
+        [
+          "ของขวัญล็อกอินต้อนรับ Foundry (สกิน)",
+          "10/29 หลังปิดปรับปรุง",
+          "12/31 02:59 (ครั้งเดียว)"
+        ],
+        [
+          "แพ็กเติบโตในกล่องจดหมาย Foundry",
+          "10/29 หลังปิดปรับปรุง",
+          "11/26 14:59"
+        ],
+        [
+          "เมล 100k wishlist ของ Steam (ล็อกอิน Foundry)",
+          "10/29 หลังปิดปรับปรุง",
+          "~11/19 03:00"
+        ],
+        [
+          "Emergency Mission: Catalyst สัปดาห์ที่ 1",
+          "10/29 หลังปิดปรับปรุง",
+          "11/5 02:59"
+        ],
+        [
+          "Emergency Mission: Charm สัปดาห์ที่ 1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Emergency Mission: Catalyst สัปดาห์ที่ 2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Emergency Mission: Charm สัปดาห์ที่ 2",
+          "11/19 หลังปิดปรับปรุง",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 หลังปิดปรับปรุง",
+          "~6 สัปดาห์"
+        ],
+        [
+          "Daily Investigation / Lucky Board",
+          "10/29 หลังปิดปรับปรุง",
+          "11/19 02:59"
+        ],
+        [
+          "แพ็กล็อบบี้ Bunny Girl Party Hall",
+          "10/29 หลังปิดปรับปรุง",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "ต่อเนื่อง"
+        ],
+        [
+          "World Arena",
+          "12/10 หลังปิดปรับปรุง",
+          "ต่อเนื่อง"
+        ]
+      ],
+      "buff_h2": "บัฟสนับสนุนผู้เริ่มต้น",
+      "buffs": [
+        "การเติบโต: แต้ม catalyst +50%; รูนจาก Spirit Altar ดรอป 2 เท่า; EXP ฮีโร่ / ทอง / EXP อันดับบัญชี +30%; แต้ม conquest ของ Arena 2 เท่า",
+        "Hunt: วัตถุดิบคราฟต์จาก Hunt ดรอป +50%; อุปกรณ์ otherworldly จาก Otherworld Breach & Hunt ดรอป +10%",
+        "ซ้อนกับบัฟผู้เล่นใหม่ / กลับมาเล่น (ตามประกาศ)"
+      ],
+      "reward_h2": "ไฮไลต์รางวัล",
+      "rewards": [
+        [
+          "Luna เข้าร่วม (Rank 70)",
+          "Luna 5★ แบบจำกัด, สกิน Glacial Purity, Experienced Penguins ×15"
+        ],
+        [
+          "สนับสนุนการอัญเชิญ",
+          "อัญเชิญ Covenant ฟรี +20 ครั้งต่อวัน (สูงสุด 1,260 ครั้งตลอดช่วง) + สติกเกอร์ SD Belche หนึ่งครั้ง"
+        ],
+        [
+          "ของขวัญล็อกอิน",
+          "ต้อนรับ: สกิน epic New Moon Luna (Majestic Bunny Girl) + สติกเกอร์ SD (ครั้งเดียว) แพ็กในกล่องจดหมายถึง ~11/26 — รับก่อนหมดอายุ 7 วัน"
+        ],
+        [
+          "บันไดเตรียม World Arena",
+          "แต้ม Arena → charm, เครื่องประดับ Demon cursed, หีบ Lv.85, Skin Tickets — บันไดเต็มบน STOVE"
+        ]
+      ],
+      "side_h2": "เรื่องราวเสริม",
+      "side": "เจาะลึก: Secret Rabbit♥Hole (Case Files, Lucky Board, แพ็กล็อบบี้)",
+      "src_h2": "แหล่งอ้างอิง"
+    },
+    "es": {
+      "title": "Guía Foundry de Epic Seven: calendario y Guild War | E7",
+      "meta": "Guía de Foundry sobre el calendario del nuevo servidor, las recompensas y Guild War hacia el 2026-11-21 03:00 UTC (World Arena 2026-12-10). Cita STOVE.",
+      "h1": "Guía del servidor Foundry — calendario y recompensas",
+      "lead": "Esta guía del servidor Foundry cubre la ruta de servidor nuevo de Epic Seven: mejoras de inicio, correo de celebración y emparejamiento exclusivo de Foundry para los PvP indicados. Guild War está anunciada para alrededor del 2026-11-21 03:00 UTC. Parafrasea avisos públicos de STOVE/Steam; los calendarios pueden cambiar tras el mantenimiento. Guía independiente; no es de Smilegate ni de STOVE.",
+      "as_of": "Instantánea alrededor del 2026-10-29. Horas en UTC salvo que se indique lo contrario.",
+      "unlock_h2": "Calendario de desbloqueo de contenido",
+      "th": [
+        "Función",
+        "Apertura (UTC)",
+        "Nota de la fuente"
+      ],
+      "unlock": [
+        [
+          "Lanzamiento de Foundry + Steam",
+          "2026-10-29 tras mantenimiento",
+          "Aviso de lanzamiento"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 tras mantenimiento",
+          "Emparejamiento exclusivo de Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "Aviso de apertura de Foundry en STOVE"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 tras mantenimiento",
+          "Tabla de calendario de STOVE"
+        ]
+      ],
+      "cal_h2": "Calendario hasta el 2026-12-31",
+      "th2": [
+        "Evento / mejora",
+        "Inicio",
+        "Fin"
+      ],
+      "events": [
+        [
+          "Mejora completa de Apoyo de inicio",
+          "10/29 tras mantenimiento",
+          "12/31 02:59"
+        ],
+        [
+          "Luna se une (rango 70)",
+          "10/29 tras mantenimiento",
+          "12/31 02:59"
+        ],
+        [
+          "Apoyo de invocación (Covenant gratis a diario)",
+          "10/29 tras mantenimiento",
+          "12/31 02:59"
+        ],
+        [
+          "¡Prepárate! Puntos de World Arena",
+          "10/29 tras mantenimiento",
+          "12/31 02:59"
+        ],
+        [
+          "Regalo de bienvenida de Foundry por inicio de sesión (aspecto)",
+          "10/29 tras mantenimiento",
+          "12/31 02:59 (una vez)"
+        ],
+        [
+          "Paquete de crecimiento del buzón de Foundry",
+          "10/29 tras mantenimiento",
+          "11/26 14:59"
+        ],
+        [
+          "Correo de 100k listas de deseos de Steam (inicio de sesión en Foundry)",
+          "10/29 tras mantenimiento",
+          "~11/19 03:00"
+        ],
+        [
+          "Misión de emergencia: semana 1 de catalizadores",
+          "10/29 tras mantenimiento",
+          "11/5 02:59"
+        ],
+        [
+          "Misión de emergencia: semana 1 de encantos",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Misión de emergencia: semana 2 de catalizadores",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Misión de emergencia: semana 2 de encantos",
+          "11/19 tras mantenimiento",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 tras mantenimiento",
+          "~6 semanas"
+        ],
+        [
+          "Investigación diaria / Lucky Board",
+          "10/29 tras mantenimiento",
+          "11/19 02:59"
+        ],
+        [
+          "Paquete de vestíbulo de Bunny Girl Party Hall",
+          "10/29 tras mantenimiento",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "en curso"
+        ],
+        [
+          "World Arena",
+          "12/10 tras mantenimiento",
+          "en curso"
+        ]
+      ],
+      "buff_h2": "Mejoras de Apoyo de inicio",
+      "buffs": [
+        "Crecimiento: +50% de puntos de catalizador; 2× de runas del Altar de espíritus; +30% de EXP de héroe / oro / EXP de rango de cuenta; 2× de puntos de conquista de Arena",
+        "Hunt: +50% de materiales de artesanía de Hunt; +10% de equipo de otro mundo en Brecha del Otro Mundo y Hunt",
+        "Se acumula con las mejoras para jugadores nuevos / que regresan (según el aviso)"
+      ],
+      "reward_h2": "Recompensas destacadas",
+      "rewards": [
+        [
+          "Luna se une (rango 70)",
+          "Luna 5★ limitada, aspecto Pureza Glacial, Pingüinos experimentados ×15."
+        ],
+        [
+          "Apoyo de invocación",
+          "+20 invocaciones de Covenant gratis al día (hasta 1,260 en el periodo) + pegatina SD de Belche una vez."
+        ],
+        [
+          "Regalos de inicio de sesión",
+          "Bienvenida: aspecto épico New Moon Luna (Majestic Bunny Girl) + pegatina SD (una vez). Paquete del buzón hasta ~11/26: reclámalo antes de que caduque en 7 días."
+        ],
+        [
+          "Escalera de preparación para World Arena",
+          "Puntos de Arena → encantos, accesorios malditos de Demon, cofres de Lv.85, boletos de aspecto; escalera completa en STOVE."
+        ]
+      ],
+      "side_h2": "Historia secundaria",
+      "side": "Análisis a fondo: Secret Rabbit♥Hole (Case Files, Lucky Board, paquete de vestíbulo).",
+      "src_h2": "Fuentes"
+    },
+    "pt": {
+      "title": "Epic Seven Foundry: calendário e Guild War | E7 Steam",
+      "meta": "Guia do Foundry sobre o calendário do novo servidor, recompensas e Guild War em torno de 2026-11-21 03:00 UTC (World Arena 2026-12-10). Cite a STOVE.",
+      "h1": "Guia do servidor Foundry — cronograma e recompensas",
+      "lead": "Este guia do servidor Foundry cobre a trilha de novo servidor de Epic Seven: buffs de iniciante, correio de celebração e matchmaking exclusivo do Foundry para o PvP listado. A Guild War está anunciada para cerca de 2026-11-21 03:00 UTC. Parafraseia avisos públicos da STOVE/Steam — os cronogramas podem mudar após a manutenção. Guia independente; não é da Smilegate nem da STOVE.",
+      "as_of": "Dados de cerca de 2026-10-29. Horários em UTC, salvo indicação em contrário.",
+      "unlock_h2": "Calendário de liberação de conteúdo",
+      "th": [
+        "Recurso",
+        "Abre (UTC)",
+        "Nota da fonte"
+      ],
+      "unlock": [
+        [
+          "Foundry + lançamento no Steam",
+          "2026-10-29 após manutenção",
+          "Aviso de lançamento"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 após manutenção",
+          "Matchmaking exclusivo do Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "Aviso de abertura do Foundry na STOVE"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 após manutenção",
+          "Tabela de cronograma da STOVE"
+        ]
+      ],
+      "cal_h2": "Calendário até 2026-12-31",
+      "th2": [
+        "Evento / buff",
+        "Início",
+        "Fim"
+      ],
+      "events": [
+        [
+          "Buff completo do Apoio ao Iniciante",
+          "10/29 após manutenção",
+          "12/31 02:59"
+        ],
+        [
+          "Luna do Rank 70 se junta",
+          "10/29 após manutenção",
+          "12/31 02:59"
+        ],
+        [
+          "Apoio à Invocação (Covenant grátis diário)",
+          "10/29 após manutenção",
+          "12/31 02:59"
+        ],
+        [
+          "Get Ready! Pontos da World Arena",
+          "10/29 após manutenção",
+          "12/31 02:59"
+        ],
+        [
+          "Presente de login de boas-vindas do Foundry (skin)",
+          "10/29 após manutenção",
+          "12/31 02:59 (uma vez)"
+        ],
+        [
+          "Pacote de crescimento do correio do Foundry",
+          "10/29 após manutenção",
+          "11/26 14:59"
+        ],
+        [
+          "Correio de 100 mil listas de desejos do Steam (login no Foundry)",
+          "10/29 após manutenção",
+          "~11/19 03:00"
+        ],
+        [
+          "Missão de Emergência: semana 1 de catalisador",
+          "10/29 após manutenção",
+          "11/5 02:59"
+        ],
+        [
+          "Missão de Emergência: semana 1 de Charm",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Missão de Emergência: semana 2 de catalisador",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Missão de Emergência: semana 2 de Charm",
+          "11/19 após manutenção",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 após manutenção",
+          "~6 semanas"
+        ],
+        [
+          "Investigação Diária / Lucky Board",
+          "10/29 após manutenção",
+          "11/19 02:59"
+        ],
+        [
+          "Pacote de lobby do Bunny Girl Party Hall",
+          "10/29 após manutenção",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "em andamento"
+        ],
+        [
+          "World Arena",
+          "12/10 após manutenção",
+          "em andamento"
+        ]
+      ],
+      "buff_h2": "Buffs do Apoio ao Iniciante",
+      "buffs": [
+        "Crescimento: +50% de pontos de catalisador; 2× de drop de runas do Altar dos Espíritos; +30% de EXP de herói / ouro / EXP de rank da conta; 2× de pontos de conquista da Arena",
+        "Hunt: +50% de drop de materiais de criação do Hunt; +10% de drop de equipamentos de outro mundo do Otherworld Breach e do Hunt",
+        "Acumula com os buffs de jogador novo / retornante (conforme o aviso)"
+      ],
+      "reward_h2": "Destaques de recompensas",
+      "rewards": [
+        [
+          "Luna se junta (Rank 70)",
+          "Luna 5★ limitada, skin Glacial Purity, Pinguins Experientes ×15."
+        ],
+        [
+          "Apoio à Invocação",
+          "+20 invocações Covenant grátis por dia (até 1.260 no período) + sticker SD da Belche uma vez."
+        ],
+        [
+          "Presentes de login",
+          "Boas-vindas: skin épica New Moon Luna (Majestic Bunny Girl) + sticker SD (uma vez). Pacote do correio até ~11/26 — resgate antes do vencimento de 7 dias."
+        ],
+        [
+          "Escada de preparação para a World Arena",
+          "Pontos de Arena → charms, acessórios amaldiçoados Demon, baús Lv.85, Skin Tickets — escada completa na STOVE."
+        ]
+      ],
+      "side_h2": "História paralela",
+      "side": "Mergulho fundo: Secret Rabbit♥Hole (Case Files, Lucky Board, pacote de lobby).",
+      "src_h2": "Fontes"
+    },
+    "de": {
+      "title": "Epic Seven Foundry-Server-Guide: Kalender & Guild War | E7 Steam",
+      "meta": "Foundry-Guide zum Kalender des neuen Servers, zu Belohnungen und Guild War um 2026-11-21 03:00 UTC (World Arena 2026-12-10). STOVE als Quelle angeben.",
+      "h1": "Foundry-Server-Guide — Zeitplan & Belohnungen",
+      "lead": "Dieser Foundry-Server-Guide behandelt den Start auf dem neuen Server von Epic Seven: Starter-Buffs, Glückwunsch-Mails und Foundry-eigenes Matchmaking für das aufgeführte PvP. Guild War ist für etwa 2026-11-21 03:00 UTC angekündigt. Der Guide fasst öffentliche STOVE-/Steam-Hinweise zusammen — Zeitpläne können sich nach der Wartung verschieben. Unabhängiger Guide; nicht von Smilegate oder STOVE.",
+      "as_of": "Stand etwa 2026-10-29. Zeiten in UTC, sofern nicht anders angegeben.",
+      "unlock_h2": "Kalender der Content-Freischaltungen",
+      "th": [
+        "Inhalt",
+        "Offen (UTC)",
+        "Quellenhinweis"
+      ],
+      "unlock": [
+        [
+          "Foundry + Steam-Launch",
+          "2026-10-29 nach Wartung",
+          "Launch-Hinweis"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 nach Wartung",
+          "Matchmaking nur auf Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "STOVE-Hinweis zum Foundry-Start"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 nach Wartung",
+          "STOVE-Zeitplan"
+        ]
+      ],
+      "cal_h2": "Kalender bis 2026-12-31",
+      "th2": [
+        "Event / Buff",
+        "Start",
+        "Ende"
+      ],
+      "events": [
+        [
+          "Starter Support: voller Buff",
+          "10/29 nach Wartung",
+          "12/31 02:59"
+        ],
+        [
+          "Luna stößt dazu (Rang 70)",
+          "10/29 nach Wartung",
+          "12/31 02:59"
+        ],
+        [
+          "Summon Support (täglich kostenloses Covenant)",
+          "10/29 nach Wartung",
+          "12/31 02:59"
+        ],
+        [
+          "Get Ready! World-Arena-Punkte",
+          "10/29 nach Wartung",
+          "12/31 02:59"
+        ],
+        [
+          "Foundry Welcome: Login-Geschenk (Skin)",
+          "10/29 nach Wartung",
+          "12/31 02:59 (einmalig)"
+        ],
+        [
+          "Foundry-Postfach-Wachstumspaket",
+          "10/29 nach Wartung",
+          "11/26 14:59"
+        ],
+        [
+          "Steam-100k-Wunschlisten-Mail (Foundry-Login)",
+          "10/29 nach Wartung",
+          "~11/19 03:00"
+        ],
+        [
+          "Emergency Mission: Katalysator Woche 1",
+          "10/29 nach Wartung",
+          "11/5 02:59"
+        ],
+        [
+          "Emergency Mission: Charm Woche 1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Emergency Mission: Katalysator Woche 2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Emergency Mission: Charm Woche 2",
+          "11/19 nach Wartung",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 nach Wartung",
+          "~6 Wochen"
+        ],
+        [
+          "Tägliche Ermittlung / Lucky Board",
+          "10/29 nach Wartung",
+          "11/19 02:59"
+        ],
+        [
+          "Bunny Girl Party Hall Lobby-Paket",
+          "10/29 nach Wartung",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "laufend"
+        ],
+        [
+          "World Arena",
+          "12/10 nach Wartung",
+          "laufend"
+        ]
+      ],
+      "buff_h2": "Starter-Support-Buffs",
+      "buffs": [
+        "Wachstum: +50% Katalysator-Punkte; 2× Runen-Drop im Spirit Altar; +30% Helden-EXP / Gold / Account-Rang-EXP; 2× Arena-Eroberungspunkte",
+        "Hunt: +50% Drop von Hunt-Handwerksmaterial; +10% Drop von jenseitiger Ausrüstung bei Otherworld Breach & Hunt",
+        "Stapelt sich mit Buffs für neue / zurückkehrende Spieler (laut Hinweis)"
+      ],
+      "reward_h2": "Belohnungen im Überblick",
+      "rewards": [
+        [
+          "Luna stößt dazu (Rang 70)",
+          "Limitierte 5★ Luna, Skin „Glacial Purity“, Experienced Penguins ×15."
+        ],
+        [
+          "Summon Support",
+          "+20 kostenlose Covenant-Beschwörungen pro Tag (bis zu 1,260 im Zeitraum) + Belche-SD-Sticker einmalig."
+        ],
+        [
+          "Login-Geschenke",
+          "Willkommen: epischer Skin „New Moon Luna“ (Majestic Bunny Girl) + SD-Sticker (einmalig). Postfach-Paket bis ~11/26 — vor Ablauf der 7-Tage-Frist abholen."
+        ],
+        [
+          "World-Arena-Vorbereitung",
+          "Arena-Punkte → Charms, verfluchte Dämonen-Accessoires, Lv.85-Truhen, Skin-Tickets — die komplette Belohnungsleiter auf STOVE."
+        ]
+      ],
+      "side_h2": "Nebenstory",
+      "side": "Deep Dive: Secret Rabbit♥Hole (Case Files, Lucky Board, Lobby-Paket).",
+      "src_h2": "Quellen"
+    },
+    "fr": {
+      "title": "Guide Foundry Epic Seven : calendrier et Guild War | E7 Steam",
+      "meta": "Guide Foundry sur le calendrier du nouveau serveur, les récompenses et la Guild War autour du 2026-11-21 03:00 UTC (World Arena 2026-12-10). Source à citer : STOVE.",
+      "h1": "Guide du serveur Foundry — calendrier et récompenses",
+      "lead": "Ce guide du serveur Foundry couvre le parcours nouveau serveur d’Epic Seven : buffs de départ, courrier de célébration et matchmaking réservé à Foundry pour les PvP listés. La Guild War est annoncée autour du 2026-11-21 03:00 UTC. Reformulation des avis publics STOVE/Steam — les horaires peuvent changer après maintenance. Guide indépendant ; non affilié à Smilegate ni à STOVE.",
+      "as_of": "Instantané autour du 2026-10-29. Heures en UTC sauf mention contraire.",
+      "unlock_h2": "Calendrier de déblocage du contenu",
+      "th": [
+        "Fonctionnalité",
+        "Ouverture (UTC)",
+        "Note de source"
+      ],
+      "unlock": [
+        [
+          "Lancement Foundry + Steam",
+          "2026-10-29 après maintenance",
+          "Avis de lancement"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 après maintenance",
+          "Matchmaking réservé à Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "Avis d’ouverture Foundry sur STOVE"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 après maintenance",
+          "Tableau des horaires STOVE"
+        ]
+      ],
+      "cal_h2": "Calendrier jusqu’au 2026-12-31",
+      "th2": [
+        "Événement / buff",
+        "Début",
+        "Fin"
+      ],
+      "events": [
+        [
+          "Buff complet de soutien aux débutants",
+          "10/29 après maintenance",
+          "12/31 02:59"
+        ],
+        [
+          "Arrivée de Luna rang 70",
+          "10/29 après maintenance",
+          "12/31 02:59"
+        ],
+        [
+          "Soutien invocation (Covenant gratuit quotidien)",
+          "10/29 après maintenance",
+          "12/31 02:59"
+        ],
+        [
+          "Get Ready! — points World Arena",
+          "10/29 après maintenance",
+          "12/31 02:59"
+        ],
+        [
+          "Cadeau de connexion Foundry Welcome (skin)",
+          "10/29 après maintenance",
+          "12/31 02:59 (une fois)"
+        ],
+        [
+          "Pack de croissance de la boîte aux lettres Foundry",
+          "10/29 après maintenance",
+          "11/26 14:59"
+        ],
+        [
+          "Courrier Steam 100k wishlists (connexion Foundry)",
+          "10/29 après maintenance",
+          "~11/19 03:00"
+        ],
+        [
+          "Emergency Mission : semaine 1 catalyseurs",
+          "10/29 après maintenance",
+          "11/5 02:59"
+        ],
+        [
+          "Emergency Mission : semaine 1 charmes",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Emergency Mission : semaine 2 catalyseurs",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Emergency Mission : semaine 2 charmes",
+          "11/19 après maintenance",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 après maintenance",
+          "~6 semaines"
+        ],
+        [
+          "Investigation quotidienne / Lucky Board",
+          "10/29 après maintenance",
+          "11/19 02:59"
+        ],
+        [
+          "Pack de lobby Bunny Girl Party Hall",
+          "10/29 après maintenance",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "en cours"
+        ],
+        [
+          "World Arena",
+          "12/10 après maintenance",
+          "en cours"
+        ]
+      ],
+      "buff_h2": "Buffs de soutien au départ",
+      "buffs": [
+        "Croissance : +50 % de points de catalyseur ; 2× de drop de runes à Spirit Altar ; +30 % d’EXP de héros / d’or / d’EXP de rang de compte ; 2× de points de conquête d’Arena",
+        "Hunt : +50 % de drop de matériaux d’artisanat de Hunt ; +10 % de drop d’équipement d’outre-monde dans Otherworld Breach et Hunt",
+        "Se cumule avec les buffs des nouveaux joueurs et des joueurs de retour (selon l’avis)"
+      ],
+      "reward_h2": "Points forts des récompenses",
+      "rewards": [
+        [
+          "Arrivée de Luna (rang 70)",
+          "Luna 5★ limitée, skin Glacial Purity, Penguins expérimentés ×15."
+        ],
+        [
+          "Soutien invocation",
+          "+20 invocations Covenant gratuites par jour (jusqu’à 1,260 sur la période) + sticker SD de Belche une fois."
+        ],
+        [
+          "Cadeaux de connexion",
+          "Accueil : skin épique New Moon Luna (Majestic Bunny Girl) + sticker SD (une fois). Pack de boîte aux lettres jusqu’au ~11/26 — à récupérer avant l’expiration à 7 jours."
+        ],
+        [
+          "Parcours de préparation World Arena",
+          "Points Arena → charmes, accessoires maudits Demon, coffres Lv.85, Skin Tickets — parcours complet sur STOVE."
+        ]
+      ],
+      "side_h2": "Histoire annexe",
+      "side": "Approfondissement : Secret Rabbit♥Hole (Case Files, Lucky Board, pack de lobby).",
+      "src_h2": "Sources"
+    }
+  }
+}

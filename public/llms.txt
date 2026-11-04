@@ -1,6 +1,6 @@
 # Epic Seven Steam Guide — epicsevensteam.com
 
-Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with Smilegate, STOVE, or Valve/Steam; official pages remain authoritative. Last reviewed: 2026-11-03.
+Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with Smilegate, STOVE, or Valve/Steam; official pages remain authoritative. Last reviewed: 2026-11-03. Also available in Thai (/th/), Spanish (/es/), Portuguese (/pt/), German (/de/), and French (/fr/).
 
 ## Preferred pages
 - Home — start here for the Steam entry, transfer decision, and Foundry snapshot: https://epicsevensteam.com/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
