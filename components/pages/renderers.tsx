@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import { Checklist, QuestChecklist } from '@/components/Checklist';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
 import { CONTENT } from '@/lib/i18n/content';
+import { CHECKLIST_COPY } from '@/lib/i18n/checklists';
 import {
   FOUNDRY_VERIFIED,
   HEROES_VERIFIED,
@@ -400,6 +402,30 @@ const TIER_LINK_LABEL: Record<Locale, string> = {
   "fr": "Liste de tiers — approche Steam/transfert"
 };
 
+const HUB_OPEN: Record<Locale, string> = {
+  en: "Open guide →",
+  ko: "가이드 열기 →",
+  ja: "ガイドを開く →",
+  "zh-tw": "開啟指南 →",
+  th: "เปิดคู่มือ →",
+  es: "Abrir guía →",
+  pt: "Abrir guia →",
+  de: "Guide öffnen →",
+  fr: "Ouvrir le guide →"
+};
+
+const HOME_FAQ_HREFS = [
+  '/steam-transfer/',
+  '/steam-transfer/',
+  '/foundry/',
+  '/demo-delete-warning/',
+] as const;
+
+/** Strip [[label|href]] markup before passing copy to a plain-text checklist. */
+function stripMarked(text: string): string {
+  return text.replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, "$1");
+}
+
 const TIER_AVATAR_ALT: Record<Locale, string> = {
   "en": " — self-drawn element-colour avatar (not official art)",
   "ko": " — 자작 속성색 아바타(공식 아트 아님)",
@@ -450,24 +476,70 @@ export function HomeView({ locale }: { locale: Locale }) {
       <LastVerified copy={HOME_VERIFIED[locale]} />
       <section className="hub-section" aria-labelledby="hub-cards-h2">
         <h2 id="hub-cards-h2">{c.hubs_h2}</h2>
-        <div className="hub-grid">
-          {c.hubs.map(([href, title, blurb, img]) => (
-            <L key={href} locale={locale} href={href} className="hub-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={img}
-                alt=""
-                width={IMAGE_SIZE[img]?.[0] ?? 1100}
-                height={IMAGE_SIZE[img]?.[1] ?? 300}
-                loading="lazy"
-              />
-              <div className="hub-card-body">
-                <strong>{title}</strong>
-                <span>{blurb}</span>
+        {(() => {
+          const dl = CONTENT['/download/'][locale] as typeof CONTENT['/download/']['en'] & {
+            hub_blurb?: string;
+          };
+          const byHref = new Map(c.hubs.map((h) => [h[0], h] as const));
+          const primary = [
+            byHref.get('/steam-transfer/'),
+            byHref.get('/foundry/'),
+            [
+              '/download/',
+              dl.h1,
+              dl.hub_blurb ?? dl.lead,
+              '/images/steam-header.webp',
+            ] as const,
+          ].filter(Boolean) as readonly (readonly string[])[];
+          const primaryHrefs = new Set(primary.map((h) => h[0]));
+          const secondary = c.hubs.filter(([href]) => !primaryHrefs.has(href));
+          return (
+            <>
+              <div className="hub-grid hub-grid-primary">
+                {primary.map(([href, title, blurb, img]) => (
+                  <L
+                    key={href}
+                    locale={locale}
+                    href={href}
+                    className="hub-card hub-card-primary"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={img}
+                      alt=""
+                      width={IMAGE_SIZE[img]?.[0] ?? 1100}
+                      height={IMAGE_SIZE[img]?.[1] ?? 300}
+                      loading="lazy"
+                    />
+                    <div className="hub-card-body">
+                      <strong>{title}</strong>
+                      <span>{blurb}</span>
+                      <span className="hub-card-cta">
+                        {href === '/steam-transfer/'
+                          ? c.cta_tr
+                          : href === '/foundry/'
+                            ? c.cta_fd
+                            : c.cta_dl}{' '}
+                        →
+                      </span>
+                    </div>
+                  </L>
+                ))}
               </div>
-            </L>
-          ))}
-        </div>
+              {secondary.length > 0 ? (
+                <ul className="hub-more">
+                  {secondary.map(([href, title]) => (
+                    <li key={href}>
+                      <L locale={locale} href={href}>
+                        {title}
+                      </L>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </>
+          );
+        })()}
       </section>
       <section className="start-5" aria-labelledby="get-started-h2">
         <h2 id="get-started-h2">{START5[locale].h2}</h2>
@@ -489,77 +561,17 @@ export function HomeView({ locale }: { locale: Locale }) {
         alt={c.img_ss_alt}
         credit="Steam store screenshot · Steam CDN"
       />
-      <section id="transfer">
-        <h2>{c.transfer_h2}</h2>
-        <p className="muted">{c.transfer_muted}</p>
-        <Fig
-          src="/images/diagram-transfer.webp"
-          alt={c.img_transfer_alt}
-          credit="Unofficial transfer diagram · epicsevensteam.com"
-        />
-        <Diagram nodes={c.diagram} aria={c.diagram_aria} />
-        <ol className="steps">
-          {c.steps.map(([t, b]) => (
-            <li key={t}>
-              <strong>{t}</strong> {b}
-            </li>
-          ))}
-        </ol>
-      </section>
-      <section id="foundry">
-        <h2>{c.foundry_h2}</h2>
-        <p className="as-of">{c.as_of}</p>
-        <Fig
-          src="/images/diagram-foundry-calendar.webp"
-          alt={c.img_foundry_alt}
-          credit="Unofficial Foundry calendar visual · cite STOVE"
-        />
-        <Fig
-          src="/images/diagram-home-path.webp"
-          alt={c.img_path_alt}
-          credit="Unofficial path chooser · epicsevensteam.com"
-        />
-        <Fig
-          src="/images/steam-ss-world.webp"
-          alt={c.img_world_alt}
-          credit="Steam store screenshot · Steam CDN"
-        />
-        <div className="card">
-          <table className="data">
-            <thead>
-              <tr>
-                <th>{c.th_content}</th>
-                <th>{c.th_open}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {c.rows.map(([a, b]) => (
-                <tr key={a}>
-                  <td>{a}</td>
-                  <td>{b}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <p>
-            {c.foundry_p}{' '}
-            <L locale={locale} href="/foundry/#server-guide">
-              →
-            </L>{' '}
-            <L locale={locale} href="/foundry/#guild-war">
-              {GW_LINK[locale]}
-            </L>
-            {' · '}
-            <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE</ExternalLink>
-          </p>
-        </div>
-      </section>
       <section id="faq" className="faq">
         <h2>{c.faq_h2}</h2>
-        {c.faqs.map(([q, a]) => (
+        {c.faqs.map(([q, a], i) => (
           <details key={q}>
             <summary>{q}</summary>
             <p>{a}</p>
+            <p>
+              <L locale={locale} href={HOME_FAQ_HREFS[i] ?? '/faq/'}>
+                {HUB_OPEN[locale]}
+              </L>
+            </p>
           </details>
         ))}
         <p>
@@ -567,16 +579,6 @@ export function HomeView({ locale }: { locale: Locale }) {
             {c.faq_more}
           </L>
         </p>
-      </section>
-      <section id="troubleshoot">
-        <h2>{c.trouble_h2}</h2>
-        <ul className="troubleshoot">
-          {c.trouble.map(([t, b]) => (
-            <li key={t}>
-              <strong>{t}</strong> {b}
-            </li>
-          ))}
-        </ul>
       </section>
       <section>
         <h2>{c.map_h2}</h2>
@@ -678,6 +680,19 @@ export function DownloadView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
+      <p>{c.lead}</p>
+      <p>
+        <ExternalLink href={OFFICIAL.steamStore} className="btn btn-outline">
+          {c.cta}
+        </ExternalLink>
+      </p>
+      <h2>{c.before_h2}</h2>
+      <Checklist
+        items={c.steps.map(stripMarked)}
+        doneText={CHECKLIST_COPY[locale].downloadDone}
+        officialHref={OFFICIAL.steamStore}
+        officialLabel="Steam app 5019180"
+      />
       <Fig
         src="/images/steam-header.webp"
         alt={c.img_alt}
@@ -688,20 +703,6 @@ export function DownloadView({ locale }: { locale: Locale }) {
         alt={c.img_cap_alt}
         credit="Steam capsule · Steam CDN"
       />
-      <p>{c.lead}</p>
-      <p>
-        <ExternalLink href={OFFICIAL.steamStore} className="btn btn-outline">
-          {c.cta}
-        </ExternalLink>
-      </p>
-      <h2>{c.before_h2}</h2>
-      <ol className="steps">
-        {c.steps.map((s) => (
-          <li key={s.slice(0, 24)}>
-            <RichInline locale={locale} marked={s} />
-          </li>
-        ))}
-      </ol>
       <h2>{c.after_h2}</h2>
       <ul>
         {c.after.map((s) => (
@@ -799,6 +800,14 @@ export function TransferView({ locale }: { locale: Locale }) {
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
+      <p>{c.goal}</p>
+      <h2>{c.before_h2}</h2>
+      <Checklist
+        items={c.before}
+        doneText={CHECKLIST_COPY[locale].transferDone}
+        officialHref={OFFICIAL.stoveSteamFaq}
+        officialLabel="STOVE Steam FAQ"
+      />
       <Fig
         src="/images/diagram-transfer.webp"
         alt={c.img_alt}
@@ -814,14 +823,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         alt={c.img_alt3}
         credit="Steam store header · app 5019180 · Steam CDN"
       />
-      <p>{c.goal}</p>
       <Diagram nodes={c.diagram} aria={c.diagram_aria} />
-      <h2>{c.before_h2}</h2>
-      <ul>
-        {c.before.map((s) => (
-          <li key={s.slice(0, 48)}>{s}</li>
-        ))}
-      </ul>
       <h2>{c.rec_h2}</h2>
       <ol className="steps">
         {c.steps.map(([t, b], i) => (
@@ -886,31 +888,14 @@ export function TransferView({ locale }: { locale: Locale }) {
       <h2>{c.vs_h2}</h2>
       <p>
         {c.vs}{' '}
-        <L locale={locale} href="/foundry/#server-guide">
+        <L locale={locale} href="/foundry/">
           {c.link_foundry}
         </L>
         .
       </p>
-      <p>
-        <RichInline locale={locale} marked={c.vs_more} />
-      </p>
-      <ol className="steps">
-        {c.vs_steps.map((s) => (
-          <li key={s.slice(0, 40)}>
-            <RichInline locale={locale} marked={s} />
-          </li>
-        ))}
-      </ol>
       <h2>{c.cross_h2}</h2>
       <ul>
         <li>{c.cross[0]}</li>
-        <li>
-          {c.cross_foundry_before}{' '}
-          <L locale={locale} href="/foundry/">
-            {c.link_foundry}
-          </L>{' '}
-          {c.cross_foundry_after}
-        </li>
         <li>
           {c.related_label}{' '}
           <L locale={locale} href="/demo-delete-warning/">
@@ -925,8 +910,8 @@ export function TransferView({ locale }: { locale: Locale }) {
             {c.link_faq}
           </L>
           ,{' '}
-          <L locale={locale} href="/foundry/#guild-war">
-            {GW_LINK[locale]}
+          <L locale={locale} href="/download/">
+            {c.link_download}
           </L>
           .
         </li>
@@ -1057,6 +1042,7 @@ export function DemoView({ locale }: { locale: Locale }) {
 
 export function FaqView({ locale }: { locale: Locale }) {
   const c = CONTENT['/faq/'][locale];
+  const dl = CONTENT['/download/'][locale];
   const allFaqs = [...c.faqs, ...FAQ_EXTRA[locale]];
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -1085,6 +1071,13 @@ export function FaqView({ locale }: { locale: Locale }) {
         credit="Unofficial FAQ flowchart · wrong bind, withdraw, then convert"
       />
       <p>{c.lead}</p>
+      <h2>{c.check_h2}</h2>
+      <Checklist
+        items={c.checks}
+        doneText={CHECKLIST_COPY[locale].faqDone}
+        officialHref={OFFICIAL.stoveSteamFaq}
+        officialLabel="STOVE Steam FAQ"
+      />
       {FAQ_GROUPS[locale].map((group) => (
         <section className="faq" key={group.h2}>
           <h2>{group.h2}</h2>
@@ -1100,12 +1093,34 @@ export function FaqView({ locale }: { locale: Locale }) {
           })}
         </section>
       ))}
-      <h2>{c.check_h2}</h2>
-      <ol>
-        {c.checks.map((s) => (
-          <li key={s}>{s}</li>
-        ))}
-      </ol>
+      <h2>{dl.related_h2}</h2>
+      <ul>
+        <li>
+          <L locale={locale} href="/steam-transfer/">
+            {dl.link_transfer}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/foundry/">
+            {dl.link_foundry}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/download/">
+            {dl.h1}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/steam-notes/">
+            {dl.link_notes}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/demo-delete-warning/">
+            {dl.link_demo}
+          </L>
+        </li>
+      </ul>
       <h2>{c.src_h2}</h2>
       <ul className="sources">
         <li>
@@ -1244,33 +1259,24 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
 
 export function FoundryView({ locale }: { locale: Locale }) {
   const c = CONTENT['/foundry/'][locale];
+  const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
   return (
     <PageShell locale={locale} path="/foundry/">
-      <FaqJsonLd faqs={c.faqs} />
+      <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <LastVerified copy={FOUNDRY_VERIFIED[locale]} />
-      <QuickAnswer text={c.answer} />
-      <Fig
-        src="/images/diagram-foundry-calendar.webp"
-        alt={c.img_alt}
-        credit="Unofficial Foundry calendar · cite STOVE"
-      />
-      <Fig
-        src="/images/steam-ss-world.webp"
-        alt={c.img_ss_alt}
-        credit="Steam store screenshot · Steam CDN"
-      />
-      <Fig
-        src="/images/diagram-foundry-vs-transfer.webp"
-        alt={c.img_alt2}
-        credit="Unofficial Transfer vs Foundry comparison · epicsevensteam.com"
-      />
-      <Fig
-        src="/images/diagram-foundry-milestones.webp"
-        alt={c.img_alt3}
-        credit="Unofficial Foundry milestone strip · cite STOVE dates"
-      />
+      <p className="quick-answer">
+        <strong>TL;DR — </strong>
+        <RichInline locale={locale} marked={c.answer} />
+      </p>
+      <nav className="anchor-nav" aria-label={c.guide_h2}>
+        <span className="anchor-nav-label">{c.guide_h2}</span>
+        <a href="#server-guide">{c.unlock_h2}</a>
+        <a href="#codes">{c.codes_h2}</a>
+        <a href="#guild-war">{GW_LINK[locale]}</a>
+        <a href="#calendar">{c.cal_h2}</a>
+      </nav>
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
       <h2 id="server-guide">{c.guide_h2}</h2>
@@ -1292,6 +1298,26 @@ export function FoundryView({ locale }: { locale: Locale }) {
           ))}
         </tbody>
       </table>
+      <Fig
+        src="/images/diagram-foundry-calendar.webp"
+        alt={c.img_alt}
+        credit="Unofficial Foundry calendar · cite STOVE"
+      />
+      <Fig
+        src="/images/steam-ss-world.webp"
+        alt={c.img_ss_alt}
+        credit="Steam store screenshot · Steam CDN"
+      />
+      <Fig
+        src="/images/diagram-foundry-vs-transfer.webp"
+        alt={c.img_alt2}
+        credit="Unofficial Transfer vs Foundry comparison · epicsevensteam.com"
+      />
+      <Fig
+        src="/images/diagram-foundry-milestones.webp"
+        alt={c.img_alt3}
+        credit="Unofficial Foundry milestone strip · cite STOVE dates"
+      />
       <h2 id="codes">{c.codes_h2}</h2>
       <p>{c.codes_note}</p>
       <h2>{c.vs_h2}</h2>
@@ -1321,7 +1347,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
           ))}
         </tbody>
       </table>
-      <h2>{c.cal_h2}</h2>
+      <h2 id="calendar">{c.cal_h2}</h2>
       <table className="data">
         <thead>
           <tr>
@@ -1404,28 +1430,8 @@ export function FoundryView({ locale }: { locale: Locale }) {
           </L>
         </li>
         <li>
-          <L locale={locale} href="/secret-rabbit-hole/">
-            {c.link_rabbit}
-          </L>
-        </li>
-        <li>
           <L locale={locale} href="/quests/">
             {c.link_quests}
-          </L>
-        </li>
-        <li>
-          <L locale={locale} href="/faq/">
-            {c.link_faq}
-          </L>
-        </li>
-        <li>
-          <L locale={locale} href="/tier-list/">
-            {TIER_LINK_LABEL[locale]}
-          </L>
-        </li>
-        <li>
-          <L locale={locale} href="/download/">
-            {c.link_download}
           </L>
         </li>
         <li>
@@ -1434,13 +1440,18 @@ export function FoundryView({ locale }: { locale: Locale }) {
           </L>
         </li>
         <li>
-          <L locale={locale} href="/banners/">
-            {c.link_banners}
+          <L locale={locale} href="/download/">
+            {c.link_download}
           </L>
         </li>
         <li>
-          <L locale={locale} href="/demo-delete-warning/">
-            {c.link_demo}
+          <L locale={locale} href="/faq/">
+            {c.link_faq}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/banners/">
+            {c.link_banners}
           </L>
         </li>
       </ul>
@@ -1812,6 +1823,8 @@ export function PrivacyView({ locale }: { locale: Locale }) {
 
 export function HeroesView({ locale }: { locale: Locale }) {
   const c = CONTENT['/heroes/'][locale];
+  const fd = CONTENT['/foundry/'][locale];
+  const dl = CONTENT['/download/'][locale];
   const prioLabels = {
     high: c.prio_high,
     mid: c.prio_mid,
@@ -1855,6 +1868,11 @@ export function HeroesView({ locale }: { locale: Locale }) {
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
       <LastVerified copy={HEROES_VERIFIED[locale]} />
+      <p className="muted">
+        <L locale={locale} href="/tier-list/">
+          {TIER_LINK_LABEL[locale]}
+        </L>
+      </p>
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#elements">{c.anchor_elements}</a>
@@ -1999,27 +2017,27 @@ export function HeroesView({ locale }: { locale: Locale }) {
       <ul>
         <li>
           <L locale={locale} href="/banners/">
-            Banners
-          </L>
-        </li>
-        <li>
-          <L locale={locale} href="/quests/">
-            Quests
+            {fd.link_banners}
           </L>
         </li>
         <li>
           <L locale={locale} href="/foundry/">
-            Foundry
-          </L>
-        </li>
-        <li>
-          <L locale={locale} href="/steam-transfer/">
-            Steam Transfer
+            {dl.link_foundry}
           </L>
         </li>
         <li>
           <L locale={locale} href="/tier-list/">
             {TIER_LINK_LABEL[locale]}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/quests/">
+            {fd.link_quests}
+          </L>
+        </li>
+        <li>
+          <L locale={locale} href="/steam-transfer/">
+            {dl.link_transfer}
           </L>
         </li>
       </ul>
@@ -2041,6 +2059,23 @@ export function HeroesView({ locale }: { locale: Locale }) {
 
 export function QuestsView({ locale }: { locale: Locale }) {
   const c = CONTENT['/quests/'][locale];
+  const fd = CONTENT['/foundry/'][locale];
+  const dl = CONTENT['/download/'][locale];
+  const cl = CHECKLIST_COPY[locale];
+  const foundryRe = /Foundry|파운드리|ファウンドリ|伺服器|เซิร์ฟเวอร์/i;
+  const legacyRe = /legacy|레거시|原服|レガシー|Legado|Héritage|Altbestand|เดิม/i;
+  const scopeFor = (task: string) =>
+    foundryRe.test(task) && !legacyRe.test(task) ? cl.scopeFoundry : cl.scopeBoth;
+  const questRows: (readonly [string, string, string, string])[] = [
+    ...c.daily.map(
+      (task) =>
+        [cl.resetDaily, stripMarked(task), scopeFor(task), cl.noteTimer] as const,
+    ),
+    ...c.weekly.map(
+      (task) =>
+        [cl.resetWeekly, stripMarked(task), scopeFor(task), cl.noteTimer] as const,
+    ),
+  ];
   return (
     <PageShell locale={locale} path="/quests/">
       <FaqJsonLd faqs={c.faqs} />
@@ -2050,6 +2085,13 @@ export function QuestsView({ locale }: { locale: Locale }) {
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
+      <p>{c.lead}</p>
+      <p className="muted">{c.reset_note}</p>
+      <QuestChecklist
+        headers={cl.questTh}
+        rows={questRows}
+        doneText={cl.questDone}
+      />
       <Fig
         src="/images/diagram-quests.webp"
         alt={c.img_alt}
@@ -2070,8 +2112,6 @@ export function QuestsView({ locale }: { locale: Locale }) {
         alt={c.img_alt3}
         credit="Unofficial quest priority strip · epicsevensteam.com"
       />
-      <p>{c.lead}</p>
-      <p className="muted">{c.reset_note}</p>
       <h2>{c.foundry_h2}</h2>
       <ul>
         {c.foundry_delta.map((s) => (
@@ -2122,33 +2162,27 @@ export function QuestsView({ locale }: { locale: Locale }) {
       <h2>{c.related_h2}</h2>
       <ul>
         <li>
-          <L locale={locale} href="/secret-rabbit-hole/">
-            Secret Rabbit♥Hole
+          <L locale={locale} href="/foundry/#server-guide">
+            {c.link_foundry}
           </L>
         </li>
         <li>
-          <L locale={locale} href="/foundry/">
-            Foundry
+          <L locale={locale} href="/foundry/#guild-war">
+            {GW_LINK[locale]}
           </L>
         </li>
         <li>
           <L locale={locale} href="/heroes/">
-            Heroes
+            {fd.link_heroes}
           </L>
         </li>
         <li>
-          <L locale={locale} href="/updates/">
-            Updates
+          <L locale={locale} href="/steam-transfer/">
+            {dl.link_transfer}
           </L>
         </li>
         <li>
           <ExternalLink href={OFFICIAL.stoveSteamFaq}>STOVE Steam FAQ</ExternalLink>
-        </li>
-        <li>
-          <ExternalLink href={OFFICIAL.stoveFoundry}>STOVE Foundry notice (view/14571828)</ExternalLink>
-        </li>
-        <li>
-          <ExternalLink href={OFFICIAL.steamStore}>Steam app 5019180</ExternalLink>
         </li>
       </ul>
     </PageShell>

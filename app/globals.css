@@ -325,6 +325,65 @@ li {
   box-shadow: 0 0 0 2px rgba(212, 168, 75, 0.25);
 }
 
+.checklist-block {
+  margin: 0.9rem 0 1.2rem;
+  padding: 0.9rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+.checklist-progress {
+  margin: 0 0 0.5rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--gold-bright);
+}
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.checklist li {
+  margin: 0.45rem 0;
+  padding: 0.45rem 0.5rem;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+.checklist li:hover {
+  background: rgba(102, 192, 244, 0.08);
+}
+.checklist label {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 1.45;
+}
+.checklist input[type='checkbox'],
+.checklist-table input[type='checkbox'] {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.2rem;
+  accent-color: var(--gold);
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+.checklist-done {
+  margin-top: 0.75rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius);
+  background: rgba(212, 168, 75, 0.12);
+  font-size: 0.95rem;
+}
+.checklist-table td:first-child,
+.checklist-table th:first-child {
+  width: 2.2rem;
+  text-align: center;
+}
+
 .diagram {
   display: flex;
   flex-wrap: wrap;
@@ -632,6 +691,34 @@ a.hub-card img {
   color: var(--text-muted);
   font-size: 0.88rem;
   line-height: 1.4;
+}
+.hub-grid-primary {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.hub-card-primary .hub-card-body {
+  flex: 1;
+}
+.hub-card-cta {
+  margin-top: auto;
+  padding-top: 0.35rem;
+  color: var(--steam) !important;
+  font-weight: 700;
+}
+.hub-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.8rem;
+  list-style: none;
+  padding: 0;
+  margin: -0.35rem 0 0;
+  font-size: 0.9rem;
+}
+.hub-more a {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-soft);
 }
 
 .anchor-nav {
