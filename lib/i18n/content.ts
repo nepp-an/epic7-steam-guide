@@ -12660,7 +12660,10 @@ export const CONTENT = {
         "Clear timed lobby currencies first, then hunts. Foundry and legacy quest checkmarks stay separate after transfer."
       ],
       "img_alt2": "Self-drawn Foundry vs legacy quest delta comparison",
-      "img_alt3": "Self-drawn quest priority strip: timed currency, dailies, hunt, weekly"
+      "img_alt3": "Self-drawn quest priority strip: timed currency, dailies, hunt, weekly",
+      "case_files_h2": "Epic Seven Case Files — what they are",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files inside Secret Rabbit♥Hole) are a launch-window grid-deduction mini-game, not a combat quest check. You spend daily magnifying glasses to mark clues and narrow the culprit — wrong guesses waste the limited glasses.", "They sit beside normal Foundry dailies/weeklies and the Lucky Board: clear timed Case Files progress while the lobby icon is live, then return to hunt/story stamina. Spoilers for culprit answers are not published here — cite STOVE event notices.", "Treat Case Files as an event activity attached to the quest/event hub, not a permanent Episode mission. When the side story ends, the lobby entry disappears with unused glasses."],
+      "link_home": "Steam guide home"
     },
     "ko": {
       "title": "Epic Seven 파운드리 퀘스트 vs 레거시 — 일일/주간 가이드",
@@ -12738,7 +12741,10 @@ export const CONTENT = {
         "주간 리셋이 월요일 경계든 다른 경계든, 클라이언트에 표시된 남은 시간을 스크린샷으로 남기면 논쟁이 줄어듭니다. 이벤트 허브 재화는 「나중에」가 곧 소멸인 경우가 많으니 교환 상점 우선순위를 미리 적어 두세요. 파운드리 전용 미션이 안 보이면 레거시 캐릭으로 접속 중인지 확인하고, 반대로 레거시 주간이 안 보이면 서버를 다시 고르세요. 본 페이지의 순서는 권장 루틴일 뿐 강제 숙제가 아닙니다。"
       ],
       "img_alt2": "파운드리 vs 레거시 퀘스트 차이 자작 비교도",
-      "img_alt3": "기간 통화·일일·사냥·주간 우선순위 자작 스트립"
+      "img_alt3": "기간 통화·일일·사냥·주간 우선순위 자작 스트립",
+      "case_files_h2": "Epic Seven Case Files — 무엇인가요",
+      "case_files": ["Case Files(Secret Rabbit♥Hole의 Trusty Sidekick Alencia’s Case Files)는 전투 퀘스트가 아니라 출시 기간 격자 추론 미니게임입니다. 매일 지급되는 돋보기로 단서를 표시하고 범인을 좁히며, 틀린 추측은 한정 돋보기를 낭비합니다.", "일반 파운드리 일일/주간과 Lucky Board 옆에 붙어 있습니다. 로비 아이콘이 살아있는 동안 Case Files 진행을 먼저 밀어 둔 뒤 사냥/스토리 AP로 돌아가세요. 범인 정답 스포일러는 올리지 않으며 STOVE 공지를 인용합니다.", "Case Files는 상시 에피소드 미션이 아니라 퀘스트/이벤트 허브에 붙은 기간 활동입니다. 사이드 스토리가 끝나면 남은 돋보기와 함께 로비 진입점이 사라집니다."],
+      "link_home": "Steam 가이드 홈"
     },
     "ja": {
       "title": "Epic Sevenファウンドリクエスト vs レガシー — デイリー/週次",
@@ -12816,7 +12822,10 @@ export const CONTENT = {
         "週次リセットが月曜境界でも別境界でも、クライアント表示の残り時間をスクショすると議論が減ります。イベントハブ通貨は「あとで」が消滅になりがちなので交換優先度を先にメモ。ファウンドリ専用ミッションが見えないならレガシーキャラでログインしていないか確認し、逆にレガシー週次が見えないなら鯖選択を見直す。本頁の順序は推奨ルーチンであり強制宿題ではありません。"
       ],
       "img_alt2": "ファウンドリ vs 既存クエスト差の自作比較図",
-      "img_alt3": "期限通貨・デイリー・ハント・週次の自作優先帯"
+      "img_alt3": "期限通貨・デイリー・ハント・週次の自作優先帯",
+      "case_files_h2": "Epic Seven Case Files — 概要",
+      "case_files": ["Case Files（Secret Rabbit♥Hole内の Trusty Sidekick Alencia’s Case Files）は戦闘クエストではなく、ローンチ期間のマス目推理ミニゲームです。毎日の虫眼鏡で手がかりを付け犯人を絞り込み、外すと限られた虫眼鏡を浪費します。", "通常の Foundry デイリー／ウィークリーや Lucky Board と並びます。ロビーアイコンがあるうちに Case Files を進め、その後ハント／ストーリー AP に戻してください。犯人ネタバレは掲載せず STOVE 告知を引用します。", "Case Files は常設エピソード任務ではなく、クエスト／イベントハブに付く期間限定アクティビティです。サイドストーリー終了でロビー入口と未使用の虫眼鏡も消えます。"],
+      "link_home": "Steam ガイドホーム"
     },
     "zh-tw": {
       "title": "Epic Seven Foundry 任務 vs 原服 — 每日／每週指南",
@@ -12894,7 +12903,10 @@ export const CONTENT = {
         "無論週重置是週一邊界或其他邊界，把客戶端顯示的剩餘時間截圖可減少爭議。活動入口貨幣常常「之後再說」就過期，請先寫下兌換優先順序。看不到 Foundry 專屬任務時，確認是否登在原服角色；反之看不到原服週任就重選伺服器。本頁順序只是建議節奏，不是強制作業。"
       ],
       "img_alt2": "Foundry 與舊服任務差異自繪對比圖",
-      "img_alt3": "限時貨幣、每日、狩獵、每週優先自繪條"
+      "img_alt3": "限時貨幣、每日、狩獵、每週優先自繪條",
+      "case_files_h2": "Epic Seven Case Files — 是什麼",
+      "case_files": ["Case Files（Secret Rabbit♥Hole 內的 Trusty Sidekick Alencia’s Case Files）是上線期間的格線推理小遊戲，不是戰鬥任務檢核。你用每日放大鏡標記線索並縮小兇手範圍；猜錯會浪費有限放大鏡。", "它與一般 Foundry 每日／每週與 Lucky Board 並列：大廳圖示還在時先推 Case Files，再回頭用體力打狩獵／劇情。這裡不公布兇手劇透，請以 STOVE 公告為準。", "Case Files 屬於任務／活動樞紐上的期間活動，不是常駐 Episode 任務。支線結束後大廳入口與未用放大鏡一併消失。"],
+      "link_home": "Steam 指南首頁"
     },
     "th": {
       "title": "เควส Foundry vs Legacy ใน Epic Seven — รายวัน/รายสัปดาห์",
@@ -12975,7 +12987,10 @@ export const CONTENT = {
         "เคลียร์สกุลเงินล็อบบี้ที่มีกำหนดเวลาก่อน แล้วค่อยไป Hunt เครื่องหมายเควส Foundry และ Legacy แยกกันหลังย้าย"
       ],
       "img_alt2": "ภาพเปรียบเทียบความต่างเควส Foundry กับ Legacy ที่วาดเอง",
-      "img_alt3": "แถบลำดับความสำคัญเควสที่วาดเอง: สกุลเงินตามเวลา, รายวัน, Hunt, รายสัปดาห์"
+      "img_alt3": "แถบลำดับความสำคัญเควสที่วาดเอง: สกุลเงินตามเวลา, รายวัน, Hunt, รายสัปดาห์",
+      "case_files_h2": "Epic Seven Case Files — คืออะไร",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files ใน Secret Rabbit♥Hole) เป็นมินิเกม推理ตารางช่วงเปิดตัว ไม่ใช่เควสต์ต่อสู้ คุณใช้แว่นขยายรายวันทำเครื่องหมายเบาะแสและจำกัดตัวผู้ต้องสงสัย — ทายผิดจะเสียแว่นที่มีจำกัด", "มันอยู่คู่กับเดลี่/วีคลี่ Foundry ปกติและ Lucky Board: ลุย Case Files ตอนไอคอนล็อบบียังอยู่ แล้วค่อยกลับไปใช้ AP ล่า/เนื้อเรื่อง ที่นี่ไม่เผยสปอยล์คำตอบคนร้าย อ้างอิงประกาศ STOVE", "ถือว่า Case Files เป็นกิจกรรมช่วงเวลาที่ผูกกับฮับเควสต์/อีเวนต์ ไม่ใช่ Episode ถาวร พอไซด์สตอรี่จบ ทางเข้าล็อบบี้และแว่นที่เหลือจะหายไป"],
+      "link_home": "หน้าแรกคู่มือ Steam"
     },
     "es": {
       "title": "Misiones Foundry vs legado en Epic Seven — guía | E7",
@@ -13056,7 +13071,10 @@ export const CONTENT = {
         "Reclama primero las monedas del vestíbulo con tiempo limitado y después dedícate a los Hunt. Las marcas de misiones de Foundry y del legado siguen separadas tras la transferencia."
       ],
       "img_alt2": "Comparación dibujada por nosotros de las diferencias de misiones entre Foundry y el legado",
-      "img_alt3": "Tira de prioridad de misiones dibujada por nosotros: moneda con tiempo limitado, diarias, Hunt, semanal"
+      "img_alt3": "Tira de prioridad de misiones dibujada por nosotros: moneda con tiempo limitado, diarias, Hunt, semanal",
+      "case_files_h2": "Epic Seven Case Files — qué son",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) es un minijuego de deducción en cuadrícula de la ventana de lanzamiento, no una misión de combate. Gastas lupas diarias para marcar pistas y acotar al culpable; fallar desperdicia lupas limitadas.", "Va junto a los diarios/semanales normales de Foundry y al Lucky Board: avanza Case Files mientras el icono del lobby esté activo y luego vuelve a cacerías/historia. No publicamos spoilers del culpable; cita avisos de STOVE.", "Trátalo como una actividad de evento unida al hub de misiones, no como un Episode permanente. Cuando termina la historia secundaria, desaparece la entrada del lobby con las lupas sin usar."],
+      "link_home": "Inicio de la guía Steam"
     },
     "pt": {
       "title": "Missões Foundry vs legado em Epic Seven — guia | E7",
@@ -13137,7 +13155,10 @@ export const CONTENT = {
         "Resgate primeiro as moedas cronometradas do lobby e depois vá para o Hunt. As marcações de missão do Foundry e do legado continuam separadas após a transferência."
       ],
       "img_alt2": "Comparação desenhada por nós das diferenças de missão entre Foundry e legado",
-      "img_alt3": "Tira de prioridade de missões desenhada por nós: moeda cronometrada, diárias, Hunt, semanal"
+      "img_alt3": "Tira de prioridade de missões desenhada por nós: moeda cronometrada, diárias, Hunt, semanal",
+      "case_files_h2": "Epic Seven Case Files — o que são",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) é um minijogo de dedução em grade da janela de lançamento, não uma missão de combate. Você gasta lupas diárias para marcar pistas e restringir o culpado; errar desperdiça lupas limitadas.", "Fica ao lado dos diários/semanais normais do Foundry e do Lucky Board: avance Case Files enquanto o ícone do lobby estiver ativo e depois volte a hunts/história. Não publicamos spoilers do culpado — cite avisos da STOVE.", "Trate Case Files como atividade de evento ligada ao hub de missões, não como Episode permanente. Quando a side story acaba, a entrada do lobby some com as lupas restantes."],
+      "link_home": "Início do guia Steam"
     },
     "de": {
       "title": "Epic Seven Foundry-Quests vs. Legacy — Guide | E7",
@@ -13218,7 +13239,10 @@ export const CONTENT = {
         "Räume zuerst zeitlich begrenzte Lobby-Währungen ab, dann Hunts. Foundry- und Legacy-Quest-Häkchen bleiben nach dem Transfer getrennt."
       ],
       "img_alt2": "Selbst gezeichneter Vergleich: Foundry- vs. Legacy-Quest-Unterschiede",
-      "img_alt3": "Selbst gezeichneter Quest-Prioritätsstreifen: terminierte Währung, Dailies, Hunt, Weekly"
+      "img_alt3": "Selbst gezeichneter Quest-Prioritätsstreifen: terminierte Währung, Dailies, Hunt, Weekly",
+      "case_files_h2": "Epic Seven Case Files — was sie sind",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files in Secret Rabbit♥Hole) ist ein Raster-Deduktions-Minispiel im Launch-Fenster, kein Kampfquest-Check. Tägliche Lupen markieren Hinweise und engen den Täter ein — Fehlversuche verschwenden die begrenzten Lupen.", "Sie sitzen neben normalen Foundry-Dailies/Weeklies und dem Lucky Board: schiebe Case Files vor, solange das Lobby-Icon live ist, dann zurück zu Hunt/Story-AP. Täter-Spoiler erscheinen hier nicht — zitiere STOVE-Hinweise.", "Behandle Case Files als Event-Aktivität am Quest-/Event-Hub, nicht als dauerhafte Episode-Mission. Endet die Side Story, verschwindet der Lobby-Einstieg samt ungenutzter Lupen."],
+      "link_home": "Steam-Guide-Startseite"
     },
     "fr": {
       "title": "Quêtes Foundry vs héritage dans Epic Seven — guide | E7",
@@ -13299,7 +13323,10 @@ export const CONTENT = {
         "Réclamez d'abord les devises de hall limitées dans le temps, puis faites les Hunts. Les validations de quêtes Foundry et ancien serveur restent séparées après le transfert."
       ],
       "img_alt2": "Comparaison maison des différences de quêtes Foundry / ancien serveur",
-      "img_alt3": "Bandeau maison des priorités de quêtes : devises limitées, quotidiennes, Hunt, hebdomadaires"
+      "img_alt3": "Bandeau maison des priorités de quêtes : devises limitées, quotidiennes, Hunt, hebdomadaires",
+      "case_files_h2": "Epic Seven Case Files — de quoi s’agit-il",
+      "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files dans Secret Rabbit♥Hole) est un mini-jeu de déduction sur grille de la fenêtre de lancement, pas une quête de combat. Les loupes quotidiennes marquent les indices et resserrent le coupable — se tromper gaspille des loupes limitées.", "Ils côtoient les quotidiens/hebdomadaires Foundry classiques et le Lucky Board : avancez Case Files tant que l’icône de lobby est active, puis revenez aux chasses/histoire. Pas de spoilers du coupable ici — citez les avis STOVE.", "Traitez Case Files comme une activité d’événement liée au hub quêtes/événements, pas comme un Episode permanent. Quand la side story se termine, l’entrée lobby disparaît avec les loupes restantes."],
+      "link_home": "Accueil du guide Steam"
     }
   }
 } as const;

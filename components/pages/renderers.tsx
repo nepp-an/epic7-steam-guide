@@ -2157,6 +2157,20 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
+      <h2 id="case-files">{c.case_files_h2}</h2>
+      {c.case_files.map((s) => (
+        <p key={s.slice(0, 48)}>{s}</p>
+      ))}
+      <p>
+        <L locale={locale} href="/">
+          {c.link_home}
+        </L>{' '}
+        ·{' '}
+        <L locale={locale} href="/foundry/">
+          {c.link_foundry}
+        </L>
+        .
+      </p>
       <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
       <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
