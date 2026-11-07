@@ -8,6 +8,7 @@ import es from './es.json';
 import pt from './pt.json';
 import de from './de.json';
 import fr from './fr.json';
+import pl from './pl.json';
 import type { TierListCopy } from './types';
 
 export type { TierListCopy } from './types';
@@ -30,4 +31,5 @@ export const TIER_LIST_COPY: Record<Locale, TierListCopy> = {
   pt: pt as unknown as TierListCopy,
   de: de as unknown as TierListCopy,
   fr: fr as unknown as TierListCopy,
+  pl: pl as unknown as TierListCopy,
 };

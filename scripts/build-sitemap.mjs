@@ -2,7 +2,7 @@
 import { writeFileSync } from 'node:fs';
 
 const ORIGIN = 'https://epicsevensteam.com';
-const LAST_MOD = '2026-11-04';
+const LAST_MOD = '2026-11-07';
 const PATHS = [
   '/',
   '/download/',
@@ -32,6 +32,7 @@ const LOCALES = [
   ['pt', 'pt'],
   ['de', 'de'],
   ['fr', 'fr'],
+  ['pl', 'pl'],
 ];
 
 function urlFor(locale, path) {

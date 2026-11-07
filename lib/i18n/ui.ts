@@ -188,6 +188,23 @@ export const NAV_LABELS: Record<Locale, Record<NavKey, string>> = {
     "faq": "FAQ",
     "demo": "Avertissement démo",
     "about": "À propos"
+  },
+  "pl": {
+    "home": "Dom",
+    "download": "Pobierz",
+    "transfer": "Transfer",
+    "foundry": "Foundry",
+    "rabbit": "Królicza nora",
+    "heroes": "Bohaterowie",
+    "tier": "Lista tierów",
+    "quests": "Zadania",
+    "banners": "Banery",
+    "updates": "Aktualizacje",
+    "maintenance": "Konserwacja",
+    "steamNotes": "Informacje o Steam",
+    "faq": "FAQ",
+    "demo": "Ostrzeżenie o demie",
+    "about": "O nas"
   }
 };
 
@@ -283,5 +300,14 @@ export const FOOTER: Record<
     "steam": "Boutique Steam officielle",
     "faq": "FAQ Steam de STOVE",
     "meta": "Epic Seven™ et les marques associées appartiennent à leurs propriétaires respectifs. De courts résumés originaux avec des citations externes — vérifiez les sources officielles avant d’agir."
+  },
+  "pl": {
+    "blurb": "— niezależne informacje dla graczy. Niepowiązane ze Smilegate, STOVE, Valve ani Steam.",
+    "privacy": "Prywatność",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "steam": "Oficjalny sklep Steam",
+    "faq": "FAQ Steam na STOVE",
+    "meta": "Epic Seven™ i powiązane znaki należą do ich właścicieli. Krótkie autorskie podsumowania z linkami źródłowymi — przed podjęciem działań sprawdź oficjalne źródła."
   }
 };

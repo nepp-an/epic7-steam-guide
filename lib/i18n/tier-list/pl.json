@@ -1,0 +1,288 @@
+{
+  "title": "Lista tierów Epic Seven dla graczy Steam i transferu (podział GW/WA)",
+  "meta": "Lista tierów Epic Seven pod Steam i transfer: pasma buildów pod Guild War i World Arena, limity zasobów po transferze, budżetowe zamienniki i FAQ. To nie jest globalny ranking.",
+  "h1": "Lista tierów Epic Seven — ujęcie Steam i transferu",
+  "lead": "Większość list tierów odpowiada na pytanie „kto jest najsilniejszy w pełnym rosterze?”. Ta odpowiada na węższe pytanie: mając konto Steam/Foundry — albo stare konto, które właśnie przeniosłeś na Steam — których bohaterów naprawdę warto zbudować najpierw pod PvE, Guild War i World Arena? Pasma odzwierciedlają priorytet budowy dla tego konta, a nie absolutny globalny ranking.",
+  "answer": "Krótka odpowiedź: najpierw zbuduj jeden rdzeń PvE (Angelic Montmorancy, Falconer Kluri, Commander Lorina plus farmer, np. Alexa), potem dodaj jeden filar Guild War (tank + odrodzenie/oczyszczenie) i jednego otwierającego World Arena (szybkość/CR albo kontrola). Transfer zachowuje stary postęp, ale nie przenosi starego Dziedzica na Foundry; GW i WA na Foundry odblokowują się w różnych terminach, więc wydawaj zasoby pod te daty — nie pod każdy baner.",
+  "lens_note": "Pasmo = kolejność inwestycji dla konta Steam/transfer. To nie twierdzenie, że bohater jest globalnie tier S.",
+  "anchors_label": "Przejdź do",
+  "anchor_why": "Ujęcie Steam",
+  "anchor_bands": "Pasmo",
+  "anchor_constraints": "Zasoby",
+  "anchor_pve": "PvE",
+  "anchor_gw": "Guild War",
+  "anchor_wa": "World Arena",
+  "anchor_budget": "Budżetowe zamienniki",
+  "anchor_plan": "Plan na 14 dni",
+  "anchor_roster": "Roster",
+  "anchor_faq": "FAQ",
+  "img_alt_battle": "Oficjalny zrzut ekranu ze sklepu Steam przedstawiający walkę w Epic Seven — cytat z CDN Steam",
+  "img_alt_calendar": "Własnoręcznie rysowany kalendarz Foundry: buffy startowe, Guild War, World Arena i okno do 12/31",
+  "why_h2": "Dlaczego to nie kolejna globalna lista tierów",
+  "why_p1": "Publiczne listy tierów, takie jak epic7db i Prydwen, szeregują pełny roster dla obecnego patcha. Są przydatne, gdy masz większość bohaterów i chcesz wybrać absolutnie najlepszą opcję. Mniej przydają się, gdy konto ma tydzień, gdy masz tylko jeden zestaw Wyvern albo gdy właśnie przekonwertowałeś stare logowanie i nie stać cię na odbudowę drugiego rosteru na Foundry.",
+  "why_p2": "Nasze ujęcie jest węższe i praktyczniejsze: darmowe lub tanie jednostki, które naprawdę zdobędziesz na koncie Steam/Foundry, plus niewielki zestaw powszechnie cytowanych filarów GW/WA, pokazujących role, których nie wypełni starter. Wymieniając te filary, powtarzamy publiczny konsensus, a nie tworzymy nowy ranking. Pełne kity, bieżące noty patcha i absolutne miejsce w PvP sprawdź w podlinkowanych źródłach.",
+  "why_p3": "Ograniczenie zasobów jest tu sednem. Konto po transferze zachowuje postęp, zakupy i nieodebrane nagrody, ale Foundry to osobny tor serwera z własnymi postaciami i matchmakingiem. Nie dostajesz drugiej biblioteki ekwipunku, drugiego zapasu molagory ani automatycznego wstępu na Foundry. To zmienia odpowiedź z „zbuduj najlepszego bohatera” na „zbuduj najmniejszy roster, który przejdzie kolejną bramkę”.",
+  "not_h2": "Czego świadomie nie robimy",
+  "not_p": "Nie publikujemy globalnego rankingu 100 bohaterów, ocen gwiazdkowych ani wymyślonych mnożników. Nie sczytujemy ani nie publikujemy ponownie tabeli innej strony. Linkujemy do publicznych źródeł, a notatki scenariuszowe Steam/Foundry pozostają nasze.",
+  "consensus": [
+    {
+      "name": "epic7db — baza bohaterów i listy tierów",
+      "href": "https://epic7db.com/",
+      "note": "Źródło dla pełnego rosteru; przydatne, gdy masz większość bohaterów."
+    },
+    {
+      "name": "Prydwen — Epic Seven",
+      "href": "https://www.prydwen.gg/epic-seven/",
+      "note": "Rankingi i buildy PvE/PvP aktualizowane z każdym patchem."
+    },
+    {
+      "name": "epic7x — strony bohaterów",
+      "href": "https://epic7x.com/",
+      "note": "Opisy kitów i mnożniki; sprawdź w kliencie."
+    },
+    {
+      "name": "STOVE — ogłoszenia Epic Seven",
+      "href": "https://page.onstove.com/epicseven/global",
+      "note": "Oficjalne harmonogramy, daty Foundry i noty patcha."
+    }
+  ],
+  "bands_h2": "Co oznaczają pasma",
+  "bands_intro": "Czytaj każde pasmo jako instrukcję inwestycji dla ograniczonego konta, a nie wyrok o absolutnej sile bohatera. Bohater może być tu w A, a mimo to być najlepszym wyborem w innym rosterze.",
+  "bands_th": [
+    "Pasmo",
+    "Etykieta",
+    "Co to oznacza dla konta Steam/transfer"
+  ],
+  "bands": [
+    {
+      "tier": "S",
+      "label": "Buduj najpierw",
+      "meaning": "Definiuje slot w tym scenariuszu; odblokowuje kolejną bramkę lub pokrywa rolę, której konto nie może pominąć.",
+      "action": "Poziomuj, przebudzaj i daj najlepszy ekwipunek najpierw."
+    },
+    {
+      "tier": "A",
+      "label": "Buduj w następnej kolejności",
+      "meaning": "Mocny i elastyczny; pokrywa rolę, której nie ma rdzeń S, albo ulepsza darmową opcję.",
+      "action": "Buduj, gdy rdzeń S ma już użyteczny zestaw ekwipunku."
+    },
+    {
+      "tier": "B",
+      "label": "Budżetowo / sytuacyjnie",
+      "meaning": "Przydatny na darmowym ekwipunku lub w jednym konkretnym slocie; nie ma priorytetu nad rdzeniem S/A.",
+      "action": "Utrzymuj na użytecznym poziomie; nie gonij idealnego ekwipunku."
+    },
+    {
+      "tier": "C",
+      "label": "Na razie pomiń",
+      "meaning": "Niski zwrot dla konta Steam/Foundry, dopóki roster i biblioteka ekwipunku nie będą szersze.",
+      "action": "Nie wydawaj jeszcze molagory ani czarów."
+    }
+  ],
+  "bands_note": "Litery tierów to pasma budowy z tej strony. Nie są oficjalnymi ocenami i nie zastępują rankingów pełnego rosteru ani testów w kliencie.",
+  "constraints_h2": "Rzeczywistość zasobów po transferze",
+  "constraints_intro": "Transfer rozwiązuje problem logowania; nie rozwiązuje problemu zasobów. Oto ograniczenia, które zmieniają kolejność budowy.",
+  "constraints": [
+    "Jeden zestaw ekwipunku, nie dwa. Transfer zachowuje to, co mają stare postacie; nie duplikuje ekwipunku na Foundry. Przenieś najlepsze części szybkości/skuteczności na bohatera, którego naprawdę wystawiasz, a nie na tego z najwyższą odznaką tieru.",
+    "Molagora to prawdziwe wąskie gardło. Lista 20 bohaterów to nie plan budowy. Najpierw podnieś umiejętności czterech–sześciu bohaterów; resztę zostaw na +0, dopóki nie mają stałego slotu.",
+    "Złoto i czary znikają szybciej niż zakładki. Nie przekuwaj każdego dropu. Wybierz drużynę Wyvern, farmuj jeden zestaw i zatrzymaj się, gdy główne statystyki będą użyteczne.",
+    "Leify są na okna buffów, nie na niecierpliwość. Buffy startowe Foundry i poczta celebracyjna mają własne liczniki; sprawdź STOVE, zanim spalisz leify w dniu bez buffa.",
+    "Zakładki to decyzja o banerze, nie o tierze. To, że bohater jest tu w S, nie znaczy „przywołuj teraz”. Sprawdź [[Banery|/banners/]] pod kątem aktualnego pickupu i potwierdź pity w kliencie.",
+    "Foundry nie jest celem transferu. Przekonwertowane stare logowanie zostaje na swoim serwerze; GW/WA na Foundry wymagają postaci z Foundry. Budżetuj osobno, jeśli grasz na obu.",
+    "Nie usuwaj konta w grze po transferze, żeby „posprzątać” demo. [[Ostrzeżenie o demie|/demo-delete-warning/]] istnieje, bo ta czynność może usunąć postęp na pierwotnym serwerze.",
+    "Daty wygrywają z listami tierów. Guild War na Foundry ogłoszono około 2026-11-21 03:00 UTC, a World Arena po konserwacji 2026-12-10. Buduj pod datę, w której naprawdę wystawisz drużynę."
+  ],
+  "pve_h2": "Pasmo PvE / startu na Steam",
+  "pve_intro": "To lista „przejdź kolejną bramkę”: fabuła, Wyvern i pierwsza stabilna drużyna Hunt. Na nowym koncie Steam/Foundry darmowe jednostki do zmiany specjalizacji robią większość pracy; bohaterowie z banerów to opcjonalne przyspieszenie. Jeśli przeniosłeś już uzbrojone stare konto, możesz pominąć większość tego pasma i przejść od razu do sekcji Guild War i World Arena.",
+  "pve_note": "Pasmo PvE nagradza niezawodność i niski koszt ekwipunku. Bohater, który czyści na darmowym zestawie szybkości, jest dla nowego konta wart więcej niż premium bohater wymagający pełnego zestawu, którego nie masz.",
+  "gw_h2": "Pasmo Guild War (Foundry odblokowuje się około 2026-11-21)",
+  "gw_answer": "Pod Guild War zbuduj tank, który utrzyma wieżę, wsparcie z odrodzeniem/oczyszczeniem i jednego zadającego obrażenia, którego wystawisz zarówno w ataku, jak i obronie. Nie buduj dwunastu bohaterów GW; zbuduj czterech, którzy pokrywają obie strony.",
+  "gw_intro": "Guild War nagradza pokrycie ról bardziej niż sam tier. Drużyna, która przetrwa pierwsze dwie tury i odzyska odrodzenie, zwykle jest użyteczniejsza niż szklana armata, która wygrywa jeden atak, a przegrywa każdą obronę. Guild War na Foundry zaplanowano około 2026-11-21 03:00 UTC według tabeli celebracyjnej STOVE; przed planowaniem resetów gildii sprawdź bieżące ogłoszenie.",
+  "gw_off_h3": "Rdzeń ataku",
+  "gw_off_note": "Atak chce niezawodnego otwierającego, przełamania obrony lub stripu i zadającego obrażenia, który nie potrzebuje idealnego ekwipunku. Zgranie szybkości liczy się bardziej niż wysoka odznaka tieru.",
+  "gw_def_h3": "Rdzeń obrony",
+  "gw_def_note": "Obrona chce tanka, oczyszczenia/odrodzenia i wystarczającej odporności na efekty, by przetrwać pierwszą falę kontroli. Drużyna obronna, która opóźnia, robi swoje, nawet gdy nie zabija.",
+  "gw_prep_h3": "Lista kontrolna przed otwarciem",
+  "gw_prep": [
+    "Potwierdź, że twoja postać jest na właściwym serwerze. Stara gildia nie liczy się jako roster Guild War na Foundry.",
+    "Dołącz lub utwórz gildię przed datą odblokowania i upewnij się, że prośba ma status Zaakceptowana, a nie Oczekująca.",
+    "Wykonuj dzienne misje gildii i wpłacaj w ramach limitu; pominięte dni wkładu nie kumulują się.",
+    "Ustaw drużyny ataku i obrony w dniu przyjęcia do gildii, a potem sprawdzaj po każdej konserwacji.",
+    "Trenuj w Foundry Draft Arena: wystaw tanka, oczyszczającego i uzdrowiciela, których możesz użyć także w obronie.",
+    "Nie wydawaj leifów ani waluty gildii na bohatera, który działa tylko po jednej stronie wojny."
+  ],
+  "gw_link_label": "Szczegóły Guild War na Foundry",
+  "wa_h2": "Pasmo World Arena (Foundry odblokowuje się po 2026-12-10)",
+  "wa_answer": "World Arena nagradza pokrycie draftu: otwierających opartych na szybkości/CR, kontrolę i jedną–dwie kontry. Na ograniczonym koncie zbuduj najpierw jednego szybkiego otwierającego i jednego elastycznego zadającego obrażenia, zanim ruszysz na niszowe kontry.",
+  "wa_intro": "World Arena to nie Guild War z innym przyciskiem. Potrzebujesz planu na kolejność tur, oczyszczenie oraz ban/pick przeciwnika. Bohaterowie, którzy dźwigają starter, to zwykle ci, którzy zaczynają łańcuch tur albo zatrzymują łańcuch przeciwnika — nie ci z najwyższymi obrażeniami PvE.",
+  "wa_draft_h3": "Zasady draftu w praktyce",
+  "wa_draft": [
+    "Najpierw wybierz jednego szybkiego otwierającego; bez kolejności tur reszta draftu to dekoracja.",
+    "Dodaj opcję oczyszczenia lub immunitetu, żeby jedna jednostka kontrolująca nie kończyła meczu.",
+    "Zostaw jednego zadającego obrażenia wystarczająco elastycznego, by ukarać draft z dużą ilością tanków.",
+    "Nie draftuj trzech jednostek potrzebujących tego samego wsparcia; zbanowane wsparcie zostawia cię bez planu.",
+    "Sprawdź bieżące zasady ban/pick w kliencie; mogą różnić się od poprzedniego sezonu."
+  ],
+  "wa_counter_h3": "Budżetowe kontry",
+  "wa_counter": [
+    "Anty-cleave: wsparcie z barierą/oczyszczeniem plus jednostka karząca pierwsze AoE.",
+    "Anty-tank: przełamanie obrony albo zadający obrażenia skalujący się od HP; sam atak utknie.",
+    "Anty-kontrola: immunitet/oczyszczenie plus odporność na efekty na jednostce, która musi zadziałać.",
+    "Budżetowa odpowiedź: użyj ponownie rdzenia PvE z jednym zestawem szybkości; nie buduj osobnego rosteru World Arena od zera."
+  ],
+  "wa_note": "Dokładne zasady pick/ban i nagrody sezonu są w kliencie/oficjalne. Ta strona opisuje tylko kolejność budowy dla konta Steam/transfer.",
+  "budget_h2": "Budżetowe zamienniki: kto zrobi to taniej",
+  "budget_intro": "Zanim ruszysz na premium baner, sprawdź, czy darmowa lub już posiadana jednostka pokrywa to samo zadanie. Tańsza jednostka z właściwą szybkością może pobić nieuzbrojonego premium bohatera.",
+  "budget_th": [
+    "Potrzeba",
+    "Budżetowa / darmowa opcja",
+    "Dlaczego działa"
+  ],
+  "budget": [
+    [
+      "Oczyszczenie + leczenie",
+      "Angelic Montmorancy",
+      "Zmiana specjalizacji; darmowa i nadal prawdziwy slot oczyszczenia/leczenia."
+    ],
+    [
+      "Przełamanie obrony + CR",
+      "Falconer Kluri",
+      "Zmiana specjalizacji; otwiera Hunt i atak w Guild War bez premium ekwipunku."
+    ],
+    [
+      "Obrażenia pojedynczego celu",
+      "Commander Lorina",
+      "Zmiana specjalizacji; długoterminowe obrażenia PvE, które nie wymagają limitowanego banera."
+    ],
+    [
+      "Farmer Wyvern",
+      "Alexa",
+      "Popularny farmer z podwójnym atakiem; łączy się z Furious i tankiem."
+    ],
+    [
+      "Tank Guild War",
+      "Ras / Fallen Cecilia",
+      "Ras jest darmowy i użyteczny na początku; Fallen Cecilia to publicznie uznane ulepszenie, jeśli ją masz."
+    ],
+    [
+      "Odrodzenie / obrona GW",
+      "Ruele of Light / Maid Chloe",
+      "Publicznie uznane wsparcia defensywne; używaj tylko jeśli już je masz — nie gonij banera pod slot obronny, którego nie uzbroisz."
+    ],
+    [
+      "Szybki otwierający World Arena",
+      "Judith / Silk",
+      "Darmowe narzędzia CR na start; zastąp je premium otwierającym, gdy zdobędziesz ekwipunek."
+    ],
+    [
+      "Kontrola World Arena",
+      "Cerise / Fairytale Tenebria",
+      "Powszechnie cytowane wybory kontrolne; przed inwestycją sprawdź bieżący patch."
+    ]
+  ],
+  "plan_h2": "Plan budowy na 14 dni dla konta po transferze lub nowego na Steam",
+  "plan_intro": "Dwa tygodnie wystarczą, by wystawić jedną drużynę PvE i jeden rdzeń Guild War, jeśli przestaniesz rozpraszać zasoby. Dostosuj do realnego czasu gry; kolejność ważniejsza niż kalendarz.",
+  "plan": [
+    "Dzień 1: wybierz ścieżkę konta. Zachowujesz stary postęp? Przekonwertuj STOVE→Steam przed nowym logowaniem. Zaczynasz Foundry? Zaakceptuj, że to osobny roster. Najpierw przeczytaj [[Transfer Steam|/steam-transfer/]] i [[Foundry|/foundry/]].",
+    "Dzień 1–2: wybierz czterech bohaterów, nie dwunastu. Jeden farmer, jedno przełamanie obrony, jedno oczyszczenie/leczenie, jeden zadający obrażenia. Najlepszy zestaw szybkości daj otwierającemu.",
+    "Dzień 3–5: przejdź pierwszy poziom Wyvern darmowym rdzeniem. Nie przekuwaj ekwipunku poza zestawem; zachowaj złoto na części, które naprawdę założysz.",
+    "Dzień 6–8: dokończ wybrane zmiany specjalizacji. Nie zaczynaj piątego projektu, bo baner wyglądał dobrze.",
+    "Dzień 9–10: zbuduj rdzeń obrony Guild War (tank + oczyszczenie/odrodzenie). Przetestuj go w Draft Arena przed odblokowaniem 2026-11-21.",
+    "Dzień 11–12: ustaw atak i obronę, dołącz do gildii i potwierdź status Zaakceptowana. Wykonuj dzienne misje gildii.",
+    "Dzień 13–14: zacznij otwierającego World Arena. Jeden zestaw szybkości, jedna opcja oczyszczenia, jeden elastyczny zadający obrażenia. Resztę zachowaj na okno WA 2026-12-10."
+  ],
+  "roster_h2": "12 bohaterów z tej strony (awatary na stronie)",
+  "roster_intro": "To te same 12 kart opisanych na [[Bohaterowie|/heroes/]], więc grafiki i nazwy zostają na stronie. Litery tierów pod każdą kartą to pasma scenariuszowe tej strony, nie oficjalne oceny.",
+  "hero_notes": {
+    "ras": "Darmowy rycerz i filar fabuły. Wczesny tank PvE i użyteczne ciało do Guild War, gdy nie masz premium tanka.",
+    "mercedes": "Startowy mag AoE. Dobry do czyszczenia fabuły; nie priorytet, gdy pojawi się prawdziwy farmer.",
+    "aither": "Wczesny uzdrowiciel. Przejdź na Angelic Montmorancy lub inne wsparcie z oczyszczeniem, gdy tylko możesz.",
+    "judith": "Darmowe przyspieszenie CR. Budżetowy otwierający World Arena, dopóki nie masz premium jednostki szybkości.",
+    "angelic-montmorancy": "Darmowe oczyszczenie/leczenie po zmianie specjalizacji. Najlepsza pojedyncza inwestycja wsparcia na ograniczonym koncie.",
+    "falconer-kluri": "Przełamanie obrony i CR po zmianie specjalizacji. Otwiera Hunt i atak w Guild War bez premium ekwipunku.",
+    "commander-lorina": "Obrażenia pojedynczego celu po zmianie specjalizacji. Wolno się buduje, ale to długoterminowa odpowiedź PvE bez limitowanego banera.",
+    "alexa": "Farmer Wyvern. Zbuduj ją pod jedno zadanie i przestań; nie jest wyborem do Guild War ani World Arena.",
+    "furious": "Przełamanie obrony i cel dla Wyvern. Ułatwia PvE; trzymaj go po stronie PvE konta.",
+    "silk": "Darmowe przyspieszenie CR. Przydatne, gdy brakuje otwierającego szybkości; zastąp, zamiast przepłacać.",
+    "vildred": "Obrażenia Ziemi typu cleave. Przyspiesza fabułę i część farm PvE; słabnie w poważnym drafcie World Arena.",
+    "luna": "Ścieżka celebracyjna Foundry często podkreśla limitowane dołączenie Luny około rangi 70 — potwierdź na STOVE. Silne obrażenia PvE; nie uniwersalna odpowiedź GW/WA.",
+    "tamarinne": "Leczenie, oczyszczenie i CR w jednym slocie. Typowa ścieżka ulepszenia z Aither lub Montmorancy dla graczy, którzy ją mają.",
+    "fallen-cecilia": "Mroczny rycerz zbudowany pod obronę Guild War. Jeśli ją masz, zwykle jest pierwszym tankiem, którego uzbrajasz.",
+    "ruele-of-light": "Defensywne wsparcie z odrodzeniem/oczyszczeniem. Filar obrony Guild War w parze z prawdziwym tankiem.",
+    "seaside-bellona": "Obrażenia z osłabieniami AoE, działające w PvE i obu trybach PvP. Elastyczna, ale wymagająca ekwipunku.",
+    "specter-tenebria": "Mroczne obrażenia pojedynczego celu z presją osłabień. Wybór GW/WA, nie startowy farmer.",
+    "arbiter-vildred": "Zagrożenie cleave/odrodzeniem i częsty otwierający World Arena. Drogi w uzbrojeniu; nie goń go przed rdzeniem PvE.",
+    "politis": "Anty-cleave i zakłócanie CR. Odpowiedź World Arena na szybkie drafty; niszowa w PvE.",
+    "cerise": "Otwierająca kontrola do World Arena. Mocna, gdy draft pozwala jej działać pierwszej; sprawdź bieżący patch."
+  },
+  "beyond_h2": "Osiem filarów GW/WA poza startową dwunastką",
+  "beyond_intro": "Te nazwy są powszechnie cytowane w publicznych dyskusjach o PvP w Epic Seven. Wymieniamy je, by pokazać role, których nie wypełni starter; nie ogłaszamy nowego globalnego rankingu. Kity i obecne miejsce sprawdź w podlinkowanych źródłach.",
+  "banners_h2": "Banery: kiedy lista tierów nie powinna decydować",
+  "banners_p": "Pasmo bohatera na tej stronie to nie rekomendacja przywołania. Czas banera, pity i szanse są w kliencie; notatki o harmonogramie na [[Banery|/banners/]]. Jeśli pickup nie wypełnia jednego z twoich czterech otwartych slotów, pomiń go. Jeśli jesteś na Foundry, pamiętaj, że ścieżka Luny na randze 70 i dzienne darmowe przywołania Przymierza to nagrody celebracyjne z własnym oknem — nie powód, by porzucać plan budowy. Kalendarz znajdziesz na [[Foundry|/foundry/]], a pytania o transfer w [[FAQ|/faq/]].",
+  "faq_h2": "FAQ listy tierów",
+  "faqs": [
+    [
+      "Czy to globalna lista tierów Epic Seven?",
+      "Nie. To priorytet budowy dla kont Steam/Foundry i kont po transferze. Po rankingi pełnego rosteru idź do epic7db lub Prydwen; linkujemy je i nie publikujemy ponownie ich tabel."
+    ],
+    [
+      "Czy transfer przenosi moich bohaterów na Foundry?",
+      "Nie. Transfer zachowuje stary postęp, zakupy i nieodebrane nagrody, ale Foundry to osobny tor serwera z własnymi postaciami i matchmakingiem. Stary Dziedzic nie dołącza automatycznie do Guild War ani World Arena na Foundry."
+    ],
+    [
+      "Kogo zbudować najpierw na nowym koncie Steam?",
+      "Jeden rdzeń PvE: Angelic Montmorancy, Falconer Kluri, Commander Lorina i farmer, np. Alexa. Dodaj Furious, jeśli drużyna Wyvern potrzebuje przełamania obrony. Nie zaczynaj dwunastu projektów."
+    ],
+    [
+      "Co zmienia się w Guild War?",
+      "Pokrycie ról: tank, wsparcie z oczyszczeniem/odrodzeniem i jeden zadający obrażenia, którego wystawisz po obu stronach. GW na Foundry ogłoszono około 2026-11-21 03:00 UTC; potwierdź bieżące ogłoszenie STOVE i członkostwo w gildii."
+    ],
+    [
+      "Co zmienia się w World Arena?",
+      "Kolejność tur i pokrycie draftu: jeden otwierający szybkość/CR, jedna opcja oczyszczenia/immunitetu, jeden elastyczny zadający obrażenia i jedna kontra. WA na Foundry ogłoszono po konserwacji 2026-12-10."
+    ],
+    [
+      "Czy mogę użyć starego ekwipunku na Foundry?",
+      "Tylko tego, co naprawdę przeniesiesz lub zdobędziesz od nowa. Transfer nie duplikuje ekwipunku ani molagory. Traktuj Foundry jako osobny budżet zasobów, chyba że grasz tylko starą postacią na Steam."
+    ],
+    [
+      "Czy powinienem przywołać bohatera, bo jest tu w S?",
+      "Nie. Pasma to priorytet budowy, nie porada banerowa. Sprawdź bieżący pickup na /banners/, licznik pity w kliencie i to, czy bohater wypełnia otwarty slot."
+    ],
+    [
+      "Jak często ta strona jest aktualizowana?",
+      "Ten wycinek odzwierciedla publiczne informacje STOVE/Steam dostępne 2026-11-03. Sprawdź STOVE po konserwacji; harmonogramy i miejsce w PvP mogą się zmienić."
+    ]
+  ],
+  "sources_h2": "Źródła i jak weryfikować",
+  "sources_note": "Oficjalne daty i zasady transferu: STOVE/Steam. Rankingi pełnego rosteru i kity: epic7db, Prydwen, epic7x. Notatki scenariuszowe Steam/transfer na tej stronie są autorskie; jeśli oficjalne ogłoszenie jest sprzeczne z tą stroną, wygrywa oficjalne.",
+  "related_h2": "Powiązane na tej stronie",
+  "related": [
+    [
+      "/heroes/",
+      "Bohaterowie — 12 kart na stronie"
+    ],
+    [
+      "/foundry/#server-guide",
+      "Poradnik serwera Foundry"
+    ],
+    [
+      "/foundry/#guild-war",
+      "Przygotowanie do Guild War na Foundry"
+    ],
+    [
+      "/steam-transfer/",
+      "Transfer STOVE → Steam"
+    ],
+    [
+      "/banners/",
+      "Banery i pickupy"
+    ],
+    [
+      "/faq/",
+      "FAQ i rozwiązywanie problemów"
+    ]
+  ],
+  "last_before": "Ostatnia weryfikacja: ",
+  "last_after": " (ujęcie Steam/transfer · sprawdź daty STOVE i bieżące zasady PvP)"
+}

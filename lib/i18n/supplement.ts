@@ -172,6 +172,24 @@ export const FAQ_EXTRA: Record<
       "Pourquoi le bouton Transfert est-il grisé pendant trois mois ?",
       "STOVE peut imposer une période d’attente ou de refroidissement du transfert après le nettoyage d’une mauvaise liaison ou un retrait de compte ; les joueurs signalent souvent trois mois. La date de début et la portée exactes sont indiquées dans l’interface de votre compte STOVE, pas sur ce site. Attendez la fin de la période ou contactez le support client STOVE — n’utilisez jamais un service de déblocage tiers."
     ]
+  ],
+  "pl": [
+    [
+      "Czy po konwersji nadal mogę grać na telefonie lub na PC ze STOVE?",
+      "Według FAQ Steam na STOVE przekonwertowane konto nadal działa na PC ze STOVE i na telefonie. Traktuj Steam jako kolejną drogę logowania, a nie jednokierunkową blokadę platformy. Aktualne zasady dla urządzeń potwierdź w [[FAQ Steam na STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
+    ],
+    [
+      "Czy zakupy, nieodebrane nagrody i Epic Pass zostaną przeniesione?",
+      "Według FAQ Steam na STOVE postęp i dane — w tym nieodebrane nagrody, przedmioty z wydarzeń i Epic Pass — przenoszą się przy konwersji pierwotnego logowania. Przed konwersją sprawdź aktualne szczegóły w [[oficjalnym FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
+    ],
+    [
+      "STOVE pokazuje „already been registered” — co to oznacza?",
+      "Ten komunikat zwykle oznacza, że identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z pustym kontem utworzonym przez Steam przy pierwszym uruchomieniu. Autoryzuj ten identyfikator Steam w STOVE, wycofaj dodatkowe konto STOVE, a następnie przekonwertuj pierwotne logowanie e-mail/SNS. Nie twórz kolejnych kont Steam. Dokładne brzmienie sprawdź w [[FAQ Steam na STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
+    ],
+    [
+      "Dlaczego przycisk Transfer jest wyszarzony przez trzy miesiące?",
+      "Po naprawie błędnego powiązania lub wycofaniu konta STOVE może nałożyć okres wstrzymania lub cooldownu na transfer; gracze często zgłaszają trzy miesiące. Dokładna data rozpoczęcia i zakres są widoczne w interfejsie konta STOVE, nie na tej stronie. Poczekaj lub zapytaj obsługę klienta STOVE — nigdy nie korzystaj z usług odblokowywania od firm trzecich."
+    ]
   ]
 };
 
@@ -502,6 +520,42 @@ export const FAQ_GROUPS: Record<
         5
       ]
     }
+  ],
+  "pl": [
+    {
+      "h2": "Transfer konta i błędne powiązanie ze Steam",
+      "intro": "Zacznij tutaj, jeśli Steam pokazuje nowego Dziedzica, STOVE informuje o „already registered” albo przycisk Transfer jest wyszarzony. Zwykle przyczyną jest drugie logowanie STOVE powiązane ze Steam, a nie usunięty postęp.",
+      "items": [
+        0,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "h2": "Foundry, cross-play i harmonogramy",
+      "intro": "Foundry to osobny serwer otwarty wraz z premierą na Steam. Konwersja logowania nie przenosi starej postaci; cross-play korzysta z tego samego powiązanego konta.",
+      "items": [
+        1,
+        2
+      ]
+    },
+    {
+      "h2": "Premiera, anty-cheat i ceny platform",
+      "intro": "Oddziel problemy klienta od problemów konta. Anty-cheat i ceny w sklepie są na poziomie platformy; stan transferu to sprawa konta STOVE.",
+      "items": [
+        3,
+        4
+      ]
+    },
+    {
+      "h2": "Demo, ponowna instalacja i bezpieczeństwo danych",
+      "intro": "Demo się skończyło, ale pułapka usuwania konta nie. Nie używaj usuwania konta w grze po udanym transferze logowania Steam.",
+      "items": [
+        5
+      ]
+    }
   ]
 };
 
@@ -758,6 +812,34 @@ export const BANNERS_SUPPLEMENT: Record<
       "source": {
         "href": "https://store.steampowered.com/app/5019180/Epic_Seven/",
         "label": "Boutique Steam — app 5019180"
+      }
+    }
+  ],
+  "pl": [
+    {
+      "h2": "Ścieżka Luny a zwykły baner pickup",
+      "intro": "Luna nie jest obecnym pickupem. Dołączenie Luny na randze 70 to nagroda startowa Foundry, a nie standardowy ograniczony pickup z osobnym licznikiem pity. Przed wydaniem sprawdź szczegóły banera w grze.",
+      "bullets": [
+        "Ogłoszony okres: do ~2026-12-31 02:59 UTC na Foundry, zgodnie z ogłoszeniem STOVE o Foundry.",
+        "Sprawdź w kliencie: koszt przywołania, aktualny stan pity i to, czy baner jest tylko na Foundry.",
+        "Dzienne darmowe przywołania Przymierza pochodzą ze wsparcia przywołań i są oddzielone od ścieżki Luny."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global/view/14571828",
+        "label": "Ogłoszenie STOVE o Foundry"
+      }
+    },
+    {
+      "h2": "Zanim przywołasz — trzy kontrole",
+      "intro": "Ogłoszenia o banerach mogą się zmienić po cotygodniowej konserwacji. Zamiast wierzyć skopiowanej dacie, użyj tych kontroli.",
+      "bullets": [
+        "Przelicz podany czas zakończenia w UTC na swoją strefę czasową.",
+        "Potwierdź, czy twoja postać jest na Foundry, czy na starym serwerze; pule nie są wymienne.",
+        "Przeczytaj oficjalne stawki i zasady pity w grze. Ta strona nie publikuje nieoficjalnych tabel szans."
+      ],
+      "source": {
+        "href": "https://store.steampowered.com/app/5019180/Epic_Seven/",
+        "label": "Sklep Steam — aplikacja 5019180"
       }
     }
   ]
@@ -1018,6 +1100,34 @@ export const UPDATES_SUPPLEMENT: Record<
         "label": "Actualités Steam"
       }
     }
+  ],
+  "pl": [
+    {
+      "h2": "Premiera Steam a harmonogram Foundry",
+      "intro": "Okno premiery ma dwa tory: uruchomienie klienta Steam i odblokowywanie treści na nowym serwerze Foundry. Planując, trzymaj je osobno.",
+      "bullets": [
+        "2026-10-29 — klient Steam startuje, a Foundry otwiera się po konserwacji.",
+        "2026-11-21 03:00 UTC — odblokowanie Guild War na Foundry.",
+        "2026-12-10 — World Arena na Foundry po konserwacji (UTC)."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global/view/14571828",
+        "label": "Ogłoszenie STOVE o Foundry"
+      }
+    },
+    {
+      "h2": "Jak zweryfikować aktualizację przed działaniem",
+      "intro": "Podsumowanie może się szybko zdezaktualizować. Przed wydaniem waluty lub zmianą ustawienia konta sprawdź pierwotne ogłoszenie.",
+      "bullets": [
+        "Otwórz podlinkowane ogłoszenie STOVE, aby poznać pierwotny czas UTC i warunki.",
+        "Sprawdź, czy zmiana dotyczy tylko Foundry, czy także starych serwerów.",
+        "W przypadku poprawek klienta porównaj wersję Steam w swojej bibliotece z wpisem w aktualnościach Steam."
+      ],
+      "source": {
+        "href": "https://store.steampowered.com/news/app/5019180/view/685267261521395852",
+        "label": "Aktualności Steam"
+      }
+    }
   ]
 };
 
@@ -1276,6 +1386,34 @@ export const MAINTENANCE_SUPPLEMENT: Record<
         "label": "Actualités Steam"
       }
     }
+  ],
+  "pl": [
+    {
+      "h2": "Co zwykle zmienia okno konserwacji",
+      "intro": "Podczas cotygodniowej konserwacji zbiegają się okna wydarzeń, odblokowania Foundry i poprawki klienta. Przeczytaj ogłoszenie, zanim zaplanujesz przywołania lub transfer.",
+      "bullets": [
+        "Czasy rozpoczęcia i zakończenia wydarzeń oraz banerów, zwykle podawane w UTC.",
+        "Odblokowania Foundry, takie jak Guild War i World Arena.",
+        "Aktualizacje klienta i anty-cheata dostarczane przez Steam."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global",
+        "label": "Centrum Epic Seven na STOVE"
+      }
+    },
+    {
+      "h2": "Lista kontrolna przed patchem",
+      "intro": "Krótka lista kontrolna pozwala uniknąć większości niespodzianek w dniu premiery.",
+      "bullets": [
+        "Odbierz wiadomości i nagrody z wydarzeń z limitem czasu, zanim zacznie się przerwa.",
+        "Zanotuj oficjalny czas rozpoczęcia i zakończenia ze STOVE — nie z repostu w mediach społecznościowych.",
+        "Po zaktualizowaniu uruchom Steam ponownie i potwierdź wersję, zanim zgłosisz błąd uruchamiania."
+      ],
+      "source": {
+        "href": "https://store.steampowered.com/news/app/5019180/view/685267261521395852",
+        "label": "Aktualności Steam"
+      }
+    }
   ]
 };
 
@@ -1532,6 +1670,34 @@ export const RABBIT_SUPPLEMENT: Record<
       "source": {
         "href": "https://page.onstove.com/epicseven/global/view/14606293",
         "label": "Annonce Case Files de STOVE"
+      }
+    }
+  ],
+  "pl": [
+    {
+      "h2": "Punkty dzienne: jak wykorzystać limit 720",
+      "intro": "Codzienne śledztwo daje punkty za przygody, walki i Arenę. Ogłoszony limit to 720 dziennie, więc planuj z jego uwzględnieniem, zamiast próbować nadrobić później.",
+      "bullets": [
+        "Zdobywaj punkty zwykłą grą; sprawdź stronę wydarzenia, aby poznać aktualny dzienny limit.",
+        "Wymień bilety Lucky Board i kamienie milowe Leif, zanim zamknie się okno 2026-11-19 02:59 UTC.",
+        "Pakiet lobby Bunny Girl Party Hall trwa dłużej, do 2026-12-10 02:59 UTC, i jest opcjonalny."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global/view/14606365",
+        "label": "Ogłoszenie STOVE o Lucky Board"
+      }
+    },
+    {
+      "h2": "Case Files bez marnowania lup",
+      "intro": "Case Files to wydarzenie dedukcji na siatce, a nie sprawdzian walki. Codzienne lupy są zasobem ograniczającym.",
+      "bullets": [
+        "Najpierw wykorzystaj dzienny zapas; uzupełnienia energii pod koniec wydarzenia są opcjonalne.",
+        "Wypełnij siatkę O/X i odblokuj wskazówkę o sprawcy, zanim oskarżysz.",
+        "Ta strona wyjaśnia tylko mechanikę; nie publikuje kluczy odpowiedzi."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global/view/14606293",
+        "label": "Ogłoszenie STOVE o Case Files"
       }
     }
   ]

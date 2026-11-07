@@ -1873,6 +1873,214 @@ export const CONTENT = {
       "img_foundry_alt": "Visuel dessiné maison du calendrier de célébration Foundry jusqu'à fin 2026",
       "img_path_alt": "Sélecteur de parcours dessiné maison : conserver la progression, nouveau départ Foundry ou conseils pour le client Steam",
       "img_world_alt": "Capture d'écran officielle de présentation du monde du Steam Store — citation CDN Steam"
+    },
+    "pl": {
+      "title": "Poradnik Epic Seven na Steam | Transfer, Foundry i pobieranie",
+      "meta": "Centrum poradnika Epic Seven na Steam: wybierz transfer STOVE→Steam, aby zachować postęp, kalendarz Foundry albo oficjalne pobieranie (aplikacja 5019180). FAQ i poprawki. Nieoficjalne.",
+      "h1": "Epic Seven na Steam — poradnik gracza",
+      "hero": "Wpis w sklepie Steam, transfer konta STOVE↔Steam, kalendarz Foundry do 12/31, Secret Rabbit♥Hole, banery i rozwiązywanie problemów. Niezależny poradnik na epicsevensteam.com.",
+      "cta_store": "Oficjalny sklep Steam →",
+      "cta_dl": "Lista kontrolna pobierania",
+      "cta_tr": "Kroki transferu",
+      "cta_fd": "Kalendarz Foundry",
+      "hubs_h2": "Zacznij tutaj — karty centrum",
+      "hubs": [
+        [
+          "/steam-transfer/",
+          "Transfer Steam",
+          "Zachowaj postęp: przekonwertuj STOVE → Steam przed nowym logowaniem.",
+          "/images/diagram-transfer.webp"
+        ],
+        [
+          "/foundry/",
+          "Foundry",
+          "Kalendarz nowego serwera, buffy i nagrody do 2026-12-31.",
+          "/images/diagram-foundry-calendar.webp"
+        ],
+        [
+          "/heroes/",
+          "Bohaterowie",
+          "12 kart startowych z żetonami żywiołów — na stronie, a nie odskocznia do wiki.",
+          "/images/diagram-heroes-groups.webp"
+        ],
+        [
+          "/faq/",
+          "FAQ",
+          "Odpowiedzi o premierze, transferze, anty-cheacie i czyszczeniu dema.",
+          "/images/diagram-steam-notes.webp"
+        ],
+        [
+          "/demo-delete-warning/",
+          "Ostrzeżenie o demie",
+          "Nie usuwaj konta w grze po transferze na Steam.",
+          "/images/diagram-demo-dodont.webp"
+        ],
+        [
+          "/banners/",
+          "Banery",
+          "Aktualne notatki o pickupach ze źródłem STOVE — bez szarych kodów.",
+          "/images/steam-ss-heroes.webp"
+        ]
+      ],
+      "kpi_covenant": "Darmowe przywołania Przymierza do 1 260 (okno Foundry · źródło STOVE)",
+      "transfer_h2": "Transfer konta STOVE ↔ Steam",
+      "transfer_muted": "Nieoficjalny schemat kroków podsumowujący oficjalny proces. Postępuj dokładnie według ekranów STOVE — nie jesteśmy wsparciem Smilegate.",
+      "diagram": [
+        "Istniejące logowanie e-mail / SNS",
+        "Konwersja STOVE na logowanie Steam",
+        "Uruchom Epic Seven na Steam"
+      ],
+      "diagram_aria": "Schemat przepływu transferu",
+      "steps": [
+        [
+          "Zdecyduj:",
+          "Zachować stary postęp? Najpierw przekonwertuj konto w STOVE. Nowy start na Foundry? Możesz utworzyć nowe konto powiązane ze Steam — konta pozostałe po demie mogą zablokować późniejszy transfer."
+        ],
+        [
+          "Przekonwertuj w STOVE:",
+          "Skorzystaj z oficjalnej konwersji (e-mail/SNS → Simple Login Steam). Zobacz FAQ Steam i nasz szczegółowy poradnik transferu."
+        ],
+        [
+          "Jeśli Steam utworzył już nowe konto:",
+          "Najpierw wycofaj to konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne."
+        ],
+        [
+          "Potem graj na Steam:",
+          "Użyj oficjalnej strony sklepu. To samo konto nadal może działać na PC ze STOVE / telefonie po transferze (według FAQ)."
+        ]
+      ],
+      "foundry_h2": "Foundry — migawka nowego serwera",
+      "as_of": "Daty podsumowane z ogłoszeń STOVE w oknie premiery 2026-10-29. Harmonogramy mogą się zmienić — sprawdź oficjalne wpisy.",
+      "th_content": "Treść",
+      "th_open": "Otwarcie (orientacyjnie)",
+      "rows": [
+        [
+          "Premiera Steam + otwarcie Foundry",
+          "2026-10-29 po konserwacji"
+        ],
+        [
+          "Draft Arena (Foundry)",
+          "2026-10-29 po konserwacji"
+        ],
+        [
+          "Guild War (Foundry)",
+          "2026-11-21 03:00 UTC (ogłoszenie STOVE o otwarciu Foundry)"
+        ],
+        [
+          "World Arena (Foundry)",
+          "2026-12-10 po konserwacji (UTC)"
+        ],
+        [
+          "Buffy startowe / wiele wydarzeń Foundry",
+          "Do ~2026-12-31 02:59 UTC"
+        ]
+      ],
+      "foundry_p": "Najważniejsze: buffy rozwoju, dzienne darmowe przywołania Przymierza (do 1 260), dołączenie Luny na randze 70, prezenty za logowanie. Pełne omówienie serwera Foundry na stronie Foundry.",
+      "faq_h2": "FAQ",
+      "faqs": [
+        [
+          "Jak grać w Epic Seven na Steam?",
+          "Zainstaluj z oficjalnego sklepu Steam. Jeśli chcesz zachować dotychczasowy postęp, przed zalogowaniem przekonwertuj logowanie e-mail/SNS STOVE na Steam. Zobacz poradnik transferu i FAQ Steam na STOVE."
+        ],
+        [
+          "Czy transfer zachowuje bohaterów, zakupy i Epic Pass?",
+          "Według oficjalnego FAQ postęp i dane, w tym nieodebrane nagrody, przedmioty z wydarzeń i Epic Pass, są przenoszone. Potwierdź w FAQ Steam na STOVE."
+        ],
+        [
+          "Czym jest Foundry?",
+          "Nowy serwer otwarty wraz z premierą na Steam. Buffy startowe i wydarzenia celebracyjne; matchmaking wyłącznie Foundry dla wymienionego PvP. Zobacz stronę Foundry."
+        ],
+        [
+          "Czy usunięcie konta w demie może wyczyścić stary postęp?",
+          "Tak — po transferze logowania Steam usunięcie konta w grze w demie może usunąć postęp na pierwotnym serwerze. Przeczytaj ostrzeżenie o demie i ogłoszenie STOVE."
+        ]
+      ],
+      "faq_more": "Więcej pytań → FAQ i rozwiązywanie problemów.",
+      "trouble_h2": "Szybkie rozwiązywanie problemów",
+      "trouble": [
+        [
+          "Złe / puste konto na Steam:",
+          "Steam mógł automatycznie utworzyć nowe konto STOVE powiązane ze Steam. Zobacz odzyskiwanie transferu."
+        ],
+        [
+          "Anty-cheat / błąd uruchamiania:",
+          "Steam wymienia UNCHEATER na poziomie jądra. Zaktualizuj sterowniki; jeśli problem trwa, skontaktuj się z oficjalnym wsparciem."
+        ],
+        [
+          "Ryzyko pozostałości po demie:",
+          "Nie używaj usuwania konta w grze po transferze logowania Steam."
+        ],
+        [
+          "Brak wydarzeń:",
+          "Część treści jest tylko na Foundry lub dostępna czasowo — sprawdź aktualizacje."
+        ]
+      ],
+      "map_h2": "Mapa strony — Steam, Foundry, bieżące materiały",
+      "map_steam": "Steam",
+      "map_foundry": "Foundry",
+      "map_ong": "Bieżące aktualizacje",
+      "map_links_steam": [
+        [
+          "/download/",
+          "Oficjalne pobieranie / wpis w sklepie"
+        ],
+        [
+          "/steam-transfer/",
+          "Kroki transferu STOVE↔Steam"
+        ],
+        [
+          "/demo-delete-warning/",
+          "Ostrzeżenie o demie / usunięciu konta"
+        ],
+        [
+          "/steam-notes/",
+          "Notatki o kliencie Steam"
+        ],
+        [
+          "/faq/",
+          "FAQ i rozwiązywanie problemów"
+        ]
+      ],
+      "map_links_fd": [
+        [
+          "/foundry/",
+          "Kalendarz do 12/31 — GW 11/21, WA 12/10"
+        ],
+        [
+          "/secret-rabbit-hole/",
+          "Historia poboczna Secret Rabbit♥Hole"
+        ]
+      ],
+      "map_links_ong": [
+        [
+          "/quests/",
+          "Zadania — główne / dzienne / tygodniowe"
+        ],
+        [
+          "/heroes/",
+          "Szybka ściągawka bohaterów"
+        ],
+        [
+          "/banners/",
+          "Banery i nowi bohaterowie"
+        ],
+        [
+          "/updates/",
+          "Dziennik aktualizacji"
+        ],
+        [
+          "/maintenance/",
+          "Konserwacja i noty wersji"
+        ]
+      ],
+      "sources_h2": "Oficjalne źródła",
+      "answer": "Centrum Epic Seven na Steam w trzech ścieżkach: [[transfer Steam|/steam-transfer/]] konwertuje logowanie e-mail/SNS STOVE → Steam Simple Login, aby zachować postęp; [[Foundry|/foundry/]] to kalendarz nowego serwera do 31 grudnia (nie transfer); [[Pobieranie|/download/]] to oficjalny wpis w sklepie dla aplikacji 5019180. Poradnik nieoficjalny — potwierdź na STOVE.",
+      "img_header_alt": "Oficjalna grafika nagłówka sklepu Steam dla Epic Seven (aplikacja 5019180), cytowana z CDN Steam",
+      "img_ss_alt": "Oficjalny zrzut ekranu ze sklepu Steam przedstawiający walkę w Epic Seven — CDN Steam",
+      "img_transfer_alt": "Własnoręcznie rysowany schemat kroków transferu konta STOVE na Steam",
+      "img_foundry_alt": "Własnoręcznie rysowany kalendarz celebracyjny Foundry do końca 2026",
+      "img_path_alt": "Własnoręcznie rysowany wybór ścieżki: zachowaj postęp, nowy start na Foundry lub wskazówki do klienta Steam",
+      "img_world_alt": "Oficjalny zrzut ekranu prezentacji świata ze sklepu Steam — cytat z CDN Steam"
     }
   },
   "/download/": {
@@ -2604,6 +2812,87 @@ export const CONTENT = {
       "link_notes": "Notes du client Steam (UNCHEATER)",
       "link_foundry": "Guide du serveur Foundry",
       "link_demo": "Avertissement sur la suppression de la démo"
+    },
+    "pl": {
+      "title": "Pobierz Epic Seven na Steam | Oficjalny sklep | E7",
+      "meta": "Pobieranie Epic Seven na Steam — wyłącznie oficjalny sklep Steam, aplikacja 5019180. Lista kontrolna transferu przed instalacją, demo a pełna wersja, uwagi o UNCHEATER. Poradnik nieoficjalny.",
+      "h1": "Pobierz Epic Seven na Steam",
+      "hub_blurb": "Oficjalny sklep Steam, aplikacja 5019180 — najpierw transfer i sprawdzenie demo vs pełna wersja.",
+      "lead": "Do pobrania Epic Seven na Steam używaj wyłącznie oficjalnego sklepu Steam. Ta strona nie hostuje instalatorów, cracków ani szarych kodów.",
+      "cta": "Otwórz oficjalny sklep Steam — Epic Seven (aplikacja 5019180)",
+      "before_h2": "Lista kontrolna przed pobraniem na Steam",
+      "steps": [
+        "Zdecyduj, czy potrzebujesz dotychczasowego postępu. Jeśli tak, najpierw przekonwertuj logowanie e-mail/SNS STOVE → Steam według [[poradnika transferu Epic Seven na Steam|/steam-transfer/]], zanim uznasz nowego Dziedzica ze Steam za głównego.",
+        "Jeśli demo na Steam utworzyło już konto zastępcze, rozwiąż ten konflikt przed konwersją — zobacz transfer i [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]].",
+        "Przy pierwszym uruchomieniu spodziewaj się monitów anty-cheata na poziomie jądra (UNCHEATER) — szczegóły poniżej i w [[notatkach o Steam|/steam-notes/]]. Firmowe pecety mogą blokować klienta pobierania Epic Seven na Steam.",
+        "Gracze nowego serwera: po instalacji przeczytaj [[poradnik serwera Foundry|/foundry/#server-guide]] do 12/31 i [[Secret Rabbit♥Hole|/secret-rabbit-hole/]].",
+        "Minimalne wymagania (Steam): Win10 64-bit, procesor klasy i5, 8 GB RAM, karta klasy GTX 1060, ~10 GB wolnego miejsca. Zalecane 16 GB / klasa GTX 1660. Potwierdź wolne miejsce, zanim pobieranie Epic Seven na Steam się zakończy.",
+        "Lista życzeń lub biblioteka: otwieraj aplikację 5019180 tylko ze store.steampowered.com. Zapisz tę listę kontrolną, aby nie przyjąć mirrora, instalatora z DM na Discordzie ani cracka „szybszego pobierania”."
+      ],
+      "after_h2": "Po zainstalowaniu pobrania Epic Seven na Steam",
+      "after": [
+        "Przed wydaniem waluty potwierdź, z którego logowania STOVE korzysta Steam.",
+        "Foundry a stary serwer: transfer logowania nie przenosi starej postaci na [[Foundry|/foundry/]] — Foundry to osobny serwer. Zobacz [[poradnik transferu|/steam-transfer/]] i [[listę kontrolną Guild War|/foundry/#guild-war]].",
+        "Wiadomości o liście życzeń / premierze na Foundry są ograniczone czasowo — odbierz je ze skrzynki przed wygaśnięciem.",
+        "Jeśli Dziedzic wygląda na zupełnie nowego, zatrzymaj się i otwórz ścieżkę odzyskiwania transferu, zanim zainwestujesz czas lub pieniądze.",
+        "Jeśli UNCHEATER lub uruchomienie zawiedzie po pobraniu, miej pod ręką Steam → Sprawdź integralność plików gry."
+      ],
+      "demo_h2": "Demo na Steam a pełne pobranie Epic Seven",
+      "demo": [
+        "Demo na Steam i pełne pobranie Epic Seven na Steam mają wspólną markę, ale to nie ta sama ścieżka produktu. Pełny klient to aplikacja Steam 5019180. Konta pozostałe po demie mogą siedzieć na logowaniu STOVE powiązanym ze Steam i blokować późniejszą konwersję. Lepiej zainstalować pełną wersję niż „czyścić” demo usuwaniem konta w grze.",
+        "Po udanym transferze logowania Steam STOVE ostrzega, że użycie usuwania konta w grze w demie lub kliencie może wyczyścić postęp na pierwotnym serwerze. Dlatego ta strona pobierania linkuje [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]] obok przycisku sklepu. Jeśli już otworzyłeś demo, nie naciskaj usuń — użyj wycofania, a potem konwersji według [[poradnika transferu|/steam-transfer/]].",
+        "Gdy znajomi mówią „po prostu usuń puste demo i pobierz ponownie”, traktuj to jako niebezpieczną radę dla kont po transferze. Ponowne pobranie pełnej wersji Epic Seven na Steam jest w porządku; niebezpieczne jest usunięcie konta w grze po transferze, na które wskazuje STOVE view/14581667."
+      ],
+      "anticheat_h2": "Uwagi o anty-cheacie dla klienta pobierania Steam",
+      "anticheat": [
+        "Steam wymienia UNCHEATER na poziomie jądra dla Epic Seven. Przy pierwszym uruchomieniu po pobraniu Epic Seven na Steam zatwierdź monit podniesienia uprawnień Windows, aby sterownik mógł się zainstalować. Uruchom ponownie raz, jeśli klient nadal się zamyka. Firmowe lub szkolne obrazy często blokują ten sterownik polityką — nie instaluj obejścia, cracka ani „poprawki UNCHEATER” z Discorda.",
+        "Jeśli monit anty-cheata nigdy się nie pojawia albo blokuje go polityka, graj na tym samym przekonwertowanym koncie w kliencie STOVE PC lub na prywatnym komputerze, którym administrujesz. Sprawdź pliki gry, zaktualizuj sterowniki GPU i sprawdź kwarantannę antywirusa, zanim otworzysz zgłoszenie do oficjalnego wsparcia. Dłuższa diagnostyka jest w [[notatkach o Steam|/steam-notes/]]."
+      ],
+      "deep_h2": "Pobieranie Epic Seven na Steam — poradnik gracza (nieoficjalny)",
+      "deep": [
+        "Pobieranie Epic Seven na Steam zawsze powinno zaczynać się od oficjalnej strony sklepu dla aplikacji 5019180. Ta niezależna lista kontrolna istnieje, bo tydzień premiery miesza trzy osobne decyzje: czy zachować stary postęp, czy otworzyć postać na Foundry i czy komputer udźwignie anty-cheat na poziomie jądra. Mieszanie tych decyzji prowadzi do pustego Dziedzica albo zablokowanej konwersji. Przeczytaj wymagania systemowe ze strony sklepu, a potem zdecyduj: transfer czy Foundry, zanim pierwszy raz klikniesz Graj.",
+        "Jeśli zależy ci na bohaterach, zakupach i Epic Pass na starym serwerze, dokończ konwersję logowania e-mail/SNS STOVE → Steam Simple Login opisaną w [[poradniku transferu Epic Seven na Steam|/steam-transfer/]], zanim zaczniesz codziennie korzystać ze Steam. Samo pobranie nie przenosi postępu; robi to konwersja logowania. Jeśli Steam utworzył już puste powiązane konto STOVE, najpierw wycofaj to powiązanie, odczekaj ewentualny okres wstrzymania STOVE, a potem przekonwertuj pierwotne. Nigdy nie używaj usuwania konta w grze po transferze, żeby „zwolnić” pusty slot.",
+        "Jeśli chcesz buffów celebracyjnych Foundry i Guild War zamiast (lub oprócz) starego postępu, zainstaluj pełnego klienta, potwierdź, że jesteś na zamierzonym logowaniu, a potem świadomie utwórz postać na Foundry. Konwersja logowania nie umieszcza starego Dziedzica na Foundry. Szczegóły kalendarza, terminy Guild War i uwagi o kodach są w [[poradniku serwera Foundry|/foundry/#server-guide]] — nie zaśmiecaj tej strony datami.",
+        "Wskazówki dotyczące miejsca i sieci: zostaw ~10 GB wolnego, preferuj kabel lub stabilne Wi-Fi, gdy Steam kończy pobieranie Epic Seven na Steam, i wstrzymaj inne duże aktualizacje, żeby weryfikacja nie padła w połowie. Po instalacji uruchom grę raz, aby UNCHEATER dokończył pracę, a potem potwierdź tożsamość STOVE widoczną w menu konta. Jeśli coś wygląda źle, przestań wydawać i sprawdź [[centrum FAQ|/faq/]] oraz oficjalne FAQ Steam na STOVE view/14378309.",
+        "Ta strona nigdy nie hostuje instalatorów, mirrorów, szarych kodów ani zmodyfikowanych klientów. Jeśli wynik wyszukiwania oferuje ZIP „pobierania Epic Seven na Steam”, torrent albo darmowy pakiet skórek, traktuj go jak malware. Trzymaj się store.steampowered.com/app/5019180, cytuj STOVE w sprawie zasad konta i pamiętaj, że epicsevensteam.com to nieoficjalny poradnik gracza — nie wsparcie Smilegate, STOVE, Valve ani Steam."
+      ],
+      "refs_h2": "Oficjalne źródła premiery",
+      "related_h2": "Powiązane strony centrum",
+      "answer": "Pobieraj Epic Seven na Steam wyłącznie z oficjalnej strony sklepu Steam dla aplikacji 5019180. Jeśli potrzebujesz dotychczasowego postępu, najpierw przekonwertuj STOVE→Steam, starannie porównaj demo i pełną wersję oraz przeczytaj ostrzeżenie o usuwaniu dema przed jakimkolwiek interfejsem usuwania.",
+      "img_alt": "Oficjalny nagłówek Steam dla Epic Seven, aplikacja 5019180",
+      "img_cap_alt": "Oficjalna grafika kapsuły Steam dla Epic Seven",
+      "faq_h2": "FAQ pobierania — Epic Seven na Steam",
+      "faqs": [
+        [
+          "Gdzie jest bezpieczne pobranie Epic Seven na Steam?",
+          "Tylko store.steampowered.com/app/5019180 — ta strona nigdy nie hostuje instalatorów ani szarych kodów. Ignoruj mirrory, torrenty i DM na Discordzie oferujące szybsze pobranie Epic Seven na Steam."
+        ],
+        [
+          "Czy powinienem wykonać transfer przed instalacją?",
+          "Jeśli zależy ci na starym postępie, przekonwertuj logowanie STOVE na Steam, zanim zaczniesz polegać na nowej postaci ze Steam. [[Poradnik transferu|/steam-transfer/]] opisuje odzyskiwanie po błędnym powiązaniu."
+        ],
+        [
+          "Czy demo na Steam wpływa na moje prawdziwe konto?",
+          "Niewłaściwe użycie usuwania konta w grze po udanym transferze logowania Steam może wyczyścić dane na pierwotnym serwerze — przeczytaj [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]] i wpis STOVE."
+        ],
+        [
+          "Demo a pełny klient — co zainstalować?",
+          "Preferuj pełne pobranie Epic Seven na Steam (aplikacja 5019180). Pozostałości po demie mogą zablokować późniejszą konwersję; nigdy nie „naprawiaj” tego usuwaniem konta w grze po transferze."
+        ],
+        [
+          "Co z UNCHEATER po pobraniu?",
+          "Przy pierwszym uruchomieniu spodziewaj się monitu anty-cheata na poziomie jądra. Zaktualizuj sterowniki, sprawdź pliki i unikaj narzędzi obejściowych. Zobacz [[notatki o Steam|/steam-notes/]]."
+        ],
+        [
+          "Czy pobranie przenosi mnie na Foundry?",
+          "Nie. Pobranie i transfer logowania zachowują lub tworzą dostęp na Steam; Foundry to osobny wybór nowego serwera. Zobacz [[Foundry|/foundry/]]."
+        ]
+      ],
+      "link_transfer": "Poradnik transferu STOVE↔Steam",
+      "link_faq": "FAQ Epic Seven na Steam",
+      "link_notes": "Notatki o kliencie Steam (UNCHEATER)",
+      "link_foundry": "Poradnik serwera Foundry",
+      "link_demo": "Ostrzeżenie o usuwaniu dema"
     }
   },
   "/demo-delete-warning/": {
@@ -3269,6 +3558,79 @@ export const CONTENT = {
       ],
       "img_alt2": "Comparatif À faire / À ne pas faire auto-dessiné pour la suppression de la démo après transfert",
       "img_alt3": "Illustration capsule Steam officielle pour Epic Seven — citation CDN Steam"
+    },
+    "pl": {
+      "title": "Demo na Steam — nie usuwaj konta w grze po transferze",
+      "meta": "Ostrzeżenie: usunięcie konta w grze w demie Epic Seven na Steam po transferze logowania Steam może wyczyścić postęp na pierwotnym serwerze. Źródło: STOVE.",
+      "h1": "Demo na Steam: ryzyko usunięcia konta",
+      "warn_title": "Oficjalne ostrzeżenie (sparafrazowane):",
+      "warn": "Jeśli przeniosłeś istniejące logowanie Epic Seven na Steam Login, a następnie użyłeś usuwania konta w grze w demie Steam, wszystkie dane konta — w tym postęp na pierwotnym serwerze — mogą zostać usunięte.",
+      "do_h2": "Co zrobić",
+      "dos": [
+        "Jeśli Steam utworzył puste powiązane konto, preferuj wycofanie, a potem konwersję.",
+        "Zainstaluj/graj w pełną wersję Steam (aplikacja 5019180), zamiast polegać na pozostałościach po demie.",
+        "Przeczytaj ponownie ostrzeżenie STOVE o demie https://page.onstove.com/epicseven/global/view/14581667 przed jakimkolwiek interfejsem usuwania.",
+        "Miej otwarty poradnik transferu z tej strony podczas pracy — nieoficjalny, źródło STOVE."
+      ],
+      "diff_h2": "Czym to się różni od wycofania konta STOVE powiązanego ze Steam",
+      "diff": "Wycofanie konta STOVE (dla błędnie powiązanego pustego konta Steam) to oficjalna ścieżka odzyskiwania podsumowana w poradniku transferu. Usunięcie konta w grze w demie/kliencie po transferze logowania Steam to niebezpieczeństwo wskazane w ostrzeżeniu STOVE o demie — nie myl tych dwóch.",
+      "related_h2": "Powiązane",
+      "answer": "Po przeniesieniu istniejącego logowania Epic Seven na Steam Login nie używaj usuwania konta w grze w demie/kliencie Steam. Oficjalne ostrzeżenie STOVE mówi, że może to wyczyścić dane konta, w tym postęp na pierwotnym serwerze. Preferuj ścieżkę odzyskiwania „wycofaj, potem przekonwertuj” z poradnika transferu i potwierdź brzmienie na STOVE przed działaniem. Nieoficjalna strona ostrzeżenia.",
+      "img_alt": "Nieoficjalny schemat: nigdy nie usuwaj konta po transferze na Steam",
+      "table_h2": "Rób / Nie rób",
+      "th": [
+        "Rób",
+        "Nie rób"
+      ],
+      "rows": [
+        [
+          "Najpierw przekonwertuj e-mail/SNS → Steam Simple Login na STOVE",
+          "Najpierw uruchom Steam i uznaj pustego Dziedzica za głównego"
+        ],
+        [
+          "Wycofaj błędnie powiązane konto STOVE przez interfejs STOVE",
+          "Używaj usuwania konta w grze w demie/kliencie po transferze"
+        ],
+        [
+          "Przeczytaj ostrzeżenie STOVE o demie + FAQ Steam przed działaniem",
+          "Ufaj DM na Discordzie sprzedającym narzędzia „natychmiastowego odblokowania”"
+        ],
+        [
+          "Zachowaj zrzuty ekranu waluty/bohaterów/Epic Pass",
+          "Zakładaj, że konta pozostałe po demie są nieszkodliwe"
+        ]
+      ],
+      "diff_steps": [
+        "Odzyskiwanie po błędnym powiązaniu: autoryzuj puste powiązanie Steam w STOVE → wycofaj to konto STOVE → przekonwertuj pierwotne logowanie.",
+        "Ryzyko usunięcia dema: po transferze logowania Steam usunięcie w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze według STOVE.",
+        "Jeśli nie wiesz, na której ścieżce jesteś, zatrzymaj się i przeczytaj ponownie poradnik transferu + bieżące ogłoszenia STOVE, zanim klikniesz usuń."
+      ],
+      "faq_h2": "FAQ usuwania dema",
+      "faqs": [
+        [
+          "Czy usunięcie konta w demie/kliencie może wyczyścić mój stary serwer?",
+          "Tak — ostrzeżenie STOVE mówi, że po transferze logowania Steam użycie usuwania konta w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze. Potwierdź na STOVE przed działaniem."
+        ],
+        [
+          "Czy wycofanie błędnego powiązania Steam to to samo co usunięcie?",
+          "Nie. Wycofaj puste konto STOVE powiązane ze Steam przez narzędzia konta STOVE, a potem przekonwertuj pierwotne logowanie. To zarys odzyskiwania — nie przycisk usuwania w grze w sesji demo."
+        ],
+        [
+          "Już kliknąłem usuń — co teraz?",
+          "Zatrzymaj dalsze eksperymenty. Zbierz zrzuty ekranu i skontaktuj się z obsługą Epic Seven przez oficjalne kanały STOVE. Ta nieoficjalna strona nie może przywrócić danych."
+        ]
+      ],
+      "link_transfer": "Poradnik transferu",
+      "link_notes": "Notatki o Steam",
+      "link_faq": "Centrum FAQ",
+      "link_foundry": "Poradnik serwera Foundry",
+      "deep_h2": "Przeczytaj przed jakimkolwiek interfejsem usuwania",
+      "deep": [
+        "Nie myl wycofania w STOVE (błędne powiązanie Steam) z usunięciem w grze w demie po transferze — tylko to drugie jest ryzykiem czyszczenia w ostrzeżeniu STOVE.",
+        "Wybierasz nowy start na Foundry zamiast czyszczenia pozostałości po demie? Przeczytaj [[poradnik serwera Foundry|/foundry/]] o kalendarzu celebracyjnym i Guild War — ta ścieżka to postać na nowym serwerze, nie transfer ani naprawa przez usunięcie."
+      ],
+      "img_alt2": "Własnoręcznie rysowane porównanie Rób / Nie rób dla usuwania dema po transferze",
+      "img_alt3": "Oficjalna grafika kapsuły Steam dla Epic Seven — cytat z CDN Steam"
     }
   },
   "/steam-transfer/": {
@@ -4684,6 +5046,162 @@ export const CONTENT = {
       ],
       "img_alt2": "Arbre de décision auto-dessiné pour un Heir Steam vide et la récupération",
       "img_alt3": "Bannières Steam officielles pour Epic Seven app 5019180 — CDN Steam"
+    },
+    "pl": {
+      "title": "Poradnik transferu Epic Seven na Steam | Zachowaj postęp | E7",
+      "meta": "Transfer Epic Seven na Steam: przekonwertuj STOVE→Steam Simple Login, aby zachować postęp. Wycofanie po błędnym powiązaniu, czyszczenie dema; transfer ≠ Foundry. Nieoficjalne.",
+      "h1": "Transfer Epic Seven na Steam — zachowaj postęp",
+      "goal": "Cel tego przewodnika po transferze Epic Seven na Steam: zachować dotychczasowy postęp, konwertując konto w STOVE na Simple Login (Steam), zanim zaczniesz polegać na nowej sesji Steam. Parafraza publicznego FAQ STOVE — postępuj według bieżącego interfejsu.",
+      "diagram": [
+        "Konto mobilne / PC STOVE",
+        "Konwersja logowania na STOVE",
+        "Logowanie w kliencie Steam"
+      ],
+      "diagram_aria": "Zalecana ścieżka transferu",
+      "rec_h2": "Zalecana ścieżka (zachowaj postęp)",
+      "steps": [
+        [
+          "Nie spiesz się z wejściem na Steam",
+          "jeśli zależy ci na starym koncie. Uruchomienie bez konwersji często tworzy nowe konto STOVE powiązane ze Steam."
+        ],
+        [
+          "Otwórz oficjalne narzędzia konta STOVE",
+          "na PC i przekonwertuj e-mail lub SNS → Simple Login (Steam). Transfery są opisane jako dostępne w dowolnym momencie."
+        ],
+        [
+          "Dokończ autoryzację Steam",
+          "gdy pojawi się monit, a potem potwierdź powiązane logowanie na STOVE."
+        ],
+        [
+          "Zainstaluj / graj przez Steam",
+          "z oficjalnego sklepu. Według FAQ PC STOVE i telefon nadal działają później."
+        ],
+        [
+          "Co jest przenoszone:",
+          "postęp, bohaterowie, przedmioty, zakupy, nieodebrane nagrody, przedmioty z wydarzeń, Epic Pass — zgodnie z oficjalnym stanowiskiem. Sprawdź ponownie, jeśli zasady się zmienią."
+        ]
+      ],
+      "conflict_h2": "Jeśli Steam utworzył już nowe konto",
+      "conflict_intro": "Oficjalny zarys odzyskiwania (sparafrazowany): najpierw wycofaj nowe konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne.",
+      "conflict_steps": [
+        "W logowaniu STOVE wybierz typ konta Steam.",
+        "Autoryzuj konto Steam używane w Epic Seven.",
+        "Dokończ rejestrację / weryfikację STOVE, jeśli poprosi.",
+        "Wycofaj to konto STOVE powiązane ze Steam według interfejsu STOVE.",
+        "Następnie przekonwertuj pierwotne konto e-mail/SNS na logowanie Steam."
+      ],
+      "conflict_note": "Wycofanie może wiązać się z okresem oczekiwania — potwierdź w interfejsie STOVE / u wsparcia. Nie wymyślaj narzędzi odblokowujących firm trzecich.",
+      "cooldown_h2": "„Already registered” i trzymiesięczny cooldown",
+      "cooldown_lead": "Dwa błędy odpowiadają za większość zablokowanych transferów. Przeczytaj dokładny komunikat STOVE, zanim utworzysz kolejne konto lub cokolwiek usuniesz.",
+      "cooldown_th": [
+        "Co widzisz",
+        "Prawdopodobna przyczyna",
+        "Bezpieczny następny krok"
+      ],
+      "cooldown_rows": [
+        [
+          "„This information has already been registered.”",
+          "Ten identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z pustym kontem utworzonym przez Steam przy pierwszym uruchomieniu.",
+          "Autoryzuj ten identyfikator Steam w STOVE, wycofaj dodatkowe konto STOVE, a potem przekonwertuj pierwotne logowanie e-mail/SNS. Nie otwieraj kolejnych kont Steam."
+        ],
+        [
+          "Przycisk Transfer wyszarzony",
+          "STOVE pokazuje wstrzymanie lub cooldown albo logowanie nie kwalifikuje się jeszcze. Gracze często zgłaszają trzymiesięczny cooldown po naprawie błędnego powiązania.",
+          "Przeczytaj datę i zakres w STOVE. Odczekaj lub zapytaj wsparcie STOVE; żadne odblokowanie firm trzecich tego nie skróci."
+        ],
+        [
+          "Przekonwertowano, ale brakuje starych bohaterów",
+          "Steam autoryzował inną tożsamość STOVE niż ta, która ma roster.",
+          "Potwierdź parę logowań, a potem użyj wycofaj→przekonwertuj. Nigdy nie używaj usuwania konta w grze po transferze."
+        ]
+      ],
+      "cooldown_note": "Trzymiesięczny cooldown to zasada konta po stronie STOVE, nie polityka tej strony. Dokładny wyzwalacz i data rozpoczęcia są w interfejsie konta STOVE lub odpowiedzi wsparcia — ten nieoficjalny poradnik nie może go zresetować.",
+      "cross_h2": "Uwagi o cross-play",
+      "cross": [
+        "Steam, PC STOVE i telefon dzielą rozgrywkę dzięki cross-play (według FAQ).",
+        "Steam ma dostęp do nowych i istniejących światów; Foundry ma osobny matchmaking dla wymienionego PvP.",
+        "Powiązane po transferze Epic Seven na Steam: ostrzeżenie o demie, notatki o Steam, centrum FAQ i lista kontrolna pobierania."
+      ],
+      "src_h2": "Oficjalne źródła",
+      "answer": "Transfer Epic Seven na Steam zachowuje postęp przez konwersję logowania e-mail/SNS STOVE na Steam Simple Login. Błędne powiązanie: wycofaj puste konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne. Czyszczenie dema może usunąć stary postęp po konwersji. Transfer ≠ Foundry; Foundry to osobny serwer — zobacz [[poradnik serwera Foundry|/foundry/]].",
+      "img_alt": "Własnoręcznie rysowany schemat kroków transferu STOVE na Steam",
+      "faq_h2": "FAQ transferu",
+      "faqs": [
+        [
+          "Jak transfer Epic Seven na Steam zachowuje postęp?",
+          "Ten transfer Epic Seven na Steam konwertuje logowanie e-mail/SNS STOVE na Steam Simple Login, aby zachować postęp. Błędne powiązanie: wycofaj puste konto powiązane ze Steam, a potem przekonwertuj pierwotne. Czyszczenie dema po transferze może usunąć postęp na pierwotnym serwerze. Transfer to nie Foundry. Poradnik nieoficjalny — potwierdź na STOVE."
+        ],
+        [
+          "STOVE mówi „already been registered” — co teraz?",
+          "Ten identyfikator Steam jest już powiązany z innym logowaniem STOVE. Autoryzuj go w STOVE, wycofaj dodatkowe konto, a potem przekonwertuj pierwotne logowanie e-mail/SNS. Nie twórz kolejnych kont Steam. Po sprzątaniu może obowiązywać trzymiesięczny cooldown; potwierdź datę w interfejsie STOVE lub u wsparcia. Zobacz sekcję o cooldownie powyżej."
+        ],
+        [
+          "Czy tracę bohaterów przy transferze na Steam?",
+          "Oficjalne FAQ podaje, że postęp, bohaterowie, przedmioty, zakupy i Epic Pass przechodzą przy prawidłowej konwersji logowania. Zawsze sprawdź brzmienie STOVE przed działaniem."
+        ],
+        [
+          "Co jeśli Steam utworzył już nowe konto?",
+          "Najpierw wycofaj nowe konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne logowanie — zobacz sekcję o konflikcie i FAQ STOVE."
+        ],
+        [
+          "Czy transfer przenosi mnie na Foundry?",
+          "Nie. Konwersja logowania zachowuje postęp na istniejącym serwerze. Foundry to osobny nowy serwer, na który wchodzisz świadomie — zobacz [[Guild War na Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "Czy usunięcie konta demo na Steam może wyczyścić mój stary postęp?",
+          "Oficjalne ostrzeżenie STOVE mówi, że po transferze logowania Steam użycie usuwania konta w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze. Preferuj ścieżkę odzyskiwania z tej strony; przeczytaj stronę ostrzeżenia o demie i potwierdź na STOVE przed działaniem. Ta strona to poradnik nieoficjalny."
+        ],
+        [
+          "Czy zakupy i Epic Pass przechodzą?",
+          "Według oficjalnego FAQ Steam na STOVE postęp i dane, w tym zakupy, nieodebrane nagrody, przedmioty z wydarzeń i Epic Pass, przechodzą przy prawidłowej konwersji logowania. Zawsze sprawdź bieżące FAQ przed działaniem."
+        ]
+      ],
+      "before_h2": "Lista kontrolna przed transferem",
+      "before": [
+        "Zrób zrzuty ekranu waluty, bohaterów i stanu Epic Pass — dowód dla wsparcia, jeśli konwersja pójdzie źle.",
+        "Potwierdź, które logowanie e-mail lub SNS STOVE ma postęp, który chcesz zachować.",
+        "Nie otwieraj najpierw nowej sesji Steam; to może utworzyć puste powiązane konto STOVE.",
+        "Przeczytaj ostrzeżenie o usuwaniu dema, zanim naciśniesz jakikolwiek interfejs usuwania.",
+        "Następnie przekonwertuj e-mail/SNS STOVE → Steam Simple Login i autoryzuj ten sam identyfikator Steam."
+      ],
+      "demo_risk": "Po konwersji nie używaj usuwania konta w grze w sesji demo/klienta — zobacz",
+      "link_download": "Lista kontrolna pobierania przed konwersją",
+      "link_demo": "ostrzeżenie o usuwaniu dema",
+      "link_notes": "Notatki o Steam",
+      "link_faq": "FAQ Epic Seven na Steam",
+      "link_foundry": "Poradnik serwera Foundry (≠ transfer)",
+      "related_label": "Powiązane:",
+      "cross_foundry_before": "Steam ma dostęp do nowych i istniejących światów;",
+      "cross_foundry_after": "ma osobny matchmaking dla wymienionego PvP (transfer ≠ dołączenie do Foundry).",
+      "tree_h2": "Drzewo decyzyjne przy błędnym powiązaniu",
+      "tree": [
+        [
+          "Puste konto Steam",
+          "Steam otworzył nowego Dziedzica bez twoich starych bohaterów. Prawie na pewno jesteś na nowym logowaniu STOVE powiązanym ze Steam. Najpierw wycofaj to nowe powiązanie, a potem przekonwertuj pierwotne konto e-mail/SNS (zobacz kroki konfliktu + FAQ STOVE)."
+        ],
+        [
+          "Brak postępu po logowaniu",
+          "Potwierdź, którą tożsamość STOVE autoryzował Steam. Jeśli to puste powiązanie, odzyskaj przez wycofaj→przekonwertuj. Nie usuwaj pustego konta przez usuwanie w grze po transferze — ta ścieżka może wyczyścić dane na pierwotnym serwerze według ostrzeżenia STOVE."
+        ],
+        [
+          "Demo a pełny klient",
+          "Konta pozostałe po demie mogą zablokować późniejszy transfer. Zainstaluj pełną wersję Steam (aplikacja 5019180), unikaj usuwania dema i postępuj według poradnika transferu oraz strony ostrzeżenia o demie, zanim dotkniesz interfejsu usuwania konta."
+        ]
+      ],
+      "vs_h2": "Transfer a Foundry",
+      "vs": "Transfer konta zmienia tylko sposób logowania (e-mail/SNS → Steam Simple Login) i zachowuje postęp na starym serwerze. Foundry to osobny nowy serwer z własnymi postaciami, buffami i harmonogramem PvP — konwersja logowania cię tam nie przenosi. Wybierz Foundry świadomie po przeczytaniu:",
+      "vs_more": "Jeśli roster, na którym ci zależy, to stary Dziedzic — bohaterowie, zakupy i Epic Pass — dokończ konwersję e-mail/SNS STOVE na Steam Simple Login i zostań na tym serwerze. Jeśli chcesz buffów celebracyjnych Foundry i Guild War, utwórz postać na Foundry świadomie; konwersja nie przenosi starego Dziedzica. Przeczytaj [[poradnik serwera Foundry|/foundry/#server-guide]] i [[Guild War na Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, około 2026-11-21 03:00 UTC), zanim wydasz pierwszy tydzień.",
+      "vs_steps": [
+        "Zachowaj stary postęp: na PC STOVE przekonwertuj e-mail lub SNS, które ma twoich bohaterów, na Steam Simple Login, zanim naciśniesz Graj w nowej sesji Steam. Postępuj według FAQ Steam na STOVE view/14378309, nie według bindera firm trzecich.",
+        "Nowy start na Foundry: gdy Steam jest na zamierzonym logowaniu, utwórz postać na Foundry dla buffów celebracyjnych i Guild War. Daty według STOVE Foundry view/14571828 i Launch view/14606481 — zobacz [[Guild War na Foundry|/foundry/#guild-war]].",
+        "Błędne powiązanie: jeśli Steam pokazuje pustego Dziedzica, wycofaj to konto STOVE powiązane ze Steam, odczekaj ewentualny okres wstrzymania widoczny w interfejsie STOVE, a potem przekonwertuj pierwotne. Nie używaj usuwania konta w grze (ostrzeżenie STOVE o demie view/14581667)."
+      ],
+      "deep_h2": "Dlaczego gracze utykają (nieoficjalnie)",
+      "deep": [
+        "Najczęstsze błędy tygodnia premiery przy transferze Epic Seven na Steam to: Steam przed konwersją, usunięcie dema po transferze albo oczekiwanie Foundry po konwersji logowania. Stosuj wycofaj→przekonwertuj i cytuj FAQ STOVE / ostrzeżenie o demie. Przed konwersją otwórz [[listę kontrolną pobierania|/download/]], aby pełny klient (aplikacja 5019180) był gotowy."
+      ],
+      "img_alt2": "Własnoręcznie rysowane drzewo decyzyjne przy pustym Dziedzicu Steam i odzyskiwaniu",
+      "img_alt3": "Oficjalny nagłówek Steam dla Epic Seven, aplikacja 5019180 — CDN Steam"
     }
   },
   "/faq/": {
@@ -5073,6 +5591,49 @@ export const CONTENT = {
         "Toujours bloqué → support Epic Seven via STOVE (pas les messages privés Discord qui vendent des solutions)."
       ],
       "src_h2": "Liens officiels"
+    },
+    "pl": {
+      "title": "FAQ Epic Seven na Steam — transfer, Foundry i premiera | E7",
+      "meta": "FAQ Epic Seven na Steam: błędne powiązanie, czyszczenie dema po transferze i Foundry≠transfer — krótkie odpowiedzi z odnośnikami. Poprawki premierowe + źródła STOVE. Nieoficjalne.",
+      "h1": "FAQ i rozwiązywanie problemów — Epic Seven na Steam",
+      "answer": "FAQ Epic Seven na Steam: błędne powiązanie zwykle oznacza, że Steam utworzył pustego Dziedzica — wycofaj go i przekonwertuj pierwotne konto według [[poradnika transferu|/steam-transfer/]]. Usunięcie konta w demie po konwersji może wyczyścić stary postęp — przeczytaj [[ostrzeżenie o demie|/demo-delete-warning/]]. Foundry to osobny serwer, nie transfer — zobacz [[poradnik serwera Foundry|/foundry/]].",
+      "img_alt": "Nieoficjalny schemat FAQ: błędne powiązanie, wycofaj puste powiązanie Steam, potem przekonwertuj",
+      "lead": "Korzystaj z tego FAQ Epic Seven na Steam razem z kartami strony głównej. Ufaj ekranom STOVE bardziej niż jakimkolwiek skryptom firm trzecich.",
+      "faqs": [
+        [
+          "Co obejmuje to FAQ Epic Seven na Steam — i dlaczego pojawia się nowy Dziedzic?",
+          "To FAQ Epic Seven na Steam wyjaśnia transfer, Foundry i problemy premierowe. Transfer Steam zachowuje postęp przez STOVE→Steam Simple Login. Zupełnie nowy Dziedzic zwykle oznacza, że Steam utworzył puste powiązane logowanie STOVE — wycofaj je, a potem przekonwertuj pierwotne (zobacz [[poradnik transferu|/steam-transfer/]]). Foundry to osobny nowy serwer, nie transfer konta ([[poradnik serwera Foundry|/foundry/#server-guide]]). Czyszczenie dema po konwersji może usunąć stary postęp ([[ostrzeżenie o demie|/demo-delete-warning/]]). Nieoficjalne — potwierdź na STOVE."
+        ],
+        [
+          "Czy mogę grać na Foundry na Steam i kontynuować na telefonie?",
+          "Cross-play jest obsługiwany na tym samym koncie po prawidłowym powiązaniu. Postacie z Foundry żyją na Foundry — sam transfer logowania nie przenosi starej postaci na Foundry."
+        ],
+        [
+          "Czy Guild War działa już na Foundry?",
+          "Draft Arena otworzyła się wraz z premierą. Guild War: 2026-11-21 03:00 UTC według STOVE Foundry view/14571828. World Arena: 2026-12-10. Zobacz [[Guild War na Foundry|/foundry/#guild-war]]."
+        ],
+        [
+          "Gra nie startuje / błąd anty-cheata",
+          "Steam wymienia UNCHEATER na poziomie jądra. Zaktualizuj system/sterowniki GPU. Komputery zarządzane mogą wymagać STOVE PC lub telefonu. Eskaluj wyłącznie przez oficjalne wsparcie. Zobacz [[notatki o Steam|/steam-notes/]] (/steam-notes/). Patch z 2026-11-05 naprawił sporadyczne błędy uruchamiania na Steam; jeśli nadal występują, sprawdź Znane problemy (interfejs pada / awaria): https://page.onstove.com/epicseven/global/view/14608118."
+        ],
+        [
+          "Czy ceny na Steam różnią się od mobilnych?",
+          "FAQ STOVE podaje, że nie ma różnic cen między platformami. Mimo to porównaj bieżący interfejs sklepu w swoim regionie."
+        ],
+        [
+          "Demo się skończyło — czy muszę instalować ponownie?",
+          "Zainstaluj/zaktualizuj pełną wersję Steam z [[Pobierania / wpisu w sklepie|/download/]] (/download/). Stan konta zależy od tego, czy przekonwertowałeś logowanie — przeczytaj [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]] (/demo-delete-warning/)."
+        ]
+      ],
+      "check_h2": "Krótka lista kontrolna rozwiązywania problemów",
+      "checks": [
+        "Potwierdź, że używasz oficjalnej aplikacji Steam 5019180.",
+        "Potwierdź, z którego logowania STOVE korzysta Steam.",
+        "Sprawdź konserwację STOVE / banery Foundry.",
+        "Nigdy nie używaj usuwania konta w grze po transferze logowania Steam.",
+        "Nadal utknąłeś → obsługa Epic Seven przez STOVE (nie DM na Discordzie sprzedające poprawki)."
+      ],
+      "src_h2": "Oficjalne linki"
     }
   },
   "/steam-notes/": {
@@ -6089,6 +6650,118 @@ export const CONTENT = {
       ],
       "img_alt2": "Étapes de diagnostic UNCHEATER dessinées à la main pour les échecs de lancement Steam",
       "img_alt3": "Symptômes de liaison Steam et procédure de récupération dessinés à la main"
+    },
+    "pl": {
+      "title": "Notatki o Steam — wskazówki do klienta Epic Seven | Niezależny poradnik",
+      "meta": "Powiązanie STOVE, anty-cheat, języki, wymagania systemowe, cross-play. Niezależny poradnik.",
+      "h1": "Notatki specyficzne dla Steam",
+      "lead": "Notatki dla graczy o Steam i Epic Seven, aplikacja 5019180: łączenie konta, oczekiwania wobec anty-cheata i typowe błędy uruchamiania. Parafrazy publicznych tekstów sklepu/FAQ — sprawdź bieżące ekrany Steam i STOVE. Niezależny poradnik.",
+      "acct_h2": "Konto i platforma",
+      "acct": [
+        "Klienty Steam nadal w tle uwierzytelniają konto STOVE.",
+        "Jeśli zachowujesz postęp, przekonwertuj e-mail/SNS → Steam Simple Login, zanim uznasz Steam za główny.",
+        "Cross-play z PC STOVE/telefonem jest opisany w oficjalnym FAQ Steam po prawidłowym powiązaniu.",
+        "Postacie z Foundry są oddzielone od starego postępu, nawet na tym samym logowaniu STOVE."
+      ],
+      "sec_h2": "UNCHEATER / anty-cheat",
+      "sec_prose": "Strona sklepu Steam wymienia anty-cheat na poziomie jądra UNCHEATER dla Epic Seven. Przy pierwszym uruchomieniu zatwierdź monit podniesienia uprawnień Windows, aby sterownik się zainstalował, a potem uruchom ponownie raz, jeśli klient nadal się zamyka. Firmowe i szkolne obrazy często blokują ten sterownik jądra polityką, więc zarządzany komputer może zawieść nawet przy oficjalnej wersji. Nie pobieraj obejścia bana, cracka ani patcha „UNCHEATER bypass” — te pliki to malware i łamią regulamin gry. Jeśli monit zostanie odrzucony, graj na tym samym przekonwertowanym koncie w kliencie STOVE lub na prywatnym komputerze, którym administrujesz. Kontaktuj oficjalne wsparcie dopiero po czystej instalacji, weryfikacji plików i aktualizacji sterowników, które nadal zawodzą, i zachowaj treść błędu. Wersję pobierz z [[listy kontrolnej pobierania|/download/]] i oficjalnej [[aplikacji Steam 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]. Ta notatka to nieoficjalny poradnik, nie wsparcie Smilegate, STOVE ani Steam.",
+      "sec": [
+        "Pierwsze uruchomienie: zatwierdź monit podniesienia uprawnień UNCHEATER, poczekaj na instalację sterownika, a potem uruchom ponownie raz, jeśli Epic Seven nadal się zamyka. Sklep Steam wymienia ten anty-cheat jądra dla aplikacji 5019180.",
+        "Obraz firmowy lub szkolny: jeśli monit nigdy się nie pojawia albo polityka blokuje sterownik, przestań próbować na tym komputerze. Nie instaluj obejścia bana, cracka ani „UNCHEATER bypass”.",
+        "Plan B: otwórz to samo przekonwertowane konto STOVE w kliencie STOVE PC lub na telefonie albo przenieś instalację na prywatny komputer, którym administrujesz. Cross-play po prawidłowym powiązaniu opisano w FAQ Steam na STOVE view/14378309.",
+        "Przed zgłoszeniem: Steam → sprawdź pliki gry → zaktualizuj system i sterownik GPU → sprawdź, czy antywirus nie poddał kwarantannie plików UNCHEATER → uruchom ponownie po nieudanej instalacji sterownika.",
+        "Nadal nie działa: skopiuj treść błędu i skontaktuj się wyłącznie z oficjalnym wsparciem STOVE. Instaluj z [[listy kontrolnej pobierania|/download/]] i [[aplikacji Steam 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]."
+      ],
+      "lang_h2": "Języki (wpis Steam)",
+      "lang": "Interfejs obejmuje EN/KR/JP/ZH (trad./uproszcz.)/DE/FR/ES/PT/TH (według ogłoszenia premierowego). Głosy na premierze: koreański / angielski; japoński VO opóźniony, z planowanym późniejszym dodaniem.",
+      "spec_h2": "Wymagania systemowe (minimum Steam)",
+      "specs": [
+        [
+          "System",
+          "Windows 10 64-bit+"
+        ],
+        [
+          "CPU",
+          "Intel i5 lub wyżej (min.)"
+        ],
+        [
+          "RAM",
+          "8 GB (min.) / 16 GB (zalecane)"
+        ],
+        [
+          "GPU",
+          "GTX 1060+ (min.) / GTX 1660+ (zalecane)"
+        ],
+        [
+          "Miejsce",
+          "~10 GB"
+        ]
+      ],
+      "get_h2": "Pobierz grę",
+      "cta": "Oficjalny sklep Steam — Epic Seven",
+      "related_h2": "Powiązane",
+      "answer": "Epic Seven na Steam wymaga powiązania konta STOVE; przekonwertuj logowanie e-mail/SNS na Steam, aby zachować postęp, zamiast zaczynać od pustego konta. Sklep Steam wymienia anty-cheat jądra UNCHEATER — spodziewaj się monitów podniesienia uprawnień; zablokowane komputery mogą nie uruchomić gry. Odzyskiwanie po błędnym powiązaniu jest w poradniku transferu (wycofaj nowe powiązanie, potem przekonwertuj pierwotne). Nieoficjalne notatki o Steam — nie Smilegate/STOVE/Steam.",
+      "img_alt": "Nieoficjalny schemat powiązania Steam i diagnostyki uruchamiania",
+      "bind_h2": "Powiązanie konta i błędne łącze",
+      "bind_lead": "Gra na Steam nadal przechodzi przez tożsamość STOVE. Konwersja istniejącego logowania e-mail/SNS na Steam Simple Login zachowuje stary postęp; uruchomienie najpierw często tworzy puste konto STOVE powiązane ze Steam, które blokuje konwersję, dopóki go nie wycofasz.",
+      "bind_sym_h3": "Objawy",
+      "bind_sym": [
+        "Steam otwiera zupełnie nowego Dziedzica bez twoich bohaterów i zakupów.",
+        "PC STOVE/telefon nadal pokazują stare konto, a Steam nie.",
+        "Interfejs konwersji mówi, że powiązanie Steam jest już używane."
+      ],
+      "bind_fix_h3": "Odzyskiwanie",
+      "bind_fix": "Użyj schematu „wycofaj, potem przekonwertuj”: autoryzuj puste powiązanie Steam w STOVE, wycofaj to konto STOVE, a potem przekonwertuj pierwotne logowanie. Pełne kroki i cele zrzutów ekranu są w",
+      "launch_h2": "Błędy uruchamiania klienta",
+      "launch": [
+        [
+          "Awaria przy starcie",
+          "Sprawdź pliki gry w Steam, zaktualizuj sterowniki GPU, tymczasowo sprawdź kwarantannę antywirusa pod kątem komponentów UNCHEATER i uruchom ponownie po nieudanych instalacjach sterowników. Nadal utknąłeś → tylko oficjalne wsparcie."
+        ],
+        [
+          "Pętla logowania / zły Dziedzic",
+          "Prawdopodobnie jesteś na pustej tożsamości STOVE powiązanej ze Steam. Przestań tworzyć postacie; wykonaj odzyskiwanie po błędnym powiązaniu z poradnika transferu. Nigdy nie używaj usuwania w grze po transferze, żeby „zwolnić” pusty slot."
+        ],
+        [
+          "Dziwności regionu / języka",
+          "Pakiety językowe i interfejs regionu podążają za ustawieniami Steam/STOVE. Sprawdź ponownie menu języka w kliencie i region konta STOVE, zanim uznasz to za bana. Tekst wymagań ze sklepu pozostaje wiążący dla sprzętu."
+        ]
+      ],
+      "faq_h2": "FAQ notatek o Steam",
+      "faqs": [
+        [
+          "Dlaczego Steam utworzył nowe konto?",
+          "Uruchomienie bez konwersji e-mail/SNS → Steam Simple Login często tworzy nowe logowanie STOVE powiązane ze Steam. Wycofaj je, a potem przekonwertuj pierwotne — zobacz poradnik transferu."
+        ],
+        [
+          "Czym jest UNCHEATER?",
+          "Sklep Steam wymienia anty-cheat jądra UNCHEATER. Spodziewaj się monitów podniesienia uprawnień; zarządzane komputery mogą odmówić sterownikowi. Nie ma bezpiecznego „cracka”; jeśli zablokowano, skorzystaj z oficjalnego wsparcia."
+        ],
+        [
+          "Gra nie startuje po instalacji",
+          "Sprawdź pliki, zaktualizuj system/sterowniki GPU, sprawdź kwarantannę antywirusa i potwierdź, że używasz aplikacji 5019180. Eskaluj wyłącznie przez oficjalne wsparcie STOVE."
+        ],
+        [
+          "Czy powiązanie konta to osobne narzędzie?",
+          "Ta strona włącza odzyskiwanie powiązania/błędnego łącza do poradnika transferu i tych notatek o Steam. Nie ma nieoficjalnego bindera firm trzecich — używaj własnego interfejsu konwersji STOVE."
+        ],
+        [
+          "Czy firmowy lub szkolny komputer zablokuje UNCHEATER?",
+          "Często tak. Zarządzane obrazy odmawiają monitu podniesienia uprawnień, którego potrzebuje anty-cheat jądra. Nie instaluj obejścia ani cracka. Użyj klienta STOVE lub prywatnego komputera, wykonaj tam weryfikację plików i aktualizację sterowników, a potem oficjalne wsparcie STOVE, jeśli nadal nie działa. Instaluj tylko aplikację Steam 5019180."
+        ]
+      ],
+      "link_transfer": "Poradnik transferu",
+      "link_demo": "Ostrzeżenie o usuwaniu dema",
+      "link_download": "Lista kontrolna pobierania",
+      "link_faq": "Centrum FAQ",
+      "link_foundry": "Poradnik serwera Foundry",
+      "deep_h2": "Granice wsparcia",
+      "deep": [
+        "Sprawdź pliki, zaktualizuj sterowniki i korzystaj z oficjalnego wsparcia przy blokadach UNCHEATER. Odzyskiwanie po błędnym powiązaniu jest w poradniku transferu — nie w binderach firm trzecich.",
+        "Okna celebracyjne nowego serwera (Guild War, buffy, prezenty w skrzynce) są w [[poradniku serwera Foundry|/foundry/]] — oddzielnie od diagnostyki uruchamiania klienta na tej stronie."
+      ],
+      "img_alt2": "Własnoręcznie rysowane kroki diagnostyki UNCHEATER dla błędów uruchamiania Steam",
+      "img_alt3": "Własnoręcznie rysowane objawy powiązania Steam i zarys odzyskiwania"
     }
   },
   "/foundry/": {
@@ -8629,6 +9302,287 @@ export const CONTENT = {
       ],
       "img_alt2": "Comparatif dessiné maison Transfert vs Foundry en deux décisions",
       "img_alt3": "Bandeau dessiné maison des jalons Foundry : lancement, Guild War, World Arena, 12/31"
+    },
+    "pl": {
+      "title": "Poradnik serwera Foundry w Epic Seven: kalendarz i Guild War | E7",
+      "meta": "Poradnik serwera Foundry: kalendarz, odblokowania treści, nagrody, Guild War ~2026-11-21 03:00 UTC; World Arena 2026-12-10. Kody Foundry ≠ kupony. Źródło: STOVE.",
+      "h1": "Poradnik serwera Foundry — harmonogram i nagrody",
+      "lead": "Ten poradnik serwera Foundry obejmuje nowy tor serwerowy Epic Seven: buffy startowe, pocztę celebracyjną i matchmaking wyłącznie Foundry dla wymienionego PvP. Guild War ogłoszono około 2026-11-21 03:00 UTC. Parafrazy publicznych ogłoszeń STOVE/Steam — harmonogramy mogą się zmienić po konserwacji. Poradnik niezależny; nie Smilegate ani STOVE.",
+      "as_of": "Migawka około 2026-10-29. Czasy UTC, o ile nie zaznaczono inaczej. Patch z 2026-11-05 naprawił błędne wyświetlanie w sklepie Foundry (okno zamknięte).",
+      "unlock_h2": "Kalendarz odblokowywania treści",
+      "th": [
+        "Funkcja",
+        "Otwarcie (UTC)",
+        "Uwaga źródłowa"
+      ],
+      "unlock": [
+        [
+          "Foundry + premiera Steam",
+          "2026-10-29 po konserwacji",
+          "Ogłoszenie premierowe"
+        ],
+        [
+          "Draft Arena",
+          "2026-10-29 po konserwacji",
+          "Matchmaking tylko Foundry"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "Ogłoszenie STOVE o otwarciu Foundry"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 po konserwacji",
+          "Tabela harmonogramu STOVE"
+        ]
+      ],
+      "cal_h2": "Kalendarz do 2026-12-31",
+      "th2": [
+        "Wydarzenie / buff",
+        "Początek",
+        "Koniec"
+      ],
+      "events": [
+        [
+          "Pełny buff wsparcia startowego",
+          "10/29 po konserwacji",
+          "12/31 02:59"
+        ],
+        [
+          "Dołączenie Luny na randze 70",
+          "10/29 po konserwacji",
+          "12/31 02:59"
+        ],
+        [
+          "Wsparcie przywołań (dzienne darmowe Przymierze)",
+          "10/29 po konserwacji",
+          "12/31 02:59"
+        ],
+        [
+          "Przygotuj się! Punkty World Arena",
+          "10/29 po konserwacji",
+          "12/31 02:59"
+        ],
+        [
+          "Powitalny prezent za logowanie na Foundry (skórka)",
+          "10/29 po konserwacji",
+          "12/31 02:59 (jednorazowo)"
+        ],
+        [
+          "Pakiet rozwoju w skrzynce Foundry",
+          "10/29 po konserwacji",
+          "11/26 14:59"
+        ],
+        [
+          "Poczta za 100 tys. list życzeń Steam (logowanie na Foundry)",
+          "10/29 po konserwacji",
+          "~11/19 03:00"
+        ],
+        [
+          "Emergency Mission: tydzień katalizatorów 1",
+          "10/29 po konserwacji",
+          "11/5 02:59"
+        ],
+        [
+          "Emergency Mission: tydzień czarów 1",
+          "11/5 03:00",
+          "11/12 02:59"
+        ],
+        [
+          "Emergency Mission: tydzień katalizatorów 2",
+          "11/12 03:00",
+          "11/19 02:59"
+        ],
+        [
+          "Emergency Mission: tydzień czarów 2",
+          "11/19 po konserwacji",
+          "11/26 02:59"
+        ],
+        [
+          "Secret Rabbit♥Hole + Case Files",
+          "10/29 po konserwacji",
+          "12/10 02:59"
+        ],
+        [
+          "Daily Investigation / Lucky Board",
+          "10/29 po konserwacji",
+          "11/19 02:59"
+        ],
+        [
+          "Pakiet lobby Bunny Girl Party Hall",
+          "10/29 po konserwacji",
+          "12/10 02:59"
+        ],
+        [
+          "Guild War",
+          "11/21 03:00",
+          "trwa"
+        ],
+        [
+          "World Arena",
+          "12/10 po konserwacji",
+          "trwa"
+        ]
+      ],
+      "buff_h2": "Buffy wsparcia startowego",
+      "buffs": [
+        "Rozwój: +50% punktów katalizatorów; 2× drop runów z Ołtarza Duchów; +30% EXP bohatera / złota / EXP rangi konta; 2× punkty podboju Areny",
+        "Hunt: +50% dropu materiałów rzemieślniczych z Hunt; +10% dropu sprzętu z Otherworld Breach i Hunt",
+        "Kumuluje się z buffami nowych / powracających graczy (według ogłoszenia)"
+      ],
+      "reward_h2": "Najważniejsze nagrody",
+      "rewards": [
+        [
+          "Dołączenie Luny (ranga 70)",
+          "Limitowana 5★ Luna, skórka Glacial Purity, Experienced Penguins ×15."
+        ],
+        [
+          "Wsparcie przywołań",
+          "+20 darmowych przywołań Przymierza dziennie (do 1 260 w oknie) + naklejka SD Belche raz."
+        ],
+        [
+          "Prezenty za logowanie",
+          "Powitalna: epicka skórka New Moon Luna (Majestic Bunny Girl) + naklejka SD (raz). Pakiet w skrzynce do ~11/26 — odbierz przed 7-dniowym wygaśnięciem."
+        ],
+        [
+          "Drabinka przygotowań do World Arena",
+          "Punkty Areny → czary, przeklęte akcesoria Demon, skrzynie Lv.85, bilety na skórki — pełna drabinka na STOVE."
+        ]
+      ],
+      "side_h2": "Historia poboczna",
+      "side": "Szczegóły: Secret Rabbit♥Hole (Case Files, Lucky Board, pakiet lobby).",
+      "src_h2": "Źródła",
+      "answer": "Poradnik serwera Foundry dla nowego toru Epic Seven: kalendarz celebracyjny, odblokowania treści, nagrody, Guild War i World Arena. „Kody Foundry” oznaczają nagrody celebracyjne lub oficjalne ogłoszenia — prezenty w skrzynce, przedmioty za logowanie, buffy — a nie listę kuponów. Transfer zachowuje stary postęp i nie dołącza automatycznie do Foundry; pełne kroki są w [[poradniku transferu STOVE↔Steam|/steam-transfer/]]. Draft Arena działa; Guild War ~2026-11-21 03:00 UTC; World Arena po konserwacji 2026-12-10; buffy do ~12/31 — potwierdź na STOVE.",
+      "img_alt": "Własnoręcznie rysowany kalendarz Foundry obejmujący buffy startowe, Rabbit Hole, Guild War i World Arena",
+      "img_ss_alt": "Oficjalny zrzut ekranu ze Steam ilustrujący prezentację Epic Seven — CDN Steam",
+      "faq_h2": "FAQ Foundry",
+      "faqs": [
+        [
+          "Czym jest poradnik serwera Foundry w Epic Seven?",
+          "Ten poradnik serwera Foundry to lokalne centrum kalendarza nowego serwera Epic Seven, nagród celebracyjnych, Guild War i World Arena. Zacznij od tabeli [[dat poradnika serwera Foundry|#server-guide]], a potem korzystaj z sekcji Guild War i kodów w razie potrzeby. Nieoficjalne — źródło STOVE."
+        ],
+        [
+          "Czy Foundry to to samo co transfer starego konta?",
+          "Nie. Transfer zachowuje stary postęp; Foundry to osobny serwer z własnymi postaciami i matchmakingiem dla wymienionego PvP."
+        ],
+        [
+          "Kiedy na Foundry otwierają się Guild War i World Arena?",
+          "Według tabeli harmonogramu STOVE z okolic premiery: Guild War 2026-11-21 03:00 UTC; World Arena po konserwacji 2026-12-10."
+        ],
+        [
+          "Jak długo trwają buffy startowe Foundry?",
+          "Wiele buffów celebracyjnych i ścieżka dołączenia Luny na randze 70 są ogłoszone do 2026-12-31 02:59 UTC — potwierdź w grze i na STOVE."
+        ],
+        [
+          "Czy po transferze mogę grać Guild War na starym serwerze?",
+          "Transfer logowania zostawia starą postać na jej serwerze. Guild War na Foundry to odblokowanie po stronie Foundry (~2026-11-21 03:00 UTC według STOVE). Stary Dziedzic nie dołącza automatycznie do GW na Foundry; potrzebujesz postaci z Foundry. Zobacz sekcję Guild War powyżej i ogłoszenia STOVE o Foundry."
+        ],
+        [
+          "Czy są kody Foundry do odebrania?",
+          "Nie. Ten poradnik serwera Foundry nie publikuje ciągów kuponów. Wyszukiwania „kody Foundry” zwykle oznaczają nagrody celebracyjne i oficjalne ogłoszenia STOVE (prezenty w skrzynce, przedmioty za logowanie, buffy na Foundry view/14571828 i Launch view/14606481) — nie listę do odebrania. Odbieraj tylko to, co pokazuje skrzynka w grze; nigdy nie ufaj fałszywym kodom firm trzecich."
+        ]
+      ],
+      "vs_h2": "Transfer a start na Foundry",
+      "vs": "Przekonwertuj logowanie STOVE→Steam, gdy chcesz zachować stary roster na dotychczasowym serwerze. Start na Foundry oznacza utworzenie/granie postacią Foundry z buffami celebracyjnymi i osobnym PvP — sam transfer nigdy nie przenosi starego Dziedzica na Foundry. Pełne kroki transferu przeczytasz w",
+      "link_transfer": "Transfer STOVE ↔ Steam",
+      "link_rabbit": "Secret Rabbit♥Hole",
+      "link_quests": "Centrum zadań",
+      "link_faq": "FAQ",
+      "link_download": "Lista kontrolna pobierania Steam",
+      "link_heroes": "Centrum startowe bohaterów",
+      "link_banners": "Kalendarz banerów Foundry",
+      "link_demo": "Ostrzeżenie o usuwaniu dema",
+      "related_h2": "Powiązane poradniki",
+      "gw_h2": "Guild War na Foundry",
+      "gw_answer": "Na Foundry Guild War ma się odblokować około 2026-11-21 03:00 UTC według tabeli celebracyjnej STOVE — potwierdź bieżące ogłoszenie przed planowaniem resetów gildii. Dołącz lub utwórz gildię wcześnie, wykonuj dzienne treści gildii i traktuj GW jako odblokowanie po stronie Foundry, osobne od transferu konta. Daty mogą się zmienić po konserwacji; cytuj STOVE, nie tylko tę stronę.",
+      "gw_unlock_h3": "Data odblokowania",
+      "gw_unlock": "Tabela celebracyjna Foundry na STOVE podaje otwarcie Guild War około 2026-11-21 03:00 UTC. Draft Arena otworzyła się w oknie premiery Steam; World Arena jest wymieniona po konserwacji 2026-12-10 (UTC). Zawsze otwórz ponownie bieżące ogłoszenie STOVE o Foundry przed planowaniem aktywności gildii — patche mogą przesuwać okna.",
+      "gw_prep_h3": "Lista kontrolna przed otwarciem",
+      "gw_prep": [
+        "Najpierw osiągnij ogłoszony wymóg wejścia do gildii — społecznościowa lista kontrolna podaje rangę konta 10; potwierdź bieżącą bramkę w grze — a potem dołącz lub utwórz gildię Foundry znacznie przed 2026-11-21.",
+        "Wykonuj dzienne misje gildii i wpłacaj, gdy dostępne, budując poziom/walutę gildii.",
+        "Zapasy przedmiotów na stamina i utrzymuj użyteczny rdzeń PvP (tank/uzdrowiciel/oczyszczający) gotowy do ataku/obrony gildii.",
+        "Potwierdź, że twoja postać jest na Foundry — gildie ze starego serwera nie liczą się jako GW na Foundry.",
+        "Transfer logowania nie zapisuje starego Dziedzica do Guild War na Foundry. Roster GW tworzy twoja postać z Foundry i jej zaakceptowane członkostwo w gildii.",
+        "Obserwuj STOVE pod kątem errat zasad lub harmonogramu GW po konserwacji.",
+        "Wyślij prośbę o dołączenie wcześnie i potwierdź status Zaakceptowana, a nie Oczekująca. Prośba wciąż oczekująca o 2026-11-21 03:00 UTC (STOVE Foundry view/14571828) opuszcza pierwszą wojnę.",
+        "Przed każdym resetem w grze wykonuj misje członków gildii i check-in. Brak nazwiska po zablokowaniu wojny to dziura w rosterze, której nie nadrobisz.",
+        "Wykorzystuj dzienny limit wpłat lub wkładu przy każdym resecie. Pominięte dni wkładu nie kumulują się, więc kilka pominiętych dni kosztuje więcej postępu gildii niż jeden pominięty Hunt.",
+        "Używaj Foundry Draft Arena, otwartej od premiery Steam (STOVE Launch view/14606481), jako treningu do Guild War: uzbrój tanka, oczyszczającego i uzdrowiciela, których wystawisz w ataku i obronie, a nie drużynę na jedną szansę, która nie utrzyma wieży.",
+        "W dniu akceptacji członkostwa ustaw atak i obronę. Po każdej konserwacji otwórz ponownie STOVE Foundry view/14571828 i Launch view/14606481, zanim wydasz leify lub znaki gildii."
+      ],
+      "gw_reward_h3": "Okno nagród",
+      "gw_reward": "Traktuj nagrody Guild War jako część celebracyjnego rytmu Foundry; dokładne tabele łupów należą do STOVE. Wiele buffów startowych Foundry i prezentów za logowanie ogłoszono do około 2026-12-31 02:59 UTC — samo GW odblokowuje się wcześniej (≈11/21), więc nagrody GW zdobędziesz w szerszym oknie celebracji. Sprawdź STOVE przed wydaniem zasobów. Daty i okna łupów na tej stronie pochodzą z ogłoszenia STOVE Foundry view/14571828 i Launch view/14606481 i mogą się zmienić po konserwacji — jeśli wpisy się różnią, podążaj za nowszym ogłoszeniem STOVE.",
+      "codes_h2": "Kody Foundry a nagrody celebracyjne",
+      "codes_note": "Wyszukiwania „kody Foundry” lub „kody serwera Foundry” zwykle prowadzą do nagród celebracyjnych i oficjalnych ogłoszeń STOVE — prezentów w skrzynce, przedmiotów za logowanie i buffów startowych — a nie listy kuponów do odebrania. Ten nieoficjalny poradnik serwera Foundry nigdy nie publikuje, nie sprzedaje ani nie realizuje fałszywych kodów. Odbieraj tylko to, co pokazuje skrzynka w grze, i sprawdzaj ponownie STOVE Foundry view/14571828 i Launch view/14606481, gdy okna się przesuwają.",
+      "guide_h2": "Poradnik serwera Foundry — kluczowe daty",
+      "guide_th": [
+        "Kamień milowy",
+        "Data (UTC)",
+        "Potwierdź"
+      ],
+      "guide": [
+        [
+          "Draft Arena",
+          "2026-10-29 po konserwacji",
+          "Według STOVE"
+        ],
+        [
+          "Guild War",
+          "2026-11-21 03:00",
+          "Według STOVE"
+        ],
+        [
+          "World Arena",
+          "2026-12-10 po konserwacji",
+          "Według STOVE"
+        ],
+        [
+          "Okno buffów celebracyjnych",
+          "Do ~2026-12-31 02:59",
+          "Według STOVE"
+        ]
+      ],
+      "ends_h2": "Co kończy się 12/31",
+      "ends_th": [
+        "Przedmiot / buff",
+        "Przybliżony koniec (UTC)",
+        "Uwagi"
+      ],
+      "ends": [
+        [
+          "Wiele buffów rozwoju startowego Foundry",
+          "~2026-12-31 02:59",
+          "Według ram celebracji Foundry na STOVE — potwierdź na bieżąco"
+        ],
+        [
+          "Okno dziennych darmowych przywołań Przymierza (ramy Foundry)",
+          "Do końca celebracji",
+          "Limit/liczba według STOVE; to nie bonus transferu"
+        ],
+        [
+          "Prezenty celebracyjne za logowanie / w skrzynce",
+          "Czas liczony dla każdej wiadomości",
+          "Odbierz wcześnie; nie czekaj na domysły do 12/31"
+        ],
+        [
+          "Odblokowanie Guild War",
+          "Otwarcie ~2026-11-21 03:00",
+          "To nie data końca — początek GW na Foundry"
+        ],
+        [
+          "World Arena (Foundry)",
+          "Po konserwacji 2026-12-10",
+          "Oddzielne od GW; sprawdź STOVE"
+        ]
+      ],
+      "deep_h2": "Notatki planistyczne (nieoficjalne)",
+      "deep": [
+        "Używaj tabeli odblokowań razem z sekcją Guild War w tym poradniku serwera Foundry; odbieraj pocztę celebracyjną wcześnie; traktuj postacie ze starego serwera i z Foundry jako osobne pule staminy. Sprawdzaj STOVE po konserwacji, zamiast polegać na jednej dacie końca."
+      ],
+      "img_alt2": "Własnoręcznie rysowane porównanie dwóch decyzji: transfer vs Foundry",
+      "img_alt3": "Własnoręcznie rysowany pasek kamieni milowych Foundry: premiera, Guild War, World Arena, 12/31"
     }
   },
   "/secret-rabbit-hole/": {
@@ -9054,6 +10008,53 @@ export const CONTENT = {
       "daily_h2": "Daily Investigation et Lucky Board",
       "daily": "Jouez à l'aventure / aux combats / à l'Arena pour gagner des points quotidiens (plafond de 720/jour selon STOVE). Les jalons incluent des tickets Lucky Board et des Leif. Chemin : Lobby → Event → Special Event → Secret Rabbit♥Hole.",
       "related_h2": "En lien"
+    },
+    "pl": {
+      "title": "Historia poboczna Secret Rabbit♥Hole i wydarzenia",
+      "meta": "Sześciotygodniowa historia poboczna, Alencia Case Files, Lucky Board, pakiet lobby. Niezależne omówienie ze źródłem STOVE.",
+      "h1": "Secret Rabbit♥Hole",
+      "lead": "Specjalna historia poboczna w oknie premiery Steam / Foundry. Wejdź przez ikonę Secret Rabbit♥Hole w lobby. Podsumowania cytują STOVE — harmonogramy mogą się zmienić w grze.",
+      "deadline_h2": "Termin Lucky Board — 2026-11-19 02:59 UTC",
+      "deadline_text": "Daily Investigation / Lucky Board zamyka się 2026-11-19 02:59 UTC. Ogłoszony limit to 720 punktów dziennie, więc pominiętych dni nie da się w pełni nadrobić — wydaj bilety i kamienie milowe Leif przed resetem. Potwierdź bieżący licznik w grze i na STOVE; odpowiedzi Case Files nie są tu publikowane.",
+      "glance_h2": "W skrócie",
+      "th": [
+        "Element",
+        "Okno (wg ogłoszenia)",
+        "Uwagi"
+      ],
+      "rows": [
+        [
+          "Historia poboczna Secret Rabbit♥Hole",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
+          "Ikona w lobby → centrum wydarzenia"
+        ],
+        [
+          "Trusty Sidekick Alencia's Case Files",
+          "Jak historia poboczna → 2026-12-10 02:59 UTC",
+          "3 sprawy odblokowują się po kolei"
+        ],
+        [
+          "Great Detective Daily Investigation i Lucky Board",
+          "10/29 po konserwacji → 11/19 02:59 UTC",
+          "Punkty dzienne → bilety / Leif"
+        ],
+        [
+          "Bunny Girl Party Hall Lobby Pack",
+          "10/29 po konserwacji → 12/10 02:59 UTC",
+          "Opcjonalny pakiet Skystone (sklep)"
+        ]
+      ],
+      "case_h2": "Case Files — jak się gra",
+      "case_steps": [
+        "Otwórz Case Files ze strony wydarzenia Secret Rabbit♥Hole.",
+        "Zbieraj wskazówki, wydając lupy Trusty Sidekick (dzienny zapas; możliwe uzupełnienia energią pod koniec wydarzenia).",
+        "Wypełnij siatkę sprawy (O/X); odblokuj wskazówkę o sprawcy.",
+        "Oskarż, gdy siatka się zgadza — sukces lub porażka."
+      ],
+      "case_note": "Sparafrazowane z STOVE — Alencia Case Files. To nie poradnik ze spoilerami odpowiedzi.",
+      "daily_h2": "Daily Investigation i Lucky Board",
+      "daily": "Graj w przygodę / walkę / Arenę, aby zdobywać punkty dzienne (limit 720/dzień według STOVE). Kamienie milowe obejmują bilety Lucky Board i Leif. Ścieżka: Lobby → Wydarzenie → Wydarzenie specjalne → Secret Rabbit♥Hole.",
+      "related_h2": "Powiązane"
     }
   },
   "/banners/": {
@@ -9335,6 +10336,37 @@ export const CONTENT = {
       "also": "Voir aussi les mises à jour et la maintenance.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
       "answer": "Sélection programmée actuelle : Bunny Girl Mafia Yufine + artefact 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Les récompenses de lancement Foundry (Luna rang 70, invocations Covenant gratuites quotidiennes) courent jusqu'au ~2026-12-31. La pitié et les taux sont uniquement dans le client ; vérifiez STOVE avant d'invoquer. Mystic parallèle : Bunny Girl Great Detective Moro jusqu'au 2026-11-19 02:59 UTC (pas la sélection Covenant)."
+    },
+    "pl": {
+      "title": "Banery Epic Seven i nowi bohaterowie (okno Steam) | Poradnik",
+      "meta": "Bieżący dziennik banerów / nowych bohaterów dla Steam i Foundry. Niezależne podsumowania ze źródłem STOVE.",
+      "h1": "Banery i nowi bohaterowie",
+      "lead": "Najpierw bieżące okno, potem baza startowa Foundry. Nie sprzedajemy zakładek ani szarych kodów — pity i szanse są wyłącznie w oficjalnym kliencie.",
+      "pickup_kicker": "Bieżący pickup · zaplanowany",
+      "pickup_h2": "Bunny Girl Mafia Yufine",
+      "pickup_artifact": "5★ artefakt A Boss's Dignity",
+      "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
+      "pickup_body": "Bieżący limitowany pickup tego okna. Baner w kliencie jest wyrocznią co do kosztu, pity i kwalifikujących się postaci; ta strona śledzi tylko publiczny harmonogram. Przed wydaniem sprawdź [[kalendarz Foundry|/foundry/]], [[Guild War na Foundry|/foundry/#guild-war]] i [[bohaterów|/heroes/]].",
+      "pickup_note": "Zaplanowane okno — przed przywołaniem sprawdź ponownie ogłoszenie STOVE i baner w kliencie. Pity i szanse są tylko w kliencie; Luna nie jest tym pickupem.",
+      "pickup_source": "Ogłoszenia STOVE",
+      "launch_h2": "Baza startowa Foundry (2026-10-29+)",
+      "launch": [
+        "Równoległe Mystic: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
+        "Luna to nagroda startowa, nie obecny pickup: limitowana 5★ Luna + ścieżka Glacial Purity do ~12/31 02:59 UTC (nagrody Foundry).",
+        "Dzienne darmowe przywołania Przymierza we wsparciu przywołań Foundry (do 1 260 w ogłoszonym oknie).",
+        "Kosmetyki z historii pobocznej / pakiet lobby związany z Secret Rabbit♥Hole.",
+        "Śledź banery pickupów po każdej cotygodniowej konserwacji — dodaj kartę poniżej, gdy STOVE opublikuje.",
+        "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry): https://page.onstove.com/epicseven/global/view/14608118"
+      ],
+      "how_h2": "Jak aktualizujemy tę stronę",
+      "how": [
+        "Nowy limitowany / collab → nowa karta z oknem UTC i linkiem do STOVE.",
+        "Różnice Foundry-only a stary serwer zaznaczamy, gdy oficjalny tekst się różni.",
+        "Bez nieoficjalnych tabel szans i sprzedawców kont."
+      ],
+      "also": "Zobacz też aktualizacje i konserwację.",
+      "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
+      "answer": "Bieżący zaplanowany pickup: Bunny Girl Mafia Yufine + 5★ artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Nagrody startowe Foundry (Luna na randze 70, dzienne darmowe przywołania Przymierza) trwają do ~2026-12-31. Pity i szanse są tylko w kliencie; potwierdź na STOVE przed przywołaniem. Równoległe Mystic: Bunny Girl Great Detective Moro trwa do 2026-11-19 02:59 UTC (nie pickup Przymierza)."
     }
   },
   "/updates/": {
@@ -9607,6 +10639,36 @@ export const CONTENT = {
       "cont": "Mise à jour continue — vérifiez après chaque maintenance hebdomadaire.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
       "answer": "Le lancement Steam et Foundry ont ouvert le 2026-10-29 ; surveillez Guild War le 2026-11-21 et World Arena après la maintenance du 2026-12-10. Les résumés citent STOVE/Steam — pas un miroir complet des correctifs."
+    },
+    "pl": {
+      "title": "Aktualizacje Epic Seven — bohaterowie i wydarzenia",
+      "meta": "Bieżący dziennik aktualizacji Steam / Foundry: notatki premierowe i miejsca na nowych bohaterów/wydarzenia, gdy zostaną ogłoszone.",
+      "h1": "Aktualizacje — bohaterowie i wydarzenia",
+      "lead": "Najnowsze pierwsze. Podsumowujemy publiczne wpisy STOVE / Steam — to nie pełne lustro patcha.",
+      "cards": [
+        [
+          "2026-10-29 — premiera Steam i otwarcie Foundry",
+          [
+            "Epic Seven działa na Steam po zakończeniu dema.",
+            "Serwer Foundry otwarty z buffami startowymi i wydarzeniami celebracyjnymi.",
+            "Aby przenieść stary postęp, wymagana jest konwersja konta.",
+            "Wyróżnione nagrody Foundry obejmują limitowaną ścieżkę dołączenia Luny i powitalną skórkę — potwierdź w grze."
+          ],
+          "Ogłoszenia premiery + Foundry"
+        ],
+        [
+          "Warto obserwować",
+          [
+            "Guild War na Foundry — 2026-11-21 03:00 UTC.",
+            "World Arena na Foundry — 2026-12-10 po konserwacji.",
+            "Data powrotu japońskiego VO — potwierdź w oficjalnym ogłoszeniu, gdy się pojawi."
+          ],
+          null
+        ]
+      ],
+      "cont": "Aktualizowane na bieżąco — sprawdzaj po cotygodniowej konserwacji.",
+      "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
+      "answer": "Premiera Steam i Foundry 2026-10-29; obserwuj Guild War 2026-11-21 i World Arena po konserwacji 2026-12-10. Podsumowania cytują STOVE/Steam — to nie pełne lustro patcha."
     }
   },
   "/maintenance/": {
@@ -10023,6 +11085,52 @@ export const CONTENT = {
       ],
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
       "answer": "La maintenance de lancement Steam du 2026-10-29 a apporté le client complet et Foundry ; le correctif du 2026-11-05 (10:30–11:30 UTC) a corrigé des échecs intermittents de lancement Steam, un affichage erroné dans la boutique Foundry et un texte résiduel dans Secret Rabbit♥Hole. La VO japonaise était retardée au lancement. Les futures notes hebdomadaires citeront les publications STOVE avec des fenêtres UTC."
+    },
+    "pl": {
+      "title": "Konserwacja i noty wersji",
+      "meta": "Dziennik konserwacji Steam / Foundry: cotygodniowe patche, poprawki VO, opóźnienia harmonogramu. Źródło: STOVE.",
+      "h1": "Konserwacja i noty wersji",
+      "lead": "Śledź cotygodniowe patche wpływające na klientów Steam, odblokowania Foundry i zastrzeżenia premierowe (np. opóźnienie japońskiego VO).",
+      "cards": [
+        [
+          "2026-10-29 — konserwacja premierowa Steam",
+          [
+            "Demo zakończone; pełny klient Steam działa po konserwacji.",
+            "Foundry otwarte z wydarzeniami celebracyjnymi.",
+            "Japoński voice-over niedostępny na premierze Steam; planowany późniejszy powrót (ogłoszenie premierowe).",
+            "Przed pierwszym logowaniem Steam potwierdź konwersję konta, jeśli zachowujesz postęp."
+          ]
+        ],
+        [
+          "2026-11-05 — patch Steam/Foundry",
+          [
+            "Okno: 10:30–11:30 UTC (18:30–19:30 czasu Szanghaju).",
+            "Sporadyczne błędy uruchamiania Steam / brak wejścia do gry — naprawione.",
+            "Sklep Foundry przez chwilę błędnie pokazywał niewydane przedmioty — naprawione.",
+            "Zbłąkany tekst w Secret Rabbit♥Hole — naprawione.",
+            "Źródła: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
+          "Lista obserwowanych",
+          [
+            "Guild War na Foundry — 2026-11-21 03:00 UTC.",
+            "World Arena na Foundry — 2026-12-10 po konserwacji.",
+            "Przywrócenie japońskiego VO — potwierdź w oficjalnym ogłoszeniu, gdy się pojawi.",
+            "Tydzień Emergency Mission zmienia się pod koniec listopada — zobacz kalendarz Foundry.",
+            "Zapowiedź balansu 11/19 — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+          ]
+        ]
+      ],
+      "how_h2": "Jak korzystać z tego dziennika",
+      "how": [
+        "Po każdym wpisie STOVE o konserwacji dodaj początek/koniec UTC, wersję Steam jeśli znana, i punkty poprawek.",
+        "Linkuj oficjalne ogłoszenie; nie wklejaj not patcha w całości.",
+        "Opóźnienia harmonogramu dotyczące tylko Foundry zaznaczaj osobno od starych serwerów."
+      ],
+      "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
+      "answer": "Konserwacja premierowa Steam 2026-10-29 przyniosła pełnego klienta i Foundry; patch z 2026-11-05 (10:30–11:30 UTC) naprawił następnie sporadyczne błędy uruchamiania Steam, błędne wyświetlanie w sklepie Foundry i zbłąkany tekst w Secret Rabbit♥Hole. Japońskie VO było opóźnione na premierze. Przyszłe cotygodniowe notatki będą cytować wpisy STOVE z oknami UTC."
     }
   },
   "/about/": {
@@ -10178,6 +11286,23 @@ export const CONTENT = {
       "contact_h2": "Contact",
       "contact": "privacy@epicsevensteam.com (Cloudflare Email Routing → opérateur du site). N'envoyez pas de mots de passe.",
       "off_h2": "Destinations officielles"
+    },
+    "pl": {
+      "title": "O tym niezależnym poradniku",
+      "meta": "Nieoficjalna strona informacyjna o Epic Seven na Steam: transfer, Foundry, FAQ. Nie Smilegate / STOVE / Steam.",
+      "h1": "O nas",
+      "p1": "Epic Seven Steam Guide to lekkie, anglojęzyczne (plus ko / ja / zh-Hant) źródło informacji o wejściu przez Steam, transferze STOVE↔Steam, harmonogramach Foundry i FAQ premierowym. Zbudowane tak, by dało się aktualizować — nie jednorazowy landing page.",
+      "not_h2": "Czym nie jesteśmy",
+      "nots": [
+        "Nie jesteśmy wsparciem Smilegate, STOVE, Valve ani Steam.",
+        "Nie jesteśmy sklepem z szarymi kodami, handlem kontami ani crackami.",
+        "Nie zastępujemy pełnej wiki — cytujemy oficjalne wpisy."
+      ],
+      "dom_h2": "Status domeny",
+      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages, projekt epicsevensteam, gałąź master).",
+      "contact_h2": "Kontakt",
+      "contact": "privacy@epicsevensteam.com (Cloudflare Email Routing → operator strony). Nie wysyłaj haseł.",
+      "off_h2": "Oficjalne miejsca"
     }
   },
   "/contact/": {
@@ -10378,6 +11503,28 @@ export const CONTENT = {
       "contact": "Les messages parviennent à l'opérateur du site via Cloudflare Email Routing. Écrivez uniquement au sujet de ce site.",
       "about_link": "À propos",
       "privacy_link": "Confidentialité"
+    },
+    "pl": {
+      "title": "Kontakt",
+      "meta": "Kontakt z niezależnym poradnikiem Epic Seven na Steam: privacy@epicsevensteam.com. Nie Smilegate, STOVE ani Steam.",
+      "h1": "Kontakt",
+      "lead": "Epic Seven Steam Guide na epicsevensteam.com to niezależna strona informacyjna dla graczy. Nie prowadzą jej Smilegate, STOVE, Valve ani Steam.",
+      "scope_h2": "O czym pisać",
+      "scope": [
+        "Opinie o tej stronie.",
+        "Poprawki do publikowanych tu kroków, dat lub cytowań.",
+        "Pytania o prywatność dotyczące epicsevensteam.com."
+      ],
+      "limits_h2": "Czego nie wysyłać",
+      "limits": [
+        "Nie wysyłaj haseł ani danych płatności.",
+        "Nie kupujemy ani nie sprzedajemy kont, kodów ani przedmiotów w grze.",
+        "Nie możemy odzyskać kont Smilegate, STOVE ani Steam i nie obsługujemy płatności w grze."
+      ],
+      "contact_h2": "E-mail",
+      "contact": "Wiadomości docierają do operatora strony przez Cloudflare Email Routing. Pisz tylko o tej stronie.",
+      "about_link": "O nas",
+      "privacy_link": "Prywatność"
     }
   },
   "/privacy/": {
@@ -10596,6 +11743,30 @@ export const CONTENT = {
       "out": "Les liens vers store.steampowered.com et page.onstove.com renvoient à des tiers ayant leurs propres politiques.",
       "contact_h2": "Contact",
       "contact": "privacy@epicsevensteam.com reçoit les messages via Cloudflare Email Routing, transmis à l'opérateur du site. N'envoyez pas de mots de passe ni d'informations de paiement."
+    },
+    "pl": {
+      "title": "Prywatność",
+      "meta": "Informacja o prywatności Epic Seven Steam Guide. Kontakt: privacy@epicsevensteam.com.",
+      "h1": "Prywatność",
+      "updated": "Ostatnia aktualizacja 2026-11-03",
+      "p1": "Ta niezależna strona informacyjna (epicsevensteam.com) nie sprzedaje kont, kodów ani danych osobowych. Poczta kontaktowa jest kierowana przez Cloudflare Email Routing.",
+      "collect_h2": "Co zbieramy",
+      "collect": [
+        "Brak systemu kont na tej statycznej stronie. Nigdy nie prosimy o hasła STOVE ani Steam.",
+        "Hosting (Cloudflare Pages) może przetwarzać standardowe logi serwera (IP, user agent) zgodnie z polityką hosta.",
+        "Używamy Google Analytics 4 (GA4) do zbiorczego pomiaru ruchu (np. odsłon). Nie zbieramy haseł przez analitykę.",
+        "Włączyliśmy Google AdSense (wydawca ca-pub-3175943774981621) na tej stronie. Google i jego partnerzy mogą używać plików cookie lub podobnych technologii, aby wyświetlać reklamy na podstawie wcześniejszych odwiedzin tej i innych stron."
+      ],
+      "ads_h2": "Reklamy — Google AdSense",
+      "ads": [
+        "Google AdSense jest włączone na epicsevensteam.com z identyfikatorem wydawcy ca-pub-3175943774981621. Automatyczne reklamy mogą umieszczać reklamy na stronach; nie ma ręcznych slotów reklamowych.",
+        "Zapis autoryzowanego sprzedawcy jest publikowany w /ads.txt: google.com, pub-3175943774981621, DIRECT, f08c47fec0942fa0.",
+        "Google i zewnętrzni dostawcy mogą używać reklamowych plików cookie, aby wyświetlać reklamy na podstawie wcześniejszych odwiedzin. Możesz zrezygnować z reklam spersonalizowanych w Ustawieniach reklam Google (https://adssettings.google.com/) lub zarządzać plikami cookie w przeglądarce. Reklamy nie zmieniają naszych treści redakcyjnych ani zastrzeżenia o nieoficjalności."
+      ],
+      "out_h2": "Linki zewnętrzne",
+      "out": "Linki do store.steampowered.com i page.onstove.com to strony trzecie z własnymi politykami.",
+      "contact_h2": "Kontakt",
+      "contact": "privacy@epicsevensteam.com otrzymuje pocztę przez Cloudflare Email Routing do operatora strony. Nie wysyłaj haseł ani danych płatności."
     }
   },
   "/heroes/": {
@@ -12704,6 +13875,240 @@ export const CONTENT = {
       "further_summary": "Liens facultatifs vers les wikis communautaires — non nécessaires pour ce guide",
       "further_note": "Wikis de fans tiers (epic7x.com). Pas Smilegate. Privilégiez les infobulles du client pour les kits.",
       "avatar_alt_suffix": " — avatar aux couleurs de l'élément, dessiné maison (pas une illustration officielle)"
+    },
+    "pl": {
+      "title": "Bohaterowie Epic Seven — wybory dla początkujących",
+      "meta": "Niezależne centrum bohaterów Steam/Foundry: 12 kart startowych z żetonami żywiołów, paskami priorytetu i notatkami na stronie. Nie Smilegate.",
+      "h1": "Bohaterowie Epic Seven — wybory dla początkujących i popularne",
+      "lead": "Centrum startowe Steam / Foundry dla przyjaznych początkującym i często omawianych bohaterów. Karty zawierają nazwy, role, żywioły i krótkie opisy na tej stronie — nieoficjalne podsumowania. Kity i banery potwierdź w bieżącym kliencie i na STOVE. Nie hostujemy oficjalnych grafik.",
+      "answer": "Wybory dla początkujących i popularne na Steam/Foundry zwykle zaczynają się od wsparcia po zmianie specjalizacji (Angelic Montmorancy, Falconer Kluri, Commander Lorina) plus wczesny farmer, np. Alexa; ścieżka tutorialu prowadzi Rasa / Mercedes / Aither / Judith. To centrum to nieoficjalna ściągawka ról/żywiołów z kartami na stronie — nie oficjalne kity. Terminy banerów są na Banerach/Aktualizacjach ze źródłem STOVE.",
+      "img_alt": "Własnoręcznie rysowany baner ról bohaterów do niezależnej szybkiej ściągawki",
+      "img_ss_alt": "Oficjalny zrzut ekranu ze Steam pokazujący prezentację postaci Epic Seven — CDN Steam",
+      "img_alt2": "Własnoręcznie rysowane karty grup bohaterów: starter, wsparcie po zmianie specjalizacji, farmer",
+      "img_alt3": "Własnoręcznie rysowany schemat pasków fokusu ról dla wczesnych kont",
+      "img_alt4": "Własnoręcznie rysowana kolejność wczesnej budowy: fabuła, leczenie/oczyszczenie, przełamanie obrony, farmer",
+      "th": [
+        "Bohater",
+        "Rola",
+        "Żywioł",
+        "Priorytet",
+        "Krótko"
+      ],
+      "heroes": [
+        [
+          "ras",
+          "Ras",
+          "Rycerz",
+          "Ogień",
+          "Protagonista fabuły; wczesny tank / filar walki, gdy uczysz się systemów. Nieoficjalne podsumowanie.",
+          "tutorial",
+          "średni"
+        ],
+        [
+          "mercedes",
+          "Mercedes",
+          "Mag",
+          "Ogień",
+          "Startowy mag AoE; dobry do wczesnego czyszczenia Przygody przed ulepszeniami specjalizacji. Nieoficjalne podsumowanie.",
+          "tutorial",
+          "średni"
+        ],
+        [
+          "aither",
+          "Aither",
+          "Tkacz Dusz",
+          "Lód",
+          "Wczesny uzdrowiciel ze ścieżki startowej; z czasem przejdź na mocniejszego SW. Nieoficjalne podsumowanie.",
+          "tutorial",
+          "później"
+        ],
+        [
+          "judith",
+          "Judith",
+          "Złodziej",
+          "Ogień",
+          "Wczesna jednostka przyspieszająca gotowość bojową; pomaga otwierającym przed cięższymi jednostkami CR. Nieoficjalna notatka Steam/Foundry.",
+          "tutorial",
+          "średni"
+        ],
+        [
+          "angelic-montmorancy",
+          "Angelic Montmorancy",
+          "Tkacz Dusz",
+          "Lód",
+          "Zmiana specjalizacji z Montmorancy — najlepszy darmowy oczyszczający / filar leczenia dla PvE. Nieoficjalne podsumowanie.",
+          "specjalizacja",
+          "wysoki"
+        ],
+        [
+          "falconer-kluri",
+          "Falconer Kluri",
+          "Rycerz",
+          "Ziemia",
+          "Wsparcie po zmianie specjalizacji: przełamanie obrony + sztuczki CR; filar wielu wczesnych drużyn Hunt. Nieoficjalne podsumowanie.",
+          "specjalizacja",
+          "wysoki"
+        ],
+        [
+          "commander-lorina",
+          "Commander Lorina",
+          "Wojownik",
+          "Mrok",
+          "DPS pojedynczego celu po zmianie specjalizacji; długoterminowy koń roboczy Przygody / Otchłani. Nieoficjalne podsumowanie.",
+          "specjalizacja",
+          "wysoki"
+        ],
+        [
+          "alexa",
+          "Alexa",
+          "Złodziej",
+          "Lód",
+          "Popularny farmer Wyvern 11 z podwójnym atakiem, gdy zbudowany pod szybkość / kryt. Nieoficjalne podsumowanie.",
+          "farmer",
+          "wysoki"
+        ],
+        [
+          "furious",
+          "Furious",
+          "Łucznik",
+          "Lód",
+          "Przełamanie obrony + cel dla kompozycji Wyvern; łączy się z farmerami typu Alexa. Nieoficjalne podsumowanie.",
+          "farmer",
+          "średni"
+        ],
+        [
+          "silk",
+          "Silk",
+          "Łucznik",
+          "Ziemia",
+          "Przyspiesza gotowość bojową; pomaga we wczesnym cleave i niektórych ustawieniach Hunt. Nieoficjalne podsumowanie.",
+          "farmer",
+          "średni"
+        ],
+        [
+          "vildred",
+          "Vildred",
+          "Złodziej",
+          "Ziemia",
+          "Popularny DPS cleave Ziemi z Przymierza; mocny czyściciel Przygody po inwestycji. Nieoficjalne podsumowanie.",
+          "farmer",
+          "średni"
+        ],
+        [
+          "luna",
+          "Luna",
+          "Mag",
+          "Lód",
+          "Ścieżka celebracyjna Foundry często podkreśla limitowane dołączenie Luny około rangi 70 — potwierdź na STOVE; to nie pełna strona kitu.",
+          "farmer",
+          "średni"
+        ]
+      ],
+      "further": [
+        [
+          "Ras",
+          "https://epic7x.com/hero/ras/"
+        ],
+        [
+          "Mercedes",
+          "https://epic7x.com/hero/mercedes/"
+        ],
+        [
+          "Aither",
+          "https://epic7x.com/hero/aither/"
+        ],
+        [
+          "Judith",
+          "https://epic7x.com/hero/judith/"
+        ],
+        [
+          "Angelic Montmorancy",
+          "https://epic7x.com/hero/angelic-montmorancy/"
+        ],
+        [
+          "Falconer Kluri",
+          "https://epic7x.com/hero/falconer-kluri/"
+        ],
+        [
+          "Commander Lorina",
+          "https://epic7x.com/hero/commander-lorina/"
+        ],
+        [
+          "Alexa",
+          "https://epic7x.com/hero/alexa/"
+        ],
+        [
+          "Furious",
+          "https://epic7x.com/hero/furious/"
+        ],
+        [
+          "Silk",
+          "https://epic7x.com/hero/silk/"
+        ],
+        [
+          "Vildred",
+          "https://epic7x.com/hero/vildred/"
+        ],
+        [
+          "Luna",
+          "https://epic7x.com/hero/luna/"
+        ]
+      ],
+      "note": "Tabela odzwierciedla karty powyżej do kopiowania/cytowania. Linki do wiki społeczności są tylko w Dalszej lekturze — ta strona nie jest odskocznią. Harmonogramy banerów: Banery i Aktualizacje. Poradnik nieoficjalny — potwierdź na STOVE.",
+      "faq_h2": "FAQ bohaterów",
+      "faqs": [
+        [
+          "Które darmowe jednostki powinni priorytetyzować nowi gracze Steam / Foundry?",
+          "Zmiany specjalizacji Angelic Montmorancy, Falconer Kluri i Commander Lorina są powszechnie polecane na start; Alexa/Furious pomagają w farmie Wyvern. Nieoficjalne — potwierdź materiały w grze."
+        ],
+        [
+          "Gdzie na tej stronie pojawiają się bohaterowie z banerów?",
+          "Bieżące notatki są w Banerach i Aktualizacjach — cytujemy STOVE, zamiast wymyślać szanse."
+        ],
+        [
+          "Czy kopiujecie oficjalne grafiki bohaterów?",
+          "Nie. Grafiki centrum to zrzuty z CDN Steam, własnoręczne schematy albo nasze awatary w kolorach żywiołów — nie oficjalne grafiki promocyjne."
+        ],
+        [
+          "Czy buffy Foundry zmieniają to, kogo budować?",
+          "Buffy przyspieszają poziomowanie, ale wsparcie po zmianie specjalizacji i farmer nadal otwierają te same bramki PvE. Banery potwierdź na STOVE."
+        ],
+        [
+          "Dlaczego nie ma tu pełnych kitów?",
+          "Ta strona skupia się na starcie na Steam / Foundry. Pełne mnożniki umiejętności są w podpowiedziach klienta; wiki społeczności to tylko opcjonalna dalsza lektura."
+        ]
+      ],
+      "related_h2": "Powiązane na tej stronie",
+      "groups_h2": "Starter / zmiana specjalizacji / farmer",
+      "group_tutorial_h2": "Tutorial i wczesne prowadzenie",
+      "group_specialty_h2": "Priorytet zmian specjalizacji",
+      "group_farmer_h2": "Farmerzy i otwierający Hunt",
+      "group_tutorial_body": "Ras, Mercedes, Aither i Judith pokrywają pierwsze wątki fabuły i wczesne CR. Zbuduj ich na tyle, by przejść wczesne etapy Epizodu, a potem przenieś zasoby na wsparcie po zmianie specjalizacji i farmera.",
+      "group_specialty_body": "Angelic Montmorancy (leczenie/oczyszczenie), Falconer Kluri (przełamanie obrony) i Commander Lorina (pojedynczy cel) pozostają częstymi wczesnymi inwestycjami. Potwierdź materiały w grze — to nie oficjalna kolejność.",
+      "group_farmer_body": "Farmerzy typu Alexa, przełamanie obrony Furious, CR Silk, czyszczenie Przygody Vildredem i notatki o ścieżce Luny na Foundry przyspieszają wczesną farmę Hunt / fabuły. Okna dołączenia Luny potwierdź na STOVE.",
+      "prio_label": "Priorytet nowego konta Steam / Foundry",
+      "prio_high": "Wysoki",
+      "prio_mid": "Średni",
+      "prio_later": "Później",
+      "prio_note": "Priorytet startowy dla nowych kont Steam / Foundry — nie pełna tier lista PvP serwera. Kolor plus tekst dla dostępności.",
+      "cite_h2": "Jak cytujemy źródła",
+      "cite": "Nazwy/role bohaterów to krótkie autorskie podsumowania. Mnożniki potwierdź w kliencie. Wiki społeczności pojawiają się tylko w Dalszej lekturze. Banery/Foundry cytują STOVE. Poradnik nieoficjalny.",
+      "roster_h2": "Szybka tabela rosteru (te same karty, wygodna do kopiowania)",
+      "deep_h2": "Wskazówki dotyczące tempa budowy",
+      "deep": [
+        "Priorytetyzuj wsparcie po zmianie specjalizacji i farmera przed każdym banerem; buffy Foundry zmieniają tempo, nie listę ról. Terminy Guild War na nowym serwerze znajdziesz w [[Guild War na Foundry|/foundry/#guild-war]]. Nieoficjalne — potwierdź na STOVE."
+      ],
+      "onsite_h2": "Notatki o rolach na stronie (nie lustro wiki)",
+      "onsite": "Karty grup, paski priorytetu i schematy zostają tutaj. Wiki społeczności są w Dalszej lekturze, aby główna ścieżka została na stronie.",
+      "anchors_label": "Przejdź do",
+      "anchor_elements": "Żywioły",
+      "anchor_classes": "Klasy",
+      "anchor_specialty": "Zmiana specjalizacji",
+      "anchor_farmer": "Farmer",
+      "further_h2": "Dalsza lektura (społeczność)",
+      "further_summary": "Opcjonalne linki do wiki społeczności — nie są wymagane w tym poradniku",
+      "further_note": "Zewnętrzne fanowskie wiki (epic7x.com). Nie Smilegate. Kity najlepiej sprawdzać w podpowiedziach klienta.",
+      "avatar_alt_suffix": " — własnoręcznie rysowany awatar w kolorach żywiołu (nieoficjalna grafika)"
     }
   },
   "/quests/": {
@@ -13453,6 +14858,94 @@ export const CONTENT = {
       "case_files_h2": "Epic Seven Case Files — de quoi s’agit-il",
       "case_files": ["Case Files (Trusty Sidekick Alencia’s Case Files dans Secret Rabbit♥Hole) est un mini-jeu de déduction sur grille de la fenêtre de lancement, pas une quête de combat. Les loupes quotidiennes marquent les indices et resserrent le coupable — se tromper gaspille des loupes limitées.", "Ils côtoient les quotidiens/hebdomadaires Foundry classiques et le Lucky Board : avancez Case Files tant que l’icône de lobby est active, puis revenez aux chasses/histoire. Pas de spoilers du coupable ici — citez les avis STOVE.", "Traitez Case Files comme une activité d’événement liée au hub quêtes/événements, pas comme un Episode permanent. Quand la side story se termine, l’entrée lobby disparaît avec les loupes restantes."],
       "link_home": "Accueil du guide Steam"
+    },
+    "pl": {
+      "title": "Zadania Foundry a stary serwer — poradnik dzienny/tygodniowy",
+      "meta": "Zadania Foundry ≠ stary serwer po transferze Steam: punkty resetu dziennego i tygodniowego, misje tylko Foundry i kolejność priorytetów. Źródło: STOVE. Nieoficjalne.",
+      "h1": "Zadania Foundry — dzienne / tygodniowe a stary serwer",
+      "lead": "Rytm zadań z ery Steam w Epic Seven: odblokowania fabuły, pętle dzienne/tygodniowe i centra wydarzeń okna premiery. Liczniki podążają za zegarem w grze i ogłoszeniami STOVE — nie za tą nieoficjalną stroną. Postacie z Foundry śledzą zadania osobno od starych Dziedziców.",
+      "answer": "Zadania Foundry to nowy tor — nie dziedziczą starych odhaczeń Epizodu/dziennych/tygodniowych po transferze logowania. Najpierw oczyść misje Foundry z limitem czasu, potem dzienne, a potem tygodniowe na tej postaci. Daty odblokowań są w [[poradniku serwera Foundry|/foundry/#server-guide]]. Poradnik nieoficjalny — źródło STOVE.",
+      "img_alt": "Własnoręcznie rysowany schemat rytmu zadań: główne, dzienne, tygodniowe, wydarzenia",
+      "img_ss_alt": "Oficjalny zrzut ekranu ze Steam przedstawiający świat Epic Seven — CDN Steam",
+      "main_h2": "Główna fabuła",
+      "main": [
+        "Przechodź etapy Epizodu w Przygodzie; oczyść z auto, gdy będzie stabilnie, aby zebrać nagrody za ukończenie i odblokowania fabuły.",
+        "Historie poboczne (w tym Secret Rabbit♥Hole w oknie premiery) otwierają się z ikon wydarzeń w lobby — zobacz osobną stronę.",
+        "Otchłań i treści lab są dłuższymi bramkami; zabierz wsparcie po zmianie specjalizacji, zanim zaczniesz forsować wysokie piętra.",
+        "Pchaj etapy Epizodu, aż zwrot staminy zmaleje, a potem zatrzymaj się na Huntach/wydarzeniach.",
+        "Odblokowania fabuły często warunkują materiały do zmiany specjalizacji i treści poboczne — sprawdź filtry dziennika zadań."
+      ],
+      "daily_h2": "Dzienne (każdy reset)",
+      "daily": [
+        "Misje przyjaźni / prezentów dla relacji i drobnych walut.",
+        "Wejścia do Hunt / Ołtarza Duchów pod cele rzemieślnicze (Wyvern na zestawy szybkości to częsty wczesny cel).",
+        "Ataki Areny po tygodniowe żetony, nawet jeśli zostajesz w niższych rangach.",
+        "Dzienne wydarzeń, gdy trwają (np. punkty Great Detective Daily Investigation do Lucky Board).",
+        "Dzienne przyjaźni / prezentów pozwalają rozwijać jednostki wsparcia bez ogromnych kosztów staminy.",
+        "Wykorzystaj pozostałe AP na Hunt, na który nadal potrzebujesz sprzętu, przed resetem."
+      ],
+      "weekly_h2": "Tygodniowe",
+      "weekly": [
+        "Check-in gildii / wpłata / Hunt pomagają, gdy gildia jest aktywna — Guild War na Foundry odblokowuje się później (zobacz kalendarz Foundry).",
+        "Wymiana AP i tygodniowe sklepu — oczyść przed resetem tygodniowym, żeby stamina się nie zmarnowała.",
+        "World Arena / tryby rankingowe mają własne sezony; WA na Foundry otwiera się po konserwacji 2026-12-10 według STOVE.",
+        "Dokończ obowiązki gildii przed resetem tygodniowym, jeśli już jesteś w gildii.",
+        "Gracze Foundry: dopasuj tygodniowe do terminów poczty celebracyjnej na stronie Foundry."
+      ],
+      "event_h2": "Wydarzenia okna premiery",
+      "event": [
+        "Tygodnie Emergency Mission na Foundry rotują katalizatory — odbierz przed zmianą każdego tygodnia.",
+        "Historia poboczna Secret Rabbit♥Hole + Case Files + Lucky Board — ikona w lobby; szczegóły na stronie Rabbit Hole.",
+        "Poczta z pakietem rozwoju / listą życzeń / powitalną skórką na Foundry jest ograniczona czasowo — otwieraj ją wcześnie.",
+        "Ikony lobby Rabbit♥Hole / plansz znikają po zakończeniu wydarzenia — odbieraj waluty wcześnie.",
+        "Sprawdź Aktualizacje/Banery, gdy pojawi się nowa misja tygodnia Steam."
+      ],
+      "faq_h2": "FAQ zadań",
+      "faqs": [
+        [
+          "Co robić najpierw każdego dnia na Steam / Foundry?",
+          "Odbierz pocztę, oczyść dzienne wydarzeń, gdy trwają, wydaj energię na Hunt lub bramki fabuły, których jeszcze potrzebujesz, a potem ataki Areny."
+        ],
+        [
+          "Gdzie są wymienione zadania wydarzeń z datami?",
+          "Strony Secret Rabbit♥Hole i Foundry śledzą ogłoszone okna; Banery/Aktualizacje łapią nowe rzeczy po konserwacji."
+        ],
+        [
+          "Czy gracze po transferze dzielą zadania Foundry?",
+          "Twój stary serwer zachowuje własny postęp zadań. Postacie z Foundry rozwijają się osobno, gdy zaczniesz tam grę."
+        ],
+        [
+          "Czy moje stare zadania przechodzą na Foundry?",
+          "Nie. Stary postęp zadań zostaje na starym serwerze po transferze logowania. Foundry ma własny tor misji — zobacz różnice tylko dla Foundry powyżej."
+        ]
+      ],
+      "related_h2": "Powiązane",
+      "reset_note": "Uwaga o strefie resetu: granice dzienne/tygodniowe podążają za zegarem w grze pokazanym w Epic Seven / ogłoszeniach STOVE dla twojego regionu. W razie wątpliwości ufaj licznikowi klienta bardziej niż jakiemukolwiek podsumowaniu firm trzecich (w tym tej stronie).",
+      "foundry_h2": "Różnice zadań tylko dla Foundry",
+      "foundry_delta": [
+        "Postacie z Foundry nie dziedziczą starych odhaczeń zadań — na nowym serwerze czeka ponowne przejście torów fabuły/misji.",
+        "Misje celebracyjne, prezenty w skrzynce i tygodniowe katalizatorów z limitem mogą pojawiać się tylko na Foundry w oknie premiery Steam.",
+        "Daty odblokowania Guild War / Draft / World Arena na Foundry podążają za kalendarzem Foundry (GW ≈2026-11-21 03:00 UTC według STOVE) — nie za harmonogramem twojej starej gildii.",
+        "Transfer logowania zachowuje stary postęp zadań na starym serwerze; nie uzupełnia automatycznie misji Foundry."
+      ],
+      "foundry_track": "Twój stary tor zadań to odhaczenia Epizodu, piętra Otchłani i tygodniowe obowiązki gildii starego Dziedzica. Transfer Steam zostawia te odhaczenia na tamtym serwerze (STOVE Steam FAQ view/14378309). Nowy tor Foundry zaczyna się od zera na nowej postaci, w tym bramki fabuły i misje celebracyjne, które nigdy nie pojawiają się na starym serwerze. Ukończenie jednego toru nie odhacza drugiego, więc nie wydawaj staminy Foundry, licząc na ukończenie starych tygodniówek. Daty odblokowań nowego toru, w tym Guild War, są w [[kalendarzu Foundry|/foundry/]] i w [[Guild War na Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
+      "hub_h2": "Mapa centrów wydarzeń",
+      "hub": "Historie poboczne i plansze okna premiery (Secret Rabbit♥Hole, lucky boards, poczta Foundry) są podsumowane na",
+      "link_rabbit": "Secret Rabbit♥Hole",
+      "link_foundry": "Kalendarz Foundry",
+      "deep_h2": "Rozprowadzanie staminy",
+      "deep": [
+        "Najpierw oczyść waluty lobby z limitem czasu, potem Hunty. Odhaczenia zadań Foundry i starego serwera pozostają osobne po transferze."
+      ],
+      "img_alt2": "Własnoręcznie rysowane porównanie różnic zadań Foundry i starego serwera",
+      "img_alt3": "Własnoręcznie rysowany pasek priorytetów zadań: waluta z limitem, dzienne, Hunt, tygodniowe",
+      "case_files_h2": "Epic Seven Case Files — co to jest",
+      "case_files": [
+        "Case Files (Trusty Sidekick Alencia's Case Files w Secret Rabbit♥Hole) to minigra dedukcji na siatce w oknie premiery, a nie sprawdzian walki. Wydajesz dzienne lupy, aby zaznaczać wskazówki i zawężać sprawcę — błędne domysły marnują limitowane lupy.",
+        "Są obok zwykłych dziennych/tygodniowych Foundry i Lucky Board: rób postęp Case Files z limitem czasu, gdy ikona w lobby jest aktywna, a potem wróć do staminy na Hunt/fabułę. Spoilerów odpowiedzi tu nie publikujemy — cytuj ogłoszenia STOVE.",
+        "Traktuj Case Files jako aktywność wydarzenia przypisaną do centrum zadań/wydarzeń, a nie stałą misję Epizodu. Gdy historia poboczna się kończy, wpis w lobby znika wraz z niewykorzystanymi lupami."
+      ],
+      "link_home": "Strona główna poradnika Steam"
     }
   }
 } as const;

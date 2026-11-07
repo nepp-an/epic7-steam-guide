@@ -387,7 +387,8 @@ const GW_LINK: Record<Locale, string> = {
   "es": "Guild War en Foundry",
   "pt": "Guild War no Foundry",
   "de": "Guild War auf Foundry",
-  "fr": "Guild War sur Foundry"
+  "fr": "Guild War sur Foundry",
+  "pl": "Guild War na Foundry"
 };
 
 const TIER_LINK_LABEL: Record<Locale, string> = {
@@ -399,7 +400,8 @@ const TIER_LINK_LABEL: Record<Locale, string> = {
   "es": "Tier list — enfoque Steam/transferencia",
   "pt": "Lista de tiers — foco Steam/transferência",
   "de": "Tier-Liste — Steam-/Transfer-Perspektive",
-  "fr": "Liste de tiers — approche Steam/transfert"
+  "fr": "Liste de tiers — approche Steam/transfert",
+  "pl": "Lista tierów — ujęcie Steam/transfer"
 };
 
 const HUB_OPEN: Record<Locale, string> = {
@@ -411,7 +413,8 @@ const HUB_OPEN: Record<Locale, string> = {
   es: "Abrir guía →",
   pt: "Abrir guia →",
   de: "Guide öffnen →",
-  fr: "Ouvrir le guide →"
+  fr: "Ouvrir le guide →",
+  pl: "Otwórz poradnik →"
 };
 
 const HOME_FAQ_HREFS = [
@@ -435,11 +438,13 @@ const TIER_AVATAR_ALT: Record<Locale, string> = {
   "es": " — avatar propio con colores de elemento (no es arte oficial)",
   "pt": " — avatar de cor de elemento desenhado por nós (não é arte oficial)",
   "de": " — selbst gezeichneter Elementarfarben-Avatar (keine offizielle Art)",
-  "fr": " — avatar dessiné par nos soins aux couleurs de l’élément (pas un visuel officiel)"
+  "fr": " — avatar dessiné par nos soins aux couleurs de l’élément (pas un visuel officiel)",
+  "pl": " — ręcznie rysowany awatar w kolorach żywiołu (nieoficjalny art)"
 };
 
 export function HomeView({ locale }: { locale: Locale }) {
   const c = CONTENT['/'][locale];
+  const isPl = locale === 'pl';
   return (
     <PageShell locale={locale} path="/">
       <FaqJsonLd faqs={c.faqs} />
@@ -466,11 +471,11 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       </section>
       <IndepNotice locale={locale} />
-      <div className="kpi-strip" aria-label="Hub highlights">
-        <span className="chip chip-dark">Steam app 5019180</span>
+      <div className="kpi-strip" aria-label={isPl ? 'Najważniejsze informacje' : 'Hub highlights'}>
+        <span className="chip chip-dark">{isPl ? 'Aplikacja Steam 5019180' : 'Steam app 5019180'}</span>
         <span className="chip chip-light">Foundry → 2026-12-31</span>
-        <span className="chip chip-ice">Independent guide</span>
-        <span className="chip chip-fire">Verify on STOVE</span>
+        <span className="chip chip-ice">{isPl ? 'Niezależny poradnik' : 'Independent guide'}</span>
+        <span className="chip chip-fire">{isPl ? 'Potwierdź na STOVE' : 'Verify on STOVE'}</span>
         <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
       <LastVerified copy={HOME_VERIFIED[locale]} />
@@ -656,7 +661,8 @@ const DOWNLOAD_FOUNDRY_LABEL: Record<Locale, string> = {
   "es": "Calendario de Foundry",
   "pt": "Calendário do Foundry",
   "de": "Foundry-Kalender",
-  "fr": "Calendrier Foundry"
+  "fr": "Calendrier Foundry",
+  "pl": "Kalendarz Foundry"
 };
 
 export function DownloadView({ locale }: { locale: Locale }) {

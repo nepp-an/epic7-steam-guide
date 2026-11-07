@@ -45,6 +45,11 @@ const COPY: Record<Locale, { strong: string; short: string; full: string }> = {
     "strong": "Guide indépendant.",
     "short": "Non affilié à Smilegate, STOVE ou Steam. Vérifiez toujours les étapes et les dates sur les pages officielles STOVE / Steam.",
     "full": "Ce site est un guide de joueur non officiel pour Epic Seven sur Steam. Il n’est pas le site officiel de Smilegate, STOVE ou Steam. Nous ne vendons ni codes, ni comptes, ni monnaie de jeu. Pour les actions de compte, les téléchargements et les dates d’événements, utilisez la boutique Steam officielle et les annonces STOVE liées sur chaque page."
+  },
+  "pl": {
+    "strong": "Niezależny poradnik.",
+    "short": "Niepowiązane ze Smilegate, STOVE ani Steam. Zawsze weryfikuj kroki i daty na oficjalnych stronach STOVE / Steam.",
+    "full": "Ta strona to nieoficjalny poradnik gracza po Epic Seven na Steam. Nie jest oficjalną witryną Smilegate, STOVE ani Steam. Nie sprzedajemy kodów, kont ani waluty w grze. W sprawie działań na koncie, pobierania i dat wydarzeń korzystaj z oficjalnego sklepu Steam i ogłoszeń STOVE podlinkowanych na każdej stronie."
   }
 };
 

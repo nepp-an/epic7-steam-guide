@@ -160,4 +160,21 @@ export const CHECKLIST_COPY: Record<Locale, ChecklistCopy> = {
     scopeFoundry: 'Foundry uniquement',
     noteTimer: 'Minuteur en jeu',
   },
+  pl: {
+    "transferDone": "Gotowe do konwersji: źródło logowania potwierdzone, ostrzeżenie o demie przeczytane, pełny klient gotowy.",
+    "faqDone": "Zacznij od podlinkowanej strony powyżej. Jeśli nadal nie działa, skorzystaj z oficjalnego wsparcia STOVE — nie z „poprawek” z Discorda.",
+    "downloadDone": "Gotowe do instalacji z aplikacji 5019180. Jeśli potrzebujesz starego postępu, najpierw przekonwertuj STOVE→Steam.",
+    "questDone": "Priorytet na dziś: misje Foundry z limitem czasu → dzienne → tygodniowe.",
+    "questTh": [
+      "Reset",
+      "Zadanie",
+      "Tylko Foundry?",
+      "Uwaga"
+    ],
+    "resetDaily": "Reset dzienny",
+    "resetWeekly": "Reset tygodniowy",
+    "scopeBoth": "Dotychczasowy + Foundry",
+    "scopeFoundry": "Tylko Foundry",
+    "noteTimer": "Licznik w grze"
+  },
 };

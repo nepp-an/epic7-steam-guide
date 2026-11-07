@@ -1,7 +1,7 @@
 /**
  * Post-export fix: Next.js has a single root layout, so every static page is
  * emitted with <html lang="en">. Rewrite the lang attribute per locale folder
- * so /ko/, /ja/, /zh-tw/, /th/, /es/, /pt/, /de/, /fr/ carry the right value in
+ * so /ko/, /ja/, /zh-tw/, /th/, /es/, /pt/, /de/, /fr/, /pl/ carry the right value in
  * the static HTML (not only after client-side JS runs).
  */
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
@@ -17,6 +17,7 @@ const LOCALE_LANG = {
   pt: 'pt',
   de: 'de',
   fr: 'fr',
+  pl: 'pl',
 };
 
 function walk(dir) {

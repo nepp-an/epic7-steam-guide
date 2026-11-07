@@ -46,6 +46,10 @@ export const HOME_VERIFIED: Record<Locale, VerifiedCopy> = {
   "fr": {
     "before": "Dernière vérification : ",
     "after": " (axé Steam/Foundry). Les calendriers et les kits peuvent changer — vérifiez sur STOVE / Steam."
+  },
+  "pl": {
+    "before": "Ostatnia weryfikacja: ",
+    "after": " (nacisk na Steam/Foundry). Harmonogramy i zestawy umiejętności mogą się zmienić — potwierdź na STOVE / Steam."
   }
 };
 
@@ -85,6 +89,10 @@ export const HEROES_VERIFIED: Record<Locale, VerifiedCopy> = {
   "fr": {
     "before": "Dernière vérification : ",
     "after": " (effectif de démarrage · kits en jeu)"
+  },
+  "pl": {
+    "before": "Ostatnia weryfikacja: ",
+    "after": " (lista startowa · umiejętności w kliencie)"
   }
 };
 
@@ -124,6 +132,10 @@ export const TRANSFER_VERIFIED: Record<Locale, VerifiedCopy> = {
   "fr": {
     "before": "Dernière vérification : ",
     "after": " (étapes du transfert STOVE↔Steam)"
+  },
+  "pl": {
+    "before": "Ostatnia weryfikacja: ",
+    "after": " (kroki transferu STOVE↔Steam)"
   }
 };
 
@@ -163,6 +175,10 @@ export const FOUNDRY_VERIFIED: Record<Locale, VerifiedCopy> = {
   "fr": {
     "before": "Dernière vérification : ",
     "after": " (axé Steam/Foundry)"
+  },
+  "pl": {
+    "before": "Ostatnia weryfikacja: ",
+    "after": " (nacisk na Steam/Foundry)"
   }
 };
 
@@ -986,6 +1002,97 @@ export const START5: Record<
         ],
         [
           "le dépannage",
+          "#troubleshoot"
+        ],
+        [
+          ".",
+          ""
+        ]
+      ]
+    ]
+  },
+  "pl": {
+    "h2": "Zacznij w 5 krokach",
+    "steps": [
+      [
+        [
+          "Wybierz ścieżkę: zachowaj stary postęp (",
+          ""
+        ],
+        [
+          "przekonwertuj logowanie",
+          "/steam-transfer/"
+        ],
+        [
+          ") albo zacznij od zera na ",
+          ""
+        ],
+        [
+          "Foundry",
+          "/foundry/"
+        ],
+        [
+          ".",
+          ""
+        ]
+      ],
+      [
+        [
+          "Przekonwertuj ",
+          ""
+        ],
+        [
+          "logowanie e-mail/SNS STOVE → Steam Simple Login",
+          "/steam-transfer/"
+        ],
+        [
+          " zanim uznasz nową sesję Steam za główną.",
+          ""
+        ]
+      ],
+      [
+        [
+          "Zainstaluj z oficjalnego sklepu Steam (aplikacja 5019180) i uruchom — ",
+          ""
+        ],
+        [
+          "nie usuwaj konta demonstracyjnego w grze po transferze",
+          "#faq"
+        ],
+        [
+          ".",
+          ""
+        ]
+      ],
+      [
+        [
+          "Na Foundry / nowych kontach: najpierw postacie wsparcia do zmiany specjalizacji i wczesny farmer (zobacz ",
+          ""
+        ],
+        [
+          "Bohaterowie",
+          "/heroes/"
+        ],
+        [
+          ").",
+          ""
+        ]
+      ],
+      [
+        [
+          "Utknąłeś na pustym koncie, anty-cheacie lub brakujących wydarzeniach? Skorzystaj z ",
+          ""
+        ],
+        [
+          "FAQ",
+          "#faq"
+        ],
+        [
+          " i ",
+          ""
+        ],
+        [
+          "rozwiązywania problemów",
           "#troubleshoot"
         ],
         [
