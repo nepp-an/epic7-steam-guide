@@ -4709,7 +4709,7 @@ export const CONTENT = {
         ],
         [
           "Game will not start / anti-cheat error",
-          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/)."
+          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/). The 2026-11-05 patch fixed intermittent Steam launch failures; if it still recurs, check Known Issues (controller UI / crash): https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "Are Steam prices different from mobile?",
@@ -4752,7 +4752,7 @@ export const CONTENT = {
         ],
         [
           "실행 안 됨 / 안티치트 오류",
-          "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/)."
+          "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/). 2026-11-05 패치로 Steam 간헐적 실행 실패가 수정되었습니다. 계속 재현되면 Known Issues(컨트롤러 UI / 크래시)를 확인하세요: https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "Steam 가격이 모바일과 다른가?",
@@ -4795,7 +4795,7 @@ export const CONTENT = {
         ],
         [
           "起動しない／アンチチート",
-          "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。"
+          "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。2026-11-05パッチでSteamの断続的な起動失敗は修正済みです。再発する場合はKnown Issues（コントローラーUI／クラッシュ）を確認してください：https://page.onstove.com/epicseven/global/view/14608118。"
         ],
         [
           "Steam価格はモバイルと違う？",
@@ -4838,7 +4838,7 @@ export const CONTENT = {
         ],
         [
           "無法啟動／反作弊錯誤",
-          "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。"
+          "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。2026-11-05 修補已修正 Steam 間歇性啟動失敗；若仍復現，請查 Known Issues（手把 UI／崩潰）：https://page.onstove.com/epicseven/global/view/14608118。"
         ],
         [
           "Steam 價格與手機不同？",
@@ -4881,7 +4881,7 @@ export const CONTENT = {
         ],
         [
           "เกมไม่เริ่มทำงาน / เกิดข้อผิดพลาด anti-cheat",
-          "Steam ระบุว่าใช้ UNCHEATER ระดับ kernel อัปเดตไดรเวอร์ OS/GPU เครื่องที่ถูกจัดการโดยองค์กรอาจต้องใช้ STOVE PC หรือมือถือแทน ส่งเรื่องต่อผ่านฝ่ายบริการลูกค้าทางการเท่านั้น ดู [[บันทึกเกี่ยวกับ Steam|/steam-notes/]] (/steam-notes/)"
+          "Steam ระบุว่าใช้ UNCHEATER ระดับ kernel อัปเดตไดรเวอร์ OS/GPU เครื่องที่ถูกจัดการโดยองค์กรอาจต้องใช้ STOVE PC หรือมือถือแทน ส่งเรื่องต่อผ่านฝ่ายบริการลูกค้าทางการเท่านั้น ดู [[บันทึกเกี่ยวกับ Steam|/steam-notes/]] (/steam-notes/) แพตช์ 2026-11-05 แก้การเปิดเกม Steam ไม่ติดเป็นช่วง ๆ แล้ว; หากยังเกิดอีก ตรวจ Known Issues (UI จอย / แครช): https://page.onstove.com/epicseven/global/view/14608118"
         ],
         [
           "ราคาบน Steam ต่างจากบนมือถือไหม?",
@@ -4924,7 +4924,7 @@ export const CONTENT = {
         ],
         [
           "El juego no arranca / error de anti-cheat",
-          "Steam indica UNCHEATER a nivel de kernel. Actualiza los controladores del sistema operativo y de la GPU. Los equipos gestionados quizá necesiten STOVE PC o el móvil en su lugar. Escala el problema solo por la atención al cliente oficial. Consulta las [[notas de Steam|/steam-notes/]] (/steam-notes/)."
+          "Steam indica UNCHEATER a nivel de kernel. Actualiza los controladores del sistema operativo y de la GPU. Los equipos gestionados quizá necesiten STOVE PC o el móvil en su lugar. Escala el problema solo por la atención al cliente oficial. Consulta las [[notas de Steam|/steam-notes/]] (/steam-notes/). El parche del 2026-11-05 corrigió los fallos intermitentes de inicio de Steam; si vuelve a ocurrir, revisa Known Issues (UI del mando / cierre inesperado): https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "¿Los precios de Steam son diferentes a los del móvil?",
@@ -4967,7 +4967,7 @@ export const CONTENT = {
         ],
         [
           "O jogo não inicia / erro de anti-cheat",
-          "O Steam lista o UNCHEATER em nível de kernel. Atualize o sistema operacional e os drivers da GPU. PCs gerenciados podem precisar do STOVE PC ou do celular. Escale apenas pelo suporte oficial. Veja [[notas do Steam|/steam-notes/]] (/steam-notes/)."
+          "O Steam lista o UNCHEATER em nível de kernel. Atualize o sistema operacional e os drivers da GPU. PCs gerenciados podem precisar do STOVE PC ou do celular. Escale apenas pelo suporte oficial. Veja [[notas do Steam|/steam-notes/]] (/steam-notes/). O patch de 2026-11-05 corrigiu falhas intermitentes de inicialização do Steam; se voltar a ocorrer, confira Known Issues (UI do controle / travamento): https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "Os preços no Steam são diferentes do celular?",
@@ -5010,7 +5010,7 @@ export const CONTENT = {
         ],
         [
           "Spiel startet nicht / Anti-Cheat-Fehler",
-          "Steam listet das Kernel-Level-Anti-Cheat UNCHEATER. Aktualisiere Betriebssystem und GPU-Treiber. Verwaltete PCs brauchen eventuell stattdessen STOVE PC oder Mobile. Wende dich nur an den offiziellen Support. Siehe [[Steam-Hinweise|/steam-notes/]] (/steam-notes/)."
+          "Steam listet das Kernel-Level-Anti-Cheat UNCHEATER. Aktualisiere Betriebssystem und GPU-Treiber. Verwaltete PCs brauchen eventuell stattdessen STOVE PC oder Mobile. Wende dich nur an den offiziellen Support. Siehe [[Steam-Hinweise|/steam-notes/]] (/steam-notes/). Der Patch vom 2026-11-05 behob zeitweise fehlgeschlagene Steam-Starts; wenn es erneut auftritt, prüfe Known Issues (Controller-UI / Absturz): https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "Sind die Steam-Preise anders als auf dem Handy?",
@@ -5053,7 +5053,7 @@ export const CONTENT = {
         ],
         [
           "Le jeu ne démarre pas / erreur anti-triche",
-          "Steam indique l'anti-triche au niveau noyau UNCHEATER. Mettez à jour le système d'exploitation et les pilotes GPU. Les PC gérés peuvent nécessiter STOVE PC ou mobile à la place. Ne remontez le problème qu'au support officiel. Voir [[notes Steam|/steam-notes/]] (/steam-notes/)."
+          "Steam indique l'anti-triche au niveau noyau UNCHEATER. Mettez à jour le système d'exploitation et les pilotes GPU. Les PC gérés peuvent nécessiter STOVE PC ou mobile à la place. Ne remontez le problème qu'au support officiel. Voir [[notes Steam|/steam-notes/]] (/steam-notes/). Le correctif du 2026-11-05 a corrigé les échecs intermittents de lancement Steam ; si le problème réapparaît, consultez Known Issues (UI manette / plantage) : https://page.onstove.com/epicseven/global/view/14608118."
         ],
         [
           "Les prix Steam sont-ils différents de ceux du mobile ?",
@@ -6097,7 +6097,7 @@ export const CONTENT = {
       "meta": "Foundry server guide: calendar, content unlocks, rewards, Guild War ~2026-11-21 03:00 UTC; World Arena 2026-12-10. Foundry codes ≠ coupons. Cite STOVE.",
       "h1": "Foundry server guide — schedule & rewards",
       "lead": "This Foundry server guide covers Epic Seven’s new-server track: starter buffs, celebration mail, and Foundry-only matchmaking for listed PvP. Guild War is posted around 2026-11-21 03:00 UTC. Paraphrases public STOVE/Steam notices — schedules can shift after maintenance. Independent guide; not Smilegate or STOVE.",
-      "as_of": "Snapshot around 2026-10-29. Times UTC unless noted.",
+      "as_of": "Snapshot around 2026-10-29. Times UTC unless noted. The 2026-11-05 patch fixed a Foundry shop misdisplay (window closed).",
       "unlock_h2": "Content unlock calendar",
       "th": [
         "Feature",
@@ -6191,7 +6191,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 after maint",
-          "~6 weeks"
+          "12/10 02:59"
         ],
         [
           "Daily Investigation / Lucky Board",
@@ -6378,7 +6378,7 @@ export const CONTENT = {
       "meta": "Foundry 서버 가이드: 신서버 캘린더·콘텐츠 해금·보상, 길드전 약 2026-11-21 03:00 UTC (WA 2026-12-10). Foundry codes는 쿠폰이 아닌 축하/메일 보상. STOVE 인용.",
       "h1": "파운드리 서버 가이드 — 일정·보상",
       "lead": "파운드리는 Epic Seven Steam 출시 구간에 열린 신서버 트랙입니다. 성장 버프, 축하 우편, 안내된 PvP의 파운드리 전용 매칭이 핵심입니다. 이 페이지는 공개 STOVE/Steam 공지를 요약한 것이며 점검 후 일정이 바뀔 수 있습니다. Smilegate/STOVE와 무관한 독립 가이드입니다.",
-      "as_of": "2026-10-29 전후 스냅샷. 시간은 UTC.",
+      "as_of": "2026-10-29 전후 스냅샷. 시간은 UTC. 2026-11-05 패치로 파운드리 상점 오표시가 수정되었습니다(적용 창 종료).",
       "unlock_h2": "콘텐츠 해금 캘린더",
       "th": [
         "콘텐츠",
@@ -6472,7 +6472,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole+사건파일",
           "10/29 점검 후",
-          "약 6주"
+          "12/10 02:59"
         ],
         [
           "일일수사/럭키보드",
@@ -6662,7 +6662,7 @@ export const CONTENT = {
       "meta": "Foundryサーバーガイド：新鯖カレンダー・解放・報酬、ギルド戦は2026-11-21 03:00 UTC頃（WA 2026-12-10）。Foundry codesはクーポンではなくお祝い/メール報酬。STOVE引用。",
       "h1": "ファウンドリ鯖ガイド — 日程と報酬",
       "lead": "ファウンドリはEpic Seven Steam発売枠で開いた新鯖トラックです。成長バフ、お祝いメール、掲載PvPのファウンドリ専用マッチが要点。本頁は公開STOVE/Steam告知の要約で、メンテ後に日程が変わることがあります。Smilegate/STOVEとは無関係の独立ガイドです。",
-      "as_of": "2026-10-29前後スナップショット。時刻はUTC。",
+      "as_of": "2026-10-29前後スナップショット。時刻はUTC。2026-11-05パッチでファウンドリ商店の誤表示が修正されました（適用枠は終了）。",
       "unlock_h2": "コンテンツ解放",
       "th": [
         "内容",
@@ -6756,7 +6756,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole+事件簿",
           "10/29メンテ後",
-          "約6週"
+          "12/10 02:59"
         ],
         [
           "毎日捜査/ラッキーボード",
@@ -6946,7 +6946,7 @@ export const CONTENT = {
       "meta": "Foundry 伺服器指南：新服日程、內容解鎖與獎勵，公會戰約 2026-11-21 03:00 UTC（WA 2026-12-10）。Foundry codes 是慶祝／信箱獎勵，不是兌換碼。引述 STOVE。",
       "h1": "Foundry 伺服器指南 — 日程與獎勵",
       "lead": "Foundry 隨 Epic Seven Steam 上架窗口開啟，屬於新服軌道：成長增益、慶祝信件，以及所列 PvP 的 Foundry 專用匹配。本頁摘要公開 STOVE／Steam 公告，維護後時程可能變動。與 Smilegate／STOVE 無關的獨立指南。",
-      "as_of": "約 2026-10-29 快照。時間為 UTC。",
+      "as_of": "約 2026-10-29 快照。時間為 UTC。2026-11-05 修補已修正 Foundry 商店誤顯（維護窗已結束）。",
       "unlock_h2": "內容解鎖",
       "th": [
         "項目",
@@ -7040,7 +7040,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole＋案件",
           "10/29 維護後",
-          "約 6 週"
+          "12/10 02:59"
         ],
         [
           "每日調查／幸運盤",
@@ -7230,7 +7230,7 @@ export const CONTENT = {
       "meta": "ไกด์เซิร์ฟเวอร์ Foundry: ปฏิทิน การปลดล็อก รางวัล Guild War ~2026-11-21 03:00 UTC (WA 2026-12-10) Foundry codes ≠ คูปอง อ้างอิง STOVE",
       "h1": "ไกด์เซิร์ฟเวอร์ Foundry — กำหนดการและรางวัล",
       "lead": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: บัฟผู้เริ่มต้น เมลฉลอง และการจับคู่เฉพาะ Foundry สำหรับ PvP ที่ระบุไว้ Guild War ประกาศไว้ราว 2026-11-21 03:00 UTC สรุปจากประกาศสาธารณะของ STOVE/Steam — กำหนดการอาจเลื่อนหลังปิดปรับปรุง ไกด์อิสระ ไม่ใช่ Smilegate หรือ STOVE",
-      "as_of": "ข้อมูล ณ ประมาณ 2026-10-29 เวลาเป็น UTC เว้นแต่ระบุไว้เป็นอย่างอื่น",
+      "as_of": "ข้อมูล ณ ประมาณ 2026-10-29 เวลาเป็น UTC เว้นแต่ระบุไว้เป็นอย่างอื่น แพตช์ 2026-11-05 แก้การแสดงผลผิดในร้านค้า Foundry แล้ว (ช่วงเวลาปิดแล้ว)",
       "unlock_h2": "ปฏิทินปลดล็อกเนื้อหา",
       "th": [
         "เนื้อหา",
@@ -7324,7 +7324,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 หลังปิดปรับปรุง",
-          "~6 สัปดาห์"
+          "12/10 02:59"
         ],
         [
           "Daily Investigation / Lucky Board",
@@ -7511,7 +7511,7 @@ export const CONTENT = {
       "meta": "Guía del servidor Foundry: calendario, desbloqueos, recompensas, Guild War ~2026-11-21 03:00 UTC (WA 2026-12-10). Foundry codes ≠ cupones. Cita STOVE.",
       "h1": "Guía del servidor Foundry — calendario y recompensas",
       "lead": "Esta guía del servidor Foundry cubre la ruta de servidor nuevo de Epic Seven: mejoras de inicio, correo de celebración y emparejamiento exclusivo de Foundry para los PvP indicados. Guild War está anunciada para alrededor del 2026-11-21 03:00 UTC. Parafrasea avisos públicos de STOVE/Steam; los calendarios pueden cambiar tras el mantenimiento. Guía independiente; no es de Smilegate ni de STOVE.",
-      "as_of": "Instantánea alrededor del 2026-10-29. Horas en UTC salvo que se indique lo contrario.",
+      "as_of": "Instantánea alrededor del 2026-10-29. Horas en UTC salvo que se indique lo contrario. El parche del 2026-11-05 corrigió una visualización errónea en la tienda de Foundry (ventana cerrada).",
       "unlock_h2": "Calendario de desbloqueo de contenido",
       "th": [
         "Función",
@@ -7605,7 +7605,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 tras mantenimiento",
-          "~6 semanas"
+          "12/10 02:59"
         ],
         [
           "Investigación diaria / Lucky Board",
@@ -7792,7 +7792,7 @@ export const CONTENT = {
       "meta": "Guia do servidor Foundry: calendário, desbloqueios, recompensas, Guild War ~2026-11-21 03:00 UTC (WA 2026-12-10). Foundry codes ≠ cupons. Cite a STOVE.",
       "h1": "Guia do servidor Foundry — cronograma e recompensas",
       "lead": "Este guia do servidor Foundry cobre a trilha de novo servidor de Epic Seven: buffs de iniciante, correio de celebração e matchmaking exclusivo do Foundry para o PvP listado. A Guild War está anunciada para cerca de 2026-11-21 03:00 UTC. Parafraseia avisos públicos da STOVE/Steam — os cronogramas podem mudar após a manutenção. Guia independente; não é da Smilegate nem da STOVE.",
-      "as_of": "Dados de cerca de 2026-10-29. Horários em UTC, salvo indicação em contrário.",
+      "as_of": "Dados de cerca de 2026-10-29. Horários em UTC, salvo indicação em contrário. O patch de 2026-11-05 corrigiu uma exibição errada na loja do Foundry (janela encerrada).",
       "unlock_h2": "Calendário de liberação de conteúdo",
       "th": [
         "Recurso",
@@ -7886,7 +7886,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 após manutenção",
-          "~6 semanas"
+          "12/10 02:59"
         ],
         [
           "Investigação Diária / Lucky Board",
@@ -8073,7 +8073,7 @@ export const CONTENT = {
       "meta": "Foundry-Server-Guide: Kalender, Freischaltungen, Belohnungen, Guild War ~2026-11-21 03:00 UTC (WA 2026-12-10). Foundry-Codes ≠ Coupons. STOVE als Quelle.",
       "h1": "Foundry-Server-Guide — Zeitplan & Belohnungen",
       "lead": "Dieser Foundry-Server-Guide behandelt den Start auf dem neuen Server von Epic Seven: Starter-Buffs, Glückwunsch-Mails und Foundry-eigenes Matchmaking für das aufgeführte PvP. Guild War ist für etwa 2026-11-21 03:00 UTC angekündigt. Der Guide fasst öffentliche STOVE-/Steam-Hinweise zusammen — Zeitpläne können sich nach der Wartung verschieben. Unabhängiger Guide; nicht von Smilegate oder STOVE.",
-      "as_of": "Stand etwa 2026-10-29. Zeiten in UTC, sofern nicht anders angegeben.",
+      "as_of": "Stand etwa 2026-10-29. Zeiten in UTC, sofern nicht anders angegeben. Der Patch vom 2026-11-05 behob eine Fehlanzeige im Foundry-Shop (Fenster geschlossen).",
       "unlock_h2": "Kalender der Content-Freischaltungen",
       "th": [
         "Inhalt",
@@ -8167,7 +8167,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 nach Wartung",
-          "~6 Wochen"
+          "12/10 02:59"
         ],
         [
           "Tägliche Ermittlung / Lucky Board",
@@ -8354,7 +8354,7 @@ export const CONTENT = {
       "meta": "Guide du serveur Foundry : calendrier, déblocages, récompenses, Guild War ~2026-11-21 03:00 UTC (WA 2026-12-10). Foundry codes ≠ coupons. Source STOVE.",
       "h1": "Guide du serveur Foundry — calendrier et récompenses",
       "lead": "Ce guide du serveur Foundry couvre le parcours nouveau serveur d’Epic Seven : buffs de départ, courrier de célébration et matchmaking réservé à Foundry pour les PvP listés. La Guild War est annoncée autour du 2026-11-21 03:00 UTC. Reformulation des avis publics STOVE/Steam — les horaires peuvent changer après maintenance. Guide indépendant ; non affilié à Smilegate ni à STOVE.",
-      "as_of": "Instantané autour du 2026-10-29. Heures en UTC sauf mention contraire.",
+      "as_of": "Instantané autour du 2026-10-29. Heures en UTC sauf mention contraire. Le correctif du 2026-11-05 a corrigé un affichage erroné dans la boutique Foundry (fenêtre terminée).",
       "unlock_h2": "Calendrier de déblocage du contenu",
       "th": [
         "Fonctionnalité",
@@ -8448,7 +8448,7 @@ export const CONTENT = {
         [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 après maintenance",
-          "~6 semaines"
+          "12/10 02:59"
         ],
         [
           "Investigation quotidienne / Lucky Board",
@@ -8648,12 +8648,12 @@ export const CONTENT = {
       "rows": [
         [
           "Side story Secret Rabbit♥Hole",
-          "~6 weeks from 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "Lobby icon → event hub"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "Same six-week window",
+          "Same as side story → 2026-12-10 02:59 UTC",
           "3 cases unlock in sequence"
         ],
         [
@@ -8695,12 +8695,12 @@ export const CONTENT = {
       "rows": [
         [
           "사이드 Secret Rabbit♥Hole",
-          "2026-10-29부터 약 6주",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "로비 아이콘→허브"
         ],
         [
           "든든한 조수 알렌시아 사건파일",
-          "동일 6주",
+          "사이드와 동일 → 2026-12-10 02:59 UTC",
           "사건 3개 순차 해금"
         ],
         [
@@ -8742,12 +8742,12 @@ export const CONTENT = {
       "rows": [
         [
           "サイド Secret Rabbit♥Hole",
-          "2026-10-29から約6週",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "ロビー→ハブ"
         ],
         [
           "頼れる相棒アレンシア事件簿",
-          "同じ6週",
+          "サイドと同じ → 2026-12-10 02:59 UTC",
           "事件3件を順解放"
         ],
         [
@@ -8789,12 +8789,12 @@ export const CONTENT = {
       "rows": [
         [
           "支線 Secret Rabbit♥Hole",
-          "自 2026-10-29 約六週",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "大廳圖示→活動樞紐"
         ],
         [
           "可靠搭檔 Alencia 案件檔",
-          "同六週",
+          "與支線相同 → 2026-12-10 02:59 UTC",
           "三案依序解鎖"
         ],
         [
@@ -8836,12 +8836,12 @@ export const CONTENT = {
       "rows": [
         [
           "เรื่องข้างเคียง Secret Rabbit♥Hole",
-          "~6 สัปดาห์ตั้งแต่ 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "ไอคอนล็อบบี้ → ศูนย์อีเวนต์"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "ช่วง 6 สัปดาห์เดียวกัน",
+          "เหมือนเรื่องข้างเคียง → 2026-12-10 02:59 UTC",
           "ปลดล็อก 3 คดีตามลำดับ"
         ],
         [
@@ -8883,12 +8883,12 @@ export const CONTENT = {
       "rows": [
         [
           "Historia secundaria Secret Rabbit♥Hole",
-          "~6 semanas desde 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "Icono del lobby → centro de eventos"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "Misma ventana de seis semanas",
+          "Igual que la historia secundaria → 2026-12-10 02:59 UTC",
           "3 casos se desbloquean en secuencia"
         ],
         [
@@ -8930,12 +8930,12 @@ export const CONTENT = {
       "rows": [
         [
           "História secundária Secret Rabbit♥Hole",
-          "~6 semanas a partir de 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "Ícone no lobby → hub do evento"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "Mesma janela de seis semanas",
+          "Igual à história secundária → 2026-12-10 02:59 UTC",
           "3 casos liberados em sequência"
         ],
         [
@@ -8977,12 +8977,12 @@ export const CONTENT = {
       "rows": [
         [
           "Nebenstory Secret Rabbit♥Hole",
-          "~6 Wochen ab 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "Lobby-Symbol → Event-Hub"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "Dasselbe Sechswochen-Fenster",
+          "Wie die Nebenstory → 2026-12-10 02:59 UTC",
           "3 Fälle werden nacheinander freigeschaltet"
         ],
         [
@@ -9024,12 +9024,12 @@ export const CONTENT = {
       "rows": [
         [
           "Histoire annexe Secret Rabbit♥Hole",
-          "~6 semaines à partir du 2026-10-29",
+          "2026-10-29 → 2026-12-10 02:59 UTC",
           "Icône du lobby → hub de l'événement"
         ],
         [
           "Trusty Sidekick Alencia's Case Files",
-          "Même fenêtre de six semaines",
+          "Comme l'histoire annexe → 2026-12-10 02:59 UTC",
           "3 affaires se débloquent en séquence"
         ],
         [
@@ -9071,10 +9071,12 @@ export const CONTENT = {
       "pickup_source": "STOVE announcements",
       "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
+        "Parallel Mystic: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
         "Luna is a launch reward baseline, not the current pickup: limited 5★ Luna + Glacial Purity path through ~12/31 02:59 UTC (Foundry rewards).",
         "Daily free Covenant summons on Foundry Summon Support (up to 1,260 over the posted window).",
         "Side-story cosmetics / lobby pack tied to Secret Rabbit♥Hole.",
-        "Track pickup banners after each weekly maintenance — add a card below when STOVE posts."
+        "Track pickup banners after each weekly maintenance — add a card below when STOVE posts.",
+        "Known Issues (Steam controller UI / crash / Foundry World Boss): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "How we update this page",
       "how": [
@@ -9084,7 +9086,7 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through ~2026-12-31. Pity and rates are client-only; verify STOVE before pulling."
+      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through ~2026-12-31. Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro runs to 2026-11-19 02:59 UTC (not the Covenant pickup)."
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",
@@ -9100,10 +9102,12 @@ export const CONTENT = {
       "pickup_source": "STOVE 공지",
       "launch_h2": "파운드리 런칭 기준선(2026-10-29+)",
       "launch": [
+        "병행 미스틱: 버니 걸 그레이트 디텍티브 모로 → 2026-11-19 02:59 UTC.",
         "루나는 현재 픽업이 아니라 런칭 보상 기준선입니다: 한정 5★ 루나 + Glacial Purity 경로 ~12/31 02:59 UTC(파운드리 보상).",
         "파운드리 소환 지원 일일 무료 계약(공지 기간 최대 1,260).",
         "Secret Rabbit♥Hole 연계 코스메틱/로비팩.",
-        "주간 점검 후 픽업 배너는 아래에 카드 추가."
+        "주간 점검 후 픽업 배너는 아래에 카드 추가.",
+        "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "이 페이지 갱신 방식",
       "how": [
@@ -9113,7 +9117,7 @@ export const CONTENT = {
       ],
       "also": "업데이트·점검 페이지도 보세요.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요."
+      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로가 2026-11-19 02:59 UTC까지 진행됩니다(계약 픽업 아님)."
     },
     "ja": {
       "title": "バナー・新英雄 — Steam窓",
@@ -9129,10 +9133,12 @@ export const CONTENT = {
       "pickup_source": "STOVE告知",
       "launch_h2": "ファウンドリ ローンチ基準(2026-10-29+)",
       "launch": [
+        "並行ミスティック：バニーガール・グレートディテクティブ・モロ → 2026-11-19 02:59 UTC。",
         "ルナは現在のピックアップではなくローンチ報酬の基準です：限定5★ルナ + Glacial Purity 〜12/31 02:59 UTC（ファウンドリ報酬）。",
         "召喚支援の毎日無料契約（告知期間最大1,260）。",
         "Secret Rabbit♥Hole連動コスメ／ロビーパック。",
-        "週次メンテ後のピックアップは下にカード追加。"
+        "週次メンテ後のピックアップは下にカード追加。",
+        "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス）：https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "更新方針",
       "how": [
@@ -9142,7 +9148,7 @@ export const CONTENT = {
       ],
       "also": "更新・メンテ頁も参照。",
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "現在の予定ピックアップはバニーガール・マフィア・ユフィン + 5★アーティファクト A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)。ファウンドリのランク70ルナと毎日無料契約は〜2026-12-31。天井・確率はクライアント内のみなので、引く前にSTOVEを確認してください。"
+      "answer": "現在の予定ピックアップはバニーガール・マフィア・ユフィン + 5★アーティファクト A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)。ファウンドリのランク70ルナと毎日無料契約は〜2026-12-31。天井・確率はクライアント内のみなので、引く前にSTOVEを確認してください。 並行ミスティック：バニーガール・グレートディテクティブ・モロが2026-11-19 02:59 UTCまで（契約ピックアップではありません）。"
     },
     "zh-tw": {
       "title": "卡池與新英雄 — Steam 窗口",
@@ -9158,10 +9164,12 @@ export const CONTENT = {
       "pickup_source": "STOVE 公告",
       "launch_h2": "Foundry 上架基準（2026-10-29+）",
       "launch": [
+        "並行 Mystic：兔女郎名偵探 莫羅 → 2026-11-19 02:59 UTC。",
         "Luna 不是目前 Pickup，而是上架獎勵基準：限定 5★ Luna＋Glacial Purity 至約 12/31 02:59 UTC（Foundry 獎勵）。",
         "Foundry 召喚支援每日免費契約（公告期間最多 1,260）。",
         "與 Secret Rabbit♥Hole 相關外觀／大廳包。",
-        "每週維護後的 Pickup 在下方加卡片。"
+        "每週維護後的 Pickup 在下方加卡片。",
+        "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）：https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "本頁更新方式",
       "how": [
@@ -9171,7 +9179,7 @@ export const CONTENT = {
       ],
       "also": "另見更新與維護頁。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。"
+      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅至 2026-11-19 02:59 UTC（非 Covenant Pickup）。"
     },
     "th": {
       "title": "แบนเนอร์และฮีโร่ใหม่ Epic Seven (ช่วง Steam) | คู่มือ",
@@ -9187,10 +9195,12 @@ export const CONTENT = {
       "pickup_source": "ประกาศ STOVE",
       "launch_h2": "พื้นฐานการเปิดตัว Foundry (2026-10-29+)",
       "launch": [
+        "Mystic คู่ขนาน: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC",
         "Luna เป็นรางวัลพื้นฐานของการเปิดตัว ไม่ใช่ pickup ปัจจุบัน: Luna 5★ แบบจำกัด + เส้นทาง Glacial Purity ถึง ~12/31 02:59 UTC (รางวัล Foundry)",
         "ซัมมอน Covenant ฟรีรายวันใน Foundry Summon Support (สูงสุด 1,260 ครั้งตลอดช่วงที่ประกาศ)",
         "ไอเทมตกแต่ง / แพ็กสำหรับล็อบบี้จากเรื่องข้างเคียง Secret Rabbit♥Hole",
-        "ติดตามแบนเนอร์ pickup หลังปิดปรับปรุงรายสัปดาห์แต่ละครั้ง — เพิ่มการ์ดด้านล่างเมื่อ STOVE ประกาศ"
+        "ติดตามแบนเนอร์ pickup หลังปิดปรับปรุงรายสัปดาห์แต่ละครั้ง — เพิ่มการ์ดด้านล่างเมื่อ STOVE ประกาศ",
+        "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "วิธีที่เราอัปเดตหน้านี้",
       "how": [
@@ -9200,7 +9210,7 @@ export const CONTENT = {
       ],
       "also": "ดูเพิ่มเติมที่อัปเดตและปิดปรับปรุง",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; ตรวจสอบ STOVE ก่อนสุ่ม"
+      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro ถึง 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
     },
     "es": {
       "title": "Banners y héroes nuevos de Epic Seven (Steam) | Guía",
@@ -9216,10 +9226,12 @@ export const CONTENT = {
       "pickup_source": "Anuncios de STOVE",
       "launch_h2": "Base del lanzamiento de Foundry (2026-10-29+)",
       "launch": [
+        "Mystic paralelo: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
         "Luna es una base de recompensas de lanzamiento, no el pickup actual: ruta de Luna 5★ limitada + Glacial Purity hasta ~12/31 02:59 UTC (recompensas de Foundry).",
         "Invocaciones Covenant diarias gratis en el Apoyo de invocación de Foundry (hasta 1,260 en la ventana publicada).",
         "Cosméticos de la historia secundaria y pack de lobby vinculados a Secret Rabbit♥Hole.",
-        "Sigue los banners de pickup después de cada mantenimiento semanal: añade una tarjeta abajo cuando STOVE lo publique."
+        "Sigue los banners de pickup después de cada mantenimiento semanal: añade una tarjeta abajo cuando STOVE lo publique.",
+        "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "Cómo actualizamos esta página",
       "how": [
@@ -9229,7 +9241,7 @@ export const CONTENT = {
       ],
       "also": "Consulta también las actualizaciones y el mantenimiento.",
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "Pickup programado actual: Bunny Girl Mafia Yufine + artefacto 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Las recompensas de lanzamiento de Foundry (Luna de rango 70, invocaciones Covenant diarias gratis) siguen hasta ~2026-12-31. La garantía y los porcentajes solo están en el cliente; verifica en STOVE antes de tirar."
+      "answer": "Pickup programado actual: Bunny Girl Mafia Yufine + artefacto 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Las recompensas de lanzamiento de Foundry (Luna de rango 70, invocaciones Covenant diarias gratis) siguen hasta ~2026-12-31. La garantía y los porcentajes solo están en el cliente; verifica en STOVE antes de tirar. Mystic paralelo: Bunny Girl Great Detective Moro hasta 2026-11-19 02:59 UTC (no es el pickup de Covenant)."
     },
     "pt": {
       "title": "Banners e novos heróis de Epic Seven (janela do Steam) | Guia",
@@ -9245,10 +9257,12 @@ export const CONTENT = {
       "pickup_source": "Anúncios do STOVE",
       "launch_h2": "Base do lançamento do Foundry (2026-10-29+)",
       "launch": [
+        "Mystic paralelo: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
         "Luna é uma base de recompensa de lançamento, não o pickup atual: Luna 5★ limitada + caminho Glacial Purity até ~12/31 02:59 UTC (recompensas do Foundry).",
         "Invocação diária gratuita de Covenant no Foundry Summon Support (até 1,260 na janela divulgada).",
         "Cosméticos de história secundária / pacote de lobby ligados ao Secret Rabbit♥Hole.",
-        "Acompanhe os banners de pickup após cada manutenção semanal — adicione um card abaixo quando o STOVE publicar."
+        "Acompanhe os banners de pickup após cada manutenção semanal — adicione um card abaixo quando o STOVE publicar.",
+        "Known Issues (UI do controle Steam / travamento / World Boss do Foundry): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "Como atualizamos esta página",
       "how": [
@@ -9258,7 +9272,7 @@ export const CONTENT = {
       ],
       "also": "Veja também atualizações e manutenção.",
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "Pickup agendado atual: Bunny Girl Mafia Yufine + artefato 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. As recompensas de lançamento do Foundry (Luna Rank 70, invocações diárias gratuitas de Covenant) vão até ~2026-12-31. Pity e taxas são só no cliente; confirme no STOVE antes de puxar."
+      "answer": "Pickup agendado atual: Bunny Girl Mafia Yufine + artefato 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. As recompensas de lançamento do Foundry (Luna Rank 70, invocações diárias gratuitas de Covenant) vão até ~2026-12-31. Pity e taxas são só no cliente; confirme no STOVE antes de puxar. Mystic paralelo: Bunny Girl Great Detective Moro até 2026-11-19 02:59 UTC (não é o pickup de Covenant)."
     },
     "de": {
       "title": "Epic Seven Banner & neue Helden (Steam-Fenster) | Guide",
@@ -9274,10 +9288,12 @@ export const CONTENT = {
       "pickup_source": "STOVE-Ankündigungen",
       "launch_h2": "Foundry-Launch-Basis (ab 2026-10-29)",
       "launch": [
+        "Paralleles Mystic: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
         "Luna ist eine Launch-Belohnungsbasis, nicht das aktuelle Pickup: limitierte 5★ Luna + Glacial Purity-Pfad bis ~12/31 02:59 UTC (Foundry-Belohnungen).",
         "Täglich kostenlose Covenant-Beschwörungen beim Foundry Summon Support (bis zu 1,260 im angegebenen Zeitfenster).",
         "Nebenstory-Kosmetik / Lobby-Paket zu Secret Rabbit♥Hole.",
-        "Verfolge Pickup-Banner nach jeder wöchentlichen Wartung — füge unten eine Karte hinzu, sobald STOVE etwas ankündigt."
+        "Verfolge Pickup-Banner nach jeder wöchentlichen Wartung — füge unten eine Karte hinzu, sobald STOVE etwas ankündigt.",
+        "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss): https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "So aktualisieren wir diese Seite",
       "how": [
@@ -9287,7 +9303,7 @@ export const CONTENT = {
       ],
       "also": "Siehe auch Updates und Wartung.",
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Aktuelles geplantes Pickup: Bunny Girl Mafia Yufine + 5★-Artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Die Foundry-Launch-Belohnungen (Rang-70-Luna, täglich kostenlose Covenant-Beschwörungen) laufen bis ~2026-12-31. Pity und Raten gibt es nur im Client; prüfe STOVE, bevor du ziehst."
+      "answer": "Aktuelles geplantes Pickup: Bunny Girl Mafia Yufine + 5★-Artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Die Foundry-Launch-Belohnungen (Rang-70-Luna, täglich kostenlose Covenant-Beschwörungen) laufen bis ~2026-12-31. Pity und Raten gibt es nur im Client; prüfe STOVE, bevor du ziehst. Paralleles Mystic: Bunny Girl Great Detective Moro bis 2026-11-19 02:59 UTC (nicht das Covenant-Pickup)."
     },
     "fr": {
       "title": "Bannières et nouveaux héros Epic Seven (fenêtre Steam) | Guide",
@@ -9303,10 +9319,12 @@ export const CONTENT = {
       "pickup_source": "Annonces STOVE",
       "launch_h2": "Base de lancement Foundry (2026-10-29+)",
       "launch": [
+        "Mystic parallèle : Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
         "Luna est une base de récompense de lancement, pas la sélection actuelle : Luna 5★ limitée + parcours Glacial Purity jusqu'au ~12/31 02:59 UTC (récompenses Foundry).",
         "Invocation Covenant gratuite quotidienne sur Foundry Summon Support (jusqu'à 1,260 sur la fenêtre annoncée).",
         "Cosmétiques d'histoire annexe / pack de lobby liés à Secret Rabbit♥Hole.",
-        "Suivez les bannières de sélection après chaque maintenance hebdomadaire — ajoutez une carte ci-dessous quand STOVE publie."
+        "Suivez les bannières de sélection après chaque maintenance hebdomadaire — ajoutez une carte ci-dessous quand STOVE publie.",
+        "Known Issues (UI manette Steam / plantage / World Boss Foundry) : https://page.onstove.com/epicseven/global/view/14608118"
       ],
       "how_h2": "Comment nous mettons à jour cette page",
       "how": [
@@ -9316,7 +9334,7 @@ export const CONTENT = {
       ],
       "also": "Voir aussi les mises à jour et la maintenance.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Sélection programmée actuelle : Bunny Girl Mafia Yufine + artefact 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Les récompenses de lancement Foundry (Luna rang 70, invocations Covenant gratuites quotidiennes) courent jusqu'au ~2026-12-31. La pitié et les taux sont uniquement dans le client ; vérifiez STOVE avant d'invoquer."
+      "answer": "Sélection programmée actuelle : Bunny Girl Mafia Yufine + artefact 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Les récompenses de lancement Foundry (Luna rang 70, invocations Covenant gratuites quotidiennes) courent jusqu'au ~2026-12-31. La pitié et les taux sont uniquement dans le client ; vérifiez STOVE avant d'invoquer. Mystic parallèle : Bunny Girl Great Detective Moro jusqu'au 2026-11-19 02:59 UTC (pas la sélection Covenant)."
     }
   },
   "/updates/": {
@@ -9608,12 +9626,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Steam/Foundry patch",
+          [
+            "Window: 10:30–11:30 UTC (18:30–19:30 Shanghai).",
+            "Steam intermittent launch / cannot enter game — fixed.",
+            "Foundry shop briefly mis-showed unreleased items — fixed.",
+            "Secret Rabbit♥Hole stray text — fixed.",
+            "Sources: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "Watch list",
           [
             "Foundry Guild War — 2026-11-21 03:00 UTC.",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO restore — confirm on official notice when posted.",
-            "Emergency Mission week flips through late November — see Foundry calendar."
+            "Emergency Mission week flips through late November — see Foundry calendar.",
+            "11/19 balance preview — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (Steam controller UI / crash / Foundry World Boss) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9624,7 +9654,7 @@ export const CONTENT = {
         "Call out Foundry-only schedule slips separately from legacy servers."
       ],
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Steam launch maintenance on 2026-10-29 brought the full client and Foundry; Japanese VO was delayed at launch. Future weekly notes will cite STOVE posts with UTC windows."
+      "answer": "Steam launch maintenance on 2026-10-29 brought the full client and Foundry; the 2026-11-05 patch (10:30–11:30 UTC) then fixed intermittent Steam launch failures, a Foundry shop misdisplay, and stray Secret Rabbit♥Hole text. Japanese VO was delayed at launch. Future weekly notes will cite STOVE posts with UTC windows."
     },
     "ko": {
       "title": "점검·버전 노트",
@@ -9642,12 +9672,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Steam/파운드리 패치",
+          [
+            "적용 창: 10:30–11:30 UTC (상하이 18:30–19:30).",
+            "Steam 간헐적 실행/입장 불가 — 수정.",
+            "파운드리 상점에 미출시 아이템이 잠시 노출 — 수정.",
+            "Secret Rabbit♥Hole 불필요 문구 — 수정.",
+            "출처: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "워치리스트",
           [
             "길드전 — 2026-11-21 03:00 UTC.",
             "월드 아레나 — 2026-12-10.",
             "일본어 VO — confirm on official notice when posted.",
-            "비상임무 주간 교체 ~11월 말 — 파운드리 캘린더."
+            "비상임무 주간 교체 ~11월 말 — 파운드리 캘린더.",
+            "11/19 밸런스 조정 예고 — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9658,7 +9700,7 @@ export const CONTENT = {
         "파운드리 전용 일정 변동은 기존 서버와 구분."
       ],
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "2026-10-29 Steam 런칭 점검으로 정식 클라와 파운드리가 열렸고, 일본어 VO는 런칭 시 지연. 이후 주간 노트는 STOVE UTC 일정을 인용합니다."
+      "answer": "2026-10-29 Steam 런칭 점검으로 정식 클라와 파운드리가 열렸고, 2026-11-05 패치(10:30–11:30 UTC)는 Steam 간헐적 실행 실패, 파운드리 상점 오표시, Secret Rabbit♥Hole 불필요 문구를 수정했습니다. 일본어 VO는 런칭 시 지연. 이후 주간 노트는 STOVE UTC 일정을 인용합니다."
     },
     "ja": {
       "title": "メンテナンス＆バージョン",
@@ -9676,12 +9718,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Steam/ファウンドリパッチ",
+          [
+            "適用枠：10:30–11:30 UTC（上海 18:30–19:30）。",
+            "Steamの起動が断続的に失敗／ゲームに入れない — 修正。",
+            "ファウンドリ商店に未発売アイテムが一時表示 — 修正。",
+            "Secret Rabbit♥Holeの不要テキスト — 修正。",
+            "出典：https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "ウォッチリスト",
           [
             "ギルド戦 — 2026-11-21 03:00 UTC。",
             "WA — 2026-12-10。",
             "日本語VO — 公式日程待ち。",
-            "緊急任務の週替り〜11月末 — ファウンドリ日程。"
+            "緊急任務の週替り〜11月末 — ファウンドリ日程。",
+            "11/19 バランス調整予告 — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス） — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9692,7 +9746,7 @@ export const CONTENT = {
         "ファウンドリ専用のずれは既存鯖と分けて書く。"
       ],
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "2026-10-29のSteamローンチメンテで正式クライアントとファウンドリが開放。日本語VOは発売時に遅延。今後の週次ノートはSTOVEのUTCを引用。"
+      "answer": "2026-10-29のSteamローンチメンテで正式クライアントとファウンドリが開放。2026-11-05パッチ（10:30–11:30 UTC）はSteamの断続的な起動失敗、ファウンドリ商店の誤表示、Secret Rabbit♥Holeの不要テキストを修正しました。日本語VOは発売時に遅延。今後の週次ノートはSTOVEのUTCを引用。"
     },
     "zh-tw": {
       "title": "維護與版本說明",
@@ -9710,12 +9764,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Steam／Foundry 修補",
+          [
+            "維護窗：10:30–11:30 UTC（上海 18:30–19:30）。",
+            "Steam 間歇性無法啟動／進入遊戲——已修正。",
+            "Foundry 商店短暫誤顯未上架商品——已修正。",
+            "Secret Rabbit♥Hole 殘留文字——已修正。",
+            "來源：https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "觀察清單",
           [
             "公會戰 — 2026-11-21 03:00 UTC。",
             "WA — 2026-12-10。",
             "日語 VO — 等待官方日程。",
-            "緊急任務週輪替至 11 月底——見 Foundry 日程。"
+            "緊急任務週輪替至 11 月底——見 Foundry 日程。",
+            "11/19 平衡調整預告 — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）— https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9726,7 +9792,7 @@ export const CONTENT = {
         "Foundry 專屬異動與舊服分開寫。"
       ],
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "2026-10-29 Steam 上架維護帶來正式客戶端與 Foundry；日語 VO 上架時延後。之後週記將引述 STOVE 的 UTC 時段。"
+      "answer": "2026-10-29 Steam 上架維護帶來正式客戶端與 Foundry；2026-11-05 修補（10:30–11:30 UTC）修正 Steam 間歇啟動失敗、Foundry 商店誤顯與 Secret Rabbit♥Hole 殘留文字。日語 VO 上架時延後。之後週記將引述 STOVE 的 UTC 時段。"
     },
     "th": {
       "title": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
@@ -9744,12 +9810,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — แพตช์ Steam/Foundry",
+          [
+            "ช่วงเวลา: 10:30–11:30 UTC (เซี่ยงไฮ้ 18:30–19:30)",
+            "Steam เปิดเกมไม่ติดเป็นช่วง ๆ / เข้าเกมไม่ได้ — แก้ไขแล้ว",
+            "ร้านค้า Foundry แสดงไอเท็มที่ยังไม่วางขายชั่วคราว — แก้ไขแล้ว",
+            "ข้อความหลงเหลือใน Secret Rabbit♥Hole — แก้ไขแล้ว",
+            "แหล่งที่มา: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "รายการจับตา",
           [
             "Guild War บน Foundry — 2026-11-21 03:00 UTC",
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "การกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่",
-            "สัปดาห์ Emergency Mission เปลี่ยนไปจนถึงปลายพฤศจิกายน — ดูปฏิทิน Foundry"
+            "สัปดาห์ Emergency Mission เปลี่ยนไปจนถึงปลายพฤศจิกายน — ดูปฏิทิน Foundry",
+            "11/19 ตัวอย่างการปรับสมดุล — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9760,7 +9838,7 @@ export const CONTENT = {
         "ระบุการเลื่อนกำหนดการเฉพาะ Foundry แยกจากเซิร์ฟเวอร์เดิม"
       ],
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "การปิดปรับปรุงเปิดตัว Steam เมื่อ 2026-10-29 ทำให้มีไคลเอนต์ฉบับเต็มและ Foundry; เสียงพากย์ญี่ปุ่นล่าช้าตอนเปิดตัว บันทึกรายสัปดาห์ต่อไปจะอ้างอิงโพสต์ STOVE พร้อมช่วงเวลา UTC"
+      "answer": "การปิดปรับปรุงเปิดตัว Steam เมื่อ 2026-10-29 ทำให้มีไคลเอนต์ฉบับเต็มและ Foundry; แพตช์ 2026-11-05 (10:30–11:30 UTC) แก้การเปิดเกมไม่ติดเป็นช่วง ๆ, การแสดงผลผิดในร้านค้า Foundry และข้อความหลงเหลือใน Secret Rabbit♥Hole เสียงพากย์ญี่ปุ่นล่าช้าตอนเปิดตัว บันทึกรายสัปดาห์ต่อไปจะอ้างอิงโพสต์ STOVE พร้อมช่วงเวลา UTC"
     },
     "es": {
       "title": "Mantenimiento y notas de versión",
@@ -9778,12 +9856,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Parche de Steam/Foundry",
+          [
+            "Ventana: 10:30–11:30 UTC (18:30–19:30 en Shanghái).",
+            "Fallos intermitentes de inicio de Steam / imposibilidad de entrar al juego: corregido.",
+            "La tienda de Foundry mostró brevemente objetos no lanzados: corregido.",
+            "Texto sobrante en Secret Rabbit♥Hole: corregido.",
+            "Fuentes: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "Lista de seguimiento",
           [
             "Guild War de Foundry — 2026-11-21 03:00 UTC.",
             "World Arena de Foundry — 2026-12-10 tras el mantenimiento.",
             "Restauración del doblaje japonés: confírmala en el aviso oficial cuando se publique.",
-            "La semana de Emergency Mission cambia a finales de noviembre; consulta el calendario de Foundry."
+            "La semana de Emergency Mission cambia a finales de noviembre; consulta el calendario de Foundry.",
+            "11/19 avance del ajuste de equilibrio — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9794,7 +9884,7 @@ export const CONTENT = {
         "Señala los retrasos de calendario exclusivos de Foundry por separado de los servidores anteriores."
       ],
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "El mantenimiento de lanzamiento en Steam del 2026-10-29 trajo el cliente completo y Foundry; el doblaje japonés se retrasó en el lanzamiento. Las próximas notas semanales citarán publicaciones de STOVE con ventanas en UTC."
+      "answer": "El mantenimiento de lanzamiento en Steam del 2026-10-29 trajo el cliente completo y Foundry; el parche del 2026-11-05 (10:30–11:30 UTC) corrigió después fallos intermitentes de inicio de Steam, una visualización errónea en la tienda de Foundry y texto sobrante en Secret Rabbit♥Hole. El doblaje japonés se retrasó en el lanzamiento. Las próximas notas semanales citarán publicaciones de STOVE con ventanas en UTC."
     },
     "pt": {
       "title": "Manutenção e notas de versão",
@@ -9812,12 +9902,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Patch de Steam/Foundry",
+          [
+            "Janela: 10:30–11:30 UTC (18:30–19:30 em Xangai).",
+            "Falhas intermitentes de inicialização do Steam / impossibilidade de entrar no jogo — corrigido.",
+            "A loja do Foundry exibiu brevemente itens não lançados — corrigido.",
+            "Texto residual em Secret Rabbit♥Hole — corrigido.",
+            "Fontes: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "Lista de acompanhamento",
           [
             "Guild War do Foundry — 2026-11-21 03:00 UTC.",
             "World Arena do Foundry — 2026-12-10 após a manutenção.",
             "Restauração da VO japonesa — confirme no aviso oficial quando publicado.",
-            "A semana da Emergency Mission muda no fim de novembro — veja o calendário do Foundry."
+            "A semana da Emergency Mission muda no fim de novembro — veja o calendário do Foundry.",
+            "11/19 prévia do ajuste de balanceamento — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (UI do controle Steam / travamento / World Boss do Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9828,7 +9930,7 @@ export const CONTENT = {
         "Destaque atrasos de calendário exclusivos do Foundry separadamente dos servidores legados."
       ],
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "A manutenção de lançamento no Steam em 2026-10-29 trouxe o cliente completo e o Foundry; a VO japonesa foi adiada no lançamento. As próximas notas semanais vão citar posts do STOVE com janelas em UTC."
+      "answer": "A manutenção de lançamento no Steam em 2026-10-29 trouxe o cliente completo e o Foundry; o patch de 2026-11-05 (10:30–11:30 UTC) corrigiu falhas intermitentes de inicialização do Steam, uma exibição errada na loja do Foundry e texto residual em Secret Rabbit♥Hole. A VO japonesa foi adiada no lançamento. As próximas notas semanais vão citar posts do STOVE com janelas em UTC."
     },
     "de": {
       "title": "Wartung & Versionshinweise",
@@ -9846,12 +9948,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Steam-/Foundry-Patch",
+          [
+            "Fenster: 10:30–11:30 UTC (18:30–19:30 in Shanghai).",
+            "Steam startet zeitweise nicht / kein Eintritt ins Spiel — behoben.",
+            "Foundry-Shop zeigte kurz nicht veröffentlichte Items — behoben.",
+            "Übrig gebliebener Text in Secret Rabbit♥Hole — behoben.",
+            "Quellen: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "Beobachtungsliste",
           [
             "Foundry Guild War — 2026-11-21 03:00 UTC.",
             "Foundry World Arena — 2026-12-10 nach der Wartung.",
             "Wiederherstellung der japanischen VO — bestätige sie in der offiziellen Ankündigung, sobald sie erscheint.",
-            "Die Emergency-Mission-Woche rotiert bis Ende November — siehe Foundry-Kalender."
+            "Die Emergency-Mission-Woche rotiert bis Ende November — siehe Foundry-Kalender.",
+            "11/19 Balance-Vorschau — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9862,7 +9976,7 @@ export const CONTENT = {
         "Nenne Terminverschiebungen, die nur Foundry betreffen, getrennt von den Legacy-Servern."
       ],
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Die Steam-Launch-Wartung am 2026-10-29 brachte den vollständigen Client und Foundry; die japanische VO war zum Launch verzögert. Künftige wöchentliche Hinweise nennen STOVE-Beiträge mit UTC-Zeitfenstern."
+      "answer": "Die Steam-Launch-Wartung am 2026-10-29 brachte den vollständigen Client und Foundry; der Patch vom 2026-11-05 (10:30–11:30 UTC) behob zeitweise fehlgeschlagene Steam-Starts, eine Fehlanzeige im Foundry-Shop und übrig gebliebenen Text in Secret Rabbit♥Hole. Die japanische VO war zum Launch verzögert. Künftige wöchentliche Hinweise nennen STOVE-Beiträge mit UTC-Zeitfenstern."
     },
     "fr": {
       "title": "Maintenance et notes de version",
@@ -9880,12 +9994,24 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-05 — Correctif Steam/Foundry",
+          [
+            "Fenêtre : 10:30–11:30 UTC (18:30–19:30 à Shanghai).",
+            "Échecs intermittents de lancement Steam / impossible d'entrer dans le jeu — corrigé.",
+            "La boutique Foundry a brièvement affiché des objets non sortis — corrigé.",
+            "Texte résiduel dans Secret Rabbit♥Hole — corrigé.",
+            "Sources : https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+          ]
+        ],
+        [
           "Liste de surveillance",
           [
             "Guild War Foundry — 2026-11-21 03:00 UTC.",
             "World Arena Foundry — 2026-12-10 après maintenance.",
             "Restauration de la VO japonaise — à confirmer sur l'avis officiel lorsqu'il sera publié.",
-            "La semaine Emergency Mission bascule fin novembre — voir le calendrier Foundry."
+            "La semaine Emergency Mission bascule fin novembre — voir le calendrier Foundry.",
+            "11/19 aperçu de l'ajustement d'équilibrage — https://page.onstove.com/epicseven/JP/view/14618761",
+            "Known Issues (UI manette Steam / plantage / World Boss Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
@@ -9896,7 +10022,7 @@ export const CONTENT = {
         "Signalez séparément les retards de calendrier propres à Foundry par rapport aux serveurs existants."
       ],
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "La maintenance de lancement Steam du 2026-10-29 a apporté le client complet et Foundry ; la VO japonaise était retardée au lancement. Les futures notes hebdomadaires citeront les publications STOVE avec des fenêtres UTC."
+      "answer": "La maintenance de lancement Steam du 2026-10-29 a apporté le client complet et Foundry ; le correctif du 2026-11-05 (10:30–11:30 UTC) a corrigé des échecs intermittents de lancement Steam, un affichage erroné dans la boutique Foundry et un texte résiduel dans Secret Rabbit♥Hole. La VO japonaise était retardée au lancement. Les futures notes hebdomadaires citeront les publications STOVE avec des fenêtres UTC."
     }
   },
   "/about/": {

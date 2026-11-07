@@ -1,7 +1,7 @@
 import type { Locale } from '@/lib/site';
 
 /** Verification day for this content cut. Do not bump only to look fresh. */
-export const VERIFIED_DATE = '2026-10-30';
+export const VERIFIED_DATE = '2026-11-07';
 
 export type VerifiedCopy = {
   /** Text before the date, including the trailing space after the colon. */
