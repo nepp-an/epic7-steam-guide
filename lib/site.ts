@@ -125,6 +125,8 @@ export type PageSeo = {
   absoluteTitle?: boolean;
   /** Site-relative path under /public, e.g. /images/diagram-foundry-calendar.webp */
   ogImage?: string;
+  /** Locales that actually ship this path. Defaults to all L1 locales. */
+  alternateLocales?: readonly Locale[];
 };
 
 export function pageMetadata({
@@ -134,6 +136,7 @@ export function pageMetadata({
   locale = DEFAULT_LOCALE,
   absoluteTitle,
   ogImage,
+  alternateLocales,
 }: PageSeo) {
   const full = absoluteTitle ? title : `${title} | ${BRAND}`;
   const canonicalPath = localizedPath(locale, path);
@@ -146,7 +149,7 @@ export function pageMetadata({
     description,
     alternates: {
       canonical: url,
-      languages: languageAlternatesFor(path),
+      languages: languageAlternatesFor(path, alternateLocales),
     },
     openGraph: {
       title: full,

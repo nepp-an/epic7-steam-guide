@@ -11,9 +11,11 @@ import { NAV_ITEMS, NAV_LABELS } from '@/lib/i18n/ui';
 export function SiteHeader({
   locale = 'en',
   path = '/',
+  languages = LOCALES,
 }: {
   locale?: Locale;
   path?: string;
+  languages?: readonly Locale[];
 }) {
   const labels = NAV_LABELS[locale];
   return (
@@ -35,7 +37,7 @@ export function SiteHeader({
         </nav>
         <nav aria-label="Language" className="lang-switch">
           <ul>
-            {LOCALES.map((loc) => (
+            {languages.map((loc) => (
               <li key={loc}>
                 <Link
                   href={localizedPath(loc, path)}

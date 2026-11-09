@@ -2,7 +2,7 @@
 import { writeFileSync } from 'node:fs';
 
 const ORIGIN = 'https://epicsevensteam.com';
-const LAST_MOD = '2026-11-07';
+const LAST_MOD = '2026-11-09';
 const PATHS = [
   '/',
   '/download/',
@@ -22,6 +22,8 @@ const PATHS = [
   '/contact/',
   '/privacy/',
 ];
+/** English-only intent pages (no localized shells until the copy exists). */
+const EN_ONLY_PATHS = ['/case-files/'];
 const LOCALES = [
   ['en', 'en'],
   ['ko', 'ko'],
@@ -63,6 +65,22 @@ for (const path of PATHS) {
     lines.push('  </url>');
   }
 }
+for (const path of EN_ONLY_PATHS) {
+  lines.push('  <url>');
+  lines.push(`    <loc>${ORIGIN}${path}</loc>`);
+  lines.push(`    <lastmod>${LAST_MOD}</lastmod>`);
+  lines.push(
+    `    <xhtml:link rel="alternate" hreflang="en" href="${ORIGIN}${path}" />`,
+  );
+  lines.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${ORIGIN}${path}" />`,
+  );
+  lines.push('    <changefreq>weekly</changefreq>');
+  lines.push('    <priority>0.8</priority>');
+  lines.push('  </url>');
+}
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
-console.log(`sitemap: ${PATHS.length * LOCALES.length} urls`);
+console.log(
+  `sitemap: ${PATHS.length * LOCALES.length + EN_ONLY_PATHS.length} urls`,
+);

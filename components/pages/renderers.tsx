@@ -7,6 +7,7 @@ import { CONTENT } from '@/lib/i18n/content';
 import { CHECKLIST_COPY } from '@/lib/i18n/checklists';
 import {
   FOUNDRY_VERIFIED,
+  FOUNDRY_VERIFIED_DATE,
   HEROES_VERIFIED,
   HOME_VERIFIED,
   ROLE_CHIPS,
@@ -110,11 +111,17 @@ function QuickAnswer({ text }: { text: string }) {
   );
 }
 
-function LastVerified({ copy }: { copy: VerifiedCopy }) {
+function LastVerified({
+  copy,
+  date = VERIFIED_DATE,
+}: {
+  copy: VerifiedCopy;
+  date?: string;
+}) {
   return (
     <p className="last-verified">
       {copy.before}
-      <time dateTime={VERIFIED_DATE}>{VERIFIED_DATE}</time>
+      <time dateTime={date}>{date}</time>
       {copy.after}
     </p>
   );
@@ -1271,7 +1278,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <LastVerified copy={FOUNDRY_VERIFIED[locale]} />
+      <LastVerified copy={FOUNDRY_VERIFIED[locale]} date={FOUNDRY_VERIFIED_DATE} />
       <p className="quick-answer">
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
@@ -1440,6 +1447,13 @@ export function FoundryView({ locale }: { locale: Locale }) {
             {c.link_quests}
           </L>
         </li>
+        {locale === 'en' ? (
+          <li>
+            <L locale={locale} href="/case-files/">
+              Epic Seven Case Files (Steam)
+            </L>
+          </li>
+        ) : null}
         <li>
           <L locale={locale} href="/heroes/">
             {c.link_heroes}
@@ -1549,6 +1563,13 @@ export function RabbitView({ locale }: { locale: Locale }) {
             Banners
           </L>
         </li>
+        {locale === 'en' ? (
+          <li>
+            <L locale={locale} href="/case-files/">
+              Case Files guide (Steam)
+            </L>
+          </li>
+        ) : null}
       </ul>
     </PageShell>
   );
@@ -2167,6 +2188,13 @@ export function QuestsView({ locale }: { locale: Locale }) {
       {c.case_files.map((s) => (
         <p key={s.slice(0, 48)}>{s}</p>
       ))}
+      {locale === 'en' ? (
+        <p>
+          <L locale={locale} href="/case-files/">
+            Epic Seven Case Files (Steam) — full guide
+          </L>
+        </p>
+      ) : null}
       <p>
         <L locale={locale} href="/">
           {c.link_home}

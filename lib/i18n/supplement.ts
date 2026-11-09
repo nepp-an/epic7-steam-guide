@@ -855,7 +855,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "The launch window has two tracks: the Steam client going live and the new Foundry server unlocking content. Keep them separate when you plan.",
       "bullets": [
         "2026-10-29 — Steam client live and Foundry open after maintenance.",
-        "2026-11-21 03:00 UTC — Foundry Guild War unlocks.",
+        "2026-11-19 — Guild War introduced to Foundry.",
+        "2026-11-21 03:00 UTC — Form Defense Team opens.",
+        "2026-11-23 03:00 UTC — Guild War Matchmaking opens.",
+        "2026-11-07 09:00–11/23 03:00 UTC — Foundry login gift: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — Foundry World Arena after maintenance (UTC)."
       ],
       "source": {
@@ -883,7 +886,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "출시 기간에는 Steam 클라이언트 오픈과 Foundry 서버 콘텐츠 해금이라는 두 가지 일정이 겹칩니다. 계획할 때는 나눠서 보세요.",
       "bullets": [
         "2026-10-29 — 점검 후 Steam 클라이언트 정식 오픈, Foundry 개설.",
-        "2026-11-21 03:00 UTC — Foundry 길드전 해금.",
+        "2026-11-19 — Foundry에 길드전 도입.",
+        "2026-11-21 03:00 UTC — 방어팀 구성 오픈.",
+        "2026-11-23 03:00 UTC — 길드전 매칭 오픈.",
+        "2026-11-07 09:00–11/23 03:00 UTC — Foundry 로그인 선물: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — 점검 후 Foundry 월드 아레나(UTC)."
       ],
       "source": {
@@ -911,7 +917,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "ローンチ期はSteamクライアント開始とファウンドリのコンテンツ解放が重なります。計画では分けて考えてください。",
       "bullets": [
         "2026-10-29 — メンテ後にSteamクライアント正式開始、ファウンドリ開設。",
-        "2026-11-21 03:00 UTC — ファウンドリのギルド戦解放。",
+        "2026-11-19 — Foundryにギルド戦導入。",
+        "2026-11-21 03:00 UTC — 防衛チーム編成開始。",
+        "2026-11-23 03:00 UTC — ギルド戦マッチング開始。",
+        "2026-11-07 09:00–11/23 03:00 UTC — Foundryログイン贈り物: Commander's Armband ×1,000, Brave Crest ×3,000。",
         "2026-12-10 — メンテ後にファウンドリのワールドアリーナ（UTC）。"
       ],
       "source": {
@@ -939,7 +948,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "開服期有兩條時間線：Steam 客戶端開放，以及 Foundry 新伺服器解鎖內容。規劃時請分開看。",
       "bullets": [
         "2026-10-29 — 維護後 Steam 客戶端正式上線、Foundry 開服。",
-        "2026-11-21 03:00 UTC — Foundry 公會戰解鎖。",
+        "2026-11-19 — Foundry 導入公會戰。",
+        "2026-11-21 03:00 UTC — 開放編成防禦隊伍。",
+        "2026-11-23 03:00 UTC — 開放公會戰配對。",
+        "2026-11-07 09:00–11/23 03:00 UTC — Foundry 登入禮：Commander's Armband ×1,000、Brave Crest ×3,000。",
         "2026-12-10 — 維護後 Foundry 世界競技場（UTC）。"
       ],
       "source": {
@@ -967,7 +979,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "ช่วงเปิดตัวมีสองแทร็ก: ไคลเอนต์ Steam เปิดให้บริการ และเซิร์ฟเวอร์ Foundry ใหม่ปลดล็อกเนื้อหา แยกสองเรื่องนี้ออกจากกันเมื่อวางแผน",
       "bullets": [
         "2026-10-29 — ไคลเอนต์ Steam เปิด และ Foundry เปิดหลังเมนเทนแนนซ์",
-        "2026-11-21 03:00 UTC — Guild War บน Foundry ปลดล็อก",
+        "2026-11-19 — เปิดตัว Guild War บน Foundry",
+        "2026-11-21 03:00 UTC — เปิดจัดทีมป้องกัน",
+        "2026-11-23 03:00 UTC — เปิดจับคู่ Guild War",
+        "2026-11-07 09:00–11/23 03:00 UTC — ของขวัญล็อกอิน Foundry: Commander's Armband ×1,000, Brave Crest ×3,000",
         "2026-12-10 — World Arena บน Foundry หลังเมนเทนแนนซ์ (UTC)"
       ],
       "source": {
@@ -995,7 +1010,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "La ventana de lanzamiento tiene dos vías: la entrada en vivo del cliente de Steam y el desbloqueo de contenido en el nuevo servidor Foundry. Mantenlas separadas al planificar.",
       "bullets": [
         "2026-10-29 — cliente de Steam en vivo y Foundry abierto tras el mantenimiento.",
-        "2026-11-21 03:00 UTC — se desbloquea Guild War de Foundry.",
+        "2026-11-19 — Guild War se introduce en Foundry.",
+        "2026-11-21 03:00 UTC — se abre el equipo de defensa.",
+        "2026-11-23 03:00 UTC — se abre el matchmaking de Guild War.",
+        "2026-11-07 09:00–11/23 03:00 UTC — regalo de inicio de sesión de Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena de Foundry tras el mantenimiento (UTC)."
       ],
       "source": {
@@ -1023,7 +1041,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "A janela de lançamento tem duas trilhas: o cliente Steam entrando no ar e o novo servidor Foundry liberando conteúdo. Mantenha-as separadas ao planejar.",
       "bullets": [
         "2026-10-29 — cliente Steam no ar e Foundry aberto após a manutenção.",
-        "2026-11-21 03:00 UTC — Guild War do Foundry liberado.",
+        "2026-11-19 — Guild War é introduzida no Foundry.",
+        "2026-11-21 03:00 UTC — a equipe de defesa é aberta.",
+        "2026-11-23 03:00 UTC — o matchmaking da Guild War é aberto.",
+        "2026-11-07 09:00–11/23 03:00 UTC — presente de login do Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena do Foundry após a manutenção (UTC)."
       ],
       "source": {
@@ -1051,7 +1072,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "Das Launch-Fenster hat zwei Spuren: der Steam-Client geht live und der neue Foundry-Server schaltet Inhalte frei. Halte sie bei deiner Planung getrennt.",
       "bullets": [
         "2026-10-29 — Steam-Client live und Foundry nach der Wartung offen.",
-        "2026-11-21 03:00 UTC — Foundry Guild War wird freigeschaltet.",
+        "2026-11-19 — Guild War wird auf Foundry eingeführt.",
+        "2026-11-21 03:00 UTC — Verteidigungsteam wird geöffnet.",
+        "2026-11-23 03:00 UTC — Guild-War-Matchmaking wird geöffnet.",
+        "2026-11-07 09:00–11/23 03:00 UTC — Foundry-Login-Geschenk: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — Foundry World Arena nach der Wartung (UTC)."
       ],
       "source": {
@@ -1079,7 +1103,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "La fenêtre de lancement comporte deux volets : la mise en ligne du client Steam et l’ouverture progressive du nouveau serveur Foundry. Distinguez-les dans votre planification.",
       "bullets": [
         "2026-10-29 — client Steam en ligne et Foundry ouvert après la maintenance.",
-        "2026-11-21 03:00 UTC — ouverture de Guild War sur Foundry.",
+        "2026-11-19 — la Guild War est introduite sur Foundry.",
+        "2026-11-21 03:00 UTC — ouverture de l’équipe de défense.",
+        "2026-11-23 03:00 UTC — ouverture du matchmaking de la Guild War.",
+        "2026-11-07 09:00–11/23 03:00 UTC — cadeau de connexion Foundry : Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena sur Foundry après la maintenance (UTC)."
       ],
       "source": {
@@ -1107,7 +1134,10 @@ export const UPDATES_SUPPLEMENT: Record<
       "intro": "Okno premiery ma dwa tory: uruchomienie klienta Steam i odblokowywanie treści na nowym serwerze Foundry. Planując, trzymaj je osobno.",
       "bullets": [
         "2026-10-29 — klient Steam startuje, a Foundry otwiera się po konserwacji.",
-        "2026-11-21 03:00 UTC — odblokowanie Guild War na Foundry.",
+        "2026-11-19 — Guild War zostaje wprowadzona na Foundry.",
+        "2026-11-21 03:00 UTC — otwarcie drużyny obrony.",
+        "2026-11-23 03:00 UTC — otwarcie matchmakingu Guild War.",
+        "2026-11-07 09:00–11/23 03:00 UTC — prezent za logowanie na Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena na Foundry po konserwacji (UTC)."
       ],
       "source": {
@@ -1160,6 +1190,20 @@ export const MAINTENANCE_SUPPLEMENT: Record<
       "source": {
         "href": "https://store.steampowered.com/news/app/5019180/view/685267261521395852",
         "label": "Steam news"
+      }
+    },
+    {
+      "h2": "11/19 balance preview — names only",
+      "intro": "STOVE’s EN preview is not the live patch. It names units for a 11/19 balance adjustment; the shipped values may differ, so treat this as a watch list rather than a build guide.",
+      "bullets": [
+        "ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua.",
+        "Covenant Summertime Iseria / Guard Captain Krau.",
+        "4★ Victorika.",
+        "Preview ≠ guaranteed: re-check the live 11/19 patch notes before changing gear, skill-ups, or pulls. This page deliberately does not copy skill before/after text."
+      ],
+      "source": {
+        "href": "https://page.onstove.com/epicseven/global/view/14618757",
+        "label": "STOVE — balance preview (EN)"
       }
     }
   ],
