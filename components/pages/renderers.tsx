@@ -475,9 +475,10 @@ export function HomeView({ locale }: { locale: Locale }) {
           <L locale={locale} href="/foundry/">
             <span className="btn btn-secondary">{c.cta_fd}</span>
           </L>
-          <L locale={locale} href="/case-files/">
+          {/* Case Files is EN-only today; keep CTA on /case-files/ for all locales. */}
+          <Link href="/case-files/">
             <span className="btn btn-secondary">{c.cta_cf}</span>
-          </L>
+          </Link>
         </div>
       </section>
       <IndepNotice locale={locale} />
