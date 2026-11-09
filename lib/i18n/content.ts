@@ -11,6 +11,7 @@ export const CONTENT = {
       "cta_dl": "Download checklist",
       "cta_tr": "Transfer steps",
       "cta_fd": "Foundry calendar",
+      "cta_cf": "Case Files",
       "hubs_h2": "Start here — hub cards",
       "hubs": [
         [
@@ -219,6 +220,7 @@ export const CONTENT = {
       "cta_dl": "다운로드 체크리스트",
       "cta_tr": "이전 절차",
       "cta_fd": "파운드리 캘린더",
+      "cta_cf": "케이스 파일",
       "hubs_h2": "여기서 시작 — 허브 카드",
       "hubs": [
         [
@@ -427,6 +429,7 @@ export const CONTENT = {
       "cta_dl": "ダウンロード確認リスト",
       "cta_tr": "引き継ぎ手順",
       "cta_fd": "ファウンドリ日程",
+      "cta_cf": "ケースファイル",
       "hubs_h2": "ここから — ハブカード",
       "hubs": [
         [
@@ -635,6 +638,7 @@ export const CONTENT = {
       "cta_dl": "下載檢查清單",
       "cta_tr": "轉移步驟",
       "cta_fd": "Foundry 日程",
+      "cta_cf": "案例檔案",
       "hubs_h2": "從這裡開始 — Hub 卡",
       "hubs": [
         [
@@ -843,6 +847,7 @@ export const CONTENT = {
       "cta_dl": "เช็กลิสต์การดาวน์โหลด",
       "cta_tr": "ขั้นตอนการย้ายบัญชี",
       "cta_fd": "ปฏิทิน Foundry",
+      "cta_cf": "แฟ้มคดี",
       "hubs_h2": "เริ่มที่นี่ — การ์ดศูนย์รวม",
       "hubs": [
         [
@@ -1051,6 +1056,7 @@ export const CONTENT = {
       "cta_dl": "Lista de descarga",
       "cta_tr": "Pasos de transferencia",
       "cta_fd": "Calendario de Foundry",
+      "cta_cf": "Expedientes",
       "hubs_h2": "Empieza aquí — tarjetas del hub",
       "hubs": [
         [
@@ -1259,6 +1265,7 @@ export const CONTENT = {
       "cta_dl": "Checklist de download",
       "cta_tr": "Passos da transferência",
       "cta_fd": "Calendário do Foundry",
+      "cta_cf": "Arquivos de casos",
       "hubs_h2": "Comece aqui — cards do hub",
       "hubs": [
         [
@@ -1467,6 +1474,7 @@ export const CONTENT = {
       "cta_dl": "Download-Checkliste",
       "cta_tr": "Transfer-Schritte",
       "cta_fd": "Foundry-Kalender",
+      "cta_cf": "Fallakten",
       "hubs_h2": "Hier starten — Hub-Karten",
       "hubs": [
         [
@@ -1675,6 +1683,7 @@ export const CONTENT = {
       "cta_dl": "Checklist de téléchargement",
       "cta_tr": "Étapes du transfert",
       "cta_fd": "Calendrier Foundry",
+      "cta_cf": "Dossiers",
       "hubs_h2": "Commencez ici — cartes du hub",
       "hubs": [
         [
@@ -1883,6 +1892,7 @@ export const CONTENT = {
       "cta_dl": "Lista kontrolna pobierania",
       "cta_tr": "Kroki transferu",
       "cta_fd": "Kalendarz Foundry",
+      "cta_cf": "Akta spraw",
       "hubs_h2": "Zacznij tutaj — karty centrum",
       "hubs": [
         [

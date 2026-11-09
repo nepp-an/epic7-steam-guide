@@ -475,6 +475,9 @@ export function HomeView({ locale }: { locale: Locale }) {
           <L locale={locale} href="/foundry/">
             <span className="btn btn-secondary">{c.cta_fd}</span>
           </L>
+          <L locale={locale} href="/case-files/">
+            <span className="btn btn-secondary">{c.cta_cf}</span>
+          </L>
         </div>
       </section>
       <IndepNotice locale={locale} />

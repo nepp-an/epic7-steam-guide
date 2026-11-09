@@ -8,6 +8,7 @@
     "cta_dl": "Download checklist",
     "cta_tr": "Transfer steps",
     "cta_fd": "Foundry calendar",
+    "cta_cf": "Case Files",
     "transfer_h2": "STOVE ↔ Steam account transfer",
     "transfer_muted": "Unofficial step diagram summarizing the official process. Follow STOVE screens exactly — we are not Smilegate support.",
     "diagram": [
@@ -161,6 +162,7 @@
     "cta_dl": "다운로드 체크리스트",
     "cta_tr": "이전 절차",
     "cta_fd": "파운드리 캘린더",
+    "cta_cf": "케이스 파일",
     "transfer_h2": "STOVE ↔ Steam 계정 이전",
     "transfer_muted": "공식 절차를 요약한 비공식 단계도입니다. STOVE 화면을 그대로 따르세요 — 스마일게이트 고객센터가 아닙니다.",
     "diagram": [
@@ -314,6 +316,7 @@
     "cta_dl": "ダウンロード確認リスト",
     "cta_tr": "引き継ぎ手順",
     "cta_fd": "ファウンドリ日程",
+    "cta_cf": "ケースファイル",
     "transfer_h2": "STOVE ↔ Steam アカウント引き継ぎ",
     "transfer_muted": "公式手順の非公式まとめ図です。STOVE画面に従ってください — 運営サポートではありません。",
     "diagram": [
@@ -467,6 +470,7 @@
     "cta_dl": "下載檢查清單",
     "cta_tr": "轉移步驟",
     "cta_fd": "Foundry 日程",
+    "cta_cf": "案例檔案",
     "transfer_h2": "STOVE ↔ Steam 帳號轉移",
     "transfer_muted": "非官方步驟圖，摘要官方流程。請完全依照 STOVE 畫面操作——我們不是官方客服。",
     "diagram": [
@@ -620,6 +624,7 @@
     "cta_dl": "เช็กลิสต์การดาวน์โหลด",
     "cta_tr": "ขั้นตอนการย้ายบัญชี",
     "cta_fd": "ปฏิทิน Foundry",
+    "cta_cf": "แฟ้มคดี",
     "transfer_h2": "การย้ายบัญชี STOVE ↔ Steam",
     "transfer_muted": "แผนภาพขั้นตอนแบบไม่เป็นทางการที่สรุปกระบวนการทางการ โปรดทำตามหน้าจอ STOVE อย่างเคร่งครัด — เราไม่ใช่ฝ่ายสนับสนุนของ Smilegate",
     "diagram": [
@@ -781,6 +786,7 @@
     "cta_dl": "Lista de descarga",
     "cta_tr": "Pasos de transferencia",
     "cta_fd": "Calendario de Foundry",
+    "cta_cf": "Expedientes",
     "transfer_h2": "Transferencia de cuenta STOVE ↔ Steam",
     "transfer_muted": "Diagrama de pasos no oficial que resume el proceso oficial. Sigue las pantallas de STOVE al pie de la letra — no somos el soporte de Smilegate.",
     "diagram": [
@@ -942,6 +948,7 @@
     "cta_dl": "Checklist de download",
     "cta_tr": "Passos da transferência",
     "cta_fd": "Calendário do Foundry",
+    "cta_cf": "Arquivos de casos",
     "transfer_h2": "Transferência de conta STOVE ↔ Steam",
     "transfer_muted": "Diagrama não oficial que resume o processo oficial. Siga as telas da STOVE exatamente — não somos o suporte da Smilegate.",
     "diagram": [
@@ -1103,6 +1110,7 @@
     "cta_dl": "Download-Checkliste",
     "cta_tr": "Transfer-Schritte",
     "cta_fd": "Foundry-Kalender",
+    "cta_cf": "Fallakten",
     "transfer_h2": "STOVE ↔ Steam-Konto-Transfer",
     "transfer_muted": "Inoffizielles Schritt-Diagramm, das den offiziellen Ablauf zusammenfasst. Folge den STOVE-Bildschirmen genau — wir sind nicht der Smilegate-Support.",
     "diagram": [
@@ -1264,6 +1272,7 @@
     "cta_dl": "Checklist de téléchargement",
     "cta_tr": "Étapes du transfert",
     "cta_fd": "Calendrier Foundry",
+    "cta_cf": "Dossiers",
     "transfer_h2": "Transfert de compte STOVE ↔ Steam",
     "transfer_muted": "Schéma non officiel des étapes résumant le processus officiel. Suivez exactement les écrans STOVE — nous ne sommes pas le support Smilegate.",
     "diagram": [
