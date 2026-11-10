@@ -3720,7 +3720,7 @@ export const CONTENT = {
         "Related after Epic Seven Steam transfer: demo warning, Steam notes, FAQ hub, and the download checklist."
       ],
       "src_h2": "Official sources",
-      "answer": "Epic Seven Steam transfer keeps progress by converting STOVE email/SNS to Steam Simple Login. Wrong-bind: withdraw the empty Steam-linked STOVE account, then convert the original. Demo wipe can erase legacy progress after conversion. Transfer ≠ Foundry; Foundry is a separate server — see the [[Foundry server guide|/foundry/]].",
+      "answer": "Epic Seven Steam transfer keeps progress by converting STOVE email/SNS to Steam Simple Login. Wrong-bind: do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. Demo wipe can erase legacy progress after conversion. Transfer ≠ Foundry; Foundry is a separate server — see the [[Foundry server guide|/foundry/]].",
       "img_alt": "Self-drawn STOVE to Steam transfer steps diagram",
       "faq_h2": "Transfer FAQ",
       "faqs": [
