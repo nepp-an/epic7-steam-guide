@@ -36,13 +36,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Launch, transfer, anti-cheat, and demo wipe answers.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Demo warning",
           "Do not delete the in-game account after Steam transfer.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -245,13 +245,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "런칭·이전·안티치트·데모 삭제 답변.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "데모 주의",
           "Steam 전환 후 인게임 계정 삭제 금지.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -454,13 +454,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "ローンチ・引き継ぎ・アンチチート・デモ削除。",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "デモ注意",
           "Steam変換後のゲーム内削除禁止。",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -663,13 +663,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "上架、轉移、反作弊與試玩刪號解答。",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "試玩警告",
           "Steam 轉移後勿遊戲內刪號。",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -872,13 +872,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "คำตอบเรื่องเปิดตัว การย้ายบัญชี ระบบป้องกันโกง และการล้างข้อมูลเดโม",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "คำเตือนเดโม",
           "อย่าลบบัญชีในเกมหลังย้ายบัญชีไป Steam",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -1081,13 +1081,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Respuestas sobre lanzamiento, transferencia, antitrampas y el borrado de la demo.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Aviso sobre la demo",
           "No borres la cuenta del juego después de transferir a Steam.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -1290,13 +1290,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Respostas sobre lançamento, transferência, anti-cheat e o apagamento da demo.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Aviso da demo",
           "Não apague a conta do jogo depois da transferência para o Steam.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -1499,13 +1499,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Antworten zu Launch, Transfer, Anti-Cheat und Demo-Löschung.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Demo-Warnung",
           "Lösche das In-Game-Konto nach dem Steam-Transfer nicht.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -1708,13 +1708,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Réponses sur le lancement, le transfert, l'anti-triche et la suppression en démo.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Avertissement démo",
           "Ne supprimez pas le compte en jeu après le transfert Steam.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",
@@ -1917,13 +1917,13 @@ export const CONTENT = {
           "/faq/",
           "FAQ",
           "Odpowiedzi o premierze, transferze, anty-cheacie i czyszczeniu dema.",
-          "/images/diagram-steam-notes.webp"
+          ""
         ],
         [
           "/demo-delete-warning/",
           "Ostrzeżenie o demie",
           "Nie usuwaj konta w grze po transferze na Steam.",
-          "/images/diagram-demo-dodont.webp"
+          ""
         ],
         [
           "/banners/",

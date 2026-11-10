@@ -1080,16 +1080,6 @@ export function DemoView({ locale }: { locale: Locale }) {
       <IndepNotice locale={locale} compact />
       <h2>TL;DR</h2>
       <p className="quick-answer">{c.answer}</p>
-      <Fig
-        src="/images/diagram-demo-delete.webp"
-        alt={c.img_alt}
-        credit="Unofficial demo-delete risk diagram"
-      />
-      <Fig
-        src="/images/diagram-demo-dodont.webp"
-        alt={c.img_alt2}
-        credit="Unofficial Do/Don't diagram · epicsevensteam.com"
-      />
       <div className="card warn">
         <p>
           <strong>{c.warn_title}</strong> {c.warn}
@@ -1269,19 +1259,9 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
       <Fig
-        src="/images/diagram-steam-notes.webp"
-        alt={c.img_alt}
-        credit="Unofficial Steam bind / launch triage diagram"
-      />
-      <Fig
         src="/images/diagram-uncheater.webp"
         alt={c.img_alt2}
         credit="Unofficial UNCHEATER triage · epicsevensteam.com"
-      />
-      <Fig
-        src="/images/diagram-steam-bind.webp"
-        alt={c.img_alt3}
-        credit="Unofficial bind recovery outline · epicsevensteam.com"
       />
       <p>{c.lead}</p>
       <h2>{c.acct_h2}</h2>
