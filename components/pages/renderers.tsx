@@ -366,6 +366,11 @@ function faqPlain(marked: string): string {
   return marked.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1');
 }
 
+// /tier-list/ is the English resource page. The locale /{locale}/tier-list/
+// route is a different Steam build guide, so these wiki links must not be
+// localized to the reader's current locale.
+const ENGLISH_ONLY_PATHS = new Set(['/tier-list/']);
+
 function richParts(locale: Locale, marked: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
   const re = /\[\[([^|\]]+)\|([^\]]+)\]\]/g;
@@ -383,6 +388,12 @@ function richParts(locale: Locale, marked: string): React.ReactNode[] {
         <ExternalLink key={key++} href={href}>
           {label}
         </ExternalLink>,
+      );
+    } else if (ENGLISH_ONLY_PATHS.has(href)) {
+      nodes.push(
+        <Link key={key++} href={href}>
+          {label}
+        </Link>,
       );
     } else {
       nodes.push(
@@ -2467,7 +2478,9 @@ export function TierListView({ locale }: { locale: Locale }) {
           ))}
         </div>
         <h2>{c.beyond_h2}</h2>
-        <p>{c.beyond_intro}</p>
+        <p>
+          <RichInline locale={locale} marked={c.beyond_intro} />
+        </p>
         <div className="hero-grid tier-hero-grid">
           {beyondHeroes.map((hero) => (
             <TierHeroCard
@@ -2499,7 +2512,9 @@ export function TierListView({ locale }: { locale: Locale }) {
 
       <section className="sources">
         <h2>{c.sources_h2}</h2>
-        <p className="muted">{c.sources_note}</p>
+        <p className="muted">
+          <RichInline locale={locale} marked={c.sources_note} />
+        </p>
         <ul>
           <li>
             <ExternalLink href={OFFICIAL.stoveHome}>

@@ -170,14 +170,14 @@
     "cerise": "世界競技場控制起手。選角讓她先手時很強；請核現行版本。"
   },
   "beyond_h2": "新手 12 人之外的公會戰／世界競技場角色示例",
-  "beyond_intro": "這些是新手名單補不上的角色定位示例，不是排名。技能與現行分模式位置請看[[榜單資源頁|/tier-list/]]連結的來源。",
+  "beyond_intro": "這些是新手名單補不上的角色定位示例，不是排名。技能與現行分模式位置請看[[榜單資源頁（英文）|/tier-list/]]連結的來源。",
   "banners_h2": "卡池：節奏榜不該替你決定的時刻",
   "banners_p": "本頁的角色定位說明不是抽卡建議。卡池時間、保底、機率在遊戲內；日程筆記在[[卡池|/banners/]]。Pickup 若沒補到你四個空位之一，就跳過。在 Foundry 的話，記得 Rank 70 Luna 路線與每日免費聖約召喚是各有期限的慶祝獎勵——不是放棄養成計畫的理由。日程看[[Foundry|/foundry/]]，轉移問題看[[FAQ|/faq/]]。",
   "faq_h2": "節奏榜 FAQ",
   "faqs": [
     [
       "這是全服 Epic Seven 節奏榜嗎？",
-      "不是。這是 Steam／Foundry 與轉移帳號的養成優先序。全角色與分模式排名請用[[榜單資源頁|/tier-list/]]比較的來源；我們只外連，不轉載他們的表。"
+      "不是。這是 Steam／Foundry 與轉移帳號的養成優先序。全角色與分模式排名請用[[榜單資源頁（英文）|/tier-list/]]比較的來源；我們只外連，不轉載他們的表。"
     ],
     [
       "轉移帳號會把英雄搬到 Foundry 嗎？",
@@ -209,7 +209,7 @@
     ]
   ],
   "sources_h2": "來源與查核方式",
-  "sources_note": "官方日程與轉移規則：STOVE／Steam。分模式排名與技能：epic7db、gacha.gg、hideoutgacha、Epic Helper。各來源的日期與限制在[[榜單資源頁|/tier-list/]]比較。本頁 Steam／轉移情境解讀為原創；若與官方公告衝突，以官方為準。",
+  "sources_note": "官方日程與轉移規則：STOVE／Steam。分模式排名與技能：epic7db、gacha.gg、hideoutgacha、Epic Helper。各來源的日期與限制在[[榜單資源頁（英文）|/tier-list/]]比較。本頁 Steam／轉移情境解讀為原創；若與官方公告衝突，以官方為準。",
   "related_h2": "本站相關",
   "related": [
     [

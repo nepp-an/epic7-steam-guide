@@ -170,14 +170,14 @@
     "cerise": "Ouvreuse de contrôle pour la World Arena. Forte quand le draft lui permet d’agir en premier ; vérifiez le patch actuel."
   },
   "beyond_h2": "Exemples de rôles GW/WA au-delà des 12 de départ",
-  "beyond_intro": "Ce sont des exemples de rôles que l’effectif de départ ne couvre pas ; ce n’est pas un classement. Vérifiez les kits et le placement actuel par mode dans les sources liées sur [[la page de ressources tier list|/tier-list/]].",
+  "beyond_intro": "Ce sont des exemples de rôles que l’effectif de départ ne couvre pas ; ce n’est pas un classement. Vérifiez les kits et le placement actuel par mode dans les sources liées sur [[la page de ressources tier list (en anglais)|/tier-list/]].",
   "banners_h2": "Bannières : quand une liste de tiers ne doit pas décider",
   "banners_p": "La note de rôle d’un héros sur cette page n’est pas une recommandation d’invocation. Les dates de bannière, le pity et les taux sont dans le client ; les notes de calendrier sont sur [[Bannières|/banners/]]. Si un pick-up ne remplit pas l’un de vos quatre emplacements ouverts, passez. Sur Foundry, rappelez-vous que la voie Luna Rank 70 et les invocations Covenant gratuites quotidiennes sont des récompenses de célébration avec leur propre fenêtre — pas une raison d’abandonner votre plan de build. Voir [[Foundry|/foundry/]] pour le calendrier et [[FAQ|/faq/]] pour les questions de transfert.",
   "faq_h2": "FAQ de la liste de tiers",
   "faqs": [
     [
       "S’agit-il d’une liste de tiers mondiale pour Epic Seven ?",
-      "Non. Elle décrit la priorité de build pour les comptes Steam/Foundry et transférés. Pour des classements sur l’effectif complet ou par mode, utilisez les sources comparées sur [[la page de ressources tier list|/tier-list/]] ; nous les lions sans republier leurs tableaux."
+      "Non. Elle décrit la priorité de build pour les comptes Steam/Foundry et transférés. Pour des classements sur l’effectif complet ou par mode, utilisez les sources comparées sur [[la page de ressources tier list (en anglais)|/tier-list/]] ; nous les lions sans republier leurs tableaux."
     ],
     [
       "Le transfert de mon compte déplace-t-il mes héros sur Foundry ?",
@@ -209,7 +209,7 @@
     ]
   ],
   "sources_h2": "Sources et comment vérifier",
-  "sources_note": "Dates officielles et règles de transfert : STOVE/Steam. Classements et kits par mode : epic7db, gacha.gg, hideoutgacha, Epic Helper. Les dates et limites de chaque source sont comparées sur [[la page de ressources tier list|/tier-list/]]. Les notes de scénario Steam/transfert de cette page sont originales ; en cas de contradiction avec une annonce officielle, l’annonce officielle prévaut.",
+  "sources_note": "Dates officielles et règles de transfert : STOVE/Steam. Classements et kits par mode : epic7db, gacha.gg, hideoutgacha, Epic Helper. Les dates et limites de chaque source sont comparées sur [[la page de ressources tier list (en anglais)|/tier-list/]]. Les notes de scénario Steam/transfert de cette page sont originales ; en cas de contradiction avec une annonce officielle, l’annonce officielle prévaut.",
   "related_h2": "À lire aussi sur ce site",
   "related": [
     [

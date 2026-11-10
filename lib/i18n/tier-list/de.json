@@ -170,14 +170,14 @@
     "cerise": "Kontroll-Opener für World Arena. Stark, wenn der Draft sie zuerst handeln lässt; prüfe den aktuellen Patch."
   },
   "beyond_h2": "GW/WA-Rollenbeispiele jenseits der Starter-12",
-  "beyond_intro": "Das sind Rollenbeispiele für Slots, die das Starter-Roster nicht abdeckt; sie sind kein Ranking. Prüfe Kits und aktuelle Modus-Einordnung in den auf [[der Tier-List-Ressourcenseite|/tier-list/]] verlinkten Quellen.",
+  "beyond_intro": "Das sind Rollenbeispiele für Slots, die das Starter-Roster nicht abdeckt; sie sind kein Ranking. Prüfe Kits und aktuelle Modus-Einordnung in den auf [[der Tier-List-Ressourcenseite (auf Englisch)|/tier-list/]] verlinkten Quellen.",
   "banners_h2": "Banner: Wann eine Tier-Liste die Entscheidung nicht treffen sollte",
   "banners_p": "Die Rollennotiz eines Helden auf dieser Seite ist keine Pull-Empfehlung. Banner-Timing, Pity und Raten stehen im Client; Kalendernotizen stehen auf [[Banner|/banners/]]. Wenn ein Pickup keinen deiner vier offenen Slots füllt, überspringe es. Auf Foundry sind der Rank-70-Luna-Pfad und die täglichen kostenlosen Covenant-Beschwörungen Feier-Belohnungen mit eigenem Fenster – kein Grund, den Build-Plan aufzugeben. Siehe [[Foundry|/foundry/]] für den Kalender und [[FAQ|/faq/]] für Transferfragen.",
   "faq_h2": "Tier-Listen-FAQ",
   "faqs": [
     [
       "Ist das eine globale Epic-Seven-Tier-Liste?",
-      "Nein. Sie beschreibt die Build-Priorität für Steam-/Foundry- und umgestellte Konten. Für Full-Roster- oder Modus-Rankings nutze die Quellen, die auf [[der Tier-List-Ressourcenseite|/tier-list/]] verglichen werden; wir verlinken sie und veröffentlichen ihre Tabellen nicht erneut."
+      "Nein. Sie beschreibt die Build-Priorität für Steam-/Foundry- und umgestellte Konten. Für Full-Roster- oder Modus-Rankings nutze die Quellen, die auf [[der Tier-List-Ressourcenseite (auf Englisch)|/tier-list/]] verglichen werden; wir verlinken sie und veröffentlichen ihre Tabellen nicht erneut."
     ],
     [
       "Verschiebt ein Kontotransfer meine Helden auf Foundry?",
@@ -209,7 +209,7 @@
     ]
   ],
   "sources_h2": "Quellen & wie du sie prüfst",
-  "sources_note": "Offizielle Daten und Transfer-Regeln: STOVE/Steam. Modus-Rankings und Kits: epic7db, gacha.gg, hideoutgacha, Epic Helper. Daten und Grenzen der Quellen werden auf [[der Tier-List-Ressourcenseite|/tier-list/]] verglichen. Die Steam-/Transfer-Szenariohinweise dieser Seite sind eigenständig; wenn ein offizieller Hinweis widerspricht, gewinnt der offizielle Hinweis.",
+  "sources_note": "Offizielle Daten und Transfer-Regeln: STOVE/Steam. Modus-Rankings und Kits: epic7db, gacha.gg, hideoutgacha, Epic Helper. Daten und Grenzen der Quellen werden auf [[der Tier-List-Ressourcenseite (auf Englisch)|/tier-list/]] verglichen. Die Steam-/Transfer-Szenariohinweise dieser Seite sind eigenständig; wenn ein offizieller Hinweis widerspricht, gewinnt der offizielle Hinweis.",
   "related_h2": "Verwandte Seiten auf dieser Website",
   "related": [
     [

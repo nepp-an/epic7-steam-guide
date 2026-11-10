@@ -170,14 +170,14 @@
     "cerise": "Abridor de controle para World Arena. Forte quando o draft permite que ela aja primeiro; verifique o patch atual."
   },
   "beyond_h2": "Exemplos de papéis GW/WA além dos 12 iniciais",
-  "beyond_intro": "São exemplos de papéis que o elenco inicial não cobre; não são um ranking. Confira kits e posição atual por modo nas fontes linkadas em [[a página de recursos de tier lists|/tier-list/]].",
+  "beyond_intro": "São exemplos de papéis que o elenco inicial não cobre; não são um ranking. Confira kits e posição atual por modo nas fontes linkadas em [[a página de recursos de tier lists (em inglês)|/tier-list/]].",
   "banners_h2": "Banners: quando uma lista de tiers não deve decidir",
   "banners_p": "A nota de papel de um herói nesta página não é uma recomendação de pull. O timing do banner, o pity e as taxas ficam no cliente; as notas de calendário ficam em [[Banners|/banners/]]. Se um pick-up não preenche uma das suas quatro vagas abertas, pule. Se você está no Foundry, lembre que a rota de Luna Rank 70 e as invocações Covenant diárias gratuitas são recompensas de celebração com a própria janela — não são motivo para abandonar seu plano de build. Veja [[Foundry|/foundry/]] para o calendário e [[FAQ|/faq/]] para dúvidas de transferência.",
   "faq_h2": "FAQ da lista de tiers",
   "faqs": [
     [
       "Esta é uma lista de tiers global de Epic Seven?",
-      "Não. Ela descreve a prioridade de build para contas Steam/Foundry e transferidas. Para rankings de elenco completo ou por modo, use as fontes comparadas em [[a página de recursos de tier lists|/tier-list/]]; linkamos e não republicamos suas tabelas."
+      "Não. Ela descreve a prioridade de build para contas Steam/Foundry e transferidas. Para rankings de elenco completo ou por modo, use as fontes comparadas em [[a página de recursos de tier lists (em inglês)|/tier-list/]]; linkamos e não republicamos suas tabelas."
     ],
     [
       "Transferir minha conta move meus heróis para o Foundry?",
@@ -209,7 +209,7 @@
     ]
   ],
   "sources_h2": "Fontes e como verificar",
-  "sources_note": "Datas oficiais e regras de transferência: STOVE/Steam. Rankings e kits por modo: epic7db, gacha.gg, hideoutgacha, Epic Helper. As datas e limites de cada fonte são comparados em [[a página de recursos de tier lists|/tier-list/]]. As notas de cenário Steam/transferência desta página são originais; se um aviso oficial entrar em conflito, o aviso oficial prevalece.",
+  "sources_note": "Datas oficiais e regras de transferência: STOVE/Steam. Rankings e kits por modo: epic7db, gacha.gg, hideoutgacha, Epic Helper. As datas e limites de cada fonte são comparados em [[a página de recursos de tier lists (em inglês)|/tier-list/]]. As notas de cenário Steam/transferência desta página são originais; se um aviso oficial entrar em conflito, o aviso oficial prevalece.",
   "related_h2": "Relacionado neste site",
   "related": [
     [
