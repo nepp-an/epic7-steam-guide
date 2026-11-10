@@ -3,6 +3,9 @@ import type { Locale } from '@/lib/site';
 /** Verification day for this content cut. Do not bump only to look fresh. */
 export const VERIFIED_DATE = '2026-11-10';
 
+/** English /steam-transfer/ first screen keeps its frozen baseline date. */
+export const TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE = '2026-11-07';
+
 /** Foundry page re-checked against the 2026-11-07 Steam Guild War notice. */
 export const FOUNDRY_VERIFIED_DATE = '2026-11-10';
 

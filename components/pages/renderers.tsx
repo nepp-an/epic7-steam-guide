@@ -12,6 +12,7 @@ import {
   HOME_VERIFIED,
   ROLE_CHIPS,
   START5,
+  TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE,
   TRANSFER_VERIFIED,
   VERIFIED_DATE,
   type LineSeg,
@@ -833,7 +834,10 @@ export function TransferView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <LastVerified copy={TRANSFER_VERIFIED[locale]} />
+      <LastVerified
+        copy={TRANSFER_VERIFIED[locale]}
+        date={locale === 'en' ? TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE : VERIFIED_DATE}
+      />
       <p className="quick-answer">
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
