@@ -1,19 +1,17 @@
 import type { Metadata } from 'next';
-import { TierListView } from '@/components/pages/renderers';
-import { TIER_LIST_COPY } from '@/lib/i18n/tier-list';
+import { TierResourcesView } from '@/components/pages/TierResourcesView';
 import { pageMetadata } from '@/lib/site';
 
-const LOCALE = 'en' as const;
-const PATH = '/tier-list/';
-const copy = TIER_LIST_COPY[LOCALE];
-
 export const metadata: Metadata = pageMetadata({
-  title: copy.title,
-  description: copy.meta,
-  path: PATH,
-  locale: LOCALE,
+  title: 'Epic Seven Tier List Resources — PvE, RTA & Guild War',
+  description:
+    'Compare Epic Seven tier-list sources by mode: PvE, RTA and Guild War. Source dates, methods, limits and direct links, checked 2026-11-10. Guild War full board not verified; no invented letter grades.',
+  path: '/tier-list/',
+  locale: 'en',
+  absoluteTitle: true,
+  alternateLocales: ['en'],
 });
 
 export default function Page() {
-  return <TierListView locale={LOCALE} />;
+  return <TierResourcesView />;
 }

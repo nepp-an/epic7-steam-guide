@@ -1,10 +1,10 @@
 {
-  "title": "Epic Seven Tier List for Steam & Transfer Players (GW/WA Split)",
-  "meta": "Steam/transfer-first Epic Seven tier list: build bands for Guild War and World Arena, post-transfer resource limits, budget swaps, and FAQ. Not a global ranking.",
-  "h1": "Epic Seven tier list — Steam & transfer lens",
-  "lead": "Most tier lists answer “who is strongest on the full roster?” This one answers a narrower question: with a Steam/Foundry account — or a legacy account you just moved to Steam — which heroes should you actually build first for PvE, Guild War, and World Arena? Bands reflect build priority for that account, not an absolute global ranking.",
+  "title": "Epic Seven Steam Build Priorities — PvE, Guild War & World Arena",
+  "meta": "Steam/transfer Epic Seven build priorities: what to build first for PvE, Guild War and World Arena, post-transfer resource limits, budget swaps, and FAQ. Not a full-roster tier list.",
+  "h1": "Steam & transfer account build priorities",
+  "lead": "This is a Steam/transfer investment guide, not a current full-roster tier list. Most tier lists answer “who is strongest on the full roster?” This page answers a narrower question: with a Steam/Foundry account — or a legacy account you just moved to Steam — which heroes should you actually build first for PvE, Guild War, and World Arena? The notes describe build order and role coverage for that account, not an absolute global ranking.",
   "answer": "Short answer: build one PvE core first (Angelic Montmorancy, Falconer Kluri, Commander Lorina, plus a farmer such as Alexa), then add one Guild War backbone (tank + revive/cleanse) and one World Arena opener (speed/CR or control). Transfer keeps your old progress but does not move a legacy Heir onto Foundry; Foundry GW and WA unlock on separate dates, so spend resources against those dates — not against every banner.",
-  "lens_note": "Bands = investment order for a Steam/transfer account. They are not a claim that a hero is globally S-tier.",
+  "lens_note": "This page describes build order and role coverage for a constrained Steam/transfer account. It does not assign letter grades, and it is not a full-roster ranking.",
   "anchors_label": "Jump to",
   "anchor_why": "Steam lens",
   "anchor_bands": "Bands",
@@ -19,62 +19,20 @@
   "img_alt_battle": "Official Steam store screenshot of Epic Seven combat — Steam CDN citation",
   "img_alt_calendar": "Self-drawn Foundry calendar visual: launch buffs, Guild War, World Arena, and the 12/31 window",
   "why_h2": "Why this is not another global tier list",
-  "why_p1": "Public tier lists such as epic7db and Prydwen rank the full roster for the current patch. They are useful when you own most heroes and want the absolute best pick. They are less useful when your account is one week old, when your gear is a single Wyvern set, or when you have just converted a legacy login and cannot afford to rebuild a second roster on Foundry.",
-  "why_p2": "Our lens is narrower and more practical: free or low-cost units you can actually obtain on a Steam/Foundry account, plus a small set of widely cited GW/WA staples that show the roles your starter roster cannot fill. Where we name those staples, we are repeating public consensus, not inventing a new ranking. Check the linked sources for full kits, current patch notes, and absolute PvP placement.",
+  "why_p1": "Mode-specific public resources such as epic7db, gacha.gg, hideoutgacha and Epic Helper rank a full roster or an RTA pool for their own patch. They are useful when you own most heroes and want the best pick for that mode. They are less useful when your account is one week old, when your gear is a single Wyvern set, or when you have just converted a legacy login and cannot afford to rebuild a second roster on Foundry.",
+  "why_p2": "This page is narrower: free or low-cost units you can actually obtain on a Steam/Foundry account, plus role examples for the slots your starter roster cannot fill. The notes describe the job each hero covers; they are not a letter grade or a claim that the hero is globally best. Verify kits, current patch data and mode-specific placement on the sources linked below.",
   "why_p3": "Resource constraint is the whole point. A transfer account keeps progress, purchases, and unclaimed rewards, but Foundry is a separate server track with its own characters and matchmaking. You do not get a second gear library, a second molagora stock, or automatic Foundry entry. That changes the answer from “build the best hero” to “build the smallest roster that clears the next gate.”",
   "not_h2": "What we deliberately do not do",
-  "not_p": "We do not publish a 100-hero global ranking, star ratings, or invented multipliers. We do not scrape or republish another site's table. We link out to public references and keep the Steam/Foundry scenario notes original.",
-  "consensus": [
-    {
-      "name": "epic7db — hero database & tier lists",
-      "href": "https://epic7db.com/",
-      "note": "Full-roster reference; useful once you own most heroes."
-    },
-    {
-      "name": "Prydwen — Epic Seven",
-      "href": "https://www.prydwen.gg/epic-seven/",
-      "note": "Patch-by-patch PvE/PvP rankings and builds."
-    },
-    {
-      "name": "epic7x — hero pages",
-      "href": "https://epic7x.com/",
-      "note": "Kit text and multipliers; verify in-client."
-    },
-    {
-      "name": "STOVE — Epic Seven notices",
-      "href": "https://page.onstove.com/epicseven/global",
-      "note": "Official schedules, Foundry dates, and patch notes."
-    }
-  ],
+  "not_p": "We do not publish a 100-hero global ranking, letter grades, star ratings, or invented multipliers. We do not scrape or republish another site's table. We link out to mode-specific public references and keep the Steam/Foundry scenario notes original.",
+  "consensus": [],
   "bands_h2": "What the bands mean",
   "bands_intro": "Read each band as an investment instruction for a constrained account, not as a verdict on the hero's absolute power. A hero can be A here and still be the best pick in a different roster.",
-  "bands_th": ["Band", "Label", "What it means for a Steam/transfer account"],
-  "bands": [
-    {
-      "tier": "S",
-      "label": "Build first",
-      "meaning": "Slot-defining for this scenario; unlocks the next gate or covers the role your account cannot skip.",
-      "action": "Level, awaken, and give your best gear first."
-    },
-    {
-      "tier": "A",
-      "label": "Build next",
-      "meaning": "Strong and flexible; covers a role your S core does not, or upgrades a free option.",
-      "action": "Build after your S core has a usable gear set."
-    },
-    {
-      "tier": "B",
-      "label": "Budget / situational",
-      "meaning": "Useful with free gear or in one specific slot; not a priority over the S/A core.",
-      "action": "Keep at a usable level; do not chase perfect gear."
-    },
-    {
-      "tier": "C",
-      "label": "Skip for now",
-      "meaning": "Low return for a Steam/Foundry account until the roster and gear library are wider.",
-      "action": "Do not spend molagora or charms yet."
-    }
+  "bands_th": [
+    "Band",
+    "Label",
+    "What it means for a Steam/transfer account"
   ],
+  "bands": [],
   "bands_note": "Tier letters are this page's build bands. They are not official ratings, and they do not replace full-roster rankings or in-client testing.",
   "constraints_h2": "Post-transfer resource reality",
   "constraints_intro": "Transfer solves the login problem; it does not solve the resource problem. These are the constraints that change the build order.",
@@ -83,15 +41,15 @@
     "Molagora is the real bottleneck. A 20-hero tier list is not a build plan. Skill up four to six heroes first; leave the rest at +0 until they have a fixed slot.",
     "Gold and charms disappear faster than bookmarks. Do not reforge every drop. Pick a Wyvern team, farm one set, and stop when the main stats are usable.",
     "Leifs are for buff windows, not for impatience. Foundry starter buffs and celebration mail run on their own timers; check STOVE before burning leifs on a day with no buff.",
-    "Bookmarks are a banner decision, not a tier decision. A hero being S on this page does not mean pull now. Check [[Banners|/banners/]] for the live pickup and confirm pity in-client.",
+    "Bookmarks are a banner decision, not a tier decision. A hero being high on another site does not mean pull now. Check [[Banners|/banners/]] for the live pickup and confirm pity in-client.",
     "Foundry is not a transfer destination. A converted legacy login stays on its server; Foundry GW/WA need a Foundry character. Budget separately if you play both.",
     "Do not delete the in-game account after transfer to “clean up” the demo. The [[demo warning|/demo-delete-warning/]] exists because that action can remove original-server progress.",
     "Dates beat tier lists. Foundry Guild War is posted around 2026-11-21 03:00 UTC and World Arena after 2026-12-10 maintenance. Build for the date you can actually field a team."
   ],
-  "pve_h2": "PvE / Steam onboarding band",
-  "pve_intro": "This is the “clear the next gate” list: story, Wyvern, and the first stable Hunt team. On a new Steam/Foundry account, free specialty-change units do most of the work; banner heroes are optional accelerators. If you already transferred a geared legacy account, you can skip most of this band and go straight to the Guild War and World Arena sections.",
-  "pve_note": "PvE bands reward reliability and low gear cost. A hero who clears with free speed gear is worth more to a new account than a premium hero who needs a full set you do not own.",
-  "gw_h2": "Guild War band (Foundry unlocks around 2026-11-21)",
+  "pve_h2": "PvE / Steam onboarding priorities",
+  "pve_intro": "This is the “clear the next gate” list: story, Wyvern, and the first stable Hunt team. On a new Steam/Foundry account, free specialty-change units do most of the work; banner heroes are optional accelerators. If you already transferred a geared legacy account, you can skip most of this section and go straight to the Guild War and World Arena sections.",
+  "pve_note": "PvE value here means reliability and low gear cost. A hero who clears with free speed gear is worth more to a new account than a premium hero who needs a full set you do not own.",
+  "gw_h2": "Guild War role coverage (Foundry unlocks around 2026-11-21)",
   "gw_answer": "For Guild War, build a tank that can hold a tower, a revive/cleanse support, and one damage dealer you can field on both offense and defense. Do not build twelve Guild War heroes; build four that cover both sides.",
   "gw_intro": "Guild War rewards role coverage more than raw tier. A team that survives the first two turns and recycles a revive is usually more useful than a glass cannon that wins one attack and loses every defense. Foundry Guild War is scheduled around 2026-11-21 03:00 UTC per STOVE's celebration table; re-check the live notice before planning guild resets.",
   "gw_off_h3": "Offense core",
@@ -108,7 +66,7 @@
     "Do not spend leifs or guild currency on a hero who only works on one side of the war."
   ],
   "gw_link_label": "Foundry Guild War details",
-  "wa_h2": "World Arena band (Foundry unlocks after 2026-12-10)",
+  "wa_h2": "World Arena role coverage (Foundry unlocks after 2026-12-10)",
   "wa_answer": "World Arena rewards draft coverage: speed/CR openers, control, and one or two counterpicks. For a constrained account, build one fast opener and one flexible damage dealer before chasing niche counters.",
   "wa_intro": "World Arena is not Guild War with a different button. You need a plan for turn order, cleanse, and the opponent's ban/pick. The heroes that carry a starter account are usually the ones that either start the turn chain or stop the opponent's chain — not the ones with the highest PvE damage.",
   "wa_draft_h3": "Draft rules of thumb",
@@ -129,16 +87,52 @@
   "wa_note": "Exact pick/ban rules and season rewards are client/official. This page only covers build order for a Steam/transfer account.",
   "budget_h2": "Budget swaps: who does the job cheaper",
   "budget_intro": "Before you chase a premium banner, check whether a free or already-owned unit covers the same job. A cheaper unit with the right speed can beat an ungeared premium hero.",
-  "budget_th": ["Need", "Budget / free option", "Why it works"],
+  "budget_th": [
+    "Need",
+    "Budget / free option",
+    "Why it works"
+  ],
   "budget": [
-    ["Cleanse + heal", "Angelic Montmorancy", "Specialty change; free, and still a real cleanse/heal slot."],
-    ["Defense break + CR", "Falconer Kluri", "Specialty change; opens Hunt and Guild War offense without premium gear."],
-    ["Single-target damage", "Commander Lorina", "Specialty change; long-term PvE damage that does not need a limited banner."],
-    ["Wyvern farmer", "Alexa", "Common dual-attack farmer; pairs with Furious and a tank."],
-    ["Guild War tank", "Ras / Fallen Cecilia", "Ras is free and serviceable early; Fallen Cecilia is the public-consensus upgrade if you own her."],
-    ["Revive / GW defense", "Ruele of Light / Maid Chloe", "Public-consensus defensive supports; use only if already owned — do not chase a banner for a defense slot you cannot gear."],
-    ["World Arena speed opener", "Judith / Silk", "Free CR tools early; replace with a premium opener when you have the gear."],
-    ["World Arena control", "Cerise / Fairytale Tenebria", "Widely cited control picks; verify the current patch before investing."]
+    [
+      "Cleanse + heal",
+      "Angelic Montmorancy",
+      "Specialty change; free, and still a real cleanse/heal slot."
+    ],
+    [
+      "Defense break + CR",
+      "Falconer Kluri",
+      "Specialty change; opens Hunt and Guild War offense without premium gear."
+    ],
+    [
+      "Single-target damage",
+      "Commander Lorina",
+      "Specialty change; long-term PvE damage that does not need a limited banner."
+    ],
+    [
+      "Wyvern farmer",
+      "Alexa",
+      "Common dual-attack farmer; pairs with Furious and a tank."
+    ],
+    [
+      "Guild War tank",
+      "Ras / Fallen Cecilia",
+      "Ras is free and serviceable early; Fallen Cecilia is a straightforward tank upgrade if you already own her."
+    ],
+    [
+      "Revive / GW defense",
+      "Ruele of Light / Maid Chloe",
+      "Defensive supports to use only if already owned — do not chase a banner for a defense slot you cannot gear."
+    ],
+    [
+      "World Arena speed opener",
+      "Judith / Silk",
+      "Free CR tools early; replace with a premium opener when you have the gear."
+    ],
+    [
+      "World Arena control",
+      "Cerise / Fairytale Tenebria",
+      "Widely cited control picks; verify the current patch before investing."
+    ]
   ],
   "plan_h2": "A 14-day build plan for a transferred or new Steam account",
   "plan_intro": "Two weeks is enough to field one PvE team and one Guild War core if you stop spreading resources. Adjust to your actual play time; the order matters more than the calendar.",
@@ -151,8 +145,8 @@
     "Day 11–12: set offense and defense, join a guild, and confirm Accepted status. Clear daily guild missions.",
     "Day 13–14: start the World Arena opener. One speed set, one cleanse option, one flex damage dealer. Save the rest for the 2026-12-10 WA window."
   ],
-  "roster_h2": "The 12 heroes on this page (on-site avatars)",
-  "roster_intro": "These are the same 12 cards documented on [[Heroes|/heroes/]], so the art and names stay on-site. The tier letters under each card are this page's scenario bands, not official ratings.",
+  "roster_h2": "Hero cards on this page (on-site avatars)",
+  "roster_intro": "These cards also appear on [[Heroes|/heroes/]], so the art and names stay on-site. The notes describe the role each hero can cover; this page does not put letter grades under the cards.",
   "hero_notes": {
     "ras": "Free knight and story anchor. Early tank for PvE and a serviceable Guild War body when you have no premium tank.",
     "mercedes": "Starter AoE mage. Fine for story clears; not a priority once a real farmer is online.",
@@ -175,32 +169,78 @@
     "politis": "Anti-cleave and CR disruption. A World Arena answer to speed drafts; niche in PvE.",
     "cerise": "Control opener for World Arena. Strong when the draft lets her act first; verify the current patch."
   },
-  "beyond_h2": "Eight GW/WA staples beyond the starter 12",
-  "beyond_intro": "These names are widely cited in public Epic Seven PvP discussion. We list them to show which roles your starter roster cannot fill; we are not claiming a new global ranking. Verify kits and current placement on the linked references.",
+  "beyond_h2": "GW/WA role examples beyond the starter 12",
+  "beyond_intro": "These are role examples for slots the starter roster does not fill. They are not a ranking. Verify kits and current mode placement on the mode sources linked from [[the tier-list resource page|/tier-list/]].",
   "banners_h2": "Banners: when a tier list should not make the decision",
-  "banners_p": "A hero's band on this page is not a pull recommendation. Banner timing, pity, and rates live in the client; schedule notes live on [[Banners|/banners/]]. If a pickup does not fill one of your four open slots, skip it. If you are on Foundry, remember that the Rank 70 Luna path and daily free Covenant summons are celebration rewards with their own window — not a reason to abandon your build plan. See [[Foundry|/foundry/]] for the calendar and [[FAQ|/faq/]] for transfer questions.",
-  "faq_h2": "Tier list FAQ",
+  "banners_p": "A hero's role note on this page is not a pull recommendation. Banner timing, pity, and rates live in the client; schedule notes live on [[Banners|/banners/]]. If a pickup does not fill one of your four open slots, skip it. If you are on Foundry, remember that the Rank 70 Luna path and daily free Covenant summons are celebration rewards with their own window — not a reason to abandon your build plan. See [[Foundry|/foundry/]] for the calendar and [[FAQ|/faq/]] for transfer questions.",
+  "faq_h2": "Steam build priority FAQ",
   "faqs": [
-    ["Is this a global Epic Seven tier list?", "No. It ranks build priority for Steam/Foundry and transferred accounts. For full-roster rankings, use epic7db or Prydwen; we link them and do not republish their tables."],
-    ["Does transferring my account move my heroes to Foundry?", "No. Transfer keeps legacy progress, purchases, and unclaimed rewards, but Foundry is a separate server track with its own characters and matchmaking. A legacy Heir does not automatically join Foundry Guild War or World Arena."],
-    ["Who should I build first on a new Steam account?", "One PvE core: Angelic Montmorancy, Falconer Kluri, Commander Lorina, and a farmer such as Alexa. Add Furious if your Wyvern team needs defense break. Do not start twelve projects."],
-    ["What changes for Guild War?", "Role coverage: a tank, a cleanse/revive support, and one damage dealer you can field on both sides. Foundry GW is posted around 2026-11-21 03:00 UTC; confirm the live STOVE notice and guild membership."],
-    ["What changes for World Arena?", "Turn order and draft coverage: one speed/CR opener, one cleanse/immunity option, one flexible damage dealer, and one counterpick. Foundry WA is posted after 2026-12-10 maintenance."],
-    ["Can I use my legacy gear on Foundry?", "Only what you actually move or re-farm. Transfer does not duplicate gear or molagora. Treat Foundry as a separate resource budget unless you only play the legacy character on Steam."],
-    ["Should I pull a hero because they are S on this page?", "No. Bands are build priority, not banner advice. Check the live pickup on /banners/, your pity count in-client, and whether the hero fills an open slot."],
-    ["How often is this page updated?", "This cut reflects public STOVE/Steam information available on 2026-11-03. Re-check STOVE after maintenance; schedules and PvP placement can change."]
+    [
+      "Is this a global Epic Seven tier list?",
+      "No. It describes build priority for Steam/Foundry and transferred accounts. For full-roster or mode-specific rankings, use the sources compared on [[the tier-list resource page|/tier-list/]]; we link out and do not republish their tables."
+    ],
+    [
+      "Does transferring my account move my heroes to Foundry?",
+      "No. Transfer keeps legacy progress, purchases, and unclaimed rewards, but Foundry is a separate server track with its own characters and matchmaking. A legacy Heir does not automatically join Foundry Guild War or World Arena."
+    ],
+    [
+      "Who should I build first on a new Steam account?",
+      "One PvE core: Angelic Montmorancy, Falconer Kluri, Commander Lorina, and a farmer such as Alexa. Add Furious if your Wyvern team needs defense break. Do not start twelve projects."
+    ],
+    [
+      "What changes for Guild War?",
+      "Role coverage: a tank, a cleanse/revive support, and one damage dealer you can field on both sides. Foundry GW is posted around 2026-11-21 03:00 UTC; confirm the live STOVE notice and guild membership."
+    ],
+    [
+      "What changes for World Arena?",
+      "Turn order and draft coverage: one speed/CR opener, one cleanse/immunity option, one flexible damage dealer, and one counterpick. Foundry WA is posted after 2026-12-10 maintenance."
+    ],
+    [
+      "Can I use my legacy gear on Foundry?",
+      "Only what you actually move or re-farm. Transfer does not duplicate gear or molagora. Treat Foundry as a separate resource budget unless you only play the legacy character on Steam."
+    ],
+    [
+      "Should I pull a hero because this page lists them?",
+      "No. This page lists build order, not banner advice. Check the live pickup on /banners/, your pity count in-client, and whether the hero fills an open slot."
+    ],
+    [
+      "How often is this page updated?",
+      "The build-priority text was reviewed on 2026-11-10. Official STOVE/Steam event dates were last checked on 2026-11-03 and were not re-verified in that review; re-check STOVE after maintenance."
+    ]
   ],
   "sources_h2": "Sources & how to verify",
-  "sources_note": "Official dates and transfer rules: STOVE/Steam. Full-roster rankings and kits: epic7db, Prydwen, epic7x. This page's Steam/transfer scenario notes are original; if an official notice conflicts with this page, the official notice wins.",
+  "sources_note": "Official dates and transfer rules: STOVE/Steam. Mode-specific rankings and kits: epic7db, gacha.gg, hideoutgacha, Epic Helper; source dates and limits are compared on [[the tier-list resource page|/tier-list/]]. This page's Steam/transfer notes are original; if an official notice conflicts with this page, the official notice wins.",
   "related_h2": "Related on this site",
   "related": [
-    ["/heroes/", "Heroes — 12 on-site cards"],
-    ["/foundry/#server-guide", "Foundry server guide"],
-    ["/foundry/#guild-war", "Foundry Guild War prep"],
-    ["/steam-transfer/", "STOVE → Steam transfer"],
-    ["/banners/", "Banners & pickups"],
-    ["/faq/", "FAQ & troubleshooting"]
+    [
+      "/tier-list/",
+      "Tier-list resources by mode — dates, methods and limits"
+    ],
+    [
+      "/heroes/",
+      "Heroes — 12 on-site cards"
+    ],
+    [
+      "/foundry/#server-guide",
+      "Foundry server guide"
+    ],
+    [
+      "/foundry/#guild-war",
+      "Foundry Guild War prep"
+    ],
+    [
+      "/steam-transfer/",
+      "STOVE → Steam transfer"
+    ],
+    [
+      "/banners/",
+      "Banners & pickups"
+    ],
+    [
+      "/faq/",
+      "FAQ & troubleshooting"
+    ]
   ],
-  "last_before": "Last verified: ",
-  "last_after": " (Steam/transfer lens · verify STOVE dates and live PvP rules)"
+  "last_before": "Official dates last verified: ",
+  "last_after": " (Steam/transfer build lens · dates and live PvP rules still need an official re-check)"
 }

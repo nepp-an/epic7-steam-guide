@@ -1,10 +1,10 @@
 {
   "title": "Tier list de Epic Seven para Steam y transferencia (GW/WA)",
-  "meta": "Tier list de Epic Seven centrada en Steam y transferencia: bandas de construcción para Guild War y World Arena, límites de recursos tras la transferencia, alternativas económicas y FAQ. No es un ranking global.",
+  "meta": "Guía de construcción de Epic Seven centrada en Steam y transferencia: roles que conviene construir primero para PvE, Guild War y World Arena, límites de recursos tras la transferencia, alternativas económicas y FAQ. No es un ranking global.",
   "h1": "Tier list de Epic Seven — enfoque Steam y transferencia",
-  "lead": "La mayoría de las tier lists responden «¿quién es el más fuerte con el roster completo?». Esta responde a una pregunta más concreta: con una cuenta de Steam/Foundry —o una cuenta antigua que acabas de pasar a Steam—, ¿qué héroes deberías construir primero para PvE, Guild War y World Arena? Las bandas reflejan la prioridad de construcción para esa cuenta, no un ranking global absoluto.",
+  "lead": "La mayoría de las tier lists responden «¿quién es el más fuerte con el roster completo?». Esta responde a una pregunta más concreta: con una cuenta de Steam/Foundry —o una cuenta antigua que acabas de pasar a Steam—, ¿qué héroes deberías construir primero para PvE, Guild War y World Arena? El contenido siguiente describe el orden de construcción y la cobertura de roles para esa cuenta, no un ranking global absoluto.",
   "answer": "Respuesta corta: construye primero un núcleo de PvE (Angelic Montmorancy, Falconer Kluri, Commander Lorina y un personaje de farmeo como Alexa), luego añade una base de Guild War (tanque + revivir/limpieza) y un iniciador de World Arena (velocidad/CR o control). La transferencia conserva tu progreso antiguo, pero no traslada un Heredero antiguo a Foundry; Guild War y World Arena de Foundry se desbloquean en fechas distintas, así que gasta recursos pensando en esas fechas, no en cada banner.",
-  "lens_note": "Las bandas = orden de inversión para una cuenta de Steam/transferencia. No afirman que un héroe sea S-tier a nivel global.",
+  "lens_note": "Esta página describe el orden de construcción y la cobertura de roles para una cuenta Steam/transferencia. No asigna letras de tier ni es un ranking de roster completo.",
   "anchors_label": "Ir a",
   "anchor_why": "Enfoque Steam",
   "anchor_bands": "Bandas",
@@ -19,33 +19,12 @@
   "img_alt_battle": "Captura oficial de la tienda de Steam del combate de Epic Seven — cita del CDN de Steam",
   "img_alt_calendar": "Visual propio del calendario de Foundry: mejoras de lanzamiento, Guild War, World Arena y la ventana del 31/12",
   "why_h2": "Por qué esta no es otra tier list global",
-  "why_p1": "Las tier lists públicas como epic7db y Prydwen clasifican el roster completo del parche actual. Son útiles cuando tienes casi todos los héroes y quieres la mejor elección absoluta. Lo son menos cuando tu cuenta tiene una semana, cuando tu equipamiento es un solo set de Wyvern o cuando acabas de convertir un inicio de sesión antiguo y no puedes permitirte reconstruir un segundo roster en Foundry.",
-  "why_p2": "Nuestro enfoque es más concreto y práctico: unidades gratuitas o de bajo costo que realmente puedes obtener en una cuenta de Steam/Foundry, más un pequeño conjunto de básicos de Guild War/World Arena ampliamente citados que muestran los roles que tu roster inicial no cubre. Cuando nombramos esos básicos, repetimos el consenso público, no inventamos un ranking nuevo. Consulta las fuentes enlazadas para ver kits completos, notas del parche actual y la posición absoluta en PvP.",
+  "why_p1": "Las tier lists públicas como epic7db clasifican el roster completo del parche actual. Son útiles cuando tienes casi todos los héroes y quieres la mejor elección para ese modo. Lo son menos cuando tu cuenta tiene una semana, cuando tu equipamiento es un solo set de Wyvern o cuando acabas de convertir un inicio de sesión antiguo y no puedes permitirte reconstruir un segundo roster en Foundry.",
+  "why_p2": "Esta página tiene un enfoque más concreto: unidades gratuitas o de bajo costo que realmente puedes obtener en una cuenta Steam/Foundry, y ejemplos de roles que tu roster inicial no cubre. Cada nota describe el trabajo que cubre el héroe; no es una letra de tier ni una afirmación de que sea el mejor del servidor. Verifica kits, parche actual y posición por modo en las fuentes enlazadas abajo.",
   "why_p3": "La restricción de recursos es el punto central. Una cuenta transferida conserva el progreso, las compras y las recompensas sin reclamar, pero Foundry es una vía de servidor separada con sus propios personajes y emparejamiento. No obtienes una segunda biblioteca de equipamiento, un segundo stock de molagora ni entrada automática a Foundry. Eso cambia la respuesta de «construye al mejor héroe» a «construye el roster más pequeño que supere la siguiente barrera».",
   "not_h2": "Lo que deliberadamente no hacemos",
   "not_p": "No publicamos un ranking global de 100 héroes, valoraciones con estrellas ni multiplicadores inventados. No extraemos ni republicamos la tabla de otro sitio. Enlazamos referencias públicas y mantenemos originales las notas del escenario Steam/Foundry.",
-  "consensus": [
-    {
-      "name": "epic7db — hero database & tier lists",
-      "href": "https://epic7db.com/",
-      "note": "Referencia del roster completo; útil cuando ya tienes casi todos los héroes."
-    },
-    {
-      "name": "Prydwen — Epic Seven",
-      "href": "https://www.prydwen.gg/epic-seven/",
-      "note": "Rankings y builds de PvE/PvP parche a parche."
-    },
-    {
-      "name": "epic7x — hero pages",
-      "href": "https://epic7x.com/",
-      "note": "Texto de kits y multiplicadores; verifica en el cliente."
-    },
-    {
-      "name": "STOVE — Epic Seven notices",
-      "href": "https://page.onstove.com/epicseven/global",
-      "note": "Calendarios oficiales, fechas de Foundry y notas del parche."
-    }
-  ],
+  "consensus": [],
   "bands_h2": "Qué significan las bandas",
   "bands_intro": "Lee cada banda como una instrucción de inversión para una cuenta con recursos limitados, no como un veredicto sobre el poder absoluto del héroe. Un héroe puede ser A aquí y seguir siendo la mejor elección en otro roster.",
   "bands_th": [
@@ -53,32 +32,7 @@
     "Etiqueta",
     "Qué significa para una cuenta de Steam/transferencia"
   ],
-  "bands": [
-    {
-      "tier": "S",
-      "label": "Construir primero",
-      "meaning": "Define un puesto en este escenario; desbloquea la siguiente barrera o cubre el rol que tu cuenta no puede omitir.",
-      "action": "Sube de nivel, despierta y dale tu mejor equipamiento primero."
-    },
-    {
-      "tier": "A",
-      "label": "Construir después",
-      "meaning": "Fuerte y flexible; cubre un rol que tu núcleo S no cubre o mejora una opción gratuita.",
-      "action": "Construye después de que tu núcleo S tenga un set de equipamiento usable."
-    },
-    {
-      "tier": "B",
-      "label": "Económico / situacional",
-      "meaning": "Útil con equipamiento gratuito o en un puesto concreto; no es prioridad frente al núcleo S/A.",
-      "action": "Mantenlo en un nivel usable; no persigas equipamiento perfecto."
-    },
-    {
-      "tier": "C",
-      "label": "Omitir por ahora",
-      "meaning": "Bajo retorno para una cuenta de Steam/Foundry hasta que el roster y la biblioteca de equipamiento sean más amplios.",
-      "action": "No gastes molagora ni amuletos todavía."
-    }
-  ],
+  "bands": [],
   "bands_note": "Las letras de tier son las bandas de construcción de esta página. No son valoraciones oficiales ni sustituyen a los rankings de roster completo o a las pruebas en el cliente.",
   "constraints_h2": "La realidad de los recursos tras la transferencia",
   "constraints_intro": "La transferencia resuelve el problema de inicio de sesión; no resuelve el problema de recursos. Estas son las restricciones que cambian el orden de construcción.",
@@ -87,19 +41,19 @@
     "La molagora es el verdadero cuello de botella. Una tier list de 20 héroes no es un plan de construcción. Sube las habilidades de cuatro a seis héroes primero; deja el resto en +0 hasta que tengan un puesto fijo.",
     "El oro y los amuletos desaparecen más rápido que los marcadores. No refuerces cada objeto que caiga. Elige un equipo de Wyvern, farmea un set y para cuando las estadísticas principales sean usables.",
     "Los Leifs son para ventanas de mejoras, no para la impaciencia. Las mejoras iniciales de Foundry y el correo de celebración tienen sus propios temporizadores; revisa STOVE antes de quemar leifs en un día sin mejoras.",
-    "Los marcadores son una decisión de banner, no de tier. Que un héroe sea S en esta página no significa que debas invocar ahora. Consulta [[Banners|/banners/]] para ver el destacado vigente y confirma el pity en el cliente.",
+    "Los marcadores son una decisión de banner, no de tier. Que un héroe tenga una nota alta en otro sitio no significa que debas invocar ahora. Consulta [[Banners|/banners/]] para ver el destacado vigente y confirma el pity en el cliente.",
     "Foundry no es un destino de transferencia. Un inicio de sesión antiguo convertido se queda en su servidor; Guild War y World Arena de Foundry necesitan un personaje en Foundry. Presupuesta por separado si juegas en ambos.",
     "No elimines la cuenta dentro del juego después de la transferencia para «limpiar» la demo. El [[aviso de demo|/demo-delete-warning/]] existe porque esa acción puede borrar el progreso del servidor original.",
     "Las fechas mandan más que las tier lists. Guild War de Foundry está anunciada alrededor del 2026-11-21 03:00 UTC y World Arena tras el mantenimiento del 2026-12-10. Construye pensando en la fecha en la que realmente puedas presentar un equipo."
   ],
-  "pve_h2": "Banda de PvE / incorporación en Steam",
-  "pve_intro": "Esta es la lista de «superar la siguiente barrera»: historia, Wyvern y el primer equipo de Hunt estable. En una cuenta nueva de Steam/Foundry, las unidades gratuitas de cambio de especialidad hacen casi todo el trabajo; los héroes de banner son aceleradores opcionales. Si ya transferiste una cuenta antigua con equipamiento, puedes saltarte casi toda esta banda e ir directo a las secciones de Guild War y World Arena.",
-  "pve_note": "Las bandas de PvE premian la fiabilidad y el bajo costo de equipamiento. Un héroe que supera el contenido con equipamiento de velocidad gratuito vale más para una cuenta nueva que un héroe premium que necesita un set completo que no tienes.",
-  "gw_h2": "Banda de Guild War (Foundry se desbloquea alrededor del 2026-11-21)",
+  "pve_h2": "Prioridades de PvE / incorporación en Steam",
+  "pve_intro": "Esta es la lista de «superar la siguiente barrera»: historia, Wyvern y el primer equipo de Hunt estable. En una cuenta nueva de Steam/Foundry, las unidades gratuitas de cambio de especialidad hacen casi todo el trabajo; los héroes de banner son aceleradores opcionales. Si ya transferiste una cuenta antigua con equipamiento, puedes saltarte casi toda esta sección e ir directo a las secciones de Guild War y World Arena.",
+  "pve_note": "En PvE importan la fiabilidad y el bajo costo de equipamiento. Un héroe que supera el contenido con equipamiento de velocidad gratuito vale más para una cuenta nueva que un héroe premium que necesita un set completo que no tienes.",
+  "gw_h2": "Cobertura de roles en Guild War (Foundry se desbloquea alrededor del 2026-11-21)",
   "gw_answer": "Para Guild War, construye un tanque que aguante una torre, un apoyo de revivir/limpieza y un personaje de daño que puedas usar tanto en ataque como en defensa. No construyas doce héroes de Guild War; construye cuatro que cubran ambos lados.",
   "gw_intro": "Guild War premia más la cobertura de roles que el nivel bruto de la tier list. Un equipo que sobrevive los dos primeros turnos y recicla un revivir suele ser más útil que un cañón de cristal que gana un ataque y pierde todas las defensas. Guild War de Foundry está programada alrededor del 2026-11-21 03:00 UTC según la tabla de celebración de STOVE; vuelve a revisar el aviso vigente antes de planificar los reinicios de gremio.",
   "gw_off_h3": "Núcleo de ataque",
-  "gw_off_note": "El ataque quiere un iniciador fiable, una ruptura de defensa o un strip, y un personaje de daño que no necesite equipamiento perfecto. La sincronización de velocidad importa más que una insignia de tier alta.",
+  "gw_off_note": "El ataque quiere un iniciador fiable, una ruptura de defensa o un strip, y un personaje de daño que no necesite equipamiento perfecto. La sincronización de velocidad importa más que una nota alta de otro sitio.",
   "gw_def_h3": "Núcleo de defensa",
   "gw_def_note": "La defensa quiere un tanque, una limpieza/revivir y suficiente resistencia a efectos para sobrevivir la primera oleada de control. Un equipo defensivo que aguanta está cumpliendo su función incluso cuando no mata.",
   "gw_prep_h3": "Lista de comprobación antes de la apertura",
@@ -112,7 +66,7 @@
     "No gastes leifs ni moneda de gremio en un héroe que solo funciona en un lado de la guerra."
   ],
   "gw_link_label": "Detalles de Guild War de Foundry",
-  "wa_h2": "Banda de World Arena (Foundry se desbloquea después del 2026-12-10)",
+  "wa_h2": "Cobertura de roles en World Arena (Foundry se desbloquea después del 2026-12-10)",
   "wa_answer": "World Arena premia la cobertura de draft: iniciadores de velocidad/CR, control y uno o dos contraataques. Para una cuenta con recursos limitados, construye un iniciador rápido y un personaje de daño flexible antes de perseguir contraataques de nicho.",
   "wa_intro": "World Arena no es Guild War con otro botón. Necesitas un plan para el orden de turnos, la limpieza y el ban/pick del rival. Los héroes que sostienen una cuenta inicial suelen ser los que inician la cadena de turnos o detienen la del rival, no los que tienen el mayor daño en PvE.",
   "wa_draft_h3": "Reglas prácticas de draft",
@@ -162,12 +116,12 @@
     [
       "Tanque de Guild War",
       "Ras / Fallen Cecilia",
-      "Ras es gratuito y sirve al principio; Fallen Cecilia es la mejora de consenso público si la tienes."
+      "Ras es gratis y útil al principio; Fallen Cecilia es una mejora directa de tanque si ya la tienes."
     ],
     [
       "Revivir / defensa de GW",
       "Ruele of Light / Maid Chloe",
-      "Apoyos defensivos de consenso público; úsalos solo si ya los tienes — no persigas un banner para un puesto defensivo que no puedes equipar."
+      "Soportes defensivos que solo debes usar si ya los tienes; no persigas un banner por una posición defensiva que no puedes equipar."
     ],
     [
       "Iniciador de velocidad de World Arena",
@@ -191,8 +145,8 @@
     "Día 11–12: define ataque y defensa, únete a un gremio y confirma el estado Aceptado. Completa las misiones diarias de gremio.",
     "Día 13–14: empieza el iniciador de World Arena. Un set de velocidad, una opción de limpieza y un personaje de daño flexible. Guarda el resto para la ventana de World Arena del 2026-12-10."
   ],
-  "roster_h2": "Los 12 héroes de esta página (avatares del sitio)",
-  "roster_intro": "Son las mismas 12 cartas documentadas en [[Héroes|/heroes/]], así que el arte y los nombres se quedan en el sitio. Las letras de tier bajo cada carta son las bandas de escenario de esta página, no valoraciones oficiales.",
+  "roster_h2": "Cartas de héroe en esta página (avatares del sitio)",
+  "roster_intro": "Estas mismas cartas aparecen en [[Héroes|/heroes/]], así que el arte y los nombres se quedan en el sitio. Cada nota describe el rol que cubre el héroe; no hay letras de tier bajo las cartas.",
   "hero_notes": {
     "ras": "Caballero gratuito y ancla de la historia. Tanque temprano para PvE y un cuerpo usable en Guild War cuando no tienes un tanque premium.",
     "mercedes": "Maga de AoE inicial. Sirve para la historia; no es prioridad cuando ya tienes un personaje de farmeo real.",
@@ -215,15 +169,15 @@
     "politis": "Anti-cleave y disrupción de CR. Una respuesta de World Arena a los drafts de velocidad; de nicho en PvE.",
     "cerise": "Iniciadora de control para World Arena. Fuerte cuando el draft la deja actuar primero; verifica el parche actual."
   },
-  "beyond_h2": "Ocho básicos de GW/WA más allá de los 12 iniciales",
-  "beyond_intro": "Estos nombres se citan mucho en la discusión pública de PvP de Epic Seven. Los incluimos para mostrar qué roles no puede cubrir tu roster inicial; no estamos afirmando un ranking global nuevo. Verifica kits y posición actual en las referencias enlazadas.",
+  "beyond_h2": "Ejemplos de roles GW/WA más allá de los 12 iniciales",
+  "beyond_intro": "Son ejemplos de roles que el roster inicial no cubre; no son un ranking. Verifica kits y posición actual por modo en las fuentes enlazadas en [[la página de recursos de tier lists|/tier-list/]].",
   "banners_h2": "Banners: cuándo una tier list no debería tomar la decisión",
-  "banners_p": "La banda de un héroe en esta página no es una recomendación de invocación. El momento del banner, el pity y las tasas están en el cliente; las notas de calendario están en [[Banners|/banners/]]. Si un destacado no cubre uno de tus cuatro huecos abiertos, sáltalo. Si estás en Foundry, recuerda que la ruta de Luna del rango 70 y las invocaciones diarias gratuitas de Covenant son recompensas de celebración con su propia ventana, no una razón para abandonar tu plan de construcción. Consulta [[Foundry|/foundry/]] para el calendario y [[FAQ|/faq/]] para dudas de transferencia.",
+  "banners_p": "La nota de rol de un héroe en esta página no es una recomendación de invocación. El momento del banner, el pity y las tasas están en el cliente; las notas de calendario están en [[Banners|/banners/]]. Si un pick-up no cubre una de tus cuatro posiciones abiertas, sáltalo. Si estás en Foundry, recuerda que la ruta de Luna Rank 70 y las invocaciones Covenant diarias gratuitas son recompensas de celebración con su propia ventana: no son razón para abandonar tu plan de build. Consulta [[Foundry|/foundry/]] para el calendario y [[FAQ|/faq/]] para dudas de transferencia.",
   "faq_h2": "FAQ de la tier list",
   "faqs": [
     [
       "¿Es esta una tier list global de Epic Seven?",
-      "No. Clasifica la prioridad de construcción para cuentas de Steam/Foundry y cuentas transferidas. Para rankings de roster completo, usa epic7db o Prydwen; los enlazamos y no republicamos sus tablas."
+      "No. Describe la prioridad de construcción para cuentas Steam/Foundry y transferidas. Para rankings de roster completo o por modo, usa las fuentes comparadas en [[la página de recursos de tier lists|/tier-list/]]; enlazamos y no republicamos sus tablas."
     ],
     [
       "¿Transferir mi cuenta traslada mis héroes a Foundry?",
@@ -246,8 +200,8 @@
       "Solo lo que realmente traslades o vuelvas a farmear. La transferencia no duplica equipamiento ni molagora. Trata Foundry como un presupuesto de recursos aparte, a menos que solo juegues el personaje antiguo en Steam."
     ],
     [
-      "¿Debería invocar un héroe porque es S en esta página?",
-      "No. Las bandas son prioridad de construcción, no consejo de banner. Consulta el destacado vigente en /banners/, tu contador de pity en el cliente y si el héroe cubre un hueco abierto."
+      "¿Debo invocar a un héroe porque aparece en esta página?",
+      "No. Esta página describe el orden de construcción, no aconseja sobre banners. Consulta el pick-up activo en /banners/, tu contador de pity en el juego y si el héroe cubre una posición abierta."
     ],
     [
       "¿Con qué frecuencia se actualiza esta página?",
@@ -255,7 +209,7 @@
     ]
   ],
   "sources_h2": "Fuentes y cómo verificar",
-  "sources_note": "Fechas oficiales y reglas de transferencia: STOVE/Steam. Rankings de roster completo y kits: epic7db, Prydwen, epic7x. Las notas del escenario Steam/transferencia de esta página son originales; si un aviso oficial entra en conflicto con esta página, gana el aviso oficial.",
+  "sources_note": "Fechas oficiales y reglas de transferencia: STOVE/Steam. Rankings y kits por modo: epic7db, gacha.gg, hideoutgacha, Epic Helper. Las fechas y límites de cada fuente se comparan en [[la página de recursos de tier lists|/tier-list/]]. Las notas de escenario Steam/transferencia de esta página son originales; si un aviso oficial entra en conflicto, gana el aviso oficial.",
   "related_h2": "Relacionado en este sitio",
   "related": [
     [

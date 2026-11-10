@@ -1,5 +1,3 @@
-import type { Tier } from './heroes';
-
 export type TierListCopy = {
   title: string;
   meta: string;
@@ -30,7 +28,7 @@ export type TierListCopy = {
   bands_h2: string;
   bands_intro: string;
   bands_th: [string, string, string];
-  bands: { tier: Tier; label: string; meaning: string; action: string }[];
+  bands: { label: string; meaning: string; action: string }[];
   bands_note: string;
   constraints_h2: string;
   constraints_intro: string;

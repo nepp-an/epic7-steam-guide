@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { TierListView } from '@/components/pages/renderers';
 import { TIER_LIST_COPY } from '@/lib/i18n/tier-list';
-import { pageMetadata } from '@/lib/site';
+import { pageMetadata, steamTierLanguageAlternates } from '@/lib/site';
 
 const LOCALE = 'zh-tw' as const;
 const PATH = '/tier-list/';
@@ -12,6 +12,7 @@ export const metadata: Metadata = pageMetadata({
   description: copy.meta,
   path: PATH,
   locale: LOCALE,
+  languageAlternates: steamTierLanguageAlternates(),
 });
 
 export default function Page() {

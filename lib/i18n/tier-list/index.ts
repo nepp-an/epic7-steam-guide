@@ -12,14 +12,7 @@ import pl from './pl.json';
 import type { TierListCopy } from './types';
 
 export type { TierListCopy } from './types';
-export {
-  TIER_HEROES,
-  TIER_ORDER,
-  type GwSide,
-  type Tier,
-  type TierHero,
-  type TierScenario,
-} from './heroes';
+export { TIER_HEROES, type TierHero } from './heroes';
 
 export const TIER_LIST_COPY: Record<Locale, TierListCopy> = {
   en: en as unknown as TierListCopy,

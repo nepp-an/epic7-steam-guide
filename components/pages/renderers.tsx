@@ -29,7 +29,9 @@ import {
 import {
   AS_OF,
   CONTACT_PRIVACY,
+  LOCALES,
   OFFICIAL,
+  STEAM_TIER_PATHS,
   TARGET_DOMAIN,
   type Locale,
   localizedPath,
@@ -37,10 +39,7 @@ import {
 import {
   TIER_HEROES,
   TIER_LIST_COPY,
-  TIER_ORDER,
-  type Tier,
   type TierHero,
-  type TierScenario,
 } from '@/lib/i18n/tier-list';
 
 function L({
@@ -2269,18 +2268,9 @@ export function QuestsView({ locale }: { locale: Locale }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* /tier-list/ — Steam/transfer lens. Kept outside CONTENT so the page */
-/* can use typed scenario bands without widening every locale object.  */
+/* /steam-tier-list/ (English) and /{locale}/tier-list/ — Steam/        */
+/* transfer build priorities. No letter grades are rendered here.       */
 /* ------------------------------------------------------------------ */
-
-function TierBadge({ tier, label }: { tier: Tier; label?: string }) {
-  return (
-    <span className={`tier-badge tier-${tier.toLowerCase()}`}>
-      {label ? `${label} ` : ''}
-      {tier}
-    </span>
-  );
-}
 
 function TierItem({ hero, locale }: { hero: TierHero; locale: Locale }) {
   const content = (
@@ -2297,7 +2287,7 @@ function TierItem({ hero, locale }: { hero: TierHero; locale: Locale }) {
         />
       ) : (
         <span className="tier-initial" aria-hidden="true">
-          {hero.name.slice(0, 1)}
+          {hero.name.slice(0, 2)}
         </span>
       )}
       <span>{hero.name}</span>
@@ -2310,43 +2300,6 @@ function TierItem({ hero, locale }: { hero: TierHero; locale: Locale }) {
     <L locale={locale} href={`/heroes/#${hero.slug}`} className="tier-chip">
       {content}
     </L>
-  );
-}
-
-function TierBoard({
-  locale,
-  scenario,
-  side,
-}: {
-  locale: Locale;
-  scenario: TierScenario;
-  side?: 'offense' | 'defense';
-}) {
-  return (
-    <div className="tier-board">
-      {TIER_ORDER.map((tier) => {
-        const list = TIER_HEROES.filter((hero) => {
-          if (hero[scenario] !== tier) return false;
-          if (!side) return true;
-          return (
-            hero.gwSide === side ||
-            hero.gwSide === 'both' ||
-            hero.gwSide === 'flex'
-          );
-        });
-        if (list.length === 0) return null;
-        return (
-          <div className="tier-row" key={tier}>
-            <div className={`tier-label tier-${tier.toLowerCase()}`}>{tier}</div>
-            <div className="tier-items">
-              {list.map((hero) => (
-                <TierItem key={hero.slug} hero={hero} locale={locale} />
-              ))}
-            </div>
-          </div>
-        );
-      })}
-    </div>
   );
 }
 
@@ -2373,7 +2326,7 @@ function TierHeroCard({
         />
       ) : (
         <span className="tier-monogram" aria-hidden="true">
-          {hero.name.slice(0, 1)}
+          {hero.name.slice(0, 2)}
         </span>
       )}
       <div className="hero-card-main">
@@ -2390,11 +2343,6 @@ function TierHeroCard({
           <span className={elementChipClass(hero.element)}>{hero.element}</span>
           <span className="chip chip-role">{hero.role}</span>
         </div>
-        <div className="tier-badges">
-          <TierBadge tier={hero.pve} label="PvE" />
-          <TierBadge tier={hero.gw} label="GW" />
-          <TierBadge tier={hero.wa} label="WA" />
-        </div>
         <p className="hero-brief">{note}</p>
       </div>
     </article>
@@ -2406,9 +2354,15 @@ export function TierListView({ locale }: { locale: Locale }) {
   const faqs = c.faqs.map(([q, a]) => [q, faqPlain(a)] as const);
   const avatarHeroes = TIER_HEROES.filter((hero) => hero.avatar);
   const beyondHeroes = TIER_HEROES.filter((hero) => !hero.avatar);
+  const pagePath = locale === 'en' ? '/steam-tier-list/' : '/tier-list/';
 
   return (
-    <PageShell locale={locale} path="/tier-list/">
+    <PageShell
+      locale={locale}
+      path={pagePath}
+      languages={LOCALES}
+      languagePaths={STEAM_TIER_PATHS}
+    >
       <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} />
@@ -2417,11 +2371,17 @@ export function TierListView({ locale }: { locale: Locale }) {
         <time dateTime="2026-11-03">2026-11-03</time>
         {c.last_after}
       </p>
+      {locale === 'en' && (
+        <p className="muted">
+          Build-priority text reviewed 2026-11-10 against the mode sources
+          linked below; official event dates were last checked 2026-11-03 and
+          are not re-dated by this edit.
+        </p>
+      )}
       <QuickAnswer text={c.answer} />
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#steam-lens">{c.anchor_why}</a>
-        <a href="#bands">{c.anchor_bands}</a>
         <a href="#steam-constraints">{c.anchor_constraints}</a>
         <a href="#pve">{c.anchor_pve}</a>
         <a href="#guild-war">{c.anchor_gw}</a>
@@ -2432,6 +2392,12 @@ export function TierListView({ locale }: { locale: Locale }) {
         <a href="#faq">{c.anchor_faq}</a>
       </nav>
       <p className="prio-note muted">{c.lens_note}</p>
+      {locale === 'en' && (
+        <p className="muted">
+          Looking for mode-specific sources, update dates and limits? See the{' '}
+          <Link href="/tier-list/">tier-list resource page</Link>.
+        </p>
+      )}
       <Fig
         src="/images/steam-ss-battle.webp"
         alt={c.img_alt_battle}
@@ -2447,45 +2413,13 @@ export function TierListView({ locale }: { locale: Locale }) {
         <aside className="card warn">
           <h3>{c.not_h2}</h3>
           <p>{c.not_p}</p>
-          <ul className="sources">
-            {c.consensus.map((item) => (
-              <li key={item.href}>
-                <ExternalLink href={item.href}>{item.name}</ExternalLink> —{' '}
-                {item.note}
-              </li>
-            ))}
-          </ul>
+          {locale === 'en' && (
+            <p>
+              Mode sources, update dates and limits are compared on the{' '}
+              <Link href="/tier-list/">tier-list resource page</Link>.
+            </p>
+          )}
         </aside>
-      </section>
-
-      <section id="bands">
-        <h2>{c.bands_h2}</h2>
-        <p>{c.bands_intro}</p>
-        <table className="data">
-          <thead>
-            <tr>
-              {c.bands_th.map((th) => (
-                <th key={th}>{th}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {c.bands.map((band) => (
-              <tr key={band.tier}>
-                <td>
-                  <TierBadge tier={band.tier} />
-                </td>
-                <td>
-                  <strong>{band.label}</strong>
-                </td>
-                <td>
-                  {band.meaning} <span className="muted">{band.action}</span>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <p className="muted">{c.bands_note}</p>
       </section>
 
       <section id="steam-constraints">
@@ -2508,7 +2442,6 @@ export function TierListView({ locale }: { locale: Locale }) {
       <section id="pve">
         <h2>{c.pve_h2}</h2>
         <p>{c.pve_intro}</p>
-        <TierBoard locale={locale} scenario="pve" />
         <p className="muted">{c.pve_note}</p>
       </section>
 
@@ -2520,10 +2453,8 @@ export function TierListView({ locale }: { locale: Locale }) {
         </p>
         <p>{c.gw_intro}</p>
         <h3>{c.gw_off_h3}</h3>
-        <TierBoard locale={locale} scenario="gw" side="offense" />
         <p className="muted">{c.gw_off_note}</p>
         <h3>{c.gw_def_h3}</h3>
-        <TierBoard locale={locale} scenario="gw" side="defense" />
         <p className="muted">{c.gw_def_note}</p>
         <h3>{c.gw_prep_h3}</h3>
         <ul>
@@ -2545,7 +2476,6 @@ export function TierListView({ locale }: { locale: Locale }) {
           {c.wa_answer}
         </p>
         <p>{c.wa_intro}</p>
-        <TierBoard locale={locale} scenario="wa" />
         <h3>{c.wa_draft_h3}</h3>
         <ul>
           {c.wa_draft.map((item) => (
@@ -2667,19 +2597,42 @@ export function TierListView({ locale }: { locale: Locale }) {
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href="https://epic7db.com/">epic7db</ExternalLink> —{' '}
-            full-roster reference
-          </li>
-          <li>
-            <ExternalLink href="https://www.prydwen.gg/epic-seven/">
-              Prydwen — Epic Seven
+            <ExternalLink href="https://epic7db.com/tier-list">
+              epic7db — PvE/PvP boards
             </ExternalLink>{' '}
-            — patch rankings
+            — PvE 2025-08-28; PvP 2026-03-28
           </li>
           <li>
-            <ExternalLink href="https://epic7x.com/">epic7x</ExternalLink> —
-            hero kit pages
+            <ExternalLink href="https://www.gacha.gg/epic-seven/tier-list">
+              gacha.gg — RTA tier list
+            </ExternalLink>{' '}
+            — RTA pick/ban data; read the tab date and sample
           </li>
+          <li>
+            <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/tier-list">
+              hideoutgacha — RTA usage
+            </ExternalLink>{' '}
+            — Fall 2026 Champion+; page-reported totals
+          </li>
+          <li>
+            <ExternalLink href="https://epic7helper.com/tier-list">
+              Epic Helper — RTA win/ban rates
+            </ExternalLink>{' '}
+            — November 2026 label; different threshold
+          </li>
+          <li>
+            <ExternalLink href="https://epicseven.fandom.com/wiki/Tier_List">
+              Epic Seven Fandom — Tier List
+            </ExternalLink>{' '}
+            — explicitly no longer maintained; history only
+          </li>
+          {locale === 'en' && (
+            <li>
+              <Link href="/tier-list/">
+                Tier-list resources by mode — dates, methods and limits
+              </Link>
+            </li>
+          )}
         </ul>
       </section>
 

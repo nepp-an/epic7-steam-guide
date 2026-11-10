@@ -12,10 +12,12 @@ export function SiteHeader({
   locale = 'en',
   path = '/',
   languages = LOCALES,
+  languagePaths,
 }: {
   locale?: Locale;
   path?: string;
   languages?: readonly Locale[];
+  languagePaths?: Partial<Record<Locale, string>>;
 }) {
   const labels = NAV_LABELS[locale];
   return (
@@ -40,7 +42,7 @@ export function SiteHeader({
             {languages.map((loc) => (
               <li key={loc}>
                 <Link
-                  href={localizedPath(loc, path)}
+                  href={localizedPath(loc, languagePaths?.[loc] ?? path)}
                   hrefLang={loc === 'zh-tw' ? 'zh-Hant' : loc}
                   aria-current={loc === locale ? 'page' : undefined}
                 >

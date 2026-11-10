@@ -8,15 +8,22 @@ export function PageShell({
   path,
   children,
   languages = LOCALES,
+  languagePaths,
 }: {
   locale: Locale;
   path: string;
   children: React.ReactNode;
   languages?: readonly Locale[];
+  languagePaths?: Partial<Record<Locale, string>>;
 }) {
   return (
     <LocaleBody locale={locale}>
-      <SiteHeader locale={locale} path={path} languages={languages} />
+      <SiteHeader
+        locale={locale}
+        path={path}
+        languages={languages}
+        languagePaths={languagePaths}
+      />
       <main>{children}</main>
       <SiteFooter locale={locale} />
     </LocaleBody>

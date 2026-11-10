@@ -1,23 +1,16 @@
 /**
- * Shared hero facts for /tier-list/.
+ * Shared hero facts for the Steam build-priority pages.
  *
  * `avatar: true` heroes already have a self-drawn element-colour avatar in
- * public/images/avatars/ and a card on /heroes/. The other names are common
- * GW/WA staples listed only to show role gaps; we do not host official art.
+ * public/images/avatars/ and a card on /heroes/. The other names are role
+ * examples for slots the starter roster does not fill; we do not host official
+ * art for them. This file intentionally carries no letter grades.
  */
-export type Tier = 'S' | 'A' | 'B' | 'C';
-export type TierScenario = 'pve' | 'gw' | 'wa';
-export type GwSide = 'offense' | 'defense' | 'both' | 'flex';
-
 export type TierHero = {
   slug: string;
   name: string;
   role: string;
   element: 'Fire' | 'Ice' | 'Earth' | 'Light' | 'Dark';
-  pve: Tier;
-  gw: Tier;
-  wa: Tier;
-  gwSide: GwSide;
   avatar: boolean;
 };
 
@@ -27,10 +20,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Angelic Montmorancy',
     role: 'Soul Weaver',
     element: 'Ice',
-    pve: 'S',
-    gw: 'A',
-    wa: 'A',
-    gwSide: 'both',
     avatar: true,
   },
   {
@@ -38,10 +27,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Falconer Kluri',
     role: 'Knight',
     element: 'Earth',
-    pve: 'S',
-    gw: 'A',
-    wa: 'A',
-    gwSide: 'both',
     avatar: true,
   },
   {
@@ -49,10 +34,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Commander Lorina',
     role: 'Warrior',
     element: 'Dark',
-    pve: 'S',
-    gw: 'A',
-    wa: 'B',
-    gwSide: 'offense',
     avatar: true,
   },
   {
@@ -60,10 +41,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Alexa',
     role: 'Thief',
     element: 'Ice',
-    pve: 'S',
-    gw: 'C',
-    wa: 'C',
-    gwSide: 'flex',
     avatar: true,
   },
   {
@@ -71,10 +48,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Furious',
     role: 'Ranger',
     element: 'Ice',
-    pve: 'A',
-    gw: 'B',
-    wa: 'C',
-    gwSide: 'offense',
     avatar: true,
   },
   {
@@ -82,10 +55,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Vildred',
     role: 'Thief',
     element: 'Earth',
-    pve: 'A',
-    gw: 'B',
-    wa: 'B',
-    gwSide: 'offense',
     avatar: true,
   },
   {
@@ -93,10 +62,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Luna',
     role: 'Mage',
     element: 'Ice',
-    pve: 'A',
-    gw: 'B',
-    wa: 'B',
-    gwSide: 'offense',
     avatar: true,
   },
   {
@@ -104,10 +69,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Ras',
     role: 'Knight',
     element: 'Fire',
-    pve: 'B',
-    gw: 'B',
-    wa: 'C',
-    gwSide: 'defense',
     avatar: true,
   },
   {
@@ -115,10 +76,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Mercedes',
     role: 'Mage',
     element: 'Fire',
-    pve: 'B',
-    gw: 'C',
-    wa: 'C',
-    gwSide: 'flex',
     avatar: true,
   },
   {
@@ -126,10 +83,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Aither',
     role: 'Soul Weaver',
     element: 'Ice',
-    pve: 'B',
-    gw: 'C',
-    wa: 'C',
-    gwSide: 'defense',
     avatar: true,
   },
   {
@@ -137,10 +90,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Silk',
     role: 'Ranger',
     element: 'Earth',
-    pve: 'B',
-    gw: 'C',
-    wa: 'C',
-    gwSide: 'flex',
     avatar: true,
   },
   {
@@ -148,10 +97,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Judith',
     role: 'Thief',
     element: 'Fire',
-    pve: 'B',
-    gw: 'C',
-    wa: 'C',
-    gwSide: 'flex',
     avatar: true,
   },
   {
@@ -159,10 +104,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Tamarinne',
     role: 'Soul Weaver',
     element: 'Fire',
-    pve: 'S',
-    gw: 'A',
-    wa: 'A',
-    gwSide: 'both',
     avatar: false,
   },
   {
@@ -170,10 +111,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Fallen Cecilia',
     role: 'Knight',
     element: 'Dark',
-    pve: 'B',
-    gw: 'S',
-    wa: 'A',
-    gwSide: 'defense',
     avatar: false,
   },
   {
@@ -181,10 +118,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Ruele of Light',
     role: 'Soul Weaver',
     element: 'Light',
-    pve: 'A',
-    gw: 'S',
-    wa: 'A',
-    gwSide: 'defense',
     avatar: false,
   },
   {
@@ -192,10 +125,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Seaside Bellona',
     role: 'Ranger',
     element: 'Ice',
-    pve: 'A',
-    gw: 'A',
-    wa: 'A',
-    gwSide: 'both',
     avatar: false,
   },
   {
@@ -203,10 +132,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Specter Tenebria',
     role: 'Mage',
     element: 'Dark',
-    pve: 'B',
-    gw: 'A',
-    wa: 'A',
-    gwSide: 'offense',
     avatar: false,
   },
   {
@@ -214,10 +139,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Arbiter Vildred',
     role: 'Thief',
     element: 'Dark',
-    pve: 'A',
-    gw: 'A',
-    wa: 'S',
-    gwSide: 'offense',
     avatar: false,
   },
   {
@@ -225,10 +146,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Politis',
     role: 'Mage',
     element: 'Earth',
-    pve: 'C',
-    gw: 'A',
-    wa: 'S',
-    gwSide: 'defense',
     avatar: false,
   },
   {
@@ -236,12 +153,6 @@ export const TIER_HEROES: readonly TierHero[] = [
     name: 'Cerise',
     role: 'Ranger',
     element: 'Ice',
-    pve: 'C',
-    gw: 'A',
-    wa: 'S',
-    gwSide: 'offense',
     avatar: false,
   },
 ] as const;
-
-export const TIER_ORDER: readonly Tier[] = ['S', 'A', 'B', 'C'] as const;

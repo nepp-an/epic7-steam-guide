@@ -117,6 +117,36 @@ export function languageAlternatesFor(
   return languages;
 }
 
+/**
+ * The old locale /tier-list/ pages are Steam/transfer build guides, not
+ * translations of the English /tier-list/ resource page. Their English
+ * equivalent is /steam-tier-list/, so they form one reciprocal hreflang
+ * group with that page. Each locale keeps its own self-canonical URL.
+ */
+export const STEAM_TIER_PATHS: Record<Locale, string> = {
+  en: '/steam-tier-list/',
+  ko: '/tier-list/',
+  ja: '/tier-list/',
+  'zh-tw': '/tier-list/',
+  th: '/tier-list/',
+  es: '/tier-list/',
+  pt: '/tier-list/',
+  de: '/tier-list/',
+  fr: '/tier-list/',
+  pl: '/tier-list/',
+};
+
+export function steamTierLanguageAlternates(): Record<string, string> {
+  const languages: Record<string, string> = {};
+  for (const loc of LOCALES) {
+    languages[hreflangKey(loc)] = absoluteUrl(
+      localizedPath(loc, STEAM_TIER_PATHS[loc]),
+    );
+  }
+  languages['x-default'] = absoluteUrl('/steam-tier-list/');
+  return languages;
+}
+
 export type PageSeo = {
   title: string;
   description: string;
@@ -127,6 +157,8 @@ export type PageSeo = {
   ogImage?: string;
   /** Locales that actually ship this path. Defaults to all L1 locales. */
   alternateLocales?: readonly Locale[];
+  /** Explicit reciprocal hreflang map. Overrides alternateLocales when set. */
+  languageAlternates?: Record<string, string>;
 };
 
 export function pageMetadata({
@@ -137,6 +169,7 @@ export function pageMetadata({
   absoluteTitle,
   ogImage,
   alternateLocales,
+  languageAlternates,
 }: PageSeo) {
   const full = absoluteTitle ? title : `${title} | ${BRAND}`;
   const canonicalPath = localizedPath(locale, path);
@@ -149,7 +182,8 @@ export function pageMetadata({
     description,
     alternates: {
       canonical: url,
-      languages: languageAlternatesFor(path, alternateLocales),
+      languages:
+        languageAlternates ?? languageAlternatesFor(path, alternateLocales),
     },
     openGraph: {
       title: full,
