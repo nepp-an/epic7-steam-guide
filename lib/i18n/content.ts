@@ -5256,10 +5256,10 @@ export const CONTENT = {
   },
   "/faq/": {
     "en": {
-      "title": "Epic Seven Steam FAQ — Transfer, Foundry & Launch | E7",
-      "meta": "Epic Seven Steam FAQ: wrong bind, demo wipe after transfer, and Foundry≠transfer — short answers with deep links. Launch fixes + STOVE sources. Unofficial.",
+      "title": "Epic Seven Steam FAQ — STOVE Bind, Demo Wipe & Foundry ≠ Transfer",
+      "meta": "Epic Seven Steam FAQ: wrong STOVE bind, demo wipe after transfer, and Foundry≠transfer — troubleshooting answers with deep links and STOVE sources. Unofficial.",
       "h1": "Epic Seven Steam FAQ & troubleshooting",
-      "answer": "Epic Seven Steam FAQ: a wrong bind usually means Steam made an empty Heir — withdraw it and convert the original with the [[transfer guide|/steam-transfer/]]. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
+      "answer": "Start with the [[Case Files|/case-files/]] index for documented account-recovery threads, then use this Epic Seven Steam FAQ: a wrong bind usually means Steam made an empty Heir — withdraw it and convert the original with the [[transfer guide|/steam-transfer/]]. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
       "lead": "Use this Epic Seven Steam FAQ alongside the homepage cards. Trust STOVE screens over any third-party script.",
       "faqs": [
@@ -11092,9 +11092,9 @@ export const CONTENT = {
   },
   "/maintenance/": {
     "en": {
-      "title": "Maintenance & version notes",
-      "meta": "Steam / Foundry maintenance log: weekly patches, Foundry Guild War stages, and the 11/19 balance preview. Cite STOVE/Steam.",
-      "h1": "Maintenance & version notes",
+      "title": "Epic Seven Maintenance & Patch Notes — Steam & Foundry",
+      "meta": "Epic Seven maintenance and patch notes for Steam / Foundry: current window, Foundry Guild War stages, and the 11/19 balance preview. Cite STOVE/Steam.",
+      "h1": "Epic Seven maintenance & patch notes",
       "lead": "Track weekly patches affecting Steam clients, Foundry unlocks, and launch caveats (e.g. Japanese VO delay).",
       "cards": [
         [
@@ -11154,7 +11154,7 @@ export const CONTENT = {
         "Call out Foundry-only schedule slips separately from legacy servers."
       ],
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Steam launch maintenance on 2026-10-29 brought the full client and Foundry; the 2026-11-05 patch (10:30–11:30 UTC) fixed intermittent Steam launch failures, a Foundry shop misdisplay, and stray Secret Rabbit♥Hole text. The 2026-11-07 Steam notice staged Foundry Guild War: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC, with a Foundry login gift through 11/23. A 11/19 balance preview names ML Death Dealer Ray, Requiem Roana, Eternal Wanderer Ludwig, Hellion Lua, Summertime Iseria, Guard Captain Krau, and 4★ Victorika — preview only, not final."
+      "answer": "Current window: the newest Steam/STOVE maintenance posted in this log is the 2026-11-05 Steam/Foundry patch, which ran 10:30–11:30 UTC (18:30–19:30 Asia/Shanghai) and fixed intermittent Steam launch failures, a Foundry shop misdisplay, and stray Secret Rabbit♥Hole text. Steam launch maintenance was 2026-10-29. The 2026-11-07 Steam notice staged Foundry Guild War: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC, with a Foundry login gift through 11/23. See [[updates|/updates/]] for newly posted STOVE/Steam windows; a separate 11/19 balance preview is names-only, not a confirmed maintenance window."
     },
     "ko": {
       "title": "점검·버전 노트",

@@ -102,11 +102,19 @@ function FaqJsonLd({ faqs }: { faqs: readonly (readonly [string, string])[] }) {
   );
 }
 
-function QuickAnswer({ text }: { text: string }) {
+function QuickAnswer({
+  text,
+  locale,
+  rich = false,
+}: {
+  text: string;
+  locale?: Locale;
+  rich?: boolean;
+}) {
   return (
     <p className="quick-answer">
       <strong>TL;DR — </strong>
-      {text}
+      {rich && locale ? <RichInline locale={locale} marked={text} /> : text}
     </p>
   );
 }
@@ -1704,7 +1712,7 @@ export function MaintenanceView({ locale }: { locale: Locale }) {
     <PageShell locale={locale} path="/maintenance/">
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} rich />
       <Fig
         src="/images/steam-capsule.webp"
         alt={c.img_alt}
