@@ -5,6 +5,7 @@ import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
 import { CONTENT } from '@/lib/i18n/content';
 import { CHECKLIST_COPY } from '@/lib/i18n/checklists';
+import { CORE_DEEPEN, type DeepenBlock } from '@/lib/i18n/coreDeepen';
 import {
   FOUNDRY_VERIFIED,
   FOUNDRY_VERIFIED_DATE,
@@ -308,6 +309,63 @@ function DeepBlock({
   );
 }
 
+function CoreDeepenSection({
+  locale,
+  path,
+}: {
+  locale: Locale;
+  path: keyof typeof CORE_DEEPEN;
+}) {
+  const block = CORE_DEEPEN[path]?.[locale] as DeepenBlock | undefined;
+  if (!block) return null;
+  return (
+    <section className="core-deepen">
+      <h2>{block.h2}</h2>
+      {block.lead ? (
+        <p>
+          <RichInline locale={locale} marked={block.lead} />
+        </p>
+      ) : null}
+      {block.cards?.map((card) => (
+        <div key={card.title} className="card">
+          <h3>{card.title}</h3>
+          <p>
+            <RichInline locale={locale} marked={card.body} />
+          </p>
+        </div>
+      ))}
+      {block.steps && block.steps.length > 0 ? (
+        <ol className="steps">
+          {block.steps.map((step) => (
+            <li key={step.slice(0, 40)}>
+              <RichInline locale={locale} marked={step} />
+            </li>
+          ))}
+        </ol>
+      ) : null}
+      {block.limits && block.limits.length > 0 ? (
+        <ul>
+          {block.limits.map((item) => (
+            <li key={item.slice(0, 40)}>
+              <RichInline locale={locale} marked={item} />
+            </li>
+          ))}
+        </ul>
+      ) : null}
+      {block.sources && block.sources.length > 0 ? (
+        <ul className="sources">
+          {block.sources.map(([href, label, date]) => (
+            <li key={href}>
+              <ExternalLink href={href}>{label}</ExternalLink>
+              {date ? ` — ${date}` : null}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </section>
+  );
+}
+
 function FaqBlock({
   locale,
   h2,
@@ -370,7 +428,7 @@ function faqPlain(marked: string): string {
 // /tier-list/ is the English resource page. The locale /{locale}/tier-list/
 // route is a different Steam build guide, so these wiki links must not be
 // localized to the reader's current locale.
-const ENGLISH_ONLY_PATHS = new Set(['/tier-list/']);
+const ENGLISH_ONLY_PATHS = new Set(['/tier-list/', '/case-files/']);
 
 function richParts(locale: Locale, marked: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
@@ -663,6 +721,7 @@ export function HomeView({ locale }: { locale: Locale }) {
           </ul>
         </div>
       </section>
+      <CoreDeepenSection locale={locale} path="/" />
       <section className="sources">
         <h2>{c.sources_h2}</h2>
         <ul>
@@ -773,6 +832,7 @@ export function DownloadView({ locale }: { locale: Locale }) {
       {c.deep_h2 && c.deep ? (
         <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
       ) : null}
+      <CoreDeepenSection locale={locale} path="/download/" />
       <h2>{c.refs_h2}</h2>
       <ul className="sources">
         <li>
@@ -959,6 +1019,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         </li>
       </ul>
       <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <CoreDeepenSection locale={locale} path="/steam-transfer/" />
       <section className="faq">
         <h2>{c.faq_h2}</h2>
         {c.faqs.map(([q, a]) => (
@@ -1158,6 +1219,7 @@ export function FaqView({ locale }: { locale: Locale }) {
           </L>
         </li>
       </ul>
+      <CoreDeepenSection locale={locale} path="/faq/" />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
         <li>
@@ -1490,6 +1552,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         </li>
       </ul>
       <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <CoreDeepenSection locale={locale} path="/foundry/" />
       <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.src_h2}</h2>
       <ul className="sources">
@@ -2024,6 +2087,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
       </table>
       <p className="muted">{c.note}</p>
       <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <CoreDeepenSection locale={locale} path="/heroes/" />
       <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>
@@ -2186,6 +2250,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
         .
       </p>
       <DeepBlock locale={locale} h2={c.deep_h2} paras={c.deep} />
+      <CoreDeepenSection locale={locale} path="/quests/" />
       <FaqBlock locale={locale} h2={c.faq_h2} faqs={c.faqs} />
       <h2>{c.related_h2}</h2>
       <ul>

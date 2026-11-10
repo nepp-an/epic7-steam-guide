@@ -5341,11 +5341,11 @@ export const CONTENT = {
       ],
       "check_h2": "짧은 점검 목록",
       "checks": [
-        "공식 Steam app 5019180인지 확인.",
-        "Steam이 쓰는 STOVE 로그인 확인.",
-        "STOVE 점검/파운드리 배너 확인.",
-        "Steam 로그인 전환 후 인게임 삭제 금지.",
-        "그래도 안 되면 STOVE 공식 CS."
+        "공식 Steam 스토어 app 5019180인지 확인하세요. 미러·크랙 설치 파일은 쓰지 마세요.",
+        "Steam이 지금 인가한 STOVE 로그인을 확인하세요. 빈 후계자면 재화나 시간을 쓰기 전에 이전 복구 절차를 여세요.",
+        "STOVE 점검 공지와 파운드리 배너를 확인하세요. 핵증일 2026-11-10 기준 길드전(11/19 도입·11/21 방어팀·11/23 매칭)과 WA(12/10 점검 후)는 아직 시작하지 않았습니다.",
+        "Steam 로그인 전환 후 인게임 계정 삭제를 쓰지 마세요. 데모 주의 페이지를 먼저 읽으세요.",
+        "그래도 막히면 디스코드 DM이 아니라 STOVE 공식 고객센터만 이용하세요."
       ],
       "src_h2": "공식 링크"
     },
@@ -12671,7 +12671,7 @@ export const CONTENT = {
       "roster_h2": "빠른 명단 표(카드와 동일)",
       "deep_h2": "육성 페이스 팁",
       "deep": [
-        "배너보다 전직 서포트+파머를 먼저; 파운드리 버프는 페이스만 바꿉니다. 신서버 길드전 시점은 [[파운드리 길드전|/foundry/#guild-war]]. 비공식 — STOVE 확인."
+        "배너를 돌리기 전에 전직 서포트와 파머 역할을 먼저 채우는 편이 온보딩에 안전합니다. 파운드리 성장 버프는 레벨링 속도를 바꿀 수 있어도 전직 재료와 장비 제작 관문을 없애지 않습니다. 이 페이지는 버전 강약 순위를 만들지 않으며, 스킬 배수와 재료는 게임 안 툴팁이 기준입니다. 신서버 길드전 시점은 [[파운드리 길드전|/foundry/#guild-war]](2026-11-19 도입, 11/21 방어팀, 11/23 매칭; 핵증일 2026-11-10 기준 미시작). 비공식 — STOVE 확인."
       ],
       "onsite_h2": "온사이트 역할 노트(위키 미러 아님)",
       "onsite": "그룹 카드·우선순위 바·순서도를 본 페이지에 둡니다. 커뮤니티 위키는 Further reading으로 접습니다.",
@@ -14657,24 +14657,25 @@ export const CONTENT = {
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷 — Steam CDN",
       "main_h2": "메인 스토리",
       "main": [
-        "해금과 재화를 위해 메인 에피소드를 우선 진행하세요.",
-        "스테미나 효율이 떨어지면 사냥/이벤트로 전환하세요.",
-        "스토리 해금이 전직 재료·사이드 콘텐츠를 여는 경우가 많습니다 — 퀘스트 로그 필터를 확인하세요.",
-        "레거시와 파운드리는 스토리 체크가 분리되어 있습니다."
+        "해금과 재화를 위해 모험의 메인 에피소드 스테이지를 우선 진행하세요. 클리어가 안정되면 자동 전투로 클리어 보상과 스토리 해금을 모읍니다.",
+        "사이드 스토리(런칭 창의 Secret Rabbit♥Hole 포함)는 로비 이벤트 아이콘에서 열립니다. 전용 페이지와 퀘스트 로그 필터를 함께 보세요.",
+        "심연·연구실 같은 긴 관문은 전직 서포트를 맞춘 뒤에 무리하게 고층을 밀지 않는 편이 안전합니다. 스토리 해금이 전직 재료와 사이드 콘텐츠를 여는 경우가 많습니다.",
+        "스테미나 효율이 떨어지면 사냥이나 진행 중 이벤트로 전환하세요. 레거시와 파운드리는 스토리 체크가 분리되어 있으니, 신서버에서는 같은 에피소드를 다시 밀어야 할 수 있습니다."
       ],
       "daily_h2": "일일(매 리셋)",
       "daily": [
-        "리셋마다 친밀도/선물 일일로 지원 유닛을 조용히 성장시키세요.",
-        "아레나 공격권과 사냥 일일을 처리하세요.",
-        "남은 AP는 아직 장비가 필요한 사냥에 소모하세요.",
-        "진행 중 이벤트 일일이 있으면 만료 전에 완료하세요."
+        "리셋마다 친밀도/선물 일일로 지원 유닛을 크게 AP를 쓰지 않고 성장시키세요.",
+        "장비 제작 목표에 맞춰 사냥·정령제단 일일을 처리하세요. 초반에는 속도 세트를 위한 와이번이 흔한 목표입니다. 필요 세트는 인게임 제작 창을 기준으로 하세요.",
+        "낮은 티어에 머무르더라도 주간 토큰을 위해 아레나 공격권을 쓰는 편이 낫습니다.",
+        "진행 중 이벤트 일일(예: 명탐정 일일 조사 포인트 → Lucky Board)은 만료 전에 완료하세요.",
+        "남은 AP는 리셋 전에, 아직 장비가 부족한 사냥에 소모하세요."
       ],
       "weekly_h2": "주간",
       "weekly": [
-        "주간 리셋 전에 주간 미션·상점 주간을 끝하세요.",
-        "길드에 있다면 주간 길드 숙제를 맞추세요.",
-        "파운드리 플레이어는 파운드리 페이지의 축하 우편 시한에 주간을 맞추세요.",
-        "AP 교환·주간 상점 한도를 리셋 전에 소진하세요."
+        "주간 리셋 전에 주간 미션, AP 교환, 상점 주간 한도를 소진하세요. 스테미나만 남기고 한도를 버리는 일이 없도록 합니다.",
+        "길드가 있으면 출석·기부·사냥 도움 등 주간 길드 숙제를 리셋 전에 맞추세요. 파운드리 길드전은 2026-11-19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀 구성, 2026-11-23 03:00 UTC 매칭입니다(파운드리 캘린더). 핵증일 2026-11-10 기준 아직 시작하지 않았습니다.",
+        "월드 아레나와 랭크 모드는 자체 시즌을 따릅니다. 파운드리 WA는 2026-12-10 점검 후이며, 공식 공지는 KST와 UTC를 각각 표기했습니다.",
+        "파운드리 플레이어는 파운드리 페이지의 축하 우편·촉매 주간 시한에 주간 숙제를 맞추세요. 레거시 길드 일정과 섞지 마세요."
       ],
       "event_h2": "런칭 창 이벤트",
       "event": [
@@ -14708,7 +14709,7 @@ export const CONTENT = {
       "foundry_delta": [
         "파운드리 캐릭은 레거시 퀘스트 체크를 상속하지 않습니다 — 신서버에서 스토리/미션 트랙을 다시 밀어야 합니다.",
         "축하 미션·우편 선물·시한 촉매 주간은 Steam 런칭 창 동안 파운드리에만 나타날 수 있습니다.",
-        "파운드리 길드전/드래프트/월드 아레나 해금일은 파운드리 캘린더를 따릅니다(길드전 ≈2026-11-21 03:00 UTC, STOVE) — 레거시 길드 일정이 아닙니다.",
+        "파운드리 길드전/드래프트/월드 아레나 해금일은 파운드리 캘린더를 따릅니다(길드전 2026-11-19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭; 월드 아레나 2026-12-10 점검 후, 공식 공지는 KST와 UTC를 각각 표기). 레거시 길드 일정이 아닙니다. 핵증일 2026-11-10 기준 길드전과 WA는 아직 시작하지 않았습니다.",
         "로그인 이전은 레거시 서버의 퀘스트 진행을 유지하며 파운드리 미션을 자동 완료하지 않습니다."
       ],
       "foundry_track": "레거시 퀘스트 트랙은 옛 서버 후계자의 에피소드 클리어, 심연 층, 주간 길드 숙제입니다. Steam 이전은 그 체크를 그 서버에 남깁니다(STOVE Steam FAQ view/14378309). 파운드리 개척 트랙은 새 캐릭터에서 0부터 시작하며, 레거시에 없는 스토리 관문과 축하 미션이 포함됩니다. 한쪽을 끝내도 다른 쪽이 완료되지 않으니, 레거시 주간이 끝날 것이라며 파운드리 스테미나를 쓰지 마세요. 개척 트랙의 날짜형 해금(길드전 포함)은 [[파운드리 캘린더|/foundry/]]와 [[파운드리 길드전|/foundry/#guild-war]]에 있습니다(STOVE 파운드리 view/14571828, 런칭 view/14606481).",
@@ -14793,7 +14794,7 @@ export const CONTENT = {
       "foundry_delta": [
         "ファウンドリキャラはレガシークエスト打点を継承しません — 新鯖でストーリー/ミッションを再クリア。",
         "お祝いミッション・メール贈り物・期限付き触媒週次はSteamローンチ枠中ファウンドリのみのことがあります。",
-        "ファウンドリのギルド戦/ドラフト/WA解禁日はファウンドリカレンダー準拠（GW≈2026-11-21 03:00 UTC、STOVE）— レガシーギルド予定ではない。",
+        "ファウンドリのギルド戦/ドラフト/WA解禁日はファウンドリカレンダー準拠（ギルド戦は2026-11-19メンテ後導入、2026-11-21 03:00 UTC 防衛チーム、2026-11-23 03:00 UTC マッチング。WAは2026-12-10メンテ後で、公式告知はKSTとUTCを別々に記した）。レガシーギルド予定ではない。確認日2026-11-10時点ではまだ開始前。",
         "ログイン引き継ぎはレガシー鯖のクエスト進行を残し、ファウンドリミッションを自動完了しません。"
       ],
       "foundry_track": "レガシークエストトラックは旧鯖後継者のエピソードクリア、深淵階層、週次ギルド雑務です。Steam引き継ぎはその打点をその鯖に残します（STOVE Steam FAQ view/14378309）。ファウンドリの開拓トラックは新キャラでゼロから始まり、レガシーに無いストーリー関門とお祝いミッションを含みます。片方を終えてももう片方は完了しないので、レガシー週次が終わる前提でファウンドリのスタミナを使わないでください。開拓トラックの日付付き解禁（ギルド戦を含む）は[[ファウンドリカレンダー|/foundry/]]と[[ファウンドリのギルド戦|/foundry/#guild-war]]にあります（STOVEファウンドリ view/14571828、ローンチ view/14606481）。",
@@ -14878,7 +14879,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Foundry 角色不繼承原服任務勾選——需在新服重推劇情／任務軌。",
         "慶祝任務、信箱禮物與限時催化劑週任，可能僅在 Steam 上架窗口的 Foundry 出現。",
-        "Foundry 公會戰／Draft／世界競技場解鎖日跟 Foundry 日程（公會戰 ≈2026-11-21 03:00 UTC，STOVE）——不是原服公會時程。",
+        "Foundry 公會戰／Draft／世界競技場解鎖日跟 Foundry 日程（公會戰 2026-11-19 維護後導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對；世界競技場 2026-12-10 維護後，官方公告分別標過 KST 與 UTC）——不是原服公會時程。核對日 2026-11-10 時尚未開始。",
         "登入轉移保留原服任務進度，不會自動完成 Foundry 任務。"
       ],
       "foundry_track": "原服任務軌是舊服繼承人的章節通關、深淵層數與每週公會雜務。Steam 轉移會把那些勾選留在原服（STOVE Steam FAQ view/14378309）。Foundry 開荒軌從新角色的零開始，包含原服沒有的劇情關卡與慶祝任務。完成其中一軌不會勾掉另一軌，不要以為原服週任會完成就去花 Foundry 體力。這條開荒軌的日期解鎖（含公會戰）在[[Foundry 日程|/foundry/]]與[[Foundry 公會戰|/foundry/#guild-war]]（STOVE Foundry view/14571828、Launch view/14606481）。",
@@ -14968,7 +14969,7 @@ export const CONTENT = {
       "foundry_delta": [
         "ตัวละคร Foundry ไม่สืบทอดเครื่องหมายเควสจาก Legacy — คาดว่าจะต้องเคลียร์เนื้อเรื่อง/เส้นทางภารกิจใหม่บนเซิร์ฟเวอร์ใหม่",
         "ภารกิจฉลอง ของขวัญในกล่องจดหมาย และเควสรายสัปดาห์แคตาลิสต์ตามกำหนดอาจปรากฏเฉพาะบน Foundry ช่วงเปิดตัว Steam",
-        "วันปลดล็อก Guild War / Draft / World Arena บน Foundry เป็นไปตามปฏิทิน Foundry (GW ≈2026-11-21 03:00 UTC ตาม STOVE) ไม่ใช่ตารางกิลด์เดิมของคุณ",
+        "วันปลดล็อก Guild War / Draft / World Arena บน Foundry เป็นไปตามปฏิทิน Foundry (Guild War เปิดตัวหลังปิดปรับปรุง 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; World Arena หลังปิดปรับปรุง 2026-12-10 และประกาศทางการเคยระบุทั้ง KST และ UTC) ไม่ใช่ตารางกิลด์เดิมของคุณ ณ วันตรวจ 2026-11-10 ยังไม่เริ่ม",
         "การย้ายการเข้าสู่ระบบเก็บความคืบหน้าเควส Legacy ไว้บนเซิร์ฟเวอร์ Legacy ไม่ได้ทำภารกิจ Foundry ให้เสร็จอัตโนมัติ"
       ],
       "foundry_track": "เส้นทางเควส Legacy ของคุณคือการเคลียร์ Episode ชั้น Abyss และภารกิจกิลด์รายสัปดาห์บน Heir ของเซิร์ฟเวอร์เดิม การย้ายผ่าน Steam จะทิ้งเครื่องหมายเหล่านั้นไว้บนเซิร์ฟเวอร์นั้น (STOVE Steam FAQ view/14378309) เส้นทางใหม่ของ Foundry เริ่มที่ศูนย์บนตัวละครใหม่ รวมถึงด่านเนื้อเรื่องและภารกิจฉลองที่ไม่เคยปรากฏบน Legacy การทำเส้นทางหนึ่งให้เสร็จไม่ได้ติ๊กอีกเส้นทาง ดังนั้นอย่าใช้สแตมินาของ Foundry โดยหวังว่าจะทำรายสัปดาห์ Legacy ให้เสร็จ การปลดล็อกตามวันที่ของเส้นทางใหม่ รวมถึง Guild War อยู่ใน [[ปฏิทิน Foundry|/foundry/]] และ [[Guild War บน Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481)",
@@ -15056,7 +15057,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Los personajes de Foundry no heredan las marcas de misiones del legado: cuenta con volver a completar las pistas de historia/misiones en el nuevo servidor.",
         "Las misiones de celebración, los regalos del buzón y las semanales de catalizadores con tiempo limitado pueden aparecer solo en Foundry durante la ventana de lanzamiento de Steam.",
-        "Las fechas de desbloqueo de Guild War / Draft / World Arena en Foundry siguen el calendario de Foundry (GW ≈2026-11-21 03:00 UTC según STOVE), no el horario de tu gremio del legado.",
+        "Las fechas de desbloqueo de Guild War / Draft / World Arena en Foundry siguen el calendario de Foundry (Guild War introducida tras el mantenimiento del 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC; World Arena tras el mantenimiento del 2026-12-10; avisos oficiales usaron KST y UTC por separado), no el horario de tu gremio del legado. A 2026-11-10 aún no han empezado.",
         "Transferir el inicio de sesión conserva el progreso de misiones del legado en el servidor del legado; no completa automáticamente las misiones de Foundry."
       ],
       "foundry_track": "Tu pista de misiones del legado la forman las limpiezas de Episode, los pisos de Abyss y las tareas semanales del gremio del Heir del servidor antiguo. Una transferencia a Steam deja esas marcas en ese servidor (STOVE Steam FAQ view/14378309). Una pista nueva de Foundry empieza desde cero en un personaje nuevo, incluidas las puertas de historia y las misiones de celebración que nunca aparecen en el legado. Completar una pista no marca la otra, así que no gastes stamina de Foundry esperando que se completen las semanales del legado. Los desbloqueos con fecha de la nueva pista, incluida Guild War, están en el [[calendario de Foundry|/foundry/]] y en [[Guild War en Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
@@ -15144,7 +15145,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Personagens do Foundry não herdam as marcações de missão do legado — espere refazer as trilhas de história/missão no novo servidor.",
         "Missões de celebração, presentes do correio e semanais de catalisador com tempo limitado podem aparecer apenas no Foundry durante a janela de lançamento do Steam.",
-        "As datas de desbloqueio de Guild War / Draft / World Arena no Foundry seguem o calendário do Foundry (GW ≈2026-11-21 03:00 UTC segundo a STOVE) — não a agenda da sua guilda no legado.",
+        "As datas de desbloqueio de Guild War / Draft / World Arena no Foundry seguem o calendário do Foundry (Guild War introduzida após a manutenção de 2026-11-19, equipe de defesa 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC; World Arena após a manutenção de 2026-12-10; avisos oficiais usaram KST e UTC em separado) — não a agenda da sua guilda no legado. Em 2026-11-10 ainda não começaram.",
         "Transferir o login mantém o progresso de missões do legado no servidor legado; não conclui automaticamente as missões do Foundry."
       ],
       "foundry_track": "Sua trilha de missões do legado são as limpezas de Episode, os andares do Abyss e as tarefas semanais de guilda do Heir do servidor antigo. Uma transferência para o Steam deixa essas marcações naquele servidor (STOVE Steam FAQ view/14378309). Uma trilha nova do Foundry começa do zero em um personagem novo, incluindo portões de história e missões de celebração que nunca aparecem no legado. Concluir uma trilha não marca a outra, então não gaste energia do Foundry esperando que as semanais do legado sejam concluídas. Os desbloqueios com data da trilha nova, incluindo o Guild War, estão no [[calendário do Foundry|/foundry/]] e em [[Guild War no Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
@@ -15232,7 +15233,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Foundry-Charaktere übernehmen keine Legacy-Quest-Häkchen — rechne damit, Story-/Missionsspuren auf dem neuen Server erneut zu clearen.",
         "Feier-Missionen, Mailbox-Geschenke und terminierte Katalysator-Weeklies erscheinen während des Steam-Launch-Zeitfensters möglicherweise nur auf Foundry.",
-        "Guild-War-/Draft-/World-Arena-Freischaltdaten auf Foundry folgen dem Foundry-Kalender (GW ≈2026-11-21 03:00 UTC laut STOVE) — nicht deinem Legacy-Guild-Zeitplan.",
+        "Guild-War-/Draft-/World-Arena-Freischaltdaten auf Foundry folgen dem Foundry-Kalender (Guild War eingeführt nach der Wartung am 2026-11-19, Verteidigungsteam 2026-11-21 03:00 UTC, Matchmaking 2026-11-23 03:00 UTC; World Arena nach der Wartung am 2026-12-10; offizielle Hinweise nannten KST und UTC getrennt) — nicht deinem Legacy-Guild-Zeitplan. Stand 2026-11-10 noch nicht gestartet.",
         "Der Login-Transfer behält den Legacy-Quest-Fortschritt auf dem Legacy-Server; er schließt Foundry-Missionen nicht automatisch ab."
       ],
       "foundry_track": "Deine Legacy-Quest-Spur sind die Episode-Clears, Abyss-Etagen und wöchentlichen Guild-Pflichten des Heirs auf dem alten Server. Ein Steam-Transfer lässt diese Häkchen auf jenem Server (STOVE Steam FAQ view/14378309). Eine neue Foundry-Spur startet bei null auf einem neuen Charakter, inklusive Story-Hürden und Feier-Missionen, die auf Legacy nie erscheinen. Eine Spur abzuschließen setzt nicht die andere ab, also verbrauche keine Foundry-Stamina in der Erwartung, dass Legacy-Weeklies abgeschlossen werden. Terminierte Freischaltungen der neuen Spur, einschließlich Guild War, stehen im [[Foundry-Kalender|/foundry/]] und unter [[Guild War auf Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
@@ -15320,7 +15321,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Les personnages Foundry n'héritent pas des validations de quêtes de l'ancien serveur — attendez-vous à refaire les parcours d'histoire et de missions sur le nouveau serveur.",
         "Les missions de célébration, cadeaux de boîte mail et hebdomadaires de catalyseurs chronométrées peuvent n'apparaître que sur Foundry pendant la fenêtre de lancement Steam.",
-        "Les dates de déblocage de la Guild War / Draft / World Arena sur Foundry suivent le calendrier Foundry (GW ≈2026-11-21 03:00 UTC selon STOVE) — pas le planning de votre guilde d'origine.",
+        "Les dates de déblocage de la Guild War / Draft / World Arena sur Foundry suivent le calendrier Foundry (Guild War introduite après la maintenance du 2026-11-19, équipe de défense 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC ; World Arena après la maintenance du 2026-12-10 ; les avis officiels ont indiqué KST et UTC séparément) — pas le planning de votre guilde d'origine. Au 2026-11-10, ce n'est pas encore commencé.",
         "Le transfert de connexion conserve la progression des quêtes de l'ancien serveur ; il ne termine pas automatiquement les missions Foundry."
       ],
       "foundry_track": "Votre progression de quêtes d'origine correspond aux chapitres d'Épisode terminés, aux étages de l'Abyss et aux tâches de guilde hebdomadaires de l'Héritier de l'ancien serveur. Un transfert Steam laisse ces validations sur ce serveur (FAQ Steam STOVE view/14378309). Une progression Foundry neuve repart de zéro sur un nouveau personnage, y compris les paliers d'histoire et les missions de célébration qui n'apparaissent jamais sur l'ancien serveur. Terminer une progression ne valide pas l'autre : ne dépensez donc pas de stamina Foundry en espérant accomplir les hebdomadaires de l'ancien serveur. Les déblocages datés de la nouvelle progression, dont la Guild War, se trouvent dans le [[calendrier Foundry|/foundry/]] et dans [[Guild War sur Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
@@ -15408,7 +15409,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Postacie z Foundry nie dziedziczą starych odhaczeń zadań — na nowym serwerze czeka ponowne przejście torów fabuły/misji.",
         "Misje celebracyjne, prezenty w skrzynce i tygodniowe katalizatorów z limitem mogą pojawiać się tylko na Foundry w oknie premiery Steam.",
-        "Daty odblokowania Guild War / Draft / World Arena na Foundry podążają za kalendarzem Foundry (GW ≈2026-11-21 03:00 UTC według STOVE) — nie za harmonogramem twojej starej gildii.",
+        "Daty odblokowania Guild War / Draft / World Arena na Foundry podążają za kalendarzem Foundry (Guild War wprowadzona po konserwacji 2026-11-19, drużyna obrony 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC; World Arena po konserwacji 2026-12-10; oficjalne ogłoszenia podawały osobno KST i UTC) — nie za harmonogramem twojej starej gildii. Na dzień 2026-11-10 jeszcze się nie zaczęły.",
         "Transfer logowania zachowuje stary postęp zadań na starym serwerze; nie uzupełnia automatycznie misji Foundry."
       ],
       "foundry_track": "Twój stary tor zadań to odhaczenia Epizodu, piętra Otchłani i tygodniowe obowiązki gildii starego Dziedzica. Transfer Steam zostawia te odhaczenia na tamtym serwerze (STOVE Steam FAQ view/14378309). Nowy tor Foundry zaczyna się od zera na nowej postaci, w tym bramki fabuły i misje celebracyjne, które nigdy nie pojawiają się na starym serwerze. Ukończenie jednego toru nie odhacza drugiego, więc nie wydawaj staminy Foundry, licząc na ukończenie starych tygodniówek. Daty odblokowań nowego toru, w tym Guild War, są w [[kalendarzu Foundry|/foundry/]] i w [[Guild War na Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
