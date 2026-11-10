@@ -71,7 +71,7 @@ export const CONTENT = {
         ],
         [
           "If Steam already made a new account:",
-          "Withdraw that Steam-linked STOVE account first, then convert the original."
+          "Do not delete that Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam."
         ],
         [
           "Then play on Steam:",
@@ -489,7 +489,7 @@ export const CONTENT = {
         ],
         [
           "Steamが新規を作済みの場合:",
-          "そのSteam連携STOVEアカウントを先に退会し、元アカウントを変換。"
+          "そのSteam連携STOVEアカウントを削除せず、そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSをSteamログインへ変換。"
         ],
         [
           "その後Steamでプレイ:",
@@ -1116,7 +1116,7 @@ export const CONTENT = {
         ],
         [
           "Si Steam ya creó una cuenta nueva:",
-          "Retira primero esa cuenta STOVE vinculada a Steam y luego convierte la original."
+          "No borres esa cuenta de STOVE vinculada a Steam. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la cuenta original de email/SNS a Steam."
         ],
         [
           "Después juega en Steam:",
@@ -1325,7 +1325,7 @@ export const CONTENT = {
         ],
         [
           "Se o Steam já criou uma nova conta:",
-          "Retire primeiro essa conta STOVE vinculada ao Steam e depois converta a original."
+          "Não apague essa conta STOVE vinculada à Steam. Faça login no STOVE com essa conta Steam (cadastre-se via Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam."
         ],
         [
           "Depois jogue no Steam:",
@@ -1534,7 +1534,7 @@ export const CONTENT = {
         ],
         [
           "Wenn Steam bereits ein neues Konto erstellt hat:",
-          "Ziehe zuerst dieses Steam-verknüpfte STOVE-Konto zurück und wandle dann das ursprüngliche um."
+          "Lösche dieses Steam-verknüpfte STOVE-Konto nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über Steam), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um."
         ],
         [
           "Dann auf Steam spielen:",
@@ -1743,7 +1743,7 @@ export const CONTENT = {
         ],
         [
           "Si Steam a déjà créé un nouveau compte :",
-          "Retirez d'abord ce compte STOVE lié à Steam, puis convertissez l'original."
+          "Ne supprimez pas ce compte STOVE lié à Steam. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam."
         ],
         [
           "Jouez ensuite sur Steam :",
@@ -1952,7 +1952,7 @@ export const CONTENT = {
         ],
         [
           "Jeśli Steam utworzył już nowe konto:",
-          "Najpierw wycofaj to konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne."
+          "Nie usuwaj tego konta STOVE powiązanego ze Steam. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam."
         ],
         [
           "Potem graj na Steam:",
@@ -2121,7 +2121,7 @@ export const CONTENT = {
       "demo_h2": "Steam demo vs full Epic Seven download",
       "demo": [
         "The Steam demo and the full Epic Seven Steam download share branding, but they are not the same product path. The full client is Steam app 5019180. Demo leftover accounts can sit on a Steam-linked STOVE login that blocks a later convert. Prefer installing the full release instead of “cleaning up” a demo with in-game deletion.",
-        "After a successful Steam login transfer, STOVE warns that using in-game account deletion on the demo or client can wipe original-server progress. That is why this download page links the [[demo delete warning|/demo-delete-warning/]] next to the store button. If you already opened the demo, do not press delete — use withdraw-then-convert on the [[transfer guide|/steam-transfer/]].",
+        "After a successful Steam login transfer, STOVE warns that using in-game account deletion on the demo or client can wipe original-server progress. That is why this download page links the [[demo delete warning|/demo-delete-warning/]] next to the store button. If you already opened the demo, do not press delete — follow the official Convert sequence on the [[transfer guide|/steam-transfer/]] instead of withdrawing the temporary account.",
         "When friends say “just delete the empty demo and redownload,” treat that as unsafe advice for transferred accounts. Redownloading the full Epic Seven Steam download is fine; deleting the in-game account after transfer is the danger called out by STOVE view/14581667."
       ],
       "anticheat_h2": "Anti-cheat notes for the Steam download client",
@@ -2132,7 +2132,7 @@ export const CONTENT = {
       "deep_h2": "Epic Seven Steam download — player guide (unofficial)",
       "deep": [
         "An Epic Seven Steam download should always start from the official store page for app 5019180. This independent checklist exists because launch week mixes three separate decisions: whether to keep legacy progress, whether to open a Foundry character, and whether the PC can run kernel anti-cheat. Mixing those decisions is how players end up on an empty Heir or a blocked convert. Read the store page system requirements, then decide transfer vs Foundry before you click Play for the first time.",
-        "If you care about heroes, purchases, and Epic Pass on a legacy server, finish the STOVE email/SNS → Steam Simple Login convert described in the [[Epic Seven Steam transfer|/steam-transfer/]] guide before you rely on Steam as your daily launcher. The download itself does not move progress; the login convert does. If Steam already created an empty linked STOVE account, withdraw that link first, wait out any STOVE holding period, then convert the original. Never use in-game account deletion after transfer to “clear” the empty slot.",
+        "If you care about heroes, purchases, and Epic Pass on a legacy server, finish the STOVE email/SNS → Steam Simple Login convert described in the [[Epic Seven Steam transfer|/steam-transfer/]] guide before you rely on Steam as your daily launcher. The download itself does not move progress; the login convert does. If Steam already created an empty linked STOVE account, do not withdraw it: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original. Never use in-game account deletion after transfer to “clear” the empty slot.",
         "If you want Foundry celebration buffs and Guild War instead of (or in addition to) legacy progress, install the full client, confirm you are on the login you intend, then create a Foundry character on purpose. Login conversion does not place an old Heir onto Foundry. Calendar details, Guild War timing, and codes notes stay on the [[Foundry server guide|/foundry/#server-guide]] — keep date noise off this download page.",
         "Storage and network tips: leave ~10GB free, prefer a wired or stable Wi-Fi link while Steam finishes the Epic Seven Steam download, and pause other large updates so the verify step does not fail mid-way. After install, open the game once to let UNCHEATER finish, then confirm the STOVE identity shown in account menus. If anything looks wrong, stop spending and cross-check the [[FAQ hub|/faq/]] plus official STOVE Steam FAQ view/14378309.",
         "This site never hosts installers, mirrors, gray redeem codes, or cracked clients. If a search result offers an “Epic Seven Steam download” ZIP, torrent, or free skin pack, treat it as malware. Stick to store.steampowered.com/app/5019180, cite STOVE for account rules, and remember epicsevensteam.com is an unofficial player guide — not Smilegate, STOVE, Valve, or Steam support."
@@ -2283,7 +2283,7 @@ export const CONTENT = {
       "demo_h2": "Steamデモ vs 正式Epic Sevenダウンロード",
       "demo": [
         "Steamデモと正式のEpic Seven Steamダウンロードは見た目が似ていても同じ製品経路ではありません。正式はapp 5019180。デモ残存がSteam連携STOVEに残り、後の変換を阻むことがあります。ゲーム内削除でデモを「掃除」せず正式版を入れてください。",
-        "Steamログイン変換後のデモ/クライアント内削除は原鯖進行を消す恐れがあるとSTOVEが警告します。そのため本ダウンロード頁はストアボタン横に[[デモ削除の注意|/demo-delete-warning/]]を置きます。既にデモを開いたなら削除せず[[引き継ぎガイド|/steam-transfer/]]の退会→変換を使ってください。",
+        "Steamログイン変換後のデモ/クライアント内削除は原鯖進行を消す恐れがあるとSTOVEが警告します。そのため本ダウンロード頁はストアボタン横に[[デモ削除の注意|/demo-delete-warning/]]を置きます。既にデモを開いたなら削除せず、[[引き継ぎガイド|/steam-transfer/]]の公式FAQ 3番のConvert順（一時アカウントを非Steamへ→元のメール/SNSをSteamへ）に従ってください。",
         "友人が「空デモを消して再DLすればいい」と言っても、変換済みアカには危険です。正式Epic Seven Steamダウンロードの再取得は問題なく、変換後のゲーム内削除がSTOVE view/14581667の警告対象です。"
       ],
       "anticheat_h2": "Steamダウンロードクライアントのアンチチート",
@@ -2294,7 +2294,7 @@ export const CONTENT = {
       "deep_h2": "Epic Seven Steamダウンロード — プレイヤーガイド（非公式）",
       "deep": [
         "Epic Seven Steamダウンロードは必ず公式ストアapp 5019180から。発売週はレガシー進行の維持、ファウンドリキャラ作成、カーネルアンチチート通過の三判断が混ざりやすいです。混ぜると空の後継者や変換不能につながります。ストア要件を確認し、初Play前に引き継ぎ vs ファウンドリを決めてください。",
-        "レガシー鯖の英雄・課金・エピックパスが大切なら、[[Epic Seven Steam引き継ぎ|/steam-transfer/]]のSTOVEメール/SNS→Steamシンプルログイン変換を先に完了。ダウンロード自体は進行を移しません — ログイン変換が移します。Steamが空連携を作済みなら退会→待ち→本ログイン変換。変換後のゲーム内削除で空枠を「掃除」しないでください。",
+        "レガシー鯖の英雄・課金・Epic Passが大切なら、[[Epic Seven Steam引き継ぎ|/steam-transfer/]]のSTOVEメール/SNS→Steamシンプルログイン変換を先に完了。ダウンロード自体は進行を移しません — ログイン変換が移します。Steamが空連携を作済みなら削除せず、そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから本ログインをSteamへ。変換後のゲーム内削除で空枠を「掃除」しないでください。",
         "ファウンドリのお祝いバフとギルド戦が目的なら正式クライアントを入れ、意図したログインか確認してからファウンドリキャラを意図して作成。ログイン変換だけでは旧後継者は移りません。日程・ギルド戦・コードメモは[[ファウンドリ鯖ガイド|/foundry/#server-guide]]に残し、本ダウンロード頁の日付ノイズは抑えます。",
         "容量・回線：約10GB空き、Epic Seven Steamダウンロード中は安定回線を保ち他の大型更新を一時停止。導入後一度起動してUNCHEATERを終え、アカウントメニューのSTOVE身元を確認。おかしければ課金を止め[[FAQ|/faq/]]と公式STOVE Steam FAQ view/14378309を照合。",
         "当サイトはインストーラ・ミラー・不正コード・クラックを配布しません。検索のZIP・トレント・無料スキン「Epic Seven Steam download」はマルウェア扱い。store.steampowered.com/app/5019180のみ、アカウント規則はSTOVE引用。epicsevensteam.comはSmilegate/STOVE/Valve/Steamと無関係の非公式ガイドです。"
@@ -2526,7 +2526,7 @@ export const CONTENT = {
       "demo_h2": "Demo de Steam vs. descarga completa de Epic Seven",
       "demo": [
         "La demo de Steam y la descarga completa de Epic Seven en Steam comparten la marca, pero no son la misma ruta de producto. El cliente completo es la app 5019180 de Steam. Las cuentas sobrantes de la demo pueden quedarse en un inicio de sesión STOVE vinculado a Steam que bloquea una conversión posterior. Es mejor instalar la versión completa en lugar de “limpiar” una demo con el borrado en el juego.",
-        "Tras una transferencia exitosa del inicio de sesión a Steam, STOVE advierte de que usar el borrado de cuenta en el juego en la demo o el cliente puede eliminar el progreso del servidor original. Por eso esta página de descarga enlaza el [[aviso sobre borrar la demo|/demo-delete-warning/]] junto al botón de la tienda. Si ya abriste la demo, no hagas clic en borrar — usa retirar y luego convertir en la [[guía de transferencia|/steam-transfer/]].",
+        "Tras una transferencia exitosa del inicio de sesión a Steam, STOVE advierte de que usar el borrado de cuenta en el juego en la demo o el cliente puede eliminar el progreso del servidor original. Por eso esta página de descarga enlaza el [[aviso sobre borrar la demo|/demo-delete-warning/]] junto al botón de la tienda. Si ya abriste la demo, no hagas clic en borrar — sigue la secuencia Convert oficial en la [[guía de transferencia|/steam-transfer/]] en lugar de retirar la cuenta temporal.",
         "Cuando tus amigos digan “solo borra la demo vacía y vuelve a descargar”, considera ese consejo inseguro para cuentas transferidas. Volver a descargar la versión completa de Epic Seven en Steam está bien; borrar la cuenta en el juego después de la transferencia es el peligro que señala STOVE view/14581667."
       ],
       "anticheat_h2": "Notas de antitrampas para el cliente de descarga de Steam",
@@ -2537,7 +2537,7 @@ export const CONTENT = {
       "deep_h2": "Descarga de Epic Seven en Steam — guía para jugadores (no oficial)",
       "deep": [
         "Una descarga de Epic Seven en Steam siempre debe empezar en la página oficial de la tienda de la app 5019180. Esta lista independiente existe porque la semana de lanzamiento mezcla tres decisiones separadas: si conservar el progreso anterior, si abrir un personaje de Foundry y si el PC puede ejecutar el antitrampas de kernel. Mezclar esas decisiones es lo que hace que los jugadores acaben con un Heir vacío o una conversión bloqueada. Lee los requisitos del sistema en la página de la tienda y luego decide entre transferencia y Foundry antes de hacer clic en Play por primera vez.",
-        "Si te importan los héroes, las compras y Epic Pass en un servidor anterior, completa la conversión de correo/SNS de STOVE → Steam Simple Login que describe la guía de [[transferencia de Epic Seven en Steam|/steam-transfer/]] antes de depender de Steam como tu lanzador diario. La descarga en sí no mueve el progreso; la conversión del inicio de sesión sí. Si Steam ya creó una cuenta STOVE vinculada vacía, retira primero ese vínculo, espera el periodo de retención de STOVE que corresponda y luego convierte la original. Nunca uses el borrado de cuenta en el juego después de la transferencia para “liberar” el hueco vacío.",
+        "Consejos de almacenamiento y red: deja ~10GB libres, prefiere una conexión por cable o Wi-Fi estable mientras Steam termina la descarga de Epic Seven en Steam y pausa otras actualizaciones grandes para que el paso de verificación no falle a mitad. Después de instalar, abre el juego una vez para que UNCHEATER termine y luego confirma la identidad STOVE que aparece en los menús de cuenta. Si algo parece mal, deja de gastar y contrasta el [[centro de FAQ|/faq/]] con la FAQ oficial de Steam de STOVE view/14378309.",
         "Si quieres los buffs de celebración de Foundry y Guild War en lugar de (o además de) el progreso anterior, instala el cliente completo, confirma que estás en el inicio de sesión que deseas y luego crea un personaje de Foundry a propósito. La conversión del inicio de sesión no coloca un Heir antiguo en Foundry. Los detalles del calendario, el momento de Guild War y las notas sobre códigos se quedan en la [[guía del servidor Foundry|/foundry/#server-guide]] — no metas ruido de fechas en esta página de descarga.",
         "Consejos de almacenamiento y red: deja ~10GB libres, prefiere una conexión por cable o Wi-Fi estable mientras Steam termina la descarga de Epic Seven en Steam y pausa otras actualizaciones grandes para que el paso de verificación no falle a mitad. Después de instalar, abre el juego una vez para que UNCHEATER termine y luego confirma la identidad STOVE que aparece en los menús de cuenta. Si algo parece mal, deja de gastar y contrasta el [[centro de FAQ|/faq/]] con la FAQ oficial de Steam de STOVE view/14378309.",
         "Este sitio nunca aloja instaladores, espejos, códigos de canje grises ni clientes crackeados. Si un resultado de búsqueda ofrece un ZIP, un torrent o un paquete de skins gratis de “descarga de Epic Seven en Steam”, trátalo como malware. Queda en store.steampowered.com/app/5019180, cita a STOVE para las reglas de cuenta y recuerda que epicsevensteam.com es una guía no oficial de jugadores — no es el soporte de Smilegate, STOVE, Valve ni Steam."
@@ -2607,7 +2607,7 @@ export const CONTENT = {
       "demo_h2": "Demo do Steam vs download completo de Epic Seven",
       "demo": [
         "A demo do Steam e o download completo de Epic Seven no Steam compartilham a marca, mas não são o mesmo caminho de produto. O cliente completo é o app 5019180 do Steam. Contas deixadas pela demo podem ficar num login STOVE vinculado ao Steam que bloqueia uma conversão posterior. Prefira instalar o lançamento completo em vez de “limpar” uma demo com exclusão no jogo.",
-        "Depois de uma transferência de login Steam bem-sucedida, a STOVE avisa que usar a exclusão de conta no jogo na demo ou no cliente pode apagar o progresso do servidor original. É por isso que esta página de download aponta para o [[aviso de exclusão da demo|/demo-delete-warning/]] ao lado do botão da loja. Se você já abriu a demo, não aperte excluir — use retirar-e-converter no [[guia de transferência|/steam-transfer/]].",
+        "Depois de uma transferência de login Steam bem-sucedida, a STOVE avisa que usar a exclusão de conta no jogo na demo ou no cliente pode apagar o progresso do servidor original. É por isso que esta página de download aponta para o [[aviso de exclusão da demo|/demo-delete-warning/]] ao lado do botão da loja. Se você já abriu a demo, não aperte excluir — siga a sequência Convert oficial no [[guia de transferência|/steam-transfer/]] em vez de retirar a conta temporária.",
         "Quando amigos dizem “só apaga a demo vazia e baixa de novo”, trate isso como conselho inseguro para contas transferidas. Baixar de novo o download completo de Epic Seven no Steam é tranquilo; apagar a conta no jogo após a transferência é o perigo apontado pela STOVE view/14581667."
       ],
       "anticheat_h2": "Notas de anti-cheat para o cliente de download do Steam",
@@ -2618,7 +2618,7 @@ export const CONTENT = {
       "deep_h2": "Download de Epic Seven no Steam — guia do jogador (não oficial)",
       "deep": [
         "Um download de Epic Seven no Steam deve sempre começar na página oficial da loja do app 5019180. Este checklist independente existe porque a semana de lançamento mistura três decisões separadas: manter o progresso legado, abrir um personagem no Foundry e se o PC roda anti-cheat de kernel. Misturar essas decisões é como jogadores acabam num herdeiro vazio ou com a conversão bloqueada. Leia os requisitos de sistema na página da loja e então decida transferência vs Foundry antes de clicar em Jogar pela primeira vez.",
-        "Se você se importa com heróis, compras e Epic Pass num servidor legado, conclua a conversão de e-mail/SNS da STOVE → Simple Login Steam descrita no guia [[Transferência de Epic Seven no Steam|/steam-transfer/]] antes de depender do Steam como seu launcher diário. O download em si não move o progresso; a conversão do login move. Se o Steam já criou uma conta STOVE vinculada vazia, retire esse vínculo primeiro, aguarde qualquer período de retenção da STOVE e então converta a original. Nunca use a exclusão de conta no jogo após a transferência para “limpar” o slot vazio.",
+        "Dicas de armazenamento e rede: deixe ~10 GB livres, prefira cabo ou Wi-Fi estável enquanto o Steam termina o download de Epic Seven no Steam e pause outras atualizações grandes para a etapa de verificação não falhar no meio. Depois de instalar, abra o jogo uma vez para o UNCHEATER terminar e então confirme a identidade STOVE mostrada nos menus da conta. Se algo parecer errado, pare de gastar e confira o [[hub de FAQ|/faq/]] mais o FAQ Steam oficial da STOVE view/14378309.",
         "Se você quer os buffs de comemoração do Foundry e a Guild War em vez do progresso legado (ou além dele), instale o cliente completo, confirme que está no login que pretende e então crie um personagem no Foundry de propósito. A conversão de login não coloca um herdeiro antigo no Foundry. Detalhes do calendário, horário da Guild War e notas de códigos ficam no [[guia do servidor Foundry|/foundry/#server-guide]] — deixe o excesso de datas fora desta página de download.",
         "Dicas de armazenamento e rede: deixe ~10 GB livres, prefira cabo ou Wi-Fi estável enquanto o Steam termina o download de Epic Seven no Steam e pause outras atualizações grandes para a etapa de verificação não falhar no meio. Depois de instalar, abra o jogo uma vez para o UNCHEATER terminar e então confirme a identidade STOVE mostrada nos menus da conta. Se algo parecer errado, pare de gastar e confira o [[hub de FAQ|/faq/]] mais o FAQ Steam oficial da STOVE view/14378309.",
         "Este site nunca hospeda instaladores, espelhos, códigos de resgate cinzas ou clientes crackeados. Se um resultado de busca oferecer um ZIP de “download de Epic Seven no Steam”, torrent ou pacote de skins grátis, trate como malware. Fique em store.steampowered.com/app/5019180, cite a STOVE para as regras de conta e lembre que epicsevensteam.com é um guia de jogador não oficial — não é suporte da Smilegate, STOVE, Valve ou Steam."
@@ -2688,7 +2688,7 @@ export const CONTENT = {
       "demo_h2": "Steam-Demo vs. vollständiger Epic-Seven-Download",
       "demo": [
         "Die Steam-Demo und der vollständige Epic-Seven-Steam-Download teilen das Branding, sind aber nicht derselbe Produktpfad. Der vollständige Client ist Steam-App 5019180. Übrig gebliebene Demo-Konten können auf einem Steam-verknüpften STOVE-Login sitzen, der eine spätere Umwandlung blockiert. Installiere lieber die Vollversion, statt eine Demo per In-Game-Löschung „aufzuräumen“.",
-        "Nach einem erfolgreichen Steam-Login-Transfer warnt STOVE, dass die In-Game-Kontolöschung in der Demo oder im Client den Fortschritt auf dem ursprünglichen Server löschen kann. Deshalb verlinkt diese Download-Seite die [[Demo-Löschwarnung|/demo-delete-warning/]] neben dem Store-Button. Wenn du die Demo bereits geöffnet hast, drücke nicht auf Löschen — nutze Zurückziehen-dann-Umwandeln im [[Transfer-Guide|/steam-transfer/]].",
+        "Nach einem erfolgreichen Steam-Login-Transfer warnt STOVE, dass die In-Game-Kontolöschung in der Demo oder im Client den Fortschritt auf dem ursprünglichen Server löschen kann. Deshalb verlinkt diese Download-Seite die [[Demo-Löschwarnung|/demo-delete-warning/]] neben dem Store-Button. Wenn du die Demo bereits geöffnet hast, drücke nicht auf Löschen — folge der offiziellen Convert-Sequenz im [[Transfer-Guide|/steam-transfer/]], statt das temporäre Konto zurückzuziehen.",
         "Wenn Freunde sagen „lösch einfach die leere Demo und lade neu herunter“, behandle das bei übertragenen Konten als unsicheren Rat. Ein erneuter Download des vollständigen Epic-Seven-Steam-Downloads ist in Ordnung; das Löschen des In-Game-Kontos nach dem Transfer ist die Gefahr, auf die STOVE in view/14581667 hinweist."
       ],
       "anticheat_h2": "Anti-Cheat-Hinweise für den Steam-Download-Client",
@@ -2699,7 +2699,7 @@ export const CONTENT = {
       "deep_h2": "Epic-Seven-Steam-Download — Spieler-Guide (inoffiziell)",
       "deep": [
         "Ein Epic-Seven-Steam-Download sollte immer auf der offiziellen Store-Seite für App 5019180 beginnen. Diese unabhängige Checkliste gibt es, weil die Launch-Woche drei getrennte Entscheidungen vermischt: ob du Altbestand behalten willst, ob du einen Foundry-Charakter öffnest und ob der PC Kernel-Anti-Cheat ausführen kann. Wenn du diese Entscheidungen vermischst, landest du leicht auf einem leeren Erben oder bei einer blockierten Umwandlung. Lies die Systemanforderungen der Store-Seite und entscheide dann Transfer vs. Foundry, bevor du das erste Mal auf Spielen klickst.",
-        "Wenn dir Helden, Käufe und Epic Pass auf einem Alt-Server wichtig sind, schließe die STOVE-E-Mail/SNS-→-Steam-Simple-Login-Umwandlung ab, die im [[Epic-Seven-Steam-Transfer|/steam-transfer/]]-Guide beschrieben ist, bevor du Steam als täglichen Launcher nutzt. Der Download selbst verschiebt keinen Fortschritt; die Login-Umwandlung tut es. Wenn Steam bereits ein leeres verknüpftes STOVE-Konto erstellt hat, ziehe diese Verknüpfung zuerst zurück, warte eine eventuelle STOVE-Haltefrist ab und wandle dann das ursprüngliche Konto um. Nutze nach dem Transfer niemals die In-Game-Kontolöschung, um den leeren Slot zu „bereinigen“.",
+        "Tipps zu Speicher und Netzwerk: Lass ~10 GB frei, bevorzuge eine kabelgebundene oder stabile WLAN-Verbindung, während Steam den Epic-Seven-Steam-Download abschließt, und pausiere andere große Updates, damit die Überprüfung nicht mittendrin scheitert. Öffne das Spiel nach der Installation einmal, damit UNCHEATER fertig wird, und prüfe dann die STOVE-Identität, die in den Kontomenüs angezeigt wird. Wenn etwas falsch aussieht, stoppe die Ausgaben und gleiche den [[FAQ-Hub|/faq/]] plus die offizielle STOVE-Steam-FAQ view/14378309 ab.",
         "Wenn du Foundry-Feier-Buffs und Guild War statt (oder zusätzlich zu) Altbestand willst, installiere den vollständigen Client, prüfe, dass du auf dem gewünschten Login bist, und erstelle dann bewusst einen Foundry-Charakter. Die Login-Umwandlung setzt keinen alten Erben auf Foundry. Kalenderdetails, Guild-War-Zeitpunkt und Hinweise zu Codes findest du im [[Foundry-Server-Guide|/foundry/#server-guide]] — halte Datums-Rauschen von dieser Download-Seite fern.",
         "Tipps zu Speicher und Netzwerk: Lass ~10 GB frei, bevorzuge eine kabelgebundene oder stabile WLAN-Verbindung, während Steam den Epic-Seven-Steam-Download abschließt, und pausiere andere große Updates, damit die Überprüfung nicht mittendrin scheitert. Öffne das Spiel nach der Installation einmal, damit UNCHEATER fertig wird, und prüfe dann die STOVE-Identität, die in den Kontomenüs angezeigt wird. Wenn etwas falsch aussieht, stoppe die Ausgaben und gleiche den [[FAQ-Hub|/faq/]] plus die offizielle STOVE-Steam-FAQ view/14378309 ab.",
         "Diese Seite hostet niemals Installer, Mirrors, graue Einlösecodes oder gecrackte Clients. Wenn ein Suchergebnis einen „Epic-Seven-Steam-Download“ als ZIP, Torrent oder kostenloses Skin-Paket anbietet, behandle es als Malware. Bleib bei store.steampowered.com/app/5019180, nenne STOVE als Quelle für Kontoregeln und denk daran: epicsevensteam.com ist ein inoffizieller Spieler-Guide — kein Support von Smilegate, STOVE, Valve oder Steam."
@@ -2769,7 +2769,7 @@ export const CONTENT = {
       "demo_h2": "Démo Steam ou téléchargement complet d'Epic Seven",
       "demo": [
         "La démo Steam et le téléchargement complet d'Epic Seven sur Steam partagent la même image de marque, mais ce ne sont pas les mêmes parcours produit. Le client complet est l'app Steam 5019180. Les comptes restants de la démo peuvent rester sur une connexion STOVE liée à Steam qui bloque une conversion ultérieure. Préférez installer la version complète plutôt que de « nettoyer » une démo avec la suppression en jeu.",
-        "Après un transfert de connexion Steam réussi, STOVE avertit que l'utilisation de la suppression de compte en jeu sur la démo ou le client peut effacer la progression du serveur d'origine. C'est pourquoi cette page de téléchargement lie l'[[avertissement sur la suppression de la démo|/demo-delete-warning/]] à côté du bouton du store. Si vous avez déjà ouvert la démo, n'appuyez pas sur supprimer — utilisez le retrait puis la conversion dans le [[guide de transfert|/steam-transfer/]].",
+        "Après un transfert de connexion Steam réussi, STOVE avertit que l'utilisation de la suppression de compte en jeu sur la démo ou le client peut effacer la progression du serveur d'origine. C'est pourquoi cette page de téléchargement lie l'[[avertissement sur la suppression de la démo|/demo-delete-warning/]] à côté du bouton du store. Si vous avez déjà ouvert la démo, n'appuyez pas sur supprimer — suivez la séquence Convert officielle dans le [[guide de transfert|/steam-transfer/]] au lieu de retirer le compte temporaire.",
         "Quand des amis disent « supprime juste la démo vide et retélécharge », considérez cela comme un conseil dangereux pour les comptes transférés. Retélécharger le téléchargement complet d'Epic Seven sur Steam ne pose pas de problème ; supprimer le compte en jeu après le transfert est le danger signalé par STOVE view/14581667."
       ],
       "anticheat_h2": "Notes anti-triche pour le client de téléchargement Steam",
@@ -2780,7 +2780,7 @@ export const CONTENT = {
       "deep_h2": "Téléchargement d'Epic Seven sur Steam — guide du joueur (non officiel)",
       "deep": [
         "Un téléchargement d'Epic Seven sur Steam doit toujours commencer par la page officielle du store pour l'app 5019180. Cette checklist indépendante existe parce que la semaine de lancement mélange trois décisions distinctes : faut-il conserver l'ancienne progression, faut-il ouvrir un personnage Foundry, et le PC peut-il faire tourner un anti-triche au niveau du noyau ? En mélangeant ces décisions, on finit avec un Héritier vide ou une conversion bloquée. Lisez la configuration requise sur la page du store, puis choisissez transfert ou Foundry avant de cliquer sur Jouer pour la première fois.",
-        "Si vous tenez aux héros, aux achats et à l'Epic Pass d'un serveur hérité, terminez la conversion STOVE e-mail/SNS → Steam Simple Login décrite dans le [[guide de transfert Epic Seven Steam|/steam-transfer/]] avant de faire de Steam votre lanceur quotidien. Le téléchargement lui-même ne déplace pas la progression ; c'est la conversion de connexion qui le fait. Si Steam a déjà créé un compte STOVE lié vide, retirez d'abord ce lien, attendez la fin de toute période de rétention STOVE, puis convertissez l'original. N'utilisez jamais la suppression de compte en jeu après le transfert pour « libérer » l'emplacement vide.",
+        "Conseils stockage et réseau : laissez ~10 Go libres, préférez une connexion filaire ou un Wi-Fi stable pendant que Steam termine le téléchargement d'Epic Seven sur Steam, et mettez en pause les autres grosses mises à jour pour que l'étape de vérification n'échoue pas en cours de route. Après l'installation, ouvrez le jeu une fois pour laisser UNCHEATER terminer, puis vérifiez l'identité STOVE affichée dans les menus de compte. Si quelque chose semble anormal, arrêtez de dépenser et recoupez avec le [[hub FAQ|/faq/]] ainsi que la FAQ Steam officielle de STOVE view/14378309.",
         "Si vous voulez les buffs de célébration Foundry et la Guild War au lieu de (ou en plus de) la progression héritée, installez le client complet, vérifiez que vous êtes sur la connexion voulue, puis créez volontairement un personnage Foundry. La conversion de connexion ne place pas un ancien Héritier sur Foundry. Les détails du calendrier, le timing de la Guild War et les notes sur les codes restent sur le [[guide du serveur Foundry|/foundry/#server-guide]] — gardez le bruit des dates hors de cette page de téléchargement.",
         "Conseils stockage et réseau : laissez ~10 Go libres, préférez une connexion filaire ou un Wi-Fi stable pendant que Steam termine le téléchargement d'Epic Seven sur Steam, et mettez en pause les autres grosses mises à jour pour que l'étape de vérification n'échoue pas en cours de route. Après l'installation, ouvrez le jeu une fois pour laisser UNCHEATER terminer, puis vérifiez l'identité STOVE affichée dans les menus de compte. Si quelque chose semble anormal, arrêtez de dépenser et recoupez avec le [[hub FAQ|/faq/]] ainsi que la FAQ Steam officielle de STOVE view/14378309.",
         "Ce site n'héberge jamais d'installateurs, de miroirs, de codes gris, ni de clients crackés. Si un résultat de recherche propose un ZIP « Epic Seven Steam download », un torrent ou un pack de skins gratuit, considérez-le comme un malware. Restez sur store.steampowered.com/app/5019180, citez STOVE pour les règles de compte, et rappelez-vous qu'epicsevensteam.com est un guide de joueur non officiel — pas le support de Smilegate, STOVE, Valve ou Steam."
@@ -2850,7 +2850,7 @@ export const CONTENT = {
       "demo_h2": "Demo na Steam a pełne pobranie Epic Seven",
       "demo": [
         "Demo na Steam i pełne pobranie Epic Seven na Steam mają wspólną markę, ale to nie ta sama ścieżka produktu. Pełny klient to aplikacja Steam 5019180. Konta pozostałe po demie mogą siedzieć na logowaniu STOVE powiązanym ze Steam i blokować późniejszą konwersję. Lepiej zainstalować pełną wersję niż „czyścić” demo usuwaniem konta w grze.",
-        "Po udanym transferze logowania Steam STOVE ostrzega, że użycie usuwania konta w grze w demie lub kliencie może wyczyścić postęp na pierwotnym serwerze. Dlatego ta strona pobierania linkuje [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]] obok przycisku sklepu. Jeśli już otworzyłeś demo, nie naciskaj usuń — użyj wycofania, a potem konwersji według [[poradnika transferu|/steam-transfer/]].",
+        "Po udanym transferze logowania Steam STOVE ostrzega, że użycie usuwania konta w grze w demie lub kliencie może wyczyścić postęp na pierwotnym serwerze. Dlatego ta strona pobierania linkuje [[ostrzeżenie o usuwaniu dema|/demo-delete-warning/]] obok przycisku sklepu. Jeśli już otworzyłeś demo, nie naciskaj usuń — stosuj oficjalną sekwencję Convert w [[poradniku transferu|/steam-transfer/]], zamiast wycofywać konto tymczasowe.",
         "Gdy znajomi mówią „po prostu usuń puste demo i pobierz ponownie”, traktuj to jako niebezpieczną radę dla kont po transferze. Ponowne pobranie pełnej wersji Epic Seven na Steam jest w porządku; niebezpieczne jest usunięcie konta w grze po transferze, na które wskazuje STOVE view/14581667."
       ],
       "anticheat_h2": "Uwagi o anty-cheacie dla klienta pobierania Steam",
@@ -2861,7 +2861,7 @@ export const CONTENT = {
       "deep_h2": "Pobieranie Epic Seven na Steam — poradnik gracza (nieoficjalny)",
       "deep": [
         "Pobieranie Epic Seven na Steam zawsze powinno zaczynać się od oficjalnej strony sklepu dla aplikacji 5019180. Ta niezależna lista kontrolna istnieje, bo tydzień premiery miesza trzy osobne decyzje: czy zachować stary postęp, czy otworzyć postać na Foundry i czy komputer udźwignie anty-cheat na poziomie jądra. Mieszanie tych decyzji prowadzi do pustego Dziedzica albo zablokowanej konwersji. Przeczytaj wymagania systemowe ze strony sklepu, a potem zdecyduj: transfer czy Foundry, zanim pierwszy raz klikniesz Graj.",
-        "Jeśli zależy ci na bohaterach, zakupach i Epic Pass na starym serwerze, dokończ konwersję logowania e-mail/SNS STOVE → Steam Simple Login opisaną w [[poradniku transferu Epic Seven na Steam|/steam-transfer/]], zanim zaczniesz codziennie korzystać ze Steam. Samo pobranie nie przenosi postępu; robi to konwersja logowania. Jeśli Steam utworzył już puste powiązane konto STOVE, najpierw wycofaj to powiązanie, odczekaj ewentualny okres wstrzymania STOVE, a potem przekonwertuj pierwotne. Nigdy nie używaj usuwania konta w grze po transferze, żeby „zwolnić” pusty slot.",
+        "Wskazówki dotyczące miejsca i sieci: zostaw ~10 GB wolnego, preferuj kabel lub stabilne Wi-Fi, gdy Steam kończy pobieranie Epic Seven na Steam, i wstrzymaj inne duże aktualizacje, żeby weryfikacja nie padła w połowie. Po instalacji uruchom grę raz, aby UNCHEATER dokończył pracę, a potem potwierdź tożsamość STOVE widoczną w menu konta. Jeśli coś wygląda źle, przestań wydawać i sprawdź [[centrum FAQ|/faq/]] oraz oficjalne FAQ Steam na STOVE view/14378309.",
         "Jeśli chcesz buffów celebracyjnych Foundry i Guild War zamiast (lub oprócz) starego postępu, zainstaluj pełnego klienta, potwierdź, że jesteś na zamierzonym logowaniu, a potem świadomie utwórz postać na Foundry. Konwersja logowania nie umieszcza starego Dziedzica na Foundry. Szczegóły kalendarza, terminy Guild War i uwagi o kodach są w [[poradniku serwera Foundry|/foundry/#server-guide]] — nie zaśmiecaj tej strony datami.",
         "Wskazówki dotyczące miejsca i sieci: zostaw ~10 GB wolnego, preferuj kabel lub stabilne Wi-Fi, gdy Steam kończy pobieranie Epic Seven na Steam, i wstrzymaj inne duże aktualizacje, żeby weryfikacja nie padła w połowie. Po instalacji uruchom grę raz, aby UNCHEATER dokończył pracę, a potem potwierdź tożsamość STOVE widoczną w menu konta. Jeśli coś wygląda źle, przestań wydawać i sprawdź [[centrum FAQ|/faq/]] oraz oficjalne FAQ Steam na STOVE view/14378309.",
         "Ta strona nigdy nie hostuje instalatorów, mirrorów, szarych kodów ani zmodyfikowanych klientów. Jeśli wynik wyszukiwania oferuje ZIP „pobierania Epic Seven na Steam”, torrent albo darmowy pakiet skórek, traktuj go jak malware. Trzymaj się store.steampowered.com/app/5019180, cytuj STOVE w sprawie zasad konta i pamiętaj, że epicsevensteam.com to nieoficjalny poradnik gracza — nie wsparcie Smilegate, STOVE, Valve ani Steam."
@@ -2914,15 +2914,15 @@ export const CONTENT = {
       "warn": "If you transferred your existing Epic Seven login to Steam Login, then used in-game account deletion in the Steam demo, all account data — including progress on the original server — can be deleted.",
       "do_h2": "What to do",
       "dos": [
-        "Prefer withdraw-then-convert if Steam created an empty linked account.",
+        "If Steam created an empty linked account, do not withdraw it — log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original.",
         "Install/play the full Steam release (app 5019180) instead of relying on demo leftovers.",
         "Re-read STOVE demo precaution https://page.onstove.com/epicseven/global/view/14581667 before any delete UI.",
         "Keep this site’s transfer guide open while you work — unofficial, cite STOVE."
       ],
-      "diff_h2": "How this differs from withdrawing a Steam-linked STOVE account",
-      "diff": "STOVE account withdrawal (for a wrong Steam-linked empty account) is the official-shaped recovery path summarized on the transfer guide. In-game account deletion on the demo/client after a Steam login transfer is the danger called out in STOVE’s demo precaution — do not confuse the two.",
+      "diff_h2": "How this differs from the official Convert recovery",
+      "diff": "The official recovery for a wrong Steam-linked empty account is Convert, not withdrawal: log in to STOVE with that Steam account, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. In-game account deletion on the demo/client after a Steam login transfer is the danger called out in STOVE’s demo precaution — do not confuse the two.",
       "related_h2": "Related",
-      "answer": "After you transfer an existing Epic Seven login to Steam Login, do not use in-game account deletion on the Steam demo/client. Official STOVE precaution states that can wipe account data, including progress on the original server. Prefer the withdraw-then-convert recovery path on the transfer guide, and confirm wording on STOVE before acting. Unofficial warning page.",
+      "answer": "After you transfer an existing Epic Seven login to Steam Login, do not use in-game account deletion on the Steam demo/client. Official STOVE precaution states that can wipe account data, including progress on the original server. For a wrong-bind, use the official Convert sequence on the transfer guide — do not withdraw the temporary account — and confirm wording on STOVE before acting. Unofficial warning page.",
       "img_alt": "Unofficial diagram: never delete after Steam transfer",
       "table_h2": "Do / Don't",
       "th": [
@@ -2935,7 +2935,7 @@ export const CONTENT = {
           "Launch Steam first and treat a blank Heir as your main"
         ],
         [
-          "Withdraw a wrong Steam-linked STOVE account via STOVE UI",
+          "Use the official Convert sequence for a wrong Steam-linked temporary account",
           "Use in-game account deletion on demo/client after transfer"
         ],
         [
@@ -2948,7 +2948,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Wrong-bind recovery: authorize the empty Steam link on STOVE → withdraw that STOVE account → convert the original login.",
+        "Wrong-bind recovery: log in to STOVE with the Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login.",
         "Demo deletion risk: after Steam login transfer, in-game delete on demo/client can wipe original-server progress per STOVE.",
         "If unsure which path you are on, stop and re-read the transfer guide + live STOVE notices before clicking delete."
       ],
@@ -2959,8 +2959,8 @@ export const CONTENT = {
           "Yes — STOVE’s precaution warns that after Steam login transfer, using in-game account deletion on the demo/client can wipe original-server progress. Verify on STOVE before acting."
         ],
         [
-          "Is withdrawing a wrong Steam link the same as deletion?",
-          "No. Withdraw the empty Steam-linked STOVE account via STOVE’s account tools, then convert the original login. That is the recovery outline — not the in-game delete button on a demo session."
+          "Is Convert the same as deletion or withdrawal?",
+          "No. Convert turns the temporary Steam-linked STOVE account into a non-Steam login, then you convert the original login to Steam. That is the official Q3 recovery outline — not the in-game delete button on a demo session, and not account withdrawal."
         ],
         [
           "I already clicked delete — what now?",
@@ -2973,7 +2973,7 @@ export const CONTENT = {
       "link_foundry": "Foundry server guide",
       "deep_h2": "Read before any delete UI",
       "deep": [
-        "Do not confuse STOVE withdraw (wrong Steam link) with in-game demo deletion after transfer — only the latter is the wipe risk in STOVE’s precaution.",
+        "Do not confuse the official Convert recovery (wrong Steam link) with in-game demo deletion after transfer — only the latter is the wipe risk in STOVE’s precaution.",
         "Choosing a Foundry fresh start instead of wiping a demo leftover? Read the [[Foundry server guide|/foundry/]] for celebration calendar and Guild War — that path is a new-server character, not a transfer or delete fix."
       ],
       "img_alt2": "Self-drawn Do / Don't comparison for demo delete after transfer",
@@ -3062,15 +3062,15 @@ export const CONTENT = {
       "warn": "Steamログイン変換後にデモ/クライアントでゲーム内削除を押すと、原鯖進行が消える可能性があります。STOVE公開注意の要約であり、実行前に原文を必ず確認。本サイトはSmilegate/STOVE/Steamと無関係です。",
       "do_h2": "やるべきこと",
       "dos": [
-        "Steamが空連携を作ったなら退会→変換を優先。",
+        "Steamが空連携を作ったなら削除せず、そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから本ログインをSteamへ。",
         "デモ残存に頼らず正式Steam（app 5019180）を導入/プレイ。",
         "削除UIの前にSTOVEデモ注意を再読。",
         "作業中は本サイトの引き継ぎガイドを開きつつ、引用はSTOVEに従う。"
       ],
-      "diff_h2": "Steam連携STOVE退会との違い",
-      "diff": "誤ったSteam連携の空アカに対するSTOVE退会は、引き継ぎガイドで要約した復旧ルートです。Steamログイン変換後のデモ/クライアント内削除はSTOVEデモ注意が警告する危険で、混同しないでください。",
+      "diff_h2": "公式FAQ 3番のConvert復旧との違い",
+      "diff": "誤ったSteam連携の空アカに対する公式復旧は退会ではなくConvertです。そのSteamでSTOVEにログインし、一時アカウントをSteam以外のログインに変換してから、元のメール/SNSをSteamに変換します。Steamログイン変換後のデモ/クライアント内削除はSTOVEデモ注意が警告する危険で、混同しないでください。",
       "related_h2": "関連",
-      "answer": "既存のEpic SevenログインをSteamログインへ変換したあと、Steamデモ/クライアントでゲーム内アカウント削除を使わないでください。公式STOVE注意では、その操作で原鯖進行を含むアカウントデータが消える恐れがあるとあります。引き継ぎガイドの退会→変換復旧を優先し、実行前にSTOVE文面を確認。非公式警告ページです。",
+      "answer": "既存のEpic SevenログインをSteamログインへ変換したあと、Steamデモ/クライアントでゲーム内アカウント削除を使わないでください。公式STOVE注意では、その操作で原鯖進行を含むアカウントデータが消える恐れがあるとあります。誤連携は引き継ぎガイドの公式FAQ 3番のConvert順を使い、一時アカウントを退会しないでください。実行前にSTOVE文面を確認。非公式警告ページです。",
       "img_alt": "Steam変換後の削除禁止・非公式図",
       "table_h2": "やるべきこと / やってはいけないこと",
       "th": [
@@ -3083,7 +3083,7 @@ export const CONTENT = {
           "先にSteamを起動し空の後継者を本アカ扱い"
         ],
         [
-          "誤ったSteam連携STOVEはSTOVE UIで退会",
+          "誤ったSteam連携の一時STOVEは公式FAQ 3番のConvertで処理",
           "変換後にデモ/クライアントのゲーム内削除"
         ],
         [
@@ -3096,7 +3096,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "誤連携復旧：STOVEで空のSteam連携を認可→そのSTOVEを退会→本ログインを変換。",
+        "誤連携復旧：そのSteamでSTOVEにログイン→[マイプロフィールアイコン > アカウント情報] > Convert→一時アカウントをSteam以外のログインに変換→元のメール/SNSをSteamに変換。",
         "デモ削除リスク：Steamログイン変換後のデモ/クライアント内削除はSTOVE上、原鯖進行を消し得る。",
         "どの経路か不明なら、削除クリック前に引き継ぎガイドと最新STOVEを再読。"
       ],
@@ -3107,8 +3107,8 @@ export const CONTENT = {
           "はい。STOVE注意ではSteamログイン変換後のデモ/クライアント内削除が原鯖進行を消し得ると警告。実行前にSTOVEで確認。"
         ],
         [
-          "誤Steam連携の退会は削除と同じ？",
-          "いいえ。STOVEアカウント操作で空のSteam連携STOVEを退会し、本ログインを変換するのが復旧の骨子で、デモ上の削除ボタンではありません。"
+          "誤Steam連携のConvertは削除や退会と同じ？",
+          "いいえ。Convertで一時Steam連携STOVEをSteam以外のログインに変換し、その後、元のログインをSteamに変換します。これが公式FAQ 3番の復旧骨子で、デモ上の削除ボタンでも退会でもありません。"
         ],
         [
           "すでに削除を押したら？",
@@ -3122,9 +3122,9 @@ export const CONTENT = {
       "deep_h2": "削除UIの前に読む",
       "deep": [
         "デモ残存を消す代わりにファウンドリ開拓を選ぶなら[[ファウンドリ鯖ガイド|/foundry/]]でお祝い日程とギルド戦を確認 — 引き継ぎ/削除復旧ではなく新鯖キャラ経路です。",
-        "プレイヤーは空のSteam連携に対するSTOVE退会と、デモセッション上のゲーム内削除を混同しがちです。誤連携の公式形復旧骨子に出るのは前者だけです。後者はSteamログイン変換後に原鯖進行が消える恐れがあるとSTOVEが警告する経路です。友人が「空アカはゲーム内で消せ」と言っても止まり、STOVE注意（view/14581667）と引き継ぎガイドを開いてください。既に押したら追加実験を止め、スクショを集め公式CSのみ。本警告頁はデータを戻せません。デモ残存は後の変換を阻むことがあるので正式クライアント（app 5019180）導入と退会→変換を優先。",
-        "作業チェック：①今Steamが使うSTOVE身元が旧進行アカか確認 ②違えば退会→変換 ③削除ボタンは押さない ④公式FAQ・デモ注意原文を再確認。衝突したら原文が勝ちます。",
-        "削除ボタンの位置はクライアント版・デモ/正式で違って見えることがあります。名称が「アカウント削除」「キャラ削除」「退会」等でも、Steamログイン変換後なら先にSTOVEデモ注意を読んでください。復旧用のSTOVE退会はアカウント設定/CS経路にあり、ゲーム内戦闘メニューの削除とは別です。確信がなければ何も押さず、スクショ付きで公式CSへ。引き継ぎガイドの衝突節と本警告を並べると混同が減ります。"
+        "プレイヤーは空のSteam連携に対するSTOVE退会と、デモセッション上のゲーム内削除を混同しがちです。誤連携の公式復旧は退会ではなく公式FAQ 3番のConvertです（そのSteamでSTOVEログイン→一時アカウントを非Steamへ→元のメール/SNSをSteamへ）。後者はSteamログイン変換後に原鯖進行が消える恐れがあるとSTOVEが警告する経路です。友人が「空アカはゲーム内で消せ」と言っても止まり、STOVE注意（view/14581667）と引き継ぎガイドを開いてください。既に押したら追加実験を止め、スクショを集め公式CSのみ。本警告頁はデータを戻せません。デモ残存は後の変換を阻むことがあるので正式クライアント（app 5019180）導入と公式FAQ 3番のConvert順を優先。",
+        "作業チェック：①今Steamが使うSTOVE身元が旧進行アカか確認 ②違えば公式FAQ 3番のConvert順 ③削除ボタンは押さない ④公式FAQ・デモ注意原文を再確認。衝突したら原文が勝ちます。",
+        "削除ボタンの位置はクライアント版・デモ/正式で違って見えることがあります。名称が「アカウント削除」「キャラ削除」「退会」等でも、Steamログイン変換後なら先にSTOVEデモ注意を読んでください。復旧用の公式Convertはアカウント設定のConvert経路にあり、ゲーム内の削除とは別です。確信がなければ何も押さず、スクショ付きで公式CSへ。引き継ぎガイドの衝突節と本警告を並べると混同が減ります。"
       ],
       "img_alt2": "変換後デモ削除のDo/Don't自作対照図",
       "img_alt3": "Epic Seven公式Steamカプセル — Steam CDN"
@@ -3285,15 +3285,15 @@ export const CONTENT = {
       "warn": "Si transferiste tu inicio de sesión existente de Epic Seven a Steam Login y luego usaste el borrado de cuenta dentro del juego en la demo de Steam, todos los datos de la cuenta — incluido el progreso del servidor original — pueden borrarse.",
       "do_h2": "Qué hacer",
       "dos": [
-        "Prefiere retirar y luego convertir si Steam creó una cuenta vinculada vacía.",
+        "Si Steam creó una cuenta vinculada vacía, no la retires: inicia sesión en STOVE con esa cuenta de Steam, abre [Mi icono de perfil > Información de la cuenta] → Convert la cuenta temporal a un inicio que no sea Steam y luego convierte la original.",
         "Instala/juega la versión completa de Steam (app 5019180) en lugar de depender de cuentas sobrantes de la demo.",
         "Vuelve a leer la precaución sobre la demo de STOVE https://page.onstove.com/epicseven/global/view/14581667 antes de usar cualquier interfaz de borrado.",
         "Mantén abierta la guía de transferencia de este sitio mientras trabajas — no oficial, cita a STOVE."
       ],
-      "diff_h2": "En qué se diferencia de retirar una cuenta STOVE vinculada a Steam",
-      "diff": "La retirada de la cuenta de STOVE (para una cuenta vacía vinculada a Steam por error) es la ruta de recuperación según el esquema oficial que se resume en la guía de transferencia. El borrado de cuenta dentro del juego en la demo/cliente después de una transferencia del inicio de sesión es el peligro que señala la precaución de STOVE sobre la demo — no confundas ambos.",
+      "diff_h2": "En qué se diferencia de la recuperación oficial con Convert",
+      "diff": "La recuperación oficial para una cuenta vacía mal vinculada a Steam es Convert, no retirar: inicia sesión en STOVE con esa cuenta de Steam, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. El borrado de cuenta dentro del juego en la demo/cliente tras una transferencia del inicio de sesión es el peligro que señala la precaución de STOVE sobre la demo — no confundas ambos.",
       "related_h2": "Relacionado",
-      "answer": "Después de transferir un inicio de sesión existente de Epic Seven a Steam Login, no uses el borrado de cuenta dentro del juego en la demo/cliente de Steam. La precaución oficial de STOVE indica que eso puede eliminar los datos de la cuenta, incluido el progreso del servidor original. Prefiere la ruta de recuperación de retirar y luego convertir de la guía de transferencia, y confirma el texto en STOVE antes de actuar. Página de advertencia no oficial.",
+      "answer": "Después de transferir un inicio de sesión existente de Epic Seven a Steam Login, no uses el borrado de cuenta dentro del juego en la demo/cliente de Steam. La precaución oficial de STOVE indica que eso puede eliminar los datos de la cuenta, incluido el progreso del servidor original. Para una vinculación errónea, usa la secuencia Convert oficial de la guía de transferencia — no retires la cuenta temporal — y confirma el texto en STOVE antes de actuar. Página de advertencia no oficial.",
       "img_alt": "Diagrama no oficial: nunca borres después de la transferencia a Steam",
       "table_h2": "Sí / No",
       "th": [
@@ -3306,7 +3306,7 @@ export const CONTENT = {
           "Abrir Steam primero y tratar un Heir en blanco como tu cuenta principal"
         ],
         [
-          "Retira una cuenta STOVE vinculada a Steam por error mediante la interfaz de STOVE",
+          "Usa la secuencia Convert oficial para una cuenta temporal mal vinculada a Steam",
           "Usar el borrado de cuenta dentro del juego en la demo/cliente después de transferir"
         ],
         [
@@ -3319,7 +3319,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Recuperación de vinculación errónea: autoriza la vinculación vacía de Steam en STOVE → retira esa cuenta STOVE → convierte el inicio de sesión original.",
+        "Recuperación de vinculación errónea: inicia sesión en STOVE con la cuenta de Steam, abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte el inicio de sesión original de email/SNS.",
         "Riesgo del borrado de la demo: después de la transferencia del inicio de sesión a Steam, el borrado dentro del juego en la demo/cliente puede eliminar el progreso del servidor original según STOVE.",
         "Si no tienes claro en qué ruta estás, detente y vuelve a leer la guía de transferencia y los avisos en vivo de STOVE antes de pulsar borrar."
       ],
@@ -3330,8 +3330,8 @@ export const CONTENT = {
           "Sí — la precaución de STOVE advierte que, tras la transferencia del inicio de sesión a Steam, usar el borrado de cuenta dentro del juego en la demo/cliente puede eliminar el progreso del servidor original. Verifícalo en STOVE antes de actuar."
         ],
         [
-          "¿Retirar una vinculación de Steam errónea es lo mismo que borrar?",
-          "No. Retira la cuenta STOVE vacía vinculada a Steam mediante las herramientas de cuenta de STOVE y luego convierte el inicio de sesión original. Ese es el esquema de recuperación — no el botón de borrado dentro del juego en una sesión de demo."
+          "¿Convert es lo mismo que borrar o retirar?",
+          "No. Convert transforma la cuenta temporal de STOVE vinculada a Steam en un inicio que no sea Steam, y luego conviertes el inicio original a Steam. Ese es el esquema oficial de la pregunta 3 — no el botón de borrado dentro del juego en una sesión de demo, ni una retirada de cuenta."
         ],
         [
           "Ya pulsé borrar — ¿y ahora qué?",
@@ -3344,7 +3344,7 @@ export const CONTENT = {
       "link_foundry": "Guía del servidor Foundry",
       "deep_h2": "Lee antes de cualquier interfaz de borrado",
       "deep": [
-        "No confundas la retirada de STOVE (vinculación de Steam errónea) con el borrado de la demo dentro del juego después de transferir — solo este último es el riesgo de eliminación en la precaución de STOVE.",
+        "No confundas la recuperación oficial con Convert (vinculación de Steam errónea) con el borrado de la demo dentro del juego después de transferir — solo este último es el riesgo de eliminación en la precaución de STOVE.",
         "¿Prefieres un inicio nuevo en Foundry en lugar de borrar una cuenta sobrante de la demo? Lee la [[guía del servidor Foundry|/foundry/]] para el calendario de celebración y Guild War — esa ruta es un personaje de servidor nuevo, no una transferencia ni una solución al borrado."
       ],
       "img_alt2": "Comparación propia de Sí / No para el borrado de la demo después de transferir",
@@ -3358,15 +3358,15 @@ export const CONTENT = {
       "warn": "Se você transferiu seu login existente do Epic Seven para o Login Steam e depois usou a exclusão de conta dentro do jogo na demo da Steam, todos os dados da conta — incluindo o progresso no servidor original — podem ser apagados.",
       "do_h2": "O que fazer",
       "dos": [
-        "Prefira retirar e depois converter se a Steam criou uma conta vinculada vazia.",
+        "Se a Steam criou uma conta vinculada vazia, não a retire: faça login no STOVE com essa conta Steam, abra [Meu ícone de perfil > Informações da conta] → Convert a conta temporária para um login que não seja Steam e depois converta a original.",
         "Instale/jogue a versão completa da Steam (app 5019180) em vez de contar com sobras da demo.",
         "Releia a precaução da demo do STOVE https://page.onstove.com/epicseven/global/view/14581667 antes de qualquer interface de exclusão.",
         "Mantenha o guia de transferência deste site aberto enquanto você faz isso — não oficial, cite o STOVE."
       ],
-      "diff_h2": "Como isso difere de retirar uma conta STOVE vinculada à Steam",
-      "diff": "A retirada da conta STOVE (para uma conta vazia vinculada à Steam por engano) é o caminho de recuperação de formato oficial resumido no guia de transferência. A exclusão de conta dentro do jogo na demo/no cliente após uma transferência de login para a Steam é o perigo apontado na precaução da demo do STOVE — não confunda os dois.",
+      "diff_h2": "Como isso difere da recuperação oficial com Convert",
+      "diff": "A recuperação oficial para uma conta vazia mal vinculada à Steam é Convert, não retirada: faça login no STOVE com essa conta Steam, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. A exclusão de conta dentro do jogo na demo/no cliente após uma transferência de login para a Steam é o perigo apontado na precaução da demo do STOVE — não confunda os dois.",
       "related_h2": "Relacionado",
-      "answer": "Depois de transferir um login existente do Epic Seven para o Login Steam, não use a exclusão de conta dentro do jogo na demo/no cliente da Steam. A precaução oficial do STOVE afirma que isso pode apagar os dados da conta, incluindo o progresso no servidor original. Prefira o caminho de recuperação de retirar e depois converter do guia de transferência e confirme o texto no STOVE antes de agir. Página de aviso não oficial.",
+      "answer": "Depois de transferir um login existente do Epic Seven para o Login Steam, não use a exclusão de conta dentro do jogo na demo/no cliente da Steam. A precaução oficial do STOVE afirma que isso pode apagar os dados da conta, incluindo o progresso no servidor original. Para um vínculo errado, use a sequência Convert oficial do guia de transferência — não retire a conta temporária — e confirme o texto no STOVE antes de agir. Página de aviso não oficial.",
       "img_alt": "Diagrama não oficial: nunca apague após a transferência para a Steam",
       "table_h2": "Faça / Não faça",
       "th": [
@@ -3379,7 +3379,7 @@ export const CONTENT = {
           "Abrir a Steam primeiro e tratar um Heir em branco como seu principal"
         ],
         [
-          "Retirar uma conta STOVE vinculada à Steam por engano pela interface do STOVE",
+          "Use a sequência Convert oficial para uma conta temporária mal vinculada à Steam",
           "Usar a exclusão de conta dentro do jogo na demo/no cliente após a transferência"
         ],
         [
@@ -3392,7 +3392,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Recuperação de vínculo errado: autorize o vínculo vazio da Steam no STOVE → retire essa conta STOVE → converta o login original.",
+        "Recuperação de vínculo errado: faça login no STOVE com a conta Steam, abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta o login original de e-mail/SNS.",
         "Risco de apagar a demo: após a transferência de login para a Steam, a exclusão dentro do jogo na demo/no cliente pode apagar o progresso do servidor original, segundo o STOVE.",
         "Se não tiver certeza de qual caminho está seguindo, pare e releia o guia de transferência + os avisos atuais do STOVE antes de clicar em apagar."
       ],
@@ -3403,8 +3403,8 @@ export const CONTENT = {
           "Sim — a precaução do STOVE avisa que, após a transferência de login para a Steam, usar a exclusão de conta dentro do jogo na demo/no cliente pode apagar o progresso do servidor original. Confirme no STOVE antes de agir."
         ],
         [
-          "Retirar um vínculo errado da Steam é o mesmo que apagar?",
-          "Não. Retire a conta STOVE vazia vinculada à Steam pelas ferramentas de conta do STOVE e depois converta o login original. Esse é o resumo da recuperação — não o botão de apagar dentro do jogo em uma sessão de demo."
+          "Convert é o mesmo que apagar ou retirar?",
+          "Não. Convert transforma a conta temporária do STOVE vinculada à Steam em um login que não seja Steam, e depois você converte o login original para Steam. Esse é o resumo oficial da pergunta 3 — não o botão de apagar dentro do jogo em uma sessão de demo, nem uma retirada de conta."
         ],
         [
           "Já cliquei em apagar — e agora?",
@@ -3417,7 +3417,7 @@ export const CONTENT = {
       "link_foundry": "Guia do servidor Foundry",
       "deep_h2": "Leia antes de qualquer interface de exclusão",
       "deep": [
-        "Não confunda a retirada no STOVE (vínculo errado da Steam) com a exclusão da demo dentro do jogo após a transferência — só a segunda é o risco de apagamento na precaução do STOVE.",
+        "Não confunda a recuperação oficial com Convert (vínculo errado da Steam) com a exclusão da demo dentro do jogo após a transferência — só a segunda é o risco de apagamento na precaução do STOVE.",
         "Escolhendo um começo novo no Foundry em vez de apagar uma sobra da demo? Leia o [[guia do servidor Foundry|/foundry/]] para o calendário de celebração e a Guild War — esse caminho é um personagem de servidor novo, não uma transferência nem uma solução para apagar."
       ],
       "img_alt2": "Comparação própria Faça / Não faça para apagar a demo após a transferência",
@@ -3431,15 +3431,15 @@ export const CONTENT = {
       "warn": "Wenn du deinen bestehenden Login für Epic Seven auf Steam Login übertragen und dann in der Steam-Demo die Kontolöschung im Spiel verwendet hast, können alle Kontodaten gelöscht werden — einschließlich des Fortschritts auf dem ursprünglichen Server.",
       "do_h2": "Was du tun solltest",
       "dos": [
-        "Bevorzuge Zurückziehen-dann-Umstellen, wenn Steam ein leeres verknüpftes Konto erstellt hat.",
+        "Wenn Steam ein leeres verknüpftes Konto erstellt hat, ziehe es nicht zurück: Melde dich mit diesem Steam-Konto bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche um.",
         "Installiere/spiele die vollständige Steam-Version (app 5019180), statt dich auf Demo-Reste zu verlassen.",
         "Lies die STOVE-Demo-Warnung https://page.onstove.com/epicseven/global/view/14581667 erneut, bevor du eine Lösch-UI öffnest.",
         "Lass den Transfer-Guide dieser Seite geöffnet, während du arbeitest — unabhängig, als Quelle STOVE angeben."
       ],
-      "diff_h2": "Unterschied zum Zurückziehen eines Steam-verknüpften STOVE-Kontos",
-      "diff": "Der Rückzug eines STOVE-Kontos (für ein falsch Steam-verknüpftes leeres Konto) ist der offizielle Wiederherstellungsweg, der im Transfer-Guide zusammengefasst ist. Die Kontolöschung im Spiel in Demo/Client nach einem Steam-Login-Transfer ist die Gefahr, auf die die STOVE-Demo-Warnung hinweist — verwechsle beides nicht.",
+      "diff_h2": "Unterschied zur offiziellen Convert-Wiederherstellung",
+      "diff": "Die offizielle Wiederherstellung für ein falsch Steam-verknüpftes leeres Konto ist Convert, nicht Rückzug: Melde dich mit diesem Steam-Konto bei STOVE an, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Die Kontolöschung im Spiel in Demo/Client nach einem Steam-Login-Transfer ist die Gefahr, auf die die STOVE-Demo-Warnung hinweist — verwechsle beides nicht.",
       "related_h2": "Verwandt",
-      "answer": "Nachdem du einen bestehenden Epic Seven-Login auf Steam Login übertragen hast, nutze keine Kontolöschung im Spiel in Demo/Client. Die offizielle STOVE-Warnung besagt, dass dies Kontodaten löschen kann, einschließlich des Fortschritts auf dem ursprünglichen Server. Bevorzuge den Wiederherstellungsweg Zurückziehen-dann-Umstellen im Transfer-Guide und bestätige den Wortlaut auf STOVE, bevor du handelst. Unabhängige Warnseite.",
+      "answer": "Nachdem du einen bestehenden Epic Seven-Login auf Steam Login übertragen hast, nutze keine Kontolöschung im Spiel in Demo/Client. Die offizielle STOVE-Warnung besagt, dass dies Kontodaten löschen kann, einschließlich des Fortschritts auf dem ursprünglichen Server. Für eine falsche Verknüpfung nutze die offizielle Convert-Sequenz im Transfer-Guide — ziehe das temporäre Konto nicht zurück — und bestätige den Wortlaut auf STOVE, bevor du handelst. Unabhängige Warnseite.",
       "img_alt": "Unabhängiges Diagramm: Nach dem Steam-Transfer niemals löschen",
       "table_h2": "Machen / Nicht machen",
       "th": [
@@ -3452,7 +3452,7 @@ export const CONTENT = {
           "Zuerst Steam starten und einen leeren Heir als Hauptkonto behandeln"
         ],
         [
-          "Ein falsch Steam-verknüpftes STOVE-Konto über die STOVE-UI zurückziehen",
+          "Nutze die offizielle Convert-Sequenz für ein falsch Steam-verknüpftes temporäres Konto",
           "Nach dem Transfer die Kontolöschung im Spiel in Demo/Client nutzen"
         ],
         [
@@ -3465,7 +3465,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Wiederherstellung bei falscher Verknüpfung: die leere Steam-Verknüpfung auf STOVE autorisieren → dieses STOVE-Konto zurückziehen → den ursprünglichen Login umstellen.",
+        "Wiederherstellung bei falscher Verknüpfung: Melde dich mit dem Steam-Konto bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann den ursprünglichen E-Mail-/SNS-Login um.",
         "Risiko der Demo-Löschung: Nach dem Steam-Login-Transfer kann die Löschung im Spiel in Demo/Client laut STOVE den Fortschritt auf dem ursprünglichen Server löschen.",
         "Wenn du unsicher bist, welchen Weg du gerade gehst, halte an und lies den Transfer-Guide + die aktuellen STOVE-Hinweise erneut, bevor du auf Löschen klickst."
       ],
@@ -3476,8 +3476,8 @@ export const CONTENT = {
           "Ja — die STOVE-Warnung besagt, dass nach dem Steam-Login-Transfer die Kontolöschung im Spiel in Demo/Client den Fortschritt auf dem ursprünglichen Server löschen kann. Prüfe es auf STOVE, bevor du handelst."
         ],
         [
-          "Ist das Zurückziehen einer falschen Steam-Verknüpfung dasselbe wie Löschen?",
-          "Nein. Ziehe das leere Steam-verknüpfte STOVE-Konto über die Kontotools von STOVE zurück und stelle dann den ursprünglichen Login um. Das ist die Wiederherstellungs-Skizze — nicht der Löschen-Button im Spiel in einer Demo-Sitzung."
+          "Ist Convert dasselbe wie Löschen oder Rückzug?",
+          "Nein. Convert macht aus dem temporären Steam-verknüpften STOVE-Konto einen Nicht-Steam-Login; danach stellst du den ursprünglichen Login auf Steam um. Das ist die offizielle Wiederherstellung nach Frage 3 — nicht der Löschen-Button im Spiel in einer Demo-Sitzung und kein Kontorückzug."
         ],
         [
           "Ich habe schon auf Löschen geklickt — was nun?",
@@ -3490,7 +3490,7 @@ export const CONTENT = {
       "link_foundry": "Foundry-Server-Guide",
       "deep_h2": "Lies das, bevor du eine Lösch-UI öffnest",
       "deep": [
-        "Verwechsle den STOVE-Rückzug (falsche Steam-Verknüpfung) nicht mit der Demo-Löschung im Spiel nach dem Transfer — nur Letztere ist das Löschrisiko in der STOVE-Warnung.",
+        "Verwechsle die offizielle Convert-Wiederherstellung (falsche Steam-Verknüpfung) nicht mit der Demo-Löschung im Spiel nach dem Transfer — nur Letztere ist das Löschrisiko in der STOVE-Warnung.",
         "Du willst lieber einen Foundry-Neustart wagen, statt ein Demo-Überbleibsel zu löschen? Lies den [[Foundry-Server-Guide|/foundry/]] für Feier-Kalender und Guild War — dieser Weg ist ein Neustart-Charakter auf einem neuen Server, keine Transfer- oder Lösch-Lösung."
       ],
       "img_alt2": "Selbst gezeichneter Machen-/Nicht-machen-Vergleich zur Demo-Löschung nach dem Transfer",
@@ -3504,15 +3504,15 @@ export const CONTENT = {
       "warn": "Si vous avez transféré votre connexion Epic Seven existante vers Steam Login, puis utilisé la suppression de compte en jeu dans la démo Steam, toutes les données du compte — y compris la progression sur le serveur d'origine — peuvent être supprimées.",
       "do_h2": "Que faire",
       "dos": [
-        "Privilégiez retrait-puis-conversion si Steam a créé un compte lié vide.",
+        "Si Steam a créé un compte lié vide, ne le retirez pas : connectez-vous à STOVE avec ce compte Steam, ouvrez [Mon icône de profil > Informations du compte] → Convert le compte temporaire en connexion non Steam, puis convertissez l'original.",
         "Installez/jouez à la version Steam complète (app 5019180) au lieu de vous fier aux restes de la démo.",
         "Relisez la précaution démo STOVE https://page.onstove.com/epicseven/global/view/14581667 avant toute interface de suppression.",
         "Gardez le guide de transfert de ce site ouvert pendant l'opération — non officiel, source STOVE."
       ],
-      "diff_h2": "En quoi cela diffère du retrait d'un compte STOVE lié à Steam",
-      "diff": "Le retrait du compte STOVE (pour un compte vide lié à Steam par erreur) est le parcours de récupération de forme officielle résumé dans le guide de transfert. La suppression de compte en jeu sur la démo/le client après un transfert de connexion Steam est le danger signalé dans la précaution démo de STOVE — ne confondez pas les deux.",
+      "diff_h2": "En quoi cela diffère de la récupération officielle par Convert",
+      "diff": "La récupération officielle pour un compte vide mal lié à Steam est Convert, pas le retrait : connectez-vous à STOVE avec ce compte Steam, convertissez le compte temporaire en connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. La suppression de compte en jeu sur la démo/le client après un transfert de connexion Steam est le danger signalé dans la précaution démo de STOVE — ne confondez pas les deux.",
       "related_h2": "À lire aussi",
-      "answer": "Après avoir transféré une connexion Epic Seven existante vers Steam Login, n'utilisez pas la suppression de compte en jeu sur la démo/le client Steam. La précaution officielle STOVE indique que cela peut effacer les données du compte, y compris la progression sur le serveur d'origine. Privilégiez le parcours de récupération retrait-puis-conversion du guide de transfert, et confirmez la formulation sur STOVE avant d'agir. Page d'avertissement non officielle.",
+      "answer": "Après avoir transféré une connexion Epic Seven existante vers Steam Login, n'utilisez pas la suppression de compte en jeu sur la démo/le client Steam. La précaution officielle STOVE indique que cela peut effacer les données du compte, y compris la progression sur le serveur d'origine. Pour une mauvaise liaison, utilisez la séquence Convert officielle du guide de transfert — ne retirez pas le compte temporaire — et confirmez la formulation sur STOVE avant d'agir. Page d'avertissement non officielle.",
       "img_alt": "Schéma non officiel : ne jamais supprimer après un transfert Steam",
       "table_h2": "À faire / À ne pas faire",
       "th": [
@@ -3525,7 +3525,7 @@ export const CONTENT = {
           "Lancer Steam d'abord et prendre un Heir vide pour votre compte principal"
         ],
         [
-          "Retirer un compte STOVE lié à Steam par erreur via l'interface STOVE",
+          "Utiliser la séquence Convert officielle pour un compte temporaire mal lié à Steam",
           "Utiliser la suppression de compte en jeu sur démo/client après transfert"
         ],
         [
@@ -3538,7 +3538,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Récupération d'un mauvais lien : autorisez le lien Steam vide sur STOVE → retirez ce compte STOVE → convertissez la connexion d'origine.",
+        "Récupération d'un mauvais lien : connectez-vous à STOVE avec le compte Steam, ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez la connexion e-mail/SNS d'origine.",
         "Risque de suppression de la démo : après un transfert de connexion Steam, la suppression en jeu sur la démo/le client peut effacer la progression du serveur d'origine selon STOVE.",
         "Si vous ne savez pas quel parcours vous suivez, arrêtez-vous et relisez le guide de transfert + les avis STOVE en ligne avant de cliquer sur supprimer."
       ],
@@ -3549,8 +3549,8 @@ export const CONTENT = {
           "Oui — la précaution de STOVE avertit qu'après un transfert de connexion Steam, utiliser la suppression de compte en jeu sur la démo/le client peut effacer la progression du serveur d'origine. Vérifiez sur STOVE avant d'agir."
         ],
         [
-          "Retirer un mauvais lien Steam, est-ce la même chose qu'une suppression ?",
-          "Non. Retirez le compte STOVE vide lié à Steam via les outils de compte STOVE, puis convertissez la connexion d'origine. C'est le parcours de récupération — pas le bouton de suppression en jeu d'une session de démo."
+          "Convert est-il la même chose qu'une suppression ou un retrait ?",
+          "Non. Convert transforme le compte STOVE temporaire lié à Steam en connexion non Steam, puis vous convertissez la connexion d'origine en Steam. C'est le parcours officiel de la question 3 — pas le bouton de suppression en jeu d'une session de démo, ni un retrait de compte."
         ],
         [
           "J'ai déjà cliqué sur supprimer — et maintenant ?",
@@ -3563,7 +3563,7 @@ export const CONTENT = {
       "link_foundry": "Guide du serveur Foundry",
       "deep_h2": "À lire avant toute interface de suppression",
       "deep": [
-        "Ne confondez pas le retrait STOVE (mauvais lien Steam) avec la suppression en jeu de la démo après transfert — seule la seconde présente le risque d'effacement dans la précaution de STOVE.",
+        "Ne confondez pas la récupération officielle par Convert (mauvais lien Steam) avec la suppression en jeu de la démo après transfert — seule la seconde présente le risque d'effacement dans la précaution de STOVE.",
         "Vous choisissez un nouveau départ Foundry plutôt que d'effacer un reste de démo ? Lisez le [[Guide du serveur Foundry|/foundry/]] pour le calendrier de célébration et Guild War — ce parcours crée un personnage sur un nouveau serveur, ce n'est ni un transfert ni une solution de suppression."
       ],
       "img_alt2": "Comparatif À faire / À ne pas faire auto-dessiné pour la suppression de la démo après transfert",
@@ -3577,15 +3577,15 @@ export const CONTENT = {
       "warn": "Jeśli przeniosłeś istniejące logowanie Epic Seven na Steam Login, a następnie użyłeś usuwania konta w grze w demie Steam, wszystkie dane konta — w tym postęp na pierwotnym serwerze — mogą zostać usunięte.",
       "do_h2": "Co zrobić",
       "dos": [
-        "Jeśli Steam utworzył puste powiązane konto, preferuj wycofanie, a potem konwersję.",
+        "Jeśli Steam utworzył puste powiązane konto, nie wycofuj go: zaloguj się do STOVE tym kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert konto tymczasowe na logowanie inne niż Steam, a potem przekonwertuj pierwotne.",
         "Zainstaluj/graj w pełną wersję Steam (aplikacja 5019180), zamiast polegać na pozostałościach po demie.",
         "Przeczytaj ponownie ostrzeżenie STOVE o demie https://page.onstove.com/epicseven/global/view/14581667 przed jakimkolwiek interfejsem usuwania.",
         "Miej otwarty poradnik transferu z tej strony podczas pracy — nieoficjalny, źródło STOVE."
       ],
-      "diff_h2": "Czym to się różni od wycofania konta STOVE powiązanego ze Steam",
-      "diff": "Wycofanie konta STOVE (dla błędnie powiązanego pustego konta Steam) to oficjalna ścieżka odzyskiwania podsumowana w poradniku transferu. Usunięcie konta w grze w demie/kliencie po transferze logowania Steam to niebezpieczeństwo wskazane w ostrzeżeniu STOVE o demie — nie myl tych dwóch.",
+      "diff_h2": "Czym to się różni od oficjalnego odzyskiwania przez Convert",
+      "diff": "Oficjalne odzyskiwanie dla błędnie powiązanego pustego konta Steam to Convert, a nie wycofanie: zaloguj się do STOVE tym kontem Steam, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Usunięcie konta w grze w demie/kliencie po transferze logowania Steam to niebezpieczeństwo wskazane w ostrzeżeniu STOVE o demie — nie myl tych dwóch.",
       "related_h2": "Powiązane",
-      "answer": "Po przeniesieniu istniejącego logowania Epic Seven na Steam Login nie używaj usuwania konta w grze w demie/kliencie Steam. Oficjalne ostrzeżenie STOVE mówi, że może to wyczyścić dane konta, w tym postęp na pierwotnym serwerze. Preferuj ścieżkę odzyskiwania „wycofaj, potem przekonwertuj” z poradnika transferu i potwierdź brzmienie na STOVE przed działaniem. Nieoficjalna strona ostrzeżenia.",
+      "answer": "Po przeniesieniu istniejącego logowania Epic Seven na Steam Login nie używaj usuwania konta w grze w demie/kliencie Steam. Oficjalne ostrzeżenie STOVE mówi, że może to wyczyścić dane konta, w tym postęp na pierwotnym serwerze. W przypadku błędnego powiązania użyj oficjalnej sekwencji Convert z poradnika transferu — nie wycofuj konta tymczasowego — i potwierdź brzmienie na STOVE przed działaniem. Nieoficjalna strona ostrzeżenia.",
       "img_alt": "Nieoficjalny schemat: nigdy nie usuwaj konta po transferze na Steam",
       "table_h2": "Rób / Nie rób",
       "th": [
@@ -3598,7 +3598,7 @@ export const CONTENT = {
           "Najpierw uruchom Steam i uznaj pustego Dziedzica za głównego"
         ],
         [
-          "Wycofaj błędnie powiązane konto STOVE przez interfejs STOVE",
+          "Użyj oficjalnej sekwencji Convert dla błędnie powiązanego konta tymczasowego Steam",
           "Używaj usuwania konta w grze w demie/kliencie po transferze"
         ],
         [
@@ -3611,7 +3611,7 @@ export const CONTENT = {
         ]
       ],
       "diff_steps": [
-        "Odzyskiwanie po błędnym powiązaniu: autoryzuj puste powiązanie Steam w STOVE → wycofaj to konto STOVE → przekonwertuj pierwotne logowanie.",
+        "Odzyskiwanie po błędnym powiązaniu: zaloguj się do STOVE kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne logowanie e-mail/SNS.",
         "Ryzyko usunięcia dema: po transferze logowania Steam usunięcie w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze według STOVE.",
         "Jeśli nie wiesz, na której ścieżce jesteś, zatrzymaj się i przeczytaj ponownie poradnik transferu + bieżące ogłoszenia STOVE, zanim klikniesz usuń."
       ],
@@ -3622,8 +3622,8 @@ export const CONTENT = {
           "Tak — ostrzeżenie STOVE mówi, że po transferze logowania Steam użycie usuwania konta w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze. Potwierdź na STOVE przed działaniem."
         ],
         [
-          "Czy wycofanie błędnego powiązania Steam to to samo co usunięcie?",
-          "Nie. Wycofaj puste konto STOVE powiązane ze Steam przez narzędzia konta STOVE, a potem przekonwertuj pierwotne logowanie. To zarys odzyskiwania — nie przycisk usuwania w grze w sesji demo."
+          "Czy Convert to to samo co usunięcie lub wycofanie?",
+          "Nie. Convert zamienia tymczasowe konto STOVE powiązane ze Steam na logowanie inne niż Steam, a potem konwertujesz pierwotne logowanie na Steam. To oficjalny zarys odzyskiwania z pytania 3 — nie przycisk usuwania w grze w sesji demo ani wycofanie konta."
         ],
         [
           "Już kliknąłem usuń — co teraz?",
@@ -3636,7 +3636,7 @@ export const CONTENT = {
       "link_foundry": "Poradnik serwera Foundry",
       "deep_h2": "Przeczytaj przed jakimkolwiek interfejsem usuwania",
       "deep": [
-        "Nie myl wycofania w STOVE (błędne powiązanie Steam) z usunięciem w grze w demie po transferze — tylko to drugie jest ryzykiem czyszczenia w ostrzeżeniu STOVE.",
+        "Nie myl oficjalnego odzyskiwania przez Convert (błędne powiązanie Steam) z usunięciem w grze w demie po transferze — tylko to drugie jest ryzykiem czyszczenia w ostrzeżeniu STOVE.",
         "Wybierasz nowy start na Foundry zamiast czyszczenia pozostałości po demie? Przeczytaj [[poradnik serwera Foundry|/foundry/]] o kalendarzu celebracyjnym i Guild War — ta ścieżka to postać na nowym serwerze, nie transfer ani naprawa przez usunięcie."
       ],
       "img_alt2": "Własnoręcznie rysowane porównanie Rób / Nie rób dla usuwania dema po transferze",
@@ -3646,7 +3646,7 @@ export const CONTENT = {
   "/steam-transfer/": {
     "en": {
       "title": "Epic Seven Steam Transfer Guide | Keep Progress | E7",
-      "meta": "Epic Seven Steam transfer: convert STOVE→Steam Simple Login to keep progress. Wrong-bind withdraw, demo wipe; transfer ≠ Foundry. Unofficial.",
+      "meta": "Epic Seven Steam transfer: convert STOVE→Steam Simple Login to keep progress. Wrong-bind Convert, demo wipe; transfer ≠ Foundry. Unofficial.",
       "h1": "Epic Seven Steam transfer — keep progress",
       "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [
@@ -3679,16 +3679,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "If Steam already created a new account",
-      "conflict_intro": "Official recovery outline (paraphrased): withdraw the new Steam-linked STOVE account first, then convert your original.",
+      "conflict_intro": "Official Q3 recovery (paraphrased): do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam.",
       "conflict_steps": [
-        "On STOVE login, choose Steam account type.",
-        "Authorize the Steam account used for Epic Seven.",
-        "Finish STOVE registration / verification if asked.",
-        "Withdraw that Steam-linked STOVE account per STOVE UI.",
-        "Then convert your original email/SNS account to Steam login."
+        "On the STOVE login page, choose Steam login and register STOVE if needed.",
+        "Log in to the STOVE website with that Steam account.",
+        "Open [My Profile Icon > Account Information] and select Convert.",
+        "Choose a login method other than Steam to convert the temporary account.",
+        "Then convert the original email/SNS account to a Steam login."
       ],
-      "conflict_note": "Withdrawal may involve a waiting period — confirm in STOVE UI / CS. Do not invent third-party unlock tools.",
-      "cooldown_h2": "“Already registered” and the 3-month cooldown",
+      "conflict_note": "The official Q3 answer does not require withdrawal or a uniform waiting period. If a button is greyed out, follow the current STOVE UI / CS wording. Do not use third-party unlock tools.",
+      "cooldown_h2": "“Already registered” and a greyed-out Transfer button",
       "cooldown_lead": "Two errors account for most stuck transfers. Read the exact STOVE message before creating another account or deleting anything.",
       "cooldown_th": [
         "What you see",
@@ -3699,20 +3699,20 @@ export const CONTENT = {
         [
           "“This information has already been registered.”",
           "That Steam ID is already linked to another STOVE login — often the empty account Steam made on first launch.",
-          "Authorize that Steam ID on STOVE, withdraw the extra STOVE account, then convert the original email/SNS login. Do not open more Steam accounts."
+          "Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original email/SNS login. Do not open more Steam accounts."
         ],
         [
           "Transfer button greyed out",
-          "STOVE is showing a hold or cooldown, or the login is not eligible yet. Players commonly report a 3-month cooldown after a wrong-bind cleanup.",
-          "Read the date and scope in STOVE. Wait it out or ask STOVE CS; no third-party unlock can shorten it."
+          "STOVE is showing a hold or a greyed-out button, or the login is not eligible yet. The official Q3 answer states no uniform 3-month waiting period.",
+          "Read the current condition and date in STOVE UI. Follow the on-screen wording or ask STOVE CS; no third-party unlock is official."
         ],
         [
           "Converted, but old heroes are missing",
           "Steam authorized a different STOVE identity than the one that owns the roster.",
-          "Confirm the login pair, then use withdraw→convert. Never use in-game account deletion after transfer."
+          "Confirm the login pair, then use the official Convert sequence. Never use in-game account deletion after transfer."
         ]
       ],
-      "cooldown_note": "A 3-month cooldown is a STOVE-side account rule, not a site policy. The exact trigger and start date appear in your STOVE account UI or CS reply — this unofficial guide cannot reset it.",
+      "cooldown_note": "The official Q3 answer does not state a uniform 3-month cooldown. Button state and dates are account-specific — read STOVE UI / CS. This unofficial guide cannot reset it.",
       "cross_h2": "Cross-play notes",
       "cross": [
         "Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).",
@@ -3726,11 +3726,11 @@ export const CONTENT = {
       "faqs": [
         [
           "How does Epic Seven Steam transfer keep progress?",
-          "This Epic Seven Steam transfer converts your STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: withdraw the empty Steam-linked account, then convert the original. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
+          "This Epic Seven Steam transfer converts your STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
         ],
         [
           "STOVE says “already been registered” — what now?",
-          "That Steam ID is already linked to another STOVE login. Authorize that Steam ID on STOVE, withdraw the extra account, then convert the original email/SNS login. Do not keep creating Steam accounts. A 3-month cooldown may apply after the cleanup; confirm the date in STOVE UI or CS. See the cooldown section above."
+          "That Steam ID is already linked to another STOVE login — often the temporary account Steam created on first launch. Do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Official Q3 states no uniform 3-month wait; confirm the current button/conditions in STOVE UI or CS."
         ],
         [
           "Do I lose heroes when transferring to Steam?",
@@ -3738,7 +3738,7 @@ export const CONTENT = {
         ],
         [
           "What if Steam already made a new account?",
-          "Withdraw the new Steam-linked STOVE account first, then convert your original login — see the conflict section and STOVE FAQ."
+          "Do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. See the conflict section and STOVE FAQ Q3."
         ],
         [
           "Does transfer move me onto Foundry?",
@@ -3746,7 +3746,7 @@ export const CONTENT = {
         ],
         [
           "Can deleting a Steam demo account wipe my old progress?",
-          "Official STOVE precaution warns that after Steam login transfer, using in-game account deletion on the demo/client can wipe original-server progress. Prefer the recovery path on this page; read the demo warning page and verify on STOVE before acting. This site is an unofficial guide."
+          "Official STOVE precaution warns that after Steam login transfer, using in-game account deletion on the demo/client can wipe original-server progress. Use the official Convert sequence on this page; read the demo warning page and verify on STOVE before acting. This site is an unofficial guide."
         ],
         [
           "Do purchases and Epic Pass carry over?",
@@ -3778,11 +3778,11 @@ export const CONTENT = {
       "tree": [
         [
           "Empty Steam account",
-          "Steam opened a fresh Heir with none of your old heroes. You are almost certainly on a new Steam-linked STOVE login. Withdraw that new link first, then convert the original email/SNS account (see conflict steps + STOVE FAQ)."
+          "Steam opened a fresh Heir with none of your old heroes. You are almost certainly on a new Steam-linked STOVE login. Do not delete it: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account (see conflict steps + STOVE FAQ Q3)."
         ],
         [
           "Progress missing after login",
-          "Confirm which STOVE identity Steam authorized. If it is the empty link, recover via withdraw→convert. Do not delete the empty account via in-game deletion after transfer — that path can wipe original-server data per STOVE precaution."
+          "Confirm which STOVE identity Steam authorized. If it is the temporary link, use the official Convert sequence — not withdrawal. Do not delete the account via in-game deletion after transfer — that path can wipe original-server data per STOVE precaution."
         ],
         [
           "Demo vs full client",
@@ -3795,13 +3795,13 @@ export const CONTENT = {
       "vs_steps": [
         "Keep legacy progress: on STOVE PC, convert the email or SNS that owns your heroes to Steam Simple Login before you press Play on a fresh Steam session. Follow STOVE Steam FAQ view/14378309, not a third-party binder.",
         "Foundry fresh start: after Steam is on the login you intend, create a Foundry character for celebration buffs and Guild War. Dates follow STOVE Foundry view/14571828 and Launch view/14606481 — see [[Guild War on Foundry|/foundry/#guild-war]].",
-        "Wrong bind: if Steam shows an empty Heir, withdraw that Steam-linked STOVE account, wait out any holding period the STOVE UI shows, then convert the original. Do not use in-game account deletion (STOVE demo precaution view/14581667)."
+        "Wrong bind: if Steam shows an empty Heir, do not delete that Steam-linked STOVE account. Log in to STOVE with it, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Do not use in-game account deletion (STOVE demo precaution view/14581667)."
       ],
       "deep_h2": "Why players get stuck (unofficial)",
       "deep": [
-        "Most launch-week mistakes on Epic Seven Steam transfer are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow withdraw→convert and cite STOVE FAQ / demo precaution. Before you convert, open the [[download checklist|/download/]] so the full client (app 5019180) is ready."
+        "Most launch-week mistakes on Epic Seven Steam transfer are: Steam before convert, demo delete after transfer, or expecting Foundry from login conversion. Follow the official Q3 Convert sequence and cite STOVE FAQ / demo precaution. Before you convert, open the [[download checklist|/download/]] so the full client (app 5019180) is ready."
       ],
-      "img_alt2": "Self-drawn wrong-bind decision tree for empty Steam Heir and recovery",
+      "img_alt2": "Self-drawn wrong-bind decision tree for empty Steam Heir and official Convert recovery",
       "img_alt3": "Official Steam header for Epic Seven app 5019180 — Steam CDN"
     },
     "ko": {
@@ -3969,9 +3969,9 @@ export const CONTENT = {
     },
     "ja": {
       "title": "Epic Seven Steam引き継ぎガイド | 進行維持 | E7",
-      "meta": "Epic Seven Steam引き継ぎ：STOVE→Steamシンプルログイン変換で進行を維持。誤連携は退会→変換、デモ削除に注意、引き継ぎ≠Foundry。非公式ガイド。",
+      "meta": "Epic Seven Steam引き継ぎ：STOVE→Steamシンプルログイン変換で進行を維持。誤連携は公式FAQ 3番のConvertで一時アカウントを非Steamログインに変換し、元のメール/SNSをSteamへ。デモ削除に注意、引き継ぎ≠Foundry。非公式ガイド。",
       "h1": "Epic Seven Steam引き継ぎ — 進行を残す",
-      "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開STOVE FAQの要約に過ぎないので、必ず実画面と告知文面に従ってください。デモ/空連携があるなら退会→変換の順を先に計画します。",
+      "goal": "目標：新規Steamセッションに頼る前にSTOVEでSimple Login（Steam）へ変換し既存進行を残す。公開STOVE FAQの要約に過ぎないので、必ず実画面と告知文面に従ってください。デモ/空連携がある場合も削除せず、公式FAQ 3番のConvert順（一時アカウントを非Steamへ→元のメール/SNSをSteamへ）を確認します。",
       "diagram": [
         "モバイル / STOVE PCアカウント",
         "STOVEでログイン変換",
@@ -4002,16 +4002,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Steamが新規を作済みの場合",
-      "conflict_intro": "公式復旧の骨子（要約）：新規Steam連携STOVEを先に退会し、本アカを変換。待ち時間がある場合あり — UI/CSで確認。",
+      "conflict_intro": "公式FAQ 3番（要約）：Steamで作った一時STOVEアカウントは削除しません。そのSteamアカウントでSTOVEにログインし（必要ならSteamログインで登録）、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSアカウントをSteamログインに変換します。公式回答に退会や一律の待機期間はありません。",
       "conflict_steps": [
-        "STOVEログインでSteam種別を選ぶ。",
-        "Epic Sevenに使ったSteamを認可。",
-        "必要ならSTOVE登録/認証。",
-        "そのSteam連携STOVEをUI案内どおり退会。",
-        "その後、元メール/SNSをSteamログインへ。"
+        "STOVEログイン画面でSteamログインを選び、必要ならSTOVEに登録。",
+        "そのSteamアカウントでSTOVEサイトにログイン。",
+        "[マイプロフィールアイコン > アカウント情報] で Convert を選択。",
+        "Steam以外のログイン方法を選び、一時アカウントを変換。",
+        "その後、以前使っていたメール/SNSアカウントをSteamログインに変換。"
       ],
-      "conflict_note": "退会に待ち時間がある場合あり — STOVE UI/CSで確認。第三者ツール禁止。本サイトは非公式案内です。",
-      "cooldown_h2": "「already registered」エラーと3か月クールダウン",
+      "conflict_note": "公式FAQ 3番の回答には退会や一律の待機期間はありません。 ボタンがグレーの場合はSTOVEの現在のUI/CS表記に従ってください。第三者の解除ツールは使わないでください。",
+      "cooldown_h2": "「already registered」とTransferボタンのグレー表示",
       "cooldown_lead": "引き継ぎが止まる原因は主に二つのエラーです。新しいアカウントを作る前、削除する前にSTOVEの文面を正確に読んでください。",
       "cooldown_th": [
         "表示",
@@ -4021,21 +4021,21 @@ export const CONTENT = {
       "cooldown_rows": [
         [
           "「This information has already been registered.」",
-          "そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った空アカウントが多い）に既に紐づいています。",
-          "STOVEでそのSteam IDを認可し、余分なSTOVEアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やさないでください。"
+          "そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った一時アカウントが多い）に既に紐づいています。",
+          "そのSteamアカウントでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSログインをSteamに変換してください。Steamアカウントを増やさないでください。"
         ],
         [
           "引き継ぎボタンがグレー表示",
-          "STOVEが保留/クールダウンを表示しているか、まだ対象外です。誤連携の整理後に3か月クールダウンが適用されたという報告が一般的です。",
-          "STOVEに表示された日付と範囲を読んでください。待つかSTOVE公式サポートへ。第三者の解除で短縮はできません。"
+          "STOVEが保留やグレー表示を出しているか、まだ対象外です。公式FAQ 3番に一律3か月の待機はありません。",
+          "STOVEの現在の条件と日付を読み、画面表記またはCS案内に従ってください。第三者の解除で短縮はできません。"
         ],
         [
           "変換したのに旧英雄がいない",
           "Steamが名簿を持つSTOVE身元とは別のアカウントを認可しています。",
-          "ログインの組み合わせを確認し、退会→変換を使います。変換後のゲーム内アカウント削除は絶対に使わないでください。"
+          "ログインの組み合わせを確認し、公式FAQ 3番のConvert順を使います。変換後のゲーム内アカウント削除は絶対に使わないでください。"
         ]
       ],
-      "cooldown_note": "3か月クールダウンは当サイトのルールではなくSTOVE側のアカウント規則です。正確な発動条件と開始日はSTOVEアカウント画面かCS回答にあります。本非公式ガイドは短縮・解除できません。",
+      "cooldown_note": "公式FAQ 3番に一律3か月のクールダウンはありません。ボタン状態や日付はアカウント固有なので、STOVEの現在のUI/CS表記を読んでください。本非公式ガイドは解除できません。",
       "cross_h2": "クロスプレイメモ",
       "cross": [
         "Steam・STOVE PC・モバイルは同一体験・クロスプレイ（FAQ）。",
@@ -4043,17 +4043,17 @@ export const CONTENT = {
         "関連：デモ注意、Steamメモ、FAQ。"
       ],
       "src_h2": "公式ソース",
-      "answer": "Epic Seven Steam引き継ぎは、STOVEメール/SNSをSteamシンプルログインへ変換して進行を残します。誤連携：空のSteam連携STOVEを先に退会してから本アカを変換。変換後のデモ内削除はレガシー進行を消す恐れ。引き継ぎ≠Foundry — 別サーバーは[[Foundry鯖ガイド|/foundry/]]へ。",
+      "answer": "Epic Seven Steam引き継ぎは、STOVEメール/SNSをSteamシンプルログインへ変換して進行を残します。誤連携：Steamが作った一時STOVEアカウントを削除しないでください。そのSteamアカウントでSTOVEにログインし（必要ならSteamログインで登録）、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSアカウントをSteamログインに変換します。変換後のデモ内削除はレガシー進行を消す恐れ。引き継ぎ≠Foundry — 別サーバーは[[Foundry鯖ガイド|/foundry/]]へ。",
       "img_alt": "STOVEからSteamへの非公式引き継ぎ手順図",
       "faq_h2": "引き継ぎFAQ",
       "faqs": [
         [
           "STOVE→Steam引き継ぎで進行を残すには？",
-          "Epic SevenのSTOVEメール/SNSログインをSteamシンプルログインへ変換すると進行が残ります。誤連携：空のSteam連携アカウントを先に退会してから本ログインを変換。引き継ぎ後のデモ削除は原鯖進行を消す恐れがあります。引き継ぎはFoundryではありません。非公式ガイド — STOVEで確認してください。"
+          "Epic SevenのSTOVEメール/SNSログインをSteamシンプルログインへ変換すると進行が残ります。誤連携：Steamが作った一時STOVEアカウントを削除しないでください。そのSteamアカウントでSTOVEにログインし（必要ならSteamログインで登録）、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSアカウントをSteamログインに変換します。引き継ぎ後のデモ削除は原鯖進行を消す恐れがあります。引き継ぎはFoundryではありません。非公式ガイド — STOVEで確認してください。"
         ],
         [
           "STOVEで「already been registered」と出たら？",
-          "そのSteam IDは別のSTOVEログインに既に紐づいています。STOVEでそのSteam IDを認可し、余分なアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やし続けないでください。整理後に3か月のクールダウンが適用される場合があるので、STOVE UI/CSで日付を確認してください。上のクールダウン節を参照。"
+          "そのSteam IDは別のSTOVEログイン（初回起動時にSteamが作った一時アカウントが多い）に既に紐づいています。削除しないでください。そのSteamアカウントでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSログインをSteamに変換してください。公式FAQ 3番に一律3か月の待機はありません。現在のボタン/条件はSTOVE UIかCSで確認してください。"
         ],
         [
           "Steam変換で英雄は消えますか？",
@@ -4061,7 +4061,7 @@ export const CONTENT = {
         ],
         [
           "Steamが既に新規垢を作った場合は？",
-          "新規Steam連携STOVEを先に退会し、元ログインを変換 — 衝突セクションとSTOVE FAQ。"
+          "Steamが作った一時STOVEアカウントを削除しないでください。そのSteamアカウントでSTOVEにログインし（必要ならSteamログインで登録）、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSアカウントをSteamログインに変換します。衝突セクションとSTOVE FAQ 3番を参照。"
         ],
         [
           "変換するとファウンドリへ移りますか？",
@@ -4069,7 +4069,7 @@ export const CONTENT = {
         ],
         [
           "Steamデモ垢の削除で旧進行が消えますか？",
-          "公式STOVE注意では、Steamログイン変換後にデモ/クライアントでゲーム内アカウント削除を使うと原鯖進行が消える恐れがあるとあります。この頁の復旧ルートを優先し、デモ注意を読んでSTOVEで確認。本サイトは非公式ガイドです。"
+          "公式STOVE注意では、Steamログイン変換後にデモ/クライアントでゲーム内アカウント削除を使うと原鯖進行が消える恐れがあるとあります。この頁の公式FAQ 3番のConvert順を優先し、デモ注意を読んでSTOVEで確認。本サイトは非公式ガイドです。"
         ],
         [
           "課金とエピックパスも引き継がれますか？",
@@ -4086,7 +4086,7 @@ export const CONTENT = {
         "残したい進行がどのSTOVEメール/SNSログインにあるか確認。",
         "先に新しいSteamセッションを開かない — 空の連携STOVEができることがあります。",
         "削除UIを押す前にデモ削除の注意を読む。",
-        "その後STOVEメール/SNS → Steamシンプルログインへ変換し、同じSteam IDを認可。"
+        "Steam連携の一時アカウントが既にある場合も削除しない — そのSteamでSTOVEにログインし、一時アカウントをSteam以外のログインに変換してから、元のログインをSteamに変換する公式FAQ 3番の順を計画。"
       ],
       "demo_risk": "変換後はデモ/クライアント上のゲーム内アカウント削除を使わないでください — 詳細：",
       "link_download": "変換前のダウンロード手順",
@@ -4101,11 +4101,11 @@ export const CONTENT = {
       "tree": [
         [
           "空のSteamアカ",
-          "旧英雄がいない新人継者になる。多くは新規Steam連携STOVE。先にその連携を退会し、元メール/SNSを変換（衝突手順+FAQ）。"
+          "旧英雄がいない新人継者になる。多くは新規Steam連携STOVE。削除せず、そのSteamアカウントでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSをSteamに変換（衝突手順+FAQ 3番）。"
         ],
         [
           "ログイン後に進行が無い",
-          "Steamが認可したSTOVE身元を確認。空連携なら退会→変換。変換後のゲーム内削除で空アカを消さない — STOVE注意では原鯖データが消える可能性。"
+          "Steamが認可したSTOVE身元を確認。一時連携なら退会ではなく公式FAQ 3番のConvert順を使う。変換後のゲーム内削除で空アカを消さない — STOVE注意では原鯖データが消える可能性。"
         ],
         [
           "デモ vs 正式クライアント",
@@ -4118,16 +4118,16 @@ export const CONTENT = {
       "vs_steps": [
         "レガシー進行を残す: STOVE PCで英雄が紐づくメール/SNSをSteamシンプルログインへ変えてから、新しいSteamセッションでPlayを押す。第三者バインダではなくSTOVE Steam FAQ view/14378309に従う。",
         "ファウンドリ開拓: Steamが意図したログインになってから、お祝いバフとギルド戦用のファウンドリキャラを作る。日付はSTOVEファウンドリ view/14571828とローンチ view/14606481 — [[ファウンドリのギルド戦|/foundry/#guild-war]]。",
-        "誤連携: Steamが空の後継者なら、そのSteam連携STOVEを退会し、STOVE UIの待ち時間を待ってから本ログインを変換。ゲーム内アカウント削除は使わない（STOVEデモ注意 view/14581667）。"
+        "誤連携: Steamが空の後継者なら、そのSteam連携STOVEを削除しない。そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSログインをSteamに変換。ゲーム内アカウント削除は使わない（STOVEデモ注意 view/14581667）。"
       ],
       "deep_h2": "詰まりやすい理由（非公式）",
       "deep": [
-        "発売週の公開FAQスレでよく見る詰まりは概ね三つです。変換前にSteamを起動した、空のデモ垢をゲーム内削除で「掃除」しようとした、引き継ぎ＝ファウンドリ入場だと思った、です。復旧順は常に同じで、Steamが認可したSTOVE身元を確認し、必要なら空のSteam連携STOVEを退会してから、元のメール/SNSログインを変換します。破壊的UIを押す前にSTOVE Steam FAQ（view/14378309）とデモ注意（view/14581667）を確認・引用してください。退会に待ち時間がある場合は画面とCS案内に従います。",
+        "発売週の公開FAQスレでよく見る詰まりは概ね三つです。変換前にSteamを起動した、空のデモ垢をゲーム内削除で「掃除」しようとした、引き継ぎ＝ファウンドリ入場だと思った、です。復旧順は常に同じで、Steamが認可したSTOVE身元を確認し、一時アカウントなら削除せず公式FAQ 3番のConvert順（そのSteamでSTOVEログイン→[マイプロフィールアイコン > アカウント情報] > Convert→Steam以外のログイン→元のメール/SNSをSteam）を使います。破壊的UIを押す前にSTOVE Steam FAQ（view/14378309）とデモ注意（view/14581667）を確認・引用してください。公式FAQに退会や一律の待機期間はありません。",
         "本頁は地図でありサポート窓口ではありません。待ち時間の解除もSteam連携の強制解除も、消えた進行の復元もできません。スクショを残し公式CSを使い、メンテで文面が変わったら最新STOVE画面を再読してください。正しい変換後のクロスプレイは公式FAQにあり、ファウンドリは別鯖選択で、ギルド戦は11/19導入、11/21 03:00 UTC 防衛チーム、11/23 03:00 UTC マッチングです。引き継ぎ・デモ注意・ファウンドリカレンダー・Steamメモ・ダウンロード手順を並べて作業すると安全です。",
         "課金・未受取・エピックパスの引き継ぎ可否は公式Steam FAQ文面を基準にし、実行直前に再確認。第三者の「即解除」ツール、垢売買、非公式実行ファイルはマルウェア・規約違反リスクが高います。情報が衝突したら常にSTOVEとSteamストア（app 5019180）原文を優先。本サイトepicsevensteam.comはSmilegate・STOVE・Valve・Steamと無関係の非公式プレイヤー情報です。",
-        "さらに、Steamデモと正式クライアントを混用するときは、必ず正式app 5019180の導入状態を先に確認してください。デモ残ログインが残っていると変換UIが「既に連携済み」で止まることがあり、そのときゲーム内削除で解決しようとすると、STOVE注意が警告する原鯖データ損失ルートに入り得ます。復旧は退会→変換のみに従い、待ち時間中に新規キャラを育てて損失を増やさないでください。クロスプレイ・価格・エピックパス文面は公式FAQを再確認し、ファウンドリ参加は引き継ぎと別に決めてください。作業中はダウンロード手順・Steamメモ・デモ注意・FAQハブを並べるとミスが減ります。本非公式ガイドはサポート窓口の代わりになりません。"
+        "さらに、Steamデモと正式クライアントを混用するときは、必ず正式app 5019180の導入状態を先に確認してください。デモ残ログインが残っていると変換UIが「既に連携済み」で止まることがあり、そのときゲーム内削除で解決しようとすると、STOVE注意が警告する原鯖データ損失ルートに入り得ます。復旧は公式FAQ 3番のConvert順のみに従い、一時アカウントを削除したり、新規キャラを育てて損失を増やさないでください。クロスプレイ・価格・エピックパス文面は公式FAQを再確認し、ファウンドリ参加は引き継ぎと別に決めてください。作業中はダウンロード手順・Steamメモ・デモ注意・FAQハブを並べるとミスが減ります。本非公式ガイドはサポート窓口の代わりになりません。"
       ],
-      "img_alt2": "空のSteam後継者向け誤連携決定ツリーの自作図",
+      "img_alt2": "空のSteam後継者向け誤連携決定ツリーと公式Convert復旧の自作図",
       "img_alt3": "Epic Seven公式Steamヘッダー（app 5019180）— Steam CDN"
     },
     "zh-tw": {
@@ -4455,7 +4455,7 @@ export const CONTENT = {
     },
     "es": {
       "title": "Transferencia de Epic Seven a Steam: conserva tu progreso | E7",
-      "meta": "Transferencia Epic Seven Steam: convierte STOVE→Steam Simple Login para conservar el progreso. Vinculación errónea: retira; demo wipe; no es Foundry. No oficial.",
+      "meta": "Transferencia Epic Seven Steam: convierte STOVE→Steam Simple Login para conservar el progreso. Vinculación errónea: Convert oficial, demo wipe; no es Foundry. No oficial.",
       "h1": "Transferencia de Epic Seven a Steam — conserva tu progreso",
       "goal": "Objetivo de esta guía paso a paso para la transferencia de Epic Seven a Steam: conservar el progreso existente convirtiendo a Simple Login (Steam) en STOVE antes de confiar en una sesión nueva de Steam. Parafrasea las preguntas frecuentes públicas de STOVE — sigue la interfaz en vivo.",
       "diagram": [
@@ -4488,16 +4488,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Si Steam ya creó una cuenta nueva",
-      "conflict_intro": "Esquema oficial de recuperación (parafraseado): retira primero la nueva cuenta STOVE vinculada a Steam y después convierte la original.",
+      "conflict_intro": "Recuperación oficial de la pregunta 3 (parafraseada): no borres la cuenta temporal de STOVE vinculada a Steam. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam.",
       "conflict_steps": [
-        "En el inicio de sesión de STOVE, elige el tipo de cuenta Steam.",
-        "Autoriza la cuenta de Steam que usas para Epic Seven.",
-        "Termina el registro / la verificación de STOVE si se solicita.",
-        "Retira esa cuenta STOVE vinculada a Steam según la interfaz de STOVE.",
-        "Después, convierte tu cuenta original de email/SNS a inicio de sesión con Steam."
+        "En la página de inicio de sesión de STOVE, elige Steam y regístrate en STOVE si hace falta.",
+        "Inicia sesión en el sitio web de STOVE con esa cuenta de Steam.",
+        "Abre [Mi icono de perfil > Información de la cuenta] y selecciona Convert.",
+        "Elige un método de inicio de sesión que no sea Steam para convertir la cuenta temporal.",
+        "Después convierte la cuenta original de email/SNS a un inicio de sesión con Steam."
       ],
-      "conflict_note": "La retirada puede implicar un periodo de espera — confírmalo en la interfaz de STOVE / con atención al cliente. No inventes herramientas de desbloqueo de terceros.",
-      "cooldown_h2": "«Ya está registrado» y el bloqueo de 3 meses",
+      "conflict_note": "La respuesta oficial de la pregunta 3 no exige retirar la cuenta ni un periodo de espera uniforme. Si un botón aparece en gris, sigue el texto actual de la interfaz de STOVE o de atención al cliente. No uses herramientas de desbloqueo de terceros.",
+      "cooldown_h2": "«Ya está registrado» y el botón Transferir en gris",
       "cooldown_lead": "Dos errores explican la mayoría de las transferencias atascadas. Lee el mensaje exacto de STOVE antes de crear otra cuenta o borrar algo.",
       "cooldown_th": [
         "Qué ves",
@@ -4508,20 +4508,20 @@ export const CONTENT = {
         [
           "«Esta información ya está registrada.»",
           "Ese ID de Steam ya está vinculado a otro inicio de sesión de STOVE — a menudo la cuenta vacía que Steam creó al abrir el juego por primera vez.",
-          "Autoriza ese ID de Steam en STOVE, retira la cuenta STOVE sobrante y luego convierte el inicio de sesión original de email/SNS. No abras más cuentas de Steam."
+          "Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. No abras más cuentas de Steam."
         ],
         [
           "Botón de transferencia en gris",
-          "STOVE muestra una retención o un bloqueo, o el inicio de sesión aún no cumple los requisitos. Los jugadores suelen informar de un bloqueo de 3 meses tras limpiar una vinculación errónea.",
-          "Lee la fecha y el alcance en STOVE. Espera o consulta con atención al cliente de STOVE; ninguna herramienta de terceros puede acortarlo."
+          "STOVE muestra una retención o un botón en gris, o el inicio de sesión aún no cumple los requisitos. La respuesta oficial de la pregunta 3 no indica un periodo de espera uniforme de 3 meses.",
+          "Lee la condición y la fecha actuales en la interfaz de STOVE. Sigue el texto en pantalla o consulta con atención al cliente de STOVE; ninguna herramienta de terceros es oficial."
         ],
         [
           "Convertiste, pero faltan los héroes antiguos",
           "Steam autorizó una identidad de STOVE distinta de la que posee la lista de héroes.",
-          "Confirma el par de inicio de sesión y luego usa retirar→convertir. Nunca uses el borrado de cuenta dentro del juego después de transferir."
+          "Confirma el par de inicio de sesión y usa la secuencia Convert oficial. Nunca uses el borrado de cuenta dentro del juego después de transferir."
         ]
       ],
-      "cooldown_note": "Un bloqueo de 3 meses es una norma de cuenta del lado de STOVE, no una política de este sitio. El desencadenante exacto y la fecha de inicio aparecen en la interfaz de tu cuenta STOVE o en la respuesta de atención al cliente — esta guía no oficial no puede reiniciarlo.",
+      "cooldown_note": "La respuesta oficial de la pregunta 3 no indica un bloqueo uniforme de 3 meses. El estado del botón y las fechas dependen de cada cuenta — lee la interfaz de STOVE o la respuesta de atención al cliente. Esta guía no oficial no puede reiniciarlo.",
       "cross_h2": "Notas sobre cross-play",
       "cross": [
         "Steam, STOVE PC y móvil comparten el juego con cross-play (según las preguntas frecuentes).",
@@ -4529,17 +4529,17 @@ export const CONTENT = {
         "Relacionado después de la transferencia de Epic Seven a Steam: advertencia de demo, notas de Steam, centro de preguntas frecuentes y la lista de descarga."
       ],
       "src_h2": "Fuentes oficiales",
-      "answer": "Esta guía de transferencia de Epic Seven a Steam convierte el email/SNS de STOVE a Steam Simple Login para que la misma cuenta conserve el progreso. Vinculación errónea: retira la cuenta STOVE vacía vinculada a Steam y luego convierte la original. La transferencia de Epic Seven a Steam no es Foundry y no inicia Guild War. Consulta [[Guild War en Foundry|/foundry/#guild-war]].",
+      "answer": "Esta guía de transferencia de Epic Seven a Steam convierte el email/SNS de STOVE a Steam Simple Login para que la misma cuenta conserve el progreso. Vinculación errónea: no borres la cuenta temporal de STOVE vinculada a Steam. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. El borrado de la demo tras la conversión puede eliminar el progreso del servidor original. La transferencia de Epic Seven a Steam no es Foundry y no inicia Guild War. Consulta [[Guild War en Foundry|/foundry/#guild-war]].",
       "img_alt": "Diagrama propio de los pasos de transferencia de STOVE a Steam",
       "faq_h2": "Preguntas frecuentes sobre la transferencia",
       "faqs": [
         [
           "¿Cómo conserva el progreso la transferencia de Epic Seven a Steam?",
-          "Esta transferencia de Epic Seven a Steam convierte tu inicio de sesión de email/SNS de STOVE a Steam Simple Login para conservar el progreso. Vinculación errónea: retira la cuenta vacía vinculada a Steam y luego convierte la original. El borrado de la demo tras la transferencia puede eliminar el progreso del servidor original. La transferencia no es Foundry. Guía no oficial — verifícalo en STOVE."
+          "Esta transferencia de Epic Seven a Steam convierte tu inicio de sesión de email/SNS de STOVE a Steam Simple Login para conservar el progreso. Vinculación errónea: no borres la cuenta temporal vinculada a Steam. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. El borrado de la demo tras la transferencia puede eliminar el progreso del servidor original. La transferencia no es Foundry. Guía no oficial — verifícalo en STOVE."
         ],
         [
           "STOVE dice «ya está registrado» — ¿y ahora qué?",
-          "Ese ID de Steam ya está vinculado a otro inicio de sesión de STOVE. Autoriza ese ID de Steam en STOVE, retira la cuenta sobrante y luego convierte el inicio de sesión original de email/SNS. No sigas creando cuentas de Steam. Puede aplicarse un bloqueo de 3 meses tras la limpieza; confirma la fecha en la interfaz de STOVE o con atención al cliente. Consulta la sección sobre el bloqueo más arriba."
+          "Ese ID de Steam ya está vinculado a otro inicio de sesión de STOVE — a menudo la cuenta temporal que Steam creó al primer arranque. No la borres. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. La respuesta oficial de la pregunta 3 no indica un periodo de espera uniforme; confirma el botón y las condiciones actuales en la interfaz de STOVE o con atención al cliente."
         ],
         [
           "¿Pierdo héroes al transferir a Steam?",
@@ -4547,7 +4547,7 @@ export const CONTENT = {
         ],
         [
           "¿Y si Steam ya creó una cuenta nueva?",
-          "Retira primero la nueva cuenta STOVE vinculada a Steam y luego convierte tu inicio de sesión original — consulta la sección de conflictos y las preguntas frecuentes de STOVE."
+          "No borres la cuenta temporal de STOVE vinculada a Steam. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. Consulta la sección de conflictos y la pregunta 3 del FAQ de STOVE."
         ],
         [
           "¿La transferencia me lleva a Foundry?",
@@ -4555,7 +4555,7 @@ export const CONTENT = {
         ],
         [
           "¿Borrar una cuenta de demo de Steam puede eliminar mi progreso antiguo?",
-          "La precaución oficial de STOVE advierte que, tras la transferencia del inicio de sesión a Steam, usar el borrado de cuenta dentro del juego en la demo/cliente puede eliminar el progreso del servidor original. Prefiere la ruta de recuperación de esta página; lee la página de advertencia sobre la demo y verifica en STOVE antes de actuar. Este sitio es una guía no oficial."
+          "La precaución oficial de STOVE advierte que, tras la transferencia del inicio de sesión a Steam, usar el borrado de cuenta dentro del juego en la demo/cliente puede eliminar el progreso del servidor original. Usa la secuencia Convert oficial de esta página; lee la página de advertencia sobre la demo y verifica en STOVE antes de actuar. Este sitio es una guía no oficial."
         ],
         [
           "¿Se conservan las compras y Epic Pass?",
@@ -4572,7 +4572,7 @@ export const CONTENT = {
         "Confirma qué inicio de sesión de email o SNS es dueño del progreso que quieres conservar — no lo adivines.",
         "No te apresures a iniciar sesión con una cuenta de Steam nueva si te importa la cuenta antigua.",
         "Lee las preguntas frecuentes oficiales de STOVE sobre Steam y la precaución sobre el borrado de la demo antes de vincular.",
-        "Si ya existe una cuenta de demo/vacía vinculada a Steam, planifica primero la ruta de retirar y luego convertir."
+        "Si ya existe una cuenta temporal vinculada a Steam, no la borres — planifica la secuencia Convert oficial: inicia sesión con esa cuenta de Steam, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la original."
       ],
       "demo_risk": "Después de la conversión, no uses el borrado de cuenta dentro del juego en una sesión de demo/cliente — consulta",
       "link_download": "Lista de descarga antes de convertir",
@@ -4587,11 +4587,11 @@ export const CONTENT = {
       "tree": [
         [
           "Cuenta de Steam vacía",
-          "Steam abrió un Heir nuevo sin ninguno de tus héroes antiguos. Con casi total seguridad estás en un inicio de sesión de STOVE nuevo vinculado a Steam. Retira primero esa nueva vinculación y luego convierte la cuenta original de email/SNS (consulta los pasos para conflictos y las preguntas frecuentes de STOVE)."
+          "Steam abrió un Heir nuevo sin ninguno de tus héroes antiguos. Con casi total seguridad estás en un inicio de sesión de STOVE nuevo vinculado a Steam. No lo borres: inicia sesión en STOVE con esa cuenta de Steam, abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la cuenta original de email/SNS (consulta los pasos para conflictos y la pregunta 3 del FAQ de STOVE)."
         ],
         [
           "Falta progreso tras iniciar sesión",
-          "Confirma qué identidad de STOVE autorizó Steam. Si es la vinculación vacía, recupera con retirar→convertir. No borres la cuenta vacía con el borrado dentro del juego después de transferir — esa ruta puede eliminar datos del servidor original según la precaución de STOVE."
+          "Confirma qué identidad de STOVE autorizó Steam. Si es la vinculación temporal, usa la secuencia Convert oficial, no la retirada. No borres la cuenta con el borrado dentro del juego después de transferir — esa ruta puede eliminar datos del servidor original según la precaución de STOVE."
         ],
         [
           "Demo frente a cliente completo",
@@ -4604,18 +4604,18 @@ export const CONTENT = {
       "vs_steps": [
         "Conserva el progreso heredado: en STOVE PC, convierte el email o SNS que posee tus héroes a Steam Simple Login antes de pulsar Jugar en una sesión nueva de Steam. Sigue las preguntas frecuentes oficiales de STOVE sobre Steam view/14378309, no una herramienta de vinculación de terceros.",
         "Inicio nuevo en Foundry: cuando Steam esté en el inicio de sesión que quieres, crea un personaje de Foundry para las mejoras de celebración y Guild War. Las fechas siguen la vista de Foundry de STOVE view/14571828 y la vista de lanzamiento view/14606481 — consulta [[Guild War en Foundry|/foundry/#guild-war]].",
-        "Vinculación errónea: si Steam muestra un Heir vacío, retira esa cuenta STOVE vinculada a Steam, espera el periodo de retención que muestre la interfaz de STOVE y luego convierte la original. No uses el borrado de cuenta dentro del juego (precaución de demo de STOVE view/14581667)."
+        "Vinculación errónea: si Steam muestra un Heir vacío, no borres esa cuenta de STOVE vinculada a Steam. Inicia sesión en STOVE con ella, abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la cuenta original de email/SNS. No uses el borrado de cuenta dentro del juego (precaución de demo de STOVE view/14581667)."
       ],
       "deep_h2": "Por qué se atascan los jugadores (no oficial)",
       "deep": [
-        "Los errores más comunes en la semana de lanzamiento de la transferencia de Epic Seven a Steam son: entrar en Steam antes de convertir, borrar la demo después de transferir o esperar Foundry de la conversión del inicio de sesión. Sigue retirar→convertir y cita las preguntas frecuentes de STOVE / la precaución de la demo. Antes de convertir, abre la [[lista de descarga|/download/]] para que el cliente completo (app 5019180) esté listo."
+        "Los errores más comunes en la semana de lanzamiento de la transferencia de Epic Seven a Steam son: entrar en Steam antes de convertir, borrar la demo después de transferir o esperar Foundry de la conversión del inicio de sesión. Sigue la secuencia Convert oficial de la pregunta 3 y cita el FAQ de STOVE / la precaución de la demo. Antes de convertir, abre la [[lista de descarga|/download/]] para que el cliente completo (app 5019180) esté listo."
       ],
-      "img_alt2": "Árbol de decisión propio para vinculaciones erróneas, Heir vacío de Steam y recuperación",
+      "img_alt2": "Árbol de decisión propio para vinculaciones erróneas: Heir vacío de Steam y recuperación con Convert oficial",
       "img_alt3": "Cabecera oficial de Steam para Epic Seven app 5019180 — CDN de Steam"
     },
     "pt": {
       "title": "Guia de transferência Epic Seven para Steam | Progresso | E7",
-      "meta": "Transferência Epic Seven Steam: converta STOVE→Steam Simple Login para manter o progresso. Vínculo errado: retire; demo wipe; não é Foundry. Não oficial.",
+      "meta": "Transferência Epic Seven Steam: converta STOVE→Steam Simple Login para manter o progresso. Vínculo errado: Convert oficial, demo wipe; não é Foundry. Não oficial.",
       "h1": "Transferência do Epic Seven para Steam — mantenha o progresso",
       "goal": "Objetivo deste passo a passo de transferência do Epic Seven para Steam: manter o progresso existente convertendo para o Simple Login (Steam) no STOVE antes de confiar em uma sessão nova da Steam. Parafraseia o FAQ público do STOVE — siga a interface em tempo real.",
       "diagram": [
@@ -4648,16 +4648,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Se a Steam já criou uma conta nova",
-      "conflict_intro": "Resumo oficial de recuperação (parafraseado): retire primeiro a nova conta STOVE vinculada à Steam e depois converta a sua original.",
+      "conflict_intro": "Recuperação oficial da pergunta 3 (parafraseada): não apague a conta temporária do STOVE vinculada à Steam. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam.",
       "conflict_steps": [
-        "No login do STOVE, escolha o tipo de conta Steam.",
-        "Autorize a conta Steam usada no Epic Seven.",
-        "Conclua o cadastro / a verificação no STOVE, se pedirem.",
-        "Retire essa conta STOVE vinculada à Steam conforme a interface do STOVE.",
-        "Depois converta sua conta original de e-mail/SNS para o login Steam."
+        "Na página de login do STOVE, escolha Steam e cadastre-se no STOVE se necessário.",
+        "Faça login no site do STOVE com essa conta Steam.",
+        "Abra [Meu ícone de perfil > Informações da conta] e selecione Convert.",
+        "Escolha um método de login que não seja Steam para converter a conta temporária.",
+        "Depois converta a conta original de e-mail/SNS para um login Steam."
       ],
-      "conflict_note": "A retirada pode envolver um período de espera — confirme na interface do STOVE / com o suporte. Não invente ferramentas de desbloqueio de terceiros.",
-      "cooldown_h2": "“Já registrado” e o cooldown de 3 meses",
+      "conflict_note": "A resposta oficial da pergunta 3 não exige retirar a conta nem um período de espera uniforme. Se um botão estiver esmaecido, siga o texto atual da interface do STOVE ou do suporte. Não use ferramentas de desbloqueio de terceiros.",
+      "cooldown_h2": "“Já registrado” e o botão Transferir esmaecido",
       "cooldown_lead": "Dois erros explicam a maioria das transferências travadas. Leia a mensagem exata do STOVE antes de criar outra conta ou apagar qualquer coisa.",
       "cooldown_th": [
         "O que você vê",
@@ -4668,20 +4668,20 @@ export const CONTENT = {
         [
           "“Esta informação já foi registrada.”",
           "Esse ID Steam já está vinculado a outro login STOVE — muitas vezes a conta vazia que a Steam criou na primeira inicialização.",
-          "Autorize esse ID Steam no STOVE, retire a conta STOVE extra e depois converta o login original de e-mail/SNS. Não abra mais contas Steam."
+          "Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. Não abra mais contas Steam."
         ],
         [
           "Botão de transferência esmaecido",
-          "O STOVE está mostrando uma retenção ou cooldown, ou o login ainda não é elegível. Jogadores costumam relatar um cooldown de 3 meses após limpar um vínculo errado.",
-          "Leia a data e o escopo no STOVE. Espere ou fale com o suporte do STOVE; nenhum desbloqueio de terceiros pode encurtar isso."
+          "O STOVE está mostrando uma retenção ou um botão esmaecido, ou o login ainda não é elegível. A resposta oficial da pergunta 3 não indica um período de espera uniforme de 3 meses.",
+          "Leia a condição e a data atuais na interface do STOVE. Siga o texto na tela ou fale com o suporte do STOVE; nenhum desbloqueio de terceiros é oficial."
         ],
         [
           "Converteu, mas os heróis antigos sumiram",
           "A Steam autorizou uma identidade STOVE diferente da que possui o elenco de heróis.",
-          "Confirme o par de logins e use retirar→converter. Nunca use a exclusão de conta dentro do jogo após a transferência."
+          "Confirme o par de logins e use a sequência Convert oficial. Nunca use a exclusão de conta dentro do jogo após a transferência."
         ]
       ],
-      "cooldown_note": "Um cooldown de 3 meses é uma regra de conta do lado do STOVE, não uma política do site. O gatilho exato e a data de início aparecem na interface da sua conta STOVE ou na resposta do suporte — este guia não oficial não pode redefini-lo.",
+      "cooldown_note": "A resposta oficial da pergunta 3 não indica um cooldown uniforme de 3 meses. O estado do botão e as datas dependem de cada conta — leia a interface do STOVE ou o suporte. Este guia não oficial não pode redefini-lo.",
       "cross_h2": "Notas sobre cross-play",
       "cross": [
         "Steam, STOVE PC e mobile compartilham o jogo com cross-play (segundo o FAQ).",
@@ -4689,17 +4689,17 @@ export const CONTENT = {
         "Relacionados após a transferência do Epic Seven para Steam: aviso da demo, notas da Steam, central de FAQ e o checklist de download."
       ],
       "src_h2": "Fontes oficiais",
-      "answer": "Este guia de transferência do Epic Seven para Steam converte o login de e-mail/SNS do STOVE para o Simple Login (Steam) para que a mesma conta mantenha o progresso. Vínculo errado: retire a conta STOVE vazia vinculada à Steam e depois converta a original. A transferência do Epic Seven para Steam não é o Foundry e não inicia a Guild War. Veja [[Guild War no Foundry|/foundry/#guild-war]].",
+      "answer": "Este guia de transferência do Epic Seven para Steam converte o login de e-mail/SNS do STOVE para o Simple Login (Steam) para que a mesma conta mantenha o progresso. Vínculo errado: não apague a conta temporária do STOVE vinculada à Steam. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. O apagamento da demo após a transferência pode apagar o progresso do servidor original. A transferência do Epic Seven para Steam não é o Foundry e não inicia a Guild War. Veja [[Guild War no Foundry|/foundry/#guild-war]].",
       "img_alt": "Diagrama próprio das etapas de transferência do STOVE para a Steam",
       "faq_h2": "FAQ de transferência",
       "faqs": [
         [
           "Como a transferência do Epic Seven para Steam mantém o progresso?",
-          "Esta transferência do Epic Seven para Steam converte seu login de e-mail/SNS do STOVE para o Simple Login (Steam) para manter o progresso. Vínculo errado: retire a conta vazia vinculada à Steam e depois converta a original. O apagamento da demo após a transferência pode apagar o progresso do servidor original. A transferência não é o Foundry. Guia não oficial — confirme no STOVE."
+          "Esta transferência do Epic Seven para Steam converte seu login de e-mail/SNS do STOVE para o Simple Login (Steam) para manter o progresso. Vínculo errado: não apague a conta temporária vinculada à Steam. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. O apagamento da demo após a transferência pode apagar o progresso do servidor original. A transferência não é o Foundry. Guia não oficial — confirme no STOVE."
         ],
         [
           "O STOVE diz “já foi registrado” — e agora?",
-          "Esse ID Steam já está vinculado a outro login STOVE. Autorize esse ID Steam no STOVE, retire a conta extra e depois converta o login original de e-mail/SNS. Não fique criando contas Steam. Pode haver um cooldown de 3 meses após a limpeza; confirme a data na interface do STOVE ou com o suporte. Veja a seção sobre cooldown acima."
+          "Esse ID Steam já está vinculado a outro login STOVE — muitas vezes a conta temporária que a Steam criou na primeira inicialização. Não a apague. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. A resposta oficial da pergunta 3 não indica um período de espera uniforme; confirme o botão e as condições atuais na interface do STOVE ou com o suporte."
         ],
         [
           "Perco meus heróis ao transferir para a Steam?",
@@ -4707,7 +4707,7 @@ export const CONTENT = {
         ],
         [
           "E se a Steam já criou uma conta nova?",
-          "Retire primeiro a nova conta STOVE vinculada à Steam e depois converta seu login original — veja a seção de conflito e o FAQ do STOVE."
+          "Não apague a conta temporária do STOVE vinculada à Steam. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. Veja a seção de conflito e a pergunta 3 do FAQ do STOVE."
         ],
         [
           "A transferência me leva para o Foundry?",
@@ -4715,7 +4715,7 @@ export const CONTENT = {
         ],
         [
           "Apagar uma conta demo da Steam pode apagar meu progresso antigo?",
-          "A precaução oficial do STOVE avisa que, após a transferência do login para a Steam, usar a exclusão de conta dentro do jogo na demo/no cliente pode apagar o progresso do servidor original. Prefira o caminho de recuperação desta página; leia a página de aviso da demo e confirme no STOVE antes de agir. Este site é um guia não oficial."
+          "A precaução oficial do STOVE avisa que, após a transferência do login para a Steam, usar a exclusão de conta dentro do jogo na demo/no cliente pode apagar o progresso do servidor original. Use a sequência Convert oficial desta página; leia a página de aviso da demo e confirme no STOVE antes de agir. Este site é um guia não oficial."
         ],
         [
           "Compras e o Epic Pass são mantidos?",
@@ -4732,7 +4732,7 @@ export const CONTENT = {
         "Confirme qual login de e-mail ou SNS é dono do progresso que você quer manter — não tente adivinhar.",
         "Não entre primeiro com um login Steam novinho se você se importa com a conta antiga.",
         "Leia o FAQ oficial do STOVE sobre a Steam e a precaução sobre apagar a demo antes de vincular.",
-        "Se já existe uma conta demo/vazia vinculada à Steam, planeje primeiro o caminho de retirar e depois converter."
+        "Se já existe uma conta temporária vinculada à Steam, não a apague — planeje a sequência Convert oficial: faça login com essa conta Steam, converta a conta temporária para um login que não seja Steam e depois converta a original."
       ],
       "demo_risk": "Após a conversão, não use a exclusão de conta dentro do jogo em uma sessão de demo/cliente — veja",
       "link_download": "Checklist de download antes de converter",
@@ -4747,11 +4747,11 @@ export const CONTENT = {
       "tree": [
         [
           "Conta Steam vazia",
-          "A Steam abriu um Heir novo, sem nenhum dos seus heróis antigos. Você quase certamente está em um novo login STOVE vinculado à Steam. Retire primeiro esse novo vínculo e depois converta a conta original de e-mail/SNS (veja as etapas de conflito + FAQ do STOVE)."
+          "A Steam abriu um Heir novo, sem nenhum dos seus heróis antigos. Você quase certamente está em um novo login STOVE vinculado à Steam. Não o apague: faça login no STOVE com essa conta Steam, abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS (veja as etapas de conflito + FAQ do STOVE)."
         ],
         [
           "Progresso sumido após o login",
-          "Confirme qual identidade STOVE a Steam autorizou. Se for o vínculo vazio, recupere via retirar→converter. Não apague a conta vazia pela exclusão dentro do jogo após a transferência — esse caminho pode apagar os dados do servidor original, segundo a precaução do STOVE."
+          "Confirme qual identidade STOVE a Steam autorizou. Se for o vínculo temporário, use a sequência Convert oficial, não a retirada. Não apague a conta pela exclusão dentro do jogo após a transferência — esse caminho pode apagar os dados do servidor original, segundo a precaução do STOVE."
         ],
         [
           "Demo vs cliente completo",
@@ -4764,18 +4764,18 @@ export const CONTENT = {
       "vs_steps": [
         "Manter o progresso legado: no STOVE PC, converta o e-mail ou SNS dono dos seus heróis para o Simple Login (Steam) antes de apertar Jogar em uma sessão nova da Steam. Siga o FAQ oficial STOVE Steam view/14378309, não um serviço de vínculo de terceiros.",
         "Começo novo no Foundry: depois que a Steam estiver no login que você pretende, crie um personagem no Foundry para os buffs de celebração e a Guild War. As datas seguem o Foundry no STOVE view/14571828 e o lançamento view/14606481 — veja [[Guild War no Foundry|/foundry/#guild-war]].",
-        "Vínculo errado: se a Steam mostrar um Heir vazio, retire essa conta STOVE vinculada à Steam, espere o período de retenção que a interface do STOVE mostrar e depois converta a original. Não use a exclusão de conta dentro do jogo (precaução da demo do STOVE view/14581667)."
+        "Vínculo errado: se a Steam mostrar um Heir vazio, não apague essa conta STOVE vinculada à Steam. Faça login no STOVE com ela, abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS. Não use a exclusão de conta dentro do jogo (precaução da demo do STOVE view/14581667)."
       ],
       "deep_h2": "Por que os jogadores travam (não oficial)",
       "deep": [
-        "A maioria dos erros na semana de lançamento da transferência do Epic Seven para Steam é: entrar na Steam antes de converter, apagar a demo após a transferência ou esperar o Foundry a partir da conversão de login. Siga retirar→converter e cite o FAQ do STOVE / a precaução da demo. Antes de converter, abra o [[checklist de download|/download/]] para o cliente completo (app 5019180) estar pronto."
+        "A maioria dos erros na semana de lançamento da transferência do Epic Seven para Steam é: entrar na Steam antes de converter, apagar a demo após a transferência ou esperar o Foundry a partir da conversão de login. Siga a sequência Convert oficial da pergunta 3 e cite o FAQ do STOVE / a precaução da demo. Antes de converter, abra o [[checklist de download|/download/]] para o cliente completo (app 5019180) estar pronto."
       ],
-      "img_alt2": "Árvore de decisão própria para vínculo errado: Heir vazio na Steam e recuperação",
+      "img_alt2": "Árvore de decisão própria para vínculo errado: Heir vazio na Steam e recuperação com Convert oficial",
       "img_alt3": "Cabeçalho oficial da Steam para o Epic Seven app 5019180 — CDN da Steam"
     },
     "de": {
       "title": "Epic Seven Steam-Transfer-Guide: Fortschritt behalten | E7",
-      "meta": "Epic-Seven-Steam-Transfer: STOVE→Steam Simple Login umstellen und Fortschritt behalten. Falsche Verknüpfung: Rückzug; Demo-Wipe; ≠ Foundry. Inoffiziell.",
+      "meta": "Epic-Seven-Steam-Transfer: STOVE→Steam Simple Login umstellen und Fortschritt behalten. Falsche Verknüpfung: offizieller Convert; Demo-Wipe; ≠ Foundry. Inoffiziell.",
       "h1": "Epic Seven Steam-Transfer — Fortschritt behalten",
       "goal": "Ziel dieser Epic Seven Steam-Transfer-Anleitung: Behalte deinen bestehenden Fortschritt, indem du auf STOVE auf Simple Login (Steam) umstellst, bevor du dich auf eine frische Steam-Sitzung verlässt. Gibt die öffentliche STOVE-FAQ sinngemäß wieder — folge der aktuellen UI.",
       "diagram": [
@@ -4808,16 +4808,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Wenn Steam bereits ein neues Konto erstellt hat",
-      "conflict_intro": "Offizielle Wiederherstellungs-Skizze (sinngemäß): Ziehe zuerst das neue Steam-verknüpfte STOVE-Konto zurück und stelle dann dein ursprüngliches Konto um.",
+      "conflict_intro": "Offizielle Wiederherstellung nach Frage 3 (sinngemäß): Lösche das temporäre Steam-verknüpfte STOVE-Konto nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um.",
       "conflict_steps": [
-        "Wähle beim STOVE-Login den Kontotyp Steam.",
-        "Autorisiere das Steam-Konto, das du für Epic Seven verwendest.",
-        "Schließe die STOVE-Registrierung / Verifizierung ab, falls du dazu aufgefordert wirst.",
-        "Ziehe dieses Steam-verknüpfte STOVE-Konto gemäß STOVE-UI zurück.",
-        "Stelle danach dein ursprüngliches E-Mail-/SNS-Konto auf Steam-Login um."
+        "Wähle auf der STOVE-Loginseite Steam und registriere dich bei Bedarf bei STOVE.",
+        "Melde dich mit diesem Steam-Konto auf der STOVE-Website an.",
+        "Öffne [Mein Profilsymbol > Kontoinformationen] und wähle Convert.",
+        "Wähle eine andere Anmeldemethode als Steam, um das temporäre Konto umzustellen.",
+        "Stelle danach das ursprüngliche E-Mail-/SNS-Konto auf einen Steam-Login um."
       ],
-      "conflict_note": "Der Rückzug kann eine Wartezeit beinhalten — bestätige das in der STOVE-UI / beim Support. Erfinde keine Drittanbieter-Tools zum Entsperren.",
-      "cooldown_h2": "„Bereits registriert“ und die 3-Monats-Sperre",
+      "conflict_note": "Die offizielle Antwort auf Frage 3 verlangt weder einen Rückzug noch eine einheitliche Wartezeit. Wenn eine Schaltfläche ausgegraut ist, folge dem aktuellen STOVE-UI-/Support-Text. Nutze keine Drittanbieter-Unlock-Tools.",
+      "cooldown_h2": "„Bereits registriert“ und ausgegrauter Transfer-Button",
       "cooldown_lead": "Zwei Fehler sind für die meisten feststeckenden Transfers verantwortlich. Lies die genaue STOVE-Meldung, bevor du ein weiteres Konto erstellst oder irgendetwas löschst.",
       "cooldown_th": [
         "Was du siehst",
@@ -4828,20 +4828,20 @@ export const CONTENT = {
         [
           "„Diese Informationen wurden bereits registriert.“",
           "Diese Steam-ID ist bereits mit einem anderen STOVE-Login verknüpft — oft mit dem leeren Konto, das Steam beim ersten Start angelegt hat.",
-          "Autorisiere diese Steam-ID auf STOVE, ziehe das zusätzliche STOVE-Konto zurück und stelle dann den ursprünglichen E-Mail-/SNS-Login um. Erstelle keine weiteren Steam-Konten."
+          "Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Erstelle keine weiteren Steam-Konten."
         ],
         [
           "Transfer-Button ausgegraut",
-          "STOVE zeigt eine Sperre oder Wartezeit an, oder der Login ist noch nicht berechtigt. Spieler berichten häufig von einer 3-Monats-Sperre nach dem Bereinigen einer falschen Verknüpfung.",
-          "Lies Datum und Umfang in STOVE. Warte die Frist ab oder frage den STOVE-Support; kein Drittanbieter-Unlock kann sie verkürzen."
+          "STOVE zeigt eine Sperre oder einen ausgegrauten Button, oder der Login ist noch nicht berechtigt. Die offizielle Antwort auf Frage 3 nennt keine einheitliche 3-Monats-Wartezeit.",
+          "Lies die aktuelle Bedingung und das Datum in der STOVE-UI. Folge dem Bildschirmtext oder frage den STOVE-Support; kein Drittanbieter-Unlock ist offiziell."
         ],
         [
           "Umgestellt, aber alte Helden fehlen",
           "Steam hat eine andere STOVE-Identität autorisiert als die, der das Roster gehört.",
-          "Bestätige das Login-Paar und nutze dann Zurückziehen→Umstellen. Nutze nach dem Transfer niemals die Kontolöschung im Spiel."
+          "Bestätige das Login-Paar und nutze die offizielle Convert-Sequenz. Nutze nach dem Transfer niemals die Kontolöschung im Spiel."
         ]
       ],
-      "cooldown_note": "Eine 3-Monats-Sperre ist eine Kontoregel von STOVE, keine Regel dieser Seite. Der genaue Auslöser und das Startdatum stehen in deiner STOVE-Konto-UI oder in der Antwort des Supports — dieser unabhängige Guide kann sie nicht zurücksetzen.",
+      "cooldown_note": "Die offizielle Antwort auf Frage 3 nennt keine einheitliche 3-Monats-Sperre. Button-Status und Daten sind kontospezifisch — lies STOVE-UI / Support. Dieser inoffizielle Guide kann sie nicht zurücksetzen.",
       "cross_h2": "Hinweise zum Cross-Play",
       "cross": [
         "Steam, STOVE-PC und Mobil teilen das Gameplay per Cross-Play (laut FAQ).",
@@ -4849,17 +4849,17 @@ export const CONTENT = {
         "Passend zum Epic Seven Steam-Transfer: Demo-Warnung, Steam-Hinweise, FAQ-Hub und die Download-Checkliste."
       ],
       "src_h2": "Offizielle Quellen",
-      "answer": "Dieser Epic Seven Steam-Transfer-Guide stellt den STOVE-Login (E-Mail/SNS) auf Steam Simple Login um, damit dasselbe Konto den Fortschritt behält. Falsche Verknüpfung: Ziehe das leere Steam-verknüpfte STOVE-Konto zurück und stelle dann das ursprüngliche um. Epic Seven Steam-Transfer ist nicht Foundry und startet kein Guild War. Siehe [[Guild War auf Foundry|/foundry/#guild-war]].",
+      "answer": "Dieser Epic Seven Steam-Transfer-Guide stellt den STOVE-Login (E-Mail/SNS) auf Steam Simple Login um, damit dasselbe Konto den Fortschritt behält. Falsche Verknüpfung: Lösche das temporäre Steam-verknüpfte STOVE-Konto nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Ein Demo-Wipe nach dem Transfer kann den Fortschritt auf dem ursprünglichen Server löschen. Epic Seven Steam-Transfer ist nicht Foundry und startet kein Guild War. Siehe [[Guild War auf Foundry|/foundry/#guild-war]].",
       "img_alt": "Selbst gezeichnetes Diagramm der STOVE-zu-Steam-Transfer-Schritte",
       "faq_h2": "FAQ zum Transfer",
       "faqs": [
         [
           "Wie behält der Epic Seven Steam-Transfer den Fortschritt?",
-          "Dieser Epic Seven Steam-Transfer stellt deinen STOVE-Login (E-Mail/SNS) auf Steam Simple Login um, um den Fortschritt zu behalten. Falsche Verknüpfung: Ziehe das leere Steam-verknüpfte Konto zurück und stelle dann das ursprüngliche um. Ein Demo-Wipe nach dem Transfer kann den Fortschritt auf dem ursprünglichen Server löschen. Transfer ist nicht Foundry. Unabhängiger Guide — prüfe es auf STOVE."
+          "Dieser Epic Seven Steam-Transfer stellt deinen STOVE-Login (E-Mail/SNS) auf Steam Simple Login um, um den Fortschritt zu behalten. Falsche Verknüpfung: Lösche das temporäre Steam-verknüpfte STOVE-Konto nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Ein Demo-Wipe nach dem Transfer kann den Fortschritt auf dem ursprünglichen Server löschen. Transfer ist nicht Foundry. Unabhängiger Guide — prüfe es auf STOVE."
         ],
         [
           "STOVE meldet „bereits registriert“ — was nun?",
-          "Diese Steam-ID ist bereits mit einem anderen STOVE-Login verknüpft. Autorisiere diese Steam-ID auf STOVE, ziehe das zusätzliche Konto zurück und stelle dann den ursprünglichen E-Mail-/SNS-Login um. Erstelle nicht ständig weitere Steam-Konten. Nach der Bereinigung kann eine 3-Monats-Sperre gelten; bestätige das Datum in der STOVE-UI oder beim Support. Siehe den Abschnitt zur Sperre oben."
+          "Diese Steam-ID ist bereits mit einem anderen STOVE-Login verknüpft — oft mit dem temporären Konto, das Steam beim ersten Start angelegt hat. Lösche es nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Die offizielle Antwort auf Frage 3 nennt keine einheitliche 3-Monats-Wartezeit; bestätige Button und Bedingungen in der STOVE-UI oder beim Support."
         ],
         [
           "Verliere ich beim Transfer zu Steam Helden?",
@@ -4867,7 +4867,7 @@ export const CONTENT = {
         ],
         [
           "Was, wenn Steam bereits ein neues Konto erstellt hat?",
-          "Ziehe zuerst das neue Steam-verknüpfte STOVE-Konto zurück und stelle dann deinen ursprünglichen Login um — siehe den Konflikt-Abschnitt und die STOVE-FAQ."
+          "Lösche das temporäre Steam-verknüpfte STOVE-Konto nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Siehe den Konflikt-Abschnitt und die STOVE-FAQ Frage 3."
         ],
         [
           "Bringt mich der Transfer auf Foundry?",
@@ -4875,7 +4875,7 @@ export const CONTENT = {
         ],
         [
           "Kann das Löschen eines Steam-Demo-Kontos meinen alten Fortschritt auslöschen?",
-          "Die offizielle STOVE-Warnung besagt, dass nach dem Steam-Login-Transfer die Kontolöschung im Spiel in Demo/Client den Fortschritt auf dem ursprünglichen Server löschen kann. Nutze lieber den Wiederherstellungsweg auf dieser Seite; lies die Demo-Warnseite und prüfe es auf STOVE, bevor du handelst. Diese Seite ist ein unabhängiger Guide."
+          "Die offizielle STOVE-Warnung besagt, dass nach dem Steam-Login-Transfer die Kontolöschung im Spiel in Demo/Client den Fortschritt auf dem ursprünglichen Server löschen kann. Nutze die offizielle Convert-Sequenz auf dieser Seite; lies die Demo-Warnseite und prüfe es auf STOVE, bevor du handelst. Diese Seite ist ein unabhängiger Guide."
         ],
         [
           "Werden Käufe und Epic Pass übernommen?",
@@ -4892,7 +4892,7 @@ export const CONTENT = {
         "Bestätige, welcher E-Mail- oder SNS-Login den Fortschritt besitzt, den du behalten willst — rate nicht.",
         "Starte nicht vorschnell mit einem brandneuen Steam-Login, wenn dir das alte Konto wichtig ist.",
         "Lies die offizielle STOVE-Steam-FAQ und die Demo-Löschwarnung, bevor du verknüpfst.",
-        "Wenn bereits ein Demo-/leeres Steam-verknüpftes Konto existiert, plane zuerst den Weg Zurückziehen-dann-Umstellen."
+        "Wenn bereits ein temporäres Steam-verknüpftes Konto existiert, lösche es nicht — plane die offizielle Convert-Sequenz: mit diesem Steam-Konto anmelden, das temporäre Konto auf einen Nicht-Steam-Login umstellen, dann das ursprüngliche Konto umstellen."
       ],
       "demo_risk": "Nutze nach der Umstellung keine Kontolöschung im Spiel in einer Demo-/Client-Sitzung — siehe",
       "link_download": "Download-Checkliste vor der Umstellung",
@@ -4907,11 +4907,11 @@ export const CONTENT = {
       "tree": [
         [
           "Leeres Steam-Konto",
-          "Steam hat einen frischen Heir ohne deine alten Helden geöffnet. Du bist dann fast sicher mit einem neuen Steam-verknüpften STOVE-Login angemeldet. Ziehe zuerst diese neue Verknüpfung zurück und stelle dann das ursprüngliche E-Mail-/SNS-Konto um (siehe Konflikt-Schritte + STOVE-FAQ)."
+          "Steam hat einen frischen Heir ohne deine alten Helden geöffnet. Du bist dann fast sicher mit einem neuen Steam-verknüpften STOVE-Login angemeldet. Lösche es nicht: Melde dich mit diesem Steam-Konto bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto um (siehe Konflikt-Schritte + STOVE-FAQ Frage 3)."
         ],
         [
           "Fortschritt fehlt nach dem Login",
-          "Bestätige, welche STOVE-Identität Steam autorisiert hat. Wenn es die leere Verknüpfung ist, stelle über Zurückziehen→Umstellen wieder her. Lösche das leere Konto nach dem Transfer nicht über die Löschung im Spiel — dieser Weg kann laut STOVE-Warnung Daten auf dem ursprünglichen Server löschen."
+          "Bestätige, welche STOVE-Identität Steam autorisiert hat. Wenn es die temporäre Verknüpfung ist, nutze die offizielle Convert-Sequenz — keinen Rückzug. Lösche das Konto nach dem Transfer nicht über die Löschung im Spiel — dieser Weg kann laut STOVE-Warnung Daten auf dem ursprünglichen Server löschen."
         ],
         [
           "Demo vs. vollwertiger Client",
@@ -4924,18 +4924,18 @@ export const CONTENT = {
       "vs_steps": [
         "Legacy-Fortschritt behalten: Stelle auf STOVE-PC den E-Mail- oder SNS-Login, dem deine Helden gehören, auf Steam Simple Login um, bevor du in einer frischen Steam-Sitzung auf Play drückst. Folge der STOVE-Steam-FAQ view/14378309, nicht einem Drittanbieter-Binder.",
         "Foundry-Neustart: Wenn Steam mit dem gewünschten Login verbunden ist, erstelle einen Foundry-Charakter für Feier-Buffs und Guild War. Termine folgen STOVE Foundry view/14571828 und Launch view/14606481 — siehe [[Guild War auf Foundry|/foundry/#guild-war]].",
-        "Falsche Verknüpfung: Wenn Steam einen leeren Heir zeigt, ziehe dieses Steam-verknüpfte STOVE-Konto zurück, warte eine eventuelle Haltefrist ab, die die STOVE-UI anzeigt, und stelle dann das ursprüngliche Konto um. Nutze keine Kontolöschung im Spiel (STOVE-Demo-Warnung view/14581667)."
+        "Falsche Verknüpfung: Wenn Steam einen leeren Heir zeigt, lösche dieses Steam-verknüpfte STOVE-Konto nicht. Melde dich damit bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann den ursprünglichen E-Mail-/SNS-Login um. Nutze keine Kontolöschung im Spiel (STOVE-Demo-Warnung view/14581667)."
       ],
       "deep_h2": "Warum Spieler feststecken (unabhängig)",
       "deep": [
-        "Die meisten Fehler in der Launch-Woche beim Epic Seven Steam-Transfer sind: Steam vor der Umstellung, Demo-Löschung nach dem Transfer oder die Erwartung, dass die Login-Umstellung zu Foundry führt. Folge Zurückziehen→Umstellen und gib STOVE-FAQ / Demo-Warnung als Quelle an. Bevor du umstellst, öffne die [[Download-Checkliste|/download/]], damit der vollständige Client (app 5019180) bereit ist."
+        "Die meisten Fehler in der Launch-Woche beim Epic Seven Steam-Transfer sind: Steam vor der Umstellung, Demo-Löschung nach dem Transfer oder die Erwartung, dass die Login-Umstellung zu Foundry führt. Folge der offiziellen Convert-Sequenz aus Frage 3 und gib STOVE-FAQ / Demo-Warnung als Quelle an. Bevor du umstellst, öffne die [[Download-Checkliste|/download/]], damit der vollständige Client (app 5019180) bereit ist."
       ],
-      "img_alt2": "Selbst gezeichneter Entscheidungsbaum bei falscher Verknüpfung: leerer Steam-Heir und Wiederherstellung",
+      "img_alt2": "Selbst gezeichneter Entscheidungsbaum bei falscher Verknüpfung: leerer Steam-Heir und offizielle Convert-Wiederherstellung",
       "img_alt3": "Offizielles Steam-Capsule-Artwork für Epic Seven app 5019180 — Steam-CDN"
     },
     "fr": {
       "title": "Guide de transfert Steam Epic Seven | Garder sa progression | E7",
-      "meta": "Transfert Epic Seven Steam : convertissez STOVE→Steam Simple Login pour garder la progression. Mauvais lien : retrait ; démo wipe ; ≠ Foundry. Non officiel.",
+      "meta": "Transfert Epic Seven Steam : convertissez STOVE→Steam Simple Login pour garder la progression. Mauvais lien : Convert officiel ; démo wipe ; ≠ Foundry. Non officiel.",
       "h1": "Transfert Steam Epic Seven — garder sa progression",
       "goal": "Objectif de ce guide de transfert Steam Epic Seven : conserver la progression existante en passant à Simple Login (Steam) sur STOVE avant de vous fier à une nouvelle session Steam. Paraphrase de la FAQ publique STOVE — suivez l'interface en ligne.",
       "diagram": [
@@ -4968,16 +4968,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Si Steam a déjà créé un nouveau compte",
-      "conflict_intro": "Résumé officiel de la récupération (paraphrasé) : retirez d'abord le nouveau compte STOVE lié à Steam, puis convertissez votre compte d'origine.",
+      "conflict_intro": "Récupération officielle de la question 3 (paraphrasée) : ne supprimez pas le compte STOVE temporaire lié à Steam. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam.",
       "conflict_steps": [
-        "Sur la connexion STOVE, choisissez le type de compte Steam.",
-        "Autorisez le compte Steam utilisé pour Epic Seven.",
-        "Terminez l'inscription / vérification STOVE si elle est demandée.",
-        "Retirez ce compte STOVE lié à Steam via l'interface STOVE.",
-        "Convertissez ensuite votre compte e-mail/SNS d'origine en connexion Steam."
+        "Sur la page de connexion STOVE, choisissez Steam et inscrivez-vous sur STOVE si nécessaire.",
+        "Connectez-vous au site STOVE avec ce compte Steam.",
+        "Ouvrez [Mon icône de profil > Informations du compte] et sélectionnez Convert.",
+        "Choisissez une méthode de connexion autre que Steam pour convertir le compte temporaire.",
+        "Convertissez ensuite le compte e-mail/SNS d'origine en connexion Steam."
       ],
-      "conflict_note": "Le retrait peut impliquer un délai d'attente — confirmez dans l'interface STOVE / le service client. N'inventez pas d'outils de déblocage tiers.",
-      "cooldown_h2": "« Déjà enregistré » et le délai de 3 mois",
+      "conflict_note": "La réponse officielle à la question 3 n'exige ni retrait du compte ni délai d'attente uniforme. Si un bouton est grisé, suivez le texte actuel de l'interface STOVE ou du support. N'utilisez pas d'outils de déblocage tiers.",
+      "cooldown_h2": "« Déjà enregistré » et le bouton Transfert grisé",
       "cooldown_lead": "Deux erreurs expliquent la plupart des transferts bloqués. Lisez le message STOVE exact avant de créer un autre compte ou de supprimer quoi que ce soit.",
       "cooldown_th": [
         "Ce que vous voyez",
@@ -4988,20 +4988,20 @@ export const CONTENT = {
         [
           "« Ces informations ont déjà été enregistrées. »",
           "Cet ID Steam est déjà lié à une autre connexion STOVE — souvent le compte vide créé par Steam au premier lancement.",
-          "Autorisez cet ID Steam sur STOVE, retirez le compte STOVE en trop, puis convertissez la connexion e-mail/SNS d'origine. N'ouvrez pas d'autres comptes Steam."
+          "Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. N'ouvrez pas d'autres comptes Steam."
         ],
         [
           "Bouton de transfert grisé",
-          "STOVE affiche un blocage ou un délai, ou la connexion n'est pas encore éligible. Les joueurs signalent souvent un délai de 3 mois après un nettoyage de mauvais lien.",
-          "Lisez la date et la portée dans STOVE. Attendez la fin du délai ou contactez le service client STOVE ; aucun déblocage tiers ne peut le raccourcir."
+          "STOVE affiche un blocage ou un bouton grisé, ou la connexion n'est pas encore éligible. La réponse officielle à la question 3 n'indique pas de délai d'attente uniforme de 3 mois.",
+          "Lisez la condition et la date actuelles dans l'interface STOVE. Suivez le texte affiché ou contactez le support STOVE ; aucun déblocage tiers n'est officiel."
         ],
         [
           "Converti, mais les anciens héros manquent",
           "Steam a autorisé une identité STOVE différente de celle qui possède la liste de héros.",
-          "Confirmez la paire de connexions, puis utilisez retrait→conversion. N'utilisez jamais la suppression de compte en jeu après le transfert."
+          "Confirmez la paire de connexions et utilisez la séquence Convert officielle. N'utilisez jamais la suppression de compte en jeu après le transfert."
         ]
       ],
-      "cooldown_note": "Un délai de 3 mois est une règle de compte côté STOVE, pas une politique du site. Le déclencheur exact et la date de début apparaissent dans l'interface de votre compte STOVE ou dans la réponse du service client — ce guide non officiel ne peut pas le réinitialiser.",
+      "cooldown_note": "La réponse officielle à la question 3 n'indique pas de délai uniforme de 3 mois. L'état du bouton et les dates dépendent de chaque compte — lisez l'interface STOVE ou le support. Ce guide non officiel ne peut pas le réinitialiser.",
       "cross_h2": "Notes sur le cross-play",
       "cross": [
         "Steam, STOVE PC et mobile partagent le jeu via le cross-play (selon la FAQ).",
@@ -5009,17 +5009,17 @@ export const CONTENT = {
         "À lire ensuite après le transfert Steam Epic Seven : l'avertissement sur la démo, les notes Steam, le hub FAQ et la checklist de téléchargement."
       ],
       "src_h2": "Sources officielles",
-      "answer": "Ce guide de transfert Steam Epic Seven convertit l'e-mail/SNS STOVE en Simple Login Steam pour que le même compte conserve sa progression. Mauvais lien : retirez le compte STOVE vide lié à Steam, puis convertissez l'original. Le transfert Steam Epic Seven n'est pas Foundry et ne lance pas Guild War. Voir [[Guild War sur Foundry|/foundry/#guild-war]].",
+      "answer": "Ce guide de transfert Steam Epic Seven convertit l'e-mail/SNS STOVE en Simple Login Steam pour que le même compte conserve sa progression. Mauvais lien : ne supprimez pas le compte STOVE temporaire lié à Steam. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. L'effacement de la démo après transfert peut effacer la progression du serveur d'origine. Le transfert Steam Epic Seven n'est pas Foundry et ne lance pas Guild War. Voir [[Guild War sur Foundry|/foundry/#guild-war]].",
       "img_alt": "Schéma auto-dessiné des étapes du transfert STOVE vers Steam",
       "faq_h2": "FAQ transfert",
       "faqs": [
         [
           "Comment le transfert Steam Epic Seven conserve-t-il la progression ?",
-          "Ce transfert Steam Epic Seven convertit votre connexion e-mail/SNS STOVE en Simple Login Steam pour conserver la progression. Mauvais lien : retirez le compte vide lié à Steam, puis convertissez l'original. L'effacement de la démo après transfert peut effacer la progression du serveur d'origine. Le transfert n'est pas Foundry. Guide non officiel — vérifiez sur STOVE."
+          "Ce transfert Steam Epic Seven convertit votre connexion e-mail/SNS STOVE en Simple Login Steam pour conserver la progression. Mauvais lien : ne supprimez pas le compte temporaire lié à Steam. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. L'effacement de la démo après transfert peut effacer la progression du serveur d'origine. Le transfert n'est pas Foundry. Guide non officiel — vérifiez sur STOVE."
         ],
         [
           "STOVE indique « déjà enregistré » — que faire ?",
-          "Cet ID Steam est déjà lié à une autre connexion STOVE. Autorisez cet ID Steam sur STOVE, retirez le compte en trop, puis convertissez la connexion e-mail/SNS d'origine. N'enchaînez pas les créations de comptes Steam. Un délai de 3 mois peut s'appliquer après le nettoyage ; confirmez la date dans l'interface STOVE ou auprès du service client. Voir la section sur le délai ci-dessus."
+          "Cet ID Steam est déjà lié à une autre connexion STOVE — souvent le compte temporaire créé par Steam au premier lancement. Ne le supprimez pas. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. La réponse officielle à la question 3 n'indique pas de délai d'attente uniforme ; confirmez le bouton et les conditions dans l'interface STOVE ou auprès du support."
         ],
         [
           "Est-ce que je perds mes héros en transférant vers Steam ?",
@@ -5027,7 +5027,7 @@ export const CONTENT = {
         ],
         [
           "Et si Steam a déjà créé un nouveau compte ?",
-          "Retirez d'abord le nouveau compte STOVE lié à Steam, puis convertissez votre connexion d'origine — voir la section sur le conflit et la FAQ STOVE."
+          "Ne supprimez pas le compte STOVE temporaire lié à Steam. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. Voir la section sur le conflit et la FAQ STOVE question 3."
         ],
         [
           "Le transfert me fait-il passer sur Foundry ?",
@@ -5035,7 +5035,7 @@ export const CONTENT = {
         ],
         [
           "La suppression d'un compte de démo Steam peut-elle effacer mon ancienne progression ?",
-          "La précaution officielle STOVE avertit qu'après le transfert de connexion Steam, utiliser la suppression de compte en jeu sur la démo/le client peut effacer la progression du serveur d'origine. Privilégiez le parcours de récupération de cette page ; lisez la page d'avertissement sur la démo et vérifiez sur STOVE avant d'agir. Ce site est un guide non officiel."
+          "La précaution officielle STOVE avertit qu'après le transfert de connexion Steam, utiliser la suppression de compte en jeu sur la démo/le client peut effacer la progression du serveur d'origine. Utilisez la séquence Convert officielle de cette page ; lisez la page d'avertissement sur la démo et vérifiez sur STOVE avant d'agir. Ce site est un guide non officiel."
         ],
         [
           "Les achats et l'Epic Pass sont-ils conservés ?",
@@ -5052,7 +5052,7 @@ export const CONTENT = {
         "Confirmez quelle connexion e-mail ou SNS possède la progression que vous voulez garder — ne devinez pas.",
         "Ne lancez pas une toute nouvelle connexion Steam en premier si vous tenez à l'ancien compte.",
         "Lisez la FAQ Steam officielle de STOVE et la précaution sur la suppression de la démo avant de lier.",
-        "Si un compte de démo/vide lié à Steam existe déjà, prévoyez d'abord le parcours retrait-puis-conversion."
+        "Si un compte temporaire lié à Steam existe déjà, ne le supprimez pas — prévoyez la séquence Convert officielle : connectez-vous avec ce compte Steam, convertissez le compte temporaire en connexion non Steam, puis convertissez l'original."
       ],
       "demo_risk": "Après la conversion, n'utilisez pas la suppression de compte en jeu sur une session démo/client — voir",
       "link_download": "Checklist de téléchargement avant de convertir",
@@ -5067,11 +5067,11 @@ export const CONTENT = {
       "tree": [
         [
           "Compte Steam vide",
-          "Steam a ouvert un nouveau Heir sans aucun de vos anciens héros. Vous êtes presque certainement sur une nouvelle connexion STOVE liée à Steam. Retirez d'abord ce nouveau lien, puis convertissez le compte e-mail/SNS d'origine (voir les étapes du conflit + la FAQ STOVE)."
+          "Steam a ouvert un nouveau Heir sans aucun de vos anciens héros. Vous êtes presque certainement sur une nouvelle connexion STOVE liée à Steam. Ne le supprimez pas : connectez-vous à STOVE avec ce compte Steam, ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez le compte e-mail/SNS d'origine (voir les étapes du conflit + la FAQ STOVE question 3)."
         ],
         [
           "Progression manquante après connexion",
-          "Confirmez quelle identité STOVE Steam a autorisée. S'il s'agit du lien vide, récupérez via retrait→conversion. Ne supprimez pas le compte vide via la suppression en jeu après le transfert — ce parcours peut effacer les données du serveur d'origine selon la précaution STOVE."
+          "Confirmez quelle identité STOVE Steam a autorisée. S'il s'agit du lien temporaire, utilisez la séquence Convert officielle, pas le retrait. Ne supprimez pas le compte via la suppression en jeu après le transfert — ce parcours peut effacer les données du serveur d'origine selon la précaution STOVE."
         ],
         [
           "Démo vs client complet",
@@ -5084,18 +5084,18 @@ export const CONTENT = {
       "vs_steps": [
         "Garder la progression historique : sur STOVE PC, convertissez l'e-mail ou le SNS qui possède vos héros en Simple Login Steam avant d'appuyer sur Jouer dans une nouvelle session Steam. Suivez la FAQ Steam STOVE view/14378309, pas un outil de liaison tiers.",
         "Nouveau départ Foundry : une fois Steam sur la connexion voulue, créez un personnage Foundry pour les buffs de célébration et Guild War. Les dates suivent STOVE Foundry view/14571828 et Launch view/14606481 — voir [[Guild War sur Foundry|/foundry/#guild-war]].",
-        "Mauvais lien : si Steam affiche un Heir vide, retirez ce compte STOVE lié à Steam, attendez la fin de la période de rétention affichée par l'interface STOVE, puis convertissez l'original. N'utilisez pas la suppression de compte en jeu (précaution démo STOVE view/14581667)."
+        "Mauvais lien : si Steam affiche un Heir vide, ne supprimez pas ce compte STOVE lié à Steam. Connectez-vous à STOVE avec, ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez la connexion e-mail/SNS d'origine. N'utilisez pas la suppression de compte en jeu (précaution démo STOVE view/14581667)."
       ],
       "deep_h2": "Pourquoi les joueurs bloquent (non officiel)",
       "deep": [
-        "La plupart des erreurs de la semaine de lancement sur le transfert Steam Epic Seven sont : Steam avant la conversion, suppression de la démo après transfert, ou attente de Foundry après une conversion de connexion. Suivez retrait→conversion et citez la FAQ STOVE / la précaution démo. Avant de convertir, ouvrez la [[checklist de téléchargement|/download/]] pour que le client complet (app 5019180) soit prêt."
+        "La plupart des erreurs de la semaine de lancement sur le transfert Steam Epic Seven sont : Steam avant la conversion, suppression de la démo après transfert, ou attente de Foundry après une conversion de connexion. Suivez la séquence Convert officielle de la question 3 et citez la FAQ STOVE / la précaution démo. Avant de convertir, ouvrez la [[checklist de téléchargement|/download/]] pour que le client complet (app 5019180) soit prêt."
       ],
-      "img_alt2": "Arbre de décision auto-dessiné pour un Heir Steam vide et la récupération",
+      "img_alt2": "Arbre de décision auto-dessiné pour un Heir Steam vide et la récupération par Convert officiel",
       "img_alt3": "Bannières Steam officielles pour Epic Seven app 5019180 — CDN Steam"
     },
     "pl": {
       "title": "Poradnik transferu Epic Seven na Steam | Zachowaj postęp | E7",
-      "meta": "Transfer Epic Seven na Steam: przekonwertuj STOVE→Steam Simple Login, aby zachować postęp. Wycofanie po błędnym powiązaniu, czyszczenie dema; transfer ≠ Foundry. Nieoficjalne.",
+      "meta": "Transfer Epic Seven na Steam: przekonwertuj STOVE→Steam Simple Login, aby zachować postęp. Błędne powiązanie: oficjalny Convert; czyszczenie dema; ≠ Foundry. Nieoficjalne.",
       "h1": "Transfer Epic Seven na Steam — zachowaj postęp",
       "goal": "Cel tego przewodnika po transferze Epic Seven na Steam: zachować dotychczasowy postęp, konwertując konto w STOVE na Simple Login (Steam), zanim zaczniesz polegać na nowej sesji Steam. Parafraza publicznego FAQ STOVE — postępuj według bieżącego interfejsu.",
       "diagram": [
@@ -5128,16 +5128,16 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Jeśli Steam utworzył już nowe konto",
-      "conflict_intro": "Oficjalny zarys odzyskiwania (sparafrazowany): najpierw wycofaj nowe konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne.",
+      "conflict_intro": "Oficjalne odzyskiwanie według pytania 3 (sparafrazowane): nie usuwaj tymczasowego konta STOVE powiązanego ze Steam. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam.",
       "conflict_steps": [
-        "W logowaniu STOVE wybierz typ konta Steam.",
-        "Autoryzuj konto Steam używane w Epic Seven.",
-        "Dokończ rejestrację / weryfikację STOVE, jeśli poprosi.",
-        "Wycofaj to konto STOVE powiązane ze Steam według interfejsu STOVE.",
+        "Na stronie logowania STOVE wybierz Steam i w razie potrzeby zarejestruj się w STOVE.",
+        "Zaloguj się do strony STOVE tym kontem Steam.",
+        "Otwórz [Ikona profilu > Informacje o koncie] i wybierz Convert.",
+        "Wybierz metodę logowania inną niż Steam, aby przekonwertować konto tymczasowe.",
         "Następnie przekonwertuj pierwotne konto e-mail/SNS na logowanie Steam."
       ],
-      "conflict_note": "Wycofanie może wiązać się z okresem oczekiwania — potwierdź w interfejsie STOVE / u wsparcia. Nie wymyślaj narzędzi odblokowujących firm trzecich.",
-      "cooldown_h2": "„Already registered” i trzymiesięczny cooldown",
+      "conflict_note": "Oficjalna odpowiedź na pytanie 3 nie wymaga wycofania konta ani jednolitego okresu oczekiwania. Jeśli przycisk jest wyszarzony, postępuj według bieżącego tekstu interfejsu STOVE lub wsparcia. Nie używaj narzędzi odblokowujących firm trzecich.",
+      "cooldown_h2": "„Already registered” i wyszarzony przycisk Transfer",
       "cooldown_lead": "Dwa błędy odpowiadają za większość zablokowanych transferów. Przeczytaj dokładny komunikat STOVE, zanim utworzysz kolejne konto lub cokolwiek usuniesz.",
       "cooldown_th": [
         "Co widzisz",
@@ -5148,20 +5148,20 @@ export const CONTENT = {
         [
           "„This information has already been registered.”",
           "Ten identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z pustym kontem utworzonym przez Steam przy pierwszym uruchomieniu.",
-          "Autoryzuj ten identyfikator Steam w STOVE, wycofaj dodatkowe konto STOVE, a potem przekonwertuj pierwotne logowanie e-mail/SNS. Nie otwieraj kolejnych kont Steam."
+          "Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Nie twórz kolejnych kont Steam."
         ],
         [
           "Przycisk Transfer wyszarzony",
-          "STOVE pokazuje wstrzymanie lub cooldown albo logowanie nie kwalifikuje się jeszcze. Gracze często zgłaszają trzymiesięczny cooldown po naprawie błędnego powiązania.",
-          "Przeczytaj datę i zakres w STOVE. Odczekaj lub zapytaj wsparcie STOVE; żadne odblokowanie firm trzecich tego nie skróci."
+          "STOVE pokazuje wstrzymanie lub wyszarzony przycisk albo logowanie nie kwalifikuje się jeszcze. Oficjalna odpowiedź na pytanie 3 nie podaje jednolitego trzymiesięcznego okresu oczekiwania.",
+          "Przeczytaj bieżący warunek i datę w interfejsie STOVE. Postępuj według tekstu na ekranie lub zapytaj wsparcie STOVE; żadne odblokowanie firm trzecich nie jest oficjalne."
         ],
         [
           "Przekonwertowano, ale brakuje starych bohaterów",
           "Steam autoryzował inną tożsamość STOVE niż ta, która ma roster.",
-          "Potwierdź parę logowań, a potem użyj wycofaj→przekonwertuj. Nigdy nie używaj usuwania konta w grze po transferze."
+          "Potwierdź parę logowań i użyj oficjalnej sekwencji Convert. Nigdy nie używaj usuwania konta w grze po transferze."
         ]
       ],
-      "cooldown_note": "Trzymiesięczny cooldown to zasada konta po stronie STOVE, nie polityka tej strony. Dokładny wyzwalacz i data rozpoczęcia są w interfejsie konta STOVE lub odpowiedzi wsparcia — ten nieoficjalny poradnik nie może go zresetować.",
+      "cooldown_note": "Oficjalna odpowiedź na pytanie 3 nie podaje jednolitego trzymiesięcznego cooldownu. Stan przycisku i daty zależą od konta — czytaj interfejs STOVE lub odpowiedź wsparcia. Ten nieoficjalny poradnik nie może go zresetować.",
       "cross_h2": "Uwagi o cross-play",
       "cross": [
         "Steam, PC STOVE i telefon dzielą rozgrywkę dzięki cross-play (według FAQ).",
@@ -5169,17 +5169,17 @@ export const CONTENT = {
         "Powiązane po transferze Epic Seven na Steam: ostrzeżenie o demie, notatki o Steam, centrum FAQ i lista kontrolna pobierania."
       ],
       "src_h2": "Oficjalne źródła",
-      "answer": "Transfer Epic Seven na Steam zachowuje postęp przez konwersję logowania e-mail/SNS STOVE na Steam Simple Login. Błędne powiązanie: wycofaj puste konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne. Czyszczenie dema może usunąć stary postęp po konwersji. Transfer ≠ Foundry; Foundry to osobny serwer — zobacz [[poradnik serwera Foundry|/foundry/]].",
+      "answer": "Transfer Epic Seven na Steam zachowuje postęp przez konwersję logowania e-mail/SNS STOVE na Steam Simple Login. Błędne powiązanie: nie usuwaj tymczasowego konta STOVE powiązanego ze Steam. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Czyszczenie dema może usunąć stary postęp po konwersji. Transfer ≠ Foundry; Foundry to osobny serwer — zobacz [[poradnik serwera Foundry|/foundry/]].",
       "img_alt": "Własnoręcznie rysowany schemat kroków transferu STOVE na Steam",
       "faq_h2": "FAQ transferu",
       "faqs": [
         [
           "Jak transfer Epic Seven na Steam zachowuje postęp?",
-          "Ten transfer Epic Seven na Steam konwertuje logowanie e-mail/SNS STOVE na Steam Simple Login, aby zachować postęp. Błędne powiązanie: wycofaj puste konto powiązane ze Steam, a potem przekonwertuj pierwotne. Czyszczenie dema po transferze może usunąć postęp na pierwotnym serwerze. Transfer to nie Foundry. Poradnik nieoficjalny — potwierdź na STOVE."
+          "Ten transfer Epic Seven na Steam konwertuje logowanie e-mail/SNS STOVE na Steam Simple Login, aby zachować postęp. Błędne powiązanie: nie usuwaj tymczasowego konta powiązanego ze Steam. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Czyszczenie dema po transferze może usunąć postęp na pierwotnym serwerze. Transfer to nie Foundry. Poradnik nieoficjalny — potwierdź na STOVE."
         ],
         [
           "STOVE mówi „already been registered” — co teraz?",
-          "Ten identyfikator Steam jest już powiązany z innym logowaniem STOVE. Autoryzuj go w STOVE, wycofaj dodatkowe konto, a potem przekonwertuj pierwotne logowanie e-mail/SNS. Nie twórz kolejnych kont Steam. Po sprzątaniu może obowiązywać trzymiesięczny cooldown; potwierdź datę w interfejsie STOVE lub u wsparcia. Zobacz sekcję o cooldownie powyżej."
+          "Ten identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z kontem tymczasowym utworzonym przez Steam przy pierwszym uruchomieniu. Nie usuwaj go. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Oficjalna odpowiedź na pytanie 3 nie podaje jednolitego trzymiesięcznego okresu oczekiwania; potwierdź przycisk i warunki w interfejsie STOVE lub u wsparcia."
         ],
         [
           "Czy tracę bohaterów przy transferze na Steam?",
@@ -5187,7 +5187,7 @@ export const CONTENT = {
         ],
         [
           "Co jeśli Steam utworzył już nowe konto?",
-          "Najpierw wycofaj nowe konto STOVE powiązane ze Steam, a potem przekonwertuj pierwotne logowanie — zobacz sekcję o konflikcie i FAQ STOVE."
+          "Nie usuwaj tymczasowego konta STOVE powiązanego ze Steam. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Zobacz sekcję o konflikcie i pytanie 3 FAQ STOVE."
         ],
         [
           "Czy transfer przenosi mnie na Foundry?",
@@ -5195,7 +5195,7 @@ export const CONTENT = {
         ],
         [
           "Czy usunięcie konta demo na Steam może wyczyścić mój stary postęp?",
-          "Oficjalne ostrzeżenie STOVE mówi, że po transferze logowania Steam użycie usuwania konta w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze. Preferuj ścieżkę odzyskiwania z tej strony; przeczytaj stronę ostrzeżenia o demie i potwierdź na STOVE przed działaniem. Ta strona to poradnik nieoficjalny."
+          "Oficjalne ostrzeżenie STOVE mówi, że po transferze logowania Steam użycie usuwania konta w grze w demie/kliencie może wyczyścić postęp na pierwotnym serwerze. Użyj oficjalnej sekwencji Convert z tej strony; przeczytaj stronę ostrzeżenia o demie i potwierdź na STOVE przed działaniem. Ta strona to poradnik nieoficjalny."
         ],
         [
           "Czy zakupy i Epic Pass przechodzą?",
@@ -5212,7 +5212,7 @@ export const CONTENT = {
         "Potwierdź, które logowanie e-mail lub SNS STOVE ma postęp, który chcesz zachować.",
         "Nie otwieraj najpierw nowej sesji Steam; to może utworzyć puste powiązane konto STOVE.",
         "Przeczytaj ostrzeżenie o usuwaniu dema, zanim naciśniesz jakikolwiek interfejs usuwania.",
-        "Następnie przekonwertuj e-mail/SNS STOVE → Steam Simple Login i autoryzuj ten sam identyfikator Steam."
+        "Jeśli istnieje już tymczasowe konto powiązane ze Steam, nie usuwaj go — zaplanuj oficjalną sekwencję Convert: zaloguj się tym kontem Steam, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne."
       ],
       "demo_risk": "Po konwersji nie używaj usuwania konta w grze w sesji demo/klienta — zobacz",
       "link_download": "Lista kontrolna pobierania przed konwersją",
@@ -5227,11 +5227,11 @@ export const CONTENT = {
       "tree": [
         [
           "Puste konto Steam",
-          "Steam otworzył nowego Dziedzica bez twoich starych bohaterów. Prawie na pewno jesteś na nowym logowaniu STOVE powiązanym ze Steam. Najpierw wycofaj to nowe powiązanie, a potem przekonwertuj pierwotne konto e-mail/SNS (zobacz kroki konfliktu + FAQ STOVE)."
+          "Steam otworzył nowego Dziedzica bez twoich starych bohaterów. Prawie na pewno jesteś na nowym logowaniu STOVE powiązanym ze Steam. Nie usuwaj go: zaloguj się do STOVE tym kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS (zobacz kroki konfliktu + FAQ STOVE pytanie 3)."
         ],
         [
           "Brak postępu po logowaniu",
-          "Potwierdź, którą tożsamość STOVE autoryzował Steam. Jeśli to puste powiązanie, odzyskaj przez wycofaj→przekonwertuj. Nie usuwaj pustego konta przez usuwanie w grze po transferze — ta ścieżka może wyczyścić dane na pierwotnym serwerze według ostrzeżenia STOVE."
+          "Potwierdź, którą tożsamość STOVE autoryzował Steam. Jeśli to powiązanie tymczasowe, użyj oficjalnej sekwencji Convert, a nie wycofania. Nie usuwaj konta przez usuwanie w grze po transferze — ta ścieżka może wyczyścić dane na pierwotnym serwerze według ostrzeżenia STOVE."
         ],
         [
           "Demo a pełny klient",
@@ -5244,13 +5244,13 @@ export const CONTENT = {
       "vs_steps": [
         "Zachowaj stary postęp: na PC STOVE przekonwertuj e-mail lub SNS, które ma twoich bohaterów, na Steam Simple Login, zanim naciśniesz Graj w nowej sesji Steam. Postępuj według FAQ Steam na STOVE view/14378309, nie według bindera firm trzecich.",
         "Nowy start na Foundry: gdy Steam jest na zamierzonym logowaniu, utwórz postać na Foundry dla buffów celebracyjnych i Guild War. Daty według STOVE Foundry view/14571828 i Launch view/14606481 — zobacz [[Guild War na Foundry|/foundry/#guild-war]].",
-        "Błędne powiązanie: jeśli Steam pokazuje pustego Dziedzica, wycofaj to konto STOVE powiązane ze Steam, odczekaj ewentualny okres wstrzymania widoczny w interfejsie STOVE, a potem przekonwertuj pierwotne. Nie używaj usuwania konta w grze (ostrzeżenie STOVE o demie view/14581667)."
+        "Błędne powiązanie: jeśli Steam pokazuje pustego Dziedzica, nie usuwaj tego konta STOVE powiązanego ze Steam. Zaloguj się nim do STOVE, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne logowanie e-mail/SNS. Nie używaj usuwania konta w grze (ostrzeżenie STOVE o demie view/14581667)."
       ],
       "deep_h2": "Dlaczego gracze utykają (nieoficjalnie)",
       "deep": [
-        "Najczęstsze błędy tygodnia premiery przy transferze Epic Seven na Steam to: Steam przed konwersją, usunięcie dema po transferze albo oczekiwanie Foundry po konwersji logowania. Stosuj wycofaj→przekonwertuj i cytuj FAQ STOVE / ostrzeżenie o demie. Przed konwersją otwórz [[listę kontrolną pobierania|/download/]], aby pełny klient (aplikacja 5019180) był gotowy."
+        "Najczęstsze błędy tygodnia premiery przy transferze Epic Seven na Steam to: Steam przed konwersją, usunięcie dema po transferze albo oczekiwanie Foundry po konwersji logowania. Stosuj oficjalną sekwencję Convert z pytania 3 i cytuj FAQ STOVE / ostrzeżenie o demie. Przed konwersją otwórz [[listę kontrolną pobierania|/download/]], aby pełny klient (aplikacja 5019180) był gotowy."
       ],
-      "img_alt2": "Własnoręcznie rysowane drzewo decyzyjne przy pustym Dziedzicu Steam i odzyskiwaniu",
+      "img_alt2": "Własnoręcznie rysowane drzewo decyzyjne przy pustym Dziedzicu Steam i odzyskiwaniu przez oficjalny Convert",
       "img_alt3": "Oficjalny nagłówek Steam dla Epic Seven, aplikacja 5019180 — CDN Steam"
     }
   },
@@ -5259,13 +5259,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — STOVE Bind, Demo Wipe & Foundry ≠ Transfer",
       "meta": "Epic Seven Steam FAQ: wrong STOVE bind, demo wipe after transfer, and Foundry≠transfer — troubleshooting answers with deep links and STOVE sources. Unofficial.",
       "h1": "Epic Seven Steam FAQ & troubleshooting",
-      "answer": "Start with the [[Case Files|/case-files/]] index for documented account-recovery threads, then use this Epic Seven Steam FAQ: a wrong bind usually means Steam made an empty Heir — withdraw it and convert the original with the [[transfer guide|/steam-transfer/]]. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
-      "img_alt": "Unofficial FAQ flowchart: wrong bind, withdraw the empty Steam link, then convert",
+      "answer": "Start with the [[Case Files|/case-files/]] index for documented account-recovery threads, then use this Epic Seven Steam FAQ: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
+      "img_alt": "Unofficial FAQ flowchart: wrong bind, convert the temporary account to a non-Steam login, then convert the original",
       "lead": "Use this Epic Seven Steam FAQ alongside the homepage cards. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
           "What does this Epic Seven Steam FAQ cover — and why a new Heir?",
-          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — withdraw it, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
+          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -5353,13 +5353,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — 引き継ぎ・Foundry・起動 | E7",
       "meta": "Epic Seven Steam FAQ：誤連携、変換後のデモ削除、Foundry≠引き継ぎ — 深リンク付きの短答。起動トラブルとSTOVE公式出典。非公式。",
       "h1": "Epic Seven Steam FAQ・トラブルシュート",
-      "answer": "Epic Seven Steam FAQ：誤連携は大抵Steamが作った空の継承者です — 退会してから[[引き継ぎガイド|/steam-transfer/]]の通り本アカを変換。変換後のデモ内削除はレガシー進行を消す恐れ — [[デモ削除の注意|/demo-delete-warning/]]を。Foundryは引き継ぎではない別サーバー — [[Foundry鯖ガイド|/foundry/]]。",
-      "img_alt": "非公式FAQフロー図：誤連携のあと退会し、続けて変換",
+      "answer": "Epic Seven Steam FAQ：誤連携は大抵Steamが作った空の継承者です — 削除せず、そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、[[引き継ぎガイド|/steam-transfer/]]の通り本アカをSteamへ変換。変換後のデモ内削除はレガシー進行を消す恐れ — [[デモ削除の注意|/demo-delete-warning/]]を。Foundryは引き継ぎではない別サーバー — [[Foundry鯖ガイド|/foundry/]]。",
+      "img_alt": "非公式FAQフロー図：誤連携の一時アカウントをConvertで非Steamログインに変換し、元アカウントをSteamへ",
       "lead": "ホームのカードとあわせてこのEpic Seven Steam FAQを使ってください。第三者スクリプトよりSTOVE画面を優先。",
       "faqs": [
         [
           "このSteam transfer + Foundry FAQは何を扱い、新人継者はなぜ出る？",
-          "Steam transferはSTOVE→Steamシンプルログインで進行を残します。新人継者は大抵Steamが作った空の連携STOVEなので、退会してから本ログインを変換([[引き継ぎガイド|/steam-transfer/]])。ファウンドリはアカウント引き継ぎではない別の新鯖([[ファウンドリ鯖ガイド|/foundry/#server-guide]])。変換後のデモ削除はレガシー進行を消す恐れ([[デモ削除の注意|/demo-delete-warning/]])。非公式 — STOVEで確認。"
+          "このEpic Seven Steam FAQは引き継ぎ・Foundry・ローンチ問題を扱います。Steam transferはSTOVE→Steam Simple Loginで進行を残します。新人継者は大抵Steamが作った空の連携STOVEなので、削除せず、そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] > Convertで一時アカウントをSteam以外のログインに変換してから本ログインをSteamへ（[[引き継ぎガイド|/steam-transfer/]]）。Foundryはアカウント引き継ぎではない別の新鯖（[[ファウンドリ鯖ガイド|/foundry/#server-guide]]）。変換後のデモ削除はレガシー進行を消す恐れ（[[デモ削除の注意|/demo-delete-warning/]]）。非公式 — STOVEで確認。"
         ],
         [
           "Steamファウンドリをモバイルでも？",
@@ -5495,12 +5495,12 @@ export const CONTENT = {
       "meta": "FAQ de Epic Seven Steam: vinculación incorrecta, borrado de demo y Foundry≠transferencia — respuestas breves con enlaces. STOVE oficial. No oficial.",
       "h1": "FAQ y solución de problemas de Epic Seven en Steam",
       "answer": "Esta FAQ de Epic Seven en Steam cubre la transferencia, Foundry y los problemas de lanzamiento. La transferencia a Steam conserva el progreso anterior mediante STOVE→Steam Simple Login; consulta la [[guía de transferencia|/steam-transfer/]]. Foundry es un servidor nuevo aparte, no una transferencia; consulta [[Foundry|/foundry/]]. Borrar la cuenta desde el juego tras la conversión puede eliminar el progreso del servidor original; lee la [[advertencia sobre la demo|/demo-delete-warning/]]. Centro de FAQ no oficial de Epic Seven en Steam.",
-      "img_alt": "Diagrama de flujo no oficial de la FAQ: vinculación incorrecta, retira el vínculo vacío de Steam y luego convierte",
+      "img_alt": "Diagrama de flujo no oficial de la FAQ: vinculación incorrecta, Convert de la cuenta temporal a un inicio que no sea Steam y luego conversión de la original",
       "lead": "Usa esta FAQ de Epic Seven en Steam junto con las tarjetas de la página de inicio. Confía en las pantallas de STOVE antes que en cualquier script de terceros.",
       "faqs": [
         [
           "¿Qué cubre esta FAQ de Epic Seven en Steam y por qué aparece un Heredero nuevo?",
-          "Esta FAQ de Epic Seven en Steam explica la transferencia, Foundry y los problemas de lanzamiento. La transferencia a Steam conserva el progreso mediante STOVE→Steam Simple Login. Un Heredero totalmente nuevo suele significar que Steam creó un inicio de sesión de STOVE vinculado y vacío; retíralo y luego convierte el original (consulta la [[guía de transferencia|/steam-transfer/]]). Foundry es un servidor nuevo aparte, no una transferencia de cuenta ([[guía del servidor Foundry|/foundry/#server-guide]]). El borrado de la demo tras la conversión puede eliminar el progreso anterior ([[advertencia sobre la demo|/demo-delete-warning/]]). No oficial: verifica en STOVE."
+          "Esta FAQ de Epic Seven en Steam explica la transferencia, Foundry y los problemas de lanzamiento. La transferencia a Steam conserva el progreso mediante STOVE→Steam Simple Login. Un Heredero totalmente nuevo suele significar que Steam creó un inicio de sesión de STOVE vinculado y vacío; no lo borres. Inicia sesión en STOVE con esa cuenta de Steam (regístrate con Steam si hace falta), abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio de sesión que no sea Steam y luego convierte la cuenta original de email/SNS a Steam. Foundry es un servidor nuevo aparte, no una transferencia de cuenta ([[guía del servidor Foundry|/foundry/#server-guide]]). El borrado de la demo tras la conversión puede eliminar el progreso anterior ([[advertencia sobre la demo|/demo-delete-warning/]]). No oficial: verifica en STOVE."
         ],
         [
           "¿Puedo jugar en Foundry desde Steam y continuar en el móvil?",
@@ -5542,12 +5542,12 @@ export const CONTENT = {
       "meta": "FAQ de Epic Seven Steam: vínculo errado, apagamento da demo e Foundry≠transferência — respostas curtas com links. STOVE oficial. Não oficial.",
       "h1": "Perguntas frequentes e solução de problemas do Epic Seven no Steam",
       "answer": "Estas perguntas frequentes sobre Epic Seven no Steam cobrem transferência, Foundry e problemas de lançamento. A transferência para o Steam mantém o progresso antigo via STOVE→Steam Simple Login — veja o [[guia de transferência|/steam-transfer/]]. Foundry é um servidor novo e separado, não uma transferência — veja [[Foundry|/foundry/]]. Apagar a demo no jogo depois da conversão pode apagar o progresso do servidor original — leia o [[aviso sobre a demo|/demo-delete-warning/]]. Hub não oficial de perguntas frequentes do Epic Seven no Steam.",
-      "img_alt": "Fluxograma não oficial de perguntas frequentes: vínculo errado, retirar o link vazio do Steam e depois converter",
+      "img_alt": "Fluxograma não oficial de perguntas frequentes: vínculo errado, Convert da conta temporária para um login que não seja Steam e depois conversão da original",
       "lead": "Use estas perguntas frequentes do Epic Seven no Steam junto com os cards da página inicial. Confie nas telas do STOVE em vez de qualquer script de terceiros.",
       "faqs": [
         [
           "O que estas perguntas frequentes do Epic Seven no Steam cobrem — e por que um novo Herdeiro?",
-          "Estas perguntas frequentes explicam transferência, Foundry e problemas de lançamento. A transferência para o Steam mantém o progresso via STOVE→Steam Simple Login. Um Herdeiro totalmente novo geralmente significa que o Steam criou um login STOVE vinculado vazio — retire-o e depois converta o original (veja o [[guia de transferência|/steam-transfer/]]). Foundry é um servidor novo e separado, não uma transferência de conta ([[guia do servidor Foundry|/foundry/#server-guide]]). Apagar a demo depois da conversão pode apagar o progresso antigo ([[aviso sobre a demo|/demo-delete-warning/]]). Não oficial — confirme no STOVE."
+          "Estas perguntas frequentes explicam transferência, Foundry e problemas de lançamento. A transferência para o Steam mantém o progresso via STOVE→Steam Simple Login. Um Herdeiro totalmente novo geralmente significa que o Steam criou um login STOVE vinculado vazio — não o apague. Faça login no STOVE com essa conta Steam (cadastre-se via login Steam se necessário), abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta a conta original de e-mail/SNS para Steam. Foundry é um servidor novo e separado, não uma transferência de conta ([[guia do servidor Foundry|/foundry/#server-guide]]). Apagar a demo depois da conversão pode apagar o progresso antigo ([[aviso sobre a demo|/demo-delete-warning/]]). Não oficial — confirme no STOVE."
         ],
         [
           "Posso jogar Foundry no Steam e continuar no celular?",
@@ -5589,12 +5589,12 @@ export const CONTENT = {
       "meta": "Epic Seven Steam FAQ: falsche Verknüpfung, Demo-Löschung, Foundry≠Transfer — kurze Antworten mit Deep Links. Offizielle STOVE-Quellen. Inoffiziell.",
       "h1": "Epic Seven Steam FAQ & Fehlerbehebung",
       "answer": "Diese Epic Seven Steam FAQ behandelt Transfer, Foundry und Launch-Probleme. Der Steam-Transfer erhält deinen bisherigen Fortschritt über STOVE→Steam Simple Login — siehe [[Transfer-Anleitung|/steam-transfer/]]. Foundry ist ein separater neuer Server, kein Transfer — siehe [[Foundry|/foundry/]]. Das Löschen im Spiel nach der Umstellung kann dazu führen, dass der Fortschritt auf dem Originalserver verloren geht — lies die [[Demo-Warnung|/demo-delete-warning/]]. Inoffizieller Epic Seven Steam FAQ-Hub.",
-      "img_alt": "Inoffizielles FAQ-Flussdiagramm: falsche Verknüpfung, leeren Steam-Link zurückziehen, dann umstellen",
+      "img_alt": "Inoffizielles FAQ-Flussdiagramm: falsche Verknüpfung, temporäres Konto per Convert auf einen Nicht-Steam-Login umstellen, dann das ursprüngliche Konto umstellen",
       "lead": "Nutze diese Epic Seven Steam FAQ zusammen mit den Karten auf der Startseite. Vertraue den STOVE-Bildschirmen mehr als jedem Drittanbieter-Skript.",
       "faqs": [
         [
           "Was deckt diese Epic Seven Steam FAQ ab — und warum ein neuer Erbe?",
-          "Diese Epic Seven Steam FAQ erklärt Transfer, Foundry und Launch-Probleme. Der Steam-Transfer erhält deinen Fortschritt über STOVE→Steam Simple Login. Ein brandneuer Erbe bedeutet meistens, dass Steam einen leeren verknüpften STOVE-Login erstellt hat — zieh ihn zurück und stelle dann den ursprünglichen um (siehe [[Transfer-Anleitung|/steam-transfer/]]). Foundry ist ein separater neuer Server, kein Account-Transfer ([[Foundry-Server-Anleitung|/foundry/#server-guide]]). Die Demo-Löschung nach der Umstellung kann dazu führen, dass bisheriger Fortschritt verloren geht ([[Demo-Warnung|/demo-delete-warning/]]). Inoffiziell — prüfe auf STOVE."
+          "Diese Epic Seven Steam FAQ erklärt Transfer, Foundry und Launch-Probleme. Der Steam-Transfer erhält deinen Fortschritt über STOVE→Steam Simple Login. Ein brandneuer Erbe bedeutet meistens, dass Steam einen leeren verknüpften STOVE-Login erstellt hat — lösche ihn nicht. Melde dich mit diesem Steam-Konto bei STOVE an (registriere dich bei Bedarf über den Steam-Login), öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann das ursprüngliche E-Mail-/SNS-Konto auf Steam um. Foundry ist ein separater neuer Server, kein Account-Transfer ([[Foundry-Server-Anleitung|/foundry/#server-guide]]). Die Demo-Löschung nach der Umstellung kann dazu führen, dass bisheriger Fortschritt verloren geht ([[Demo-Warnung|/demo-delete-warning/]]). Inoffiziell — prüfe auf STOVE."
         ],
         [
           "Kann ich Foundry auf Steam spielen und auf dem Handy weiterspielen?",
@@ -5636,12 +5636,12 @@ export const CONTENT = {
       "meta": "FAQ Epic Seven Steam : mauvaise liaison, effacement de la démo et Foundry≠transfert — réponses courtes avec liens. Sources STOVE. Non officiel.",
       "h1": "FAQ et dépannage Epic Seven sur Steam",
       "answer": "Cette FAQ d'Epic Seven sur Steam couvre le transfert, Foundry et les problèmes de lancement. Le transfert Steam conserve la progression existante via STOVE→Steam Simple Login — voir le [[guide de transfert|/steam-transfer/]]. Foundry est un nouveau serveur distinct, pas un transfert — voir [[Foundry|/foundry/]]. La suppression en jeu du compte de démo après la conversion peut effacer la progression du serveur d'origine — lisez l'[[avertissement sur la démo|/demo-delete-warning/]]. Hub non officiel de la FAQ d'Epic Seven sur Steam.",
-      "img_alt": "Organigramme non officiel de la FAQ : mauvaise liaison, retirer la liaison Steam vide, puis convertir",
+      "img_alt": "Organigramme non officiel de la FAQ : mauvaise liaison, Convert du compte temporaire en connexion non Steam, puis conversion de l'original",
       "lead": "Utilisez cette FAQ d'Epic Seven sur Steam avec les cartes de la page d'accueil. Faites davantage confiance aux écrans STOVE qu'à n'importe quel script tiers.",
       "faqs": [
         [
           "Que couvre cette FAQ d'Epic Seven sur Steam — et pourquoi un nouvel Héritier ?",
-          "Cette FAQ d'Epic Seven sur Steam explique le transfert, Foundry et les problèmes de lancement. Le transfert Steam conserve la progression via STOVE→Steam Simple Login. Un Héritier tout neuf signifie généralement que Steam a créé un identifiant STOVE lié vide — retirez-le, puis convertissez l'original (voir le [[guide de transfert|/steam-transfer/]]). Foundry est un nouveau serveur distinct, pas un transfert de compte ([[guide du serveur Foundry|/foundry/#server-guide]]). L'effacement de la démo après conversion peut effacer la progression existante ([[avertissement sur la démo|/demo-delete-warning/]]). Non officiel — vérifiez sur STOVE."
+          "Cette FAQ d'Epic Seven sur Steam explique le transfert, Foundry et les problèmes de lancement. Le transfert Steam conserve la progression via STOVE→Steam Simple Login. Un Héritier tout neuf signifie généralement que Steam a créé un identifiant STOVE lié vide — ne le supprimez pas. Connectez-vous à STOVE avec ce compte Steam (inscrivez-vous via Steam si nécessaire), ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en une connexion non Steam, puis convertissez le compte e-mail/SNS d'origine en Steam. Foundry est un nouveau serveur distinct, pas un transfert de compte ([[guide du serveur Foundry|/foundry/#server-guide]]). L'effacement de la démo après conversion peut effacer la progression existante ([[avertissement sur la démo|/demo-delete-warning/]]). Non officiel — vérifiez sur STOVE."
         ],
         [
           "Puis-je jouer à Foundry sur Steam et continuer sur mobile ?",
@@ -5682,13 +5682,13 @@ export const CONTENT = {
       "title": "FAQ Epic Seven na Steam — transfer, Foundry i premiera | E7",
       "meta": "FAQ Epic Seven na Steam: błędne powiązanie, czyszczenie dema po transferze i Foundry≠transfer — krótkie odpowiedzi z odnośnikami. Poprawki premierowe + źródła STOVE. Nieoficjalne.",
       "h1": "FAQ i rozwiązywanie problemów — Epic Seven na Steam",
-      "answer": "FAQ Epic Seven na Steam: błędne powiązanie zwykle oznacza, że Steam utworzył pustego Dziedzica — wycofaj go i przekonwertuj pierwotne konto według [[poradnika transferu|/steam-transfer/]]. Usunięcie konta w demie po konwersji może wyczyścić stary postęp — przeczytaj [[ostrzeżenie o demie|/demo-delete-warning/]]. Foundry to osobny serwer, nie transfer — zobacz [[poradnik serwera Foundry|/foundry/]].",
-      "img_alt": "Nieoficjalny schemat FAQ: błędne powiązanie, wycofaj puste powiązanie Steam, potem przekonwertuj",
+      "answer": "FAQ Epic Seven na Steam: błędne powiązanie zwykle oznacza, że Steam utworzył pustego Dziedzica — nie usuwaj go. Zaloguj się do STOVE tym kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto według [[poradnika transferu|/steam-transfer/]]. Usunięcie konta w demie po konwersji może wyczyścić stary postęp — przeczytaj [[ostrzeżenie o demie|/demo-delete-warning/]]. Foundry to osobny serwer, nie transfer — zobacz [[poradnik serwera Foundry|/foundry/]].",
+      "img_alt": "Nieoficjalny schemat FAQ: błędne powiązanie, Convert konta tymczasowego na logowanie inne niż Steam, potem konwersja pierwotnego",
       "lead": "Korzystaj z tego FAQ Epic Seven na Steam razem z kartami strony głównej. Ufaj ekranom STOVE bardziej niż jakimkolwiek skryptom firm trzecich.",
       "faqs": [
         [
           "Co obejmuje to FAQ Epic Seven na Steam — i dlaczego pojawia się nowy Dziedzic?",
-          "To FAQ Epic Seven na Steam wyjaśnia transfer, Foundry i problemy premierowe. Transfer Steam zachowuje postęp przez STOVE→Steam Simple Login. Zupełnie nowy Dziedzic zwykle oznacza, że Steam utworzył puste powiązane logowanie STOVE — wycofaj je, a potem przekonwertuj pierwotne (zobacz [[poradnik transferu|/steam-transfer/]]). Foundry to osobny nowy serwer, nie transfer konta ([[poradnik serwera Foundry|/foundry/#server-guide]]). Czyszczenie dema po konwersji może usunąć stary postęp ([[ostrzeżenie o demie|/demo-delete-warning/]]). Nieoficjalne — potwierdź na STOVE."
+          "To FAQ Epic Seven na Steam wyjaśnia transfer, Foundry i problemy premierowe. Transfer Steam zachowuje postęp przez STOVE→Steam Simple Login. Zupełnie nowy Dziedzic zwykle oznacza, że Steam utworzył puste powiązane logowanie STOVE — nie usuwaj go. Zaloguj się do STOVE tym kontem Steam (w razie potrzeby zarejestruj się przez logowanie Steam), otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne konto e-mail/SNS na Steam. Foundry to osobny nowy serwer, nie transfer konta ([[poradnik serwera Foundry|/foundry/#server-guide]]). Czyszczenie dema po konwersji może usunąć stary postęp ([[ostrzeżenie o demie|/demo-delete-warning/]]). Nieoficjalne — potwierdź na STOVE."
         ],
         [
           "Czy mogę grać na Foundry na Steam i kontynuować na telefonie?",
@@ -5776,10 +5776,10 @@ export const CONTENT = {
       "get_h2": "Get the game",
       "cta": "Official Steam store — Epic Seven",
       "related_h2": "Related",
-      "answer": "Epic Seven on Steam needs a STOVE account link; convert email/SNS to Steam login to keep progress rather than starting empty. The Steam store lists kernel-level anti-cheat UNCHEATER — expect elevation prompts; locked-down PCs may block launch. Wrong-bind recovery lives on the transfer guide (withdraw new link, then convert original). Unofficial Steam notes — not Smilegate/STOVE/Steam.",
+      "answer": "Epic Seven on Steam needs a STOVE account link; convert email/SNS to Steam login to keep progress rather than starting empty. The Steam store lists kernel-level anti-cheat UNCHEATER — expect elevation prompts; locked-down PCs may block launch. Wrong-bind recovery lives on the transfer guide (official Q3 Convert; do not withdraw the temporary account). Unofficial Steam notes — not Smilegate/STOVE/Steam.",
       "img_alt": "Unofficial Steam bind and launch triage diagram",
       "bind_h2": "Account bind & wrong link",
-      "bind_lead": "Steam play still goes through a STOVE identity. Converting your existing email/SNS login to Steam Simple Login keeps legacy progress; launching first often creates an empty Steam-linked STOVE account that blocks the conversion until withdrawn.",
+      "bind_lead": "Steam play still goes through a STOVE identity. Converting your existing email/SNS login to Steam Simple Login keeps legacy progress; launching first often creates an empty Steam-linked STOVE account that blocks the conversion until you use the official Convert sequence.",
       "bind_sym_h3": "Symptoms",
       "bind_sym": [
         "Steam opens a brand-new Heir with none of your heroes or purchases.",
@@ -5787,7 +5787,7 @@ export const CONTENT = {
         "Conversion UI says a Steam link is already in use."
       ],
       "bind_fix_h3": "Recovery",
-      "bind_fix": "Use the withdraw-then-convert outline: authorize the empty Steam link on STOVE, withdraw that STOVE account, then convert the original login. Full steps and screenshots targets live on the",
+      "bind_fix": "Use the official Q3 Convert outline: log in to STOVE with the Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original login. Full steps and screenshot targets live on the",
       "launch_h2": "Client launch failures",
       "launch": [
         [
@@ -5796,7 +5796,7 @@ export const CONTENT = {
         ],
         [
           "Login loop / wrong Heir",
-          "You are likely on the empty Steam-linked STOVE identity. Stop creating characters; follow wrong-bind recovery on the transfer guide. Never use in-game delete after transfer to “clear” the empty slot."
+          "You are likely on the empty Steam-linked STOVE identity. Stop creating characters; follow the official Convert recovery on the transfer guide. Never use in-game delete after transfer to “clear” the empty slot."
         ],
         [
           "Region / language oddities",
@@ -5807,7 +5807,7 @@ export const CONTENT = {
       "faqs": [
         [
           "Why did Steam create a new account?",
-          "Launching without converting email/SNS → Steam Simple Login often creates a new Steam-linked STOVE login. Withdraw it, then convert the original — see the transfer guide."
+          "Launching without converting email/SNS → Steam Simple Login often creates a new Steam-linked STOVE login. Do not withdraw it; log in to STOVE with that Steam account, convert the temporary account to a non-Steam login, then convert the original — see the transfer guide."
         ],
         [
           "What is UNCHEATER?",
@@ -6002,7 +6002,7 @@ export const CONTENT = {
       "get_h2": "入手",
       "cta": "公式Steamストア — Epic Seven",
       "related_h2": "関連",
-      "answer": "Steam版Epic SevenはSTOVEアカウント連携が必要です。空開始ではなく進行を残すならメール/SNSをSteamログインへ変換。ストアはカーネル級アンチチートUNCHEATERを明記 — 昇格プロンプトを想定し、管理PCは起動を拒むことあり。誤連携復旧は引き継ぎガイド（新規連携を退会→本アカ変換）。Smilegate/STOVE/Steamと無関係の非公式Steamメモです。",
+      "answer": "Steam版Epic SevenはSTOVEアカウント連携が必要です。空開始ではなく進行を残すならメール/SNSをSteamログインへ変換。ストアはカーネル級アンチチートUNCHEATERを明記 — 昇格プロンプトを想定し、管理PCは起動を拒むことあり。誤連携復旧は引き継ぎガイド（公式FAQ 3番のConvert、一時アカウントは退会しない）。Smilegate/STOVE/Steamと無関係の非公式Steamメモです。",
       "img_alt": "Steam連携・起動切り分けの非公式図",
       "bind_h2": "アカウント連携と誤リンク",
       "bind_lead": "SteamプレイもSTOVE身元を経由します。既存メール/SNSをSteamシンプルログインへ変換すればレガシー進行を残せます。先に起動すると変換を阻む空のSteam連携STOVEが作られがちです。",
@@ -6013,7 +6013,7 @@ export const CONTENT = {
         "変換UIが既にSteam連携ありと表示。"
       ],
       "bind_fix_h3": "復旧",
-      "bind_fix": "退会→変換の骨子：STOVEで空のSteam連携を認可しそのSTOVEを退会、その後本ログインを変換。手順全文は",
+      "bind_fix": "公式FAQ 3番のConvert順：そのSteamでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、本ログインをSteamに変換。手順全文は",
       "launch_h2": "クライアント起動失敗",
       "launch": [
         [
@@ -6022,7 +6022,7 @@ export const CONTENT = {
         ],
         [
           "ログインループ / 別人継者",
-          "空のSteam連携STOVEの可能性大。キャラ作成を止め、引き継ぎガイドの誤連携復旧へ。変換後のゲーム内削除で空枠を「掃除」しない。"
+          "空のSteam連携STOVEの可能性大。キャラ作成を止め、引き継ぎガイドの公式FAQ 3番のConvert復旧へ。変換後のゲーム内削除で空枠を「掃除」しない。"
         ],
         [
           "リージョン / 言語の違和感",
@@ -6033,7 +6033,7 @@ export const CONTENT = {
       "faqs": [
         [
           "なぜSteamが新規を作る？",
-          "メール/SNS→Steamシンプルログイン未変換で起動すると新規Steam連携STOVEができがち。退会後に本アカ変換 — 引き継ぎガイド。"
+          "メール/SNS→Steamシンプルログイン未変換で起動すると新規Steam連携STOVEができがち。退会せず、そのSteamでSTOVEにログインして一時アカウントをSteam以外のログインに変換してから本アカをSteamへ — 引き継ぎガイド。"
         ],
         [
           "UNCHEATERとは？",
@@ -6060,7 +6060,7 @@ export const CONTENT = {
       "deep_h2": "サポート境界",
       "deep": [
         "新鯖お祝い枠（ギルド戦・バフ・メール）は[[ファウンドリ鯖ガイド|/foundry/]] — 本頁のクライアント起動トラブルとは別です。",
-        "本メモはSteamファイル検証、GPUドライバ更新、STOVE CSの代わりになりません。管理端末でカーネルアンチチートが拒まれるのはバグよりITポリシーであることが多いです。Epic Sevenは公式ストアapp 5019180のみを使い、サイドロード「修正」ビルドは無視。誤連携は引き継ぎガイドの退会→変換、デモ削除はデモ注意頁に従ってください。言語・地域の違和感も制裁決めつけの前にクライアントとSTOVE設定を再確認。本サイトは非公式でアカウント復旧は行いません。",
+        "本メモはSteamファイル検証、GPUドライバ更新、STOVE CSの代わりになりません。管理端末でカーネルアンチチートが拒まれるのはバグよりITポリシーであることが多いです。Epic Sevenは公式ストアapp 5019180のみを使い、サイドロード「修正」ビルドは無視。誤連携は引き継ぎガイドの公式FAQ 3番のConvert、デモ削除はデモ注意頁に従ってください。言語・地域の違和感も制裁決めつけの前にクライアントとSTOVE設定を再確認。本サイトは非公式でアカウント復旧は行いません。",
         "起動失敗チェックを短く繰り返す：公式アプリ確認→ファイル検証→OS/GPU更新→隔離確認→UNCHEATER昇格可否→だめなら公式CS。会社PCなら先にSTOVE PC/モバイル回避を試す方が安全です。",
         "UNCHEATER導入プロンプトが繰り返すなら強制終了せず、再起動後にSteamを管理者で一度起動し、ワクチン例外が要るかはITポリシー内でのみ検討。クラックや回避パッチの検索結果は無視するのが安全です。ログインループが続くならキャラを増やさず、引き継ぎガイドの誤連携ツリーへ。言語パックエラーはSteamライブラリのプロパティで言語を選び直す。失敗ログは公式CSへ渡せるようテキスト保存します。"
       ],
@@ -6342,10 +6342,10 @@ export const CONTENT = {
       "get_h2": "Consigue el juego",
       "cta": "Tienda oficial de Steam — Epic Seven",
       "related_h2": "Relacionado",
-      "answer": "Epic Seven en Steam necesita vincular una cuenta de STOVE; convierte el inicio de sesión por correo/SNS a Steam para conservar el progreso en lugar de empezar vacío. La tienda de Steam indica el anti-cheat de kernel UNCHEATER: espera avisos de elevación; los PC restringidos pueden bloquear el lanzamiento. La recuperación de una vinculación incorrecta está en la guía de transferencia (retira el vínculo nuevo y luego convierte el original). Notas de Steam no oficiales: no somos Smilegate, STOVE ni Steam.",
+      "answer": "Epic Seven en Steam necesita vincular una cuenta de STOVE; convierte el inicio de sesión por correo/SNS a Steam para conservar el progreso en lugar de empezar vacío. La tienda de Steam indica el anti-cheat de kernel UNCHEATER: espera avisos de elevación; los PC restringidos pueden bloquear el lanzamiento. La recuperación de una vinculación incorrecta está en la guía de transferencia (Convert oficial; no retires la cuenta temporal). Notas de Steam no oficiales: no somos Smilegate, STOVE ni Steam.",
       "img_alt": "Diagrama no oficial de diagnóstico de vinculación y lanzamiento en Steam",
       "bind_h2": "Vinculación de cuenta y vínculo incorrecto",
-      "bind_lead": "Jugar en Steam sigue pasando por una identidad de STOVE. Convertir tu inicio de sesión actual por correo/SNS a Steam Simple Login conserva el progreso anterior; lanzar el juego primero a menudo crea una cuenta de STOVE vinculada a Steam y vacía que bloquea la conversión hasta que la retiras.",
+      "bind_lead": "Jugar en Steam sigue pasando por una identidad de STOVE. Convertir tu inicio de sesión actual por correo/SNS a Steam Simple Login conserva el progreso anterior; lanzar el juego primero a menudo crea una cuenta de STOVE vinculada a Steam y vacía que bloquea la conversión hasta que usas la secuencia Convert oficial.",
       "bind_sym_h3": "Síntomas",
       "bind_sym": [
         "Steam abre un Heredero totalmente nuevo sin ninguno de tus héroes ni compras.",
@@ -6353,7 +6353,7 @@ export const CONTENT = {
         "La interfaz de conversión dice que ya se está usando un vínculo de Steam."
       ],
       "bind_fix_h3": "Recuperación",
-      "bind_fix": "Sigue el esquema de retirar y luego convertir: autoriza el vínculo vacío de Steam en STOVE, retira esa cuenta de STOVE y luego convierte el inicio de sesión original. Los pasos completos y los destinos de las capturas están en la",
+      "bind_fix": "Usa la secuencia Convert oficial de la pregunta 3: inicia sesión en STOVE con la cuenta de Steam, abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte el inicio de sesión original. Los pasos completos y los destinos de las capturas están en la",
       "launch_h2": "Fallos de lanzamiento del cliente",
       "launch": [
         [
@@ -6373,7 +6373,7 @@ export const CONTENT = {
       "faqs": [
         [
           "¿Por qué creó Steam una cuenta nueva?",
-          "Lanzar el juego sin convertir el correo/SNS → Steam Simple Login a menudo crea un inicio de sesión de STOVE vinculado a Steam. Retíralo y luego convierte el original; consulta la guía de transferencia."
+          "Lanzar el juego sin convertir el correo/SNS → Steam Simple Login a menudo crea un inicio de sesión de STOVE vinculado a Steam. No lo retires; inicia sesión en STOVE con esa cuenta de Steam, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte la original; consulta la guía de transferencia."
         ],
         [
           "¿Qué es UNCHEATER?",
@@ -6454,10 +6454,10 @@ export const CONTENT = {
       "get_h2": "Baixe o jogo",
       "cta": "Loja oficial do Steam — Epic Seven",
       "related_h2": "Relacionado",
-      "answer": "Epic Seven no Steam precisa de um vínculo com conta STOVE; converta e-mail/SNS para login Steam para manter o progresso em vez de começar vazio. A loja do Steam lista o anti-cheat em nível de kernel UNCHEATER — espere prompts de elevação; PCs com restrições podem bloquear o lançamento. A recuperação de vínculo errado está no guia de transferência (retire o novo vínculo e depois converta o original). Notas não oficiais do Steam — não é Smilegate/STOVE/Steam.",
+      "answer": "Epic Seven no Steam precisa de um vínculo com conta STOVE; converta e-mail/SNS para login Steam para manter o progresso em vez de começar vazio. A loja do Steam lista o anti-cheat em nível de kernel UNCHEATER — espere prompts de elevação; PCs com restrições podem bloquear o lançamento. A recuperação de vínculo errado está no guia de transferência (Convert oficial; não retire a conta temporária). Notas não oficiais do Steam — não é Smilegate/STOVE/Steam.",
       "img_alt": "Diagrama não oficial de triagem de vínculo e lançamento do Steam",
       "bind_h2": "Vínculo de conta e link errado",
-      "bind_lead": "Jogar pelo Steam ainda passa por uma identidade STOVE. Converter seu login de e-mail/SNS existente para Steam Simple Login mantém o progresso antigo; iniciar primeiro costuma criar uma conta STOVE vinculada ao Steam vazia que bloqueia a conversão até ser retirada.",
+      "bind_lead": "Jogar pelo Steam ainda passa por uma identidade STOVE. Converter seu login de e-mail/SNS existente para Steam Simple Login mantém o progresso antigo; iniciar primeiro costuma criar uma conta STOVE vinculada ao Steam vazia que bloqueia a conversão até você usar a sequência Convert oficial.",
       "bind_sym_h3": "Sintomas",
       "bind_sym": [
         "O Steam abre um Herdeiro totalmente novo, sem nenhum dos seus heróis ou compras.",
@@ -6465,7 +6465,7 @@ export const CONTENT = {
         "A interface de conversão diz que um vínculo com o Steam já está em uso."
       ],
       "bind_fix_h3": "Recuperação",
-      "bind_fix": "Use o roteiro de retirar e depois converter: autorize o link vazio do Steam no STOVE, retire essa conta STOVE e então converta o login original. Os passos completos e os alvos das capturas de tela estão no",
+      "bind_fix": "Use a sequência Convert oficial da pergunta 3: faça login no STOVE com a conta Steam, abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta o login original. Os passos completos e os alvos das capturas de tela estão no",
       "launch_h2": "Falhas de lançamento do cliente",
       "launch": [
         [
@@ -6485,7 +6485,7 @@ export const CONTENT = {
       "faqs": [
         [
           "Por que o Steam criou uma nova conta?",
-          "Iniciar sem converter e-mail/SNS → Steam Simple Login costuma criar um novo login STOVE vinculado ao Steam. Retire-o e depois converta o original — veja o guia de transferência."
+          "Iniciar sem converter e-mail/SNS → Steam Simple Login costuma criar um novo login STOVE vinculado ao Steam. Não o retire; faça login no STOVE com essa conta Steam, converta a conta temporária para um login que não seja Steam e depois converta a original — veja o guia de transferência."
         ],
         [
           "O que é o UNCHEATER?",
@@ -6566,10 +6566,10 @@ export const CONTENT = {
       "get_h2": "Spiel holen",
       "cta": "Offizieller Steam-Store — Epic Seven",
       "related_h2": "Verwandte Themen",
-      "answer": "Epic Seven auf Steam braucht eine STOVE-Account-Verknüpfung; stelle E-Mail/SNS auf Steam Simple Login um, um deinen Fortschritt zu behalten, statt leer zu starten. Der Steam-Store listet das Kernel-Level-Anti-Cheat UNCHEATER — rechne mit Administratorabfragen; gesperrte PCs können den Start blockieren. Hilfe bei falscher Verknüpfung steht in der Transfer-Anleitung (neuen Link zurückziehen, dann den ursprünglichen umstellen). Inoffizielle Steam-Hinweise — nicht von Smilegate/STOVE/Steam.",
+      "answer": "Epic Seven auf Steam braucht eine STOVE-Account-Verknüpfung; stelle E-Mail/SNS auf Steam Simple Login um, um deinen Fortschritt zu behalten, statt leer zu starten. Der Steam-Store listet das Kernel-Level-Anti-Cheat UNCHEATER — rechne mit Administratorabfragen; gesperrte PCs können den Start blockieren. Hilfe bei falscher Verknüpfung steht in der Transfer-Anleitung (offizieller Convert; ziehe das temporäre Konto nicht zurück). Inoffizielle Steam-Hinweise — nicht von Smilegate/STOVE/Steam.",
       "img_alt": "Inoffizielles Diagramm zur Steam-Verknüpfung und Startdiagnose",
       "bind_h2": "Account-Verknüpfung & falscher Link",
-      "bind_lead": "Das Spielen über Steam läuft weiterhin über eine STOVE-Identität. Wenn du deinen bestehenden E-Mail/SNS-Login auf Steam Simple Login umstellst, bleibt dein bisheriger Fortschritt erhalten; wer zuerst startet, erzeugt oft einen leeren Steam-verknüpften STOVE-Account, der die Umstellung blockiert, bis er zurückgezogen wird.",
+      "bind_lead": "Das Spielen über Steam läuft weiterhin über eine STOVE-Identität. Wenn du deinen bestehenden E-Mail/SNS-Login auf Steam Simple Login umstellst, bleibt dein bisheriger Fortschritt erhalten; wer zuerst startet, erzeugt oft einen leeren Steam-verknüpften STOVE-Account, der die Umstellung blockiert, bis du die offizielle Convert-Sequenz nutzt.",
       "bind_sym_h3": "Symptome",
       "bind_sym": [
         "Steam öffnet einen brandneuen Erben ohne deine Helden oder Käufe.",
@@ -6577,7 +6577,7 @@ export const CONTENT = {
         "Die Umstellungs-Oberfläche meldet, dass ein Steam-Link bereits verwendet wird."
       ],
       "bind_fix_h3": "Wiederherstellung",
-      "bind_fix": "Nutze das Vorgehen „zurückziehen, dann umstellen“: Autorisiere den leeren Steam-Link auf STOVE, ziehe diesen STOVE-Account zurück und stelle dann den ursprünglichen Login um. Die vollständigen Schritte und Screenshot-Ziele stehen in der",
+      "bind_fix": "Nutze die offizielle Convert-Sequenz aus Frage 3: Melde dich mit dem Steam-Konto bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann den ursprünglichen Login um. Die vollständigen Schritte und Screenshot-Ziele stehen in der",
       "launch_h2": "Startprobleme des Clients",
       "launch": [
         [
@@ -6597,7 +6597,7 @@ export const CONTENT = {
       "faqs": [
         [
           "Warum hat Steam einen neuen Account erstellt?",
-          "Wer ohne Umstellung von E-Mail/SNS → Steam Simple Login startet, erzeugt oft einen neuen Steam-verknüpften STOVE-Login. Zieh ihn zurück und stelle dann den ursprünglichen um — siehe Transfer-Anleitung."
+          "Wer ohne Umstellung von E-Mail/SNS → Steam Simple Login startet, erzeugt oft einen neuen Steam-verknüpften STOVE-Login. Zieh ihn nicht zurück; melde dich mit diesem Steam-Konto bei STOVE an, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann den ursprünglichen um — siehe Transfer-Anleitung."
         ],
         [
           "Was ist UNCHEATER?",
@@ -6678,10 +6678,10 @@ export const CONTENT = {
       "get_h2": "Obtenir le jeu",
       "cta": "Boutique Steam officielle — Epic Seven",
       "related_h2": "En lien",
-      "answer": "Epic Seven sur Steam nécessite une liaison à un compte STOVE ; convertissez l'identifiant e-mail/SNS en identifiant Steam pour conserver la progression au lieu de repartir de zéro. La boutique Steam indique l'anti-triche au niveau noyau UNCHEATER — attendez-vous à des invites d'élévation ; les PC verrouillés peuvent bloquer le lancement. La récupération d'une mauvaise liaison se trouve dans le guide de transfert (retirer la nouvelle liaison, puis convertir l'original). Notes Steam non officielles — pas Smilegate/STOVE/Steam.",
+      "answer": "Epic Seven sur Steam nécessite une liaison à un compte STOVE ; convertissez l'identifiant e-mail/SNS en identifiant Steam pour conserver la progression au lieu de repartir de zéro. La boutique Steam indique l'anti-triche au niveau noyau UNCHEATER — attendez-vous à des invites d'élévation ; les PC verrouillés peuvent bloquer le lancement. La récupération d'une mauvaise liaison se trouve dans le guide de transfert (Convert officiel ; ne retirez pas le compte temporaire). Notes Steam non officielles — pas Smilegate/STOVE/Steam.",
       "img_alt": "Schéma non officiel de liaison Steam et de diagnostic au lancement",
       "bind_h2": "Liaison de compte et mauvaise liaison",
-      "bind_lead": "Le jeu sur Steam passe toujours par une identité STOVE. Convertir votre identifiant e-mail/SNS existant en Steam Simple Login conserve la progression existante ; lancer le jeu d'abord crée souvent un compte STOVE lié à Steam vide qui bloque la conversion tant qu'il n'est pas retiré.",
+      "bind_lead": "Le jeu sur Steam passe toujours par une identité STOVE. Convertir votre identifiant e-mail/SNS existant en Steam Simple Login conserve la progression existante ; lancer le jeu d'abord crée souvent un compte STOVE lié à Steam vide qui bloque la conversion tant que vous n'utilisez pas la séquence Convert officielle.",
       "bind_sym_h3": "Symptômes",
       "bind_sym": [
         "Steam ouvre un Héritier tout neuf sans aucun de vos héros ni achats.",
@@ -6689,7 +6689,7 @@ export const CONTENT = {
         "L'interface de conversion indique qu'une liaison Steam est déjà utilisée."
       ],
       "bind_fix_h3": "Récupération",
-      "bind_fix": "Suivez la procédure « retirer puis convertir » : autorisez la liaison Steam vide sur STOVE, retirez ce compte STOVE, puis convertissez l'identifiant d'origine. Les étapes complètes et les captures se trouvent dans le",
+      "bind_fix": "Suivez la séquence Convert officielle de la question 3 : connectez-vous à STOVE avec le compte Steam, ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez l'identifiant d'origine. Les étapes complètes et les captures se trouvent dans le",
       "launch_h2": "Échecs de lancement du client",
       "launch": [
         [
@@ -6709,7 +6709,7 @@ export const CONTENT = {
       "faqs": [
         [
           "Pourquoi Steam a-t-il créé un nouveau compte ?",
-          "Lancer le jeu sans convertir l'identifiant e-mail/SNS → Steam Simple Login crée souvent un nouvel identifiant STOVE lié à Steam. Retirez-le, puis convertissez l'original — voir le guide de transfert."
+          "Lancer le jeu sans convertir l'identifiant e-mail/SNS → Steam Simple Login crée souvent un nouvel identifiant STOVE lié à Steam. Ne le retirez pas ; connectez-vous à STOVE avec ce compte Steam, convertissez le compte temporaire en connexion non Steam, puis convertissez l'original — voir le guide de transfert."
         ],
         [
           "Qu'est-ce qu'UNCHEATER ?",
@@ -6790,10 +6790,10 @@ export const CONTENT = {
       "get_h2": "Pobierz grę",
       "cta": "Oficjalny sklep Steam — Epic Seven",
       "related_h2": "Powiązane",
-      "answer": "Epic Seven na Steam wymaga powiązania konta STOVE; przekonwertuj logowanie e-mail/SNS na Steam, aby zachować postęp, zamiast zaczynać od pustego konta. Sklep Steam wymienia anty-cheat jądra UNCHEATER — spodziewaj się monitów podniesienia uprawnień; zablokowane komputery mogą nie uruchomić gry. Odzyskiwanie po błędnym powiązaniu jest w poradniku transferu (wycofaj nowe powiązanie, potem przekonwertuj pierwotne). Nieoficjalne notatki o Steam — nie Smilegate/STOVE/Steam.",
+      "answer": "Epic Seven na Steam wymaga powiązania konta STOVE; przekonwertuj logowanie e-mail/SNS na Steam, aby zachować postęp, zamiast zaczynać od pustego konta. Sklep Steam wymienia anty-cheat jądra UNCHEATER — spodziewaj się monitów podniesienia uprawnień; zablokowane komputery mogą nie uruchomić gry. Odzyskiwanie po błędnym powiązaniu jest w poradniku transferu (oficjalny Convert; nie wycofuj konta tymczasowego). Nieoficjalne notatki o Steam — nie Smilegate/STOVE/Steam.",
       "img_alt": "Nieoficjalny schemat powiązania Steam i diagnostyki uruchamiania",
       "bind_h2": "Powiązanie konta i błędne łącze",
-      "bind_lead": "Gra na Steam nadal przechodzi przez tożsamość STOVE. Konwersja istniejącego logowania e-mail/SNS na Steam Simple Login zachowuje stary postęp; uruchomienie najpierw często tworzy puste konto STOVE powiązane ze Steam, które blokuje konwersję, dopóki go nie wycofasz.",
+      "bind_lead": "Gra na Steam nadal przechodzi przez tożsamość STOVE. Konwersja istniejącego logowania e-mail/SNS na Steam Simple Login zachowuje stary postęp; uruchomienie najpierw często tworzy puste konto STOVE powiązane ze Steam, które blokuje konwersję, dopóki nie użyjesz oficjalnej sekwencji Convert.",
       "bind_sym_h3": "Objawy",
       "bind_sym": [
         "Steam otwiera zupełnie nowego Dziedzica bez twoich bohaterów i zakupów.",
@@ -6801,7 +6801,7 @@ export const CONTENT = {
         "Interfejs konwersji mówi, że powiązanie Steam jest już używane."
       ],
       "bind_fix_h3": "Odzyskiwanie",
-      "bind_fix": "Użyj schematu „wycofaj, potem przekonwertuj”: autoryzuj puste powiązanie Steam w STOVE, wycofaj to konto STOVE, a potem przekonwertuj pierwotne logowanie. Pełne kroki i cele zrzutów ekranu są w",
+      "bind_fix": "Użyj oficjalnej sekwencji Convert z pytania 3: zaloguj się do STOVE kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a potem przekonwertuj pierwotne logowanie. Pełne kroki i cele zrzutów ekranu są w",
       "launch_h2": "Błędy uruchamiania klienta",
       "launch": [
         [
@@ -6821,7 +6821,7 @@ export const CONTENT = {
       "faqs": [
         [
           "Dlaczego Steam utworzył nowe konto?",
-          "Uruchomienie bez konwersji e-mail/SNS → Steam Simple Login często tworzy nowe logowanie STOVE powiązane ze Steam. Wycofaj je, a potem przekonwertuj pierwotne — zobacz poradnik transferu."
+          "Uruchomienie bez konwersji e-mail/SNS → Steam Simple Login często tworzy nowe logowanie STOVE powiązane ze Steam. Nie wycofuj go; zaloguj się do STOVE tym kontem Steam, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a potem przekonwertuj pierwotne — zobacz poradnik transferu."
         ],
         [
           "Czym jest UNCHEATER?",

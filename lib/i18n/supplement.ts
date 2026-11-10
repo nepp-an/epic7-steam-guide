@@ -22,11 +22,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE says “already been registered” — what does that mean?",
-      "That message usually means the Steam ID is already tied to another STOVE login, often the empty account Steam created on first launch. Authorize that Steam ID on STOVE, withdraw the extra STOVE account, then convert the original email/SNS login. Do not create more Steam accounts. Check the exact wording on the [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "That message usually means the Steam ID is already tied to another STOVE login, often the empty account Steam created on first launch. Do not delete it: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Do not create more Steam accounts. The official Q3 answer states no uniform waiting period. Check the exact wording on the [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "Why is the Transfer button greyed out for three months?",
-      "STOVE can place a holding or cooldown period on transfer after a wrong-bind cleanup or withdrawal; players commonly report three months. The exact start date and scope are shown in your STOVE account UI, not on this site. Wait it out or ask STOVE customer support — never use a third-party unlock service."
+      "Why is the Transfer button greyed out?",
+      "The official Q3 answer does not state a uniform three-month cooldown. If the Transfer button is greyed out, read the current condition and date in your STOVE account UI and follow the on-screen wording or STOVE customer support. Do not use withdrawal as a recovery step, and never use a third-party unlock service."
     ]
   ],
   "ko": [
@@ -43,7 +43,7 @@ export const FAQ_EXTRA: Record<
       "보통 해당 Steam ID가 다른 STOVE 로그인(첫 실행 때 Steam이 만든 임시 계정인 경우가 많음)에 이미 묶여 있다는 뜻입니다. 계정을 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인 방식으로 임시 계정을 변환한 뒤, 원래 이메일/SNS 로그인을 Steam 로그인으로 변환하세요. Steam 계정을 더 만들지 마세요. 정확한 문구는 [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]에서 확인하세요."
     ],
     [
-      "이전 버튼이 3개월 동안 비활성화되는 이유는?",
+      "이전 버튼이 비활성화되는 이유는?",
       "공식 FAQ 3번에는 탈퇴나 일괄 3개월 대기가 나오지 않습니다. 버튼이 비활성화되면 STOVE 계정 UI에 표시된 조건과 날짜를 읽고, 현재 화면 문구와 고객센터 안내를 따르세요. 계정 삭제를 복구 절차로 쓰지 말고 제3자 해제 서비스도 이용하지 마세요."
     ]
   ],
@@ -58,11 +58,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVEで「already been registered」と出たら？",
-      "通常、そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った空アカウントが多い）に既に紐づいているという意味です。STOVEでそのSteam IDを認可し、余分なSTOVEアカウントを退会してから、元のメール/SNSログインを変換してください。Steamアカウントを増やさないでください。正確な文面は[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]で確認してください。"
+      "通常、そのSteam IDが別のSTOVEログイン（初回起動時にSteamが作った空アカウントが多い）に既に紐づいているという意味です。削除しないでください。そのSteamアカウントでSTOVEにログインし、[マイプロフィールアイコン > アカウント情報] の Convert で一時アカウントをSteam以外のログインに変換してから、元のメール/SNSログインを変換してください。Steamアカウントを増やさないでください。公式FAQ 3番に一律の待機期間はありません。正確な文面は[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]で確認してください。"
     ],
     [
-      "引き継ぎボタンが3か月間グレーになるのはなぜ？",
-      "誤連携の整理や退会のあと、STOVEが引き継ぎに保留・クールダウン期間を設けることがあり、一般に3か月と報告されています。正確な開始日と範囲は当サイトではなくSTOVEアカウント画面に表示されます。待つかSTOVE公式サポートへ問い合わせ、第三者の解除サービスは使わないでください。"
+      "引き継ぎボタンがグレーになるのはなぜ？",
+      "公式FAQ 3番に一律3か月のクールダウンはありません。引き継ぎボタンがグレーの場合は、STOVEアカウント画面に表示される現在の条件と日付を読み、画面表記またはSTOVE公式サポートの案内に従ってください。退会を復旧手順にせず、第三者の解除サービスも使わないでください。"
     ]
   ],
   "zh-tw": [
@@ -79,7 +79,7 @@ export const FAQ_EXTRA: Record<
       "通常表示該 Steam ID 已綁定另一個 STOVE 登入（常見是首次啟動時 Steam 自動建立的臨時帳號）。請不要註銷帳號；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本的 Email／SNS 登入轉成 Steam 登入。不要一直新開 Steam 帳號。實際文案請見[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。"
     ],
     [
-      "為什麼轉移按鈕會灰掉三個月？",
+      "為什麼轉移按鈕會灰掉？",
       "官方 FAQ 第 3 問並沒有要求註銷，也沒有統一的三個月等待期。若按鈕反灰，請讀 STOVE 帳號介面顯示的條件與日期，並依目前畫面文字與客服說明處理。不要把註銷當成復原步驟，也不要使用第三方解鎖服務。"
     ]
   ],
@@ -97,7 +97,7 @@ export const FAQ_EXTRA: Record<
       "ข้อความนี้มักหมายถึง Steam ID ถูกผูกกับล็อกอิน STOVE อื่นอยู่แล้ว ซึ่งมักเป็นบัญชีชั่วคราวที่ Steam สร้างตอนเปิดครั้งแรก อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นวิธีล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงล็อกอินอีเมล/SNS เดิมเป็นล็อกอิน Steam อย่าสร้างบัญชี Steam เพิ่ม ตรวจถ้อยคำที่แน่นอนได้ที่ [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]"
     ],
     [
-      "ทำไมปุ่ม Transfer ถึงเป็นสีเทาไปสามเดือน",
+      "ทำไมปุ่ม Transfer ถึงเป็นสีเทา",
       "FAQ ทางการข้อ 3 ไม่ได้กำหนดให้ถอนบัญชีหรือรอสามเดือนแบบเหมารวม หากปุ่มเป็นสีเทา ให้อ่านเงื่อนไขและวันที่ที่แสดงใน UI บัญชี STOVE และยึดข้อความหน้าจอกับคำแนะนำของฝ่ายบริการลูกค้าปัจจุบัน อย่าใช้การถอนบัญชีเป็นขั้นตอนกู้คืน และอย่าใช้บริการปลดล็อกจากบุคคลที่สาม"
     ]
   ],
@@ -112,11 +112,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE dice «ya está registrado» — ¿qué significa?",
-      "Ese mensaje suele significar que el ID de Steam ya está vinculado a otro inicio de sesión de STOVE, a menudo la cuenta vacía que Steam creó en el primer arranque. Autoriza ese ID de Steam en STOVE, retira la cuenta de STOVE adicional y luego convierte el inicio de sesión original por correo/SNS. No crees más cuentas de Steam. Revisa el texto exacto en las [[preguntas frecuentes de STOVE Steam|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "Ese mensaje suele significar que el ID de Steam ya está vinculado a otro inicio de sesión de STOVE, a menudo la cuenta vacía que Steam creó en el primer arranque. No la borres: inicia sesión en STOVE con esa cuenta de Steam, abre [Mi icono de perfil > Información de la cuenta] → Convert, convierte la cuenta temporal a un inicio que no sea Steam y luego convierte el inicio de sesión original por correo/SNS. No crees más cuentas de Steam. La respuesta oficial de la pregunta 3 no indica un periodo de espera uniforme. Revisa el texto exacto en las [[preguntas frecuentes de STOVE Steam|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "¿Por qué el botón Transferir aparece en gris durante tres meses?",
-      "STOVE puede aplicar un periodo de retención o enfriamiento a la transferencia después de limpiar un vínculo incorrecto o retirar una cuenta; los jugadores suelen reportar tres meses. La fecha de inicio y el alcance exactos se muestran en la interfaz de tu cuenta de STOVE, no en este sitio. Espera o pregunta al soporte de STOVE; nunca uses un servicio de desbloqueo de terceros."
+      "¿Por qué el botón Transferir aparece en gris?",
+      "La respuesta oficial de la pregunta 3 no indica un bloqueo uniforme de tres meses. Si el botón Transferir aparece en gris, lee la condición y la fecha actuales en la interfaz de tu cuenta de STOVE y sigue el texto en pantalla o al soporte de STOVE. No uses la retirada como paso de recuperación ni un servicio de desbloqueo de terceros."
     ]
   ],
   "pt": [
@@ -130,11 +130,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "O STOVE diz “já registrado” — o que isso significa?",
-      "Essa mensagem geralmente significa que o ID Steam já está vinculado a outro login STOVE, muitas vezes a conta vazia que a Steam criou no primeiro lançamento. Autorize esse ID Steam no STOVE, retire a conta STOVE extra e então converta o login original por e-mail/SNS. Não crie mais contas Steam. Confira o texto exato no [[FAQ do STOVE Steam|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "Essa mensagem geralmente significa que o ID Steam já está vinculado a outro login STOVE, muitas vezes a conta vazia que a Steam criou no primeiro lançamento. Não a apague: faça login no STOVE com essa conta Steam, abra [Meu ícone de perfil > Informações da conta] → Convert, converta a conta temporária para um login que não seja Steam e depois converta o login original de e-mail/SNS. Não crie mais contas Steam. A resposta oficial da pergunta 3 não indica um período de espera uniforme. Confira o texto exato no [[FAQ do STOVE Steam|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "Por que o botão Transferir fica cinza por três meses?",
-      "O STOVE pode aplicar um período de retenção ou cooldown à transferência após uma limpeza de vínculo incorreto ou uma retirada de conta; jogadores costumam relatar três meses. A data de início e o escopo exatos aparecem na interface da sua conta STOVE, não neste site. Espere o prazo ou peça ajuda ao suporte do STOVE — nunca use um serviço de desbloqueio de terceiros."
+      "Por que o botão Transferir fica cinza?",
+      "A resposta oficial da pergunta 3 não indica um cooldown uniforme de três meses. Se o botão Transferir estiver esmaecido, leia a condição e a data atuais na interface da sua conta STOVE e siga o texto na tela ou o suporte do STOVE. Não use a retirada como etapa de recuperação nem um serviço de desbloqueio de terceiros."
     ]
   ],
   "de": [
@@ -148,11 +148,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE meldet „bereits registriert“ – was bedeutet das?",
-      "Diese Meldung bedeutet meist, dass die Steam-ID bereits mit einem anderen STOVE-Login verknüpft ist, oft mit dem leeren Konto, das Steam beim ersten Start angelegt hat. Autorisiere diese Steam-ID auf STOVE, ziehe das zusätzliche STOVE-Konto zurück und stelle dann den ursprünglichen E-Mail-/SNS-Login um. Lege keine weiteren Steam-Konten an. Prüfe den genauen Wortlaut in der [[STOVE-Steam-FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "Diese Meldung bedeutet meist, dass die Steam-ID bereits mit einem anderen STOVE-Login verknüpft ist, oft mit dem leeren Konto, das Steam beim ersten Start angelegt hat. Lösche es nicht: Melde dich mit diesem Steam-Konto bei STOVE an, öffne [Mein Profilsymbol > Kontoinformationen] → Convert, stelle das temporäre Konto auf einen Nicht-Steam-Login um und stelle dann den ursprünglichen E-Mail-/SNS-Login um. Lege keine weiteren Steam-Konten an. Die offizielle Antwort auf Frage 3 nennt keine einheitliche Wartezeit. Prüfe den genauen Wortlaut in der [[STOVE-Steam-FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "Warum ist der Transfer-Button drei Monate lang ausgegraut?",
-      "STOVE kann nach einer Bereinigung einer falschen Verknüpfung oder einer Kontozurückziehung eine Halte- oder Abklingzeit auf den Transfer legen; Spieler berichten häufig von drei Monaten. Das genaue Startdatum und der Umfang werden in deiner STOVE-Konto-Oberfläche angezeigt, nicht auf dieser Seite. Warte sie ab oder frage den STOVE-Kundensupport – nutze niemals einen Drittanbieter-Entsperrservice."
+      "Warum ist der Transfer-Button ausgegraut?",
+      "Die offizielle Antwort auf Frage 3 nennt keine einheitliche 3-Monats-Sperre. Wenn der Transfer-Button ausgegraut ist, lies die aktuelle Bedingung und das Datum in deiner STOVE-Konto-Oberfläche und folge dem Bildschirmtext oder dem STOVE-Support. Nutze keinen Rückzug als Wiederherstellungsschritt und keinen Drittanbieter-Entsperrservice."
     ]
   ],
   "fr": [
@@ -166,11 +166,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE affiche « déjà enregistré » — qu’est-ce que cela signifie ?",
-      "Ce message signifie généralement que l’ID Steam est déjà associé à une autre connexion STOVE, souvent le compte vide créé par Steam au premier lancement. Autorisez cet ID Steam sur STOVE, retirez le compte STOVE supplémentaire, puis convertissez la connexion e-mail/SNS d’origine. Ne créez pas d’autres comptes Steam. Vérifiez la formulation exacte dans la [[FAQ Steam de STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "Ce message signifie généralement que l’ID Steam est déjà associé à une autre connexion STOVE, souvent le compte vide créé par Steam au premier lancement. Ne le supprimez pas : connectez-vous à STOVE avec ce compte Steam, ouvrez [Mon icône de profil > Informations du compte] → Convert, convertissez le compte temporaire en connexion non Steam, puis convertissez la connexion e-mail/SNS d’origine. Ne créez pas d’autres comptes Steam. La réponse officielle à la question 3 n’indique pas de délai d’attente uniforme. Vérifiez la formulation exacte dans la [[FAQ Steam de STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "Pourquoi le bouton Transfert est-il grisé pendant trois mois ?",
-      "STOVE peut imposer une période d’attente ou de refroidissement du transfert après le nettoyage d’une mauvaise liaison ou un retrait de compte ; les joueurs signalent souvent trois mois. La date de début et la portée exactes sont indiquées dans l’interface de votre compte STOVE, pas sur ce site. Attendez la fin de la période ou contactez le support client STOVE — n’utilisez jamais un service de déblocage tiers."
+      "Pourquoi le bouton Transfert est-il grisé ?",
+      "La réponse officielle à la question 3 n’indique pas de délai uniforme de trois mois. Si le bouton Transfert est grisé, lisez la condition et la date actuelles dans l’interface de votre compte STOVE et suivez le texte affiché ou le support STOVE. N’utilisez pas le retrait comme étape de récupération ni un service de déblocage tiers."
     ]
   ],
   "pl": [
@@ -184,11 +184,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE pokazuje „already been registered” — co to oznacza?",
-      "Ten komunikat zwykle oznacza, że identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z pustym kontem utworzonym przez Steam przy pierwszym uruchomieniu. Autoryzuj ten identyfikator Steam w STOVE, wycofaj dodatkowe konto STOVE, a następnie przekonwertuj pierwotne logowanie e-mail/SNS. Nie twórz kolejnych kont Steam. Dokładne brzmienie sprawdź w [[FAQ Steam na STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "Ten komunikat zwykle oznacza, że identyfikator Steam jest już powiązany z innym logowaniem STOVE — często z pustym kontem utworzonym przez Steam przy pierwszym uruchomieniu. Nie usuwaj go: zaloguj się do STOVE tym kontem Steam, otwórz [Ikona profilu > Informacje o koncie] → Convert, przekonwertuj konto tymczasowe na logowanie inne niż Steam, a następnie przekonwertuj pierwotne logowanie e-mail/SNS. Nie twórz kolejnych kont Steam. Oficjalna odpowiedź na pytanie 3 nie podaje jednolitego okresu oczekiwania. Dokładne brzmienie sprawdź w [[FAQ Steam na STOVE|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
-      "Dlaczego przycisk Transfer jest wyszarzony przez trzy miesiące?",
-      "Po naprawie błędnego powiązania lub wycofaniu konta STOVE może nałożyć okres wstrzymania lub cooldownu na transfer; gracze często zgłaszają trzy miesiące. Dokładna data rozpoczęcia i zakres są widoczne w interfejsie konta STOVE, nie na tej stronie. Poczekaj lub zapytaj obsługę klienta STOVE — nigdy nie korzystaj z usług odblokowywania od firm trzecich."
+      "Dlaczego przycisk Transfer jest wyszarzony?",
+      "Oficjalna odpowiedź na pytanie 3 nie podaje jednolitego trzymiesięcznego cooldownu. Jeśli przycisk Transfer jest wyszarzony, przeczytaj bieżący warunek i datę w interfejsie konta STOVE i postępuj według tekstu na ekranie lub wsparcia STOVE. Nie używaj wycofania jako kroku odzyskiwania ani usługi odblokowania firm trzecich."
     ]
   ]
 };
