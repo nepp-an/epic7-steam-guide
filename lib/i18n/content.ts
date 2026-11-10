@@ -14641,7 +14641,7 @@ export const CONTENT = {
       "img_alt3": "Self-drawn quest priority strip: timed currency, dailies, hunt, weekly",
       "case_files_h2": "Epic Seven Case Files — what they are",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files inside Secret Rabbit♥Hole) are a launch-window grid-deduction mini-game, not a combat quest check. You spend daily magnifying glasses to mark clues and narrow the culprit — wrong guesses waste the limited glasses.",
+        "Case Files (Trusty Sidekick Alencia’s Case Files inside Secret Rabbit♥Hole) are a launch-window grid-deduction mini-game, not a combat quest check. You spend daily magnifying glasses to mark clues and narrow the culprit — each new question consumes one magnifying glass; re-checking a question you have already viewed does not.",
         "They sit beside normal Foundry dailies/weeklies and the Lucky Board: clear timed Case Files progress while the lobby icon is live, then return to hunt/story stamina. Spoilers for culprit answers are not published here — cite STOVE event notices.",
         "Treat Case Files as an event activity attached to the quest/event hub, not a permanent Episode mission. When the side story ends, the lobby entry disappears with unused glasses."
       ],
@@ -14727,7 +14727,7 @@ export const CONTENT = {
       "img_alt3": "기간 통화·일일·사냥·주간 우선순위 자작 스트립",
       "case_files_h2": "Epic Seven Case Files — 무엇인가요",
       "case_files": [
-        "Case Files(Secret Rabbit♥Hole의 Trusty Sidekick Alencia’s Case Files)는 전투 퀘스트가 아니라 출시 기간 격자 추론 미니게임입니다. 매일 지급되는 돋보기로 단서를 표시하고 범인을 좁히며, 틀린 추측은 한정 돋보기를 낭비합니다.",
+        "Case Files(Secret Rabbit♥Hole의 Trusty Sidekick Alencia’s Case Files)는 전투 퀘스트가 아니라 출시 기간 격자 추론 미니게임입니다. 매일 지급되는 돋보기로 단서를 표시하고 범인을 좁히며, 새로운 질문을 할 때마다 돋보기 1개를 소모하며, 이미 확인한 질문을 다시 보는 데에는 소모하지 않습니다.",
         "일반 파운드리 일일/주간과 Lucky Board 옆에 붙어 있습니다. 로비 아이콘이 살아있는 동안 Case Files 진행을 먼저 밀어 둔 뒤 사냥/스토리 AP로 돌아가세요. 범인 정답 스포일러는 올리지 않으며 STOVE 공지를 인용합니다.",
         "Case Files는 상시 에피소드 미션이 아니라 퀘스트/이벤트 허브에 붙은 기간 활동입니다. 사이드 스토리가 끝나면 남은 돋보기와 함께 로비 진입점이 사라집니다."
       ],
@@ -14898,7 +14898,7 @@ export const CONTENT = {
       "img_alt3": "限時貨幣、每日、狩獵、每週優先自繪條",
       "case_files_h2": "Epic Seven Case Files — 是什麼",
       "case_files": [
-        "Case Files（Secret Rabbit♥Hole 內的 Trusty Sidekick Alencia’s Case Files）是上線期間的格線推理小遊戲，不是戰鬥任務檢核。你用每日放大鏡標記線索並縮小兇手範圍；猜錯會浪費有限放大鏡。",
+        "Case Files（Secret Rabbit♥Hole 內的 Trusty Sidekick Alencia’s Case Files）是上線期間的格線推理小遊戲，不是戰鬥任務檢核。你用每日放大鏡標記線索並縮小兇手範圍；每次提出新問題消耗1個放大鏡；重新查看已讀問題不消耗放大鏡。",
         "它與一般 Foundry 每日／每週與 Lucky Board 並列：大廳圖示還在時先推 Case Files，再回頭用體力打狩獵／劇情。這裡不公布兇手劇透，請以 STOVE 公告為準。",
         "Case Files 屬於任務／活動樞紐上的期間活動，不是常駐 Episode 任務。支線結束後大廳入口與未用放大鏡一併消失。"
       ],
@@ -14986,7 +14986,7 @@ export const CONTENT = {
       "img_alt3": "แถบลำดับความสำคัญเควสที่วาดเอง: สกุลเงินตามเวลา, รายวัน, Hunt, รายสัปดาห์",
       "case_files_h2": "Epic Seven Case Files — คืออะไร",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files ใน Secret Rabbit♥Hole) เป็นมินิเกม推理ตารางช่วงเปิดตัว ไม่ใช่เควสต์ต่อสู้ คุณใช้แว่นขยายรายวันทำเครื่องหมายเบาะแสและจำกัดตัวผู้ต้องสงสัย — ทายผิดจะเสียแว่นที่มีจำกัด",
+        "Case Files (Trusty Sidekick Alencia’s Case Files ใน Secret Rabbit♥Hole) เป็นมินิเกม推理ตารางช่วงเปิดตัว ไม่ใช่เควสต์ต่อสู้ คุณใช้แว่นขยายรายวันทำเครื่องหมายเบาะแสและจำกัดตัวผู้ต้องสงสัย — คำถามใหม่แต่ละครั้งใช้แว่นขยาย 1 อัน ส่วนการตรวจดูคำถามที่เคยอ่านแล้วไม่ใช้แว่นขยาย",
         "มันอยู่คู่กับเดลี่/วีคลี่ Foundry ปกติและ Lucky Board: ลุย Case Files ตอนไอคอนล็อบบียังอยู่ แล้วค่อยกลับไปใช้ AP ล่า/เนื้อเรื่อง ที่นี่ไม่เผยสปอยล์คำตอบคนร้าย อ้างอิงประกาศ STOVE",
         "ถือว่า Case Files เป็นกิจกรรมช่วงเวลาที่ผูกกับฮับเควสต์/อีเวนต์ ไม่ใช่ Episode ถาวร พอไซด์สตอรี่จบ ทางเข้าล็อบบี้และแว่นที่เหลือจะหายไป"
       ],
