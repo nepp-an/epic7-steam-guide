@@ -61,6 +61,21 @@ function L({
   );
 }
 
+// Case Files exists only in English. Say so in each locale's own language
+// instead of linking to a localized route that would 404.
+const ENGLISH_LABEL: Record<Locale, string> = {
+  en: 'English',
+  ko: '영어',
+  ja: '英語',
+  'zh-tw': '英文',
+  th: 'ภาษาอังกฤษ',
+  es: 'inglés',
+  pt: 'inglês',
+  de: 'Englisch',
+  fr: 'anglais',
+  pl: 'angielski',
+};
+
 function Diagram({
   nodes,
   aria,
@@ -483,9 +498,13 @@ export function HomeView({ locale }: { locale: Locale }) {
           <L locale={locale} href="/foundry/">
             <span className="btn btn-secondary">{c.cta_fd}</span>
           </L>
-          {/* Case Files is EN-only today; keep CTA on /case-files/ for all locales. */}
+          {/* Case Files is EN-only today; keep CTA on /case-files/ for all locales
+              and label the language so the English page is not a surprise. */}
           <Link href="/case-files/">
-            <span className="btn btn-secondary">{c.cta_cf}</span>
+            <span className="btn btn-secondary">
+              {c.cta_cf}
+              {locale === 'en' ? '' : ` (${ENGLISH_LABEL[locale]})`}
+            </span>
           </Link>
         </div>
       </section>
