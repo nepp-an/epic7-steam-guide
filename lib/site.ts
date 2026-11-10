@@ -92,6 +92,8 @@ export function normalizePath(path: string): string {
 }
 
 export function localizedPath(locale: Locale | string, path: string): string {
+  // A hash-only wiki link is a same-page anchor, not a path under /{locale}/.
+  if (path.startsWith('#')) return path;
   const n = normalizePath(path);
   if (!locale || locale === DEFAULT_LOCALE || locale === 'en') return n;
   if (n === '/') return `/${locale}/`;

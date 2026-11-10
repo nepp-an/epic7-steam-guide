@@ -448,6 +448,14 @@ function richParts(locale: Locale, marked: string): React.ReactNode[] {
           {label}
         </ExternalLink>,
       );
+    } else if (href.startsWith('#')) {
+      // Wiki links to a same-page section must stay on this page, not become
+      // /{locale}/#id (which points at the home page and loses the target).
+      nodes.push(
+        <a key={key++} href={href}>
+          {label}
+        </a>,
+      );
     } else if (ENGLISH_ONLY_PATHS.has(href)) {
       nodes.push(
         <Link key={key++} href={href}>
@@ -620,7 +628,11 @@ export function HomeView({ locale }: { locale: Locale }) {
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={img}
-                          alt=""
+                          alt={
+                            img === '/images/diagram-transfer.webp'
+                              ? c.img_transfer_alt
+                              : ''
+                          }
                           width={IMAGE_SIZE[img]?.[0] ?? 1100}
                           height={IMAGE_SIZE[img]?.[1] ?? 300}
                           loading="lazy"
@@ -666,6 +678,15 @@ export function HomeView({ locale }: { locale: Locale }) {
             </li>
           ))}
         </ol>
+      </section>
+      <section id="troubleshoot" className="faq">
+        <h2>{c.trouble_h2}</h2>
+        {c.trouble.map(([title, body]) => (
+          <details key={title}>
+            <summary>{title}</summary>
+            <p>{body}</p>
+          </details>
+        ))}
       </section>
       <section id="faq" className="faq">
         <h2>{c.faq_h2}</h2>
@@ -1166,7 +1187,7 @@ export function FaqView({ locale }: { locale: Locale }) {
       <Fig
         src="/images/diagram-transfer-decision.webp"
         alt={c.img_alt}
-        credit="Unofficial FAQ flowchart · wrong bind, withdraw, then convert"
+        credit="Unofficial FAQ flowchart · wrong bind, Convert the temporary account, then convert the original"
       />
       <p>{c.lead}</p>
       <h2>{c.check_h2}</h2>
