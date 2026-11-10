@@ -14812,7 +14812,7 @@ export const CONTENT = {
       "img_alt3": "期限通貨・デイリー・ハント・週次の自作優先帯",
       "case_files_h2": "Epic Seven Case Files — 概要",
       "case_files": [
-        "Case Files（Secret Rabbit♥Hole内の Trusty Sidekick Alencia’s Case Files）は戦闘クエストではなく、ローンチ期間のマス目推理ミニゲームです。毎日の虫眼鏡で手がかりを付け犯人を絞り込み、外すと限られた虫眼鏡を浪費します。",
+        "Case Files（Secret Rabbit♥Hole内の Trusty Sidekick Alencia’s Case Files）は戦闘クエストではなく、ローンチ期間のマス目推理ミニゲームです。毎日の虫眼鏡で手がかりを付け犯人を絞り込み、新しい質問1回につき虫眼鏡1個を消費し、既読の質問の再確認は消費しません。",
         "通常の Foundry デイリー／ウィークリーや Lucky Board と並びます。ロビーアイコンがあるうちに Case Files を進め、その後ハント／ストーリー AP に戻してください。犯人ネタバレは掲載せず STOVE 告知を引用します。",
         "Case Files は常設エピソード任務ではなく、クエスト／イベントハブに付く期間限定アクティビティです。サイドストーリー終了でロビー入口と未使用の虫眼鏡も消えます。"
       ],
@@ -15074,7 +15074,7 @@ export const CONTENT = {
       "img_alt3": "Tira de prioridad de misiones dibujada por nosotros: moneda con tiempo limitado, diarias, Hunt, semanal",
       "case_files_h2": "Epic Seven Case Files — qué son",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) es un minijuego de deducción en cuadrícula de la ventana de lanzamiento, no una misión de combate. Gastas lupas diarias para marcar pistas y acotar al culpable; fallar desperdicia lupas limitadas.",
+        "Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) es un minijuego de deducción en cuadrícula de la ventana de lanzamiento, no una misión de combate. Gastas lupas diarias para marcar pistas y acotar al culpable; cada pregunta nueva consume una lupa; volver a consultar una pregunta ya vista no consume lupas.",
         "Va junto a los diarios/semanales normales de Foundry y al Lucky Board: avanza Case Files mientras el icono del lobby esté activo y luego vuelve a cacerías/historia. No publicamos spoilers del culpable; cita avisos de STOVE.",
         "Trátalo como una actividad de evento unida al hub de misiones, no como un Episode permanente. Cuando termina la historia secundaria, desaparece la entrada del lobby con las lupas sin usar."
       ],
@@ -15162,7 +15162,7 @@ export const CONTENT = {
       "img_alt3": "Tira de prioridade de missões desenhada por nós: moeda cronometrada, diárias, Hunt, semanal",
       "case_files_h2": "Epic Seven Case Files — o que são",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) é um minijogo de dedução em grade da janela de lançamento, não uma missão de combate. Você gasta lupas diárias para marcar pistas e restringir o culpado; errar desperdiça lupas limitadas.",
+        "Case Files (Trusty Sidekick Alencia’s Case Files dentro de Secret Rabbit♥Hole) é um minijogo de dedução em grade da janela de lançamento, não uma missão de combate. Você gasta lupas diárias para marcar pistas e restringir o culpado; cada pergunta nova consome uma lupa; rever uma pergunta já vista não consome lupas.",
         "Fica ao lado dos diários/semanais normais do Foundry e do Lucky Board: avance Case Files enquanto o ícone do lobby estiver ativo e depois volte a hunts/história. Não publicamos spoilers do culpado — cite avisos da STOVE.",
         "Trate Case Files como atividade de evento ligada ao hub de missões, não como Episode permanente. Quando a side story acaba, a entrada do lobby some com as lupas restantes."
       ],
@@ -15250,7 +15250,7 @@ export const CONTENT = {
       "img_alt3": "Selbst gezeichneter Quest-Prioritätsstreifen: terminierte Währung, Dailies, Hunt, Weekly",
       "case_files_h2": "Epic Seven Case Files — was sie sind",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files in Secret Rabbit♥Hole) ist ein Raster-Deduktions-Minispiel im Launch-Fenster, kein Kampfquest-Check. Tägliche Lupen markieren Hinweise und engen den Täter ein — Fehlversuche verschwenden die begrenzten Lupen.",
+        "Case Files (Trusty Sidekick Alencia’s Case Files in Secret Rabbit♥Hole) ist ein Raster-Deduktions-Minispiel im Launch-Fenster, kein Kampfquest-Check. Tägliche Lupen markieren Hinweise und engen den Täter ein — jede neue Frage kostet eine Lupe; das erneute Prüfen einer bereits gelesenen Frage kostet keine Lupe.",
         "Sie sitzen neben normalen Foundry-Dailies/Weeklies und dem Lucky Board: schiebe Case Files vor, solange das Lobby-Icon live ist, dann zurück zu Hunt/Story-AP. Täter-Spoiler erscheinen hier nicht — zitiere STOVE-Hinweise.",
         "Behandle Case Files als Event-Aktivität am Quest-/Event-Hub, nicht als dauerhafte Episode-Mission. Endet die Side Story, verschwindet der Lobby-Einstieg samt ungenutzter Lupen."
       ],
@@ -15338,7 +15338,7 @@ export const CONTENT = {
       "img_alt3": "Bandeau maison des priorités de quêtes : devises limitées, quotidiennes, Hunt, hebdomadaires",
       "case_files_h2": "Epic Seven Case Files — de quoi s’agit-il",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia’s Case Files dans Secret Rabbit♥Hole) est un mini-jeu de déduction sur grille de la fenêtre de lancement, pas une quête de combat. Les loupes quotidiennes marquent les indices et resserrent le coupable — se tromper gaspille des loupes limitées.",
+        "Case Files (Trusty Sidekick Alencia’s Case Files dans Secret Rabbit♥Hole) est un mini-jeu de déduction sur grille de la fenêtre de lancement, pas une quête de combat. Les loupes quotidiennes marquent les indices et resserrent le coupable — chaque nouvelle question consomme une loupe ; revoir une question déjà consultée n’en consomme pas.",
         "Ils côtoient les quotidiens/hebdomadaires Foundry classiques et le Lucky Board : avancez Case Files tant que l’icône de lobby est active, puis revenez aux chasses/histoire. Pas de spoilers du coupable ici — citez les avis STOVE.",
         "Traitez Case Files comme une activité d’événement liée au hub quêtes/événements, pas comme un Episode permanent. Quand la side story se termine, l’entrée lobby disparaît avec les loupes restantes."
       ],
@@ -15426,7 +15426,7 @@ export const CONTENT = {
       "img_alt3": "Własnoręcznie rysowany pasek priorytetów zadań: waluta z limitem, dzienne, Hunt, tygodniowe",
       "case_files_h2": "Epic Seven Case Files — co to jest",
       "case_files": [
-        "Case Files (Trusty Sidekick Alencia's Case Files w Secret Rabbit♥Hole) to minigra dedukcji na siatce w oknie premiery, a nie sprawdzian walki. Wydajesz dzienne lupy, aby zaznaczać wskazówki i zawężać sprawcę — błędne domysły marnują limitowane lupy.",
+        "Case Files (Trusty Sidekick Alencia's Case Files w Secret Rabbit♥Hole) to minigra dedukcji na siatce w oknie premiery, a nie sprawdzian walki. Wydajesz dzienne lupy, aby zaznaczać wskazówki i zawężać sprawcę — każde nowe pytanie zużywa jedną lupę; ponowne sprawdzenie wcześniej przeczytanego pytania jej nie zużywa.",
         "Są obok zwykłych dziennych/tygodniowych Foundry i Lucky Board: rób postęp Case Files z limitem czasu, gdy ikona w lobby jest aktywna, a potem wróć do staminy na Hunt/fabułę. Spoilerów odpowiedzi tu nie publikujemy — cytuj ogłoszenia STOVE.",
         "Traktuj Case Files jako aktywność wydarzenia przypisaną do centrum zadań/wydarzeń, a nie stałą misję Epizodu. Gdy historia poboczna się kończy, wpis w lobby znika wraz z niewykorzystanymi lupami."
       ],
@@ -15440,7 +15440,7 @@ export const CONTENT = {
       "h1": "Epic Seven Case Files (Steam) — what it is",
       "answer": "Epic Seven Case Files are the Trusty Sidekick Alencia’s Case Files deduction mini-game inside the Secret Rabbit♥Hole side story. Spend daily magnifying glasses, fill the O/X grid, and narrow the culprit. The Lucky Board is a separate daily-point track: it and the parallel Moro Mystic banner close around 2026-11-19 02:59 UTC, while the side story and Case Files run to 2026-12-10 02:59 UTC. No culprit answers are published here.",
       "paras": [
-        "Case Files is a grid-deduction event, not a combat quest check. Open Secret Rabbit♥Hole from the lobby event icon, then open Case Files from the event page. Each day gives magnifying glasses; spend them to reveal clues, mark the O/X grid, and unlock the Culprit Clue before you accuse. A wrong accusation or a wasted clue costs a limited resource, so read the case text before you mark the grid.",
+        "Case Files is a grid-deduction event, not a combat quest check. Open Secret Rabbit♥Hole from the lobby event icon, then open Case Files from the event page. Each day gives magnifying glasses; spend them to reveal clues, mark the O/X grid, and unlock the Culprit Clue before you accuse. Each new question consumes one magnifying glass; re-checking a question you have already viewed does not. Read the case text before you mark the grid.",
         "Secret Rabbit♥Hole is the umbrella side story. Case Files sits inside it, while the Daily Investigation / Lucky Board is a separate points track fed by adventure, battles, and Arena. The posted Lucky Board cap is 720 points per day; missed days cannot be fully recovered. The Lucky Board and the parallel Bunny Girl Great Detective Moro Mystic banner end around 2026-11-19 02:59 UTC — the wishlist mail is about 11/19 03:00 UTC. Do not use that date for the side story itself.",
         "The side story and Case Files still run to 2026-12-10 02:59 UTC. That means you can keep clearing cases after the Lucky Board closes, but you cannot earn the expired board rewards later. Check the live in-game timer and the STOVE event notice before spending Energy on late magnifying-glass top-ups. If the lobby icon disappears, the entry point and unused glasses go with it.",
         "Play Case Files for the deduction and story layer, not as a power check. Keep your normal Foundry dailies and weeklies running; use the quests hub for the reset rhythm and the Foundry calendar for the Guild War rollout (introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC). This page explains mechanics and dates only — it does not publish culprit answers or a spoiler walkthrough."

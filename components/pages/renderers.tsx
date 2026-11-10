@@ -259,6 +259,26 @@ function heroesInGroup(rows: readonly HeroRow[], group: string): HeroRow[] {
   return rows.filter((r) => r[5] === group);
 }
 
+const RENDERED_HERO_GROUPS = new Set(['tutorial', 'specialty', 'farmer']);
+
+// These three heroes only lose their rendered id={slug} card when a locale's
+// group key is translated away from the three keys HeroesView renders. Link
+// them to the real section that already names them rather than to a missing
+// fragment. Locales that render the cards keep their per-hero fragment.
+const HERO_FRAGMENT_FALLBACKS: Record<string, string> = {
+  'angelic-montmorancy': 'specialty-change',
+  'falconer-kluri': 'specialty-change',
+  'commander-lorina': 'specialty-change',
+};
+
+function heroFragment(locale: Locale, slug: string): string {
+  const fallback = HERO_FRAGMENT_FALLBACKS[slug];
+  if (!fallback) return slug;
+  const rows = CONTENT['/heroes/'][locale].heroes as unknown as HeroRow[];
+  const row = rows.find((r) => r[0] === slug);
+  return row && RENDERED_HERO_GROUPS.has(row[5]) ? slug : fallback;
+}
+
 function roleChipsFor(slug: string) {
   const chips = ROLE_CHIPS[slug];
   if (!chips || chips.length < 1 || chips.length > 2) {
@@ -2072,7 +2092,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
           {rows.map(([slug, name, role, el, brief, _group, prio]) => (
             <tr key={slug}>
               <td>
-                <a href={`#${slug}`}>{name}</a>
+                <a href={`#${heroFragment(locale, slug)}`}>{name}</a>
               </td>
               <td>
                 <span className="chip chip-role">{role}</span>
@@ -2313,7 +2333,11 @@ function TierItem({ hero, locale }: { hero: TierHero; locale: Locale }) {
     return <span className="tier-chip tier-chip--text">{content}</span>;
   }
   return (
-    <L locale={locale} href={`/heroes/#${hero.slug}`} className="tier-chip">
+    <L
+      locale={locale}
+      href={`/heroes/#${heroFragment(locale, hero.slug)}`}
+      className="tier-chip"
+    >
       {content}
     </L>
   );
@@ -2348,7 +2372,10 @@ function TierHeroCard({
       <div className="hero-card-main">
         <h3>
           {hero.avatar ? (
-            <L locale={locale} href={`/heroes/#${hero.slug}`}>
+            <L
+              locale={locale}
+              href={`/heroes/#${heroFragment(locale, hero.slug)}`}
+            >
               {hero.name}
             </L>
           ) : (
