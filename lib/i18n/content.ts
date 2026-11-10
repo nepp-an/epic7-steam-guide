@@ -24,7 +24,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "New-server calendar, buffs, and rewards through 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -93,11 +93,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (STOVE Foundry open notice)"
+          "Intro 2026-11-19 after maintenance; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 after maintenance (UTC)"
+          "2026-12-10 after maintenance (official notices used both KST and UTC)"
         ],
         [
           "Starter buffs / many Foundry events",
@@ -173,7 +173,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Calendar through 12/31 — GW 11/21, WA 12/10"
+          "Calendar through 12/31 — GW intro 11/19, defense 11/21 03:00 UTC, matchmaking 11/23 03:00 UTC; WA 12/10 after maintenance"
         ],
         [
           "/secret-rabbit-hole/",
@@ -233,7 +233,7 @@ export const CONTENT = {
           "/foundry/",
           "파운드리",
           "신서버 캘린더·버프·보상(~2026-12-31).",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -302,11 +302,11 @@ export const CONTENT = {
         ],
         [
           "길드전(파운드리)",
-          "2026-11-21 03:00 UTC (STOVE 파운드리 오픈 공지)"
+          "2026-11-19 점검 후 도입; 2026-11-21 03:00 UTC 방어팀; 2026-11-23 03:00 UTC 매칭"
         ],
         [
           "월드 아레나(파운드리)",
-          "2026-12-10 점검 후 (UTC)"
+          "2026-12-10 점검 후 (공식 공지는 KST와 UTC를 각각 표기)"
         ],
         [
           "스타터 버프 / 다수 이벤트",
@@ -382,7 +382,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "12/31까지 캘린더 — 길드전 11/21, WA 12/10"
+          "12/31까지 캘린더 — 길드전 11/19 도입, 11/21 03:00 UTC 방어팀, 11/23 03:00 UTC 매칭, WA 12/10 점검 후"
         ],
         [
           "/secret-rabbit-hole/",
@@ -442,7 +442,7 @@ export const CONTENT = {
           "/foundry/",
           "ファウンドリ",
           "新鯖日程・バフ・報酬（〜2026-12-31）。",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -511,11 +511,11 @@ export const CONTENT = {
         ],
         [
           "ギルド戦（ファウンドリ）",
-          "2026-11-21 03:00 UTC（STOVE告知）"
+          "2026-11-19 メンテ後導入; 2026-11-21 03:00 UTC 防衛チーム; 2026-11-23 03:00 UTC マッチング"
         ],
         [
           "ワールドアリーナ（ファウンドリ）",
-          "2026-12-10 メンテ後（UTC）"
+          "2026-12-10 メンテ後（公式告知はKSTとUTCを別々に表記）"
         ],
         [
           "スターターバフ／多数イベント",
@@ -591,7 +591,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "12/31まで日程 — GW 11/21、WA 12/10"
+          "12/31まで日程 — ギルド戦 11/19導入、11/21 03:00 UTC 防衛チーム、11/23 03:00 UTC マッチング、WA 12/10 メンテ後"
         ],
         [
           "/secret-rabbit-hole/",
@@ -651,7 +651,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "新服日程、增益與獎勵（至 2026-12-31）。",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -720,11 +720,11 @@ export const CONTENT = {
         ],
         [
           "公會戰（Foundry）",
-          "2026-11-21 03:00 UTC（STOVE Foundry 開服公告）"
+          "2026-11-19 維護後導入；2026-11-21 03:00 UTC 防禦隊伍；2026-11-23 03:00 UTC 配對"
         ],
         [
           "World Arena（Foundry）",
-          "2026-12-10 維護後（UTC）"
+          "2026-12-10 維護後（官方公告分別標過 KST 與 UTC）"
         ],
         [
           "新手增益／多項 Foundry 活動",
@@ -800,7 +800,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "日至 12/31 — 公會戰 11/21、WA 12/10"
+          "日至 12/31 — 公會戰 11/19 導入、11/21 03:00 UTC 防禦隊伍、11/23 03:00 UTC 配對，WA 12/10 維護後"
         ],
         [
           "/secret-rabbit-hole/",
@@ -860,7 +860,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "ปฏิทินเซิร์ฟเวอร์ใหม่ บัฟ และรางวัลถึง 2026-12-31",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -929,11 +929,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (ประกาศเปิด Foundry ของ STOVE)"
+          "เปิดตัว 2026-11-19 หลังปิดปรับปรุง; จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 หลังปิดปรับปรุง (UTC)"
+          "2026-12-10 หลังปิดปรับปรุง (ประกาศทางการระบุทั้ง KST และ UTC)"
         ],
         [
           "บัฟเริ่มต้น / อีเวนต์ Foundry หลายรายการ",
@@ -1009,7 +1009,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "ปฏิทินถึง 12/31 — GW 11/21, WA 12/10"
+          "ปฏิทินถึง 12/31 — Guild War เปิดตัว 11/19, ป้องกัน 11/21 03:00 UTC, จับคู่ 11/23 03:00 UTC; WA 12/10 หลังปิดปรับปรุง"
         ],
         [
           "/secret-rabbit-hole/",
@@ -1069,7 +1069,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "Calendario del servidor nuevo, buffs y recompensas hasta 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -1138,11 +1138,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (aviso de apertura de Foundry en STOVE)"
+          "Introducción 2026-11-19 tras mantenimiento; equipo de defensa 2026-11-21 03:00 UTC; matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 tras el mantenimiento (UTC)"
+          "2026-12-10 tras el mantenimiento (los avisos oficiales usaron KST y UTC)"
         ],
         [
           "Buffs de inicio / muchos eventos de Foundry",
@@ -1218,7 +1218,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Calendario hasta 12/31 — GW 11/21, WA 12/10"
+          "Calendario hasta 12/31 — GW introducida 11/19, defensa 11/21 03:00 UTC, matchmaking 11/23 03:00 UTC; WA 12/10 tras mantenimiento"
         ],
         [
           "/secret-rabbit-hole/",
@@ -1278,7 +1278,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "Calendário do servidor novo, buffs e recompensas até 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -1347,11 +1347,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (aviso de abertura do Foundry na STOVE)"
+          "Introdução 2026-11-19 após manutenção; equipe de defesa 2026-11-21 03:00 UTC; matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 após a manutenção (UTC)"
+          "2026-12-10 após a manutenção (avisos oficiais usaram KST e UTC)"
         ],
         [
           "Buffs de início / vários eventos do Foundry",
@@ -1427,7 +1427,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Calendário até 12/31 — GW 11/21, WA 12/10"
+          "Calendário até 12/31 — GW introduzida 11/19, defesa 11/21 03:00 UTC, matchmaking 11/23 03:00 UTC; WA 12/10 após manutenção"
         ],
         [
           "/secret-rabbit-hole/",
@@ -1487,7 +1487,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "Kalender für den neuen Server, Buffs und Belohnungen bis 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -1556,11 +1556,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (STOVE-Hinweis zur Foundry-Öffnung)"
+          "Einführung 2026-11-19 nach Wartung; Verteidigungsteam 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 nach Wartung (UTC)"
+          "2026-12-10 nach Wartung (offizielle Hinweise nannten KST und UTC)"
         ],
         [
           "Starter-Buffs / viele Foundry-Events",
@@ -1636,7 +1636,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Kalender bis 12/31 — GW 11/21, WA 12/10"
+          "Kalender bis 12/31 — GW eingeführt 11/19, Verteidigung 11/21 03:00 UTC, Matchmaking 11/23 03:00 UTC; WA 12/10 nach Wartung"
         ],
         [
           "/secret-rabbit-hole/",
@@ -1696,7 +1696,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "Calendrier du nouveau serveur, buffs et récompenses jusqu'au 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -1765,11 +1765,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (annonce d'ouverture Foundry STOVE)"
+          "Introduction 2026-11-19 après maintenance ; équipe de défense 2026-11-21 03:00 UTC ; matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 après maintenance (UTC)"
+          "2026-12-10 après maintenance (les avis officiels indiquent KST et UTC)"
         ],
         [
           "Buffs de départ / nombreux événements Foundry",
@@ -1845,7 +1845,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Calendrier jusqu'au 12/31 — GW 11/21, WA 12/10"
+          "Calendrier jusqu'au 12/31 — GW introduite 11/19, défense 11/21 03:00 UTC, matchmaking 11/23 03:00 UTC ; WA 12/10 après maintenance"
         ],
         [
           "/secret-rabbit-hole/",
@@ -1905,7 +1905,7 @@ export const CONTENT = {
           "/foundry/",
           "Foundry",
           "Kalendarz nowego serwera, buffy i nagrody do 2026-12-31.",
-          "/images/diagram-foundry-calendar.webp"
+          ""
         ],
         [
           "/heroes/",
@@ -1974,11 +1974,11 @@ export const CONTENT = {
         ],
         [
           "Guild War (Foundry)",
-          "2026-11-21 03:00 UTC (ogłoszenie STOVE o otwarciu Foundry)"
+          "Wprowadzenie 2026-11-19 po konserwacji; drużyna obrony 2026-11-21 03:00 UTC; matchmaking 2026-11-23 03:00 UTC"
         ],
         [
           "World Arena (Foundry)",
-          "2026-12-10 po konserwacji (UTC)"
+          "2026-12-10 po konserwacji (oficjalne ogłoszenia podają KST i UTC)"
         ],
         [
           "Buffy startowe / wiele wydarzeń Foundry",
@@ -2054,7 +2054,7 @@ export const CONTENT = {
       "map_links_fd": [
         [
           "/foundry/",
-          "Kalendarz do 12/31 — GW 11/21, WA 12/10"
+          "Kalendarz do 12/31 — GW wprowadzona 11/19, obrona 11/21 03:00 UTC, matchmaking 11/23 03:00 UTC; WA 12/10 po konserwacji"
         ],
         [
           "/secret-rabbit-hole/",
@@ -3960,7 +3960,7 @@ export const CONTENT = {
       "deep_h2": "플레이어가 막히는 이유(비공식)",
       "deep": [
         "런칭 주간에 공개 FAQ 스레드에서 자주 보이는 막힘은 대개 세 갈래입니다. Steam을 전환 전에 먼저 실행한 경우, 빈 데모 계정을 인게임 삭제로 「정리」하려 한 경우, 계정 이전이 곧 파운드리 입장인 줄 아는 경우입니다. 복구 순서는 항상 같습니다. Steam이 인가한 STOVE 신원을 확인하고, 필요하면 빈 Steam 연동 STOVE 계정을 탈퇴한 뒤, 원래 이메일/SNS 로그인을 전환하세요. 파괴적인 UI를 누르기 전에 STOVE Steam FAQ(view/14378309)와 데모 주의(view/14581667)를 인용·확인하세요. 탈퇴에는 대기 기간이 있을 수 있으니 STOVE 화면과 고객센터 안내를 따릅니다。",
-        "이 페이지는 지도일 뿐 고객지원 창구가 아닙니다. 대기 시간을 초기화하거나 Steam 연동을 강제로 풀거나 삭제된 진행도를 복구할 수 없습니다. 스크린샷을 남기고 공식 CS를 이용하며, 점검 패치로 문구가 바뀌면 최신 STOVE 화면을 다시 읽으세요. 올바른 전환 이후의 크로스플레이는 공식 FAQ에 설명되어 있고, 파운드리는 별도의 서버 선택이며 길드전 시각은 STOVE 축하 표 기준 약 2026-11-21 03:00 UTC입니다. 이전 가이드·데모 주의·파운드리 캘린더·Steam 안내·다운로드 체크리스트를 함께 열어 두고 작업하세요.",
+        "이 페이지는 지도일 뿐 고객지원 창구가 아닙니다. 대기 시간을 초기화하거나 Steam 연동을 강제로 풀거나 삭제된 진행도를 복구할 수 없습니다. 스크린샷을 남기고 공식 CS를 이용하며, 점검 패치로 문구가 바뀌면 최신 STOVE 화면을 다시 읽으세요. 올바른 전환 이후의 크로스플레이는 공식 FAQ에 설명되어 있고, 파운드리는 별도의 서버 선택이며 길드전은 11/19 도입, 11/21 03:00 UTC 방어팀, 11/23 03:00 UTC 매칭입니다. 이전 가이드·데모 주의·파운드리 캘린더·Steam 안내·다운로드 체크리스트를 함께 열어 두고 작업하세요.",
         "구매·미수령 보상·에픽패스 이전 여부는 공식 Steam FAQ 문구를 기준으로 하되, 실행 직전 다시 확인하세요. 제3자 「즉시 해제」 툴, 계정 거래, 비공식 실행 파일은 악성코드·약관 위반 위험이 큽니다. 정보가 충돌하면 항상 STOVE와 Steam 스토어(app 5019180) 원문을 우선합니다. 본 사이트 epicsevensteam.com은 Smilegate·STOVE·Valve·Steam과 무관한 비공식 플레이어 정보입니다。",
         "추가로, Steam 데모와 정식 클라이언트를 혼용할 때는 항상 정식 app 5019180 설치 상태를 먼저 확인하세요. 데모 잔여 로그인이 남아 있으면 전환 UI가 「이미 연동됨」으로 막힐 수 있고, 이때 인게임 삭제로 해결하려 하면 STOVE 주의가 경고한 원서버 데이터 손실 경로로 빠질 수 있습니다. 복구는 탈퇴→전환만 따르고, 대기 기간 중에는 새 캐릭터를 키워 손해를 키우지 마세요. 크로스플레이·가격·에픽패스 문구는 공식 FAQ를 재확인하고, 파운드리 참가 여부는 이전과 별도로 결정하세요. 작업 중 다운로드 체크리스트·Steam 안내·데모 주의·FAQ 허브를 함께 두면 실수가 줄어듭니다. 본 비공식 가이드는 고객지원을 대체하지 않습니다。"
       ],
@@ -4123,7 +4123,7 @@ export const CONTENT = {
       "deep_h2": "詰まりやすい理由（非公式）",
       "deep": [
         "発売週の公開FAQスレでよく見る詰まりは概ね三つです。変換前にSteamを起動した、空のデモ垢をゲーム内削除で「掃除」しようとした、引き継ぎ＝ファウンドリ入場だと思った、です。復旧順は常に同じで、Steamが認可したSTOVE身元を確認し、必要なら空のSteam連携STOVEを退会してから、元のメール/SNSログインを変換します。破壊的UIを押す前にSTOVE Steam FAQ（view/14378309）とデモ注意（view/14581667）を確認・引用してください。退会に待ち時間がある場合は画面とCS案内に従います。",
-        "本頁は地図でありサポート窓口ではありません。待ち時間の解除もSteam連携の強制解除も、消えた進行の復元もできません。スクショを残し公式CSを使い、メンテで文面が変わったら最新STOVE画面を再読してください。正しい変換後のクロスプレイは公式FAQにあり、ファウンドリは別鯖選択で、ギルド戦時刻はSTOVEお祝い表で約2026-11-21 03:00 UTCです。引き継ぎ・デモ注意・ファウンドリカレンダー・Steamメモ・ダウンロード手順を並べて作業すると安全です。",
+        "本頁は地図でありサポート窓口ではありません。待ち時間の解除もSteam連携の強制解除も、消えた進行の復元もできません。スクショを残し公式CSを使い、メンテで文面が変わったら最新STOVE画面を再読してください。正しい変換後のクロスプレイは公式FAQにあり、ファウンドリは別鯖選択で、ギルド戦は11/19導入、11/21 03:00 UTC 防衛チーム、11/23 03:00 UTC マッチングです。引き継ぎ・デモ注意・ファウンドリカレンダー・Steamメモ・ダウンロード手順を並べて作業すると安全です。",
         "課金・未受取・エピックパスの引き継ぎ可否は公式Steam FAQ文面を基準にし、実行直前に再確認。第三者の「即解除」ツール、垢売買、非公式実行ファイルはマルウェア・規約違反リスクが高います。情報が衝突したら常にSTOVEとSteamストア（app 5019180）原文を優先。本サイトepicsevensteam.comはSmilegate・STOVE・Valve・Steamと無関係の非公式プレイヤー情報です。",
         "さらに、Steamデモと正式クライアントを混用するときは、必ず正式app 5019180の導入状態を先に確認してください。デモ残ログインが残っていると変換UIが「既に連携済み」で止まることがあり、そのときゲーム内削除で解決しようとすると、STOVE注意が警告する原鯖データ損失ルートに入り得ます。復旧は退会→変換のみに従い、待ち時間中に新規キャラを育てて損失を増やさないでください。クロスプレイ・価格・エピックパス文面は公式FAQを再確認し、ファウンドリ参加は引き継ぎと別に決めてください。作業中はダウンロード手順・Steamメモ・デモ注意・FAQハブを並べるとミスが減ります。本非公式ガイドはサポート窓口の代わりになりません。"
       ],
@@ -4286,7 +4286,7 @@ export const CONTENT = {
       "deep_h2": "玩家卡關常見原因（非官方）",
       "deep": [
         "上架週在公開 FAQ 討論裡常見的卡住點大致三類：轉換前就先開 Steam、想用遊戲內刪號「清掉」空白試玩帳、以為帳號轉移等於進入 Foundry。復原順序永遠相同：確認 Steam 授權的是哪個 STOVE 身分，必要時先註銷空白 Steam 連結 STOVE 帳，再轉換原本 Email／SNS 登入。按下破壞性介面前，請查閱並引用 STOVE Steam FAQ（view/14378309）與試玩注意（view/14581667）。註銷可能有等待期，請跟 STOVE 畫面與客服說明。",
-        "本頁只是地圖，不是客服窗口。我們無法重設等待、強制解綁 Steam，或復原已清除的進度。請保留截圖、走官方客服，並在維護改文案後重讀最新 STOVE 畫面。正確轉換後的跨平台以官方 FAQ 為準；Foundry 是另一個伺服器選擇，公會戰時間依 STOVE 慶祝表約為 2026-11-21 03:00 UTC。操作時建議同時打開轉移指南、試玩警告、Foundry 日程、Steam 說明與下載清單。",
+        "本頁只是地圖，不是客服窗口。我們無法重設等待、強制解綁 Steam，或復原已清除的進度。請保留截圖、走官方客服，並在維護改文案後重讀最新 STOVE 畫面。正確轉換後的跨平台以官方 FAQ 為準；Foundry 是另一個伺服器選擇，公會戰為 11/19 導入、11/21 03:00 UTC 防禦隊伍、11/23 03:00 UTC 配對。操作時建議同時打開轉移指南、試玩警告、Foundry 日程、Steam 說明與下載清單。",
         "儲值、未領獎勵、Epic Pass 是否帶過以官方 Steam FAQ 原文為準，動手前記得再查一次。第三方「立刻解綁」工具、賣帳、非官方執行檔有惡意軟體與違規風險。資訊衝突時永遠優先 STOVE 與 Steam 商店（app 5019180）原文。本站 epicsevensteam.com 為與 Smilegate、STOVE、Valve、Steam 無關的非官方玩家資訊。",
         "此外，混用 Steam 試玩與正式客戶端時，請先確認已安裝正式 app 5019180。若仍留有試玩登入，轉換介面可能顯示「已連結」而卡住；若此時想用遊戲內刪號解決，就可能掉進 STOVE 注意所警告的原服資料損失路徑。復原只走註銷→轉換，等待期間不要去養成新角色加深損失。跨平台、售價、Epic Pass 文案請再對官方 FAQ；是否進 Foundry 與轉移分開決定。操作時同時開著下載清單、Steam 說明、試玩警告與 FAQ 中心可減少失誤。本非官方指南不能取代客服。"
       ],
@@ -6984,12 +6984,12 @@ export const CONTENT = {
         [
           "Guild War (introduced 11/19 · defense team 11/21 · matchmaking 11/23)",
           "11/19 after maint",
-          "ongoing"
+          "scheduled"
         ],
         [
           "World Arena",
           "12/10 after maint",
-          "ongoing"
+          "scheduled"
         ]
       ],
       "buff_h2": "Starter Support buffs",
@@ -7068,7 +7068,7 @@ export const CONTENT = {
       "gw_h2": "Guild War on Foundry",
       "gw_answer": "On Foundry, Guild War is a staged rollout, not one unlock day. Per the 2026-11-07 Steam notice: Guild War is introduced on 2026-11-19; Form Defense Team opens 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai); Guild War Matchmaking opens 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Join or create a Foundry guild early, clear daily guild content, and treat GW as a Foundry-side unlock separate from account transfer. Transferring login does not enroll a legacy Heir in Foundry GW. Dates can shift after maintenance; cite the Steam/STOVE notice, not this page alone.",
       "gw_unlock_h3": "Unlock stages",
-      "gw_unlock": "The 2026-11-07 Steam notice splits the rollout into three checkpoints. (1) 2026-11-19: Guild War is introduced to Foundry. (2) 2026-11-21 03:00 UTC (11:00 Asia/Shanghai): Form Defense Team. (3) 2026-11-23 03:00 UTC (11:00 Asia/Shanghai): Guild War Matchmaking. Draft Arena opened with the Steam launch window; World Arena is listed after 2026-12-10 maintenance (UTC). Re-open the live Steam/STOVE notice before scheduling guild activities — patches can move windows.",
+      "gw_unlock": "The 2026-11-07 Steam notice splits the rollout into three checkpoints. (1) 2026-11-19: Guild War is introduced to Foundry. (2) 2026-11-21 03:00 UTC (11:00 Asia/Shanghai): Form Defense Team. (3) 2026-11-23 03:00 UTC (11:00 Asia/Shanghai): Guild War Matchmaking. Draft Arena opened with the Steam launch window; World Arena is listed after 2026-12-10 maintenance; the official notices labelled it both KST and UTC, so check the notice in force. Re-open the live Steam/STOVE notice before scheduling guild activities — patches can move windows.",
       "gw_prep_h3": "Pre-open checklist",
       "gw_prep": [
         "The rollout is staged: Guild War is introduced 2026-11-19, Form Defense Team opens 2026-11-21 03:00 UTC, and Matchmaking opens 2026-11-23 03:00 UTC. Plan the guild join around the introduction, not a single 11/21 unlock.",
@@ -7295,7 +7295,7 @@ export const CONTENT = {
         [
           "길드전 (11/19 도입 · 11/21 방어팀 · 11/23 매칭)",
           "11/19 점검 후",
-          "진행 중"
+          "예정"
         ],
         [
           "월드 아레나",
@@ -7379,7 +7379,7 @@ export const CONTENT = {
       "gw_h2": "파운드리 길드전",
       "gw_answer": "파운드리 길드전은 단일 해금일이 아니라 단계적 롤아웃입니다. 2026-11-07 Steam 공지 기준: 2026-11-19 길드전 도입, 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성, 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 미리 파운드리 길드에 가입/생성하고 일일 길드 콘텐츠를 소화하세요. 길드전은 계정 이전과 별개인 파운드리 측 기능이며, 로그인 전환은 레거시 후계자를 Foundry GW에 자동 등록하지 않습니다. 점검 후 일정이 바뀔 수 있으니 Steam/STOVE 공지를 인용하세요.",
       "gw_unlock_h3": "해금 단계",
-      "gw_unlock": "2026-11-07 Steam 공지는 세 체크포인트로 나뉩니다. (1) 2026-11-19 Foundry에 길드전 도입. (2) 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성. (3) 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 드래프트 아레나는 Steam 런칭 구간과 함께 열렸고, 월드 아레나는 2026-12-10 점검 후(UTC)로 안내됩니다. 길드 일정을 잡기 전에 최신 Steam/STOVE 공지를 다시 여세요 — 패치로 창이 이동할 수 있습니다.",
+      "gw_unlock": "2026-11-07 Steam 공지는 세 체크포인트로 나뉩니다. (1) 2026-11-19 Foundry에 길드전 도입. (2) 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성. (3) 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 드래프트 아레나는 Steam 런칭 구간과 함께 열렸고, 월드 아레나는 2026-12-10 점검 후로 안내되며, 공식 공지는 KST와 UTC를 각각 표기했습니다. 당시 공지를 확인하세요. 길드 일정을 잡기 전에 최신 Steam/STOVE 공지를 다시 여세요 — 패치로 창이 이동할 수 있습니다.",
       "gw_prep_h3": "오픈 전 체크리스트",
       "gw_prep": [
         "롤아웃은 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭으로 단계화됩니다. 단일 11/21 해금일로 계획하지 마세요.",
@@ -7609,7 +7609,7 @@ export const CONTENT = {
         [
           "ギルド戦（11/19導入・11/21防衛チーム・11/23マッチング）",
           "11/19 メンテ後",
-          "継続中"
+          "予定"
         ],
         [
           "ワールドアリーナ",
@@ -7693,7 +7693,7 @@ export const CONTENT = {
       "gw_h2": "ファウンドリのギルド戦",
       "gw_answer": "ファウンドリのギルド戦は単一の解禁日ではなく段階的です。2026-11-07のSteam告知では、2026-11-19にギルド戦導入、2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成、2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。早めにファウンドリのギルドへ参加/作成し、日次ギルド内容を消化してください。GWはアカウント引き継ぎとは別のファウンドリ側機能で、ログイン引き継ぎはレガシー後継者をFoundry GWへ自動登録しません。メンテ後にずれ得るのでSteam/STOVE告知を引用してください。",
       "gw_unlock_h3": "解禁ステップ",
-      "gw_unlock": "2026-11-07のSteam告知は三つのチェックポイントに分かれます。(1) 2026-11-19にFoundryへギルド戦導入。(2) 2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成。(3) 2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。ドラフトアリーナはSteamローンチ枠と同時、ワールドアリーナは2026-12-10メンテ後（UTC）。ギルド予定の前に最新のSteam/STOVE告知を開き直してください — パッチで窓が動く場合があります。",
+      "gw_unlock": "2026-11-07のSteam告知は三つのチェックポイントに分かれます。(1) 2026-11-19にFoundryへギルド戦導入。(2) 2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成。(3) 2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。ドラフトアリーナはSteamローンチ枠と同時、ワールドアリーナは2026-12-10メンテ後。公式告知はKSTとUTCを別々に表記しており、その時点の告知を確認してください。ギルド予定の前に最新のSteam/STOVE告知を開き直してください — パッチで窓が動く場合があります。",
       "gw_prep_h3": "解禁前チェック",
       "gw_prep": [
         "ロールアウトは2026-11-19導入、2026-11-21 03:00 UTC 防衛チーム、2026-11-23 03:00 UTC マッチングの三段階です。単一の11/21解禁日として計画しないでください。",
@@ -7923,7 +7923,7 @@ export const CONTENT = {
         [
           "公會戰（11/19 導入 · 11/21 防禦隊伍 · 11/23 配對）",
           "11/19 維護後",
-          "進行中"
+          "已排程"
         ],
         [
           "World Arena",
@@ -8007,7 +8007,7 @@ export const CONTENT = {
       "gw_h2": "Foundry 公會戰",
       "gw_answer": "Foundry 公會戰是分階段 rollout，不是單一解鎖日。依 2026-11-07 Steam 公告：2026-11-19 導入公會戰；2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。盡早加入或建立 Foundry 公會並清每日公會內容。公會戰是與帳號轉移分開的 Foundry 側功能；登入轉移不會讓原服繼承人自動進入 Foundry GW。維護後可能改期，請以 Steam／STOVE 公告為準。",
       "gw_unlock_h3": "解鎖階段",
-      "gw_unlock": "2026-11-07 Steam 公告分成三個檢查點：(1) 2026-11-19 在 Foundry 導入公會戰；(2) 2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；(3) 2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。Draft Arena 隨 Steam 上架窗口開放；世界競技場標為 2026-12-10 維護後（UTC）。安排公會活動前請重新開啟最新 Steam／STOVE 公告——改版可能移動時段。",
+      "gw_unlock": "2026-11-07 Steam 公告分成三個檢查點：(1) 2026-11-19 在 Foundry 導入公會戰；(2) 2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；(3) 2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。Draft Arena 隨 Steam 上架窗口開放；世界競技場標為 2026-12-10 維護後；官方公告分別標過 KST 與 UTC，請以當時公告為準。安排公會活動前請重新開啟最新 Steam／STOVE 公告——改版可能移動時段。",
       "gw_prep_h3": "開放前檢查清單",
       "gw_prep": [
         "Rollout 分為 2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對三階段，請不要當成單一 11/21 解鎖日。",
@@ -8237,12 +8237,12 @@ export const CONTENT = {
         [
           "Guild War (เปิดตัว 11/19 · ป้องกัน 11/21 · จับคู่ 11/23)",
           "11/19 หลังปิดปรับปรุง",
-          "ต่อเนื่อง"
+          "ตามกำหนด"
         ],
         [
           "World Arena",
           "12/10 หลังปิดปรับปรุง",
-          "ต่อเนื่อง"
+          "ตามกำหนด"
         ]
       ],
       "buff_h2": "บัฟสนับสนุนผู้เริ่มต้น",
@@ -8296,7 +8296,7 @@ export const CONTENT = {
         ],
         [
           "หลังโอนย้าย เล่น Guild War บนเซิร์ฟเวอร์เดิมได้ไหม?",
-          "การโอนย้ายล็อกอินทำให้ตัวละครเซิร์ฟเวอร์เดิมอยู่ที่เดิม Guild War ของ Foundry เป็นการปลดล็อกฝั่ง Foundry (~2026-11-21 03:00 UTC ตาม STOVE) Heir จากเซิร์ฟเวอร์เดิมไม่ได้เข้าร่วม GW ของ Foundry โดยอัตโนมัติ ต้องมีตัวละคร Foundry ดูส่วน Guild War ด้านบนและประกาศ Foundry ของ STOVE"
+          "การโอนย้ายล็อกอินทำให้ตัวละครเซิร์ฟเวอร์เดิมอยู่ที่เดิม Guild War ของ Foundry เป็นการปลดล็อกฝั่ง Foundry (11/19 เปิดตัว; 11/21 03:00 UTC จัดทีมป้องกัน; 11/23 03:00 UTC จับคู่) Heir จากเซิร์ฟเวอร์เดิมไม่ได้เข้าร่วม GW ของ Foundry โดยอัตโนมัติ ต้องมีตัวละคร Foundry ดูส่วน Guild War ด้านบนและประกาศ Foundry ของ STOVE"
         ],
         [
           "มีโค้ด Foundry ให้แลกไหม?",
@@ -8321,7 +8321,7 @@ export const CONTENT = {
       "gw_h2": "Guild War บน Foundry",
       "gw_answer": "Guild War บน Foundry เป็นการเปิดแบบเป็นระยะ ไม่ใช่วันปลดล็อกวันเดียว ตามประกาศ Steam 2026-11-07: เปิดตัว 2026-11-19; จัดทีมป้องกัน 2026-11-21 03:00 UTC (11:00 ตามเวลาเซี่ยงไฮ้); จับคู่ Guild War 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) เข้าร่วมหรือสร้างกิลด์ Foundry แต่เนิ่น ๆ และเคลียร์เนื้อหากิลด์รายวัน GW เป็นฟีเจอร์ฝั่ง Foundry ที่แยกจากการโอนบัญชี และการโอนล็อกอินไม่ได้พา Heir เดิมเข้า Foundry GW อัตโนมัติ วันที่อาจเลื่อนหลังปิดปรับปรุง อ้างอิงประกาศ Steam/STOVE",
       "gw_unlock_h3": "ขั้นตอนปลดล็อก",
-      "gw_unlock": "ประกาศ Steam 2026-11-07 แบ่งเป็นสามจุด: (1) 2026-11-19 เปิดตัว Guild War บน Foundry; (2) 2026-11-21 03:00 UTC (11:00 เซี่ยงไฮ้) จัดทีมป้องกัน; (3) 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) จับคู่ Guild War Draft Arena เปิดพร้อมช่วงเปิดตัวบน Steam; World Arena ระบุหลังปิดปรับปรุง 2026-12-10 (UTC) เปิดประกาศ Steam/STOVE ล่าสุดก่อนจัดกิจกรรมกิลด์ — แพตช์อาจเลื่อนช่วงเวลา",
+      "gw_unlock": "ประกาศ Steam 2026-11-07 แบ่งเป็นสามจุด: (1) 2026-11-19 เปิดตัว Guild War บน Foundry; (2) 2026-11-21 03:00 UTC (11:00 เซี่ยงไฮ้) จัดทีมป้องกัน; (3) 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) จับคู่ Guild War Draft Arena เปิดพร้อมช่วงเปิดตัวบน Steam; World Arena ระบุหลังปิดปรับปรุง 2026-12-10 โดยประกาศทางการระบุทั้ง KST และ UTC โปรดตรวจประกาศ ณ เวลานั้น เปิดประกาศ Steam/STOVE ล่าสุดก่อนจัดกิจกรรมกิลด์ — แพตช์อาจเลื่อนช่วงเวลา",
       "gw_prep_h3": "เช็กลิสต์ก่อนเปิด",
       "gw_prep": [
         "กำหนดการแบ่งเป็น 2026-11-19 เปิดตัว, 2026-11-21 03:00 UTC จัดทีมป้องกัน และ 2026-11-23 03:00 UTC จับคู่ อย่าวางแผนเป็นวันปลดล็อกเดียว 11/21",
@@ -8548,12 +8548,12 @@ export const CONTENT = {
         [
           "Guild War (introducida 11/19 · defensa 11/21 · matchmaking 11/23)",
           "11/19 tras mantenimiento",
-          "en curso"
+          "programado"
         ],
         [
           "World Arena",
           "12/10 tras mantenimiento",
-          "en curso"
+          "programado"
         ]
       ],
       "buff_h2": "Mejoras de Apoyo de inicio",
@@ -8607,7 +8607,7 @@ export const CONTENT = {
         ],
         [
           "¿Puedo jugar Guild War en el servidor antiguo después de la transferencia?",
-          "La transferencia de inicio de sesión mantiene tu personaje del servidor antiguo donde estaba. Guild War de Foundry es un desbloqueo del lado de Foundry (~2026-11-21 03:00 UTC según STOVE). Un Heir antiguo no se une automáticamente a GW de Foundry; necesitas un personaje de Foundry. Consulta la sección de Guild War más arriba y los avisos de Foundry en STOVE."
+          "La transferencia de inicio de sesión mantiene tu personaje del servidor antiguo donde estaba. Guild War de Foundry es un desbloqueo del lado de Foundry (introducción 11/19; defensa 11/21 03:00 UTC; matchmaking 11/23 03:00 UTC). Un Heir antiguo no se une automáticamente a GW de Foundry; necesitas un personaje de Foundry. Consulta la sección de Guild War más arriba y los avisos de Foundry en STOVE."
         ],
         [
           "¿Hay códigos de Foundry para canjear?",
@@ -8632,7 +8632,7 @@ export const CONTENT = {
       "gw_h2": "Guild War en Foundry",
       "gw_answer": "En Foundry, Guild War es un despliegue por etapas, no un único día de desbloqueo. Según el aviso de Steam del 2026-11-07: se introduce el 2026-11-19; el equipo de defensa se forma el 2026-11-21 03:00 UTC (11:00 en Shanghái); el matchmaking abre el 2026-11-23 03:00 UTC (11:00 en Shanghái). Únete o crea un gremio de Foundry pronto y completa el contenido diario de gremio. GW es una función del lado de Foundry, aparte de la transferencia de cuenta; la transferencia de inicio de sesión no inscribe al Heir legado en Foundry GW. Las fechas pueden cambiar tras el mantenimiento; cita el aviso de Steam/STOVE.",
       "gw_unlock_h3": "Etapas de desbloqueo",
-      "gw_unlock": "El aviso de Steam del 2026-11-07 divide el despliegue en tres hitos: (1) 2026-11-19, Guild War se introduce en Foundry; (2) 2026-11-21 03:00 UTC (11:00 en Shanghái), equipo de defensa; (3) 2026-11-23 03:00 UTC (11:00 en Shanghái), matchmaking de Guild War. Draft Arena abrió con la ventana de lanzamiento de Steam; World Arena figura después del mantenimiento del 2026-12-10 (UTC). Vuelve a abrir el aviso más reciente de Steam/STOVE antes de programar actividades de gremio; los parches pueden mover las ventanas.",
+      "gw_unlock": "El aviso de Steam del 2026-11-07 divide el despliegue en tres hitos: (1) 2026-11-19, Guild War se introduce en Foundry; (2) 2026-11-21 03:00 UTC (11:00 en Shanghái), equipo de defensa; (3) 2026-11-23 03:00 UTC (11:00 en Shanghái), matchmaking de Guild War. Draft Arena abrió con la ventana de lanzamiento de Steam; World Arena figura después del mantenimiento del 2026-12-10; los avisos oficiales usaron KST y UTC, así que consulta el aviso vigente. Vuelve a abrir el aviso más reciente de Steam/STOVE antes de programar actividades de gremio; los parches pueden mover las ventanas.",
       "gw_prep_h3": "Lista de preparación antes de la apertura",
       "gw_prep": [
         "El despliegue es 2026-11-19 introducción, 2026-11-21 03:00 UTC equipo de defensa y 2026-11-23 03:00 UTC matchmaking. No lo planifiques como un único desbloqueo el 11/21.",
@@ -8859,12 +8859,12 @@ export const CONTENT = {
         [
           "Guild War (introduzida 11/19 · defesa 11/21 · matchmaking 11/23)",
           "11/19 após manutenção",
-          "em andamento"
+          "programado"
         ],
         [
           "World Arena",
           "12/10 após manutenção",
-          "em andamento"
+          "programado"
         ]
       ],
       "buff_h2": "Buffs do Apoio ao Iniciante",
@@ -8918,7 +8918,7 @@ export const CONTENT = {
         ],
         [
           "Posso jogar Guild War no legado após a transferência?",
-          "A transferência de login mantém seu personagem do servidor legado onde ele estava. A Guild War do Foundry é uma liberação do lado do Foundry (~2026-11-21 03:00 UTC conforme a STOVE). Um Herdeiro legado não entra automaticamente na GW do Foundry; você precisa de um personagem do Foundry. Veja a seção de Guild War acima e os avisos do Foundry na STOVE."
+          "A transferência de login mantém seu personagem do servidor legado onde ele estava. A Guild War do Foundry é uma liberação do lado do Foundry (introdução 11/19; defesa 11/21 03:00 UTC; matchmaking 11/23 03:00 UTC). Um Herdeiro legado não entra automaticamente na GW do Foundry; você precisa de um personagem do Foundry. Veja a seção de Guild War acima e os avisos do Foundry na STOVE."
         ],
         [
           "Existem códigos do Foundry para resgatar?",
@@ -8943,7 +8943,7 @@ export const CONTENT = {
       "gw_h2": "Guild War no Foundry",
       "gw_answer": "No Foundry, a Guild War é uma implantação por etapas, não um único dia de liberação. Segundo o aviso da Steam de 2026-11-07: introdução em 2026-11-19; equipe de defesa em 2026-11-21 03:00 UTC (11:00 em Xangai); matchmaking em 2026-11-23 03:00 UTC (11:00 em Xangai). Entre ou crie uma guilda do Foundry cedo e cumpra o conteúdo diário. A GW é um recurso do lado do Foundry, separado da transferência de conta; a transferência de login não inscreve o Heir legado na Foundry GW. As datas podem mudar após a manutenção; cite o aviso da Steam/STOVE.",
       "gw_unlock_h3": "Etapas de liberação",
-      "gw_unlock": "O aviso da Steam de 2026-11-07 divide a implantação em três marcos: (1) 2026-11-19, a Guild War é introduzida no Foundry; (2) 2026-11-21 03:00 UTC (11:00 em Xangai), equipe de defesa; (3) 2026-11-23 03:00 UTC (11:00 em Xangai), matchmaking da Guild War. A Draft Arena abriu com a janela de lançamento no Steam; a World Arena está listada para depois da manutenção de 2026-12-10 (UTC). Reabra o aviso mais recente da Steam/STOVE antes de agendar atividades de guilda; patches podem mover as janelas.",
+      "gw_unlock": "O aviso da Steam de 2026-11-07 divide a implantação em três marcos: (1) 2026-11-19, a Guild War é introduzida no Foundry; (2) 2026-11-21 03:00 UTC (11:00 em Xangai), equipe de defesa; (3) 2026-11-23 03:00 UTC (11:00 em Xangai), matchmaking da Guild War. A Draft Arena abriu com a janela de lançamento no Steam; a World Arena está listada para depois da manutenção de 2026-12-10; os avisos oficiais usaram KST e UTC, então confirme o aviso vigente. Reabra o aviso mais recente da Steam/STOVE antes de agendar atividades de guilda; patches podem mover as janelas.",
       "gw_prep_h3": "Checklist antes da abertura",
       "gw_prep": [
         "A implantação é 2026-11-19 introdução, 2026-11-21 03:00 UTC equipe de defesa e 2026-11-23 03:00 UTC matchmaking. Não planeje como um único desbloqueio em 11/21.",
@@ -9170,12 +9170,12 @@ export const CONTENT = {
         [
           "Guild War (eingeführt 11/19 · Verteidigung 11/21 · Matchmaking 11/23)",
           "11/19 nach Wartung",
-          "laufend"
+          "geplant"
         ],
         [
           "World Arena",
           "12/10 nach Wartung",
-          "laufend"
+          "geplant"
         ]
       ],
       "buff_h2": "Starter-Support-Buffs",
@@ -9229,7 +9229,7 @@ export const CONTENT = {
         ],
         [
           "Kann ich nach dem Transfer Guild War auf dem Alt-Server spielen?",
-          "Der Login-Transfer belässt deinen Charakter auf dem Alt-Server, wo er ist. Guild War auf Foundry ist eine Freischaltung auf Foundry-Seite (~2026-11-21 03:00 UTC laut STOVE). Ein Alt-Server-Erbe nimmt nicht automatisch am Foundry-GW teil; du brauchst einen Foundry-Charakter. Siehe den Guild-War-Abschnitt oben und die STOVE-Foundry-Hinweise."
+          "Der Login-Transfer belässt deinen Charakter auf dem Alt-Server, wo er ist. Guild War auf Foundry ist eine Freischaltung auf Foundry-Seite (Einführung 11/19; Verteidigung 11/21 03:00 UTC; Matchmaking 11/23 03:00 UTC). Ein Alt-Server-Erbe nimmt nicht automatisch am Foundry-GW teil; du brauchst einen Foundry-Charakter. Siehe den Guild-War-Abschnitt oben und die STOVE-Foundry-Hinweise."
         ],
         [
           "Gibt es Foundry-Codes zum Einlösen?",
@@ -9254,7 +9254,7 @@ export const CONTENT = {
       "gw_h2": "Guild War auf Foundry",
       "gw_answer": "Auf Foundry ist Guild War ein stufenweiser Rollout, kein einzelner Freischaltungstag. Laut Steam-Hinweis vom 2026-11-07: Einführung am 2026-11-19; Verteidigungsteam am 2026-11-21 03:00 UTC (11:00 in Shanghai); Guild-War-Matchmaking am 2026-11-23 03:00 UTC (11:00 in Shanghai). Tritt früh einer Foundry-Gilde bei oder gründe eine und erledige die täglichen Gilden-Inhalte. GW ist eine Foundry-Funktion, getrennt vom Account-Transfer; ein Login-Transfer meldet keinen Legacy-Heir automatisch für Foundry GW an. Termine können sich nach der Wartung verschieben; zitiere den Steam-/STOVE-Hinweis.",
       "gw_unlock_h3": "Freischaltungsstufen",
-      "gw_unlock": "Der Steam-Hinweis vom 2026-11-07 teilt den Rollout in drei Meilensteine: (1) 2026-11-19 wird Guild War auf Foundry eingeführt; (2) 2026-11-21 03:00 UTC (11:00 in Shanghai) Verteidigungsteam; (3) 2026-11-23 03:00 UTC (11:00 in Shanghai) Guild-War-Matchmaking. Draft Arena öffnete mit dem Steam-Launch-Fenster; World Arena ist nach der Wartung am 2026-12-10 (UTC) angegeben. Öffne immer den aktuellen Steam-/STOVE-Hinweis neu, bevor du Gilden-Aktivitäten planst — Patches können Zeitfenster verschieben.",
+      "gw_unlock": "Der Steam-Hinweis vom 2026-11-07 teilt den Rollout in drei Meilensteine: (1) 2026-11-19 wird Guild War auf Foundry eingeführt; (2) 2026-11-21 03:00 UTC (11:00 in Shanghai) Verteidigungsteam; (3) 2026-11-23 03:00 UTC (11:00 in Shanghai) Guild-War-Matchmaking. Draft Arena öffnete mit dem Steam-Launch-Fenster; World Arena ist nach der Wartung am 2026-12-10 angegeben; offizielle Hinweise nannten KST und UTC — prüfe den jeweils gültigen Hinweis. Öffne immer den aktuellen Steam-/STOVE-Hinweis neu, bevor du Gilden-Aktivitäten planst — Patches können Zeitfenster verschieben.",
       "gw_prep_h3": "Checkliste vor der Öffnung",
       "gw_prep": [
         "Der Rollout ist 2026-11-19 Einführung, 2026-11-21 03:00 UTC Verteidigungsteam und 2026-11-23 03:00 UTC Matchmaking. Plane nicht mit einem einzigen Freischaltungstag am 11/21.",
@@ -9481,12 +9481,12 @@ export const CONTENT = {
         [
           "Guild War (introduite 11/19 · défense 11/21 · matchmaking 11/23)",
           "11/19 après maintenance",
-          "en cours"
+          "programmé"
         ],
         [
           "World Arena",
           "12/10 après maintenance",
-          "en cours"
+          "programmé"
         ]
       ],
       "buff_h2": "Buffs de soutien au départ",
@@ -9540,7 +9540,7 @@ export const CONTENT = {
         ],
         [
           "Puis-je jouer la Guild War sur l’ancien serveur après le transfert ?",
-          "Le transfert de connexion conserve votre personnage de l’ancien serveur là où il était. La Guild War de Foundry se débloque côté Foundry (~2026-11-21 03:00 UTC selon STOVE). Un Héritier d’un ancien serveur ne rejoint pas automatiquement la GW Foundry ; il vous faut un personnage Foundry. Voir la section Guild War ci-dessus et les avis Foundry sur STOVE."
+          "Le transfert de connexion conserve votre personnage de l’ancien serveur là où il était. La Guild War de Foundry se débloque côté Foundry (introduction 11/19 ; défense 11/21 03:00 UTC ; matchmaking 11/23 03:00 UTC). Un Héritier d’un ancien serveur ne rejoint pas automatiquement la GW Foundry ; il vous faut un personnage Foundry. Voir la section Guild War ci-dessus et les avis Foundry sur STOVE."
         ],
         [
           "Y a-t-il des codes Foundry à utiliser ?",
@@ -9565,7 +9565,7 @@ export const CONTENT = {
       "gw_h2": "La Guild War sur Foundry",
       "gw_answer": "Sur Foundry, la Guild War est un déploiement par étapes, pas un seul jour de déblocage. Selon l’avis Steam du 2026-11-07 : introduction le 2026-11-19 ; équipe de défense le 2026-11-21 03:00 UTC (11:00 à Shanghai) ; matchmaking le 2026-11-23 03:00 UTC (11:00 à Shanghai). Rejoignez ou créez tôt une guilde Foundry et faites le contenu de guilde quotidien. La GW est une fonction côté Foundry, distincte du transfert de compte ; le transfert de connexion n’inscrit pas automatiquement un Héritier legacy dans la GW Foundry. Les dates peuvent changer après maintenance ; citez l’avis Steam/STOVE.",
       "gw_unlock_h3": "Étapes de déblocage",
-      "gw_unlock": "L’avis Steam du 2026-11-07 divise le déploiement en trois étapes : (1) 2026-11-19, introduction de la Guild War sur Foundry ; (2) 2026-11-21 03:00 UTC (11:00 à Shanghai), équipe de défense ; (3) 2026-11-23 03:00 UTC (11:00 à Shanghai), matchmaking de la Guild War. La Draft Arena a ouvert avec la fenêtre de lancement Steam ; la World Arena est annoncée après la maintenance du 2026-12-10 (UTC). Rouvrez toujours l’avis Steam/STOVE le plus récent avant de planifier des activités de guilde — les patchs peuvent déplacer les fenêtres.",
+      "gw_unlock": "L’avis Steam du 2026-11-07 divise le déploiement en trois étapes : (1) 2026-11-19, introduction de la Guild War sur Foundry ; (2) 2026-11-21 03:00 UTC (11:00 à Shanghai), équipe de défense ; (3) 2026-11-23 03:00 UTC (11:00 à Shanghai), matchmaking de la Guild War. La Draft Arena a ouvert avec la fenêtre de lancement Steam ; la World Arena est annoncée après la maintenance du 2026-12-10 ; les avis officiels indiquent KST et UTC — vérifiez l’avis en vigueur. Rouvrez toujours l’avis Steam/STOVE le plus récent avant de planifier des activités de guilde — les patchs peuvent déplacer les fenêtres.",
       "gw_prep_h3": "Checklist avant ouverture",
       "gw_prep": [
         "Le déploiement est 2026-11-19 introduction, 2026-11-21 03:00 UTC équipe de défense et 2026-11-23 03:00 UTC matchmaking. Ne planifiez pas un seul déblocage le 11/21.",
@@ -9792,12 +9792,12 @@ export const CONTENT = {
         [
           "Guild War (wprowadzenie 11/19 · obrona 11/21 · matchmaking 11/23)",
           "11/19 po konserwacji",
-          "trwa"
+          "zaplanowano"
         ],
         [
           "World Arena",
           "12/10 po konserwacji",
-          "trwa"
+          "zaplanowano"
         ]
       ],
       "buff_h2": "Buffy wsparcia startowego",
@@ -9851,7 +9851,7 @@ export const CONTENT = {
         ],
         [
           "Czy po transferze mogę grać Guild War na starym serwerze?",
-          "Transfer logowania zostawia starą postać na jej serwerze. Guild War na Foundry to odblokowanie po stronie Foundry (~2026-11-21 03:00 UTC według STOVE). Stary Dziedzic nie dołącza automatycznie do GW na Foundry; potrzebujesz postaci z Foundry. Zobacz sekcję Guild War powyżej i ogłoszenia STOVE o Foundry."
+          "Transfer logowania zostawia starą postać na jej serwerze. Guild War na Foundry to odblokowanie po stronie Foundry (wprowadzenie 11/19; obrona 11/21 03:00 UTC; matchmaking 11/23 03:00 UTC). Stary Dziedzic nie dołącza automatycznie do GW na Foundry; potrzebujesz postaci z Foundry. Zobacz sekcję Guild War powyżej i ogłoszenia STOVE o Foundry."
         ],
         [
           "Czy są kody Foundry do odebrania?",
@@ -9876,7 +9876,7 @@ export const CONTENT = {
       "gw_h2": "Guild War na Foundry",
       "gw_answer": "Na Foundry Guild War jest wdrażana etapami, a nie w jednym dniu odblokowania. Według ogłoszenia Steam z 2026-11-07: wprowadzenie 2026-11-19; drużyna obrony 2026-11-21 03:00 UTC (11:00 w Szanghaju); matchmaking Guild War 2026-11-23 03:00 UTC (11:00 w Szanghaju). Dołącz lub utwórz wcześnie gildię Foundry i wykonuj dzienne treści gildii. GW to funkcja po stronie Foundry, osobna od transferu konta; transfer logowania nie zapisuje automatycznie dziedzica legacy do Foundry GW. Daty mogą się zmienić po konserwacji; cytuj ogłoszenie Steam/STOVE.",
       "gw_unlock_h3": "Etapy odblokowania",
-      "gw_unlock": "Ogłoszenie Steam z 2026-11-07 dzieli wdrożenie na trzy etapy: (1) 2026-11-19 Guild War zostaje wprowadzona na Foundry; (2) 2026-11-21 03:00 UTC (11:00 w Szanghaju) drużyna obrony; (3) 2026-11-23 03:00 UTC (11:00 w Szanghaju) matchmaking Guild War. Draft Arena otworzyła się w oknie premiery Steam; World Arena jest wymieniona po konserwacji 2026-12-10 (UTC). Zawsze otwórz ponownie najnowsze ogłoszenie Steam/STOVE przed planowaniem aktywności gildii — patche mogą przesuwać okna.",
+      "gw_unlock": "Ogłoszenie Steam z 2026-11-07 dzieli wdrożenie na trzy etapy: (1) 2026-11-19 Guild War zostaje wprowadzona na Foundry; (2) 2026-11-21 03:00 UTC (11:00 w Szanghaju) drużyna obrony; (3) 2026-11-23 03:00 UTC (11:00 w Szanghaju) matchmaking Guild War. Draft Arena otworzyła się w oknie premiery Steam; World Arena jest wymieniona po konserwacji 2026-12-10; oficjalne ogłoszenia podają KST i UTC — sprawdź obowiązujące ogłoszenie. Zawsze otwórz ponownie najnowsze ogłoszenie Steam/STOVE przed planowaniem aktywności gildii — patche mogą przesuwać okna.",
       "gw_prep_h3": "Lista kontrolna przed otwarciem",
       "gw_prep": [
         "Wdrożenie to 2026-11-19 wprowadzenie, 2026-11-21 03:00 UTC drużyna obrony i 2026-11-23 03:00 UTC matchmaking. Nie planuj jednego odblokowania 11/21.",
@@ -10839,7 +10839,7 @@ export const CONTENT = {
       ],
       "cont": "주간 점검 후 지속 갱신.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "Steam·파운드리는 2026-10-29 오픈. 길드전 2026-11-21, WA는 2026-12-10 점검 후. STOVE/Steam 요약 — 전체 패치 미러 아님."
+      "answer": "Steam·파운드리는 2026-10-29 오픈. 길드전은 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭. WA는 2026-12-10 점검 후(공식 공지는 KST와 UTC를 각각 표기). STOVE/Steam 요약 — 전체 패치 미러 아님."
     },
     "ja": {
       "title": "更新 — 英雄＆イベント",
@@ -10870,7 +10870,7 @@ export const CONTENT = {
       ],
       "cont": "週次メンテ後に継続更新。",
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "Steam・ファウンドリは2026-10-29開放。GW 2026-11-21、WAは2026-12-10メンテ後。STOVE/Steam要約 — 完全パッチミラーではない。"
+      "answer": "Steam・ファウンドリは2026-10-29開放。ギルド戦は2026-11-19導入、2026-11-21 03:00 UTC 防衛チーム、2026-11-23 03:00 UTC マッチング。WAは2026-12-10メンテ後（公式告知はKSTとUTCを別々に表記）。STOVE/Steam要約 — 完全パッチミラーではない。"
     },
     "zh-tw": {
       "title": "更新 — 英雄與活動",
@@ -10901,7 +10901,7 @@ export const CONTENT = {
       ],
       "cont": "每週維護後持續更新。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "Steam 與 Foundry 於 2026-10-29 開服；公會戰 2026-11-21，WA 於 2026-12-10 維護後。摘要自 STOVE／Steam——非完整補丁鏡像。"
+      "answer": "Steam 與 Foundry 於 2026-10-29 開服；公會戰 2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對，WA 於 2026-12-10 維護後（官方公告分別標過 KST 與 UTC）。摘要自 STOVE／Steam——非完整補丁鏡像。"
     },
     "th": {
       "title": "อัปเดต Epic Seven — ฮีโร่และอีเวนต์",
@@ -10932,7 +10932,7 @@ export const CONTENT = {
       ],
       "cont": "อัปเดตต่อเนื่อง — ตรวจหลังปิดปรับปรุงรายสัปดาห์",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "Steam เปิดตัวและ Foundry เปิดเมื่อ 2026-10-29; จับตา Guild War 2026-11-21 และ World Arena หลังปิดปรับปรุง 2026-12-10 สรุปอ้างอิง STOVE/Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด"
+      "answer": "Steam เปิดตัวและ Foundry เปิดเมื่อ 2026-10-29; Guild War เปิดตัว 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; World Arena หลังปิดปรับปรุง 2026-12-10 (ประกาศทางการระบุทั้ง KST และ UTC) สรุปอ้างอิง STOVE/Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด"
     },
     "es": {
       "title": "Actualizaciones de Epic Seven — héroes y eventos",
@@ -10963,7 +10963,7 @@ export const CONTENT = {
       ],
       "cont": "Actualizado de forma continua: consulta tras el mantenimiento semanal.",
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "El lanzamiento en Steam y Foundry se abrieron el 2026-10-29; atento a Guild War el 2026-11-21 y a World Arena tras el mantenimiento del 2026-12-10. Los resúmenes citan STOVE y Steam; no somos un espejo completo de los parches."
+      "answer": "El lanzamiento en Steam y Foundry se abrieron el 2026-10-29; Guild War se introduce el 2026-11-19, el equipo de defensa se forma el 2026-11-21 03:00 UTC y el matchmaking abre el 2026-11-23 03:00 UTC; World Arena tras el mantenimiento del 2026-12-10 (los avisos oficiales usaron KST y UTC). Los resúmenes citan STOVE y Steam; no somos un espejo completo de los parches."
     },
     "pt": {
       "title": "Atualizações de Epic Seven — heróis e eventos",
@@ -10994,7 +10994,7 @@ export const CONTENT = {
       ],
       "cont": "Atualizado continuamente — confira após a manutenção semanal.",
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "O lançamento no Steam e o Foundry abriram em 2026-10-29; acompanhe a Guild War em 2026-11-21 e a World Arena após a manutenção de 2026-12-10. Os resumos citam STOVE/Steam — não é um espelho completo de patch."
+      "answer": "O lançamento no Steam e o Foundry abriram em 2026-10-29; a Guild War é introduzida em 2026-11-19, a equipe de defesa em 2026-11-21 03:00 UTC e o matchmaking em 2026-11-23 03:00 UTC; a World Arena após a manutenção de 2026-12-10 (avisos oficiais usaram KST e UTC). Os resumos citam STOVE/Steam — não é um espelho completo de patch."
     },
     "de": {
       "title": "Epic Seven Updates — Helden & Events",
@@ -11025,7 +11025,7 @@ export const CONTENT = {
       ],
       "cont": "Wird laufend aktualisiert — schau nach der wöchentlichen Wartung vorbei.",
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Steam-Launch und Foundry-Start waren am 2026-10-29; behalte Guild War am 2026-11-21 und World Arena nach der Wartung am 2026-12-10 im Blick. Zusammenfassungen zitieren STOVE/Steam — kein vollständiger Patch-Spiegel."
+      "answer": "Steam-Launch und Foundry-Start waren am 2026-10-29; Guild War wird am 2026-11-19 eingeführt, das Verteidigungsteam am 2026-11-21 03:00 UTC gebildet und das Matchmaking am 2026-11-23 03:00 UTC geöffnet; World Arena nach der Wartung am 2026-12-10 (offizielle Hinweise nannten KST und UTC). Zusammenfassungen zitieren STOVE/Steam — kein vollständiger Patch-Spiegel."
     },
     "fr": {
       "title": "Mises à jour Epic Seven — héros et événements",
@@ -11056,7 +11056,7 @@ export const CONTENT = {
       ],
       "cont": "Mise à jour continue — vérifiez après chaque maintenance hebdomadaire.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Le lancement Steam et Foundry ont ouvert le 2026-10-29 ; surveillez Guild War le 2026-11-21 et World Arena après la maintenance du 2026-12-10. Les résumés citent STOVE/Steam — pas un miroir complet des correctifs."
+      "answer": "Le lancement Steam et Foundry ont ouvert le 2026-10-29 ; la Guild War est introduite le 2026-11-19, l’équipe de défense se forme le 2026-11-21 03:00 UTC et le matchmaking ouvre le 2026-11-23 03:00 UTC ; World Arena après la maintenance du 2026-12-10 (les avis officiels indiquent KST et UTC). Les résumés citent STOVE/Steam — pas un miroir complet des correctifs."
     },
     "pl": {
       "title": "Aktualizacje Epic Seven — bohaterowie i wydarzenia",
@@ -11087,7 +11087,7 @@ export const CONTENT = {
       ],
       "cont": "Aktualizowane na bieżąco — sprawdzaj po cotygodniowej konserwacji.",
       "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
-      "answer": "Premiera Steam i Foundry 2026-10-29; obserwuj Guild War 2026-11-21 i World Arena po konserwacji 2026-12-10. Podsumowania cytują STOVE/Steam — to nie pełne lustro patcha."
+      "answer": "Premiera Steam i Foundry 2026-10-29; Guild War zostaje wprowadzona 2026-11-19, drużyna obrony powstaje 2026-11-21 03:00 UTC, matchmaking otwiera się 2026-11-23 03:00 UTC; World Arena po konserwacji 2026-12-10 (oficjalne ogłoszenia podają KST i UTC). Podsumowania cytują STOVE/Steam — to nie pełne lustro patcha."
     }
   },
   "/maintenance/": {
@@ -11131,7 +11131,7 @@ export const CONTENT = {
             "Steam intermittent launch / cannot enter game — fixed.",
             "Foundry shop briefly mis-showed unreleased items — fixed.",
             "Secret Rabbit♥Hole stray text — fixed.",
-            "Sources: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Sources: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11178,7 +11178,7 @@ export const CONTENT = {
             "Steam 간헐적 실행/입장 불가 — 수정.",
             "파운드리 상점에 미출시 아이템이 잠시 노출 — 수정.",
             "Secret Rabbit♥Hole 불필요 문구 — 수정.",
-            "출처: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "출처: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11225,7 +11225,7 @@ export const CONTENT = {
             "Steamの起動が断続的に失敗／ゲームに入れない — 修正。",
             "ファウンドリ商店に未発売アイテムが一時表示 — 修正。",
             "Secret Rabbit♥Holeの不要テキスト — 修正。",
-            "出典：https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "出典：https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11272,7 +11272,7 @@ export const CONTENT = {
             "Steam 間歇性無法啟動／進入遊戲——已修正。",
             "Foundry 商店短暫誤顯未上架商品——已修正。",
             "Secret Rabbit♥Hole 殘留文字——已修正。",
-            "來源：https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "來源：https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11319,7 +11319,7 @@ export const CONTENT = {
             "Steam เปิดเกมไม่ติดเป็นช่วง ๆ / เข้าเกมไม่ได้ — แก้ไขแล้ว",
             "ร้านค้า Foundry แสดงไอเท็มที่ยังไม่วางขายชั่วคราว — แก้ไขแล้ว",
             "ข้อความหลงเหลือใน Secret Rabbit♥Hole — แก้ไขแล้ว",
-            "แหล่งที่มา: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "แหล่งที่มา: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11366,7 +11366,7 @@ export const CONTENT = {
             "Fallos intermitentes de inicio de Steam / imposibilidad de entrar al juego: corregido.",
             "La tienda de Foundry mostró brevemente objetos no lanzados: corregido.",
             "Texto sobrante en Secret Rabbit♥Hole: corregido.",
-            "Fuentes: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Fuentes: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11413,7 +11413,7 @@ export const CONTENT = {
             "Falhas intermitentes de inicialização do Steam / impossibilidade de entrar no jogo — corrigido.",
             "A loja do Foundry exibiu brevemente itens não lançados — corrigido.",
             "Texto residual em Secret Rabbit♥Hole — corrigido.",
-            "Fontes: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Fontes: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11460,7 +11460,7 @@ export const CONTENT = {
             "Steam startet zeitweise nicht / kein Eintritt ins Spiel — behoben.",
             "Foundry-Shop zeigte kurz nicht veröffentlichte Items — behoben.",
             "Übrig gebliebener Text in Secret Rabbit♥Hole — behoben.",
-            "Quellen: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Quellen: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11507,7 +11507,7 @@ export const CONTENT = {
             "Échecs intermittents de lancement Steam / impossible d'entrer dans le jeu — corrigé.",
             "La boutique Foundry a brièvement affiché des objets non sortis — corrigé.",
             "Texte résiduel dans Secret Rabbit♥Hole — corrigé.",
-            "Sources : https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Sources : https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [
@@ -11554,7 +11554,7 @@ export const CONTENT = {
             "Sporadyczne błędy uruchamiania Steam / brak wejścia do gry — naprawione.",
             "Sklep Foundry przez chwilę błędnie pokazywał niewydane przedmioty — naprawione.",
             "Zbłąkany tekst w Secret Rabbit♥Hole — naprawione.",
-            "Źródła: https://epic7db.com/news/115-thu-patch-information · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Źródła: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
           ]
         ],
         [

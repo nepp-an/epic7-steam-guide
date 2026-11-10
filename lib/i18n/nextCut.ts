@@ -1,10 +1,10 @@
 import type { Locale } from '@/lib/site';
 
 /** Verification day for this content cut. Do not bump only to look fresh. */
-export const VERIFIED_DATE = '2026-11-07';
+export const VERIFIED_DATE = '2026-11-10';
 
 /** Foundry page re-checked against the 2026-11-07 Steam Guild War notice. */
-export const FOUNDRY_VERIFIED_DATE = '2026-11-09';
+export const FOUNDRY_VERIFIED_DATE = '2026-11-10';
 
 /** Case Files page verified against the STOVE event notices. */
 export const CASE_FILES_VERIFIED_DATE = '2026-11-09';

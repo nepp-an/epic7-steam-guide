@@ -13,7 +13,6 @@ export const metadata: Metadata = pageMetadata({
   path: PATH,
   locale: LOCALE,
   absoluteTitle: true,
-  ogImage: '/images/diagram-foundry-calendar.webp',
 });
 
 export default function Page() {

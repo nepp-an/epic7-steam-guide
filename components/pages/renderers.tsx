@@ -530,7 +530,7 @@ export function HomeView({ locale }: { locale: Locale }) {
               '/download/',
               dl.h1,
               dl.hub_blurb ?? dl.lead,
-              '/images/steam-header.webp',
+              '',
             ] as const,
           ].filter(Boolean) as readonly (readonly string[])[];
           const primaryHrefs = new Set(primary.map((h) => h[0]));
@@ -545,14 +545,18 @@ export function HomeView({ locale }: { locale: Locale }) {
                     href={href}
                     className="hub-card hub-card-primary"
                   >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={img}
-                      alt=""
-                      width={IMAGE_SIZE[img]?.[0] ?? 1100}
-                      height={IMAGE_SIZE[img]?.[1] ?? 300}
-                      loading="lazy"
-                    />
+                    {img ? (
+                      <>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={img}
+                          alt=""
+                          width={IMAGE_SIZE[img]?.[0] ?? 1100}
+                          height={IMAGE_SIZE[img]?.[1] ?? 300}
+                          loading="lazy"
+                        />
+                      </>
+                    ) : null}
                     <div className="hub-card-body">
                       <strong>{title}</strong>
                       <span>{blurb}</span>
@@ -593,16 +597,6 @@ export function HomeView({ locale }: { locale: Locale }) {
           ))}
         </ol>
       </section>
-      <Fig
-        src="/images/steam-header.webp"
-        alt={c.img_header_alt}
-        credit="Steam store header · app 5019180 · Steam CDN (fair citation)"
-      />
-      <Fig
-        src="/images/steam-ss-battle.webp"
-        alt={c.img_ss_alt}
-        credit="Steam store screenshot · Steam CDN"
-      />
       <section id="faq" className="faq">
         <h2>{c.faq_h2}</h2>
         {c.faqs.map(([q, a], i) => (
@@ -735,16 +729,6 @@ export function DownloadView({ locale }: { locale: Locale }) {
         doneText={CHECKLIST_COPY[locale].downloadDone}
         officialHref={OFFICIAL.steamStore}
         officialLabel="Steam app 5019180"
-      />
-      <Fig
-        src="/images/steam-header.webp"
-        alt={c.img_alt}
-        credit="Steam store header · app 5019180 · Steam CDN"
-      />
-      <Fig
-        src="/images/steam-capsule.webp"
-        alt={c.img_cap_alt}
-        credit="Steam capsule · Steam CDN"
       />
       <h2>{c.after_h2}</h2>
       <ul>
@@ -1008,11 +992,6 @@ export function DemoView({ locale }: { locale: Locale }) {
         src="/images/diagram-demo-dodont.webp"
         alt={c.img_alt2}
         credit="Unofficial Do/Don't diagram · epicsevensteam.com"
-      />
-      <Fig
-        src="/images/steam-capsule.webp"
-        alt={c.img_alt3}
-        credit="Steam store capsule · Steam CDN"
       />
       <div className="card warn">
         <p>
@@ -1342,16 +1321,6 @@ export function FoundryView({ locale }: { locale: Locale }) {
         </tbody>
       </table>
       <Fig
-        src="/images/diagram-foundry-calendar.webp"
-        alt={c.img_alt}
-        credit="Unofficial Foundry calendar · cite STOVE"
-      />
-      <Fig
-        src="/images/steam-ss-world.webp"
-        alt={c.img_ss_alt}
-        credit="Steam store screenshot · Steam CDN"
-      />
-      <Fig
         src="/images/diagram-foundry-vs-transfer.webp"
         alt={c.img_alt2}
         credit="Unofficial Transfer vs Foundry comparison · epicsevensteam.com"
@@ -1612,11 +1581,6 @@ export function BannersView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
-      <Fig
-        src="/images/steam-ss-heroes.webp"
-        alt={c.img_alt}
-        credit="Steam store screenshot · Steam CDN"
-      />
       <p>{c.lead}</p>
       <article className="card pickup">
         <p className="as-of">{c.pickup_kicker}</p>
@@ -1688,11 +1652,6 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
-      <Fig
-        src="/images/steam-header.webp"
-        alt={c.img_alt}
-        credit="Steam store header · Steam CDN"
-      />
       <p>{c.lead}</p>
       {c.cards.map(([title, bullets, src]) => (
         <article className="card" key={title}>
@@ -1731,11 +1690,6 @@ export function MaintenanceView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} locale={locale} rich />
-      <Fig
-        src="/images/steam-capsule.webp"
-        alt={c.img_alt}
-        credit="Steam capsule · Steam CDN"
-      />
       <p>{c.lead}</p>
       {c.cards.map(([title, bullets]) => (
         <article className="card" key={title}>
@@ -1954,11 +1908,6 @@ export function HeroesView({ locale }: { locale: Locale }) {
         <span className="chip chip-role">Thief</span>
       </div>
       <Fig
-        src="/images/steam-ss-heroes.webp"
-        alt={c.img_ss_alt}
-        credit="Steam store screenshot · Steam CDN"
-      />
-      <Fig
         src="/images/diagram-heroes-compare.webp"
         alt={c.img_alt3}
         credit="Unofficial role focus schematic · epicsevensteam.com"
@@ -1990,15 +1939,6 @@ export function HeroesView({ locale }: { locale: Locale }) {
             <div className="hero-grid">
               {list.map(([slug, name, role, el, brief, _group, prio]) => (
                 <article key={slug} id={slug} className="hero-card card">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    className="hero-avatar"
-                    src={`/images/avatars/${slug}.webp`}
-                    alt={`${name}${c.avatar_alt_suffix}`}
-                    width={160}
-                    height={160}
-                    loading="lazy"
-                  />
                   <div className="hero-card-main">
                     <h3>
                       <a href={`#${slug}`}>{name}</a>
@@ -2153,11 +2093,6 @@ export function QuestsView({ locale }: { locale: Locale }) {
         src="/images/diagram-quests.webp"
         alt={c.img_alt}
         credit="Unofficial quest rhythm diagram"
-      />
-      <Fig
-        src="/images/steam-ss-world.webp"
-        alt={c.img_ss_alt}
-        credit="Steam store screenshot · Steam CDN"
       />
       <Fig
         src="/images/diagram-quests-foundry-delta.webp"
@@ -2398,11 +2333,6 @@ export function TierListView({ locale }: { locale: Locale }) {
           <Link href="/tier-list/">tier-list resource page</Link>.
         </p>
       )}
-      <Fig
-        src="/images/steam-ss-battle.webp"
-        alt={c.img_alt_battle}
-        credit="Steam store screenshot · app 5019180 · Steam CDN"
-      />
       <p>{c.lead}</p>
 
       <section id="steam-lens">
@@ -2425,11 +2355,6 @@ export function TierListView({ locale }: { locale: Locale }) {
       <section id="steam-constraints">
         <h2>{c.constraints_h2}</h2>
         <p>{c.constraints_intro}</p>
-        <Fig
-          src="/images/diagram-foundry-calendar.webp"
-          alt={c.img_alt_calendar}
-          credit="Unofficial Foundry calendar · cite STOVE dates"
-        />
         <ul>
           {c.constraints.map((item) => (
             <li key={item.slice(0, 40)}>
