@@ -4,6 +4,7 @@
 - Repo: `/workspace/cf-migrate/epic7-steam-guide`
 - Branch: `master`
 - Starting HEAD: `e41373ad0d01b14ccc943f0de0abe3db8cadc72c` (clean; includes the 18:21 approved EN TL;DR narrow fix)
+- Content commit: `0915b0c4dba3ecf985d899422661b5942b8da539` (this STATUS file was committed immediately after it)
 - Task type: narrow E7 content/image correction after DTS 11-skills delivery. No DTS/OCA, no CloudAgent, no second dsh, no GSC/IndexNow/keyword expansion/new domain/paid image API/author invention, no real account Convert/closure/deletion.
 - Deploy path: GitHub `master` → Cloudflare Pages. No direct CF upload was done by this session.
 
@@ -17,7 +18,7 @@ This STATUS is written before the commit, so it does not contain its own commit 
 - Spanish / Portuguese / German / French / Polish: **PASS** — transfer, FAQ, download, demo warning, Steam notes and home field aligned; no new language shell and no invented condition.
 - Korean / Traditional Chinese / Thai: **PASS** — their transfer and FAQ bodies were already Convert-correct; the shared diagram now matches them. No unnecessary body rewrite.
 - Build: **PASS** — `npm run build` exit 0, including `fix-html-lang: updated 172 HTML files`.
-- Push: attempted; see section 8. If the sandbox has no credential, the commit is left clean for the outer dispatcher.
+- Push: attempted; failed with `fatal: could not read Username for 'https://github.com': No such device or address`. The commit is left clean for the outer dispatcher; see section 10.
 
 No row below is a batch-level PASS; each URL has its own gap and evidence.
 
@@ -182,7 +183,7 @@ Compared old HEAD vs current content object for `/steam-transfer/` `en`:
 - No DTS/OCA files were touched. No CloudAgent, no direct Cloudflare upload, no amend/reset/rebase/force.
 - `git diff --check` exit 0.
 
-## 10. Build and out evidence
+## 10. Build, out evidence, push
 
 - `npm run build`: **exit 0** after the final content change.
 - Postbuild: `fix-html-lang: updated 172 HTML files`.
@@ -191,6 +192,7 @@ Compared old HEAD vs current content object for `/steam-transfer/` `en`:
 - Old instructional phrases (`withdraw-then-convert`, `withdraw→convert`, `retirar y luego convertir`, `retirar→convertir`, `retirar e depois converter`, `Zurückziehen→Umstellen`, `retrait→conversion`, `wycofaj→przekonwertuj`) were searched in `out/**/*.html`: zero matches.
 - “3-month” occurrences in built output were inspected; remaining occurrences are negative statements (“not a uniform 3-month rule”, “does not state”, “ではありません”, etc.).
 - The QA does **not** claim a browser visual pass; `curl`/HTML text is not used as a browser-visual PASS. Diagram visual evidence is the native-size `read_image` read described in section 2.
+- `git push origin master` was attempted after the commit. It stopped before contacting the remote with `fatal: could not read Username for 'https://github.com': No such device or address` (exit 128). No credential was available in this sandbox; no force, amend, reset or rebase was used. The local `master` commit is clean and ready for the outer dispatcher to push. Cloudflare Pages therefore was not triggered by this session.
 
 ## 11. Remaining legacy / limitations (not claimed as fixed)
 
