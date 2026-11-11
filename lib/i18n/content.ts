@@ -2907,22 +2907,22 @@ export const CONTENT = {
   },
   "/demo-delete-warning/": {
     "en": {
-      "title": "Steam demo — do not delete in-game account after transfer",
+      "title": "Epic Seven demo wipe: don't delete",
       "meta": "Warning: Epic Seven Steam demo in-game deletion after Steam login transfer can wipe original-server progress. Cite STOVE.",
-      "h1": "Steam demo: account deletion risk",
+      "h1": "Epic Seven Steam demo: delete after transfer can wipe progress",
       "warn_title": "Official precaution (paraphrased):",
       "warn": "If you transferred your existing Epic Seven login to Steam Login, then used in-game account deletion in the Steam demo, all account data — including progress on the original server — can be deleted.",
       "do_h2": "What to do",
       "dos": [
-        "If Steam created an empty linked account, do not withdraw it — log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original.",
+        "If Steam created an empty linked account, do not delete it — use the Convert sequence in the transfer guide: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original.",
         "Install/play the full Steam release (app 5019180) instead of relying on demo leftovers.",
         "Re-read STOVE demo precaution https://page.onstove.com/epicseven/global/view/14581667 before any delete UI.",
         "Keep this site’s transfer guide open while you work — unofficial, cite STOVE."
       ],
       "diff_h2": "How this differs from the official Convert recovery",
-      "diff": "The official recovery for a wrong Steam-linked empty account is Convert, not withdrawal: log in to STOVE with that Steam account, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. In-game account deletion on the demo/client after a Steam login transfer is the danger called out in STOVE’s demo precaution — do not confuse the two.",
+      "diff": "The official recovery for a wrong Steam-linked empty account is Convert, not in-game deletion: log in to STOVE with that Steam account, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. In-game account deletion on the demo/client after a Steam login transfer is the danger called out in STOVE’s demo precaution — do not confuse the two.",
       "related_h2": "Related",
-      "answer": "After you transfer an existing Epic Seven login to Steam Login, do not use in-game account deletion on the Steam demo/client. Official STOVE precaution states that can wipe account data, including progress on the original server. For a wrong-bind, use the official Convert sequence on the transfer guide — do not withdraw the temporary account — and confirm wording on STOVE before acting. Unofficial warning page.",
+      "answer": "After you transfer an existing Epic Seven login to Steam Login, do not use in-game account deletion on the Steam demo/client. Official STOVE precaution states that can wipe account data, including progress on the original server. For a wrong-bind, use the official Convert sequence on the transfer guide — do not delete the temporary account — and confirm wording on STOVE before acting. Unofficial warning page.",
       "img_alt": "Unofficial diagram: never delete after Steam transfer",
       "table_h2": "Do / Don't",
       "th": [
@@ -9977,7 +9977,7 @@ export const CONTENT = {
   },
   "/secret-rabbit-hole/": {
     "en": {
-      "title": "Secret Rabbit♥Hole side story & events",
+      "title": "Secret Rabbit♥Hole — Epic Seven Case Files",
       "meta": "Six-week side story, Alencia Case Files, Lucky Board, lobby pack. Independent overview citing STOVE.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Special side story with the Steam / Foundry launch window. Enter via lobby Secret Rabbit♥Hole icon. Summaries cite STOVE — schedules can change in-game.",

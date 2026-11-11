@@ -1607,6 +1607,14 @@ export function RabbitView({ locale }: { locale: Locale }) {
     <PageShell locale={locale} path="/secret-rabbit-hole/">
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      {locale === 'en' ? (
+        <p className="answer">
+          <strong>Case Files:</strong>{' '}
+          <L locale={locale} href="/case-files/">
+            Case Files guide (Steam)
+          </L>
+        </p>
+      ) : null}
       <div className="card warn">
         <h2>{c.deadline_h2}</h2>
         <p>{c.deadline_text}</p>
@@ -1661,13 +1669,6 @@ export function RabbitView({ locale }: { locale: Locale }) {
             Banners
           </L>
         </li>
-        {locale === 'en' ? (
-          <li>
-            <L locale={locale} href="/case-files/">
-              Case Files guide (Steam)
-            </L>
-          </li>
-        ) : null}
       </ul>
     </PageShell>
   );
