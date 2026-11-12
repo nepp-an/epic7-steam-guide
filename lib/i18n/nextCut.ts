@@ -7,10 +7,10 @@ export const VERIFIED_DATE = '2026-11-10';
 export const TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE = '2026-11-07';
 
 /** Foundry page re-checked against the 2026-11-07 Steam Guild War notice. */
-export const FOUNDRY_VERIFIED_DATE = '2026-11-10';
+export const FOUNDRY_VERIFIED_DATE = '2026-11-12';
 
 /** Case Files page verified against the STOVE event notices. */
-export const CASE_FILES_VERIFIED_DATE = '2026-11-09';
+export const CASE_FILES_VERIFIED_DATE = '2026-11-12';
 
 export type VerifiedCopy = {
   /** Text before the date, including the trailing space after the colon. */

@@ -1508,7 +1508,9 @@ export function FoundryView({ locale }: { locale: Locale }) {
       <h3>{c.gw_prep_h3}</h3>
       <ul>
         {c.gw_prep.map((s) => (
-          <li key={s.slice(0, 40)}>{s}</li>
+          <li key={s.slice(0, 40)}>
+            <RichInline locale={locale} marked={s} />
+          </li>
         ))}
       </ul>
       <h3>{c.gw_reward_h3}</h3>
@@ -1617,7 +1619,9 @@ export function RabbitView({ locale }: { locale: Locale }) {
       ) : null}
       <div className="card warn">
         <h2>{c.deadline_h2}</h2>
-        <p>{c.deadline_text}</p>
+        <p>
+          <RichInline locale={locale} marked={c.deadline_text} />
+        </p>
       </div>
       <p>{c.lead}</p>
       <h2>{c.glance_h2}</h2>
@@ -1752,7 +1756,9 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />
-      <p>{c.lead}</p>
+      <p>
+        <RichInline locale={locale} marked={c.lead} />
+      </p>
       {c.cards.map(([title, bullets, src]) => (
         <article className="card" key={title}>
           <h2>{title}</h2>
@@ -1796,7 +1802,9 @@ export function MaintenanceView({ locale }: { locale: Locale }) {
           <h2>{title}</h2>
           <ul>
             {bullets.map((b) => (
-              <li key={b}>{b}</li>
+              <li key={b}>
+                <RichInline locale={locale} marked={b} />
+              </li>
             ))}
           </ul>
         </article>

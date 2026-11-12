@@ -5276,6 +5276,10 @@ export const CONTENT = {
           "Guild War is staged on Foundry: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, and Matchmaking 2026-11-23 03:00 UTC per the 2026-11-07 Steam notice. World Arena follows after 2026-12-10 maintenance. The same notice adds a Foundry login gift (11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000). See [[Guild War on Foundry|/foundry/#guild-war]]."
         ],
         [
+          "Why doesn't Guild War hero revive work?",
+          "The Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work. STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says it is scheduled to be fixed during the 12/10 (Thu) maintenance; no time of day was published. Until that fix lands, do not build a Guild War plan around reviving a fallen hero. See [[maintenance|/maintenance/]] and the official notice: https://page.onstove.com/epicseven/global/view/14608118."
+        ],
+        [
           "Game will not start / anti-cheat error",
           "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/). The 2026-11-05 patch fixed intermittent Steam launch failures; if it still recurs, check Known Issues (controller UI / crash): https://page.onstove.com/epicseven/global/view/14608118."
         ],
@@ -6860,7 +6864,7 @@ export const CONTENT = {
       "meta": "Foundry guide: calendar, unlocks, Guild War — 11/19 intro, 11/21 defense teams, 11/23 matchmaking, World Arena 12/10. Foundry codes ≠ coupons.",
       "h1": "Foundry server guide — schedule & rewards",
       "lead": "This Foundry server guide covers Epic Seven’s new-server track: starter buffs, celebration mail, Guild War progression, and Foundry-only matchmaking for listed PvP. Per the 2026-11-07 Steam notice, Guild War is introduced on 2026-11-19, Form Defense Team opens 2026-11-21 03:00 UTC, and Guild War Matchmaking opens 2026-11-23 03:00 UTC. Paraphrases public STOVE/Steam notices — schedules can shift after maintenance. Independent guide; not Smilegate or STOVE.",
-      "as_of": "Snapshot updated 2026-11-09. Times UTC unless noted. The 2026-11-05 patch fixed a Foundry shop misdisplay (window closed); the 2026-11-07 Steam notice added the Foundry Guild War schedule and the Foundry login gift below.",
+      "as_of": "Snapshot updated 2026-11-12. Times UTC unless noted. The 2026-11-05 patch fixed a Foundry shop misdisplay (window closed); the 2026-11-07 Steam notice added the Foundry Guild War schedule and the Foundry login gift below. The 10/29 Known Issues notice (added 11/9 06:08 UTC) records the Guild Rank 21 hero-revive bug; see the Guild War section.",
       "unlock_h2": "Content unlock calendar",
       "th": [
         "Feature",
@@ -7082,7 +7086,8 @@ export const CONTENT = {
         "Before each in-game reset, clear guild member missions and check-in. A missing name once war locks is a roster hole you cannot backfill.",
         "Spend the daily donate or contribute cap every reset. Missed contribution days do not stack, so skipping several days costs more guild progress than skipping one hunt.",
         "Use Foundry Draft Arena, open since the Steam launch (STOVE Launch view/14606481), as Guild War practice: gear a tank, a cleanser, and a healer you can field on both attack and defense, not a one-shot team you cannot hold a tower with.",
-        "After matchmaking opens on 2026-11-23 03:00 UTC, confirm the war schedule in-client. Re-open the Steam/STOVE notice before you spend leifs or guild marks."
+        "After matchmaking opens on 2026-11-23 03:00 UTC, confirm the war schedule in-client. Re-open the Steam/STOVE notice before you spend leifs or guild marks.",
+        "Known issue: the Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work. The official 10/29 Known Issues notice (added 11/9 06:08 UTC) schedules the fix for the 12/10 (Thu) maintenance; no time of day was given. See [[maintenance|/maintenance/]] and the [[11/9 Known Issues notice|https://page.onstove.com/epicSeven/global/view/14608118]]."
       ],
       "gw_reward_h3": "Rewards window",
       "gw_reward": "The same 2026-11-07 notice adds a Foundry login gift: log in on the Foundry server between 2026-11-07 09:00 and 2026-11-23 03:00 UTC to receive Commander's Armband ×1,000 and Brave Crest ×3,000. Eligibility is a Foundry login, not a legacy login. Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many starter buffs and login gifts run through about 2026-12-31 02:59 UTC. Re-check STOVE/Steam before spending resources — if posts disagree, follow the newer notice.",
@@ -9982,7 +9987,7 @@ export const CONTENT = {
       "h1": "Secret Rabbit♥Hole",
       "lead": "Special side story with the Steam / Foundry launch window. Enter via lobby Secret Rabbit♥Hole icon. Summaries cite STOVE — schedules can change in-game.",
       "deadline_h2": "Lucky Board / Moro deadline — 2026-11-19 02:59 UTC",
-      "deadline_text": "The Daily Investigation / Lucky Board and the parallel Bunny Girl Great Detective Moro Mystic banner both close around 2026-11-19 02:59 UTC; the wishlist mail is about 11/19 03:00 UTC. The Secret Rabbit♥Hole side story and Case Files still run to 2026-12-10 02:59 UTC — that end date is unchanged. Spend tickets and Leif milestones before 11/19; missed days cannot be fully recovered. Confirm the live timer in-game and on STOVE; Case Files answers are not published here.",
+      "deadline_text": "The Daily Investigation / Lucky Board and the parallel Bunny Girl Great Detective Moro Mystic banner both close around 2026-11-19 02:59 UTC; the wishlist mail is about 11/19 03:00 UTC. The Secret Rabbit♥Hole side story and Case Files still run to 2026-12-10 02:59 UTC — that end date is unchanged. Spend tickets and Leif milestones before 11/19; missed days cannot be fully recovered. Confirm the live timer in-game and on STOVE; Case Files answers are not published here. Equipment note: STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says stat increases on Equipment rewarded from this Side Story were lower than before; Heirs who obtained it before the fix will receive the corrected Equipment as an additional reward. No item name or delivery time was published. See [[maintenance|/maintenance/]] and the [[official notice|https://page.onstove.com/epicSeven/global/view/14608118]].",
       "glance_h2": "At a glance",
       "th": [
         "Piece",
@@ -10761,10 +10766,10 @@ export const CONTENT = {
   },
   "/updates/": {
     "en": {
-      "title": "Epic Seven updates — heroes & events",
+      "title": "Epic Seven Patch Notes & Updates — heroes & events",
       "meta": "Living updates log for Steam / Foundry: launch notes and slots for new heroes/events when announced.",
       "h1": "Updates — heroes & events",
-      "lead": "Newest first. We summarize public STOVE / Steam posts — not a full patch mirror.",
+      "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
         [
           "2026-11-07 — Foundry Guild War schedule",
@@ -10777,11 +10782,13 @@ export const CONTENT = {
           "Steam notice 2026-11-07"
         ],
         [
-          "2026-11-19 — Balance preview (not live yet)",
+          "2026-11-19 — Balance preview (not live yet; edited 11/11 02:19 UTC)",
           [
+            "Preview title revised: “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai). The seven names below were unchanged at this check.",
             "STOVE EN preview: https://page.onstove.com/epicseven/global/view/14618757",
             "Listed: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
-            "Preview only — the live 11/19 patch may differ. No skill before/after copied here."
+            "As of 12:05 Asia/Shanghai on 12 November 2026, Steam’s official RSS still showed no 11/19 maintenance start/end hours and no new live Patch Information post. The preview may differ from the live patch; a new official notice and the client are authoritative.",
+            "Preview only — no skill before/after copied here."
           ],
           null
         ],
@@ -11116,6 +11123,15 @@ export const CONTENT = {
           ]
         ],
         [
+          "2026-11-09 — Known Issues update (10/29 notice, added 11/9 06:08 UTC)",
+          [
+            "Official notice: [[10/29 Known Issues (added 11/9 06:08 UTC)|https://page.onstove.com/epicSeven/global/view/14608118]]",
+            "Item 10 — Setsuka’s side story “How Did We Get Here, Little Miss Lascivious?!” could be played without being selected; the Side Story will no longer be displayed after the 11/19 update.",
+            "Item 11 — Stat increases on Equipment rewarded from the Secret Rabbit♥Hole Side Story were lower than before; Heirs who obtained the Equipment before the fix will receive the corrected Equipment as an additional reward. No item name or delivery time was published.",
+            "Item 12 — The Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work; the official notice schedules the fix for the 12/10 (Thu) maintenance, with no time of day published."
+          ]
+        ],
+        [
           "2026-10-29 — Steam launch maintenance",
           [
             "Demo ended; full Steam client live after maintenance.",
@@ -11143,7 +11159,7 @@ export const CONTENT = {
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
             "11/19 balance preview (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: https://page.onstove.com/epicseven/JP/view/14618761",
-            "Known Issues (Steam controller UI / crash / Foundry World Boss) — https://page.onstove.com/epicseven/global/view/14608118"
+            "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
       ],
