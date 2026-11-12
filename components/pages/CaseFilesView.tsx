@@ -30,17 +30,6 @@ export function CaseFilesView() {
       {c.paras.map((p) => (
         <p key={p.slice(0, 48)}>{p}</p>
       ))}
-      <p>
-        Equipment note: STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says stat increases on
-        Equipment rewarded from Secret Rabbit♥Hole were lower than before; Heirs who obtained it before
-        the fix will receive the corrected Equipment as an additional reward. No item name or delivery
-        time was published. See the{' '}
-        <Link href="/secret-rabbit-hole/">Secret Rabbit♥Hole note</Link> and the{' '}
-        <ExternalLink href="https://page.onstove.com/epicSeven/global/view/14608118">
-          official notice
-        </ExternalLink>
-        .
-      </p>
       <h2>{c.related_h2}</h2>
       <ul>
         {c.links.map(([href, label]) => (

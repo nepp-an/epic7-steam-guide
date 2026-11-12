@@ -10,7 +10,7 @@ export const TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE = '2026-11-07';
 export const FOUNDRY_VERIFIED_DATE = '2026-11-12';
 
 /** Case Files page verified against the STOVE event notices. */
-export const CASE_FILES_VERIFIED_DATE = '2026-11-12';
+export const CASE_FILES_VERIFIED_DATE = '2026-11-09';
 
 export type VerifiedCopy = {
   /** Text before the date, including the trailing space after the colon. */

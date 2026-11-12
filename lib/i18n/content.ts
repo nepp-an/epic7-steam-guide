@@ -6864,7 +6864,7 @@ export const CONTENT = {
       "meta": "Foundry guide: calendar, unlocks, Guild War — 11/19 intro, 11/21 defense teams, 11/23 matchmaking, World Arena 12/10. Foundry codes ≠ coupons.",
       "h1": "Foundry server guide — schedule & rewards",
       "lead": "This Foundry server guide covers Epic Seven’s new-server track: starter buffs, celebration mail, Guild War progression, and Foundry-only matchmaking for listed PvP. Per the 2026-11-07 Steam notice, Guild War is introduced on 2026-11-19, Form Defense Team opens 2026-11-21 03:00 UTC, and Guild War Matchmaking opens 2026-11-23 03:00 UTC. Paraphrases public STOVE/Steam notices — schedules can shift after maintenance. Independent guide; not Smilegate or STOVE.",
-      "as_of": "Snapshot updated 2026-11-12. Times UTC unless noted. The 2026-11-05 patch fixed a Foundry shop misdisplay (window closed); the 2026-11-07 Steam notice added the Foundry Guild War schedule and the Foundry login gift below. The 10/29 Known Issues notice (added 11/9 06:08 UTC) records the Guild Rank 21 hero-revive bug; see the Guild War section.",
+      "as_of": "Snapshot updated 2026-11-09. Times UTC unless noted. The 2026-11-05 patch fixed a Foundry shop misdisplay (window closed); the 2026-11-07 Steam notice added the Foundry Guild War schedule and the Foundry login gift below.",
       "unlock_h2": "Content unlock calendar",
       "th": [
         "Feature",
@@ -11159,6 +11159,7 @@ export const CONTENT = {
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
             "11/19 balance preview (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: https://page.onstove.com/epicseven/JP/view/14618761",
+            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:42 Asia/Shanghai on 12 November 2026, Steam’s official RSS still showed no 11/19 maintenance start/end hours and no new Patch Information post. The preview may differ from the live patch; a new official notice and the client are authoritative.",
             "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
