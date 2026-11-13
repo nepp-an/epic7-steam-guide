@@ -2,8 +2,9 @@
  * English-only /tier-list/ resource page.
  *
  * This file deliberately contains source comparison and reading method, not a
- * hero ranking. Do not add S/A/B assignments here: this round did not read a
- * complete, legally reusable PvE + Guild War + World Arena ranking table.
+ * hero ranking. Bounded S-band samples are allowed where the source’s own band
+ * and rule are quoted. Do not copy complete S/A/B boards here: this round did
+ * not read a complete, legally reusable PvE + Guild War + World Arena table.
  */
 
 export const TIER_RESOURCES_CHECKED = '2026-11-13';
@@ -69,6 +70,19 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     checked: '2026-11-13',
   },
   {
+    source: 'hideoutgacha — Expedition (Brutal Pherus · Stage 1)',
+    modes: 'PvE Expedition, Brutal Pherus · Stage 1',
+    method:
+      'Community Teams built and upvoted by players, ranked by share of clears. The visible page shows clears from 29 October 2026 to 4 November 2026 and a page-level total of 102 teams across five bosses and three stages; only the default stage was read.',
+    updated:
+      'Window label: 29 October–4 November 2026. JSON-LD dateModified: 2026-11-10.',
+    limits:
+      'Community, non-official; the page’s “Official Epic Seven strategy guide data” wording is not a Smilegate official roster. Default stage only; the other bosses and Stage 2/3 were not expanded in this round. The page-level 102 teams is not this stage’s team count. Share of clears is not a letter grade.',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/expedition',
+    linkLabel: 'hideoutgacha.com/games/epic-seven/expedition',
+    checked: '2026-11-13',
+  },
+  {
     source: 'Epic Helper — RTA tier list',
     modes: 'RTA (Champion+)',
     method:
@@ -122,7 +136,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     method: 'No complete Guild War ranking table was read in this check.',
     updated: 'Not verified.',
     limits:
-      'No table is reproduced here. Guild War advice on this site is role and team coverage, not a sourced hero order.',
+      'No table is reproduced here. Guild War advice on this site is role and team coverage, not a sourced hero order. Re-read 2026-11-13: Hideout Community Teams returned HTTP 200, but the Guild War category count was 0 (the only published team was tagged Arena, not Guild War); the mode=guild-war team API returned {"posts":[],"total":0,"chars":{}}; Player Tier Lists showed “No lists here yet.” These are empty boards, not a 403, and there is still no Guild War hero list. The Arena team is not a Guild War team.',
     href: null,
     linkLabel: 'No verified full-board link',
     checked: '2026-11-13',
@@ -157,9 +171,9 @@ export const TIER_ACCOUNT_DECISIONS: readonly {
 ];
 
 export const TIER_LIMITS: readonly string[] = [
-  'PvE: no current full letter board. This page now carries two bounded, dated lists — Hideout’s Wyvern · Normal community top five (29 October–4 November 2026) and epic7db’s SS band last updated 2025-08-28 — but neither is a November 2026 all-mode PvE ranking. The S/A/B/C bands were not copied.',
-  'World Arena: bounded quote only. The Epic Helper SS band is a dated community snapshot of global Champion+ RTA, not a full roster and not a Foundry measurement. Its pick/ban numbers are the source’s statistics, not this site’s build advice.',
-  'Guild War: letter board still not completed. The official phases and role-coverage pointers are usable, but no current, mode-specific Guild War ranking table was read, and Foundry Guild War is not open yet. The RTA SS four are not a Guild War list.',
+  'PvE: no current full letter board. This page now carries dated, bounded community samples for Hideout Wyvern · Normal (top five teams plus the source’s most-used five; clears 29 October–4 November 2026) and Hideout Brutal Pherus · Stage 1 expedition (top five teams plus the source’s most-used five; same clear window; page-level 102 teams across five bosses and three stages). epic7db’s SS band remains last updated 2025-08-28; its S/A/B/C names were not copied. None of this is a November 2026 all-mode PvE ranking, and Hideout wording that says “official” is not treated as a Smilegate official roster.',
+  'World Arena: the Epic Helper November 2026 Champion+ snapshot is quoted with the source’s own SS rule (35%+ pick+ban), the source’s band counts (SS 4, S Meta 10, A Strong 22, B Viable 52), the four SS must-ban heroes, and a bounded S Meta sample (the three highest source P/B in that band, plus Belian who ties the third-place 16% P/B). This is global-server RTA, not a Foundry measurement, and the rest of the S/A/B boards are not copied.',
+  'Guild War: official Foundry phases and role-coverage pointers remain usable. Hideout Community Teams and Player Tier Lists were re-read on 2026-11-13: the Guild War category and the mode=guild-war team API both returned zero posts, and no player lists had been published. There is still no current mode-specific Guild War hero or team board, and Foundry Guild War is not open yet. The RTA names are not a Guild War list.',
   'Prydwen is not used as a ranking source on this page. The path checked did not return readable Epic Seven body text in this round (a 404 from one fetch and a 403 challenge from another); that is not enough to cite it as a verified rankings source.',
   'The US/en KD 36 figure is a tool report, not a reproduction of Google’s top ten. This page does not claim to have independently reproduced the SERP.',
   'No letter-grade table is published here because there is no complete, legally reusable, mode-complete ranking table behind it. Third-party tables are not copied as ours.',
@@ -189,6 +203,16 @@ export const TIER_DIRECT_LINKS: readonly {
     label: 'hideoutgacha — Hunts (Wyvern · Normal)',
     href: 'https://www.hideoutgacha.com/games/epic-seven/hunts',
     note: 'Community clears 29 October–4 November 2026; share of clears, not a letter grade.',
+  },
+  {
+    label: 'hideoutgacha — Expedition (Brutal Pherus · Stage 1)',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/expedition',
+    note: 'Community clears 29 October–4 November 2026; default stage only; share of clears, not a letter grade.',
+  },
+  {
+    label: 'hideoutgacha — Community Teams / Player Tier Lists',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/community/teams',
+    note: 'Re-read 2026-11-13: Guild War category and mode=guild-war API were empty; player lists said no lists yet.',
   },
   {
     label: 'Epic Helper — RTA win/ban rates',
@@ -248,15 +272,71 @@ export const TIER_PVE_WYVERN_TEAMS: readonly TierPveTeam[] = [
   },
 ];
 
-/** Single-hero appearance rate on the same page and window, not a grade. */
+/**
+ * Source “Most-Used Heroes” top five on the same hunts page and window, not a
+ * grade. Team 1’s fourth member, Muwi, is sixth here at 14.3%.
+ */
 export const TIER_PVE_WYVERN_APPEARANCE: readonly {
   hero: string;
   rate: string;
 }[] = [
+  { hero: 'Free Spirit Tieria', rate: '23.9%' },
   { hero: 'Furious', rate: '20.7%' },
   { hero: 'Sigret', rate: '17.3%' },
+  { hero: 'Fenne', rate: '16.1%' },
   { hero: 'Brieg', rate: '15.7%' },
-  { hero: 'Muwi', rate: '14.3%' },
+];
+
+/** Artifacts published on the default Team 1 card only, not all-sample totals. */
+export const TIER_PVE_WYVERN_TEAM1_ARTIFACTS: readonly {
+  hero: string;
+  artifact: string;
+}[] = [
+  { hero: 'Furious', artifact: 'Song of Stars' },
+  { hero: 'Sigret', artifact: 'Daydream Joker' },
+  { hero: 'Brieg', artifact: 'Sword of Ezera' },
+  { hero: 'Muwi', artifact: 'Daydream Joker' },
+];
+
+/** Hideout community Expedition top five, default Brutal Pherus · Stage 1 only. */
+export const TIER_PVE_EXPEDITION_TEAMS: readonly TierPveTeam[] = [
+  {
+    rank: '1',
+    team: 'Arbiter Vildred, Vildred, Eligos, Lisette',
+    share: '11.42% of clears',
+  },
+  {
+    rank: '2',
+    team: 'Brieg, Tamarinne, Fenne, Camilla',
+    share: '5.25% of clears',
+  },
+  {
+    rank: '3',
+    team: 'Brieg, Tamarinne, Fenne, Taranor Guard',
+    share: '3.40% of clears',
+  },
+  {
+    rank: '4',
+    team: 'Brieg, Luna, Tamarinne, Fenne',
+    share: '2.78% of clears',
+  },
+  {
+    rank: '5',
+    team: 'Brieg, Tamarinne, Fenne, Afternoon Soak Flan',
+    share: '2.47% of clears',
+  },
+];
+
+/** Same-stage source “Most-Used Heroes” top five, not a grade. */
+export const TIER_PVE_EXPEDITION_APPEARANCE: readonly {
+  hero: string;
+  rate: string;
+}[] = [
+  { hero: 'Brieg', rate: '59.3%' },
+  { hero: 'Fenne', rate: '47.8%' },
+  { hero: 'Tamarinne', rate: '35.8%' },
+  { hero: 'Arbiter Vildred', rate: '22.8%' },
+  { hero: 'Lisette', rate: '18.2%' },
 ];
 
 export type TierPveSsRow = {
@@ -289,7 +369,10 @@ export type TierWaRow = {
   url: string;
 };
 
-/** Bounded SS-band quote only. Do not add S/A or lower bands here. */
+/**
+ * Bounded SS-band quote plus a bounded S Meta sample. Do not add the rest of
+ * the S/A/B boards here.
+ */
 export const TIER_WA_ROWS: readonly TierWaRow[] = [
   {
     band: 'SS · Must ban',
@@ -326,5 +409,79 @@ export const TIER_WA_ROWS: readonly TierWaRow[] = [
     listNumbers: '56% · 48% P/B',
     split: 'Win 56% / Pick 20% / Ban 28% / P+B 48% / Games 147,564',
     url: 'https://epic7helper.com/hero/rhianna-and-luciella',
+  },
+];
+
+/**
+ * The source’s own band labels and counts. Only SS has a published numeric
+ * threshold; S/A/B are source labels, and no replacement threshold is invented.
+ */
+export const TIER_WA_BAND_COUNTS: readonly {
+  band: string;
+  count: string;
+  rule: string;
+}[] = [
+  {
+    band: 'SS · Must ban',
+    count: '4 heroes',
+    rule: 'Source intro: every hero picked or banned in 35%+ of all drafts — the must-ban list.',
+  },
+  {
+    band: 'S Meta',
+    count: '10 heroes',
+    rule: 'Source-labelled band in the same November 2026 Champion+ snapshot. The intro does not publish a numeric S threshold; this site does not invent one.',
+  },
+  {
+    band: 'A Strong',
+    count: '22 heroes',
+    rule: 'Source-labelled band only; no numeric threshold is quoted here because the intro does not state one.',
+  },
+  {
+    band: 'B Viable',
+    count: '52 heroes',
+    rule: 'Source-labelled band only; the rest of this board is not copied.',
+  },
+];
+
+/**
+ * Bounded S Meta sample: the three highest source P/B in that band, plus
+ * Belian, who ties the third-place 16% P/B. Not a copied S board.
+ */
+export const TIER_WA_S_SAMPLE: readonly TierWaRow[] = [
+  {
+    band: 'S Meta',
+    name: 'Perfumer Byblis',
+    entity: 'Hero',
+    classElement: 'Fire Soul Weaver 5★',
+    listNumbers: '60% · 31% P/B',
+    split: 'Win 60% / Pick 20% / Ban 10% / P+B 31% / Games 147,415',
+    url: 'https://epic7helper.com/hero/perfumer-byblis',
+  },
+  {
+    band: 'S Meta',
+    name: 'Shepherd of the Dark Diene',
+    entity: 'Hero',
+    classElement: 'Dark Mage 5★',
+    listNumbers: '62% · 19% P/B',
+    split: 'Win 62% / Pick 11% / Ban 8% / P+B 19% / Games 82,270',
+    url: 'https://epic7helper.com/hero/shepherd-of-the-dark-diene',
+  },
+  {
+    band: 'S Meta',
+    name: 'Tidal Rift Elvira',
+    entity: 'Hero',
+    classElement: 'Dark Mage 5★',
+    listNumbers: '58% · 16% P/B',
+    split: 'Win 58% / Pick 12% / Ban 5% / P+B 16% / Games 85,401',
+    url: 'https://epic7helper.com/hero/tidal-rift-elvira',
+  },
+  {
+    band: 'S Meta',
+    name: 'Belian',
+    entity: 'Hero',
+    classElement: 'Light Knight 5★',
+    listNumbers: '57% · 16% P/B',
+    split: 'Win 57% / Pick 9% / Ban 7% / P+B 16% / Games 67,758',
+    url: 'https://epic7helper.com/hero/belian',
   },
 ];
