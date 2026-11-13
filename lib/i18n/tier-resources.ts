@@ -64,7 +64,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'Community Teams built and upvoted by players, ranked by share of clears. The visible page shows clears from 29 October 2026 to 4 November 2026.',
     updated: 'Window label: 29 October–4 November 2026.',
     limits:
-      'Community, non-official. Only Wyvern · Normal yielded a stable team table this round; Hard/Hell and the other Hunts are not covered. Share of clears is not a letter grade.',
+      'Community, non-official. This row covers the lower-difficulty Wyvern · Normal panel only; the separate high-difficulty row records Wyvern · Hell and Banshee · Hell. Share of clears is not a letter grade.',
     href: 'https://www.hideoutgacha.com/games/epic-seven/hunts',
     linkLabel: 'hideoutgacha.com/games/epic-seven/hunts',
     checked: '2026-11-13',
@@ -77,9 +77,23 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     updated:
       'Window label: 29 October–4 November 2026. JSON-LD dateModified: 2026-11-10.',
     limits:
-      'Community, non-official; the page’s “Official Epic Seven strategy guide data” wording is not a Smilegate official roster. Default stage only; the other bosses and Stage 2/3 were not expanded in this round. The page-level 102 teams is not this stage’s team count. Share of clears is not a letter grade.',
+      'Community, non-official; the page’s “Official Epic Seven strategy guide data” wording is not a Smilegate official roster. This row covers the default Stage 1 panel only; the separate high-difficulty row records Brutal Pherus · Stage 3. The page-level 102 teams is not this stage’s team count. Share of clears is not a letter grade.',
     href: 'https://www.hideoutgacha.com/games/epic-seven/expedition',
     linkLabel: 'hideoutgacha.com/games/epic-seven/expedition',
+    checked: '2026-11-13',
+  },
+  {
+    source: 'hideoutgacha — high-difficulty PvE panels',
+    modes:
+      'PvE: Wyvern · Hell, Banshee · Hell, Brutal Pherus · Stage 3, Abyss Floor 91',
+    method:
+      'Community Teams, ranked by share of clears; reported here as the top three teams plus the source’s most-used five for each selected panel. Panel counts read as 20 / 20 / 10 / 10 teams.',
+    updated:
+      'Hunt and Expedition clear window: 29 October–4 November 2026. Abyss Floor 91 clear window: 7 August–4 November 2026.',
+    limits:
+      'Community, non-official. The page-level totals (248 hunts, 102 expedition, 188 abyss teams) are not the selected panel’s team count. Share of clears is not a win rate or letter grade; Hideout’s “Official … data” wording is not a Smilegate roster. Only four representative panels were read, not every Hunt, boss or floor.',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/hunts',
+    linkLabel: 'hideoutgacha.com/games/epic-seven/hunts',
     checked: '2026-11-13',
   },
   {
@@ -131,14 +145,41 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     checked: '2026-11-10',
   },
   {
-    source: 'Guild War full board — not verified',
-    modes: 'Guild War',
-    method: 'No complete Guild War ranking table was read in this check.',
-    updated: 'Not verified.',
+    source: 'E7GW — most common defenses',
+    modes: 'Guild War (top-50 defense report)',
+    method:
+      'Defense teams ranked by how often they appear. Visible columns: # / DEFENSE / BATTLES / WINS / LOSSES / HOLD RATE / SOLUTIONS. The source’s Hold rate column is described as “higher means harder to break”.',
+    updated:
+      '“Stats from the Nov 10 top-50 report.” The page shows no year and no date range.',
     limits:
-      'No table is reproduced here. Guild War advice on this site is role and team coverage, not a sourced hero order. Re-read 2026-11-13: Hideout Community Teams returned HTTP 200, but the Guild War category count was 0 (the only published team was tagged Arena, not Guild War); the mode=guild-war team API returned {"posts":[],"total":0,"chars":{}}; Player Tier Lists showed “No lists here yet.” These are empty boards, not a 403, and there is still no Guild War hero list. The Arena team is not a Guild War team.',
-    href: null,
-    linkLabel: 'No verified full-board link',
+      'Top-50 frequency/hold-rate report only: the same page says 360 more defenses have solution data but “No popularity or hold-rate data”, and shows 410 defenses overall, so this is not a complete statistical board. No region/server is stated. “Not affiliated with Smilegate.” The page does not define whose WINS/LOSSES perspective or the hold-rate formula; this site does not supply one.',
+    href: 'https://e7gw.xyz/defenses',
+    linkLabel: 'e7gw.xyz/defenses',
+    checked: '2026-11-13',
+  },
+  {
+    source: 'E7GW — most used offense heroes',
+    modes: 'Guild War (offense usage)',
+    method:
+      'Heroes ranked by total battles fought on offense; the source’s Win rate column is shown with “Blue bar = win rate”. Visible columns: # / HERO / BATTLES / WINS / LOSSES / WIN RATE.',
+    updated:
+      'No report date visible on this page; checked 2026-11-13. Do not share the defenses report label or denominator.',
+    limits:
+      'An offense-usage ranking with the source’s win-rate column, not the defense table’s hold rate. No region/server is stated. “Not affiliated with Smilegate.” Not a Foundry measurement, and the page states no report window.',
+    href: 'https://e7gw.xyz/attackers',
+    linkLabel: 'e7gw.xyz/attackers',
+    checked: '2026-11-13',
+  },
+  {
+    source: 'Epic7Tools — Guild War defense guide',
+    modes: 'Guild War (editorial defense archetypes)',
+    method:
+      'Editorial guide: eight named three-hero defense archetypes, each with the source’s short reason, plus pairing advice.',
+    updated: 'Updated 10 November 2026.',
+    limits:
+      'Editorial recommendation, not observed frequency: no battles, hold rate or pick rate. These eight teams are not an E7GW appearance ranking, and some sit outside E7GW’s Nov 10 top five. Not a Foundry measurement.',
+    href: 'https://epic7tools.dev/guides/guild-war-defense/',
+    linkLabel: 'epic7tools.dev/guides/guild-war-defense/',
     checked: '2026-11-13',
   },
 ];
@@ -171,9 +212,9 @@ export const TIER_ACCOUNT_DECISIONS: readonly {
 ];
 
 export const TIER_LIMITS: readonly string[] = [
-  'PvE: no current full letter board. This page now carries dated, bounded community samples for Hideout Wyvern · Normal (top five teams plus the source’s most-used five; clears 29 October–4 November 2026) and Hideout Brutal Pherus · Stage 1 expedition (top five teams plus the source’s most-used five; same clear window; page-level 102 teams across five bosses and three stages). epic7db’s SS band remains last updated 2025-08-28; its S/A/B/C names were not copied. None of this is a November 2026 all-mode PvE ranking, and Hideout wording that says “official” is not treated as a Smilegate official roster.',
+  'PvE: no current all-mode letter board. This page now cites Hideout community clear samples for four representative high-difficulty panels (Wyvern · Hell, Banshee · Hell, Brutal Pherus · Stage 3, Abyss Floor 91; top three teams plus the source’s most-used five). Hunt and Expedition panels share the 29 October–4 November 2026 clear window; Abyss Floor 91 uses 7 August–4 November 2026. Lower-difficulty Wyvern · Normal and Brutal Pherus · Stage 1 remain noted, not expanded. epic7db’s SS band remains last updated 2025-08-28 and is not a current grade. Share of clears is not a win rate or a letter grade, and Hideout “official” wording is not treated as a Smilegate official roster.',
   'World Arena: the Epic Helper November 2026 Champion+ snapshot is quoted with the source’s own SS rule (35%+ pick+ban), the source’s band counts (SS 4, S Meta 10, A Strong 22, B Viable 52), the four SS must-ban heroes, and a bounded S Meta sample (the three highest source P/B in that band, plus Belian who ties the third-place 16% P/B). This is global-server RTA, not a Foundry measurement, and the rest of the S/A/B boards are not copied.',
-  'Guild War: official Foundry phases and role-coverage pointers remain usable. Hideout Community Teams and Player Tier Lists were re-read on 2026-11-13: the Guild War category and the mode=guild-war team API both returned zero posts, and no player lists had been published. There is still no current mode-specific Guild War hero or team board, and Foundry Guild War is not open yet. The RTA names are not a Guild War list.',
+  'Guild War: official Foundry phases and role coverage remain. This page separately quotes E7GW’s defense table labelled “Nov 10 top-50 report” (no year or date range on that page) and E7GW’s attackers table, which has no visible report date and must not share that Nov 10 label or denominator. Appearance, the source’s Hold rate column, and the source’s attack Win rate column are different fields, not one strength scale. The defense page is a top-50 frequency/hold-rate report; 360 further defenses are stated to lack popularity or hold-rate data, so this is not a complete statistical board. Neither E7GW page states a region; both say they are not affiliated with Smilegate. A separate Epic7Tools guide updated 10 November 2026 provides editorial archetypes, not observed frequency. Foundry Guild War is not open. Hideout Community Teams stayed empty for Guild War.',
   'Prydwen is not used as a ranking source on this page. The path checked did not return readable Epic Seven body text in this round (a 404 from one fetch and a 403 challenge from another); that is not enough to cite it as a verified rankings source.',
   'The US/en KD 36 figure is a tool report, not a reproduction of Google’s top ten. This page does not claim to have independently reproduced the SERP.',
   'No letter-grade table is published here because there is no complete, legally reusable, mode-complete ranking table behind it. Third-party tables are not copied as ours.',
@@ -233,6 +274,41 @@ export const TIER_DIRECT_LINKS: readonly {
     label: 'Epic Seven Fandom — Tier List',
     href: 'https://epicseven.fandom.com/wiki/Tier_List',
     note: 'Explicitly no longer maintained; history only.',
+  },
+  {
+    label: 'hideoutgacha — Wyvern · Hell',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/hunts#wyvern-hell-1',
+    note: 'Community clears 29 October–4 November 2026; representative top three, not all 20 teams.',
+  },
+  {
+    label: 'hideoutgacha — Banshee · Hell',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/hunts#banshee-hell-1',
+    note: 'Community clears 29 October–4 November 2026; representative top three, not all 20 teams.',
+  },
+  {
+    label: 'hideoutgacha — Brutal Pherus · Stage 3',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/expedition#pherus-3-1',
+    note: 'Community clears 29 October–4 November 2026; 102 is page-level, not this stage.',
+  },
+  {
+    label: 'hideoutgacha — Abyss Floor 91',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/abyss#91-100-91-1',
+    note: 'Community clears 7 August–4 November 2026; 188 is page-level.',
+  },
+  {
+    label: 'E7GW — most common defenses',
+    href: 'https://e7gw.xyz/defenses',
+    note: '“Nov 10 top-50 report” (no year/range on the page); not a complete statistical board; no region stated; not affiliated with Smilegate.',
+  },
+  {
+    label: 'E7GW — most used offense heroes',
+    href: 'https://e7gw.xyz/attackers',
+    note: 'No report date visible on this page; do not share the defenses report label; checked 2026-11-13.',
+  },
+  {
+    label: 'Epic7Tools — Guild War defense guide',
+    href: 'https://epic7tools.dev/guides/guild-war-defense/',
+    note: 'Updated 10 November 2026; editorial archetypes, not observed frequency.',
   },
 ];
 
@@ -337,6 +413,55 @@ export const TIER_PVE_EXPEDITION_APPEARANCE: readonly {
   { hero: 'Tamarinne', rate: '35.8%' },
   { hero: 'Arbiter Vildred', rate: '22.8%' },
   { hero: 'Lisette', rate: '18.2%' },
+];
+
+export const TIER_PVE_WYVERN_HELL_TEAMS: readonly TierPveTeam[] = [
+  { rank: '1', team: 'Brieg, Sigret, Furious, Muwi', share: '14.66% of clears' },
+  { rank: '2', team: 'Brieg, Furious, Fenne, Muwi', share: '6.68% of clears' },
+  { rank: '3', team: 'Furious, Rose, Sigret, Muwi', share: '2.80% of clears' },
+];
+export const TIER_PVE_WYVERN_HELL_APPEARANCE: readonly { hero: string; rate: string }[] = [
+  { hero: 'Brieg', rate: '53.0%' },
+  { hero: 'Furious', rate: '49.7%' },
+  { hero: 'Sigret', rate: '40.8%' },
+  { hero: 'Muwi', rate: '40.3%' },
+  { hero: 'Fenne', rate: '28.6%' },
+];
+export const TIER_PVE_BANSHEE_HELL_TEAMS: readonly TierPveTeam[] = [
+  { rank: '1', team: 'Vivian, Schniel, Bellona, Mort', share: '4.70% of clears' },
+  { rank: '2', team: 'Vivian, Tamarinne, Landy, Brieg', share: '3.39% of clears' },
+  { rank: '3', team: 'Vivian, Schniel, Bellona, Immortal Wukong', share: '2.90% of clears' },
+];
+export const TIER_PVE_BANSHEE_HELL_APPEARANCE: readonly { hero: string; rate: string }[] = [
+  { hero: 'Vivian', rate: '42.3%' },
+  { hero: 'Schniel', rate: '28.1%' },
+  { hero: 'Bellona', rate: '24.0%' },
+  { hero: 'Brieg', rate: '18.3%' },
+  { hero: 'Frieren', rate: '16.0%' },
+];
+export const TIER_PVE_PHERUS_S3_TEAMS: readonly TierPveTeam[] = [
+  { rank: '1', team: 'Brieg, Tamarinne, Fenne, Taranor Guard', share: '11.51% of clears' },
+  { rank: '2', team: 'Brieg, Tamarinne, Fenne, Camilla', share: '7.66% of clears' },
+  { rank: '3', team: 'Brieg, Luna, Tamarinne, Taranor Guard', share: '7.33% of clears' },
+];
+export const TIER_PVE_PHERUS_S3_APPEARANCE: readonly { hero: string; rate: string }[] = [
+  { hero: 'Brieg', rate: '87.7%' },
+  { hero: 'Tamarinne', rate: '67.2%' },
+  { hero: 'Fenne', rate: '61.5%' },
+  { hero: 'Taranor Guard', rate: '28.7%' },
+  { hero: 'Luna', rate: '26.8%' },
+];
+export const TIER_PVE_ABYSS91_TEAMS: readonly TierPveTeam[] = [
+  { rank: '1', team: 'Fenne, Tamarinne, Brieg, Arbiter Vildred', share: '14.48% of clears' },
+  { rank: '2', team: 'Fenne, Tamarinne, Cermia, Brieg', share: '7.47% of clears' },
+  { rank: '3', team: 'Fenne, Tamarinne, Brieg, Afternoon Soak Flan', share: '5.85% of clears' },
+];
+export const TIER_PVE_ABYSS91_APPEARANCE: readonly { hero: string; rate: string }[] = [
+  { hero: 'Fenne', rate: '69.3%' },
+  { hero: 'Brieg', rate: '63.0%' },
+  { hero: 'Tamarinne', rate: '56.7%' },
+  { hero: 'Arbiter Vildred', rate: '28.5%' },
+  { hero: 'Afternoon Soak Flan', rate: '16.7%' },
 ];
 
 export type TierPveSsRow = {
@@ -484,4 +609,38 @@ export const TIER_WA_S_SAMPLE: readonly TierWaRow[] = [
     split: 'Win 57% / Pick 9% / Ban 7% / P+B 16% / Games 67,758',
     url: 'https://epic7helper.com/hero/belian',
   },
+];
+
+export type TierGwStatRow = {
+  rank: string;
+  lineup: string;
+  battles: string;
+  wins: string;
+  losses: string;
+  rate: string;
+  rateKind: string;
+};
+export const TIER_GW_E7GW_DEFENSES: readonly TierGwStatRow[] = [
+  { rank: '1', lineup: 'Frieren, Renoa, Lisette', battles: '11,054', wins: '1,373', losses: '9,681', rate: '12.41%', rateKind: 'Hold rate (source column; higher means harder to break)' },
+  { rank: '2', lineup: 'Rinak, Frieren, Lisette', battles: '8,278', wins: '523', losses: '7,755', rate: '6.31%', rateKind: 'Hold rate (source column; higher means harder to break)' },
+  { rank: '3', lineup: 'Notos, Rhianna and Luciella, Monarch of the Sword Iseria', battles: '4,606', wins: '436', losses: '4,170', rate: '9.47%', rateKind: 'Hold rate (source column; higher means harder to break)' },
+  { rank: '4', lineup: 'Genesis Ras, School Nurse Yulha, Rhianna and Luciella', battles: '4,319', wins: '423', losses: '3,896', rate: '9.79%', rateKind: 'Hold rate (source column; higher means harder to break)' },
+  { rank: '5', lineup: 'Rinak, Lisette, Aubade Ludwig', battles: '2,983', wins: '271', losses: '2,712', rate: '9.08%', rateKind: 'Hold rate (source column; higher means harder to break)' },
+];
+export const TIER_GW_E7GW_ATTACKERS: readonly TierGwStatRow[] = [
+  { rank: '1', lineup: 'Lisette', battles: '40,834', wins: '39,567', losses: '1,267', rate: '96.84%', rateKind: 'Win rate (source column; ranked by offense battles)' },
+  { rank: '2', lineup: 'Dark Corvus', battles: '19,925', wins: '19,091', losses: '834', rate: '95.80%', rateKind: 'Win rate (source column; ranked by offense battles)' },
+  { rank: '3', lineup: 'Hecate', battles: '17,876', wins: '15,566', losses: '2,310', rate: '87.08%', rateKind: 'Win rate (source column; ranked by offense battles)' },
+  { rank: '4', lineup: 'Lady of the Scales', battles: '16,460', wins: '15,451', losses: '1,009', rate: '93.73%', rateKind: 'Win rate (source column; ranked by offense battles)' },
+  { rank: '5', lineup: 'Monarch of the Sword Iseria', battles: '12,689', wins: '12,098', losses: '591', rate: '95.33%', rateKind: 'Win rate (source column; ranked by offense battles)' },
+];
+export const TIER_GW_EDITORIAL_TEAMS: readonly { name: string; team: string; reason: string }[] = [
+  { name: 'Fixed Speed', team: 'Harsetti, Belian, Haru', reason: 'Harsetti sets the pace, Belian starves Soul, Haru shields.' },
+  { name: 'Ferocious Stand', team: 'Boss Arunka, School Nurse Yulha, Genesis Ras', reason: 'Skills can target Arunka only, Yulha cleanses, Ras ignores debuffs.' },
+  { name: 'buffs wiped', team: 'Frieren, New Moon Luna, Briar Witch Iseria', reason: 'Three ways to strip buffs, and no revival on either side.' },
+  { name: 'resistance wall', team: 'Disciplinary Prefect Aria, Desert Jewel Basar, Empyrean Ilynav', reason: "Aria's barrier sets off Basar's Desert Storm, and debuffs barely stick." },
+  { name: 'evasion and counters', team: 'Estelle, Monarch of the Sword Iseria, Setsuka', reason: 'Counters from Setsuka, Estelle and Iseria, each in its own way.' },
+  { name: 'block and silence', team: 'Aubade Ludwig, Kawerik, Little Queen Charlotte', reason: "Silence and cooldowns keep the attackers' best skills away." },
+  { name: 'revivals', team: 'Shepherd of the Dark Diene, Perfumer Byblis, Lisette', reason: 'Immortality, Fragments of Life and heals; weak against Hecate.' },
+  { name: 'against burst', team: 'Spirit Eye Celine, Moon Bunny Dominiel, Ruele of Light', reason: 'Damage caps, nullifiers and revivals against teams that kill in one turn.' },
 ];

@@ -5,21 +5,122 @@ import { PageShell } from '@/components/PageShell';
 import {
   TIER_ACCOUNT_DECISIONS,
   TIER_DIRECT_LINKS,
+  TIER_GW_EDITORIAL_TEAMS,
+  TIER_GW_E7GW_ATTACKERS,
+  TIER_GW_E7GW_DEFENSES,
   TIER_LIMITS,
   TIER_METHOD_POINTS,
-  TIER_PVE_EXPEDITION_APPEARANCE,
-  TIER_PVE_EXPEDITION_TEAMS,
+  TIER_PVE_ABYSS91_APPEARANCE,
+  TIER_PVE_ABYSS91_TEAMS,
+  TIER_PVE_BANSHEE_HELL_APPEARANCE,
+  TIER_PVE_BANSHEE_HELL_TEAMS,
+  TIER_PVE_PHERUS_S3_APPEARANCE,
+  TIER_PVE_PHERUS_S3_TEAMS,
   TIER_PVE_SS_ROWS,
-  TIER_PVE_WYVERN_APPEARANCE,
-  TIER_PVE_WYVERN_TEAM1_ARTIFACTS,
-  TIER_PVE_WYVERN_TEAMS,
+  TIER_PVE_WYVERN_HELL_APPEARANCE,
+  TIER_PVE_WYVERN_HELL_TEAMS,
   TIER_RESOURCES_CHECKED,
   TIER_SOURCE_ROWS,
   TIER_WA_BAND_COUNTS,
   TIER_WA_ROWS,
   TIER_WA_S_SAMPLE,
 } from '@/lib/i18n/tier-resources';
+import type { TierGwStatRow, TierPveTeam } from '@/lib/i18n/tier-resources';
 import styles from './TierResourcesView.module.css';
+
+function PveTeamTable({ teams }: { teams: readonly TierPveTeam[] }) {
+  return (
+    <div className={styles.tableScroll}>
+      <table className={`data ${styles.dataTable}`}>
+        <thead>
+          <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Team (source-listed order)</th>
+            <th scope="col">Share of clears</th>
+          </tr>
+        </thead>
+        <tbody>
+          {teams.map((row) => (
+            <tr key={row.rank}>
+              <td data-label="Rank">{row.rank}</td>
+              <td data-label="Team">
+                <strong>{row.team}</strong>
+              </td>
+              <td data-label="Share of clears">{row.share}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function PveAppearance({
+  rows,
+}: {
+  rows: readonly { hero: string; rate: string }[];
+}) {
+  return (
+    <p>
+      <strong>
+        Most-used heroes (source top five on the same panel and window):
+      </strong>{' '}
+      {rows.map((row, index) => (
+        <span key={row.hero}>
+          {row.hero} {row.rate}
+          {index < rows.length - 1 ? '; ' : '. '}
+        </span>
+      ))}
+      These are appearance rates in this community sample, not strength letter
+      grades.
+    </p>
+  );
+}
+
+function GwStatTable({
+  rows,
+  lineupLabel,
+  rateLabel,
+}: {
+  rows: readonly TierGwStatRow[];
+  lineupLabel: string;
+  rateLabel: string;
+}) {
+  return (
+    <div className={styles.tableScroll}>
+      <table className={`data ${styles.dataTable}`}>
+        <thead>
+          <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">{lineupLabel}</th>
+            <th scope="col">Battles</th>
+            <th scope="col">Wins</th>
+            <th scope="col">Losses</th>
+            <th scope="col">{rateLabel}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr key={row.rank}>
+              <td data-label="Rank">{row.rank}</td>
+              <td data-label={lineupLabel}>
+                <strong>{row.lineup}</strong>
+              </td>
+              <td data-label="Battles">{row.battles}</td>
+              <td data-label="Wins">{row.wins}</td>
+              <td data-label="Losses">{row.losses}</td>
+              <td data-label={rateLabel}>
+                <strong>{row.rate}</strong>
+                <br />
+                <span className="muted">{row.rateKind}</span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
 
 export function TierResourcesView() {
   return (
@@ -36,22 +137,23 @@ export function TierResourcesView() {
       <p className="quick-answer">
         <strong>Short answer: </strong>
         There is still no single official Epic Seven tier list for every mode,
-        and this page does not claim one. What it now carries: a dated, bounded
-        community clear sample for <strong>Wyvern · Normal</strong>; a second
-        bounded sample for Expedition’s <strong>Brutal Pherus · Stage 1</strong>;
-        the explicitly stale epic7db PvE SS band; an explanation of World Arena
-        layers using the source’s own SS rule, its band counts and a bounded S
-        Meta sample; and official Foundry Guild War phases with role coverage.
-        The Guild War community-team and player-list checks were empty on
-        2026-11-13, so there is still no Guild War hero list. Steam/transfer
-        build order stays on the{' '}
-        <Link href="/steam-tier-list/">Steam build-priorities page</Link>.
+        and this page does not claim one. What it now carries: four dated,
+        bounded community clear samples for representative high-difficulty PvE
+        panels (top three teams plus each panel’s most-used five); Guild War
+        quotes E7GW’s defenses (labelled “Nov 10 top-50 report”, with no year or
+        date range on the page) separately from E7GW’s attackers (no report date
+        visible on that page, checked 2026-11-13); Epic7Tools’ 10 November 2026
+        editorial archetypes and the official Foundry phases; and a bounded
+        Helper Champion+ snapshot for World Arena. None of this is a Foundry
+        measurement. The E7GW pages state no region and say they are not
+        affiliated with Smilegate. This is not a completed three-mode master
+        table.
       </p>
       <nav className="anchor-nav" aria-label="Jump to">
         <span className="anchor-nav-label">Jump to</span>
         <a href="#sources">Source comparison</a>
-        <a href="#pve">PvE — dated coverage</a>
-        <a href="#guild-war">Guild War — phases &amp; roles</a>
+        <a href="#pve">PvE — high-difficulty samples</a>
+        <a href="#guild-war">Guild War — sourced lists &amp; phases</a>
         <a href="#world-arena">World Arena / RTA</a>
         <a href="#method">Reading method</a>
         <a href="#accounts">Account decisions</a>
@@ -121,174 +223,126 @@ export function TierResourcesView() {
       </section>
 
       <section id="pve">
-        <h2>PvE — dated coverage, not a current full board</h2>
+        <h2>PvE — representative high-difficulty samples, not a full board</h2>
         <p>
-          <strong>Applies to:</strong> story, Hunts and Expedition-style PvE
-          clears. The main citable data are two dated community clear samples
-          (Wyvern · Normal, and Expedition’s Brutal Pherus · Stage 1), plus one
-          explicitly stale editorial SS band. Other Hunts, Wyvern Hard/Hell and
-          late Abyss floors exist in the source UI, but this round’s visible
-          shell HTML did not expand their full team tables, so none is invented.
-          This section omits RTA bans and Guild War.
+          <strong>Applies to:</strong> four representative high-difficulty PvE
+          panels — Wyvern · Hell, Banshee · Hell, Brutal Pherus · Stage 3, and
+          Abyss Floor 91. These are community “share of clears” samples, not win
+          rates and not letter grades. Each panel was read from the visible
+          Hideout UI in the browser on 2026-11-13. Lower-difficulty Wyvern ·
+          Normal and Brutal Pherus · Stage 1 remain noted below, not expanded
+          again.
         </p>
         <p>
-          <strong>Criteria:</strong> only a source’s own visible update date and
-          stated method. Hideout reports “share of clears”, not a letter grade.
-          epic7db is an editorial board; its PvE page says “Last Updated: Aug 28,
-          2025”, so it is not a November 2026 board. This site does not invent
-          letter grades.
+          <strong>Criteria:</strong> the source’s visible panel selection, its
+          clear window, and its own “Most-Used Heroes” field. Hunt and
+          Expedition panels share the{' '}
+          <strong>29 October–4 November 2026</strong> clear window; Abyss Floor
+          91 uses <strong>7 August–4 November 2026</strong>. The page-level
+          footer totals (248 hunts, 102 expedition, 188 abyss teams) are not the
+          selected panel’s team count. Hideout’s “Official … data” wording is
+          not treated as a Smilegate official roster, and no mechanic or counter
+          reason is invented here.
+        </p>
+        <p>
+          The source’s own most-used cores differ: Wyvern · Hell is led by
+          Brieg / Furious / Sigret, while Banshee · Hell is led by Vivian /
+          Schniel / Bellona. That is a source-field difference, not a grade.
         </p>
 
-        <h3>Usable list 1 — Hideout community Wyvern · Normal clears</h3>
+        <h3>1. Wyvern · Hell — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
-          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts">
-            hideoutgacha.com/games/epic-seven/hunts
+          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts#wyvern-hell-1">
+            hideoutgacha.com/games/epic-seven/hunts#wyvern-hell-1
           </ExternalLink>{' '}
-          — HTTP 200, read <time dateTime="2026-11-13">2026-11-13</time> (18:27
-          Beijing time). The page shows clears from{' '}
-          <strong>29 October 2026 to 4 November 2026</strong>.
+          — read <time dateTime="2026-11-13">2026-11-13</time>. Clear window:{' '}
+          <strong>29 October–4 November 2026</strong>. Panel count:{' '}
+          <strong>All 20 teams</strong>; this page quotes the top three.
         </p>
+        <PveTeamTable teams={TIER_PVE_WYVERN_HELL_TEAMS} />
+        <PveAppearance rows={TIER_PVE_WYVERN_HELL_APPEARANCE} />
         <p>
-          <strong>Method (the source’s):</strong> Community Teams, built and
-          upvoted by players; ranking is by share of clears. Community /
-          non-official. This round the visible HTML yielded a stable Wyvern ·
-          Normal team table; Hard/Hell and the other Hunts did not form a
-          complete, independently provable list here, so they are not invented.
-        </p>
-        <p>Top five teams as listed, with the source’s share of clears:</p>
-        <div className={styles.tableScroll}>
-          <table className={`data ${styles.dataTable}`}>
-            <thead>
-              <tr>
-                <th scope="col">Rank</th>
-                <th scope="col">Team (source-listed order)</th>
-                <th scope="col">Share of clears</th>
-              </tr>
-            </thead>
-            <tbody>
-              {TIER_PVE_WYVERN_TEAMS.map((row) => (
-                <tr key={row.rank}>
-                  <td data-label="Rank">{row.rank}</td>
-                  <td data-label="Team">
-                    <strong>{row.team}</strong>
-                  </td>
-                  <td data-label="Share of clears">{row.share}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p>
-          <strong>Source-reported artifacts on the default Team 1 only:</strong>{' '}
-          the page’s Team 1 card lists:
-        </p>
-        <ul>
-          {TIER_PVE_WYVERN_TEAM1_ARTIFACTS.map((row) => (
-            <li key={row.hero}>
-              {row.hero} — <strong>{row.artifact}</strong>
-            </li>
-          ))}
-        </ul>
-        <p>
-          These are source fields from that one team card, not this site’s
-          grading and not a summary of all 20 teams. The same page separately
-          gives Furious’s most-used artifacts: Song of Stars 73%, Daydream
-          Joker 4%, Infinity Basket 2.8%, Andre’s Crossbow 2.6%. The other
-          heroes’ most-used artifact percentages were not expanded in the
-          visible HTML, so none is invented.
-        </p>
-        <p>
-          <strong>Most-used heroes (top five on the same page and window):</strong>{' '}
-          {TIER_PVE_WYVERN_APPEARANCE.map((row, index) => (
-            <span key={row.hero}>
-              {row.hero} {row.rate}
-              {index < TIER_PVE_WYVERN_APPEARANCE.length - 1 ? '; ' : '. '}
-            </span>
-          ))}
-        </p>
-        <p>
-          Team 1 also includes Muwi, at 14.3% on the same page — sixth in the
-          source’s most-used order, so he is not pushed into the top five. These
-          are appearance rates in this community sample, not strength letter
-          grades, and they do not cover Foundry Hunts.
-        </p>
-        <p>
-          <strong>Short reason:</strong> this is a dated community clear sample
-          you can use to see which Wyvern · Normal teams were common in that
-          week. It cannot be extended to Foundry Hunts or treated as a full PvE
-          tier list.
+          <strong>Short reason:</strong> the top team accounts for 14.66% of
+          this panel’s clears, and Brieg is the panel’s most-used hero at 53.0%.
+          That makes the listed trio plus Muwi a practical starting point to
+          inspect, not a claim that it is best for every account.
         </p>
 
-        <h3>
-          Usable list 2 — Hideout community Expedition, Brutal Pherus · Stage 1
-        </h3>
+        <h3>2. Banshee · Hell — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
-          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/expedition">
-            hideoutgacha.com/games/epic-seven/expedition
+          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts#banshee-hell-1">
+            hideoutgacha.com/games/epic-seven/hunts#banshee-hell-1
           </ExternalLink>{' '}
-          — HTTP 200, read <time dateTime="2026-11-13">2026-11-13</time>. The
-          page shows clears from{' '}
-          <strong>29 October 2026 to 4 November 2026</strong>; its JSON-LD
-          dateModified is 2026-11-10, while this site’s verification date stays
-          2026-11-13.
+          — read <time dateTime="2026-11-13">2026-11-13</time>. Clear window:{' '}
+          <strong>29 October–4 November 2026</strong>. Panel count:{' '}
+          <strong>All 20 teams</strong>; this page quotes the top three.
         </p>
+        <PveTeamTable teams={TIER_PVE_BANSHEE_HELL_TEAMS} />
+        <PveAppearance rows={TIER_PVE_BANSHEE_HELL_APPEARANCE} />
         <p>
-          <strong>Method (the source’s):</strong> Community Teams, built and
-          upvoted by players; ranking is by share of clears. The page-level
-          total is <strong>102 teams across five bosses and three stages</strong>
-          — that is not 102 teams on this stage. The default visible stage is
-          Brutal Pherus · Stage 1 (10 teams shown); the other bosses and Stage
-          2/3 exist in the UI but were not expanded in this round’s shell, so
-          they are not invented. Community / non-official. The page phrase
-          “Official Epic Seven strategy guide data” is not treated as a
-          Smilegate official roster.
-        </p>
-        <p>
-          Top five teams on the default stage, with the source’s share of
-          clears:
-        </p>
-        <div className={styles.tableScroll}>
-          <table className={`data ${styles.dataTable}`}>
-            <thead>
-              <tr>
-                <th scope="col">Rank</th>
-                <th scope="col">Team (source-listed order)</th>
-                <th scope="col">Share of clears</th>
-              </tr>
-            </thead>
-            <tbody>
-              {TIER_PVE_EXPEDITION_TEAMS.map((row) => (
-                <tr key={row.rank}>
-                  <td data-label="Rank">{row.rank}</td>
-                  <td data-label="Team">
-                    <strong>{row.team}</strong>
-                  </td>
-                  <td data-label="Share of clears">{row.share}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p>
-          <strong>Most-used heroes (top five on the same stage and window):</strong>{' '}
-          {TIER_PVE_EXPEDITION_APPEARANCE.map((row, index) => (
-            <span key={row.hero}>
-              {row.hero} {row.rate}
-              {index < TIER_PVE_EXPEDITION_APPEARANCE.length - 1 ? '; ' : '. '}
-            </span>
-          ))}
-          These are source field values, not letter grades.
-        </p>
-        <p>
-          <strong>Short reason:</strong> this is a second dated community clear
-          sample, from a different mode, with its own stage and sample limits.
-          It cannot be extended to the other Expedition bosses or treated as a
-          full PvE tier list.
+          <strong>Short reason:</strong> Vivian appears in all three top teams
+          and is the panel’s most-used hero at 42.3%; Schniel and Bellona follow
+          at 28.1% and 24.0%. The sample is much flatter than Wyvern · Hell —
+          4.70% for the top team — so it should be read as a spread of common
+          clears, not a single dominant lineup.
         </p>
 
-        <h3>Usable list 3 — epic7db PvE SS band (stale, still readable)</h3>
+        <h3>3. Brutal Pherus · Stage 3 — Hideout community clears</h3>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/expedition#pherus-3-1">
+            hideoutgacha.com/games/epic-seven/expedition#pherus-3-1
+          </ExternalLink>{' '}
+          — read <time dateTime="2026-11-13">2026-11-13</time>. Clear window:{' '}
+          <strong>29 October–4 November 2026</strong>. Panel count:{' '}
+          <strong>All 10 teams</strong>; the page-level total of 102 teams across
+          five bosses and three stages is not this stage’s count.
+        </p>
+        <PveTeamTable teams={TIER_PVE_PHERUS_S3_TEAMS} />
+        <PveAppearance rows={TIER_PVE_PHERUS_S3_APPEARANCE} />
+        <p>
+          <strong>Short reason:</strong> Brieg is on 87.7% of the panel’s
+          most-used list, Tamarinne 67.2%, and Fenne 61.5%. All three top teams
+          include Brieg and Tamarinne, which is the clearest shared core in this
+          set of four panels.
+        </p>
+
+        <h3>4. Abyss Floor 91 — Hideout community clears</h3>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/abyss#91-100-91-1">
+            hideoutgacha.com/games/epic-seven/abyss#91-100-91-1
+          </ExternalLink>{' '}
+          — read <time dateTime="2026-11-13">2026-11-13</time>. Clear window:{' '}
+          <strong>7 August–4 November 2026</strong>. Panel count:{' '}
+          <strong>All 10 teams</strong>; the page-level total of 188 teams is not
+          this floor’s count.
+        </p>
+        <PveTeamTable teams={TIER_PVE_ABYSS91_TEAMS} />
+        <PveAppearance rows={TIER_PVE_ABYSS91_APPEARANCE} />
+        <p>
+          <strong>Short reason:</strong> Fenne (69.3%), Brieg (63.0%) and
+          Tamarinne (56.7%) form the most-used core, and Fenne / Tamarinne /
+          Brieg appears in all three top teams. Arbiter Vildred is the fourth
+          most-used at 28.5% and is the top team’s fourth slot.
+        </p>
+
+        <h3>Lower-difficulty samples already cited — not expanded again</h3>
+        <p>
+          The earlier bounded samples remain valid but are no longer reprinted
+          as five-row tables. Hideout’s <strong>Wyvern · Normal</strong> panel
+          (same 29 October–4 November 2026 window) was led by Furious, Sigret,
+          Brieg, Muwi at 3.69% of clears, with Free Spirit Tieria the most-used
+          hero at 23.9%. Hideout’s <strong>Brutal Pherus · Stage 1</strong>{' '}
+          panel (same window) was led by Arbiter Vildred, Vildred, Eligos,
+          Lisette at 11.42%, with Brieg the most-used hero at 59.3%. These are
+          lower-difficulty community samples; they are not merged with the
+          Hell, Stage 3 or Floor 91 panels above.
+        </p>
+
+        <h3>epic7db PvE SS band — stale editorial band, still readable</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://epic7db.com/tier-list">
@@ -326,70 +380,51 @@ export function TierResourcesView() {
           </table>
         </div>
         <p>
-          <strong>Short reason:</strong> this is the last dated PvE top band
-          this site could read directly, but it is 14 months old. Use it to look
-          up that source’s final SS list, not as a current November 2026 table.
-        </p>
-        <p>
-          For opening-order advice — Angelic Montmorancy, Falconer Kluri,
-          Commander Lorina, and a farmer such as Alexa — use{' '}
-          <Link href="/steam-tier-list/#pve">
-            the Steam build-priorities page
-          </Link>
-          . That is account progression, not a PvE letter ranking.
+          <strong>Why this is not a current grade:</strong> the last date the
+          source shows is 28 August 2025. Use it to look up that source’s final
+          SS band, not as a November 2026 ranking and not as a substitute for
+          the high-difficulty samples above.
         </p>
 
-        <h3>What is still missing, and what was tried</h3>
+        <h3>What this PvE section still does not cover</h3>
         <ul>
           <li>
-            No current, dated, legally summarizable all-mode PvE letter board
-            was available for 2026-11.
+            No other Hunts, bosses, Expedition stages or Abyss floors are
+            expanded here. The four panels above are representative, not the
+            whole PvE surface.
           </li>
           <li>
-            Other Hunts and Wyvern Hard/Hell were visible as UI tabs, but this
-            round’s server-rendered shell did not expand their full team tables;
-            late Abyss floors (91–120) were not expanded either. This is a
-            visibility limit in this round, not a claim that those pages are all
-            HTTP 403.
+            No current, dated, all-mode PvE letter board for 2026-11 was found
+            or copied. The epic7db SS band is explicitly stale, and its S/A/B/C
+            rows are not republished.
           </li>
           <li>
-            Some checks did return HTTP 403 — gacha.gg, PocketGamer and Fandom
-            in this round or at the 2026-11-13 16:57 CST read — so their earlier
-            2026-11-10 readings stay in the source table. A 403 is not the only
-            reason for the remaining gaps.
-          </li>
-          <li>
-            epic7x.com/tier-list returned a 301 and then timed out or came back
-            empty on the tier-list-builder path; gamepress.gg/epicseven/tier-list
-            returned 404; prydwen.gg/epic-seven returned 404.
-          </li>
-          <li>
-            hideoutgacha /guild-war and /teams returned 404 (relevant to the
-            Guild War gap below). epic7x /wyvern-hunt/ returned 200 but was a
-            2019-copyright mechanics page with template placeholders and no
-            dated team table, so it was not used for a roster.
+            The page-level Hideout totals and the “Official … data” footer
+            wording do not turn these community samples into a Smilegate roster.
           </li>
         </ul>
         <p>
-          <strong>Verdict: partial, date-bounded coverage.</strong> Two dated
-          community clear samples (Wyvern · Normal and Expedition’s Brutal
-          Pherus · Stage 1) plus one stale epic7db SS band are usable; a
-          complete, current all-mode PvE full table is still not completed.
+          <strong>Verdict: bounded but usable.</strong> Four dated
+          high-difficulty community samples plus the stale epic7db SS band are
+          usable; a complete, current all-mode PvE table is still not completed.
         </p>
       </section>
 
       <section id="guild-war">
-        <h2>Guild War — official phases and role coverage, not a letter board</h2>
+        <h2>
+          Guild War — sourced lists and official phases, not a Foundry
+          measurement, not a complete statistical board
+        </h2>
         <p>
-          <strong>Applies to:</strong> Foundry Guild War before its playable
-          window. This section explains official phases and role coverage only;
-          it is not a battle-tested ranking.
+          <strong>Applies to:</strong> the live (non-Foundry) Guild War
+          reference lists from E7GW and Epic7Tools, plus the official Foundry
+          schedule. Foundry Guild War is not open, so none of these lists is a
+          Foundry measurement, and this is not a complete Guild War letter
+          board.
         </p>
         <p>
-          <strong>Criteria:</strong> the official schedule comes from STOVE and
-          Steam notices. Any hero-strength statement needs a current,
-          mode-specific, citable source. No such Guild War board was available
-          this round.
+          <strong>Official phases (no clock time added where the source gives
+          none):</strong>
         </p>
         <ul>
           <li>
@@ -407,58 +442,14 @@ export function TierResourcesView() {
           </li>
         </ul>
         <p>
-          <strong>Attempted Guild War boards:</strong> the earlier 404 paths
-          stay recorded — hideoutgacha /games/epic-seven/guild-war and /teams
-          returned HTTP 404 on 2026-11-13 18:27 CST. The current community pages
-          were then re-read on 2026-11-13:
-        </p>
-        <ul>
-          <li>
-            <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/community/teams">
-              hideoutgacha.com/games/epic-seven/community/teams
-            </ExternalLink>{' '}
-            — HTTP 200. In the default last-30-days view, the Guild War category
-            count is <strong>0</strong>. The only published team is Arena (
-            <em>Meu Time de Epic Seven</em>, 4 November 2026), which is not
-            treated as Guild War.
-          </li>
-          <li>
-            GET{' '}
-            <code>
-              {
-                'https://www.hideoutgacha.com/api/community/posts?game=epic-seven&kind=team&sort=all&offset=0&mode=guild-war'
-              }
-            </code>{' '}
-            — HTTP 200, with body{' '}
-            <code>{'{"posts":[],"total":0,"chars":{}}'}</code>.
-          </li>
-          <li>
-            <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/community/player-tier-lists">
-              hideoutgacha.com/games/epic-seven/community/player-tier-lists
-            </ExternalLink>{' '}
-            — HTTP 200; the visible page says “No lists here yet.”
-          </li>
-          <li>
-            These are <strong>empty-board results, not a 403</strong>. This page
-            therefore still has no Guild War hero-coverage list. Epic Helper’s
-            RTA board and RankedMeta’s mixed list are still not Guild War
-            boards.
-          </li>
-        </ul>
-        <p>
-          Epic Helper’s homepage describes RTA/Arena/Guild War draft tools, but
-          its /tier-list page is labelled RTA Champion+, so it is not a Guild
-          War board. RankedMeta’s method sentence mentions Guild War
-          cross-checks, but its board is mixed and based on 16 voters, so its
-          letter grades are not quoted here. prydwen.gg/epic-seven and
-          gamepress.gg/epicseven/tier-list returned 404. There is no Foundry
-          Guild War match data yet.
-        </p>
-        <p>
-          <strong>Why the limit:</strong> while the mode is closed and no
-          independent Guild War board exists, a “GW S/A table” would pass off
-          global-server experience or an unrelated source as a Foundry
-          measurement.
+          <strong>Role coverage, not a ranking:</strong> cover a tank, a
+          cleanse/revive support, and a damage dealer usable on both offense and
+          defense. Build order stays on{' '}
+          <Link href="/steam-tier-list/#guild-war">
+            the Steam build-priorities page
+          </Link>
+          . The four World Arena SS names below are <strong>not</strong> a Guild
+          War roster; they are quoted only for the RTA mode.
         </p>
         <p>
           <strong>Source / checked:</strong> Steam — “Foundry Server Guild War
@@ -470,29 +461,163 @@ export function TierResourcesView() {
           <Link href="/foundry/#guild-war">Foundry Guild War prep</Link> keeps
           the detailed phase notes.
         </p>
+
+        <h3>A. E7GW defenses — “Nov 10 top-50 report” only</h3>
         <p>
-          <strong>Preparation note, not a ranking:</strong> cover a tank, a
-          cleanse/revive support, and a damage dealer usable on both offense and
-          defense. Build order stays on{' '}
-          <Link href="/steam-tier-list/#guild-war">
-            the Steam build-priorities page
-          </Link>
-          . The four World Arena SS names below are <strong>not</strong> a Guild
-          War roster; they are quoted only for the RTA mode.
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://e7gw.xyz/defenses">
+            e7gw.xyz/defenses
+          </ExternalLink>{' '}
+          — read <time dateTime="2026-11-13">2026-11-13</time>. Visible
+          sentence: <strong>“Stats from the Nov 10 top-50 report.”</strong> The
+          page shows <strong>no year and no date range</strong>; this page does
+          not add either.
         </p>
         <p>
-          <strong>Verdict: official phases and role coverage usable; the Guild
-          War letter board is still incomplete.</strong>
+          <strong>What the source measures:</strong> “Ranked by how often they
+          appear. Gold bar = hold rate (higher means harder to break).”{' '}
+          <strong>Hold rate</strong> is the source’s column name. The page does
+          not define its formula or whose perspective the WINS / LOSSES columns
+          use, so this page does not supply either.
+        </p>
+        <p>
+          <strong>Boundary:</strong> this is a top-50 frequency/hold-rate
+          report, not a complete statistical board. The same page says{' '}
+          <strong>360 more defenses</strong> have solution data but{' '}
+          <strong>“No popularity or hold-rate data”</strong>, and it shows{' '}
+          <strong>410 defenses overall</strong>. No Global/Asia/server/region is
+          stated. Footer: “Not affiliated with Smilegate.”
+        </p>
+        <GwStatTable
+          rows={TIER_GW_E7GW_DEFENSES}
+          lineupLabel="Lineup"
+          rateLabel="Hold rate"
+        />
+        <p>
+          The first three rows were cross-checked in an independent browser
+          read; rows 4–5 come from the existing capture of the same public
+          table. Not a Foundry measurement. Rhianna and Luciella appears as a
+          hero (Dark Thief) in the third and fourth lineups, not as the
+          same-name artifact.
+        </p>
+
+        <h3>B. E7GW attackers — no report date visible on this page</h3>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://e7gw.xyz/attackers">
+            e7gw.xyz/attackers
+          </ExternalLink>{' '}
+          — read <time dateTime="2026-11-13">2026-11-13</time>.{' '}
+          <strong>
+            This page has no visible report date and no “Nov 10” label.
+          </strong>{' '}
+          It therefore cannot share the defenses table’s Nov 10 label or
+          denominator. The figures below were checked on 2026-11-13; Lisette’s
+          first row (40,834 battles / 96.84%) matches the cross-check.
+        </p>
+        <p>
+          <strong>What the source measures:</strong> “Most Used Offense Heroes”;
+          “Ranked by total battles fought on offense. Blue bar = win rate.”
+          Visible columns: # / HERO / BATTLES / WINS / LOSSES / WIN RATE.
+        </p>
+        <p>
+          <strong>Boundary:</strong> no Global/Asia/server/region is stated;
+          footer: “Not affiliated with Smilegate.” Appearance, hold rate and
+          attack win rate are different fields, not one strength scale.
+        </p>
+        <GwStatTable
+          rows={TIER_GW_E7GW_ATTACKERS}
+          lineupLabel="Hero"
+          rateLabel="Win rate"
+        />
+        <p>
+          These are the five most-used attackers by total offense battles in
+          that source, with the source’s own win-rate column. The row order is
+          not a letter grade, and this table is not a copy of the defense
+          ranking.
+        </p>
+
+        <h3>
+          C. Epic7Tools editorial — Updated 10 November 2026 (not observed
+          frequency)
+        </h3>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://epic7tools.dev/guides/guild-war-defense/">
+            epic7tools.dev/guides/guild-war-defense/
+          </ExternalLink>{' '}
+          — visible <strong>“Updated 10 November 2026”</strong>; read{' '}
+          <time dateTime="2026-11-13">2026-11-13</time>. This is an editorial
+          guide, not a battles/hold-rate sample.
+        </p>
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
+            <thead>
+              <tr>
+                <th scope="col">Archetype</th>
+                <th scope="col">Team</th>
+                <th scope="col">Source reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TIER_GW_EDITORIAL_TEAMS.map((row) => (
+                <tr key={row.name}>
+                  <td data-label="Archetype">
+                    <strong>{row.name}</strong>
+                  </td>
+                  <td data-label="Team">{row.team}</td>
+                  <td data-label="Source reason">{row.reason}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The guide adds: <strong>“Never two revival teams together”</strong> —
+          an attack that stops revivals beats both. Its four pairing examples:
+          Fixed Speed + Ferocious Stand; buffs wiped + resistance wall; block
+          and silence + revivals; against burst + evasion and counters.
+        </p>
+        <p>
+          The <strong>Fixed Speed</strong> row (Harsetti, Belian, Haru) was seen
+          directly on the source page with the short reason quoted above. These
+          eight teams are editorial archetypes, not an E7GW appearance ranking;
+          some do not appear in E7GW’s Nov 10 top five.
+        </p>
+
+        <h3>D. Hideout Community Teams — empty for Guild War</h3>
+        <p>
+          The Hideout Community Teams Guild War category and the{' '}
+          <code>mode=guild-war</code> team API were empty when re-read on
+          2026-11-13 (0 posts;{' '}
+          <code>{'{"posts":[],"total":0,"chars":{}}'}</code>), and Player Tier
+          Lists said “No lists here yet.” That only negates this submission
+          board; it does not negate the E7GW and Epic7Tools lists above. The one
+          published community team was tagged Arena and is not treated as Guild
+          War.
+        </p>
+
+        <h3>E. Verdict</h3>
+        <p>
+          <strong>Usable, but not complete.</strong> This page now has bounded
+          statistical top-five rows from E7GW (defenses under the source’s Nov
+          10 top-50 label; attackers with no visible report date), plus
+          Epic7Tools’ editorial archetypes and the official Foundry phases. It
+          is still not a complete Guild War letter table or a complete
+          statistical board; the server/region is unstated and Foundry Guild War
+          has not opened.
         </p>
       </section>
 
       <section id="world-arena">
         <h2>World Arena / RTA — bounded quote, not a full table</h2>
         <p>
-          <strong>Applies to:</strong> global-server Real-Time Arena only; the
-          source labels its pool Champion+. Foundry World Arena opens after the
-          12/10 maintenance (official Steam wording: KST; no clock time is
-          posted). Before then these names are not a Foundry WA measurement.
+          <strong>Applies to:</strong> Epic Helper’s{' '}
+          <strong>November 2026 Champion+</strong> global-server RTA statistics
+          only. This is not a Foundry World Arena measurement, and it is not a
+          Guild War or PvE list. Foundry World Arena opens after the 12/10
+          maintenance (official Steam wording: KST; no clock time is posted).
+          Before then these names are not a Foundry WA measurement.
         </p>
         <p>
           <strong>Criteria (the source’s, not ours):</strong> Epic Helper says
@@ -672,7 +797,6 @@ export function TierResourcesView() {
       </section>
 
       <section id="method">
-
         <h2>How to read a tier list without misusing it</h2>
         <ol>
           {TIER_METHOD_POINTS.map((point) => (
@@ -707,8 +831,8 @@ export function TierResourcesView() {
         <p>
           In all three cases, a hero being high on a list is not a pull
           instruction. Check banner timing, pity and whether the hero fills an
-          open slot; the{' '}
-          <Link href="/banners/">banners page</Link> covers the live pickup.
+          open slot; the <Link href="/banners/">banners page</Link> covers the
+          live pickup.
         </p>
       </section>
 
