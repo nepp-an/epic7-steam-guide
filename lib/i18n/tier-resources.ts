@@ -6,13 +6,14 @@
  * complete, legally reusable PvE + Guild War + World Arena ranking table.
  */
 
-export const TIER_RESOURCES_CHECKED = '2026-11-10';
+export const TIER_RESOURCES_CHECKED = '2026-11-13';
 
 export type TierSourceRow = {
   source: string;
   modes: string;
   method: string;
   updated: string;
+  checked: string;
   limits: string;
   href: string | null;
   linkLabel: string;
@@ -29,6 +30,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       '“Our official” means epic7db’s own board, not a Smilegate ranking. The PvE board is from August 2025; do not relabel it as a November 2026 list, and do not copy the table as ours.',
     href: 'https://epic7db.com/tier-list',
     linkLabel: 'epic7db.com/tier-list',
+    checked: '2026-11-13',
   },
   {
     source: 'gacha.gg — Epic Seven tier list',
@@ -37,20 +39,22 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'Mode tabs with RTA pick/ban and win-rate data, a daily movement log, and a stated method.',
     updated: 'Read the date on its RTA tab; this check did not capture one stable date.',
     limits:
-      'Pick rate and usage are not all-mode strength. A low-usage unit is not automatically weak in PvE, and the overall view is not a complete PvE or Guild War table.',
+      'Pick rate and usage are not all-mode strength. A low-usage unit is not automatically weak in PvE, and the overall view is not a complete PvE or Guild War table. Fetch failed (HTTP 403) on 2026-11-13; this row keeps the 2026-11-10 reading.',
     href: 'https://www.gacha.gg/epic-seven/tier-list',
     linkLabel: 'gacha.gg/epic-seven/tier-list',
+    checked: '2026-11-10',
   },
   {
     source: 'hideoutgacha — Epic Seven tier list',
     modes: 'RTA (Champion+)',
     method:
-      'Usage ranking from Fall 2026 Champion+ RTA with class filters and a “my roster” view. The page says 362 heroes and 9,900,353 picks; those totals were not independently verified.',
+      'Usage ranking from Fall 2026 Champion+ RTA with class filters and a “my roster” view. The page reports 379 heroes and 16,681,352 picks (from epic7rtastats). Those are the page’s own reported totals, not an independent recount by this site.',
     updated: 'Fall 2026 season label; exact update day not captured.',
     limits:
       'Usage is not all-mode strength, and the season/sample must not be removed from the number. It is not a Guild War or complete PvE board.',
     href: 'https://www.hideoutgacha.com/games/epic-seven/tier-list',
     linkLabel: 'hideoutgacha.com/games/epic-seven/tier-list',
+    checked: '2026-11-13',
   },
   {
     source: 'Epic Helper — RTA tier list',
@@ -62,6 +66,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'A different sample and threshold mean its win rates cannot be pasted into another site’s table. The underlying data was not independently verified here.',
     href: 'https://epic7helper.com/tier-list',
     linkLabel: 'epic7helper.com/tier-list',
+    checked: '2026-11-13',
   },
   {
     source: 'PocketGamer — Epic Seven tier list',
@@ -70,9 +75,10 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'Second-hand editorial judgement, with a page date, version and author.',
     updated: '2026-11-01 (page label).',
     limits:
-      'Not official. Source names, spellings and claims still need checking; do not copy the table or treat it as first-hand data.',
+      'Not official. Source names, spellings and claims still need checking; do not copy the table or treat it as first-hand data. Fetch failed (HTTP 403) on 2026-11-13; this row keeps the 2026-11-10 reading.',
     href: 'https://www.pocketgamer.com/epic-seven/tier-list/',
     linkLabel: 'pocketgamer.com/epic-seven/tier-list',
+    checked: '2026-11-10',
   },
   {
     source: 'RankedMeta — Epic Seven tier list',
@@ -85,6 +91,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'Small-sample community vote, not an authoritative full-roster ranking. The confidence boundary is part of the source, not a footnote to hide.',
     href: 'https://rankedmeta.com/epic-seven/tier-list',
     linkLabel: 'rankedmeta.com/epic-seven/tier-list',
+    checked: '2026-11-13',
   },
   {
     source: 'Epic Seven Fandom — Tier List',
@@ -92,9 +99,10 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     method: 'Community wiki tables.',
     updated: 'No longer maintained; last update not captured.',
     limits:
-      'The page explicitly says it is no longer maintained. Use it for history only, not as a current ranking.',
+      'The page explicitly says it is no longer maintained. Use it for history only, not as a current ranking. It returned HTTP 403 on 2026-11-13, so this row keeps the 2026-11-10 reading.',
     href: 'https://epicseven.fandom.com/wiki/Tier_List',
     linkLabel: 'epicseven.fandom.com/wiki/Tier_List',
+    checked: '2026-11-10',
   },
   {
     source: 'Guild War full board — not verified',
@@ -105,6 +113,7 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
       'No table is reproduced here. Guild War advice on this site is role and team coverage, not a sourced hero order.',
     href: null,
     linkLabel: 'No verified full-board link',
+    checked: '2026-11-13',
   },
 ];
 
@@ -136,7 +145,9 @@ export const TIER_ACCOUNT_DECISIONS: readonly {
 ];
 
 export const TIER_LIMITS: readonly string[] = [
-  'Guild War: not verified. No complete Guild War ranking table was read in this check. The Guild War sections on this site are role/team coverage, not a sourced hero order.',
+  'PvE: unrated. epic7db’s PvE board is dated 2025-08-28 and is not a current November 2026 list; no other dated PvE full board was readable and legally summarizable this round.',
+  'World Arena: bounded quote only. The Epic Helper SS band is a dated community snapshot of global Champion+ RTA, not a full roster and not a Foundry measurement.',
+  'Guild War: unrated / not completed. No complete Guild War ranking table was read in this check, and Foundry Guild War is not open yet. The Guild War sections on this site are role/team coverage, not a sourced hero order.',
   'Prydwen is not used as a ranking source on this page. The path checked did not return readable Epic Seven body text in this round (a 404 from one fetch and a 403 challenge from another); that is not enough to cite it as a verified rankings source.',
   'The US/en KD 36 figure is a tool report, not a reproduction of Google’s top ten. This page does not claim to have independently reproduced the SERP.',
   'No letter-grade table is published here because there is no complete, legally reusable, mode-complete ranking table behind it. Third-party tables are not copied as ours.',
@@ -160,7 +171,7 @@ export const TIER_DIRECT_LINKS: readonly {
   {
     label: 'hideoutgacha — RTA usage',
     href: 'https://www.hideoutgacha.com/games/epic-seven/tier-list',
-    note: 'Fall 2026 Champion+ usage; page-reported totals, not independently verified.',
+    note: 'Fall 2026 Champion+ usage; page-reported 379 heroes / 16,681,352 picks, not an independent recount.',
   },
   {
     label: 'Epic Helper — RTA win/ban rates',
@@ -181,5 +192,41 @@ export const TIER_DIRECT_LINKS: readonly {
     label: 'Epic Seven Fandom — Tier List',
     href: 'https://epicseven.fandom.com/wiki/Tier_List',
     note: 'Explicitly no longer maintained; history only.',
+  },
+];
+
+
+export type TierWaRow = {
+  band: string;
+  hero: string;
+  numbers: string;
+  reason: string;
+};
+
+/** Bounded SS-band quote only. Do not add S/A or lower bands here. */
+export const TIER_WA_ROWS: readonly TierWaRow[] = [
+  {
+    band: 'SS · Must ban',
+    hero: 'Lisette',
+    numbers: '67% · 43% P/B',
+    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+  },
+  {
+    band: 'SS · Must ban',
+    hero: 'Notos',
+    numbers: '60% · 44% P/B',
+    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+  },
+  {
+    band: 'SS · Must ban',
+    hero: 'Lady of the Scales',
+    numbers: '59% · 54% P/B',
+    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+  },
+  {
+    band: 'SS · Must ban',
+    hero: 'Rhianna and Luciella',
+    numbers: '56% · 48% P/B',
+    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
   },
 ];

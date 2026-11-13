@@ -1680,10 +1680,17 @@ export function RabbitView({ locale }: { locale: Locale }) {
 
 export function BannersView({ locale }: { locale: Locale }) {
   const c = CONTENT['/banners/'][locale];
+  const lastVerified =
+    locale === 'en' && 'last_verified' in c ? c.last_verified : null;
   return (
     <PageShell locale={locale} path="/banners/">
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
+      {lastVerified ? (
+        <p className="last-verified">
+          Last verified: <time dateTime={lastVerified}>{lastVerified}</time>
+        </p>
+      ) : null}
       <QuickAnswer text={c.answer} />
       <p>{c.lead}</p>
       <article className="card pickup">
@@ -2361,9 +2368,10 @@ function TierHeroCard({
   locale: Locale;
   note: string;
 }) {
+  const showAvatar = hero.avatar && locale !== 'en';
   return (
     <article className="hero-card tier-card">
-      {hero.avatar ? (
+      {showAvatar ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           className="hero-avatar"
@@ -2407,6 +2415,7 @@ export function TierListView({ locale }: { locale: Locale }) {
   const avatarHeroes = TIER_HEROES.filter((hero) => hero.avatar);
   const beyondHeroes = TIER_HEROES.filter((hero) => !hero.avatar);
   const pagePath = locale === 'en' ? '/steam-tier-list/' : '/tier-list/';
+  const lastVerified = locale === 'en' ? '2026-11-13' : '2026-11-03';
 
   return (
     <PageShell
@@ -2420,14 +2429,14 @@ export function TierListView({ locale }: { locale: Locale }) {
       <IndepNotice locale={locale} />
       <p className="last-verified">
         {c.last_before}
-        <time dateTime="2026-11-03">2026-11-03</time>
+        <time dateTime={lastVerified}>{lastVerified}</time>
         {c.last_after}
       </p>
       {locale === 'en' && (
         <p className="muted">
-          Build-priority text reviewed 2026-11-10 against the mode sources
-          linked below; official event dates were last checked 2026-11-03 and
-          are not re-dated by this edit.
+          The build-priority body copy is not the subject of this batch’s
+          rewrite. The official Guild War and World Arena dates were re-checked
+          on 2026-11-13 against the Steam/STOVE source text.
         </p>
       )}
       <QuickAnswer text={c.answer} />

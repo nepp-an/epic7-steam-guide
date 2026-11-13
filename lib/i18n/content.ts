@@ -10468,7 +10468,7 @@ export const CONTENT = {
       "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
         "Parallel Mystic: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
-        "Luna is a launch reward baseline, not the current pickup: limited 5★ Luna + Glacial Purity path through ~12/31 02:59 UTC (Foundry rewards).",
+        "Luna is a launch reward baseline, not the current pickup: the Rank 70 limited 5★ Luna + Glacial Purity path runs through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time) (Foundry rewards).",
         "Daily free Covenant summons on Foundry Summon Support (up to 1,260 over the posted window).",
         "Side-story cosmetics / lobby pack tied to Secret Rabbit♥Hole.",
         "Track pickup banners after each weekly maintenance — add a card below when STOVE posts.",
@@ -10482,7 +10482,8 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through ~2026-12-31. Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro runs to 2026-11-19 02:59 UTC (not the Covenant pickup)."
+      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro runs to 2026-11-19 02:59 UTC (not the Covenant pickup).",
+      "last_verified": "2026-11-13"
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",

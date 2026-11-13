@@ -44,14 +44,14 @@
     "Bookmarks are a banner decision, not a tier decision. A hero being high on another site does not mean pull now. Check [[Banners|/banners/]] for the live pickup and confirm pity in-client.",
     "Foundry is not a transfer destination. A converted legacy login stays on its server; Foundry GW/WA need a Foundry character. Budget separately if you play both.",
     "Do not delete the in-game account after transfer to “clean up” the demo. The [[demo warning|/demo-delete-warning/]] exists because that action can remove original-server progress.",
-    "Dates beat tier lists. Foundry Guild War is posted around 2026-11-21 03:00 UTC and World Arena after 2026-12-10 maintenance. Build for the date you can actually field a team."
+    "Dates beat tier lists. Foundry Guild War is introduced on 2026-11-19 (the official sentence gives no clock), Form Defense at 2026-11-21 11:00 Beijing time (03:00 UTC), and Matchmaking at 2026-11-23 11:00 Beijing time (03:00 UTC). World Arena opens after the 2026-12-10 maintenance (official Steam wording: KST; no clock time is posted). Build for the date you can actually field a team."
   ],
   "pve_h2": "PvE / Steam onboarding priorities",
   "pve_intro": "This is the “clear the next gate” list: story, Wyvern, and the first stable Hunt team. On a new Steam/Foundry account, free specialty-change units do most of the work; banner heroes are optional accelerators. If you already transferred a geared legacy account, you can skip most of this section and go straight to the Guild War and World Arena sections.",
   "pve_note": "PvE value here means reliability and low gear cost. A hero who clears with free speed gear is worth more to a new account than a premium hero who needs a full set you do not own.",
-  "gw_h2": "Guild War role coverage (Foundry unlocks around 2026-11-21)",
+  "gw_h2": "Guild War role coverage (Foundry: introduced 2026-11-19; Form Defense 2026-11-21 11:00 Beijing time; Matchmaking 2026-11-23 11:00 Beijing time)",
   "gw_answer": "For Guild War, build a tank that can hold a tower, a revive/cleanse support, and one damage dealer you can field on both offense and defense. Do not build twelve Guild War heroes; build four that cover both sides.",
-  "gw_intro": "Guild War rewards role coverage more than raw tier. A team that survives the first two turns and recycles a revive is usually more useful than a glass cannon that wins one attack and loses every defense. Foundry Guild War is scheduled around 2026-11-21 03:00 UTC per STOVE's celebration table; re-check the live notice before planning guild resets.",
+  "gw_intro": "Guild War rewards role coverage more than raw tier. A team that survives the first two turns and recycles a revive is usually more useful than a glass cannon that wins one attack and loses every defense. Foundry Guild War is introduced on 2026-11-19, with Form Defense at 2026-11-21 11:00 Beijing time (03:00 UTC) and Matchmaking at 2026-11-23 11:00 Beijing time (03:00 UTC), per the Steam Foundry Guild War notice. Re-check the live notice before planning guild resets.",
   "gw_off_h3": "Offense core",
   "gw_off_note": "Offense wants a reliable opener, a defense-break or strip, and a damage dealer that does not need perfect gear. Speed tuning matters more than a high tier badge.",
   "gw_def_h3": "Defense core",
@@ -66,7 +66,7 @@
     "Do not spend leifs or guild currency on a hero who only works on one side of the war."
   ],
   "gw_link_label": "Foundry Guild War details",
-  "wa_h2": "World Arena role coverage (Foundry unlocks after 2026-12-10)",
+  "wa_h2": "World Arena role coverage (Foundry: after 2026-12-10 maintenance, official Steam wording KST, no posted clock)",
   "wa_answer": "World Arena rewards draft coverage: speed/CR openers, control, and one or two counterpicks. For a constrained account, build one fast opener and one flexible damage dealer before chasing niche counters.",
   "wa_intro": "World Arena is not Guild War with a different button. You need a plan for turn order, cleanse, and the opponent's ban/pick. The heroes that carry a starter account are usually the ones that either start the turn chain or stop the opponent's chain — not the ones with the highest PvE damage.",
   "wa_draft_h3": "Draft rules of thumb",
@@ -141,9 +141,9 @@
     "Day 1–2: pick four heroes, not twelve. One farmer, one defense-break, one cleanse/heal, one damage dealer. Put your best speed gear on the opener.",
     "Day 3–5: clear the first Wyvern tier with the free core. Do not reforge off-set gear; keep gold for the pieces you will actually wear.",
     "Day 6–8: finish the specialty changes you selected. Do not start a fifth project because a banner looked good.",
-    "Day 9–10: build the Guild War defense core (tank + cleanse/revive). Test it in Draft Arena before the 2026-11-21 unlock.",
+    "Day 9–10: build the Guild War defense core (tank + cleanse/revive). Test it in Draft Arena before Form Defense at 2026-11-21 11:00 Beijing time.",
     "Day 11–12: set offense and defense, join a guild, and confirm Accepted status. Clear daily guild missions.",
-    "Day 13–14: start the World Arena opener. One speed set, one cleanse option, one flex damage dealer. Save the rest for the 2026-12-10 WA window."
+    "Day 13–14: start the World Arena opener. One speed set, one cleanse option, one flex damage dealer. Save the rest for World Arena after the 2026-12-10 maintenance (KST in the official Steam notice; no clock time is posted)."
   ],
   "roster_h2": "Hero cards on this page (on-site avatars)",
   "roster_intro": "These cards also appear on [[Heroes|/heroes/]], so the art and names stay on-site. The notes describe the role each hero can cover; this page does not put letter grades under the cards.",
@@ -189,11 +189,11 @@
     ],
     [
       "What changes for Guild War?",
-      "Role coverage: a tank, a cleanse/revive support, and one damage dealer you can field on both sides. Foundry GW is posted around 2026-11-21 03:00 UTC; confirm the live STOVE notice and guild membership."
+      "Role coverage: a tank, a cleanse/revive support, and one damage dealer you can field on both sides. Foundry GW is introduced on 2026-11-19, with Form Defense at 2026-11-21 11:00 Beijing time (03:00 UTC) and Matchmaking at 2026-11-23 11:00 Beijing time (03:00 UTC); confirm the live Steam/STOVE notice and guild membership."
     ],
     [
       "What changes for World Arena?",
-      "Turn order and draft coverage: one speed/CR opener, one cleanse/immunity option, one flexible damage dealer, and one counterpick. Foundry WA is posted after 2026-12-10 maintenance."
+      "Turn order and draft coverage: one speed/CR opener, one cleanse/immunity option, one flexible damage dealer, and one counterpick. Foundry WA is posted after the 2026-12-10 maintenance (official Steam wording: KST; no clock time is posted)."
     ],
     [
       "Can I use my legacy gear on Foundry?",

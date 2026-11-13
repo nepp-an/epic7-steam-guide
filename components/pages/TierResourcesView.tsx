@@ -9,6 +9,7 @@ import {
   TIER_METHOD_POINTS,
   TIER_RESOURCES_CHECKED,
   TIER_SOURCE_ROWS,
+  TIER_WA_ROWS,
 } from '@/lib/i18n/tier-resources';
 
 export function TierResourcesView() {
@@ -17,21 +18,29 @@ export function TierResourcesView() {
       <h1>Epic Seven tier lists by game mode: sources and limits</h1>
       <IndepNotice locale="en" />
       <p className="last-verified">
-        Sources checked:{' '}
+        Sources checked by row:{' '}
         <time dateTime={TIER_RESOURCES_CHECKED}>{TIER_RESOURCES_CHECKED}</time>{' '}
-        · this is a resource comparison, not a ranking of our own
+        for pages re-read this round; gacha.gg, PocketGamer and Fandom remain
+        2026-11-10 after HTTP 403. This is a resource comparison, not a ranking
+        of our own.
       </p>
       <p className="quick-answer">
         <strong>Short answer: </strong>
-        There is no single Epic Seven tier list that fits every mode and every
-        account. The sources below split PvE, RTA, Guild War and new-account
-        investment, and each one has its own date, method and limits. Guild War
-        is <strong>not verified</strong> in this round, so no Guild War table is
-        reproduced here.
+        There is still no single official Epic Seven tier list for every mode.
+        This page now states, for each mode, what can be used today, on what
+        criteria, and what remains unrated. PvE has no current letter board we
+        can responsibly republish. Foundry Guild War is unrated (the mode is not
+        open yet on Foundry). For World Arena / RTA we only cite a bounded,
+        dated global Champion+ must-ban band — not a full roster and not a
+        Foundry measurement. Steam/transfer build order stays on the{' '}
+        <Link href="/steam-tier-list/">Steam build-priorities page</Link>.
       </p>
       <nav className="anchor-nav" aria-label="Jump to">
         <span className="anchor-nav-label">Jump to</span>
         <a href="#sources">Source comparison</a>
+        <a href="#pve">PvE (unrated)</a>
+        <a href="#guild-war">Guild War (unrated)</a>
+        <a href="#world-arena">World Arena / RTA</a>
         <a href="#method">Reading method</a>
         <a href="#accounts">Account decisions</a>
         <a href="#limits">Limits / not verified</a>
@@ -75,7 +84,7 @@ export function TierResourcesView() {
                   <td>{row.modes}</td>
                   <td>{row.method}</td>
                   <td>{row.updated}</td>
-                  <td>{TIER_RESOURCES_CHECKED}</td>
+                  <td>{row.checked}</td>
                   <td>{row.limits}</td>
                   <td>
                     {row.href ? (
@@ -92,11 +101,199 @@ export function TierResourcesView() {
         <p className="muted">
           Source dates are copied from the pages as read. A missing exact date
           is shown as “not captured” rather than guessed. A source being online
-          is not evidence that its data is current.
+          is not evidence that its data is current. gacha.gg, PocketGamer and
+          Fandom were re-fetched on 2026-11-13 and returned HTTP 403, so their
+          checked date stays at 2026-11-10, with the fetch failure recorded in
+          the limits column.
+        </p>
+      </section>
+
+      <section id="pve">
+        <h2>PvE — unrated in this round</h2>
+        <p>
+          <strong>Applies to:</strong> story, Hunts (Wyvern and the other Hunt
+          stages), and Abyss/Adventure-style PvE clears. It does not answer RTA
+          bans or Guild War offense and defense.
+        </p>
+        <p>
+          <strong>Criteria:</strong> only a source’s own visible update date and
+          stated method. This site does not invent letter grades.
+        </p>
+        <ul>
+          <li>
+            epic7db’s “PvE Tier List - Best Heroes for PvE” page showed “Last
+            Updated: Aug 28, 2025”. A 2026-11-13 HTTP 200 re-check found the
+            same date, so it cannot be presented as a November 2026 PvE board.
+          </li>
+          <li>
+            No second, currently readable, dated PvE full board was available
+            for a legal summary this round: gacha.gg and PocketGamer returned
+            HTTP 403; hideoutgacha and Epic Helper are RTA sources.
+          </li>
+        </ul>
+        <p>
+          <strong>Why the limit:</strong> an expired editorial board cannot
+          stand in for the current mode, and turning starter free units into
+          “S-tier PvE” would disguise account setup as a strength ranking.
+        </p>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://epic7db.com/tier-list">
+            epic7db.com/tier-list
+          </ExternalLink>{' '}
+          — page label “PvE Tier List - Best Heroes for PvE Last Updated: Aug
+          28, 2025”; checked{' '}
+          <time dateTime="2026-11-13">2026-11-13</time>.
+        </p>
+        <p>
+          Steam/transfer opening order is not a PvE tier list; it stays on{' '}
+          <Link href="/steam-tier-list/#pve">
+            the Steam build-priorities page
+          </Link>
+          .
+        </p>
+        <p>
+          <strong>Verdict: unrated / not completed.</strong> If you need a
+          current PvE letter board, open a dated external source yourself and
+          check its update date; this page will not fill in a table it cannot
+          support.
+        </p>
+      </section>
+
+      <section id="guild-war">
+        <h2>Guild War — unrated / not completed</h2>
+        <p>
+          <strong>Applies to:</strong> Foundry Guild War before its playable
+          window. This section explains official phases and role coverage only;
+          it is not a battle-tested ranking.
+        </p>
+        <p>
+          <strong>Criteria:</strong> the official schedule comes from STOVE and
+          Steam notices. Any hero-strength statement needs a current,
+          mode-specific, citable source. No such Guild War board was available
+          this round.
+        </p>
+        <ul>
+          <li>
+            Guild War is scheduled to be introduced to the Foundry Server on
+            Thursday, November 19; the official sentence gives no clock time, so
+            none is invented here.
+          </li>
+          <li>
+            Form Defense: 11/21 (Sat) 03:00 UTC ={' '}
+            <strong>11/21 11:00 Beijing time</strong>.
+          </li>
+          <li>
+            Guild War Matchmaking: 11/23 (Mon) 03:00 UTC ={' '}
+            <strong>11/23 11:00 Beijing time</strong>.
+          </li>
+        </ul>
+        <p>
+          <strong>Community boards:</strong> hideoutgacha’s visible text showed
+          no Guild War board this round. RankedMeta’s method mentions Guild War
+          cross-checks, but its board is mixed and based on 16 voters, so its
+          letter grades are not quoted here. There is no Foundry Guild War
+          match data yet.
+        </p>
+        <p>
+          <strong>Why the limit:</strong> while the mode is closed and no
+          independent Guild War board exists, a “GW S/A table” would pass off
+          global-server experience or an unrelated source as a Foundry
+          measurement.
+        </p>
+        <p>
+          <strong>Source / checked:</strong> Steam — “Foundry Server Guild War
+          Update Notice” (
+          <ExternalLink href="https://store.steampowered.com/news/app/5019180/view/1848664643349012">
+            Steam news
+          </ExternalLink>
+          ); checked <time dateTime="2026-11-13">2026-11-13</time>.{' '}
+          <Link href="/foundry/#guild-war">Foundry Guild War prep</Link> keeps
+          the detailed phase notes.
+        </p>
+        <p>
+          <strong>Preparation note, not a ranking:</strong> cover a tank, a
+          cleanse/revive support, and a damage dealer usable on both offense and
+          defense. Build order stays on{' '}
+          <Link href="/steam-tier-list/#guild-war">
+            the Steam build-priorities page
+          </Link>
+          .
+        </p>
+        <p>
+          <strong>Verdict: unrated / not completed.</strong>
+        </p>
+      </section>
+
+      <section id="world-arena">
+        <h2>World Arena / RTA — bounded quote, not a full table</h2>
+        <p>
+          <strong>Applies to:</strong> global-server Real-Time Arena only; the
+          source labels its pool Champion+. Foundry World Arena opens after the
+          12/10 maintenance (official Steam wording: KST; no clock time is
+          posted). Before then these names are not a Foundry WA measurement.
+        </p>
+        <p>
+          <strong>Criteria (the source’s, not ours):</strong> Epic Helper says
+          it ranks by real RTA win rate plus pick and ban. Its SS band means a
+          hero was picked or banned in more than 35% of drafts, which the source
+          describes as must-ban. It is a community/fan project, not Smilegate
+          official.
+        </p>
+        <p>
+          Community / non-official. Source page label: “Epic Seven RTA Tier
+          List Champion+ · updated November 2026”. Checked{' '}
+          <time dateTime="2026-11-13">2026-11-13</time>. Global-server RTA data,
+          not a Foundry World Arena ladder.
+        </p>
+        <div style={{ overflowX: 'auto' }}>
+          <table className="data">
+            <thead>
+              <tr>
+                <th scope="col">Source band</th>
+                <th scope="col">Hero</th>
+                <th scope="col">Source-reported numbers</th>
+                <th scope="col">Short reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TIER_WA_ROWS.map((row) => (
+                <tr key={row.hero}>
+                  <td>{row.band}</td>
+                  <td>
+                    <strong>{row.hero}</strong>
+                  </td>
+                  <td>{row.numbers}</td>
+                  <td>{row.reason}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p>
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://epic7helper.com/tier-list">
+            epic7helper.com/tier-list
+          </ExternalLink>{' '}
+          — checked <time dateTime="2026-11-13">2026-11-13</time>. A same-day
+          200 on hideoutgacha (Fall 2026 Champion+, page-reported 379 heroes /
+          16,681,352 picks) only confirms a same-period usage dataset; it is not
+          copied as a second ranking.
+        </p>
+        <p>
+          <strong>Not included:</strong> Epic Helper’s S/A and lower bands,
+          RankedMeta’s letter list, any “complete World Arena tier list” claim,
+          and any Foundry WA grade.
+        </p>
+        <p>
+          <strong>Verdict: partially deliverable.</strong> A dated global
+          must-ban band is usable; a full WA table and a Foundry measurement
+          remain incomplete.
         </p>
       </section>
 
       <section id="method">
+
         <h2>How to read a tier list without misusing it</h2>
         <ol>
           {TIER_METHOD_POINTS.map((point) => (
