@@ -57,6 +57,18 @@ export const TIER_SOURCE_ROWS: readonly TierSourceRow[] = [
     checked: '2026-11-13',
   },
   {
+    source: 'hideoutgacha — Hunts (Wyvern · Normal)',
+    modes: 'PvE Hunts (Wyvern · Normal community clears)',
+    method:
+      'Community Teams built and upvoted by players, ranked by share of clears. The visible page shows clears from 29 October 2026 to 4 November 2026.',
+    updated: 'Window label: 29 October–4 November 2026.',
+    limits:
+      'Community, non-official. Only Wyvern · Normal yielded a stable team table this round; Hard/Hell and the other Hunts are not covered. Share of clears is not a letter grade.',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/hunts',
+    linkLabel: 'hideoutgacha.com/games/epic-seven/hunts',
+    checked: '2026-11-13',
+  },
+  {
     source: 'Epic Helper — RTA tier list',
     modes: 'RTA (Champion+)',
     method:
@@ -145,9 +157,9 @@ export const TIER_ACCOUNT_DECISIONS: readonly {
 ];
 
 export const TIER_LIMITS: readonly string[] = [
-  'PvE: unrated. epic7db’s PvE board is dated 2025-08-28 and is not a current November 2026 list; no other dated PvE full board was readable and legally summarizable this round.',
-  'World Arena: bounded quote only. The Epic Helper SS band is a dated community snapshot of global Champion+ RTA, not a full roster and not a Foundry measurement.',
-  'Guild War: unrated / not completed. No complete Guild War ranking table was read in this check, and Foundry Guild War is not open yet. The Guild War sections on this site are role/team coverage, not a sourced hero order.',
+  'PvE: no current full letter board. This page now carries two bounded, dated lists — Hideout’s Wyvern · Normal community top five (29 October–4 November 2026) and epic7db’s SS band last updated 2025-08-28 — but neither is a November 2026 all-mode PvE ranking. The S/A/B/C bands were not copied.',
+  'World Arena: bounded quote only. The Epic Helper SS band is a dated community snapshot of global Champion+ RTA, not a full roster and not a Foundry measurement. Its pick/ban numbers are the source’s statistics, not this site’s build advice.',
+  'Guild War: letter board still not completed. The official phases and role-coverage pointers are usable, but no current, mode-specific Guild War ranking table was read, and Foundry Guild War is not open yet. The RTA SS four are not a Guild War list.',
   'Prydwen is not used as a ranking source on this page. The path checked did not return readable Epic Seven body text in this round (a 404 from one fetch and a 403 challenge from another); that is not enough to cite it as a verified rankings source.',
   'The US/en KD 36 figure is a tool report, not a reproduction of Google’s top ten. This page does not claim to have independently reproduced the SERP.',
   'No letter-grade table is published here because there is no complete, legally reusable, mode-complete ranking table behind it. Third-party tables are not copied as ours.',
@@ -174,6 +186,11 @@ export const TIER_DIRECT_LINKS: readonly {
     note: 'Fall 2026 Champion+ usage; page-reported 379 heroes / 16,681,352 picks, not an independent recount.',
   },
   {
+    label: 'hideoutgacha — Hunts (Wyvern · Normal)',
+    href: 'https://www.hideoutgacha.com/games/epic-seven/hunts',
+    note: 'Community clears 29 October–4 November 2026; share of clears, not a letter grade.',
+  },
+  {
     label: 'Epic Helper — RTA win/ban rates',
     href: 'https://epic7helper.com/tier-list',
     note: 'November 2026 label; different threshold and sample.',
@@ -196,37 +213,118 @@ export const TIER_DIRECT_LINKS: readonly {
 ];
 
 
+export type TierPveTeam = {
+  rank: string;
+  team: string;
+  share: string;
+};
+
+/** Hideout community Wyvern · Normal top five, copied as listed. */
+export const TIER_PVE_WYVERN_TEAMS: readonly TierPveTeam[] = [
+  {
+    rank: '1',
+    team: 'Furious, Sigret, Brieg, Muwi',
+    share: '3.69% of clears',
+  },
+  {
+    rank: '2',
+    team: 'Furious, Brieg, Fenne, Muwi',
+    share: '2.46% of clears',
+  },
+  {
+    rank: '3',
+    team: 'Free Spirit Tieria, Luna, Sigret, Holiday Yufine',
+    share: '1.80% of clears',
+  },
+  {
+    rank: '4',
+    team: 'Free Spirit Tieria, Angelica, Landy, Specter Tenebria',
+    share: '1.80% of clears',
+  },
+  {
+    rank: '5',
+    team: 'Furious, Renoa, Shepherd of the Dark Diene, Leah',
+    share: '1.56% of clears',
+  },
+];
+
+/** Single-hero appearance rate on the same page and window, not a grade. */
+export const TIER_PVE_WYVERN_APPEARANCE: readonly {
+  hero: string;
+  rate: string;
+}[] = [
+  { hero: 'Furious', rate: '20.7%' },
+  { hero: 'Sigret', rate: '17.3%' },
+  { hero: 'Brieg', rate: '15.7%' },
+  { hero: 'Muwi', rate: '14.3%' },
+];
+
+export type TierPveSsRow = {
+  hero: string;
+  classElement: string;
+};
+
+/**
+ * epic7db PvE SS band only, read from the saved page markup.
+ * Do not add its S/A/B/C rows: the source table is not republished here.
+ */
+export const TIER_PVE_SS_ROWS: readonly TierPveSsRow[] = [
+  { hero: 'Afternoon Soak Flan', classElement: 'Fire Ranger 5★' },
+  { hero: 'Angelic Montmorancy', classElement: 'Ice Soul Weaver 3★' },
+  { hero: 'Brieg', classElement: 'Ice Knight 5★' },
+  { hero: 'Fenne', classElement: 'Ice Soul Weaver 5★' },
+  { hero: 'Robin', classElement: 'Fire Ranger 5★' },
+  { hero: 'Sea Phantom Politis', classElement: 'Dark Ranger 5★' },
+  { hero: 'Specter Tenebria', classElement: 'Dark Mage 5★' },
+  { hero: 'Tamarinne', classElement: 'Fire Soul Weaver 5★' },
+];
+
 export type TierWaRow = {
   band: string;
-  hero: string;
-  numbers: string;
-  reason: string;
+  name: string;
+  entity: string;
+  classElement: string;
+  listNumbers: string;
+  split: string;
+  url: string;
 };
 
 /** Bounded SS-band quote only. Do not add S/A or lower bands here. */
 export const TIER_WA_ROWS: readonly TierWaRow[] = [
   {
     band: 'SS · Must ban',
-    hero: 'Lisette',
-    numbers: '67% · 43% P/B',
-    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+    name: 'Lisette',
+    entity: 'Hero',
+    classElement: 'Light Soul Weaver 5★',
+    listNumbers: '67% · 43% P/B',
+    split: 'Win 67% / Pick 5% / Ban 38% / P+B 43% / Games 33,380',
+    url: 'https://epic7helper.com/hero/lisette',
   },
   {
     band: 'SS · Must ban',
-    hero: 'Notos',
-    numbers: '60% · 44% P/B',
-    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+    name: 'Notos',
+    entity: 'Hero',
+    classElement: 'Light Knight 5★',
+    listNumbers: '60% · 44% P/B',
+    split: 'Win 60% / Pick 10% / Ban 34% / P+B 44% / Games 74,912',
+    url: 'https://epic7helper.com/hero/notos',
   },
   {
     band: 'SS · Must ban',
-    hero: 'Lady of the Scales',
-    numbers: '59% · 54% P/B',
-    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+    name: 'Lady of the Scales',
+    entity: 'Hero',
+    classElement: 'Light Soul Weaver 5★',
+    listNumbers: '59% · 54% P/B',
+    split: 'Win 59% / Pick 16% / Ban 37% / P+B 54% / Games 118,527',
+    url: 'https://epic7helper.com/hero/lady-of-the-scales',
   },
   {
     band: 'SS · Must ban',
-    hero: 'Rhianna and Luciella',
-    numbers: '56% · 48% P/B',
-    reason: 'Meets this source’s 35%+ pick-or-ban threshold.',
+    name: 'Rhianna and Luciella',
+    entity: 'Hero (not the same-name artifact)',
+    classElement: 'Dark Thief 5★ (two characters, one slot)',
+    listNumbers: '56% · 48% P/B',
+    split: 'Win 56% / Pick 20% / Ban 28% / P+B 48% / Games 147,564',
+    url: 'https://epic7helper.com/hero/rhianna-and-luciella',
   },
 ];

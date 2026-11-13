@@ -568,7 +568,7 @@ export const BANNERS_SUPPLEMENT: Record<
       "h2": "Luna path vs a normal pickup banner",
       "intro": "Luna is not the current pickup. The Rank 70 Luna join is a Foundry launch reward path, not a standard limited pickup with its own separate pity counter. Check the in-game banner details before spending.",
       "bullets": [
-        "Posted window: through ~2026-12-31 02:59 UTC on Foundry, per the STOVE Foundry notice.",
+        "Posted window: through 12/31 (Thu) 02:59 UTC on Foundry (12/31 10:59 Beijing time), per the STOVE Foundry notice.",
         "Verify in-client: summon cost, current pity state, and whether the banner is Foundry-only.",
         "Daily free Covenant summons come from Summon Support and are separate from the Luna path."
       ],

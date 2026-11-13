@@ -1,0 +1,84 @@
+/*
+ * Scoped responsive rules for /tier-list/ only.
+ * The global table.data rules stay untouched; these apply only through the
+ * classes imported by TierResourcesView.
+ */
+
+.tableScroll {
+  overflow-x: auto;
+}
+
+@media (max-width: 43.75rem) {
+  .tableScroll {
+    overflow-x: visible;
+  }
+
+  /* Beat `table.data` specificity without editing globals.css. */
+  .dataTable.dataTable {
+    display: block;
+    width: 100%;
+    overflow: visible;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0.75rem 0 1.25rem;
+    font-size: 0.92rem;
+  }
+
+  .dataTable.dataTable thead {
+    display: none;
+  }
+
+  .dataTable.dataTable tbody,
+  .dataTable.dataTable tr,
+  .dataTable.dataTable td {
+    display: block;
+    width: 100%;
+  }
+
+  .dataTable.dataTable tr {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    margin: 0 0 0.9rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .dataTable.dataTable tr:hover td {
+    background: transparent;
+  }
+
+  .dataTable.dataTable td {
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    padding: 0.55rem 0;
+    display: block;
+    overflow-wrap: break-word;
+  }
+
+  .dataTable.dataTable td:last-child {
+    border-bottom: 0;
+  }
+
+  .dataTable.dataTable td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 0.15rem;
+    color: var(--gold-bright);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+  }
+
+  .dataTable.dataTable td[data-label='']::before {
+    content: none;
+  }
+
+  /* Long URLs and team names wrap inside the card instead of widening it. */
+  .cellBreak {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}

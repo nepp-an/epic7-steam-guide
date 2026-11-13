@@ -7,10 +7,14 @@ import {
   TIER_DIRECT_LINKS,
   TIER_LIMITS,
   TIER_METHOD_POINTS,
+  TIER_PVE_SS_ROWS,
+  TIER_PVE_WYVERN_APPEARANCE,
+  TIER_PVE_WYVERN_TEAMS,
   TIER_RESOURCES_CHECKED,
   TIER_SOURCE_ROWS,
   TIER_WA_ROWS,
 } from '@/lib/i18n/tier-resources';
+import styles from './TierResourcesView.module.css';
 
 export function TierResourcesView() {
   return (
@@ -28,18 +32,20 @@ export function TierResourcesView() {
         <strong>Short answer: </strong>
         There is still no single official Epic Seven tier list for every mode.
         This page now states, for each mode, what can be used today, on what
-        criteria, and what remains unrated. PvE has no current letter board we
-        can responsibly republish. Foundry Guild War is unrated (the mode is not
-        open yet on Foundry). For World Arena / RTA we only cite a bounded,
-        dated global Champion+ must-ban band — not a full roster and not a
-        Foundry measurement. Steam/transfer build order stays on the{' '}
+        criteria, and what remains incomplete. PvE has dated partial coverage
+        (a Wyvern · Normal clear window and one stale editorial SS band) but no
+        current full letter board. Foundry Guild War has official phases and
+        role coverage, but no mode-specific letter board yet. For World Arena /
+        RTA we only cite a bounded, dated global Champion+ must-ban band — not
+        a full roster and not a Foundry measurement. Steam/transfer build order
+        stays on the{' '}
         <Link href="/steam-tier-list/">Steam build-priorities page</Link>.
       </p>
       <nav className="anchor-nav" aria-label="Jump to">
         <span className="anchor-nav-label">Jump to</span>
         <a href="#sources">Source comparison</a>
-        <a href="#pve">PvE (unrated)</a>
-        <a href="#guild-war">Guild War (unrated)</a>
+        <a href="#pve">PvE — dated coverage</a>
+        <a href="#guild-war">Guild War — phases &amp; roles</a>
         <a href="#world-arena">World Arena / RTA</a>
         <a href="#method">Reading method</a>
         <a href="#accounts">Account decisions</a>
@@ -62,8 +68,8 @@ export function TierResourcesView() {
           this site read the page, not the source’s update date. The two must
           stay separate: an old PvE board can still be online today.
         </p>
-        <div style={{ overflowX: 'auto' }}>
-          <table className="data">
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
             <thead>
               <tr>
                 <th scope="col">Source</th>
@@ -78,15 +84,15 @@ export function TierResourcesView() {
             <tbody>
               {TIER_SOURCE_ROWS.map((row) => (
                 <tr key={row.source}>
-                  <td>
+                  <td data-label="Source">
                     <strong>{row.source}</strong>
                   </td>
-                  <td>{row.modes}</td>
-                  <td>{row.method}</td>
-                  <td>{row.updated}</td>
-                  <td>{row.checked}</td>
-                  <td>{row.limits}</td>
-                  <td>
+                  <td data-label="Mode">{row.modes}</td>
+                  <td data-label="Method / data">{row.method}</td>
+                  <td data-label="Source updated">{row.updated}</td>
+                  <td data-label="Checked">{row.checked}</td>
+                  <td data-label="Limits">{row.limits}</td>
+                  <td data-label="Direct link" className={styles.cellBreak}>
                     {row.href ? (
                       <ExternalLink href={row.href}>{row.linkLabel}</ExternalLink>
                     ) : (
@@ -109,59 +115,162 @@ export function TierResourcesView() {
       </section>
 
       <section id="pve">
-        <h2>PvE — unrated in this round</h2>
+        <h2>PvE — dated coverage, not a current full board</h2>
         <p>
           <strong>Applies to:</strong> story, Hunts (Wyvern and the other Hunt
-          stages), and Abyss/Adventure-style PvE clears. It does not answer RTA
-          bans or Guild War offense and defense.
+          stages), and Abyss/Adventure-style PvE clears. The main dated data
+          below is a community clear sample for <strong>Wyvern · Normal</strong>,
+          plus one editorial top band that is explicitly stale. This section
+          does not answer RTA bans or Guild War offense and defense.
         </p>
         <p>
           <strong>Criteria:</strong> only a source’s own visible update date and
-          stated method. This site does not invent letter grades.
+          stated method. Hideout reports “share of clears”, not a letter grade.
+          epic7db is an editorial board; its PvE page says “Last Updated: Aug 28,
+          2025”, so it is not a November 2026 board. This site does not invent
+          letter grades.
         </p>
-        <ul>
-          <li>
-            epic7db’s “PvE Tier List - Best Heroes for PvE” page showed “Last
-            Updated: Aug 28, 2025”. A 2026-11-13 HTTP 200 re-check found the
-            same date, so it cannot be presented as a November 2026 PvE board.
-          </li>
-          <li>
-            No second, currently readable, dated PvE full board was available
-            for a legal summary this round: gacha.gg and PocketGamer returned
-            HTTP 403; hideoutgacha and Epic Helper are RTA sources.
-          </li>
-        </ul>
+
+        <h3>Usable list 1 — Hideout community Wyvern · Normal clears</h3>
         <p>
-          <strong>Why the limit:</strong> an expired editorial board cannot
-          stand in for the current mode, and turning starter free units into
-          “S-tier PvE” would disguise account setup as a strength ranking.
+          <strong>Source / checked:</strong>{' '}
+          <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts">
+            hideoutgacha.com/games/epic-seven/hunts
+          </ExternalLink>{' '}
+          — HTTP 200, read <time dateTime="2026-11-13">2026-11-13</time> (18:27
+          Beijing time). The page shows clears from{' '}
+          <strong>29 October 2026 to 4 November 2026</strong>.
         </p>
+        <p>
+          <strong>Method (the source’s):</strong> Community Teams, built and
+          upvoted by players; ranking is by share of clears. Community /
+          non-official. This round the visible HTML yielded a stable Wyvern ·
+          Normal team table; Hard/Hell and the other Hunts did not form a
+          complete, independently provable list here, so they are not invented.
+        </p>
+        <p>Top five teams as listed, with the source’s share of clears:</p>
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Team (source-listed order)</th>
+                <th scope="col">Share of clears</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TIER_PVE_WYVERN_TEAMS.map((row) => (
+                <tr key={row.rank}>
+                  <td data-label="Rank">{row.rank}</td>
+                  <td data-label="Team">
+                    <strong>{row.team}</strong>
+                  </td>
+                  <td data-label="Share of clears">{row.share}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p>
+          <strong>Single-hero appearance on the same page and window:</strong>{' '}
+          {TIER_PVE_WYVERN_APPEARANCE.map((row, index) => (
+            <span key={row.hero}>
+              {row.hero} {row.rate}
+              {index < TIER_PVE_WYVERN_APPEARANCE.length - 1 ? '; ' : '. '}
+            </span>
+          ))}
+          These are appearance rates in this community sample, not strength
+          letter grades, and they do not cover Foundry Hunts.
+        </p>
+        <p>
+          <strong>Short reason:</strong> this is a dated community clear sample
+          you can use to see which Wyvern · Normal teams were common in that
+          week. It cannot be extended to Foundry Hunts or treated as a full PvE
+          tier list.
+        </p>
+
+        <h3>Usable list 2 — epic7db PvE SS band (stale, still readable)</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://epic7db.com/tier-list">
             epic7db.com/tier-list
           </ExternalLink>{' '}
-          — page label “PvE Tier List - Best Heroes for PvE Last Updated: Aug
-          28, 2025”; checked{' '}
-          <time dateTime="2026-11-13">2026-11-13</time>.
+          — the “PvE Tier List - Best Heroes for PvE” section shows{' '}
+          <strong>“Last Updated: Aug 28, 2025”</strong>. A 2026-11-13 HTTP 200
+          re-check found the same date (about 14 months old at this check).
+          Non-Smilegate editorial board.
         </p>
         <p>
-          Steam/transfer opening order is not a PvE tier list; it stays on{' '}
+          <strong>Only the SS band is quoted</strong> — eight heroes, with the
+          source’s class and element. Its S (16), A (30), B (44) and C (37)
+          rows are deliberately not copied.
+        </p>
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
+            <thead>
+              <tr>
+                <th scope="col">Source SS hero</th>
+                <th scope="col">Source class / element</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TIER_PVE_SS_ROWS.map((row) => (
+                <tr key={row.hero}>
+                  <td data-label="SS hero">
+                    <strong>{row.hero}</strong>
+                  </td>
+                  <td data-label="Class / element">{row.classElement}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p>
+          <strong>Short reason:</strong> this is the last dated PvE top band
+          this site could read directly, but it is 14 months old. Use it to look
+          up that source’s final SS list, not as a current November 2026 table.
+        </p>
+        <p>
+          For opening-order advice — Angelic Montmorancy, Falconer Kluri,
+          Commander Lorina, and a farmer such as Alexa — use{' '}
           <Link href="/steam-tier-list/#pve">
             the Steam build-priorities page
           </Link>
-          .
+          . That is account progression, not a PvE letter ranking.
         </p>
+
+        <h3>What is still missing, and what was tried</h3>
+        <ul>
+          <li>
+            No current, dated, legally summarizable all-mode PvE letter board
+            was available for 2026-11.
+          </li>
+          <li>
+            gacha.gg, PocketGamer and Fandom returned HTTP 403 in this round or
+            at the 2026-11-13 16:57 CST read, so their earlier 2026-11-10
+            readings stay in the source table.
+          </li>
+          <li>
+            epic7x.com/tier-list returned a 301 and then timed out or came back
+            empty on the tier-list-builder path; gamepress.gg/epicseven/tier-list
+            returned 404; prydwen.gg/epic-seven returned 404.
+          </li>
+          <li>
+            hideoutgacha /guild-war and /teams returned 404 (relevant to the
+            Guild War gap below). epic7x /wyvern-hunt/ returned 200 but was a
+            2019-copyright mechanics page with template placeholders and no
+            dated team table, so it was not used for a roster.
+          </li>
+        </ul>
         <p>
-          <strong>Verdict: unrated / not completed.</strong> If you need a
-          current PvE letter board, open a dated external source yourself and
-          check its update date; this page will not fill in a table it cannot
-          support.
+          <strong>Verdict: partial, date-bounded coverage.</strong> Wyvern ·
+          Normal top five plus the stale epic7db SS band are usable; a complete,
+          current PvE S/A/B/C board is still not completed.
         </p>
       </section>
 
       <section id="guild-war">
-        <h2>Guild War — unrated / not completed</h2>
+        <h2>Guild War — official phases and role coverage, not a letter board</h2>
         <p>
           <strong>Applies to:</strong> Foundry Guild War before its playable
           window. This section explains official phases and role coverage only;
@@ -189,11 +298,15 @@ export function TierResourcesView() {
           </li>
         </ul>
         <p>
-          <strong>Community boards:</strong> hideoutgacha’s visible text showed
-          no Guild War board this round. RankedMeta’s method mentions Guild War
-          cross-checks, but its board is mixed and based on 16 voters, so its
-          letter grades are not quoted here. There is no Foundry Guild War
-          match data yet.
+          <strong>Attempted Guild War boards:</strong> hideoutgacha
+          /games/epic-seven/guild-war returned HTTP 404 on 2026-11-13 18:27 CST,
+          as did /teams. Epic Helper’s homepage describes RTA/Arena/Guild War
+          draft tools, but its /tier-list page is labelled RTA Champion+, so it
+          is not a Guild War board. RankedMeta’s method sentence mentions Guild
+          War cross-checks, but its board is mixed and based on 16 voters, so
+          its letter grades are not quoted here. prydwen.gg/epic-seven and
+          gamepress.gg/epicseven/tier-list returned 404. There is no Foundry
+          Guild War match data yet.
         </p>
         <p>
           <strong>Why the limit:</strong> while the mode is closed and no
@@ -218,10 +331,12 @@ export function TierResourcesView() {
           <Link href="/steam-tier-list/#guild-war">
             the Steam build-priorities page
           </Link>
-          .
+          . The four World Arena SS names below are <strong>not</strong> a Guild
+          War roster; they are quoted only for the RTA mode.
         </p>
         <p>
-          <strong>Verdict: unrated / not completed.</strong>
+          <strong>Verdict: official phases and role coverage usable; the Guild
+          War letter board is still incomplete.</strong>
         </p>
       </section>
 
@@ -242,34 +357,65 @@ export function TierResourcesView() {
         </p>
         <p>
           Community / non-official. Source page label: “Epic Seven RTA Tier
-          List Champion+ · updated November 2026”. Checked{' '}
-          <time dateTime="2026-11-13">2026-11-13</time>. Global-server RTA data,
-          not a Foundry World Arena ladder.
+          List Champion+ · updated November 2026”. The list page was read at
+          2026-11-13 16:57 CST and each of the four /hero/ entity pages was
+          re-read at 18:25 CST; the split figures above come from those entity
+          pages. Checked <time dateTime="2026-11-13">2026-11-13</time>.
+          Global-server RTA data, not a Foundry World Arena ladder.
         </p>
-        <div style={{ overflowX: 'auto' }}>
-          <table className="data">
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
             <thead>
               <tr>
-                <th scope="col">Source band</th>
-                <th scope="col">Hero</th>
-                <th scope="col">Source-reported numbers</th>
-                <th scope="col">Short reason</th>
+                <th scope="col">Name</th>
+                <th scope="col">Entity (source)</th>
+                <th scope="col">Class</th>
+                <th scope="col">Source-reported RTA rates</th>
+                <th scope="col">Source URL</th>
               </tr>
             </thead>
             <tbody>
               {TIER_WA_ROWS.map((row) => (
-                <tr key={row.hero}>
-                  <td>{row.band}</td>
-                  <td>
-                    <strong>{row.hero}</strong>
+                <tr key={row.name}>
+                  <td data-label="Name">
+                    <strong>{row.name}</strong>
+                    <br />
+                    <span className="muted">{row.band}</span>
                   </td>
-                  <td>{row.numbers}</td>
-                  <td>{row.reason}</td>
+                  <td data-label="Entity (source)">{row.entity}</td>
+                  <td data-label="Class">{row.classElement}</td>
+                  <td data-label="Source-reported RTA rates">
+                    <span className="muted">List page:</span>{' '}
+                    <strong>{row.listNumbers}</strong>
+                    <br />
+                    <span className="muted">Entity page:</span> {row.split}
+                    <br />
+                    <span className="muted">Current season · Champion+</span>
+                  </td>
+                  <td data-label="Source URL" className={styles.cellBreak}>
+                    <ExternalLink href={row.url}>{row.url}</ExternalLink>
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        <p>
+          <strong>Short reason:</strong> each row meets this source’s 35%+
+          pick-or-ban threshold in its Champion+ RTA pool. That is the source’s
+          statistic — not this site’s build advice, not a full-mode
+          recommendation, and not a Foundry World Arena measurement.
+        </p>
+        <p>
+          <strong>Rhianna and Luciella — not the same-name artifact:</strong>{' '}
+          this row cites Epic Helper’s hero page (Title: Dark Thief), and this
+          round’s fields classify it as a Dark Thief hero, not an artifact. A
+          Thief artifact with the same name exists historically; the Helper
+          /artifact/rhianna-and-luciella path returned 404 on 2026-11-13, while
+          /hero/rhianna-and-luciella returned 200 and epic7db.com/heroes/
+          rhianna-and-luciella returned a Hero Details page. Do not read this
+          row as an artifact entry.
+        </p>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://epic7helper.com/tier-list">
