@@ -505,6 +505,29 @@ function RichInline({ locale, marked }: { locale: Locale; marked: string }) {
   return <>{richParts(locale, marked)}</>;
 }
 
+const COMMENT_EVENT_ANCHOR = 'celebrate-3000-comment';
+const CARROT_EVENT_ANCHOR = 'gather-carrots';
+const EVENT_ANCHOR_STYLE = { scrollMarginTop: '8rem' } as const;
+
+/** Render [[label|href]] only. Leave every other bullet as text — no URL autolink. */
+function MarkedBullet({ locale, text }: { locale: Locale; text: string }) {
+  if (!text.includes('[[')) return text;
+  return <RichInline locale={locale} marked={text} />;
+}
+
+function updatesEventAnchor(bullets: readonly string[]): string | undefined {
+  const blob = bullets.join('\n');
+  if (blob.includes('/view/14628607')) return COMMENT_EVENT_ANCHOR;
+  if (blob.includes('/view/14606362')) return CARROT_EVENT_ANCHOR;
+  return undefined;
+}
+
+function questEventAnchor(text: string): string | undefined {
+  if (text.includes('/view/14628607')) return COMMENT_EVENT_ANCHOR;
+  if (text.includes(`#${CARROT_EVENT_ANCHOR}`)) return CARROT_EVENT_ANCHOR;
+  return undefined;
+}
+
 const GW_LINK: Record<Locale, string> = {
   "en": "Guild War on Foundry",
   "ko": "파운드리 길드전",
@@ -744,9 +767,13 @@ export function HomeView({ locale }: { locale: Locale }) {
           <ul>
             {c.map_links_fd.map(([h, l]) => (
               <li key={h}>
-                <L locale={locale} href={h}>
-                  {l}
-                </L>
+                {h === '/case-files/' ? (
+                  <Link href="/case-files/">{l}</Link>
+                ) : (
+                  <L locale={locale} href={h}>
+                    {l}
+                  </L>
+                )}
               </li>
             ))}
           </ul>
@@ -1766,17 +1793,24 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       <p>
         <RichInline locale={locale} marked={c.lead} />
       </p>
-      {c.cards.map(([title, bullets, src]) => (
-        <article className="card" key={title}>
-          <h2>{title}</h2>
-          <ul>
-            {bullets.map((b) => (
-              <li key={b}>{b}</li>
-            ))}
-          </ul>
-          {src ? <p className="sources">{src}</p> : null}
-        </article>
-      ))}
+      {c.cards.map(([title, bullets, src]) => {
+        const anchor = updatesEventAnchor(bullets);
+        return (
+          <article className="card" key={title}>
+            <h2 id={anchor} style={anchor ? EVENT_ANCHOR_STYLE : undefined}>
+              {title}
+            </h2>
+            <ul>
+              {bullets.map((b) => (
+                <li key={b}>
+                  <MarkedBullet locale={locale} text={b} />
+                </li>
+              ))}
+            </ul>
+            {src ? <p className="sources">{src}</p> : null}
+          </article>
+        );
+      })}
       <SupplementSections sections={UPDATES_SUPPLEMENT[locale]} />
       <p>
         {c.cont}{' '}
@@ -2261,9 +2295,18 @@ export function QuestsView({ locale }: { locale: Locale }) {
       </ul>
       <h2>{c.event_h2}</h2>
       <ul>
-        {c.event.map((s) => (
-          <li key={s.slice(0, 40)}>{s}</li>
-        ))}
+        {c.event.map((s) => {
+          const anchor = questEventAnchor(s);
+          return (
+            <li
+              key={s.slice(0, 40)}
+              id={anchor}
+              style={anchor ? EVENT_ANCHOR_STYLE : undefined}
+            >
+              <MarkedBullet locale={locale} text={s} />
+            </li>
+          );
+        })}
       </ul>
       <h2 id="case-files">{c.case_files_h2}</h2>
       {c.case_files.map((s) => (
