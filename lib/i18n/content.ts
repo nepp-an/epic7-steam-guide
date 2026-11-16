@@ -10773,6 +10773,34 @@ export const CONTENT = {
       "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
         [
+          "2026-11-12 — Celebrate 3,000 Days: comment event (ends 11/18 14:59 UTC)",
+          [
+            "Official post: https://page.onstove.com/epicseven/global/view/14628607 — comment on that post by 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "Entry is a comment on the official post, not in-game mail or an in-game comment. Format: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "Comments that do not follow the format, or include special characters not listed in it, may be excluded from the event.",
+            "All participants: 2 Leif, sent to the in-game mailbox on 2026/11/20 (Fri); storage period 7 days. No delivery hour was published.",
+            "Use your correct in-game nickname and server; changing your nickname may cause rewards to be delivered incorrectly.",
+            "One prize per account; duplicate entries do not pay again, and the same event cannot be entered on other-language STOVE communities.",
+            "This is separate from the in-game “Everyone, Gather Carrots!” server-cooperation event below. 11/18 is the comment deadline, not that event’s end."
+          ],
+          "STOVE official 2026-11-12"
+        ],
+        [
+          "2026-11-12 — 3,000-Day Celebration: Gather Carrots (until 11/26 02:59 UTC)",
+          [
+            "Official post: https://page.onstove.com/epicseven/global/view/14606362 — 11/12 (Thu) 03:00 → 11/26 (Thu) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
+            "Entry: Lobby > Event > Special Event. “Everyone, Gather Carrots!” rewards daily play; Carrots start accumulating when the event begins.",
+            "Points: Adventure/Battle = Energy used (excluding purchased Spectral Core); 1 Spectral Core consumed = 160. Arena (including Draft Arena and Arena NPC Challenge) 1 play = 70; World Arena (including World Arena Tournament) 1 play = 120.",
+            "Daily cap: up to 800 Carrots. Arena gives the same Carrots win or lose; stages that consume no Energy (e.g. Side Story story stages) do not count.",
+            "Daily reset is per server: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
+            "Unclaimed event rewards expire; claim them before the event ends.",
+            "“3,000 Days Celebration Party Cake”: the all-Heirs cake gives bonus rewards per completed layer; cake completion rewards go only to Heirs who have collected 800+ Carrots cumulatively (not a requirement to hit the 800 daily cap every day). The all-Heirs total is tallied and reflected daily at 01:00 UTC — a total, not a reward-delivery time.",
+            "Prize names and quantities were not given as text in the English post or its graphics, so they are omitted here. Related quest routing: https://epicsevensteam.com/quests/ — entry, point sources and daily cap.",
+            "This is separate from the comment event above; this event runs to 11/26."
+          ],
+          "STOVE official 2026-11-12"
+        ],
+        [
           "2026-11-07 — Foundry Guild War schedule",
           [
             "Guild War is introduced to Foundry on 2026-11-19.",
@@ -10788,7 +10816,7 @@ export const CONTENT = {
             "Preview title revised: “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai). The seven names below were unchanged at this check.",
             "STOVE EN preview: https://page.onstove.com/epicseven/global/view/14618757",
             "Listed: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
-            "As of 12:05 Asia/Shanghai on 12 November 2026, Steam’s official RSS still showed no 11/19 maintenance start/end hours and no new live Patch Information post. The preview may differ from the live patch; a new official notice and the client are authoritative.",
+            "As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at https://store.steampowered.com/feeds/news/app/5019180/?l=english still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list (https://page.onstove.com/epicseven/global/list/986) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
             "Preview only — no skill before/after copied here."
           ],
           null
@@ -10824,6 +10852,34 @@ export const CONTENT = {
       "h1": "업데이트 — 영웅·이벤트",
       "lead": "최신 우선. 공개 STOVE/Steam 요약 — 전체 패치 미러 아님.",
       "cards": [
+        [
+          "2026-11-12 — 3,000일 축하 댓글 이벤트 (11/18 14:59 UTC 마감)",
+          [
+            "공식 게시글: https://page.onstove.com/epicseven/global/view/14628607 — 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)까지 해당 게시글에 댓글로 참여합니다.",
+            "참여는 게임 내 우편이나 게임 내 댓글이 아니라 공식 게시글 댓글입니다. 형식: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "형식을 지키지 않거나 형식에 없는 특수 문자를 넣은 댓글은 이벤트에서 제외될 수 있습니다.",
+            "전원 보상: 2 Leif. 2026/11/20 (금) 게임 내 우편으로 지급되며 보관 기간은 7일입니다(지급 시각은 공지되지 않음).",
+            "정확한 게임 내 닉네임과 서버를 적어야 합니다. 닉네임을 변경하면 보상이 정상 지급되지 않을 수 있습니다.",
+            "계정당 1회 보상이며 중복 참여는 지급되지 않습니다. 다른 언어 STOVE 커뮤니티에서 같은 이벤트에 중복 참여할 수 없습니다.",
+            "아래의 “Everyone, Gather Carrots!” 서버 협력 이벤트와는 별개입니다. 11/18은 댓글 마감일이며 당근 이벤트 종료일이 아닙니다."
+          ],
+          "STOVE 공식 2026-11-12"
+        ],
+        [
+          "2026-11-12 — 3,000일 축하 서버 협력: 당근 모으기 (11/26 02:59 UTC까지)",
+          [
+            "공식 게시글: https://page.onstove.com/epicseven/global/view/14606362 — 11/12 (목) 03:00 → 11/26 (목) 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
+            "입장: Lobby > Event > Special Event. “Everyone, Gather Carrots!”에서 매일 콘텐츠를 플레이해 Carrots를 모아 보상을 받습니다. Carrots는 이벤트 시작 시점부터 누적됩니다.",
+            "포인트: Adventure/Battle은 소모한 Energy만큼(구매한 Spectral Core 제외), Spectral Core 1개 소모 = 160. Arena(Draft Arena·Arena NPC Challenge 포함) 1회 = 70, World Arena(World Arena Tournament 포함) 1회 = 120.",
+            "하루 최대 800 Carrots. Arena는 승패와 관계없이 같은 Carrots를 주며, Energy를 쓰지 않는 스테이지(예: 사이드 스토리 스토리 스테이지)는 집계되지 않습니다.",
+            "일일 리셋(서버별): Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
+            "이벤트 기간 중 받지 않은 보상은 만료되므로 종료 전에 수령하세요.",
+            "“3,000 Days Celebration Party Cake”: 모든 Heirs가 함께 Carrots를 모아 케이크를 완성하고, 층을 완성할 때마다 추가 보상을 받습니다. 케이크 완성 보상은 누적 800개 이상의 Carrots를 모은 Heirs에게만 지급됩니다(매일 800 상한을 채워야 한다는 뜻이 아님). 전체 누적량은 매일 01:00 UTC에 집계·반영되며, 이는 보상 지급 시각이 아닙니다.",
+            "영문 공지 본문과 이미지에 보상 아이템 이름·수량이 문자로 제시되지 않아 이 페이지에서는 생략합니다. 퀘스트 페이지: https://epicsevensteam.com/quests/ — 입장·포인트·일일 상한 정리.",
+            "위 댓글 이벤트와 별개이며 이 이벤트는 11/26까지 진행됩니다."
+          ],
+          "STOVE 공식 2026-11-12"
+        ],
         [
           "2026-10-29 — Steam 런칭·파운드리 오픈",
           [
@@ -10887,6 +10943,34 @@ export const CONTENT = {
       "lead": "最新在上。摘要公開 STOVE／Steam——非完整補丁鏡像。",
       "cards": [
         [
+          "2026-11-12 — 3,000 天慶祝留言活動（11/18 14:59 UTC 截止）",
+          [
+            "官方貼文：https://page.onstove.com/epicseven/global/view/14628607 — 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）前在該貼文留言參加。",
+            "參加方式是在官方貼文留言，不是遊戲內信箱或遊戲內留言。格式：「Nickname / Server / Day 3,000 Celebration Message」。",
+            "未依格式、或包含格式未列出的特殊字元的留言，可能不列入活動。",
+            "全體參加獎：2 Leif，於 2026/11/20（週五）送到遊戲內信箱，保管 7 天（未公布發送時刻）。",
+            "請填寫正確的遊戲內暱稱與伺服器；更改暱稱可能導致獎勵發放不正確。",
+            "每個帳號一份獎勵，重複參加不重複發放；不可在其他語言的 STOVE 社群重複參加同一活動。",
+            "與下方「Everyone, Gather Carrots!」伺服器合作活動分開；11/18 是留言截止，不是收胡蘿蔔活動的結束日。"
+          ],
+          "STOVE 官方 2026-11-12"
+        ],
+        [
+          "2026-11-12 — 3,000 天慶祝伺服器合作：收集 Carrots（至 11/26 02:59 UTC）",
+          [
+            "官方貼文：https://page.onstove.com/epicseven/global/view/14606362 — 11/12（週四）03:00 → 11/26（週四）02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai）。",
+            "入口：Lobby > Event > Special Event。「Everyone, Gather Carrots!」每天遊玩內容收集 Carrots 領取獎勵；Carrots 從活動開始後才開始累計。",
+            "點數：Adventure/Battle 依消耗的 Energy 計算（不含購買 Spectral Core）；消耗 1 個 Spectral Core = 160。Arena（含 Draft Arena、Arena NPC Challenge）1 次 = 70；World Arena（含 World Arena Tournament）1 次 = 120。",
+            "每日最多 800 Carrots。競技場無論輸贏獲得相同 Carrots；不消耗 Energy 的關卡（例如支線故事的劇情關）不計入。",
+            "每日依各伺服器重置：Korea / Asia / Japan 18:00 UTC；Europe 03:00 UTC；Global 10:00 UTC。",
+            "活動期間未領取的獎勵會過期，請在結束前領取。",
+            "「3,000 Days Celebration Party Cake」：與全體 Heirs 一起收集 Carrots 完成蛋糕，每完成一層可獲得額外獎勵；蛋糕完成獎勵只發給累計收集 800 個以上 Carrots 的 Heirs（不是必須每天達到 800 上限）。全體總量每天 01:00 UTC 統計並反映，這不是發獎時刻。",
+            "英文公告正文與圖片未以文字列出獎品名稱與數量，因此本頁省略。任務頁：https://epicsevensteam.com/quests/ — 入口、點數來源與每日上限。",
+            "與上方留言活動分開，本活動進行至 11/26。"
+          ],
+          "STOVE 官方 2026-11-12"
+        ],
+        [
           "2026-10-29 — Steam 上架與 Foundry 開服",
           [
             "試玩結束後 Steam 正式。",
@@ -10917,6 +11001,34 @@ export const CONTENT = {
       "h1": "อัปเดต — ฮีโร่และอีเวนต์",
       "lead": "ใหม่สุดขึ้นก่อน เราสรุปโพสต์สาธารณะของ STOVE / Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด",
       "cards": [
+        [
+          "2026-11-12 — ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์ (ปิด 11/18 14:59 UTC)",
+          [
+            "โพสต์ทางการ: https://page.onstove.com/epicseven/global/view/14628607 — ร่วมโดยคอมเมนต์ใต้โพสต์นี้ภายใน 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "การร่วมกิจกรรมคือคอมเมนต์ใต้โพสต์ทางการ ไม่ใช่กล่องจดหมายหรือคอมเมนต์ในเกม รูปแบบ: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "คอมเมนต์ที่ไม่ตรงรูปแบบ หรือมีอักขระพิเศษที่ไม่ได้ระบุในรูปแบบ อาจถูกตัดออกจากกิจกรรม",
+            "รางวัลผู้เข้าร่วมทุกคน: 2 Leif ส่งเข้าถล่องจดหมายในเกมวันที่ 2026/11/20 (ศ.) เก็บได้ 7 วัน (ไม่มีการประกาศเวลาส่ง).",
+            "ต้องใช้ชื่อในเกมและเซิร์ฟเวอร์ให้ถูกต้อง การเปลี่ยนชื่ออาจทำให้ได้รับรางวัลไม่ถูกต้อง",
+            "หนึ่งรางวัลต่อบัญชี การร่วมซ้ำจะไม่ได้รับรางวัลอีก และไม่สามารถร่วมกิจกรรมเดียวกันในคอมมูนิตี้ STOVE ภาษาอื่นได้",
+            "แยกจากอีเวนต์ “Everyone, Gather Carrots!” ด้านล่าง; 11/18 เป็นกำหนดปิดคอมเมนต์ ไม่ใช่วันสิ้นสุดอีเวนต์เก็บแครอท"
+          ],
+          "STOVE ทางการ 2026-11-12"
+        ],
+        [
+          "2026-11-12 — ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท (ถึง 11/26 02:59 UTC)",
+          [
+            "โพสต์ทางการ: https://page.onstove.com/epicseven/global/view/14606362 — 11/12 (พฤ.) 03:00 → 11/26 (พฤ.) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
+            "ทางเข้า: Lobby > Event > Special Event. “Everyone, Gather Carrots!” ให้เล่นเนื้อหาในเกมทุกวันเพื่อเก็บ Carrots รับรางวัล; Carrots เริ่มสะสมเมื่ออีเวนต์เริ่ม",
+            "คะแนน: Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมการซื้อ Spectral Core); ใช้ Spectral Core 1 ชิ้น = 160. Arena (รวม Draft Arena และ Arena NPC Challenge) 1 ครั้ง = 70; World Arena (รวม World Arena Tournament) 1 ครั้ง = 120.",
+            "สูงสุด 800 Carrots ต่อวัน. Arena ให้ Carrots เท่ากันไม่ว่าจะชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่องใน Side Story) ไม่นับ",
+            "รีเซ็ตรายวันตามเซิร์ฟเวอร์: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
+            "รางวัลที่ยังไม่รับในช่วงอีเวนต์จะหมดอายุ ต้องรับก่อนอีเวนต์จบ",
+            "“3,000 Days Celebration Party Cake”: ร่วมกับ Heirs ทั้งหมดเก็บ Carrots เพื่อทำเค้กให้เสร็จ และรับรางวัลเพิ่มเมื่อแต่ละชั้นเสร็จ; รางวัลจบเค้กให้เฉพาะ Heirs ที่สะสม Carrots ได้ 800 ชิ้นขึ้นไป (สะสม ไม่ใช่ต้องถึงเพดาน 800 ทุกวัน). ยอดรวมของทุกคนจะถูกสรุปและแสดงทุกวันเวลา 01:00 UTC — ไม่ใช่เวลาจ่ายรางวัล",
+            "ชื่อและจำนวนไอเทมรางวัลไม่ได้ระบุเป็นข้อความในโพสต์หรือภาพภาษาอังกฤษ จึงละไว้ในหน้านี้. หน้าเควส: https://epicsevensteam.com/quests/ — ทางเข้า แหล่งคะแนน และเพดานรายวัน",
+            "แยกจากอีเวนต์คอมเมนต์ด้านบน; อีเวนต์นี้ดำเนินถึง 11/26"
+          ],
+          "STOVE ทางการ 2026-11-12"
+        ],
         [
           "2026-10-29 — เปิดตัว Steam และ Foundry เปิด",
           [
@@ -11160,7 +11272,7 @@ export const CONTENT = {
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
             "11/19 balance preview (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: https://page.onstove.com/epicseven/JP/view/14618761",
-            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:42 Asia/Shanghai on 12 November 2026, Steam’s official RSS still showed no 11/19 maintenance start/end hours and no new Patch Information post. The preview may differ from the live patch; a new official notice and the client are authoritative.",
+            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at https://store.steampowered.com/feeds/news/app/5019180/?l=english still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list (https://page.onstove.com/epicseven/global/list/986) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
             "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: https://page.onstove.com/epicseven/global/view/14608118"
           ]
         ]
@@ -14616,6 +14728,11 @@ export const CONTENT = {
         "Secret Rabbit♥Hole side story + Case Files + Lucky Board — lobby icon; details on the Rabbit Hole page.",
         "Mailbox growth / wishlist / welcome skin mails on Foundry are time-gated — open mail early.",
         "Lobby icons for Rabbit♥Hole / boards disappear when the event ends — claim currencies early.",
+        "3,000 Days comment event: comment on https://page.onstove.com/epicseven/global/view/14628607 by 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai), format “Nickname / Server / Day 3,000 Celebration Message”. See the “Celebrate 3,000 Days: comment event” section on https://epicsevensteam.com/updates/.",
+        "3,000-Day Celebration server cooperation runs 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event; see the “3,000-Day Celebration: Gather Carrots” section on https://epicsevensteam.com/updates/.",
+        "“Everyone, Gather Carrots!”: up to 800 Carrots per day; Adventure/Battle points equal Energy used (excluding purchased Spectral Core; 1 Spectral Core = 160); Arena (incl. Draft Arena / Arena NPC Challenge) 70 per play; World Arena (incl. World Arena Tournament) 120 per play.",
+        "Arena Carrots are the same win or lose; stages that use no Energy (e.g. Side Story story stages) do not count. Daily reset: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
+        "Unclaimed event rewards expire before the event ends. Party Cake completion rewards require 800+ Carrots collected cumulatively; the all-Heirs total is only tallied and reflected daily at 01:00 UTC.",
         "Cross-check Updates/Banners when a new Steam-week mission appears."
       ],
       "faq_h2": "Quests FAQ",
@@ -14700,6 +14817,11 @@ export const CONTENT = {
         "시크릿 래빗♥홀 사이드·사건 파일·럭키 보드는 로비 아이콘을 따르세요.",
         "파운드리 긴급 촉매 주간은 교체 전에 수령하세요.",
         "로비 아이콘은 이벤트 종료 시 사라지니 재화를 일찍 교환하세요.",
+        "3,000일 댓글 이벤트: 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)까지 https://page.onstove.com/epicseven/global/view/14628607 에 “Nickname / Server / Day 3,000 Celebration Message” 형식으로 댓글. https://epicsevensteam.com/updates/ 의 “3,000일 축하 댓글 이벤트” 절 참고.",
+        "3,000일 축하 서버 협력은 11/12 03:00 → 11/26 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event. https://epicsevensteam.com/updates/ 의 “3,000일 축하 서버 협력: 당근 모으기” 절 참고.",
+        "“Everyone, Gather Carrots!”: 하루 최대 800 Carrots. Adventure/Battle은 소모 Energy만큼(구매 Spectral Core 제외, 1개 = 160), Arena(Draft Arena·Arena NPC Challenge 포함) 1회 70, World Arena(World Arena Tournament 포함) 1회 120.",
+        "Arena는 승패와 무관하게 같은 Carrots를 주며, Energy를 쓰지 않는 스테이지(예: 사이드 스토리 스토리 스테이지)는 집계되지 않습니다. 일일 리셋: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
+        "받지 않은 이벤트 보상은 종료 전에 수령해야 하며, Party Cake 완성 보상은 누적 800개 이상의 Carrots를 모은 Heirs에게만 지급됩니다. 전체 누적량은 매일 01:00 UTC에 집계·반영됩니다.",
         "새 Steam 주간 미션이 뜨면 업데이트/배너 페이지를 교차 확인하세요."
       ],
       "faq_h2": "퀘스트 FAQ",
@@ -14871,6 +14993,11 @@ export const CONTENT = {
         "Rabbit♥Hole 支線、案件檔、幸運盤跟大廳圖示。",
         "Foundry 緊急催化劑週輪替——換週前領取。",
         "活動結束大廳圖示會消失，貨幣盡早換。",
+        "3,000 天留言活動：11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）前在 https://page.onstove.com/epicseven/global/view/14628607 依「Nickname / Server / Day 3,000 Celebration Message」格式留言。參見 https://epicsevensteam.com/updates/ 的「3,000 天慶祝留言活動」節。",
+        "3,000 天慶祝伺服器合作：11/12 03:00 → 11/26 02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai），入口 Lobby > Event > Special Event。參見 https://epicsevensteam.com/updates/ 的「3,000 天慶祝伺服器合作：收集 Carrots」節。",
+        "「Everyone, Gather Carrots!」：每日最多 800 Carrots。Adventure/Battle 依消耗 Energy（不含購買 Spectral Core；1 個 = 160），Arena（含 Draft Arena、Arena NPC Challenge）每次 70，World Arena（含 World Arena Tournament）每次 120。",
+        "競技場無論輸贏給予相同 Carrots；不消耗 Energy 的關卡（例如支線劇情關）不計入。每日重置：Korea / Asia / Japan 18:00 UTC；Europe 03:00 UTC；Global 10:00 UTC。",
+        "未領取的活動獎勵會在結束前過期；Party Cake 完成獎勵只給累計收集 800 個以上 Carrots 的 Heirs。全體總量每天 01:00 UTC 統計並反映。",
         "出現新的 Steam 週任務時交叉查更新／卡池頁。"
       ],
       "faq_h2": "任務 FAQ",
@@ -14961,6 +15088,11 @@ export const CONTENT = {
         "Side story Secret Rabbit♥Hole + Case Files + Lucky Board — ไอคอนในล็อบบี้ รายละเอียดอยู่ในหน้า Rabbit Hole",
         "จดหมายกล่องจดหมายการเติบโต / wishlist / สกินต้อนรับบน Foundry มีกำหนดเวลา — เปิดจดหมายตั้งแต่เนิ่น ๆ",
         "ไอคอนล็อบบี้ของ Rabbit♥Hole / บอร์ดจะหายไปเมื่ออีเวนต์จบ — รับสกุลเงินแต่เนิ่น ๆ",
+        "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: คอมเมนต์ที่ https://page.onstove.com/epicseven/global/view/14628607 ภายใน 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai) ตามรูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. ดูหัวข้อ “ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์” ที่ https://epicsevensteam.com/updates/.",
+        "อีเวนต์เซิร์ฟเวอร์ร่วมมือฉลอง 3,000 วัน: 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai) ทางเข้า Lobby > Event > Special Event. ดูหัวข้อ “ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท” ที่ https://epicsevensteam.com/updates/.",
+        "“Everyone, Gather Carrots!”: สูงสุด 800 Carrots ต่อวัน. Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมซื้อ Spectral Core; 1 ชิ้น = 160), Arena (รวม Draft Arena และ Arena NPC Challenge) ครั้งละ 70, World Arena (รวม World Arena Tournament) ครั้งละ 120.",
+        "Arena ให้ Carrots เท่ากันไม่ว่าชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่อง Side Story) ไม่นับ. รีเซ็ตรายวัน: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
+        "รางวัลอีเวนต์ที่ยังไม่รับจะหมดอายุก่อนจบ; รางวัลจบ Party Cake ให้เฉพาะ Heirs ที่สะสม Carrots 800 ชิ้นขึ้นไป. ยอดรวมของทุกคนสรุปและแสดงทุกวันเวลา 01:00 UTC.",
         "ตรวจสอบ Updates/Banners เมื่อมีภารกิจสัปดาห์ Steam ใหม่ปรากฏ"
       ],
       "faq_h2": "คำถามที่พบบ่อยเกี่ยวกับเควส",

@@ -2415,7 +2415,12 @@ export function TierListView({ locale }: { locale: Locale }) {
   const avatarHeroes = TIER_HEROES.filter((hero) => hero.avatar);
   const beyondHeroes = TIER_HEROES.filter((hero) => !hero.avatar);
   const pagePath = locale === 'en' ? '/steam-tier-list/' : '/tier-list/';
-  const lastVerified = locale === 'en' ? '2026-11-13' : '2026-11-03';
+  const lastVerified =
+    locale === 'en'
+      ? '2026-11-13'
+      : locale === 'ko' || locale === 'zh-tw' || locale === 'th'
+        ? '2026-11-16'
+        : '2026-11-03';
 
   return (
     <PageShell
