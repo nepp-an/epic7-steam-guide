@@ -245,6 +245,30 @@ if (!enCase.includes('<link rel="canonical" href="https://epicsevensteam.com/cas
   fail('English case-files canonical changed');
 }
 
+function mainText(html) {
+  const m = body(html).match(/<main>([\s\S]*?)<\/main>/);
+  return m ? m[1] : '';
+}
+function hanHits(text) {
+  const hits = [];
+  for (let i = 0; i < text.length; i++) {
+    const code = text.charCodeAt(i);
+    const han =
+      (code >= 0x4e00 && code <= 0x9fff) ||
+      (code >= 0x3400 && code <= 0x4dbf);
+    if (!han) continue;
+    hits.push(text.slice(Math.max(0, i - 12), i + 12).replace(/\s+/g, ' '));
+  }
+  return hits;
+}
+for (const rel of ['ko/case-files/index.html', 'th/case-files/index.html']) {
+  const hits = hanHits(mainText(read(rel)));
+  if (hits.length) fail(`${rel} main still has Han: ${hits.slice(0, 6).join(' || ')}`);
+}
+if (mainText(read('th/case-files/index.html')).includes('推理')) {
+  fail('Thai case-files main still contains 推理');
+}
+
 if (failures.length) {
   console.error(`FAIL ${failures.length}`);
   for (const f of failures) console.error(`- ${f}`);
