@@ -152,17 +152,17 @@ for (const rel of ['ja/updates/index.html', 'ja/quests/index.html', 'es/updates/
 }
 
 const caseFilesLocales = [
-  { rel: 'index.html', label: 'Case Files' },
-  { rel: 'ko/index.html', label: 'Case Files (영어)' },
-  { rel: 'zh-tw/index.html', label: 'Case Files（英文）' },
-  { rel: 'th/index.html', label: 'Case Files (ภาษาอังกฤษ)' },
+  { rel: 'index.html', href: '/case-files/', label: 'Case Files' },
+  { rel: 'ko/index.html', href: '/ko/case-files/', label: '케이스 파일' },
+  { rel: 'zh-tw/index.html', href: '/zh-tw/case-files/', label: '案例檔案' },
+  { rel: 'th/index.html', href: '/th/case-files/', label: 'แฟ้มคดี' },
 ];
-for (const { rel, label } of caseFilesLocales) {
+for (const { rel, href, label } of caseFilesLocales) {
   const html = body(read(rel));
-  const mapHit = html.includes(`<a href="/case-files/">${label}</a>`);
-  if (!mapHit) fail(`${rel} missing site-map link /case-files/ “${label}”`);
-  if (/href="\/(?:ko|zh-tw|th|ja)\/case-files\//.test(html)) {
-    fail(`${rel} links a localized case-files shell`);
+  const mapHit = html.includes(`<a href="${href}">${label}</a>`);
+  if (!mapHit) fail(`${rel} missing site-map link ${href} “${label}”`);
+  if (/href="\/(?:ja|es|pt|de|fr|pl)\/case-files\//.test(html)) {
+    fail(`${rel} links a case-files path that does not exist`);
   }
 }
 const jaHome = body(read('ja/index.html'));
@@ -172,6 +172,77 @@ if (jaCase.length !== 1 || jaCase[0] !== '/case-files/') {
 }
 if (jaHome.includes('>Case Files</a>') || jaHome.includes('>Case Files (')) {
   fail('ja home gained an English Case Files site-map label');
+}
+
+const casePages = [
+  {
+    rel: 'ko/case-files/index.html',
+    lang: 'ko',
+    canon: 'https://epicsevensteam.com/ko/case-files/',
+    h1: 'Epic Seven 케이스 파일(Steam) — 무엇인가',
+    title: 'Epic Seven 케이스 파일(Steam) — Secret Rabbit♥Hole 가이드',
+  },
+  {
+    rel: 'zh-tw/case-files/index.html',
+    lang: 'zh-Hant',
+    canon: 'https://epicsevensteam.com/zh-tw/case-files/',
+    h1: 'Epic Seven 案例檔案（Steam）— 是什麼',
+    title: 'Epic Seven 案例檔案（Steam）— Secret Rabbit♥Hole 指南',
+  },
+  {
+    rel: 'th/case-files/index.html',
+    lang: 'th',
+    canon: 'https://epicsevensteam.com/th/case-files/',
+    h1: 'แฟ้มคดี Epic Seven (Steam) — คืออะไร',
+    title: 'แฟ้มคดี Epic Seven (Steam) — คู่มือ Secret Rabbit♥Hole',
+  },
+];
+for (const page of casePages) {
+  const html = read(page.rel);
+  if (!html.includes(`<html lang="${page.lang}"`)) fail(`${page.rel} lang`);
+  if (!html.includes(`<link rel="canonical" href="${page.canon}"`)) {
+    fail(`${page.rel} canonical`);
+  }
+  if (!html.includes(`<h1>${page.h1}</h1>`)) fail(`${page.rel} h1`);
+  if (!html.includes(`<title>${page.title}</title>`)) fail(`${page.rel} title`);
+  if (!html.includes('2026-12-10 02:59 UTC') || !html.includes('2026-11-19 02:59 UTC')) {
+    fail(`${page.rel} missing verified dates`);
+  }
+  if (!html.includes('href="https://page.onstove.com/epicseven/global/view/14606293"')) {
+    fail(`${page.rel} missing Case Files source link`);
+  }
+  if (!html.includes('href="https://page.onstove.com/epicseven/global/view/14606365"')) {
+    fail(`${page.rel} missing Lucky Board source link`);
+  }
+  const visible = body(html);
+  if (visible.includes('No culprit answers are published here')) {
+    fail(`${page.rel} still shows the English answer paragraph`);
+  }
+  if (visible.includes('<h1>Epic Seven Case Files (Steam) — what it is</h1>')) {
+    fail(`${page.rel} is an English H1 fallback`);
+  }
+  for (const alt of [
+    'hreflang="en" href="https://epicsevensteam.com/case-files/"',
+    'hreflang="ko" href="https://epicsevensteam.com/ko/case-files/"',
+    'hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/case-files/"',
+    'hreflang="th" href="https://epicsevensteam.com/th/case-files/"',
+    'hreflang="x-default" href="https://epicsevensteam.com/case-files/"',
+  ]) {
+    if (!html.includes(alt)) fail(`${page.rel} missing ${alt}`);
+  }
+  if (/hreflang="(?:ja|es|pt|de|fr|pl)"/.test(html)) {
+    fail(`${page.rel} claims a case-files language that does not exist`);
+  }
+}
+const enCase = read('case-files/index.html');
+if (!enCase.includes('<h1>Epic Seven Case Files (Steam) — what it is</h1>')) {
+  fail('English case-files H1 changed');
+}
+if (!enCase.includes('<title>Epic Seven Case Files (Steam) — Secret Rabbit♥Hole Guide</title>')) {
+  fail('English case-files title changed');
+}
+if (!enCase.includes('<link rel="canonical" href="https://epicsevensteam.com/case-files/"')) {
+  fail('English case-files canonical changed');
 }
 
 if (failures.length) {

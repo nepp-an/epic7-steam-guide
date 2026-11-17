@@ -2724,6 +2724,42 @@
     <loc>https://epicsevensteam.com/case-files/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/case-files/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/case-files/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/case-files/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/case-files/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/case-files/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/ko/case-files/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/case-files/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/case-files/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/case-files/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/case-files/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/case-files/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/zh-tw/case-files/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/case-files/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/case-files/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/case-files/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/case-files/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/case-files/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/th/case-files/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/case-files/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://epicsevensteam.com/ko/case-files/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://epicsevensteam.com/zh-tw/case-files/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://epicsevensteam.com/th/case-files/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/case-files/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

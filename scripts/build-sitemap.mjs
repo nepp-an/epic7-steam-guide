@@ -22,8 +22,17 @@ const PATHS = [
   '/contact/',
   '/privacy/',
 ];
-/** English-only intent pages (no localized shells until the copy exists). */
-const EN_ONLY_PATHS = ['/case-files/'];
+/**
+ * Case Files is a full page in English, Korean, Traditional Chinese, and Thai.
+ * Do not list ja/es/pt/de/fr/pl — those URLs do not exist.
+ */
+const CASE_FILES_LOCALES = [
+  ['en', 'en'],
+  ['ko', 'ko'],
+  ['zh-tw', 'zh-Hant'],
+  ['th', 'th'],
+];
+const CASE_FILES_PUBLISHED = '2026-11-17';
 const LOCALES = [
   ['en', 'en'],
   ['ko', 'ko'],
@@ -77,11 +86,17 @@ for (const path of PATHS) {
     pushUrl(urlFor(locale, path), LAST_MOD, alternates, path === '/' ? '1.0' : '0.8');
   }
 }
-for (const path of EN_ONLY_PATHS) {
-  pushUrl(`${ORIGIN}${path}`, LAST_MOD, [
-    ['en', `${ORIGIN}${path}`],
-    ['x-default', `${ORIGIN}${path}`],
+for (const [locale] of CASE_FILES_LOCALES) {
+  const alternates = CASE_FILES_LOCALES.map(([altLocale, hreflang]) => [
+    hreflang,
+    urlFor(altLocale, '/case-files/'),
   ]);
+  alternates.push(['x-default', urlFor('en', '/case-files/')]);
+  pushUrl(
+    urlFor(locale, '/case-files/'),
+    locale === 'en' ? LAST_MOD : CASE_FILES_PUBLISHED,
+    alternates,
+  );
 }
 
 /*
@@ -115,5 +130,5 @@ for (const [locale] of LOCALES) {
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
 console.log(
-  `sitemap: ${PATHS.length * LOCALES.length + EN_ONLY_PATHS.length + 1 + LOCALES.length} urls`,
+  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length} urls`,
 );

@@ -1,27 +1,57 @@
-import Link from 'next/link';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
+import { LocaleLink as L } from '@/components/LocaleLink';
 import { PageShell } from '@/components/PageShell';
 import { CONTENT } from '@/lib/i18n/content';
 import { CASE_FILES_VERIFIED_DATE } from '@/lib/i18n/nextCut';
+import type { Locale } from '@/lib/site';
 
 /**
- * English-only intent page for the GSC query "epic seven case files".
- * The content lives in lib/i18n/content.ts under /case-files/ so dates stay
- * in the same content matrix as the Foundry and Rabbit pages.
+ * Case Files guide. English copy is the source of the facts.
+ * ko / zh-tw / th are full translations of that page, not English shells.
+ * ja and the other locales do not have this path.
  */
-export function CaseFilesView() {
-  const c = CONTENT['/case-files/'].en;
+export const CASE_FILES_LOCALES = ['en', 'ko', 'zh-tw', 'th'] as const;
+export type CaseFilesLocale = (typeof CASE_FILES_LOCALES)[number];
+
+const VERIFIED_CHROME: Record<
+  Exclude<CaseFilesLocale, 'en'>,
+  { before: string; after: string }
+> = {
+  ko: { before: '최근 확인: ', after: ' (Steam/Foundry 기준)' },
+  'zh-tw': { before: '最近核對：', after: '（Steam／Foundry）' },
+  th: { before: 'ตรวจล่าสุด: ', after: ' (โฟกัส Steam/Foundry)' },
+};
+
+export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
+  const c = CONTENT['/case-files/'][locale];
+  const verified = locale === 'en' ? null : VERIFIED_CHROME[locale];
   return (
-    <PageShell locale="en" path="/case-files/" languages={['en']}>
+    <PageShell
+      locale={locale}
+      path="/case-files/"
+      languages={CASE_FILES_LOCALES}
+    >
       <h1>{c.h1}</h1>
-      <IndepNotice locale="en" compact />
+      <IndepNotice locale={locale} compact />
       <p className="last-verified">
-        Last verified:{' '}
-        <time dateTime={CASE_FILES_VERIFIED_DATE}>
-          {CASE_FILES_VERIFIED_DATE}
-        </time>{' '}
-        (Steam/Foundry focus)
+        {verified ? (
+          <>
+            {verified.before}
+            <time dateTime={CASE_FILES_VERIFIED_DATE}>
+              {CASE_FILES_VERIFIED_DATE}
+            </time>
+            {verified.after}
+          </>
+        ) : (
+          <>
+            Last verified:{' '}
+            <time dateTime={CASE_FILES_VERIFIED_DATE}>
+              {CASE_FILES_VERIFIED_DATE}
+            </time>{' '}
+            (Steam/Foundry focus)
+          </>
+        )}
       </p>
       <p className="quick-answer">
         <strong>TL;DR — </strong>
@@ -34,7 +64,9 @@ export function CaseFilesView() {
       <ul>
         {c.links.map(([href, label]) => (
           <li key={href}>
-            <Link href={href}>{label}</Link>
+            <L locale={locale} href={href}>
+              {label}
+            </L>
           </li>
         ))}
       </ul>
@@ -55,4 +87,8 @@ export function CaseFilesView() {
       </ul>
     </PageShell>
   );
+}
+
+export function isCaseFilesLocale(locale: Locale): locale is CaseFilesLocale {
+  return (CASE_FILES_LOCALES as readonly string[]).includes(locale);
 }

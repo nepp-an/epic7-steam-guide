@@ -3,6 +3,7 @@ import { Checklist, QuestChecklist } from '@/components/Checklist';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
+import { isCaseFilesLocale } from '@/components/pages/CaseFilesView';
 import { CONTENT } from '@/lib/i18n/content';
 import { CHECKLIST_COPY } from '@/lib/i18n/checklists';
 import { CORE_DEEPEN, type DeepenBlock } from '@/lib/i18n/coreDeepen';
@@ -448,7 +449,7 @@ function faqPlain(marked: string): string {
 // /tier-list/ is the English resource page. The locale /{locale}/tier-list/
 // route is a different Steam build guide, so these wiki links must not be
 // localized to the reader's current locale.
-const ENGLISH_ONLY_PATHS = new Set(['/tier-list/', '/case-files/']);
+const ENGLISH_ONLY_PATHS = new Set(['/tier-list/']);
 
 function richParts(locale: Locale, marked: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
@@ -476,6 +477,21 @@ function richParts(locale: Locale, marked: string): React.ReactNode[] {
           {label}
         </a>,
       );
+    } else if (href === '/case-files/') {
+      // ko / zh-tw / th have full pages. Other locales stay on the English URL.
+      if (isCaseFilesLocale(locale)) {
+        nodes.push(
+          <L key={key++} locale={locale} href={href}>
+            {label}
+          </L>,
+        );
+      } else {
+        nodes.push(
+          <Link key={key++} href={href}>
+            {label}
+          </Link>,
+        );
+      }
     } else if (ENGLISH_ONLY_PATHS.has(href)) {
       nodes.push(
         <Link key={key++} href={href}>
@@ -618,14 +634,18 @@ export function HomeView({ locale }: { locale: Locale }) {
           <L locale={locale} href="/foundry/">
             <span className="btn btn-secondary">{c.cta_fd}</span>
           </L>
-          {/* Case Files is EN-only today; keep CTA on /case-files/ for all locales
-              and label the language so the English page is not a surprise. */}
-          <Link href="/case-files/">
-            <span className="btn btn-secondary">
-              {c.cta_cf}
-              {locale === 'en' ? '' : ` (${ENGLISH_LABEL[locale]})`}
-            </span>
-          </Link>
+          {isCaseFilesLocale(locale) ? (
+            <L locale={locale} href="/case-files/">
+              <span className="btn btn-secondary">{c.cta_cf}</span>
+            </L>
+          ) : (
+            <Link href="/case-files/">
+              <span className="btn btn-secondary">
+                {c.cta_cf}
+                {` (${ENGLISH_LABEL[locale]})`}
+              </span>
+            </Link>
+          )}
         </div>
       </section>
       <IndepNotice locale={locale} />
@@ -768,7 +788,13 @@ export function HomeView({ locale }: { locale: Locale }) {
             {c.map_links_fd.map(([h, l]) => (
               <li key={h}>
                 {h === '/case-files/' ? (
-                  <Link href="/case-files/">{l}</Link>
+                  isCaseFilesLocale(locale) ? (
+                    <L locale={locale} href="/case-files/">
+                      {l}
+                    </L>
+                  ) : (
+                    <Link href="/case-files/">{l}</Link>
+                  )
                 ) : (
                   <L locale={locale} href={h}>
                     {l}
@@ -1579,6 +1605,16 @@ export function FoundryView({ locale }: { locale: Locale }) {
               Epic Seven Case Files (Steam)
             </L>
           </li>
+        ) : isCaseFilesLocale(locale) ? (
+          <li>
+            <L locale={locale} href="/case-files/">
+              {locale === 'ko'
+                ? 'Epic Seven 케이스 파일(Steam)'
+                : locale === 'zh-tw'
+                  ? 'Epic Seven 案例檔案（Steam）'
+                  : 'แฟ้มคดี Epic Seven (Steam)'}
+            </L>
+          </li>
         ) : null}
         <li>
           <L locale={locale} href="/heroes/">
@@ -1641,6 +1677,17 @@ export function RabbitView({ locale }: { locale: Locale }) {
           <strong>Case Files:</strong>{' '}
           <L locale={locale} href="/case-files/">
             Case Files guide (Steam)
+          </L>
+        </p>
+      ) : isCaseFilesLocale(locale) ? (
+        <p className="answer">
+          <strong>Case Files:</strong>{' '}
+          <L locale={locale} href="/case-files/">
+            {locale === 'ko'
+              ? '케이스 파일 가이드 (Steam)'
+              : locale === 'zh-tw'
+                ? '案例檔案指南（Steam）'
+                : 'ไกด์แฟ้มคดี (Steam)'}
           </L>
         </p>
       ) : null}
@@ -2316,6 +2363,16 @@ export function QuestsView({ locale }: { locale: Locale }) {
         <p>
           <L locale={locale} href="/case-files/">
             Epic Seven Case Files (Steam) — full guide
+          </L>
+        </p>
+      ) : isCaseFilesLocale(locale) ? (
+        <p>
+          <L locale={locale} href="/case-files/">
+            {locale === 'ko'
+              ? 'Epic Seven 케이스 파일(Steam) — 전체 가이드'
+              : locale === 'zh-tw'
+                ? 'Epic Seven 案例檔案（Steam）— 完整指南'
+                : 'แฟ้มคดี Epic Seven (Steam) — คู่มือฉบับเต็ม'}
           </L>
         </p>
       ) : null}

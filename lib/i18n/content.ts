@@ -394,7 +394,7 @@ export const CONTENT = {
         ],
         [
           "/case-files/",
-          "Case Files (영어)"
+          "케이스 파일"
         ]
       ],
       "map_links_ong": [
@@ -816,7 +816,7 @@ export const CONTENT = {
         ],
         [
           "/case-files/",
-          "Case Files（英文）"
+          "案例檔案"
         ]
       ],
       "map_links_ong": [
@@ -1029,7 +1029,7 @@ export const CONTENT = {
         ],
         [
           "/case-files/",
-          "Case Files (ภาษาอังกฤษ)"
+          "แฟ้มคดี"
         ]
       ],
       "map_links_ong": [
@@ -15669,6 +15669,216 @@ export const CONTENT = {
         ]
       ],
       "img_alt": "Self-drawn quest rhythm diagram used for the Case Files overview"
+    },
+    "ko": {
+      "title": "Epic Seven 케이스 파일(Steam) — Secret Rabbit♥Hole 가이드",
+      "meta": "Steam의 Epic Seven 케이스 파일: Secret Rabbit♥Hole 안의 Alencia Case Files 추론 미니게임, Lucky Board와의 차이, 11/19와 12/10 마감. 스포일러 없음.",
+      "h1": "Epic Seven 케이스 파일(Steam) — 무엇인가",
+      "answer": "Epic Seven 케이스 파일은 Secret Rabbit♥Hole 사이드 스토리 안의 Trusty Sidekick Alencia’s Case Files 추론 미니게임입니다. 매일 돋보기를 쓰고 O/X 격자를 채우며 범인을 좁힙니다. Lucky Board는 별도의 일일 포인트 트랙입니다. 그 트랙과 병행 Moro Mystic 배너는 2026-11-19 02:59 UTC 전후에 닫히고, 사이드 스토리와 Case Files는 2026-12-10 02:59 UTC까지입니다. 범인 정답은 여기에 올리지 않습니다.",
+      "paras": [
+        "Case Files는 전투 퀘스트 체크가 아니라 격자 추론 이벤트입니다. 로비 이벤트 아이콘에서 Secret Rabbit♥Hole을 연 다음, 이벤트 페이지에서 Case Files를 엽니다. 매일 돋보기가 지급됩니다. 돋보기로 단서를 확인하고 O/X 격자에 표시한 뒤, 지목하기 전에 Culprit Clue를 엽니다. 새로운 질문마다 돋보기 1개를 소모하고, 이미 본 질문을 다시 확인하는 데는 소모하지 않습니다. 격자를 표시하기 전에 사건 텍스트를 읽으세요.",
+        "Secret Rabbit♥Hole은 전체를 아우르는 사이드 스토리입니다. Case Files는 그 안에 있고, Daily Investigation / Lucky Board는 모험·전투·Arena로 점수를 모으는 별도 트랙입니다. 공지된 Lucky Board 상한은 하루 720포인트이며, 놓친 날은 완전히 복구되지 않습니다. Lucky Board와 병행 Bunny Girl Great Detective Moro Mystic 배너는 2026-11-19 02:59 UTC 전후에 끝나며, 위시리스트 메일은 약 11/19 03:00 UTC입니다. 그 날짜를 사이드 스토리 자체의 종료일로 쓰지 마세요.",
+        "사이드 스토리와 Case Files는 2026-12-10 02:59 UTC까지 계속됩니다. Lucky Board가 닫힌 뒤에도 사건은 계속 진행할 수 있지만, 만료된 보드 보상은 나중에 받을 수 없습니다. 늦은 돋보기 보충에 Energy를 쓰기 전에 게임 안 타이머와 STOVE 이벤트 공지를 확인하세요. 로비 아이콘이 사라지면 입장 지점과 쓰지 않은 돋보기도 함께 사라집니다.",
+        "Case Files는 전력 확인이 아니라 추론과 스토리로 플레이하세요. 평소 파운드리 일일·주간은 그대로 돌리고, 리셋 리듬은 퀘스트 허브, Guild War 일정은 파운드리 캘린더를 보세요(2026-11-19 도입, 방어팀 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC). 이 페이지는 방식과 날짜만 설명하며, 범인 정답이나 스포일러 공략은 올리지 않습니다."
+      ],
+      "related_h2": "관련 가이드",
+      "links": [
+        [
+          "/quests/",
+          "파운드리 퀘스트 — 일일 / 주간"
+        ],
+        [
+          "/quests/#case-files",
+          "퀘스트 허브의 Case Files 절"
+        ],
+        [
+          "/foundry/",
+          "파운드리 서버 가이드"
+        ],
+        [
+          "/foundry/#guild-war",
+          "파운드리 길드전 — 11/19, 11/21, 11/23"
+        ],
+        [
+          "/secret-rabbit-hole/",
+          "Secret Rabbit♥Hole 이벤트 개요"
+        ],
+        [
+          "/",
+          "Epic Seven Steam 가이드 홈"
+        ]
+      ],
+      "faq_h2": "케이스 파일 FAQ",
+      "faqs": [
+        [
+          "Epic Seven 케이스 파일과 Lucky Board는 같은가요?",
+          "아닙니다. Case Files는 Secret Rabbit♥Hole 안의 Alencia 격자 추론 미니게임입니다. Lucky Board / Daily Investigation은 하루 상한 720포인트의 별도 트랙이며 2026-11-19 02:59 UTC 전후에 닫힙니다. Case Files와 사이드 스토리는 2026-12-10 02:59 UTC까지입니다."
+        ],
+        [
+          "케이스 파일은 언제 끝나나요?",
+          "공지된 사이드 스토리 기간은 2026-12-10 02:59 UTC까지입니다. Lucky Board와 병행 Moro Mystic 배너는 그보다 이른 2026-11-19 02:59 UTC 전후에 닫힙니다. 게임 안 타이머를 확인하세요. 쓰지 않은 돋보기는 이벤트 입구와 함께 사라집니다."
+        ],
+        [
+          "케이스 파일이 파운드리 길드전에 도움이 되나요?",
+          "아닙니다. Case Files는 이벤트 미니게임이며 길드전 요구 조건이 아닙니다. 파운드리 길드전은 별도의 파운드리 일정입니다. 2026-11-19 도입, 방어팀 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC. 레거시 후계자는 파운드리 길드전에 자동으로 들어가지 않습니다."
+        ]
+      ],
+      "src_h2": "출처",
+      "sources": [
+        [
+          "https://page.onstove.com/epicseven/global/view/14606293",
+          "STOVE — Case Files 공지"
+        ],
+        [
+          "https://page.onstove.com/epicseven/global/view/14606365",
+          "STOVE — Lucky Board 공지"
+        ],
+        [
+          "https://store.steampowered.com/news/app/5019180/view/1848664643349012",
+          "Steam — 파운드리 길드전 공지 (2026-11-07)"
+        ]
+      ],
+      "img_alt": "케이스 파일 개요에 쓰는 자작 퀘스트 리듬 도해"
+    },
+    "zh-tw": {
+      "title": "Epic Seven 案例檔案（Steam）— Secret Rabbit♥Hole 指南",
+      "meta": "Steam 上的 Epic Seven 案例檔案：Secret Rabbit♥Hole 裡的 Alencia Case Files 推理小遊戲、與 Lucky Board 的差別，以及 11/19 與 12/10 的截止。不含劇透。",
+      "h1": "Epic Seven 案例檔案（Steam）— 是什麼",
+      "answer": "Epic Seven 案例檔案是 Secret Rabbit♥Hole 支線裡的 Trusty Sidekick Alencia’s Case Files 推理小遊戲。每天使用放大鏡、填 O/X 格線、縮小兇手範圍。Lucky Board 是另一條每日點數軌道：它與並行的 Moro Mystic 卡池約在 2026-11-19 02:59 UTC 結束，支線與 Case Files 則到 2026-12-10 02:59 UTC。這裡不公布兇手答案。",
+      "paras": [
+        "Case Files 是格線推理活動，不是戰鬥任務檢核。從大廳活動圖示打開 Secret Rabbit♥Hole，再從活動頁打開 Case Files。每天會給放大鏡；用它查看線索、在 O/X 格線上標記，並在指認之前打開 Culprit Clue。每提出一個新問題消耗 1 個放大鏡；重新查看已經看過的問題不消耗。先讀案件文字，再標記格線。",
+        "Secret Rabbit♥Hole 是總括這段內容的支線。Case Files 在它裡面，Daily Investigation / Lucky Board 則是靠冒險、戰鬥與 Arena 累點的另一條軌道。公告的 Lucky Board 上限是每天 720 點；漏掉的天數無法完整補回。Lucky Board 與並行的 Bunny Girl Great Detective Moro Mystic 卡池約在 2026-11-19 02:59 UTC 結束——願望清單信件約 11/19 03:00 UTC。不要把這個日期當成支線本身的結束日。",
+        "支線與 Case Files 仍進行到 2026-12-10 02:59 UTC。Lucky Board 關閉後仍可繼續推案件，但過期的棋盤獎勵之後領不到。把 Energy 用在後期補充放大鏡之前，先看遊戲內即時計時與 STOVE 活動公告。大廳圖示消失時，入口與未用的放大鏡一併消失。",
+        "把 Case Files 當成推理與故事，而不是強度檢定。平常的 Foundry 每日與每週照舊進行；重置節奏看任務樞紐，Guild War 日程看 Foundry 日曆（2026-11-19 導入，防禦隊伍 2026-11-21 03:00 UTC，配對 2026-11-23 03:00 UTC）。本頁只說明玩法與日期，不公布兇手答案，也不是劇透攻略。"
+      ],
+      "related_h2": "相關指南",
+      "links": [
+        [
+          "/quests/",
+          "Foundry 任務 — 每日／每週"
+        ],
+        [
+          "/quests/#case-files",
+          "任務樞紐上的 Case Files 一節"
+        ],
+        [
+          "/foundry/",
+          "Foundry 伺服器指南"
+        ],
+        [
+          "/foundry/#guild-war",
+          "Foundry 公會戰 — 11/19、11/21、11/23"
+        ],
+        [
+          "/secret-rabbit-hole/",
+          "Secret Rabbit♥Hole 活動概覽"
+        ],
+        [
+          "/",
+          "Epic Seven Steam 指南首頁"
+        ]
+      ],
+      "faq_h2": "案例檔案 FAQ",
+      "faqs": [
+        [
+          "Epic Seven 案例檔案和 Lucky Board 是同一個嗎？",
+          "不是。Case Files 是 Secret Rabbit♥Hole 裡的 Alencia 格線推理小遊戲。Lucky Board / Daily Investigation 是另一條點數軌道，每日上限 720 點，約在 2026-11-19 02:59 UTC 結束；Case Files 與支線進行到 2026-12-10 02:59 UTC。"
+        ],
+        [
+          "案例檔案什麼時候結束？",
+          "公告的支線窗口到 2026-12-10 02:59 UTC。Lucky Board 與並行的 Moro Mystic 卡池更早，約在 2026-11-19 02:59 UTC 結束。請以遊戲內即時計時為準；未用的放大鏡會跟活動入口一起消失。"
+        ],
+        [
+          "案例檔案對 Foundry 公會戰有幫助嗎？",
+          "沒有。Case Files 是活動小遊戲，不是公會戰條件。Foundry 公會戰是另一條 Foundry 日程：2026-11-19 導入，防禦隊伍 2026-11-21 03:00 UTC，配對 2026-11-23 03:00 UTC。原服後繼者不會自動加入 Foundry 公會戰。"
+        ]
+      ],
+      "src_h2": "來源",
+      "sources": [
+        [
+          "https://page.onstove.com/epicseven/global/view/14606293",
+          "STOVE — Case Files 公告"
+        ],
+        [
+          "https://page.onstove.com/epicseven/global/view/14606365",
+          "STOVE — Lucky Board 公告"
+        ],
+        [
+          "https://store.steampowered.com/news/app/5019180/view/1848664643349012",
+          "Steam — Foundry 公會戰公告（2026-11-07）"
+        ]
+      ],
+      "img_alt": "案例檔案概覽使用的自繪任務節奏圖"
+    },
+    "th": {
+      "title": "แฟ้มคดี Epic Seven (Steam) — คู่มือ Secret Rabbit♥Hole",
+      "meta": "แฟ้มคดี Epic Seven บน Steam: มินิเกม推理 Alencia Case Files ใน Secret Rabbit♥Hole ความต่างจาก Lucky Board และกำหนด 11/19 กับ 12/10 ไม่มีสปอยล์",
+      "h1": "แฟ้มคดี Epic Seven (Steam) — คืออะไร",
+      "answer": "แฟ้มคดี Epic Seven คือมินิเกม推理 Trusty Sidekick Alencia’s Case Files ในไซด์สตอรี่ Secret Rabbit♥Hole ใช้แว่นขยายรายวัน เติมตาราง O/X แล้วจำกัดวงผู้ต้องสงสัย Lucky Board เป็นแทร็กแต้มรายวันที่แยกต่างหาก แทร็กนั้นและแบนเนอร์ Moro Mystic ที่คู่กันปิดราว 2026-11-19 02:59 UTC ส่วนไซด์สตอรี่และ Case Files ไปถึง 2026-12-10 02:59 UTC ที่นี่ไม่เผยคำตอบคนร้าย",
+      "paras": [
+        "Case Files เป็นอีเวนต์推理ตาราง ไม่ใช่การตรวจเควสต่อสู้ เปิด Secret Rabbit♥Hole จากไอคอนอีเวนต์ในล็อบบี้ แล้วเปิด Case Files จากหน้าอีเวนต์ แต่ละวันได้แว่นขยาย ใช้เปิดเบาะแส ทำเครื่องหมายบนตาราง O/X และปลด Culprit Clue ก่อนชี้ตัว แต่ละคำถามใหม่ใช้แว่นขยาย 1 อัน การเปิดดูคำถามที่เคยดูแล้วไม่ใช้แว่น อ่านข้อความคดีก่อนทำเครื่องหมายบนตาราง",
+        "Secret Rabbit♥Hole คือไซด์สตอรี่ที่ครอบเนื้อหาชุดนี้ Case Files อยู่ในนั้น ส่วน Daily Investigation / Lucky Board เป็นแทร็กแต้มแยกที่มาจากการผจญภัย การต่อสู้ และ Arena เพดาน Lucky Board ที่ประกาศไว้คือ 720 แต้มต่อวัน วันที่พลาดกู้คืนเต็มจำนวนไม่ได้ Lucky Board และแบนเนอร์ Bunny Girl Great Detective Moro Mystic ที่คู่กันจบราว 2026-11-19 02:59 UTC — จดหมาย wishlist ราว 11/19 03:00 UTC อย่าใช้วันนี้เป็นวันจบของไซด์สตอรี่เอง",
+        "ไซด์สตอรี่และ Case Files ยังดำเนินถึง 2026-12-10 02:59 UTC หลัง Lucky Board ปิดยังเดินคดีต่อได้ แต่รางวัลบอร์ดที่หมดอายุแล้วรับทีหลังไม่ได้ ก่อนใช้ Energy เติมแว่นขยายช่วงท้าย ให้ตรวจตัวจับเวลาในเกมและประกาศอีเวนต์บน STOVE ถ้าไอคอนล็อบบี้หาย จุดเข้าและแว่นที่ยังไม่ใช้จะหายไปด้วย",
+        "เล่น Case Files เพื่อชั้นการ推理และเนื้อเรื่อง ไม่ใช่การตรวจความแข็งแกร่ง เดลี่และวีคลี่ Foundry ตามปกติยังทำต่อ จังหวะรีเซ็ตดูที่ฮับเควสต์ และปฏิทิน Foundry สำหรับ Guild War (เปิดตัว 2026-11-19 จัดทีมป้องกัน 2026-11-21 03:00 UTC จับคู่ 2026-11-23 03:00 UTC) หน้านี้อธิบายวิธีเล่นและวันที่เท่านั้น ไม่เผยคำตอบคนร้ายและไม่ใช่ไกด์สปอยล์"
+      ],
+      "related_h2": "ไกด์ที่เกี่ยวข้อง",
+      "links": [
+        [
+          "/quests/",
+          "เควส Foundry — รายวัน / รายสัปดาห์"
+        ],
+        [
+          "/quests/#case-files",
+          "หัวข้อ Case Files บนฮับเควสต์"
+        ],
+        [
+          "/foundry/",
+          "ไกด์เซิร์ฟเวอร์ Foundry"
+        ],
+        [
+          "/foundry/#guild-war",
+          "Guild War บน Foundry — 11/19, 11/21, 11/23"
+        ],
+        [
+          "/secret-rabbit-hole/",
+          "ภาพรวมอีเวนต์ Secret Rabbit♥Hole"
+        ],
+        [
+          "/",
+          "หน้าแรกไกด์ Epic Seven Steam"
+        ]
+      ],
+      "faq_h2": "คำถามที่พบบ่อยเกี่ยวกับแฟ้มคดี",
+      "faqs": [
+        [
+          "แฟ้มคดี Epic Seven กับ Lucky Board คืออันเดียวกันไหม",
+          "ไม่ใช่ Case Files คือมินิเกม推理ตารางของ Alencia ใน Secret Rabbit♥Hole Lucky Board / Daily Investigation เป็นแทร็กแต้มแยก เพดาน 720 แต้มต่อวัน และปิดราว 2026-11-19 02:59 UTC ส่วน Case Files กับไซด์สตอรี่ไปถึง 2026-12-10 02:59 UTC"
+        ],
+        [
+          "แฟ้มคดีจบเมื่อไร",
+          "หน้าต่างไซด์สตอรี่ที่ประกาศไว้ไปถึง 2026-12-10 02:59 UTC Lucky Board และแบนเนอร์ Moro Mystic ที่คู่กันปิดก่อนหน้านั้น ราว 2026-11-19 02:59 UTC ให้ยึดตัวจับเวลาในเกม แว่นขยายที่ยังไม่ใช้จะหายไปพร้อมทางเข้าอีเวนต์"
+        ],
+        [
+          "แฟ้มคดีช่วย Guild War บน Foundry ไหม",
+          "ไม่ช่วย Case Files เป็นมินิเกมอีเวนต์ ไม่ใช่เงื่อนไข Guild War Guild War บน Foundry เป็นตารางแยก: เปิดตัว 2026-11-19 จัดทีมป้องกัน 2026-11-21 03:00 UTC จับคู่ 2026-11-23 03:00 UTC ทายาทบนเซิร์ฟเดิมไม่ได้เข้า Guild War ของ Foundry โดยอัตโนมัติ"
+        ]
+      ],
+      "src_h2": "แหล่งที่มา",
+      "sources": [
+        [
+          "https://page.onstove.com/epicseven/global/view/14606293",
+          "STOVE — ประกาศ Case Files"
+        ],
+        [
+          "https://page.onstove.com/epicseven/global/view/14606365",
+          "STOVE — ประกาศ Lucky Board"
+        ],
+        [
+          "https://store.steampowered.com/news/app/5019180/view/1848664643349012",
+          "Steam — ประกาศ Guild War บน Foundry (2026-11-07)"
+        ]
+      ],
+      "img_alt": "แผนภาพจังหวะเควสที่วาดเอง ใช้กับภาพรวมแฟ้มคดี"
     }
   }
 } as const;

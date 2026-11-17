@@ -14,7 +14,7 @@ export const metadata: Metadata = pageMetadata({
   locale: LOCALE,
   absoluteTitle: true,
   ogImage: '/images/diagram-quests.webp',
-  alternateLocales: ['en'],
+  alternateLocales: ['en', 'ko', 'zh-tw', 'th'],
 });
 
 export default function Page() {
