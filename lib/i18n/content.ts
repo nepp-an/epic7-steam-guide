@@ -15602,7 +15602,7 @@ export const CONTENT = {
   "/case-files/": {
     "en": {
       "title": "Epic Seven Case Files (Steam) — Secret Rabbit♥Hole Guide",
-      "meta": "Epic Seven Case Files on Steam: the Alencia Case Files deduction mini-game inside Secret Rabbit♥Hole, how it differs from the Lucky Board, and the 11/19 vs 12/10 deadlines. No spoilers.",
+      "meta": "Epic Seven Case Files on Steam: Trusty Sidekick Alencia's Case Files, the deduction mini-game inside Secret Rabbit♥Hole, how it differs from the Lucky Board, and the 11/19 vs 12/10 deadlines. No spoilers.",
       "h1": "Epic Seven Case Files (Steam) — what it is",
       "answer": "Epic Seven Case Files are the Trusty Sidekick Alencia’s Case Files deduction mini-game inside the Secret Rabbit♥Hole side story. Spend daily magnifying glasses, fill the O/X grid, and narrow the culprit. The Lucky Board is a separate daily-point track: it and the parallel Moro Mystic banner close around 2026-11-19 02:59 UTC, while the side story and Case Files run to 2026-12-10 02:59 UTC. No culprit answers are published here.",
       "paras": [

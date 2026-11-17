@@ -244,6 +244,19 @@ if (!enCase.includes('<title>Epic Seven Case Files (Steam) — Secret Rabbit♥H
 if (!enCase.includes('<link rel="canonical" href="https://epicsevensteam.com/case-files/"')) {
   fail('English case-files canonical changed');
 }
+const desc = enCase.match(/<meta name="description" content="([^"]*)"/);
+const descText = desc
+  ? desc[1]
+      .replace(/&#x27;/g, "'")
+      .replace(/&apos;/g, "'")
+      .replace(/&amp;/g, '&')
+  : '';
+const expectedDesc =
+  "Epic Seven Case Files on Steam: Trusty Sidekick Alencia's Case Files, the deduction mini-game inside Secret Rabbit♥Hole, how it differs from the Lucky Board, and the 11/19 vs 12/10 deadlines. No spoilers.";
+if (descText !== expectedDesc) fail(`English description is ${descText}`);
+if (/culprit|reward|answer/i.test(descText)) {
+  fail('English description promises answers, culprits, or rewards');
+}
 
 function mainText(html) {
   const m = body(html).match(/<main>([\s\S]*?)<\/main>/);
