@@ -2,7 +2,7 @@
  * Focused render check for the 3,000-day comment / carrot links.
  * Run after `npm run build`. Reads static HTML in out/.
  *
- * Does not auto-link every URL: 14618757 on English updates must stay plain text.
+ * Official Steam/STOVE URLs that were plain text in updates are anchors.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -137,9 +137,10 @@ if (!th.includes('ส่งเข้ากล่องจดหมายใน�
 
 const enUpdates = body(read('updates/index.html'));
 const preview = 'https://page.onstove.com/epicseven/global/view/14618757';
-if (!enUpdates.includes(preview)) fail('EN updates lost untouched 14618757 notice');
-if (hasAnchor(enUpdates, preview)) fail('EN updates auto-linked unrelated 14618757');
-if (hrefs(enUpdates, '14618757').length) fail('14618757 appeared in an href');
+if (!hasAnchor(enUpdates, preview)) fail('EN updates missing 14618757 anchor');
+if (enUpdates.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, '').includes(preview)) {
+  fail('EN updates still has plain-text 14618757');
+}
 
 for (const rel of ['ja/updates/index.html', 'ja/quests/index.html', 'es/updates/index.html']) {
   const html = body(read(rel));
@@ -281,6 +282,44 @@ for (const rel of ['ko/case-files/index.html', 'th/case-files/index.html']) {
 if (mainText(read('th/case-files/index.html')).includes('推理')) {
   fail('Thai case-files main still contains 推理');
 }
+
+const linkPages = [
+  ['banners/index.html', 'https://page.onstove.com/epicseven/global/view/14608118'],
+  ['ko/banners/index.html', 'https://page.onstove.com/epicseven/global/view/14608118'],
+  ['faq/index.html', 'https://page.onstove.com/epicseven/global/view/14608118'],
+  ['ja/faq/index.html', 'https://page.onstove.com/epicseven/global/view/14608118'],
+  ['maintenance/index.html', 'https://store.steampowered.com/news/app/5019180/view/1848664643349012'],
+  ['maintenance/index.html', 'https://page.onstove.com/epicSeven/global/view/14618757'],
+  ['de/maintenance/index.html', 'https://page.onstove.com/epicseven/global/view/14608118'],
+  ['updates/index.html', 'https://store.steampowered.com/feeds/news/app/5019180/?l=english'],
+  ['updates/index.html', 'https://page.onstove.com/epicseven/global/list/986'],
+  ['updates/index.html', 'https://page.onstove.com/epicseven/global/view/14628607'],
+  ['th/quests/index.html', 'https://page.onstove.com/epicseven/global/view/14628607'],
+];
+for (const [rel, href] of linkPages) {
+  const html = body(read(rel));
+  if (!html.includes(`href="${href}"`)) fail(`${rel} missing exact href ${href}`);
+  const stripped = html.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, '');
+  if (stripped.includes(href)) fail(`${rel} still has plain-text ${href}`);
+}
+for (const rel of ['updates/index.html', 'ko/updates/index.html', 'zh-tw/updates/index.html', 'th/updates/index.html', 'quests/index.html', 'ko/quests/index.html']) {
+  const html = body(read(rel));
+  if (html.includes('comment on that post by') || html.includes('留言參加') || html.includes('참여합니다') || html.includes('ร่วมโดยคอมเมนต์')) {
+    fail(`${rel} still invites a comment in the present tense`);
+  }
+  if (!html.includes('11/18') || !html.includes('14:59 UTC')) {
+    fail(`${rel} lost the 11/18 14:59 UTC comment deadline`);
+  }
+}
+const home = body(read('index.html'));
+if (!home.includes('<details class="primary-nav">')) fail('home missing collapsible primary nav');
+if (!home.includes('aria-label="Language"')) fail('home missing language switch');
+const details = home.match(/<details class="primary-nav">[\s\S]*?<\/details>/);
+if (!details || details[0].includes('aria-label="Language"')) {
+  fail('language switch is inside the collapsed primary nav');
+}
+if (!home.includes('>Menu</summary>')) fail('English menu label missing');
+if (!body(read('ko/index.html')).includes('>메뉴</summary>')) fail('Korean menu label missing');
 
 if (failures.length) {
   console.error(`FAIL ${failures.length}`);

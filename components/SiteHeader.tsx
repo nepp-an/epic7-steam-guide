@@ -8,6 +8,19 @@ import {
 } from '@/lib/site';
 import { NAV_ITEMS, NAV_LABELS } from '@/lib/i18n/ui';
 
+const MENU_LABEL: Record<Locale, string> = {
+  en: 'Menu',
+  ko: '메뉴',
+  ja: 'メニュー',
+  'zh-tw': '選單',
+  th: 'เมนู',
+  es: 'Menú',
+  pt: 'Menu',
+  de: 'Menü',
+  fr: 'Menu',
+  pl: 'Menu',
+};
+
 export function SiteHeader({
   locale = 'en',
   path = '/',
@@ -26,7 +39,10 @@ export function SiteHeader({
         <Link href={localizedPath(locale, '/')} className="brand">
           {BRAND}
         </Link>
-        <nav aria-label="Primary">
+        <details className="primary-nav">
+          <summary>{MENU_LABEL[locale]}</summary>
+        </details>
+        <nav aria-label="Primary" className="primary-nav-list">
           <ul>
             {NAV_ITEMS.map((item) => (
               <li key={item.path}>

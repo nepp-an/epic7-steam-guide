@@ -1788,7 +1788,9 @@ export function BannersView({ locale }: { locale: Locale }) {
         <h2>{c.launch_h2}</h2>
         <ul>
           {c.launch.map((s) => (
-            <li key={s.slice(0, 30)}>{s}</li>
+            <li key={s.slice(0, 30)}>
+              <MarkedBullet locale={locale} text={s} />
+            </li>
           ))}
         </ul>
         <p className="sources">

@@ -1,6 +1,6 @@
 # Epic Seven Steam Guide — epicsevensteam.com
 
-Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with Smilegate, STOVE, or Valve/Steam; official pages remain authoritative. Last reviewed: 2026-11-03. Also available in Thai (/th/), Spanish (/es/), Portuguese (/pt/), German (/de/), and French (/fr/).
+Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with Smilegate, STOVE, or Valve/Steam; official pages remain authoritative. Last reviewed: 2026-11-18. This file lists pages that exist on the site; it does not claim that any assistant has indexed them. Also available in Korean (/ko/), Japanese (/ja/), Traditional Chinese (/zh-tw/), Thai (/th/), Spanish (/es/), Portuguese (/pt/), German (/de/), French (/fr/), and Polish (/pl/).
 
 ## Preferred pages
 - Home — start here for the Steam entry, transfer decision, and Foundry snapshot: https://epicsevensteam.com/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
@@ -11,4 +11,5 @@ Independent, unofficial player guide to Epic Seven on Steam. Not affiliated with
 - Download — official Steam store entry and pre-install checklist: https://epicsevensteam.com/download/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)
 - Banners — current Bunny Girl Mafia Yufine pickup (scheduled 2026-11-05 to 11-26 UTC) and Foundry launch baseline: https://epicsevensteam.com/banners/ (official source: https://page.onstove.com/epicseven/global/list/986)
 - Secret Rabbit♥Hole — Lucky Board deadline 2026-11-19 02:59 UTC, Case Files mechanics, and lobby pack: https://epicsevensteam.com/secret-rabbit-hole/ (official source: https://page.onstove.com/epicseven/global/view/14606365)
+- Case Files — English guide to Trusty Sidekick Alencia's Case Files inside Secret Rabbit♥Hole; no culprit answers: https://epicsevensteam.com/case-files/ (same guide in Korean: https://epicsevensteam.com/ko/case-files/ ; Traditional Chinese: https://epicsevensteam.com/zh-tw/case-files/ ; Thai: https://epicsevensteam.com/th/case-files/ ; official source: https://page.onstove.com/epicseven/global/view/14606293)
 - Steam notes — client, anti-cheat, and cross-play notes: https://epicsevensteam.com/steam-notes/ (official source: https://store.steampowered.com/app/5019180/Epic_Seven/)

@@ -5293,11 +5293,11 @@ export const CONTENT = {
         ],
         [
           "Why doesn't Guild War hero revive work?",
-          "The Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work. STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says it is scheduled to be fixed during the 12/10 (Thu) maintenance; no time of day was published. Until that fix lands, do not build a Guild War plan around reviving a fallen hero. See [[maintenance|/maintenance/]] and the official notice: https://page.onstove.com/epicseven/global/view/14608118."
+          "The Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work. STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says it is scheduled to be fixed during the 12/10 (Thu) maintenance; no time of day was published. Until that fix lands, do not build a Guild War plan around reviving a fallen hero. See [[maintenance|/maintenance/]] and the official notice: [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Game will not start / anti-cheat error",
-          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/). The 2026-11-05 patch fixed intermittent Steam launch failures; if it still recurs, check Known Issues (controller UI / crash): https://page.onstove.com/epicseven/global/view/14608118."
+          "Steam lists kernel-level UNCHEATER. Update OS/GPU drivers. Managed PCs may need STOVE PC or mobile instead. Escalate only via official CS. See [[Steam notes|/steam-notes/]] (/steam-notes/). The 2026-11-05 patch fixed intermittent Steam launch failures; if it still recurs, check Known Issues (controller UI / crash): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Are Steam prices different from mobile?",
@@ -5344,7 +5344,7 @@ export const CONTENT = {
         ],
         [
           "실행 안 됨 / 안티치트 오류",
-          "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/). 2026-11-05 패치로 Steam 간헐적 실행 실패가 수정되었습니다. 계속 재현되면 Known Issues(컨트롤러 UI / 크래시)를 확인하세요: https://page.onstove.com/epicseven/global/view/14608118."
+          "커널급 UNCHEATER. OS/GPU 드라이버 업데이트. 관리 PC는 STOVE PC/모바일이 나을 수 있음. 공식 CS만. [[Steam 안내|/steam-notes/]](/steam-notes/). 2026-11-05 패치로 Steam 간헐적 실행 실패가 수정되었습니다. 계속 재현되면 Known Issues(컨트롤러 UI / 크래시)를 확인하세요: [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Steam 가격이 모바일과 다른가?",
@@ -5391,7 +5391,7 @@ export const CONTENT = {
         ],
         [
           "起動しない／アンチチート",
-          "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。2026-11-05パッチでSteamの断続的な起動失敗は修正済みです。再発する場合はKnown Issues（コントローラーUI／クラッシュ）を確認してください：https://page.onstove.com/epicseven/global/view/14608118。"
+          "カーネル級UNCHEATER。OS/GPU更新。管理PCはSTOVE PC/モバイル検討。公式CSのみ。[[Steamメモ|/steam-notes/]]（/steam-notes/）。2026-11-05パッチでSteamの断続的な起動失敗は修正済みです。再発する場合はKnown Issues（コントローラーUI／クラッシュ）を確認してください：[[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]。"
         ],
         [
           "Steam価格はモバイルと違う？",
@@ -5438,7 +5438,7 @@ export const CONTENT = {
         ],
         [
           "無法啟動／反作弊錯誤",
-          "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。2026-11-05 修補已修正 Steam 間歇性啟動失敗；若仍復現，請查 Known Issues（手把 UI／崩潰）：https://page.onstove.com/epicseven/global/view/14608118。"
+          "核心層級 UNCHEATER。更新 OS/GPU。公司電腦可改 STOVE PC／手機。只找官方客服。見[[Steam 說明|/steam-notes/]]（/steam-notes/）。2026-11-05 修補已修正 Steam 間歇性啟動失敗；若仍復現，請查 Known Issues（手把 UI／崩潰）：[[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]。"
         ],
         [
           "Steam 價格與手機不同？",
@@ -5485,7 +5485,7 @@ export const CONTENT = {
         ],
         [
           "เกมไม่เริ่มทำงาน / เกิดข้อผิดพลาด anti-cheat",
-          "Steam ระบุว่าใช้ UNCHEATER ระดับ kernel อัปเดตไดรเวอร์ OS/GPU เครื่องที่ถูกจัดการโดยองค์กรอาจต้องใช้ STOVE PC หรือมือถือแทน ส่งเรื่องต่อผ่านฝ่ายบริการลูกค้าทางการเท่านั้น ดู [[บันทึกเกี่ยวกับ Steam|/steam-notes/]] (/steam-notes/) แพตช์ 2026-11-05 แก้การเปิดเกม Steam ไม่ติดเป็นช่วง ๆ แล้ว; หากยังเกิดอีก ตรวจ Known Issues (UI จอย / แครช): https://page.onstove.com/epicseven/global/view/14608118"
+          "Steam ระบุว่าใช้ UNCHEATER ระดับ kernel อัปเดตไดรเวอร์ OS/GPU เครื่องที่ถูกจัดการโดยองค์กรอาจต้องใช้ STOVE PC หรือมือถือแทน ส่งเรื่องต่อผ่านฝ่ายบริการลูกค้าทางการเท่านั้น ดู [[บันทึกเกี่ยวกับ Steam|/steam-notes/]] (/steam-notes/) แพตช์ 2026-11-05 แก้การเปิดเกม Steam ไม่ติดเป็นช่วง ๆ แล้ว; หากยังเกิดอีก ตรวจ Known Issues (UI จอย / แครช): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
         ],
         [
           "ราคาบน Steam ต่างจากบนมือถือไหม?",
@@ -5532,7 +5532,7 @@ export const CONTENT = {
         ],
         [
           "El juego no arranca / error de anti-cheat",
-          "Steam indica UNCHEATER a nivel de kernel. Actualiza los controladores del sistema operativo y de la GPU. Los equipos gestionados quizá necesiten STOVE PC o el móvil en su lugar. Escala el problema solo por la atención al cliente oficial. Consulta las [[notas de Steam|/steam-notes/]] (/steam-notes/). El parche del 2026-11-05 corrigió los fallos intermitentes de inicio de Steam; si vuelve a ocurrir, revisa Known Issues (UI del mando / cierre inesperado): https://page.onstove.com/epicseven/global/view/14608118."
+          "Steam indica UNCHEATER a nivel de kernel. Actualiza los controladores del sistema operativo y de la GPU. Los equipos gestionados quizá necesiten STOVE PC o el móvil en su lugar. Escala el problema solo por la atención al cliente oficial. Consulta las [[notas de Steam|/steam-notes/]] (/steam-notes/). El parche del 2026-11-05 corrigió los fallos intermitentes de inicio de Steam; si vuelve a ocurrir, revisa Known Issues (UI del mando / cierre inesperado): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "¿Los precios de Steam son diferentes a los del móvil?",
@@ -5579,7 +5579,7 @@ export const CONTENT = {
         ],
         [
           "O jogo não inicia / erro de anti-cheat",
-          "O Steam lista o UNCHEATER em nível de kernel. Atualize o sistema operacional e os drivers da GPU. PCs gerenciados podem precisar do STOVE PC ou do celular. Escale apenas pelo suporte oficial. Veja [[notas do Steam|/steam-notes/]] (/steam-notes/). O patch de 2026-11-05 corrigiu falhas intermitentes de inicialização do Steam; se voltar a ocorrer, confira Known Issues (UI do controle / travamento): https://page.onstove.com/epicseven/global/view/14608118."
+          "O Steam lista o UNCHEATER em nível de kernel. Atualize o sistema operacional e os drivers da GPU. PCs gerenciados podem precisar do STOVE PC ou do celular. Escale apenas pelo suporte oficial. Veja [[notas do Steam|/steam-notes/]] (/steam-notes/). O patch de 2026-11-05 corrigiu falhas intermitentes de inicialização do Steam; se voltar a ocorrer, confira Known Issues (UI do controle / travamento): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Os preços no Steam são diferentes do celular?",
@@ -5626,7 +5626,7 @@ export const CONTENT = {
         ],
         [
           "Spiel startet nicht / Anti-Cheat-Fehler",
-          "Steam listet das Kernel-Level-Anti-Cheat UNCHEATER. Aktualisiere Betriebssystem und GPU-Treiber. Verwaltete PCs brauchen eventuell stattdessen STOVE PC oder Mobile. Wende dich nur an den offiziellen Support. Siehe [[Steam-Hinweise|/steam-notes/]] (/steam-notes/). Der Patch vom 2026-11-05 behob zeitweise fehlgeschlagene Steam-Starts; wenn es erneut auftritt, prüfe Known Issues (Controller-UI / Absturz): https://page.onstove.com/epicseven/global/view/14608118."
+          "Steam listet das Kernel-Level-Anti-Cheat UNCHEATER. Aktualisiere Betriebssystem und GPU-Treiber. Verwaltete PCs brauchen eventuell stattdessen STOVE PC oder Mobile. Wende dich nur an den offiziellen Support. Siehe [[Steam-Hinweise|/steam-notes/]] (/steam-notes/). Der Patch vom 2026-11-05 behob zeitweise fehlgeschlagene Steam-Starts; wenn es erneut auftritt, prüfe Known Issues (Controller-UI / Absturz): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Sind die Steam-Preise anders als auf dem Handy?",
@@ -5673,7 +5673,7 @@ export const CONTENT = {
         ],
         [
           "Le jeu ne démarre pas / erreur anti-triche",
-          "Steam indique l'anti-triche au niveau noyau UNCHEATER. Mettez à jour le système d'exploitation et les pilotes GPU. Les PC gérés peuvent nécessiter STOVE PC ou mobile à la place. Ne remontez le problème qu'au support officiel. Voir [[notes Steam|/steam-notes/]] (/steam-notes/). Le correctif du 2026-11-05 a corrigé les échecs intermittents de lancement Steam ; si le problème réapparaît, consultez Known Issues (UI manette / plantage) : https://page.onstove.com/epicseven/global/view/14608118."
+          "Steam indique l'anti-triche au niveau noyau UNCHEATER. Mettez à jour le système d'exploitation et les pilotes GPU. Les PC gérés peuvent nécessiter STOVE PC ou mobile à la place. Ne remontez le problème qu'au support officiel. Voir [[notes Steam|/steam-notes/]] (/steam-notes/). Le correctif du 2026-11-05 a corrigé les échecs intermittents de lancement Steam ; si le problème réapparaît, consultez Known Issues (UI manette / plantage) : [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Les prix Steam sont-ils différents de ceux du mobile ?",
@@ -5720,7 +5720,7 @@ export const CONTENT = {
         ],
         [
           "Gra nie startuje / błąd anty-cheata",
-          "Steam wymienia UNCHEATER na poziomie jądra. Zaktualizuj system/sterowniki GPU. Komputery zarządzane mogą wymagać STOVE PC lub telefonu. Eskaluj wyłącznie przez oficjalne wsparcie. Zobacz [[notatki o Steam|/steam-notes/]] (/steam-notes/). Patch z 2026-11-05 naprawił sporadyczne błędy uruchamiania na Steam; jeśli nadal występują, sprawdź Znane problemy (interfejs pada / awaria): https://page.onstove.com/epicseven/global/view/14608118."
+          "Steam wymienia UNCHEATER na poziomie jądra. Zaktualizuj system/sterowniki GPU. Komputery zarządzane mogą wymagać STOVE PC lub telefonu. Eskaluj wyłącznie przez oficjalne wsparcie. Zobacz [[notatki o Steam|/steam-notes/]] (/steam-notes/). Patch z 2026-11-05 naprawił sporadyczne błędy uruchamiania na Steam; jeśli nadal występują, sprawdź Znane problemy (interfejs pada / awaria): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]."
         ],
         [
           "Czy ceny na Steam różnią się od mobilnych?",
@@ -10488,7 +10488,7 @@ export const CONTENT = {
         "Daily free Covenant summons on Foundry Summon Support (up to 1,260 over the posted window).",
         "Side-story cosmetics / lobby pack tied to Secret Rabbit♥Hole.",
         "Track pickup banners after each weekly maintenance — add a card below when STOVE posts.",
-        "Known Issues (Steam controller UI / crash / Foundry World Boss): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (Steam controller UI / crash / Foundry World Boss): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "How we update this page",
       "how": [
@@ -10520,7 +10520,7 @@ export const CONTENT = {
         "파운드리 소환 지원 일일 무료 계약(공지 기간 최대 1,260).",
         "Secret Rabbit♥Hole 연계 코스메틱/로비팩.",
         "주간 점검 후 픽업 배너는 아래에 카드 추가.",
-        "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "이 페이지 갱신 방식",
       "how": [
@@ -10551,7 +10551,7 @@ export const CONTENT = {
         "召喚支援の毎日無料契約（告知期間最大1,260）。",
         "Secret Rabbit♥Hole連動コスメ／ロビーパック。",
         "週次メンテ後のピックアップは下にカード追加。",
-        "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス）：https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス）：[[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "更新方針",
       "how": [
@@ -10582,7 +10582,7 @@ export const CONTENT = {
         "Foundry 召喚支援每日免費契約（公告期間最多 1,260）。",
         "與 Secret Rabbit♥Hole 相關外觀／大廳包。",
         "每週維護後的 Pickup 在下方加卡片。",
-        "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）：https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）：[[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "本頁更新方式",
       "how": [
@@ -10613,7 +10613,7 @@ export const CONTENT = {
         "ซัมมอน Covenant ฟรีรายวันใน Foundry Summon Support (สูงสุด 1,260 ครั้งตลอดช่วงที่ประกาศ)",
         "ไอเทมตกแต่ง / แพ็กสำหรับล็อบบี้จากเรื่องข้างเคียง Secret Rabbit♥Hole",
         "ติดตามแบนเนอร์ pickup หลังปิดปรับปรุงรายสัปดาห์แต่ละครั้ง — เพิ่มการ์ดด้านล่างเมื่อ STOVE ประกาศ",
-        "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "วิธีที่เราอัปเดตหน้านี้",
       "how": [
@@ -10644,7 +10644,7 @@ export const CONTENT = {
         "Invocaciones Covenant diarias gratis en el Apoyo de invocación de Foundry (hasta 1,260 en la ventana publicada).",
         "Cosméticos de la historia secundaria y pack de lobby vinculados a Secret Rabbit♥Hole.",
         "Sigue los banners de pickup después de cada mantenimiento semanal: añade una tarjeta abajo cuando STOVE lo publique.",
-        "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "Cómo actualizamos esta página",
       "how": [
@@ -10675,7 +10675,7 @@ export const CONTENT = {
         "Invocação diária gratuita de Covenant no Foundry Summon Support (até 1,260 na janela divulgada).",
         "Cosméticos de história secundária / pacote de lobby ligados ao Secret Rabbit♥Hole.",
         "Acompanhe os banners de pickup após cada manutenção semanal — adicione um card abaixo quando o STOVE publicar.",
-        "Known Issues (UI do controle Steam / travamento / World Boss do Foundry): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (UI do controle Steam / travamento / World Boss do Foundry): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "Como atualizamos esta página",
       "how": [
@@ -10706,7 +10706,7 @@ export const CONTENT = {
         "Täglich kostenlose Covenant-Beschwörungen beim Foundry Summon Support (bis zu 1,260 im angegebenen Zeitfenster).",
         "Nebenstory-Kosmetik / Lobby-Paket zu Secret Rabbit♥Hole.",
         "Verfolge Pickup-Banner nach jeder wöchentlichen Wartung — füge unten eine Karte hinzu, sobald STOVE etwas ankündigt.",
-        "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss): https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "So aktualisieren wir diese Seite",
       "how": [
@@ -10737,7 +10737,7 @@ export const CONTENT = {
         "Invocation Covenant gratuite quotidienne sur Foundry Summon Support (jusqu'à 1,260 sur la fenêtre annoncée).",
         "Cosmétiques d'histoire annexe / pack de lobby liés à Secret Rabbit♥Hole.",
         "Suivez les bannières de sélection après chaque maintenance hebdomadaire — ajoutez une carte ci-dessous quand STOVE publie.",
-        "Known Issues (UI manette Steam / plantage / World Boss Foundry) : https://page.onstove.com/epicseven/global/view/14608118"
+        "Known Issues (UI manette Steam / plantage / World Boss Foundry) : [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "Comment nous mettons à jour cette page",
       "how": [
@@ -10768,7 +10768,7 @@ export const CONTENT = {
         "Dzienne darmowe przywołania Przymierza we wsparciu przywołań Foundry (do 1 260 w ogłoszonym oknie).",
         "Kosmetyki z historii pobocznej / pakiet lobby związany z Secret Rabbit♥Hole.",
         "Śledź banery pickupów po każdej cotygodniowej konserwacji — dodaj kartę poniżej, gdy STOVE opublikuje.",
-        "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry): https://page.onstove.com/epicseven/global/view/14608118"
+        "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry): [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
       ],
       "how_h2": "Jak aktualizujemy tę stronę",
       "how": [
@@ -10791,8 +10791,8 @@ export const CONTENT = {
         [
           "2026-11-12 — Celebrate 3,000 Days: comment event (ends 11/18 14:59 UTC)",
           [
-            "Official post: [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] — comment on that post by 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
-            "Entry is a comment on the official post, not in-game mail or an in-game comment. Format: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — comment deadline 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "Posted entry method: a comment on the official post, not in-game mail or an in-game comment. Format: “Nickname / Server / Day 3,000 Celebration Message”.",
             "Comments that do not follow the format, or include special characters not listed in it, may be excluded from the event.",
             "All participants: 2 Leif, sent to the in-game mailbox on 2026/11/20 (Fri); storage period 7 days. No delivery hour was published.",
             "Use your correct in-game nickname and server; changing your nickname may cause rewards to be delivered incorrectly.",
@@ -10830,9 +10830,9 @@ export const CONTENT = {
           "2026-11-19 — Balance preview (not live yet; edited 11/11 02:19 UTC)",
           [
             "Preview title revised: “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai). The seven names below were unchanged at this check.",
-            "STOVE EN preview: https://page.onstove.com/epicseven/global/view/14618757",
+            "STOVE EN preview: [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]]",
             "Listed: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
-            "As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at https://store.steampowered.com/feeds/news/app/5019180/?l=english still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list (https://page.onstove.com/epicseven/global/list/986) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
+            "As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at [[Steam RSS|https://store.steampowered.com/feeds/news/app/5019180/?l=english]] still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list ([[STOVE list|https://page.onstove.com/epicseven/global/list/986]]) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
             "Preview only — no skill before/after copied here."
           ],
           null
@@ -10871,8 +10871,8 @@ export const CONTENT = {
         [
           "2026-11-12 — 3,000일 축하 댓글 이벤트 (11/18 14:59 UTC 마감)",
           [
-            "공식 게시글: [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)까지 해당 게시글에 댓글로 참여합니다.",
-            "참여는 게임 내 우편이나 게임 내 댓글이 아니라 공식 게시글 댓글입니다. 형식: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 댓글 마감 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai).",
+            "공지된 참여 방식은 게임 내 우편이나 게임 내 댓글이 아니라 공식 게시글 댓글입니다. 형식: “Nickname / Server / Day 3,000 Celebration Message”.",
             "형식을 지키지 않거나 형식에 없는 특수 문자를 넣은 댓글은 이벤트에서 제외될 수 있습니다.",
             "전원 보상: 2 Leif. 2026/11/20 (금) 게임 내 우편으로 지급되며 보관 기간은 7일입니다(지급 시각은 공지되지 않음).",
             "정확한 게임 내 닉네임과 서버를 적어야 합니다. 닉네임을 변경하면 보상이 정상 지급되지 않을 수 있습니다.",
@@ -10961,8 +10961,8 @@ export const CONTENT = {
         [
           "2026-11-12 — 3,000 天慶祝留言活動（11/18 14:59 UTC 截止）",
           [
-            "官方貼文：[[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）前在該貼文留言參加。",
-            "參加方式是在官方貼文留言，不是遊戲內信箱或遊戲內留言。格式：「Nickname / Server / Day 3,000 Celebration Message」。",
+            "官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 留言截止 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）。",
+            "公告的參加方式是在官方貼文留言，不是遊戲內信箱或遊戲內留言。格式：「Nickname / Server / Day 3,000 Celebration Message」。",
             "未依格式、或包含格式未列出的特殊字元的留言，可能不列入活動。",
             "全體參加獎：2 Leif，於 2026/11/20（週五）送到遊戲內信箱，保管 7 天（未公布發送時刻）。",
             "請填寫正確的遊戲內暱稱與伺服器；更改暱稱可能導致獎勵發放不正確。",
@@ -11020,8 +11020,8 @@ export const CONTENT = {
         [
           "2026-11-12 — ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์ (ปิด 11/18 14:59 UTC)",
           [
-            "โพสต์ทางการ: [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] — ร่วมโดยคอมเมนต์ใต้โพสต์นี้ภายใน 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
-            "การร่วมกิจกรรมคือคอมเมนต์ใต้โพสต์ทางการ ไม่ใช่กล่องจดหมายหรือคอมเมนต์ในเกม รูปแบบ: “Nickname / Server / Day 3,000 Celebration Message”.",
+            "โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — กำหนดปิดคอมเมนต์ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "วิธีร่วมที่ประกาศไว้คือคอมเมนต์ใต้โพสต์ทางการ ไม่ใช่กล่องจดหมายหรือคอมเมนต์ในเกม รูปแบบ: “Nickname / Server / Day 3,000 Celebration Message”.",
             "คอมเมนต์ที่ไม่ตรงรูปแบบ หรือมีอักขระพิเศษที่ไม่ได้ระบุในรูปแบบ อาจถูกตัดออกจากกิจกรรม",
             "รางวัลผู้เข้าร่วมทุกคน: 2 Leif ส่งเข้ากล่องจดหมายในเกมวันที่ 2026/11/20 (ศ.) เก็บได้ 7 วัน (ไม่มีการประกาศเวลาส่ง).",
             "ต้องใช้ชื่อในเกมและเซิร์ฟเวอร์ให้ถูกต้อง การเปลี่ยนชื่ออาจทำให้ได้รับรางวัลไม่ถูกต้อง",
@@ -11240,13 +11240,13 @@ export const CONTENT = {
             "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai).",
             "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai).",
             "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry login only; Commander's Armband ×1,000, Brave Crest ×3,000.",
-            "Source: https://store.steampowered.com/news/app/5019180/view/1848664643349012"
+            "Source: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
         [
           "2026-11-19 — Balance adjustment preview (not live yet)",
           [
-            "STOVE EN preview: https://page.onstove.com/epicSeven/global/view/14618757",
+            "STOVE EN preview: [[STOVE 14618757|https://page.onstove.com/epicSeven/global/view/14618757]]",
             "Named for review: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
             "This is a preview only — the live 11/19 patch may differ. Names only; no skill before/after copied here."
           ]
@@ -11276,7 +11276,7 @@ export const CONTENT = {
             "Steam intermittent launch / cannot enter game — fixed.",
             "Foundry shop briefly mis-showed unreleased items — fixed.",
             "Secret Rabbit♥Hole stray text — fixed.",
-            "Sources: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Sources: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11287,9 +11287,9 @@ export const CONTENT = {
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
-            "11/19 balance preview (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: https://page.onstove.com/epicseven/JP/view/14618761",
-            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at https://store.steampowered.com/feeds/news/app/5019180/?l=english still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list (https://page.onstove.com/epicseven/global/list/986) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
-            "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 balance preview (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: [[STOVE 14618761|https://page.onstove.com/epicseven/JP/view/14618761]]",
+            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at [[Steam RSS|https://store.steampowered.com/feeds/news/app/5019180/?l=english]] still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list ([[STOVE list|https://page.onstove.com/epicseven/global/list/986]]) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
+            "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11324,7 +11324,7 @@ export const CONTENT = {
             "Steam 간헐적 실행/입장 불가 — 수정.",
             "파운드리 상점에 미출시 아이템이 잠시 노출 — 수정.",
             "Secret Rabbit♥Hole 불필요 문구 — 수정.",
-            "출처: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "출처: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11335,8 +11335,8 @@ export const CONTENT = {
             "월드 아레나 — 2026-12-10.",
             "일본어 VO — confirm on official notice when posted.",
             "비상임무 주간 교체 ~11월 말 — 파운드리 캘린더.",
-            "11/19 밸런스 조정 예고 (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 밸런스 조정 예고 (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (Steam 컨트롤러 UI / 크래시 / 파운드리 월드 보스) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11371,7 +11371,7 @@ export const CONTENT = {
             "Steamの起動が断続的に失敗／ゲームに入れない — 修正。",
             "ファウンドリ商店に未発売アイテムが一時表示 — 修正。",
             "Secret Rabbit♥Holeの不要テキスト — 修正。",
-            "出典：https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "出典：[[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11382,8 +11382,8 @@ export const CONTENT = {
             "WA — 2026-12-10。",
             "日本語VO — 公式日程待ち。",
             "緊急任務の週替り〜11月末 — ファウンドリ日程。",
-            "11/19 バランス調整予告（EN） — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス） — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 バランス調整予告（EN） — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues（SteamコントローラーUI／クラッシュ／ファウンドリ・ワールドボス） — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11418,7 +11418,7 @@ export const CONTENT = {
             "Steam 間歇性無法啟動／進入遊戲——已修正。",
             "Foundry 商店短暫誤顯未上架商品——已修正。",
             "Secret Rabbit♥Hole 殘留文字——已修正。",
-            "來源：https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "來源：[[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11429,8 +11429,8 @@ export const CONTENT = {
             "WA — 2026-12-10。",
             "日語 VO — 等待官方日程。",
             "緊急任務週輪替至 11 月底——見 Foundry 日程。",
-            "11/19 平衡調整預告（EN） — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）— https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 平衡調整預告（EN） — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues（Steam 手把 UI／崩潰／Foundry 世界王）— [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11465,7 +11465,7 @@ export const CONTENT = {
             "Steam เปิดเกมไม่ติดเป็นช่วง ๆ / เข้าเกมไม่ได้ — แก้ไขแล้ว",
             "ร้านค้า Foundry แสดงไอเท็มที่ยังไม่วางขายชั่วคราว — แก้ไขแล้ว",
             "ข้อความหลงเหลือใน Secret Rabbit♥Hole — แก้ไขแล้ว",
-            "แหล่งที่มา: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "แหล่งที่มา: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11476,8 +11476,8 @@ export const CONTENT = {
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "การกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่",
             "สัปดาห์ Emergency Mission เปลี่ยนไปจนถึงปลายพฤศจิกายน — ดูปฏิทิน Foundry",
-            "11/19 ตัวอย่างการปรับสมดุล (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 ตัวอย่างการปรับสมดุล (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (UI จอย Steam / แครช / World Boss บน Foundry) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11512,7 +11512,7 @@ export const CONTENT = {
             "Fallos intermitentes de inicio de Steam / imposibilidad de entrar al juego: corregido.",
             "La tienda de Foundry mostró brevemente objetos no lanzados: corregido.",
             "Texto sobrante en Secret Rabbit♥Hole: corregido.",
-            "Fuentes: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Fuentes: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11523,8 +11523,8 @@ export const CONTENT = {
             "World Arena de Foundry — 2026-12-10 tras el mantenimiento.",
             "Restauración del doblaje japonés: confírmala en el aviso oficial cuando se publique.",
             "La semana de Emergency Mission cambia a finales de noviembre; consulta el calendario de Foundry.",
-            "11/19 avance del ajuste de equilibrio (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 avance del ajuste de equilibrio (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (UI del mando de Steam / cierre inesperado / World Boss de Foundry) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11559,7 +11559,7 @@ export const CONTENT = {
             "Falhas intermitentes de inicialização do Steam / impossibilidade de entrar no jogo — corrigido.",
             "A loja do Foundry exibiu brevemente itens não lançados — corrigido.",
             "Texto residual em Secret Rabbit♥Hole — corrigido.",
-            "Fontes: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Fontes: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11570,8 +11570,8 @@ export const CONTENT = {
             "World Arena do Foundry — 2026-12-10 após a manutenção.",
             "Restauração da VO japonesa — confirme no aviso oficial quando publicado.",
             "A semana da Emergency Mission muda no fim de novembro — veja o calendário do Foundry.",
-            "11/19 prévia do ajuste de balanceamento (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (UI do controle Steam / travamento / World Boss do Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 prévia do ajuste de balanceamento (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (UI do controle Steam / travamento / World Boss do Foundry) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11606,7 +11606,7 @@ export const CONTENT = {
             "Steam startet zeitweise nicht / kein Eintritt ins Spiel — behoben.",
             "Foundry-Shop zeigte kurz nicht veröffentlichte Items — behoben.",
             "Übrig gebliebener Text in Secret Rabbit♥Hole — behoben.",
-            "Quellen: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Quellen: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11617,8 +11617,8 @@ export const CONTENT = {
             "Foundry World Arena — 2026-12-10 nach der Wartung.",
             "Wiederherstellung der japanischen VO — bestätige sie in der offiziellen Ankündigung, sobald sie erscheint.",
             "Die Emergency-Mission-Woche rotiert bis Ende November — siehe Foundry-Kalender.",
-            "11/19 Balance-Vorschau (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 Balance-Vorschau (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (Steam-Controller-UI / Absturz / Foundry World Boss) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11653,7 +11653,7 @@ export const CONTENT = {
             "Échecs intermittents de lancement Steam / impossible d'entrer dans le jeu — corrigé.",
             "La boutique Foundry a brièvement affiché des objets non sortis — corrigé.",
             "Texte résiduel dans Secret Rabbit♥Hole — corrigé.",
-            "Sources : https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Sources : [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11664,8 +11664,8 @@ export const CONTENT = {
             "World Arena Foundry — 2026-12-10 après maintenance.",
             "Restauration de la VO japonaise — à confirmer sur l'avis officiel lorsqu'il sera publié.",
             "La semaine Emergency Mission bascule fin novembre — voir le calendrier Foundry.",
-            "11/19 aperçu de l’ajustement d’équilibrage (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
-            "Known Issues (UI manette Steam / plantage / World Boss Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+            "11/19 aperçu de l’ajustement d’équilibrage (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch.",
+            "Known Issues (UI manette Steam / plantage / World Boss Foundry) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -11700,7 +11700,7 @@ export const CONTENT = {
             "Sporadyczne błędy uruchamiania Steam / brak wejścia do gry — naprawione.",
             "Sklep Foundry przez chwilę błędnie pokazywał niewydane przedmioty — naprawione.",
             "Zbłąkany tekst w Secret Rabbit♥Hole — naprawione.",
-            "Źródła: https://store.steampowered.com/news/app/5019180/view/669507309399965789 · https://page.onstove.com/epicseven/jp/view/14618711"
+            "Źródła: [[Steam news|https://store.steampowered.com/news/app/5019180/view/669507309399965789]] · [[STOVE 14618711|https://page.onstove.com/epicseven/jp/view/14618711]]"
           ]
         ],
         [
@@ -11711,8 +11711,8 @@ export const CONTENT = {
             "World Arena na Foundry — 2026-12-10 po konserwacji.",
             "Przywrócenie japońskiego VO — potwierdź w oficjalnym ogłoszeniu, gdy się pojawi.",
             "Tydzień Emergency Mission zmienia się pod koniec listopada — zobacz kalendarz Foundry.",
-            "Zapowiedź balansu 11/19 (EN) — https://page.onstove.com/epicseven/global/view/14618757 — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Tylko nazwy; zapowiedź może różnić się od wdrożenia 11/19.",
-            "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry) — https://page.onstove.com/epicseven/global/view/14608118"
+            "Zapowiedź balansu 11/19 (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Tylko nazwy; zapowiedź może różnić się od wdrożenia 11/19.",
+            "Znane problemy (interfejs pada Steam / awaria / World Boss na Foundry) — [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
       ],
@@ -14744,7 +14744,7 @@ export const CONTENT = {
         "Secret Rabbit♥Hole side story + Case Files + Lucky Board — lobby icon; details on the Rabbit Hole page.",
         "Mailbox growth / wishlist / welcome skin mails on Foundry are time-gated — open mail early.",
         "Lobby icons for Rabbit♥Hole / boards disappear when the event ends — claim currencies early.",
-        "3,000 Days comment event: comment on [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] by 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai), format “Nickname / Server / Day 3,000 Celebration Message”. See the “[[Celebrate 3,000 Days: comment event|/updates/#celebrate-3000-comment]]” section.",
+        "3,000 Days comment event: comment deadline 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai); format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event|/updates/#celebrate-3000-comment]]” section.",
         "3,000-Day Celebration server cooperation runs 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
         "“Everyone, Gather Carrots!”: up to 800 Carrots per day; Adventure/Battle points equal Energy used (excluding purchased Spectral Core; 1 Spectral Core = 160); Arena (incl. Draft Arena / Arena NPC Challenge) 70 per play; World Arena (incl. World Arena Tournament) 120 per play.",
         "Arena Carrots are the same win or lose; stages that use no Energy (e.g. Side Story story stages) do not count. Daily reset: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
@@ -14833,7 +14833,7 @@ export const CONTENT = {
         "시크릿 래빗♥홀 사이드·사건 파일·럭키 보드는 로비 아이콘을 따르세요.",
         "파운드리 긴급 촉매 주간은 교체 전에 수령하세요.",
         "로비 아이콘은 이벤트 종료 시 사라지니 재화를 일찍 교환하세요.",
-        "3,000일 댓글 이벤트: 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)까지 [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] 에 “Nickname / Server / Day 3,000 Celebration Message” 형식으로 댓글. [[3,000일 축하 댓글 이벤트|/updates/#celebrate-3000-comment]] 절 참고.",
+        "3,000일 댓글 이벤트: 댓글 마감 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai). 형식 “Nickname / Server / Day 3,000 Celebration Message”. 공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. [[3,000일 축하 댓글 이벤트|/updates/#celebrate-3000-comment]] 절 참고.",
         "3,000일 축하 서버 협력은 11/12 03:00 → 11/26 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event. [[3,000일 축하 서버 협력: 당근 모으기|/updates/#gather-carrots]] 절 참고.",
         "“Everyone, Gather Carrots!”: 하루 최대 800 Carrots. Adventure/Battle은 소모 Energy만큼(구매 Spectral Core 제외, 1개 = 160), Arena(Draft Arena·Arena NPC Challenge 포함) 1회 70, World Arena(World Arena Tournament 포함) 1회 120.",
         "Arena는 승패와 무관하게 같은 Carrots를 주며, Energy를 쓰지 않는 스테이지(예: 사이드 스토리 스토리 스테이지)는 집계되지 않습니다. 일일 리셋: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
@@ -15009,7 +15009,7 @@ export const CONTENT = {
         "Rabbit♥Hole 支線、案件檔、幸運盤跟大廳圖示。",
         "Foundry 緊急催化劑週輪替——換週前領取。",
         "活動結束大廳圖示會消失，貨幣盡早換。",
-        "3,000 天留言活動：11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）前在 [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] 依「Nickname / Server / Day 3,000 Celebration Message」格式留言。參見[[3,000 天慶祝留言活動|/updates/#celebrate-3000-comment]]節。",
+        "3,000 天留言活動：留言截止 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）。格式「Nickname / Server / Day 3,000 Celebration Message」。官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]。參見[[3,000 天慶祝留言活動|/updates/#celebrate-3000-comment]]節。",
         "3,000 天慶祝伺服器合作：11/12 03:00 → 11/26 02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai），入口 Lobby > Event > Special Event。參見[[3,000 天慶祝伺服器合作：收集 Carrots|/updates/#gather-carrots]]節。",
         "「Everyone, Gather Carrots!」：每日最多 800 Carrots。Adventure/Battle 依消耗 Energy（不含購買 Spectral Core；1 個 = 160），Arena（含 Draft Arena、Arena NPC Challenge）每次 70，World Arena（含 World Arena Tournament）每次 120。",
         "競技場無論輸贏給予相同 Carrots；不消耗 Energy 的關卡（例如支線劇情關）不計入。每日重置：Korea / Asia / Japan 18:00 UTC；Europe 03:00 UTC；Global 10:00 UTC。",
@@ -15104,7 +15104,7 @@ export const CONTENT = {
         "Side story Secret Rabbit♥Hole + Case Files + Lucky Board — ไอคอนในล็อบบี้ รายละเอียดอยู่ในหน้า Rabbit Hole",
         "จดหมายกล่องจดหมายการเติบโต / wishlist / สกินต้อนรับบน Foundry มีกำหนดเวลา — เปิดจดหมายตั้งแต่เนิ่น ๆ",
         "ไอคอนล็อบบี้ของ Rabbit♥Hole / บอร์ดจะหายไปเมื่ออีเวนต์จบ — รับสกุลเงินแต่เนิ่น ๆ",
-        "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: คอมเมนต์ที่ [[https://page.onstove.com/epicseven/global/view/14628607|https://page.onstove.com/epicseven/global/view/14628607]] ภายใน 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai) ตามรูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. ดูหัวข้อ “[[ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์|/updates/#celebrate-3000-comment]]”.",
+        "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: กำหนดปิดคอมเมนต์ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai) รูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. ดูหัวข้อ “[[ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์|/updates/#celebrate-3000-comment]]”.",
         "อีเวนต์เซิร์ฟเวอร์ร่วมมือฉลอง 3,000 วัน: 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai) ทางเข้า Lobby > Event > Special Event. ดูหัวข้อ “[[ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท|/updates/#gather-carrots]]”.",
         "“Everyone, Gather Carrots!”: สูงสุด 800 Carrots ต่อวัน. Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมซื้อ Spectral Core; 1 ชิ้น = 160), Arena (รวม Draft Arena และ Arena NPC Challenge) ครั้งละ 70, World Arena (รวม World Arena Tournament) ครั้งละ 120.",
         "Arena ให้ Carrots เท่ากันไม่ว่าชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่อง Side Story) ไม่นับ. รีเซ็ตรายวัน: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
