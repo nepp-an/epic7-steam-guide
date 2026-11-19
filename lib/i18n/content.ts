@@ -10002,8 +10002,8 @@ export const CONTENT = {
       "meta": "Six-week side story, Alencia Case Files, Lucky Board, lobby pack. Independent overview citing STOVE.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Special side story with the Steam / Foundry launch window. Enter via lobby Secret Rabbit♥Hole icon. Summaries cite STOVE — schedules can change in-game.",
-      "deadline_h2": "Lucky Board / Moro deadline — 2026-11-19 02:59 UTC",
-      "deadline_text": "The Daily Investigation / Lucky Board and the parallel Bunny Girl Great Detective Moro Mystic banner both close around 2026-11-19 02:59 UTC; the wishlist mail is about 11/19 03:00 UTC. The Secret Rabbit♥Hole side story and Case Files still run to 2026-12-10 02:59 UTC — that end date is unchanged. Spend tickets and Leif milestones before 11/19; missed days cannot be fully recovered. Confirm the live timer in-game and on STOVE; Case Files answers are not published here. Equipment note: STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says stat increases on Equipment rewarded from this Side Story were lower than before; Heirs who obtained it before the fix will receive the corrected Equipment as an additional reward. No item name or delivery time was published. See [[maintenance|/maintenance/]] and the [[official notice|https://page.onstove.com/epicSeven/global/view/14608118]].",
+      "deadline_h2": "Lucky Board / Moro — ended 2026-11-19 02:59 UTC",
+      "deadline_text": "The Daily Investigation / Lucky Board and the parallel Bunny Girl Great Detective Moro Mystic banner both ended at 2026-11-19 02:59 UTC; the wishlist mail is about 11/19 03:00 UTC. The Secret Rabbit♥Hole side story and Case Files still run to 2026-12-10 02:59 UTC — that end date is unchanged. Board tickets and Leif milestones can no longer be earned, and missed days cannot be recovered. Confirm details in-game and on STOVE; Case Files answers are not published here. Equipment note: STOVE’s 10/29 Known Issues notice (added 11/9 06:08 UTC) says stat increases on Equipment rewarded from this Side Story were lower than before; Heirs who obtained it before the fix will receive the corrected Equipment as an additional reward. No item name or delivery time was published. See [[maintenance|/maintenance/]] and the [[official notice|https://page.onstove.com/epicSeven/global/view/14608118]].",
       "glance_h2": "At a glance",
       "th": [
         "Piece",
@@ -10041,7 +10041,7 @@ export const CONTENT = {
       ],
       "case_note": "Paraphrased from STOVE — Alencia Case Files. Not a spoiler guide for culprit answers.",
       "daily_h2": "Daily Investigation & Lucky Board",
-      "daily": "Play adventure / battle / Arena for daily points (cap 720/day per STOVE). Milestones include Lucky Board tickets and Leif. Path: Lobby → Event → Special Event → Secret Rabbit♥Hole.",
+      "daily": "During the event (ended 11/19 02:59 UTC), adventure / battle / Arena gave daily points (cap 720/day per STOVE), and milestones included Lucky Board tickets and Leif. Path: Lobby → Event → Special Event → Secret Rabbit♥Hole. The side story and Case Files still run to 12/10 02:59 UTC.",
       "related_h2": "Related"
     },
     "ko": {
@@ -10049,8 +10049,8 @@ export const CONTENT = {
       "meta": "6주 사이드, 알렌시아 사건파일, 럭키보드, 로비팩. STOVE 인용 비공식 요약.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Steam/파운드리 런칭과 함께하는 특별 사이드. 로비 아이콘으로 진입. STOVE 요약 — 인게임 일정이 바뀔 수 있음.",
-      "deadline_h2": "럭키보드 / Moro 마감 — 2026-11-19 02:59 UTC",
-      "deadline_text": "일일 조사/럭키보드와 병행 중인 Bunny Girl Great Detective Moro Mystic 배너는 모두 2026-11-19 02:59 UTC 전후에 닫힙니다. 위시리스트 메일은 약 11/19 03:00 UTC입니다. Secret Rabbit♥Hole 사이드와 Case Files는 2026-12-10 02:59 UTC까지로 종료일은 그대로입니다. 11/19 전에 티켓과 Leif 마일스톤을 쓰세요; 놓친 날은 완전히 복구되지 않습니다. 실제 타이머는 게임 내와 STOVE에서 확인하고, 케이스 파일 정답은 여기서 공개하지 않습니다.",
+      "deadline_h2": "럭키보드 / Moro 종료 — 2026-11-19 02:59 UTC",
+      "deadline_text": "일일 조사/럭키보드와 병행 중이던 Bunny Girl Great Detective Moro Mystic 배너는 모두 2026-11-19 02:59 UTC에 종료되었습니다. 위시리스트 메일은 약 11/19 03:00 UTC입니다. Secret Rabbit♥Hole 사이드와 Case Files는 2026-12-10 02:59 UTC까지 계속되며 종료일은 그대로입니다. 이제 보드 티켓과 Leif 마일스톤을 새로 얻을 수 없고, 놓친 날은 복구되지 않습니다. 실제 일정은 게임 내와 STOVE에서 확인하고, 케이스 파일 정답은 여기서 공개하지 않습니다.",
       "glance_h2": "한눈에",
       "th": [
         "구성",
@@ -10088,7 +10088,7 @@ export const CONTENT = {
       ],
       "case_note": "STOVE 알렌시아 사건파일 요약. 범인 스포일러 가이드 아님.",
       "daily_h2": "일일수사 & 럭키보드",
-      "daily": "모험/전투/아레나로 일일 포인트(공지상 하루 720 상한). 마일스톤에 럭키보드 티켓·리프. 경로: 로비→이벤트→스페셜→Secret Rabbit♥Hole.",
+      "daily": "이벤트 기간(11/19 02:59 UTC 종료) 동안 모험/전투/아레나로 일일 포인트(공지상 하루 720 상한)를 모았고, 마일스톤에 럭키보드 티켓·리프가 있었습니다. 경로: 로비→이벤트→스페셜→Secret Rabbit♥Hole. 사이드와 Case Files는 12/10 02:59 UTC까지 계속됩니다.",
       "related_h2": "관련"
     },
     "ja": {
@@ -10143,8 +10143,8 @@ export const CONTENT = {
       "meta": "六週支線、Alencia 案件檔、幸運盤、大廳包。引述 STOVE 之非官方摘要。",
       "h1": "Secret Rabbit♥Hole",
       "lead": "搭配 Steam／Foundry 上架窗口的特別支線。大廳圖示進入。摘要自 STOVE——遊戲內日程可能變動。",
-      "deadline_h2": "幸運盤／Moro 截止——2026-11-19 02:59 UTC",
-      "deadline_text": "每日調查／幸運盤與並行的 Bunny Girl Great Detective Moro Mystic 卡池都約在 2026-11-19 02:59 UTC 結束；願望清單信件約 11/19 03:00 UTC。Secret Rabbit♥Hole 支線與 Case Files 仍至 2026-12-10 02:59 UTC，結束日不變。請在 11/19 前用掉抽獎券與 Leif 里程碑；漏掉的天數無法完整補回。實際計時以遊戲內與 STOVE 為準；本頁不公布案件檔答案。",
+      "deadline_h2": "幸運盤／Moro 已結束——2026-11-19 02:59 UTC",
+      "deadline_text": "每日調查／幸運盤與並行的 Bunny Girl Great Detective Moro Mystic 卡池已於 2026-11-19 02:59 UTC 結束；願望清單信件約 11/19 03:00 UTC。Secret Rabbit♥Hole 支線與 Case Files 仍至 2026-12-10 02:59 UTC，結束日不變。現在已無法再取得棋盤抽獎券與 Leif 里程碑，漏掉的天數無法補回。實際資訊以遊戲內與 STOVE 為準；本頁不公布案件檔答案。",
       "glance_h2": "一覽",
       "th": [
         "項目",
@@ -10182,7 +10182,7 @@ export const CONTENT = {
       ],
       "case_note": "摘要自 STOVE Alencia 案件檔。非犯人劇透攻略。",
       "daily_h2": "每日調查與幸運盤",
-      "daily": "冒險／戰鬥／競技場賺每日點（公告上限 720／日）。里程碑含幸運盤券與 Leif。路徑：大廳→活動→特別→Secret Rabbit♥Hole。",
+      "daily": "活動期間（已於 11/19 02:59 UTC 結束）冒險／戰鬥／競技場可賺每日點（公告上限 720／日），里程碑含幸運盤券與 Leif。路徑：大廳→活動→特別→Secret Rabbit♥Hole。支線與 Case Files 仍至 12/10 02:59 UTC。",
       "related_h2": "相關"
     },
     "th": {
@@ -10190,8 +10190,8 @@ export const CONTENT = {
       "meta": "เรื่องข้างเคียง 6 สัปดาห์, Alencia Case Files, Lucky Board, แพ็กสำหรับล็อบบี้ ภาพรวมอิสระที่อ้างอิง STOVE",
       "h1": "Secret Rabbit♥Hole",
       "lead": "เรื่องข้างเคียงพิเศษในช่วงเปิดตัว Steam / Foundry เข้าผ่านไอคอน Secret Rabbit♥Hole ในล็อบบี้ สรุปอ้างอิง STOVE — กำหนดการในเกมอาจเปลี่ยนแปลงได้",
-      "deadline_h2": "กำหนดปิด Lucky Board / Moro — 2026-11-19 02:59 UTC",
-      "deadline_text": "Daily Investigation / Lucky Board และแบนเนอร์ Bunny Girl Great Detective Moro Mystic ที่ขนานกันจะปิดราว 2026-11-19 02:59 UTC; เมล wishlist ประมาณ 11/19 03:00 UTC เรื่องข้างเคียง Secret Rabbit♥Hole และ Case Files ยังถึง 2026-12-10 02:59 UTC โดยไม่เปลี่ยนวันสิ้นสุด ใช้ตั๋วและไมล์สโตน Leif ก่อน 11/19; วันที่พลาดกู้คืนเต็มจำนวนไม่ได้ ตรวจตัวจับเวลาในเกมและบน STOVE; เฉลย Case Files ไม่ได้เผยแพร่ที่นี่",
+      "deadline_h2": "Lucky Board / Moro — สิ้นสุดแล้ว 2026-11-19 02:59 UTC",
+      "deadline_text": "Daily Investigation / Lucky Board และแบนเนอร์ Bunny Girl Great Detective Moro Mystic ที่ขนานกันได้สิ้นสุดเมื่อ 2026-11-19 02:59 UTC; เมล wishlist ประมาณ 11/19 03:00 UTC. เรื่องข้างเคียง Secret Rabbit♥Hole และ Case Files ยังถึง 2026-12-10 02:59 UTC โดยไม่เปลี่ยนวันสิ้นสุด. ตอนนี้ไม่สามารถรับตั๋วบอร์ดและไมล์สโตน Leif เพิ่มได้แล้ว และวันที่พลาดกู้คืนไม่ได้. ตรวจสอบข้อมูลในเกมและบน STOVE; เฉลย Case Files ไม่ได้เผยแพร่ที่นี่",
       "glance_h2": "ภาพรวม",
       "th": [
         "รายการ",
@@ -10229,7 +10229,7 @@ export const CONTENT = {
       ],
       "case_note": "สรุปจาก STOVE — Alencia Case Files ไม่ใช่คู่มือสปอยล์เฉลยคนร้าย",
       "daily_h2": "Daily Investigation & Lucky Board",
-      "daily": "เล่น adventure / battle / Arena เพื่อรับคะแนนรายวัน (เพดาน 720/วัน ตาม STOVE) ไมล์สโตนมีตั๋ว Lucky Board และ Leif เส้นทาง: Lobby → Event → Special Event → Secret Rabbit♥Hole",
+      "daily": "ในช่วงอีเวนต์ (สิ้นสุด 11/19 02:59 UTC) การเล่น adventure / battle / Arena ให้คะแนนรายวัน (เพดาน 720/วัน ตาม STOVE) และไมล์สโตนมีตั๋ว Lucky Board กับ Leif เส้นทาง: Lobby → Event → Special Event → Secret Rabbit♥Hole เรื่องข้างเคียงและ Case Files ยังถึง 12/10 02:59 UTC",
       "related_h2": "ที่เกี่ยวข้อง"
     },
     "es": {
@@ -10473,7 +10473,7 @@ export const CONTENT = {
       "title": "Epic Seven Banners & New Heroes (Steam Window) | Guide",
       "meta": "Living banner / new-hero log for Steam & Foundry. Independent summaries with STOVE citations.",
       "h1": "Banners & new heroes",
-      "lead": "Current window first, then the Foundry launch baseline. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
+      "lead": "Current: Bunny Girl Mafia Yufine to 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Then the Foundry launch baseline. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
       "pickup_kicker": "Current pickup · scheduled",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "5★ artifact A Boss's Dignity",
@@ -10483,7 +10483,7 @@ export const CONTENT = {
       "pickup_source": "STOVE announcements",
       "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
-        "Parallel Mystic: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC.",
+        "Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC.",
         "Luna is a launch reward baseline, not the current pickup: the Rank 70 limited 5★ Luna + Glacial Purity path runs through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time) (Foundry rewards).",
         "Daily free Covenant summons on Foundry Summon Support (up to 1,260 over the posted window).",
         "Side-story cosmetics / lobby pack tied to Secret Rabbit♥Hole.",
@@ -10498,8 +10498,8 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro runs to 2026-11-19 02:59 UTC (not the Covenant pickup).",
-      "last_verified": "2026-11-13"
+      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service Covenant rate-up, 11/26 03:00 – 12/17 02:59 UTC (not today). Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC (not the Covenant pickup).",
+      "last_verified": "2026-11-19"
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",
@@ -10515,7 +10515,7 @@ export const CONTENT = {
       "pickup_source": "STOVE 공지",
       "launch_h2": "파운드리 런칭 기준선(2026-10-29+)",
       "launch": [
-        "병행 미스틱: 버니 걸 그레이트 디텍티브 모로 → 2026-11-19 02:59 UTC.",
+        "병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다.",
         "루나는 현재 픽업이 아니라 런칭 보상 기준선입니다: 한정 5★ 루나 + Glacial Purity 경로 ~12/31 02:59 UTC(파운드리 보상).",
         "파운드리 소환 지원 일일 무료 계약(공지 기간 최대 1,260).",
         "Secret Rabbit♥Hole 연계 코스메틱/로비팩.",
@@ -10530,7 +10530,7 @@ export const CONTENT = {
       ],
       "also": "업데이트·점검 페이지도 보세요.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로가 2026-11-19 02:59 UTC까지 진행됩니다(계약 픽업 아님)."
+      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다(계약 픽업 아님)."
     },
     "ja": {
       "title": "バナー・新英雄 — Steam窓",
@@ -10577,7 +10577,7 @@ export const CONTENT = {
       "pickup_source": "STOVE 公告",
       "launch_h2": "Foundry 上架基準（2026-10-29+）",
       "launch": [
-        "並行 Mystic：兔女郎名偵探 莫羅 → 2026-11-19 02:59 UTC。",
+        "並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束。",
         "Luna 不是目前 Pickup，而是上架獎勵基準：限定 5★ Luna＋Glacial Purity 至約 12/31 02:59 UTC（Foundry 獎勵）。",
         "Foundry 召喚支援每日免費契約（公告期間最多 1,260）。",
         "與 Secret Rabbit♥Hole 相關外觀／大廳包。",
@@ -10592,7 +10592,7 @@ export const CONTENT = {
       ],
       "also": "另見更新與維護頁。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅至 2026-11-19 02:59 UTC（非 Covenant Pickup）。"
+      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束（非 Covenant Pickup）。"
     },
     "th": {
       "title": "แบนเนอร์และฮีโร่ใหม่ Epic Seven (ช่วง Steam) | คู่มือ",
@@ -10608,7 +10608,7 @@ export const CONTENT = {
       "pickup_source": "ประกาศ STOVE",
       "launch_h2": "พื้นฐานการเปิดตัว Foundry (2026-10-29+)",
       "launch": [
-        "Mystic คู่ขนาน: Bunny Girl Great Detective Moro → 2026-11-19 02:59 UTC",
+        "Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC",
         "Luna เป็นรางวัลพื้นฐานของการเปิดตัว ไม่ใช่ pickup ปัจจุบัน: Luna 5★ แบบจำกัด + เส้นทาง Glacial Purity ถึง ~12/31 02:59 UTC (รางวัล Foundry)",
         "ซัมมอน Covenant ฟรีรายวันใน Foundry Summon Support (สูงสุด 1,260 ครั้งตลอดช่วงที่ประกาศ)",
         "ไอเทมตกแต่ง / แพ็กสำหรับล็อบบี้จากเรื่องข้างเคียง Secret Rabbit♥Hole",
@@ -10623,7 +10623,7 @@ export const CONTENT = {
       ],
       "also": "ดูเพิ่มเติมที่อัปเดตและปิดปรับปรุง",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro ถึง 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
+      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
     },
     "es": {
       "title": "Banners y héroes nuevos de Epic Seven (Steam) | Guía",
@@ -10789,9 +10789,37 @@ export const CONTENT = {
       "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
         [
-          "2026-11-12 — Celebrate 3,000 Days: comment event (ends 11/18 14:59 UTC)",
+          "2026-11-19 — Maintenance in progress: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
           [
-            "Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — comment deadline 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "Official notice: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — Schedule: 11/19 (Thu) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai (7 hours; both start and end are posted).",
+            "At the 12:13 Asia/Shanghai check the window was in progress. No extension, early end, completion, compensation, or compensation Leif was posted; any schedule change is appended to that same STOVE post.",
+            "Log out before maintenance; the game is unavailable during the window. The notice points to the 11/19 Version 8.7 2nd Update Content (separate card below).",
+            "Separate timings, not the maintenance window: Foundry Guild War Defense Team Formation 11/21 (Sat) 03:00 UTC, and the 8.7 update-mail Leif collection deadline 11/21 (Sat) 10:30 UTC.",
+            "Foundry Guild War is introduced after today’s 11/19 maintenance — not before it. Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (Foundry guilds only).",
+            "Checked 2026-11-19 12:13 Asia/Shanghai against the official post; re-check that post and the in-game notice before relying on the window."
+          ],
+          "STOVE official 2026-11-19"
+        ],
+        [
+          "2026-11-19 — Version 8.7 2nd update (after maintenance): Cecilia preview, Call of Chaos S2, balance",
+          [
+            "Update mail — 2 Leif first: claim through the link in the 11/19 (Thu) Update Content Mail. Collection period 11/18 (Wed) – 11/21 (Sat) 10:30 UTC (11/21 18:30 Asia/Shanghai). This is a collection window, not proof the mail is already in your inbox, and it did not start only on 11/19.",
+            "New 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul Weaver-exclusive artifact). Covenant Drop Rate Up and Preview Video Events: 11/26 (Thu) 03:00 – 12/17 (Thu) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Not summonable today; the preview videos give 1 Leif per event.",
+            "Drop Rate Up: the featured 5★ rate is raised to 1% and no other 5★ can be summoned; no Moonlight Heroes. The counter drops by 1 per summon (max 120); after 120, the next summon is guaranteed to be the featured Hero, then the counter resets. The artifact is obtained through this rate-up pool. Cecilia and Covert Service will be Global Banned in the E7WC 2026 Grand Final.",
+            "The Call of Chaos Season 2: after the 11/19 maintenance – 12/10 (Thu) 02:59 UTC; grace period 12/10 03:00 – 12/17 02:59 UTC. Entry is the banner at the bottom-left of the Arena entry screen; Account Rank 20+. It is shared across all servers and runs on KST start/end, independent of each server’s local reset. Draft Arena is unavailable during the season and returns after the grace period; during the grace period you can enter but cannot start a new Challenge. Seven season Heroes are added and Researcher Carrot is removed — see the official post for the full list.",
+            "Hero balance (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. These are listed for the 11/19 8.7 update and applied after maintenance; final values and descriptions follow the official post/client. No skill before/after is copied here. World Arena battle records from before the 11/19 maintenance starts will not be replayable.",
+            "New Exclusive Equipment for 5★ Bystander Hwayoung and Requiem Roana: craft with Fate’s Gaze in the Hall of Trials after maintenance.",
+            "Arena 2027-1 starts by server, not at one global time: Korea / Asia / Japan close 12/6 13:00 UTC and open 18:00 UTC; Europe close 12/6 22:00 UTC and open 12/7 03:00 UTC; Global close 12/7 05:00 UTC and open 10:00 UTC. The 2026-4 frame is claimed by entering Arena after the new season begins.",
+            "Seasonal battle: Trial of the Constellations runs from after the 11/19 maintenance to before the 12/10 maintenance (UTC). Expedition and Advent details are left to a separate notice — no times or reward table are guessed here.",
+            "Other player-facing improvements: some Episode 6 stages are easier; 5 Leif for the first entry into chapter 1 of each Episode (also for already entered or cleared); Steel Workshop can craft 10 guaranteed Epic equipment at once; Element Summon can be used up to 10 times at once depending on currency.",
+            "Official links: [[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]] · [[Steam news|https://store.steampowered.com/news/app/5019180/view/694277726961403298]]. At this check the STOVE page returned an empty shell; the details above follow the Steam English post, with no STOVE-only addition claimed."
+          ],
+          "STOVE 14638143 · Steam 2026-11-18"
+        ],
+        [
+          "2026-11-12 — Celebrate 3,000 Days: comment event ended 11/18 14:59 UTC",
+          [
+            "Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — the comment event ended 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
             "Posted entry method: a comment on the official post, not in-game mail or an in-game comment. Format: “Nickname / Server / Day 3,000 Celebration Message”.",
             "Comments that do not follow the format, or include special characters not listed in it, may be excluded from the event.",
             "All participants: 2 Leif, sent to the in-game mailbox on 2026/11/20 (Fri); storage period 7 days. No delivery hour was published.",
@@ -10819,7 +10847,7 @@ export const CONTENT = {
         [
           "2026-11-07 — Foundry Guild War schedule",
           [
-            "Guild War is introduced to Foundry on 2026-11-19.",
+            "Guild War is introduced to Foundry after today’s 11/19 maintenance.",
             "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai).",
             "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai).",
             "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000 — Foundry login required."
@@ -10827,12 +10855,12 @@ export const CONTENT = {
           "Steam notice 2026-11-07"
         ],
         [
-          "2026-11-19 — Balance preview (not live yet; edited 11/11 02:19 UTC)",
+          "2026-11-19 — Balance adjustment preview (listed for the 11/19 8.7 update; after maintenance)",
           [
             "Preview title revised: “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai). The seven names below were unchanged at this check.",
             "STOVE EN preview: [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]]",
             "Listed: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
-            "As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at [[Steam RSS|https://store.steampowered.com/feeds/news/app/5019180/?l=english]] still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list ([[STOVE list|https://page.onstove.com/epicseven/global/list/986]]) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
+            "The 11/19 maintenance window is now posted as 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); see the maintenance card above. These seven names are listed for the 11/19 8.7 update and are applied after maintenance — final values and descriptions follow the official post/client.",
             "Preview only — no skill before/after copied here."
           ],
           null
@@ -10850,7 +10878,7 @@ export const CONTENT = {
         [
           "Upcoming to watch",
           [
-            "Foundry Guild War — introduced 2026-11-19; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC.",
+            "Foundry Guild War — introduced after today’s 11/19 maintenance; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC.",
             "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO return date — confirm on official notice when posted."
@@ -10860,7 +10888,7 @@ export const CONTENT = {
       ],
       "cont": "Continuously updated — check after weekly maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Steam launch and Foundry opened 2026-10-29. The 2026-11-07 Steam notice staged Foundry Guild War: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC, plus a Foundry login gift through 11/23. World Arena follows after 2026-12-10 maintenance. A 11/19 balance preview is names-only and may differ from the live patch — summaries cite STOVE/Steam, not a full patch mirror."
+      "answer": "Newest: 11/19 maintenance is posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); at the 12:13 Asia/Shanghai check it was in progress with no extension, early end, or compensation. Version 8.7 2nd update follows: 2 Leif update-mail collection through 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up 11/26 03:00 – 12/17 02:59 UTC (not today); Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour); carrots run to 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC."
     },
     "ko": {
       "title": "업데이트 — 영웅·이벤트",
@@ -10869,15 +10897,43 @@ export const CONTENT = {
       "lead": "최신 우선. 공개 STOVE/Steam 요약 — 전체 패치 미러 아님.",
       "cards": [
         [
-          "2026-11-12 — 3,000일 축하 댓글 이벤트 (11/18 14:59 UTC 마감)",
+          "2026-11-19 — 점검 진행 중: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
           [
-            "공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 댓글 마감 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai).",
+            "공식 공지: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19 (목) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai(7시간, 시작과 종료 모두 공지).",
+            "12:13 Asia/Shanghai 확인 기준 이 창은 진행 중이었습니다. 연장·조기 종료·완료·보상·보상 Leif는 게시되지 않았으며, 일정 변경은 같은 STOVE 글에 추가됩니다.",
+            "점검 전 게임에서 로그아웃하세요. 점검 중에는 접속할 수 없습니다. 공지는 11/19 Version 8.7 2nd Update Content를 가리킵니다(아래 별도 카드).",
+            "점검 창과 별개: Foundry 길드전 방어팀 구성 11/21 (토) 03:00 UTC, 8.7 업데이트 메일 Leif 수령 마감 11/21 (토) 10:30 UTC.",
+            "Foundry 길드전은 오늘 11/19 점검 후 도입됩니다 — 그 전에 이미 도입된 것이 아닙니다. 방어팀 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC(Foundry 길드 전용).",
+            "2026-11-19 12:13 Asia/Shanghai에 공식 글을 확인했습니다. 사용 전 공지와 게임 내 안내를 다시 확인하세요."
+          ],
+          "STOVE 공식 2026-11-19"
+        ],
+        [
+          "2026-11-19 — Version 8.7 2nd 업데이트(점검 후): Cecilia 예고, Call of Chaos S2, 밸런스",
+          [
+            "업데이트 메일 — 2 Leif 먼저: 11/19 (목) Update Content Mail의 링크로 수령. 수령 기간 11/18 (수) – 11/21 (토) 10:30 UTC(11/21 18:30 Asia/Shanghai). 수령 기간일 뿐 우편함에 이미 도착했다는 뜻이 아니며, 11/19에만 시작하는 것도 아닙니다.",
+            "신규 5★ Bunny Girl Maid Cecilia(대지 속성 소울위버) + Covert Service(소울위버 전용 아티팩트). Covenant 드롭률 업 및 프리뷰 영상 이벤트: 11/26 (목) 03:00 – 12/17 (목) 02:59 UTC(11/26 11:00 – 12/17 10:59 Asia/Shanghai). 오늘 뽑을 수 없습니다; 프리뷰 영상은 이벤트당 1 Leif.",
+            "드롭률 업: 픽업 5★ 확률 1% 상향, 다른 5★ 없음, 월광 없음. 소환 1회당 카운터 1 감소(최대 120); 120회 후 다음 소환은 픽업 영웅 100% 보장, 이후 카운터 초기화. 아티팩트는 이 상향 풀에서 획득. Cecilia와 Covert Service는 E7WC 2026 Grand Final에서 Global Ban됩니다.",
+            "The Call of Chaos 시즌 2: 11/19 점검 후 – 12/10 (목) 02:59 UTC; 유예 기간 12/10 03:00 – 12/17 02:59 UTC. 입장: 아레나 입장 화면 왼쪽 아래 배너; 계정 Rank 20 이상. 전 서버 공통이며 KST 시작/종료 기준으로 각 서버 로컬 리셋과 무관합니다. 시즌 중 Draft Arena 사용 불가, 유예 기간 종료 후 복귀. 유예 기간에는 입장만 가능하고 새 Challenge 시작 불가. 시즌 영웅 7명 추가, Researcher Carrot 제외 — 전체 명단은 공식 글 참고.",
+            "영웅 밸런스(7명): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. 11/19 8.7 업데이트에 포함되어 점검 후 적용되며, 최종 수치·설명은 공식 글/클라이언트 기준입니다. 스킬 Before/After는 옮기지 않습니다. 11/19 점검 시작 전 World Arena 전투 기록은 다시보기 불가.",
+            "신규 전용 장비: 5★ Bystander Hwayoung과 Requiem Roana; 점검 후 Hall of Trials에서 Fate's Gaze로 제작.",
+            "Arena 2027-1은 서버별 시작(전 서버 동시 아님): 한국/아시아/일본 12/6 13:00 UTC 종료·18:00 UTC 시작; 유럽 12/6 22:00 UTC 종료·12/7 03:00 UTC 시작; Global 12/7 05:00 UTC 종료·10:00 UTC 시작. 2026-4 프레임은 새 시즌 시작 후 아레나에 입장해 수령.",
+            "시즌 전투: Trial of the Constellations는 11/19 점검 후 – 12/10 점검 전(UTC). Expedition/Advent 세부는 별도 공지이며, 시간·보상표는 추정하지 않습니다.",
+            "기타 편의 개선: Episode 6 일부 스테이지 난이도 하향; 각 Episode 1장 첫 입장 시 5 Leif(이미 입장/클리어한 경우도 수령); Steel Workshop에서 Epic 장비 10회 확정 제작; 속성 소환은 보유 재화에 따라 최대 10회까지.",
+            "공식 링크: [[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]] · [[Steam news|https://store.steampowered.com/news/app/5019180/view/694277726961403298]]. 이번 확인에서 STOVE 페이지는 빈 껍데기였으며, 위 내용은 Steam 영문 글 기준입니다. STOVE 전용 추가 내용을 확인했다고 주장하지 않습니다."
+          ],
+          "STOVE 14638143 · Steam 2026-11-18"
+        ],
+        [
+          "2026-11-12 — 3,000일 축하 댓글 이벤트 (11/18 14:59 UTC 종료)",
+          [
+            "공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 댓글 이벤트는 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)에 종료되었습니다.",
             "공지된 참여 방식은 게임 내 우편이나 게임 내 댓글이 아니라 공식 게시글 댓글입니다. 형식: “Nickname / Server / Day 3,000 Celebration Message”.",
             "형식을 지키지 않거나 형식에 없는 특수 문자를 넣은 댓글은 이벤트에서 제외될 수 있습니다.",
             "전원 보상: 2 Leif. 2026/11/20 (금) 게임 내 우편으로 지급되며 보관 기간은 7일입니다(지급 시각은 공지되지 않음).",
             "정확한 게임 내 닉네임과 서버를 적어야 합니다. 닉네임을 변경하면 보상이 정상 지급되지 않을 수 있습니다.",
             "계정당 1회 보상이며 중복 참여는 지급되지 않습니다. 다른 언어 STOVE 커뮤니티에서 같은 이벤트에 중복 참여할 수 없습니다.",
-            "아래의 “Everyone, Gather Carrots!” 서버 협력 이벤트와는 별개입니다. 11/18은 댓글 마감일이며 당근 이벤트 종료일이 아닙니다."
+            "아래의 “Everyone, Gather Carrots!” 서버 협력 이벤트와는 별개입니다. 11/18은 댓글 이벤트 종료일이며 당근 이벤트 종료일이 아닙니다."
           ],
           "STOVE 공식 2026-11-12"
         ],
@@ -10909,7 +10965,7 @@ export const CONTENT = {
         [
           "앞으로 볼 일정",
           [
-            "길드전 — 2026-11-19 도입; 2026-11-21 03:00 UTC 방어팀; 2026-11-23 03:00 UTC 매칭.",
+            "길드전 — 오늘 11/19 점검 후 도입; 2026-11-21 03:00 UTC 방어팀; 2026-11-23 03:00 UTC 매칭.",
             "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "월드 아레나 — 2026-12-10 점검 후.",
             "일본어 VO 복귀 — 공식 공지 확인."
@@ -10919,7 +10975,7 @@ export const CONTENT = {
       ],
       "cont": "주간 점검 후 지속 갱신.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "Steam·파운드리는 2026-10-29 오픈. 길드전은 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭. WA는 2026-12-10 점검 후(공식 공지는 KST와 UTC를 각각 표기). STOVE/Steam 요약 — 전체 패치 미러 아님."
+      "answer": "최신: 11/19 점검은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)로 공지되었고, 12:13 Asia/Shanghai 확인 시 진행 중이었으며 연장·조기 종료·보상은 없었습니다. Version 8.7 2nd 업데이트: 2 Leif 업데이트 메일 수령 11/21 10:30 UTC까지; Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업 11/26 03:00 – 12/17 02:59 UTC(오늘 아님); Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC; 영웅 7명 밸런스는 점검 후 적용. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료(2 Leif는 11/20 지급 예정, 시각 미공지); 당근 이벤트는 11/26 02:59 UTC까지. Moro Mystic과 Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지."
     },
     "ja": {
       "title": "更新 — 英雄＆イベント",
@@ -10959,15 +11015,43 @@ export const CONTENT = {
       "lead": "最新在上。摘要公開 STOVE／Steam——非完整補丁鏡像。",
       "cards": [
         [
-          "2026-11-12 — 3,000 天慶祝留言活動（11/18 14:59 UTC 截止）",
+          "2026-11-19 — 維護進行中：03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）",
           [
-            "官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 留言截止 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）。",
+            "官方公告：[[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19（週四）03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai（7 小時，起訖都公告）。",
+            "12:13 Asia/Shanghai 核對時該窗仍在進行中；未見延長、提前結束、完成、補償或補償 Leif，任何變更會追加在同一則 STOVE 貼文。",
+            "維護前請登出；維護期間無法進入遊戲。公告指向 11/19 Version 8.7 2nd Update Content（下方另卡）。",
+            "與維護窗分開：Foundry 公會戰防禦隊伍 11/21（週六）03:00 UTC；8.7 更新郵件 Leif 領取截止 11/21（週六）10:30 UTC。",
+            "Foundry 公會戰於今日 11/19 維護後導入——不是維護前已導入。防禦隊伍 2026-11-21 03:00 UTC；配對 2026-11-23 03:00 UTC（僅 Foundry 公會）。",
+            "2026-11-19 12:13 Asia/Shanghai 已核對官方貼文；使用前請再核貼文與遊戲內公告。"
+          ],
+          "STOVE 官方 2026-11-19"
+        ],
+        [
+          "2026-11-19 — Version 8.7 第 2 彈更新（維護後）：Cecilia 預告、Call of Chaos S2、平衡",
+          [
+            "更新郵件——2 Leif 放最前：透過 11/19（週四）Update Content Mail 內的連結領取。領取期 11/18（週三）– 11/21（週六）10:30 UTC（11/21 18:30 Asia/Shanghai）。這是領取期，不代表信件已到信箱，也不是 11/19 才開始領。",
+            "新 5★ Bunny Girl Maid Cecilia（大地靈魂使者）＋ Covert Service（靈魂使者專用神器）。Covenant 提高掉率與預覽影片活動：11/26（週四）03:00 – 12/17（週四）02:59 UTC（11/26 11:00 – 12/17 10:59 Asia/Shanghai）。今天還不能抽；預覽影片每場 1 Leif。",
+            "提高掉率：featured 5★ 提高至 1%，不會出其他 5★，無月光。每抽計數減 1（最多 120）；120 抽後下一抽保證 featured，抽出後計數重置。神器經此提高掉率池獲得。Cecilia 與 Covert Service 將成為 E7WC 2026 Grand Final 的 Global Banned。",
+            "The Call of Chaos 第 2 賽季：11/19 維護後 – 12/10（週四）02:59 UTC；寬限期 12/10 03:00 – 12/17 02:59 UTC。入口：競技場入口左下 Banner；帳號 Rank 20 以上。全服共通，按 KST 起訖，與各服本地重置無關。賽季期間 Draft Arena 不可用，寬限期結束後換回。寬限期可進但不能開新 Challenge。新增 7 名賽季英雄、移出 Researcher Carrot——完整名單見官方貼文。",
+            "英雄平衡（7 名）：ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua；Covenant Summertime Iseria / Guard Captain Krau；4★ Victorika。列入 11/19 8.7 更新、維護後實裝；正式數值與說明以官方貼文／客戶端為準。此處不抄技能 Before/After。11/19 維護開始前的 World Arena 戰報將無法回放。",
+            "新專用裝備：5★ Bystander Hwayoung 與 Requiem Roana；維護後可在 Hall of Trials 用 Fate's Gaze 製作。",
+            "Arena 2027-1 按服不同，不是全服統一時間：韓／亞／日 12/6 13:00 UTC 結束、18:00 UTC 開始；歐洲 12/6 22:00 UTC 結束、12/7 03:00 UTC 開始；Global 12/7 05:00 UTC 結束、10:00 UTC 開始。2026-4 框在新賽季開始後進入競技場領取。",
+            "季節戰鬥：Trial of the Constellations 為 11/19 維護後 – 12/10 維護前（UTC）。Expedition／Advent 細節另見公告，不臆測時刻或獎勵表。",
+            "其他玩家向改進：Episode 6 部分關卡降難；每部 Episode 首次進入第 1 章可領 5 Leif（已進入／已通關也可領）；Steel Workshop 可一次 10 次保底 Epic 裝備製作；屬性召喚可視貨幣一次最多 10 次。",
+            "官方雙鏈：[[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]] · [[Steam news|https://store.steampowered.com/news/app/5019180/view/694277726961403298]]。本次核對 STOVE 頁仍是空殼；上述細節以 Steam 英文全文為準，不聲稱已讀到 STOVE 獨有增補。"
+          ],
+          "STOVE 14638143 · Steam 2026-11-18"
+        ],
+        [
+          "2026-11-12 — 3,000 天慶祝留言活動（已於 11/18 14:59 UTC 結束）",
+          [
+            "官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — 留言活動已於 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）結束。",
             "公告的參加方式是在官方貼文留言，不是遊戲內信箱或遊戲內留言。格式：「Nickname / Server / Day 3,000 Celebration Message」。",
             "未依格式、或包含格式未列出的特殊字元的留言，可能不列入活動。",
             "全體參加獎：2 Leif，於 2026/11/20（週五）送到遊戲內信箱，保管 7 天（未公布發送時刻）。",
             "請填寫正確的遊戲內暱稱與伺服器；更改暱稱可能導致獎勵發放不正確。",
             "每個帳號一份獎勵，重複參加不重複發放；不可在其他語言的 STOVE 社群重複參加同一活動。",
-            "與下方「Everyone, Gather Carrots!」伺服器合作活動分開；11/18 是留言截止，不是收胡蘿蔔活動的結束日。"
+            "與下方「Everyone, Gather Carrots!」伺服器合作活動分開；11/18 是留言活動結束日，不是收胡蘿蔔活動的結束日。"
           ],
           "STOVE 官方 2026-11-12"
         ],
@@ -10999,7 +11083,7 @@ export const CONTENT = {
         [
           "即將關注",
           [
-            "公會戰 — 2026-11-19 導入；2026-11-21 03:00 UTC 防禦隊伍；2026-11-23 03:00 UTC 配對。",
+            "公會戰 — 今日 11/19 維護後導入；2026-11-21 03:00 UTC 防禦隊伍；2026-11-23 03:00 UTC 配對。",
             "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
             "WA — 2026-12-10 維護後。",
             "日語 VO 回歸 — 以官方公告為準。"
@@ -11009,7 +11093,7 @@ export const CONTENT = {
       ],
       "cont": "每週維護後持續更新。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "Steam 與 Foundry 於 2026-10-29 開服；公會戰 2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對，WA 於 2026-12-10 維護後（官方公告分別標過 KST 與 UTC）。摘要自 STOVE／Steam——非完整補丁鏡像。"
+      "answer": "最新：11/19 維護為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），12:13 Asia/Shanghai 核對時仍在進行中，未見延長、提前結束或補償。Version 8.7 第 2 彈：2 Leif 更新郵件領取至 11/21 10:30 UTC；Bunny Girl Maid Cecilia & Covert Service 契約提高掉率 11/26 03:00 – 12/17 02:59 UTC（不是今天）；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC；7 名英雄平衡於維護後實裝。3,000 天留言活動已於 11/18 14:59 UTC 結束（2 Leif 預定 11/20 發放，未公布時刻）；收胡蘿蔔至 11/26 02:59 UTC。Moro Mystic 與 Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。"
     },
     "th": {
       "title": "อัปเดต Epic Seven — ฮีโร่และอีเวนต์",
@@ -11018,15 +11102,43 @@ export const CONTENT = {
       "lead": "ใหม่สุดขึ้นก่อน เราสรุปโพสต์สาธารณะของ STOVE / Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด",
       "cards": [
         [
-          "2026-11-12 — ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์ (ปิด 11/18 14:59 UTC)",
+          "2026-11-19 — กำลังปิดปรับปรุง: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
           [
-            "โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — กำหนดปิดคอมเมนต์ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "ประกาศทางการ: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19 (พฤ.) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai (7 ชั่วโมง ระบุทั้งเริ่มและสิ้นสุด).",
+            "จากการตรวจเมื่อ 12:13 Asia/Shanghai ช่วงนี้ยังดำเนินอยู่ ไม่มีประกาศขยายเวลา ปิดก่อนกำหนด เสร็จสิ้น หรือค่าชดเชย/Leif ชดเชย การเปลี่ยนแปลงจะถูกเพิ่มในโพสต์ STOVE เดียวกัน.",
+            "ออกจากเกมก่อนปิดปรับปรุง และเข้าเกมไม่ได้ระหว่างช่วงนี้ ประกาศชี้ไปที่ Version 8.7 2nd Update Content (การ์ดแยกด้านล่าง).",
+            "เวลาที่แยกจากช่วงปิดปรับปรุง: จัดทีมป้องกัน Guild War บน Foundry 11/21 (ส.) 03:00 UTC; กำหนดรับ Leif จากอีเมลอัปเดต 8.7 11/21 (ส.) 10:30 UTC.",
+            "Guild War บน Foundry จะเปิดตัวหลังปิดปรับปรุงวันนี้ 11/19 — ไม่ใช่ก่อนหน้านี้ จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC (เฉพาะกิลด์บน Foundry).",
+            "ตรวจโพสต์ทางการเมื่อ 2026-11-19 12:13 Asia/Shanghai; โปรดตรวจโพสต์และประกาศในเกมอีกครั้งก่อนอ้างอิง."
+          ],
+          "STOVE ทางการ 2026-11-19"
+        ],
+        [
+          "2026-11-19 — อัปเดต Version 8.7 ครั้งที่ 2 (หลังปิดปรับปรุง): Cecilia พรีวิว, Call of Chaos S2, ปรับสมดุล",
+          [
+            "อีเมลอัปเดต — 2 Leif มาก่อน: รับผ่านลิงก์ในอีเมล 11/19 (พฤ.) Update Content Mail ช่วงรับ 11/18 (พ.) – 11/21 (ส.) 10:30 UTC (11/21 18:30 Asia/Shanghai). นี่คือช่วงรับ ไม่ได้ยืนยันว่าเมลอยู่ในกล่องแล้ว และไม่ได้เริ่มเฉพาะ 11/19.",
+            "ฮีโร่ 5★ ใหม่ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (อาร์ติแฟกต์เฉพาะ Soul Weaver). Covenant Drop Rate Up และ Preview Video Events: 11/26 (พฤ.) 03:00 – 12/17 (พฤ.) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). ยังสุ่มไม่ได้วันนี้; วิดีโอพรีวิวให้ 1 Leif ต่ออีเวนต์.",
+            "Drop Rate Up: อัตราฮีโร่ 5★ แบบ featured เพิ่มเป็น 1% และไม่มี 5★ อื่น, ไม่มี Moonlight. ตัวนับลด 1 ต่อการสุ่ม (สูงสุด 120); หลัง 120 ครั้ง การสุ่มถัดไปรับประกัน featured แล้วตัวนับรีเซ็ต. อาร์ติแฟกต์ได้จากพูลเพิ่มอัตรานี้. Cecilia และ Covert Service จะเป็น Global Banned ใน E7WC 2026 Grand Final.",
+            "The Call of Chaos ซีซัน 2: หลังปิดปรับปรุง 11/19 – 12/10 (พฤ.) 02:59 UTC; ช่วงผ่อนผัน 12/10 03:00 – 12/17 02:59 UTC. ทางเข้า: แบนเนอร์มุมซ้ายล่างของหน้าเข้า Arena; Account Rank 20 ขึ้นไป. ใช้ร่วมทุกเซิร์ฟเวอร์และเริ่ม/จบตาม KST ไม่เกี่ยวกับรีเซ็ตท้องถิ่นของแต่ละเซิร์ฟเวอร์. Draft Arena ใช้ไม่ได้ระหว่างซีซันและกลับมาหลังช่วงผ่อนผัน; ช่วงผ่อนผันเข้าได้แต่เริ่ม Challenge ใหม่ไม่ได้. เพิ่มฮีโร่ซีซัน 7 ตัวและนำ Researcher Carrot ออก — ดูรายชื่อทั้งหมดในโพสต์ทางการ.",
+            "ปรับสมดุลฮีโร่ 7 ตัว: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. อยู่ในรายการอัปเดต 8.7 วันที่ 11/19 และมีผลหลังปิดปรับปรุง; ค่าสุดท้ายเป็นไปตามโพสต์ทางการ/ไคลเอนต์. ไม่มีการคัดลอกสกิล Before/After ที่นี่. บันทึกการต่อสู้ World Arena ก่อนเริ่มปิดปรับปรุง 11/19 จะเล่นย้อนหลังไม่ได้.",
+            "อุปกรณ์เฉพาะใหม่สำหรับ 5★ Bystander Hwayoung และ Requiem Roana: คราฟต์ด้วย Fate's Gaze ใน Hall of Trials หลังปิดปรับปรุง.",
+            "Arena 2027-1 เริ่มตามเซิร์ฟเวอร์ ไม่ใช่เวลาเดียวทั้งโลก: เกาหลี/เอเชีย/ญี่ปุ่น จบ 12/6 13:00 UTC เริ่ม 18:00 UTC; ยุโรป จบ 12/6 22:00 UTC เริ่ม 12/7 03:00 UTC; Global จบ 12/7 05:00 UTC เริ่ม 10:00 UTC. กรอบ 2026-4 รับโดยเข้า Arena หลังซีซันใหม่เริ่ม.",
+            "การต่อสู้ตามฤดูกาล: Trial of the Constellations ตั้งแต่หลังปิดปรับปรุง 11/19 ถึงก่อนปิดปรับปรุง 12/10 (UTC). รายละเอียด Expedition/Advent อยู่ในประกาศแยก ไม่เดาเวลาหรือตารางรางวัล.",
+            "ปรับปรุงอื่นสำหรับผู้เล่น: บางด่าน Episode 6 ลดความยาก; 5 Leif เมื่อเข้าบทที่ 1 ของแต่ละ Episode ครั้งแรก (เข้า/ผ่านแล้วก็รับได้); Steel Workshop คราฟต์ Epic แบบการันตี 10 ครั้งพร้อมกัน; Element Summon สูงสุด 10 ครั้งพร้อมกันตามสกุลเงิน.",
+            "ลิงก์ทางการ: [[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]] · [[Steam news|https://store.steampowered.com/news/app/5019180/view/694277726961403298]]. ในการตรวจครั้งนี้หน้า STOVE ยังเป็นเปลือกว่าง; รายละเอียดข้างต้นอ้างอิงโพสต์ Steam ภาษาอังกฤษ และไม่กล่าวอ้างว่าได้อ่านเนื้อหาเฉพาะ STOVE."
+          ],
+          "STOVE 14638143 · Steam 2026-11-18"
+        ],
+        [
+          "2026-11-12 — ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์ (สิ้นสุด 11/18 14:59 UTC)",
+          [
+            "โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — อีเวนต์คอมเมนต์สิ้นสุดเมื่อ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
             "วิธีร่วมที่ประกาศไว้คือคอมเมนต์ใต้โพสต์ทางการ ไม่ใช่กล่องจดหมายหรือคอมเมนต์ในเกม รูปแบบ: “Nickname / Server / Day 3,000 Celebration Message”.",
             "คอมเมนต์ที่ไม่ตรงรูปแบบ หรือมีอักขระพิเศษที่ไม่ได้ระบุในรูปแบบ อาจถูกตัดออกจากกิจกรรม",
             "รางวัลผู้เข้าร่วมทุกคน: 2 Leif ส่งเข้ากล่องจดหมายในเกมวันที่ 2026/11/20 (ศ.) เก็บได้ 7 วัน (ไม่มีการประกาศเวลาส่ง).",
             "ต้องใช้ชื่อในเกมและเซิร์ฟเวอร์ให้ถูกต้อง การเปลี่ยนชื่ออาจทำให้ได้รับรางวัลไม่ถูกต้อง",
             "หนึ่งรางวัลต่อบัญชี การร่วมซ้ำจะไม่ได้รับรางวัลอีก และไม่สามารถร่วมกิจกรรมเดียวกันในคอมมูนิตี้ STOVE ภาษาอื่นได้",
-            "แยกจากอีเวนต์ “Everyone, Gather Carrots!” ด้านล่าง; 11/18 เป็นกำหนดปิดคอมเมนต์ ไม่ใช่วันสิ้นสุดอีเวนต์เก็บแครอท"
+            "แยกจากอีเวนต์ “Everyone, Gather Carrots!” ด้านล่าง; 11/18 เป็นวันสิ้นสุดอีเวนต์คอมเมนต์ ไม่ใช่วันสิ้นสุดอีเวนต์เก็บแครอท"
           ],
           "STOVE ทางการ 2026-11-12"
         ],
@@ -11058,7 +11170,7 @@ export const CONTENT = {
         [
           "ที่ต้องจับตา",
           [
-            "Guild War — เปิดตัว 2026-11-19; จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC",
+            "Guild War — เปิดตัวหลังปิดปรับปรุงวันนี้ 11/19; จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC",
             "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000",
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "วันกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่"
@@ -11068,7 +11180,7 @@ export const CONTENT = {
       ],
       "cont": "อัปเดตต่อเนื่อง — ตรวจหลังปิดปรับปรุงรายสัปดาห์",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "Steam เปิดตัวและ Foundry เปิดเมื่อ 2026-10-29; Guild War เปิดตัว 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; World Arena หลังปิดปรับปรุง 2026-12-10 (ประกาศทางการระบุทั้ง KST และ UTC) สรุปอ้างอิง STOVE/Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด"
+      "answer": "ล่าสุด: ปิดปรับปรุง 11/19 เวลา 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); ตรวจเมื่อ 12:13 Asia/Shanghai ยังดำเนินอยู่ ไม่มีขยายเวลา ปิดก่อนกำหนด หรือค่าชดเชย. Version 8.7 ครั้งที่ 2: รับ 2 Leif จากอีเมลอัปเดตถึง 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตราถึง 11/26 03:00 – 12/17 02:59 UTC (ไม่ใช่วันนี้); Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC; ปรับสมดุล 7 ฮีโร่หลังปิดปรับปรุง. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC (2 Leif กำหนด 11/20 ไม่ระบุเวลา); เก็บแครอทถึง 11/26 02:59 UTC. Moro Mystic และ Lucky Board สิ้นสุด 11/19 02:59 UTC; ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC."
     },
     "es": {
       "title": "Actualizaciones de Epic Seven — héroes y eventos",
@@ -11234,9 +11346,20 @@ export const CONTENT = {
       "lead": "Track weekly patches affecting Steam clients, Foundry unlocks, and launch caveats (e.g. Japanese VO delay).",
       "cards": [
         [
+          "2026-11-19 — Maintenance in progress: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
+          [
+            "Official notice: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19 (Thu) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai (7 hours; both endpoints are posted).",
+            "At the 12:13 Asia/Shanghai check the window was in progress; no extension, early end, completion, compensation, or compensation Leif was posted. Any change is appended to that same STOVE post.",
+            "Log out before maintenance; the game is unavailable during the window. The notice points to the Version 8.7 2nd Update Content.",
+            "Separate timings, not the maintenance window: Foundry Guild War Defense Team Formation 11/21 03:00 UTC; 8.7 update-mail Leif collection deadline 11/21 10:30 UTC.",
+            "Foundry Guild War is introduced after today’s 11/19 maintenance; Form Defense Team 11/21 03:00 UTC; Matchmaking 11/23 03:00 UTC.",
+            "Checked 2026-11-19 12:13 Asia/Shanghai against the official post; re-check the post and the in-game notice before relying on it."
+          ]
+        ],
+        [
           "2026-11-07 — Foundry Guild War notice",
           [
-            "Guild War is introduced to Foundry on 2026-11-19 — not a single 11/21 unlock.",
+            "Guild War is introduced to Foundry after today’s 11/19 maintenance — not a single 11/21 unlock.",
             "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai).",
             "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai).",
             "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry login only; Commander's Armband ×1,000, Brave Crest ×3,000.",
@@ -11244,11 +11367,11 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Balance adjustment preview (not live yet)",
+          "2026-11-19 — Balance adjustment preview (listed for the 11/19 8.7 update; after maintenance)",
           [
             "STOVE EN preview: [[STOVE 14618757|https://page.onstove.com/epicSeven/global/view/14618757]]",
             "Named for review: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
-            "This is a preview only — the live 11/19 patch may differ. Names only; no skill before/after copied here."
+            "These changes are listed for the 11/19 8.7 update and applied after maintenance; final values follow the official post/client. Names only; no skill before/after copied here. World Arena battle records from before the 11/19 maintenance starts will not be replayable."
           ]
         ],
         [
@@ -11282,13 +11405,13 @@ export const CONTENT = {
         [
           "Watch list",
           [
-            "Foundry Guild War — introduced 2026-11-19; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC.",
+            "Foundry Guild War — introduced after today’s 11/19 maintenance; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC.",
             "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
             "11/19 balance preview (EN) — [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]] — ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Summertime Iseria / Guard Captain Krau; 4★ Victorika. Names only; preview may differ from the live 11/19 patch. JP mirror: [[STOVE 14618761|https://page.onstove.com/epicseven/JP/view/14618761]]",
-            "11/19 balance preview update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged at this check. As of 12:22 Asia/Shanghai on 16 November 2026, Steam’s official news API (GetNewsForApp, appid 5019180) and the Steam official RSS feed at [[Steam RSS|https://store.steampowered.com/feeds/news/app/5019180/?l=english]] still showed no 11/19 maintenance start/end hours and no new Patch Information; the newest Steam news item remained “Foundry Server Guild War Update Notice” (2026-11-07 11:00 UTC). The STOVE Game Maintenance list ([[STOVE list|https://page.onstove.com/epicseven/global/list/986]]) still showed the newest patch-class post as [Maintenance] 11/5 (Thu) Patch Information (10:30–11:30 UTC); 11/13 was a Banned Players notice only. Foundry Guild War is scheduled to be introduced on 11/19, but that introduction is not an official maintenance-hour announcement. Schedules may change; rely on a new official notice and the client.",
+            "11/19 balance update — the preview title carries “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai); the seven-name list was unchanged. The official maintenance notice now posts 11/19 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); at the 12:13 Asia/Shanghai check it was in progress, with no extension, early end, or compensation posted. Foundry Guild War is introduced after today’s maintenance; Form Defense Team 11/21 03:00 UTC; Matchmaking 11/23 03:00 UTC. Schedules may change; rely on the official post and the client.",
             "Known Issues — 10/29 notice updated 11/9 06:08 UTC: Setsuka side story display (ends after the 11/19 update), Secret Rabbit♥Hole equipment stat increase + corrected-equipment redistribution, and Guild Rank 21 Guild War hero revive (fix planned for the 12/10 Thu maintenance, no time). Details above; official: [[STOVE 14608118|https://page.onstove.com/epicseven/global/view/14608118]]"
           ]
         ]
@@ -11300,7 +11423,7 @@ export const CONTENT = {
         "Call out Foundry-only schedule slips separately from legacy servers."
       ],
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current window: the newest Steam/STOVE maintenance posted in this log is the 2026-11-05 Steam/Foundry patch, which ran 10:30–11:30 UTC (18:30–19:30 Asia/Shanghai) and fixed intermittent Steam launch failures, a Foundry shop misdisplay, and stray Secret Rabbit♥Hole text. Steam launch maintenance was 2026-10-29. The 2026-11-07 Steam notice staged Foundry Guild War: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC, with a Foundry login gift through 11/23. See [[updates|/updates/]] for newly posted STOVE/Steam windows; a separate 11/19 balance preview is names-only, not a confirmed maintenance window."
+      "answer": "Current window: 11/19 (Thu) 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), posted on STOVE 14635223; at the 12:13 Asia/Shanghai check it was in progress with no extension, early end, or compensation. The notice points to the Version 8.7 2nd Update Content: 2 Leif update-mail collection through 11/21 10:30 UTC; Bunny Girl Maid Cecilia rate-up 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes balanced after maintenance. Foundry Guild War is introduced after the same maintenance, with Defense Team Formation 11/21 03:00 UTC and Matchmaking 11/23 03:00 UTC. The 3,000-day comment event ended 11/18 14:59 UTC; carrots run to 11/26 02:59 UTC. Moro and the Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC."
     },
     "ko": {
       "title": "점검·버전 노트",
@@ -11308,6 +11431,17 @@ export const CONTENT = {
       "h1": "점검·버전 노트",
       "lead": "Steam 클라이언트·파운드리 해금·런칭 이슈(일본어 VO 지연 등)를 추적합니다.",
       "cards": [
+        [
+          "2026-11-19 — 점검 진행 중: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
+          [
+            "공식 공지: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19 (목) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai(7시간, 시작과 종료 모두 공지).",
+            "12:13 Asia/Shanghai 확인 기준 진행 중이었으며, 연장·조기 종료·완료·보상·보상 Leif는 게시되지 않았습니다. 변경은 같은 STOVE 글에 추가됩니다.",
+            "점검 전 로그아웃하세요. 점검 중에는 접속할 수 없습니다. 공지는 Version 8.7 2nd Update Content를 가리킵니다.",
+            "점검 창과 별개: Foundry 길드전 방어팀 11/21 03:00 UTC; 8.7 업데이트 메일 Leif 수령 마감 11/21 10:30 UTC.",
+            "Foundry 길드전은 오늘 11/19 점검 후 도입됩니다. 방어팀 11/21 03:00 UTC, 매칭 11/23 03:00 UTC.",
+            "2026-11-19 12:13 Asia/Shanghai에 공식 글을 확인했습니다. 사용 전 공지와 게임 내 안내를 다시 확인하세요."
+          ]
+        ],
         [
           "2026-10-29 — Steam 런칭 점검",
           [
@@ -11330,7 +11464,7 @@ export const CONTENT = {
         [
           "워치리스트",
           [
-            "길드전 — 2026-11-19 도입; 2026-11-21 03:00 UTC 방어팀; 2026-11-23 03:00 UTC 매칭.",
+            "길드전 — 오늘 11/19 점검 후 도입; 2026-11-21 03:00 UTC 방어팀; 2026-11-23 03:00 UTC 매칭.",
             "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "월드 아레나 — 2026-12-10.",
             "일본어 VO — confirm on official notice when posted.",
@@ -11347,7 +11481,7 @@ export const CONTENT = {
         "파운드리 전용 일정 변동은 기존 서버와 구분."
       ],
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "2026-10-29 Steam 런칭 점검으로 정식 클라와 파운드리가 열렸고, 2026-11-05 패치(10:30–11:30 UTC)는 Steam 간헐적 실행 실패, 파운드리 상점 오표시, Secret Rabbit♥Hole 불필요 문구를 수정했습니다. 일본어 VO는 런칭 시 지연. 이후 주간 노트는 STOVE UTC 일정을 인용합니다."
+      "answer": "현재 창: 11/19 (목) 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai), STOVE 14635223. 12:13 Asia/Shanghai 확인 시 진행 중이었고 연장·조기 종료·보상은 없었습니다. 공지는 Version 8.7 2nd Update Content를 가리키며, 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC까지, Bunny Girl Maid Cecilia 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC, Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC입니다. Foundry 길드전은 같은 점검 후 도입(방어팀 11/21 03:00 UTC, 매칭 11/23 03:00 UTC)입니다. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료, 당근 이벤트는 11/26 02:59 UTC까지, Moro/Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지입니다."
     },
     "ja": {
       "title": "メンテナンス＆バージョン",
@@ -11403,6 +11537,17 @@ export const CONTENT = {
       "lead": "追蹤影響 Steam 客戶端、Foundry 解鎖與上架注意（如日語 VO 延後）的週維護。",
       "cards": [
         [
+          "2026-11-19 — 維護進行中：03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）",
+          [
+            "官方公告：[[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19（週四）03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai（7 小時，起訖都公告）。",
+            "12:13 Asia/Shanghai 核對時仍在進行中；未見延長、提前結束、完成、補償或補償 Leif，變更會追加在同一則 STOVE 貼文。",
+            "維護前請登出；維護期間無法進入遊戲。公告指向 Version 8.7 2nd Update Content。",
+            "與維護窗分開：Foundry 公會戰防禦隊伍 11/21 03:00 UTC；8.7 更新郵件 Leif 領取截止 11/21 10:30 UTC。",
+            "Foundry 公會戰於今日 11/19 維護後導入；防禦隊伍 11/21 03:00 UTC；配對 11/23 03:00 UTC。",
+            "2026-11-19 12:13 Asia/Shanghai 已核對官方貼文；使用前請再核貼文與遊戲內公告。"
+          ]
+        ],
+        [
           "2026-10-29 — Steam 上架維護",
           [
             "試玩結束後正式客戶端。",
@@ -11424,7 +11569,7 @@ export const CONTENT = {
         [
           "觀察清單",
           [
-            "公會戰 — 2026-11-19 導入；2026-11-21 03:00 UTC 防禦隊伍；2026-11-23 03:00 UTC 配對。",
+            "公會戰 — 今日 11/19 維護後導入；2026-11-21 03:00 UTC 防禦隊伍；2026-11-23 03:00 UTC 配對。",
             "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
             "WA — 2026-12-10。",
             "日語 VO — 等待官方日程。",
@@ -11441,7 +11586,7 @@ export const CONTENT = {
         "Foundry 專屬異動與舊服分開寫。"
       ],
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "2026-10-29 Steam 上架維護帶來正式客戶端與 Foundry；2026-11-05 修補（10:30–11:30 UTC）修正 Steam 間歇啟動失敗、Foundry 商店誤顯與 Secret Rabbit♥Hole 殘留文字。日語 VO 上架時延後。之後週記將引述 STOVE 的 UTC 時段。"
+      "answer": "目前窗口：11/19（週四）03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），STOVE 14635223。12:13 Asia/Shanghai 核對時仍在進行中，未見延長、提前結束或補償。公告指向 Version 8.7 2nd Update Content：2 Leif 更新郵件領取至 11/21 10:30 UTC；Bunny Girl Maid Cecilia 提高掉率 11/26 03:00 – 12/17 02:59 UTC；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC。Foundry 公會戰於同次維護後導入（防禦隊伍 11/21 03:00 UTC、配對 11/23 03:00 UTC）。3,000 天留言活動已於 11/18 14:59 UTC 結束；收胡蘿蔔至 11/26 02:59 UTC；Moro／Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。"
     },
     "th": {
       "title": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
@@ -11449,6 +11594,17 @@ export const CONTENT = {
       "h1": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
       "lead": "ติดตามแพตช์รายสัปดาห์ที่มีผลกับไคลเอนต์ Steam, การปลดล็อกบน Foundry และข้อควรระวังตอนเปิดตัว (เช่น เสียงพากย์ญี่ปุ่นล่าช้า)",
       "cards": [
+        [
+          "2026-11-19 — กำลังปิดปรับปรุง: 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai)",
+          [
+            "ประกาศทางการ: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — 11/19 (พฤ.) 03:00 – 10:00 UTC = 11/19 11:00 – 18:00 Asia/Shanghai (7 ชั่วโมง ระบุทั้งเริ่มและสิ้นสุด).",
+            "ตรวจเมื่อ 12:13 Asia/Shanghai ยังดำเนินอยู่; ไม่มีขยายเวลา ปิดก่อนกำหนด เสร็จสิ้น หรือค่าชดเชย/Leif ชดเชย การเปลี่ยนแปลงจะเพิ่มในโพสต์ STOVE เดียวกัน.",
+            "ออกจากเกมก่อนปิดปรับปรุง; เข้าเกมไม่ได้ระหว่างช่วงนี้ ประกาศชี้ไปที่ Version 8.7 2nd Update Content.",
+            "แยกจากช่วงปิดปรับปรุง: จัดทีมป้องกัน Guild War บน Foundry 11/21 03:00 UTC; รับ Leif จากอีเมลอัปเดต 8.7 ถึง 11/21 10:30 UTC.",
+            "Guild War บน Foundry เปิดตัวหลังปิดปรับปรุงวันนี้ 11/19; จัดทีมป้องกัน 11/21 03:00 UTC; จับคู่ 11/23 03:00 UTC.",
+            "ตรวจโพสต์ทางการเมื่อ 2026-11-19 12:13 Asia/Shanghai; โปรดตรวจโพสต์และประกาศในเกมอีกครั้งก่อนอ้างอิง."
+          ]
+        ],
         [
           "2026-10-29 — ปิดปรับปรุงเปิดตัว Steam",
           [
@@ -11471,7 +11627,7 @@ export const CONTENT = {
         [
           "รายการจับตา",
           [
-            "Guild War — เปิดตัว 2026-11-19; จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC",
+            "Guild War — เปิดตัวหลังปิดปรับปรุงวันนี้ 11/19; จัดทีมป้องกัน 2026-11-21 03:00 UTC; จับคู่ 2026-11-23 03:00 UTC",
             "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000",
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "การกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่",
@@ -11488,7 +11644,7 @@ export const CONTENT = {
         "ระบุการเลื่อนกำหนดการเฉพาะ Foundry แยกจากเซิร์ฟเวอร์เดิม"
       ],
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "การปิดปรับปรุงเปิดตัว Steam เมื่อ 2026-10-29 ทำให้มีไคลเอนต์ฉบับเต็มและ Foundry; แพตช์ 2026-11-05 (10:30–11:30 UTC) แก้การเปิดเกมไม่ติดเป็นช่วง ๆ, การแสดงผลผิดในร้านค้า Foundry และข้อความหลงเหลือใน Secret Rabbit♥Hole เสียงพากย์ญี่ปุ่นล่าช้าตอนเปิดตัว บันทึกรายสัปดาห์ต่อไปจะอ้างอิงโพสต์ STOVE พร้อมช่วงเวลา UTC"
+      "answer": "ช่วงปัจจุบัน: 11/19 (พฤ.) 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), STOVE 14635223. ตรวจเมื่อ 12:13 Asia/Shanghai ยังดำเนินอยู่ ไม่มีขยายเวลา ปิดก่อนกำหนด หรือค่าชดเชย. ประกาศชี้ไปที่ Version 8.7 2nd Update Content: รับ 2 Leif จากอีเมลอัปเดตถึง 11/21 10:30 UTC; Bunny Girl Maid Cecilia เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC. Guild War บน Foundry เปิดตัวหลังปิดปรับปรุงครั้งเดียวกัน (จัดทีมป้องกัน 11/21 03:00 UTC, จับคู่ 11/23 03:00 UTC). อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC; เก็บแครอทถึง 11/26 02:59 UTC; Moro/Lucky Board สิ้นสุด 11/19 02:59 UTC, ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC."
     },
     "es": {
       "title": "Mantenimiento y notas de versión",
@@ -14710,7 +14866,7 @@ export const CONTENT = {
       "meta": "Foundry quests ≠ legacy after Steam transfer: daily and weekly reset points, Foundry-only missions, and priority order. Cite STOVE. Unofficial.",
       "h1": "Foundry quests — daily / weekly vs legacy",
       "lead": "Steam-era quest rhythm for Epic Seven: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
-      "answer": "Foundry quests are a fresh track — they do not inherit legacy Episode/daily/weekly checkmarks after login transfer. Clear timed Foundry missions first, then dailies, then weeklies on that character. Guild War is staged on Foundry: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC. Dated unlocks live on the [[Foundry server guide|/foundry/#server-guide]]. Unofficial guide — cite STOVE/Steam.",
+      "answer": "Foundry quests are a fresh track — they do not inherit legacy Episode/daily/weekly checkmarks after login transfer. Clear timed Foundry missions first, then dailies, then weeklies on that character. Guild War is staged on Foundry: introduced after the 11/19 maintenance, Form Defense Team 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC. Dated unlocks live on the [[Foundry server guide|/foundry/#server-guide]]. Unofficial guide — cite STOVE/Steam.",
       "img_alt": "Self-drawn quest rhythm diagram: main, daily, weekly, events",
       "img_ss_alt": "Official Steam screenshot of Epic Seven world presentation — Steam CDN",
       "main_h2": "Main story",
@@ -14726,13 +14882,13 @@ export const CONTENT = {
         "Friendship / gift missions for relationship and small currencies.",
         "Hunt / Spirit Altar entries toward gear crafting goals (Wyvern for speed sets is a common early target).",
         "Arena attacks for weekly tokens even if you stay in lower ranks.",
-        "Event dailies while live (e.g. Great Detective Daily Investigation points toward Lucky Board).",
+        "Event dailies while the launch event was live (e.g. Great Detective Daily Investigation points toward Lucky Board, which ended 11/19 02:59 UTC); the Case Files and side story still run to 12/10 02:59 UTC.",
         "Friendship / gift dailies keep support units progressing without huge stamina sinks.",
         "Use remaining AP on the hunt you still need gear for before reset."
       ],
       "weekly_h2": "Weeklies",
       "weekly": [
-        "Guild check-in / donation / hunt helps when your guild is active — Foundry Guild War is introduced 2026-11-19, with Form Defense Team 2026-11-21 03:00 UTC and matchmaking 2026-11-23 03:00 UTC (see Foundry calendar).",
+        "Guild check-in / donation / hunt helps when your guild is active — Foundry Guild War is introduced after the 11/19 maintenance, with Form Defense Team 2026-11-21 03:00 UTC and matchmaking 2026-11-23 03:00 UTC (see Foundry calendar).",
         "AP exchange and shop weeklies — clear before weekly reset so stamina is not wasted.",
         "World Arena / ranked modes follow their own seasons; Foundry WA opens after 2026-12-10 maintenance per STOVE.",
         "Finish guild chores before weekly reset if you are already in a guild.",
@@ -14741,10 +14897,10 @@ export const CONTENT = {
       "event_h2": "Launch-window events",
       "event": [
         "Foundry Emergency Mission weeks rotate catalysts — claim before each week flips.",
-        "Secret Rabbit♥Hole side story + Case Files + Lucky Board — lobby icon; details on the Rabbit Hole page.",
+        "Secret Rabbit♥Hole side story + Case Files (still to 12/10 02:59 UTC) + Lucky Board (ended 11/19 02:59 UTC) — lobby icon; details on the Rabbit Hole page.",
         "Mailbox growth / wishlist / welcome skin mails on Foundry are time-gated — open mail early.",
         "Lobby icons for Rabbit♥Hole / boards disappear when the event ends — claim currencies early.",
-        "3,000 Days comment event: comment deadline 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai); format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event|/updates/#celebrate-3000-comment]]” section.",
+        "3,000 Days comment event: it ended 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai); 2 Leif is scheduled for 2026/11/20 with no delivery hour published. Format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event ended|/updates/#celebrate-3000-comment]]” section.",
         "3,000-Day Celebration server cooperation runs 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
         "“Everyone, Gather Carrots!”: up to 800 Carrots per day; Adventure/Battle points equal Energy used (excluding purchased Spectral Core; 1 Spectral Core = 160); Arena (incl. Draft Arena / Arena NPC Challenge) 70 per play; World Arena (incl. World Arena Tournament) 120 per play.",
         "Arena Carrots are the same win or lose; stages that use no Energy (e.g. Side Story story stages) do not count. Daily reset: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
@@ -14776,7 +14932,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Foundry characters do not inherit legacy quest checkmarks — expect to re-clear story/mission tracks on the new server.",
         "Celebration missions, mailbox gifts, and timed catalyst weeklies may appear only on Foundry during the Steam launch window.",
-        "Guild War / Draft / World Arena unlock dates on Foundry follow the Foundry calendar (GW introduced 2026-11-19; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC) — not your legacy guild schedule.",
+        "Guild War / Draft / World Arena unlock dates on Foundry follow the Foundry calendar (GW introduced after the 11/19 maintenance; Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC) — not your legacy guild schedule.",
         "Transferring login keeps legacy quest progress on the legacy server; it does not auto-complete Foundry missions."
       ],
       "foundry_track": "Your legacy quest track is the Episode clears, abyss floors, and weekly guild chores on the old-server Heir. A Steam transfer leaves those checkmarks on that server (STOVE Steam FAQ view/14378309). A Foundry fresh track starts at zero on a new character, including story gates and celebration missions that never appear on legacy. Finishing one track does not tick the other, so do not spend Foundry stamina expecting legacy weeklies to complete. Dated unlocks for the fresh track, including Guild War, are on the [[Foundry calendar|/foundry/]] and in [[Guild War on Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481).",
@@ -14793,7 +14949,7 @@ export const CONTENT = {
       "case_files_h2": "Epic Seven Case Files — what they are",
       "case_files": [
         "Case Files (Trusty Sidekick Alencia’s Case Files inside Secret Rabbit♥Hole) are a launch-window grid-deduction mini-game, not a combat quest check. You spend daily magnifying glasses to mark clues and narrow the culprit — each new question consumes one magnifying glass; re-checking a question you have already viewed does not.",
-        "They sit beside normal Foundry dailies/weeklies and the Lucky Board: clear timed Case Files progress while the lobby icon is live, then return to hunt/story stamina. Spoilers for culprit answers are not published here — cite STOVE event notices.",
+        "They sit beside normal Foundry dailies/weeklies and the Lucky Board (ended 11/19 02:59 UTC): clear Case Files progress while the side-story lobby icon is live — the side story and Case Files still run to 12/10 02:59 UTC — then return to hunt/story stamina. Spoilers for culprit answers are not published here — cite STOVE event notices.",
         "Treat Case Files as an event activity attached to the quest/event hub, not a permanent Episode mission. When the side story ends, the lobby entry disappears with unused glasses."
       ],
       "link_home": "Steam guide home"
@@ -14818,22 +14974,22 @@ export const CONTENT = {
         "리셋마다 친밀도/선물 일일로 지원 유닛을 크게 AP를 쓰지 않고 성장시키세요.",
         "장비 제작 목표에 맞춰 사냥·정령제단 일일을 처리하세요. 초반에는 속도 세트를 위한 와이번이 흔한 목표입니다. 필요 세트는 인게임 제작 창을 기준으로 하세요.",
         "낮은 티어에 머무르더라도 주간 토큰을 위해 아레나 공격권을 쓰는 편이 낫습니다.",
-        "진행 중 이벤트 일일(예: 명탐정 일일 조사 포인트 → Lucky Board)은 만료 전에 완료하세요.",
+        "런칭 창 이벤트 일일(예: 명탐정 일일 조사 포인트 → Lucky Board)은 11/19 02:59 UTC에 종료되었습니다; Case Files와 사이드 스토리는 12/10 02:59 UTC까지 계속됩니다.",
         "남은 AP는 리셋 전에, 아직 장비가 부족한 사냥에 소모하세요."
       ],
       "weekly_h2": "주간",
       "weekly": [
         "주간 리셋 전에 주간 미션, AP 교환, 상점 주간 한도를 소진하세요. 스테미나만 남기고 한도를 버리는 일이 없도록 합니다.",
-        "길드가 있으면 출석·기부·사냥 도움 등 주간 길드 숙제를 리셋 전에 맞추세요. 파운드리 길드전은 2026-11-19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀 구성, 2026-11-23 03:00 UTC 매칭입니다(파운드리 캘린더). 핵증일 2026-11-10 기준 아직 시작하지 않았습니다.",
+        "길드가 있으면 출석·기부·사냥 도움 등 주간 길드 숙제를 리셋 전에 맞추세요. 파운드리 길드전은 오늘 11/19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀 구성, 2026-11-23 03:00 UTC 매칭입니다(파운드리 캘린더).",
         "월드 아레나와 랭크 모드는 자체 시즌을 따릅니다. 파운드리 WA는 2026-12-10 점검 후이며, 공식 공지는 KST와 UTC를 각각 표기했습니다.",
         "파운드리 플레이어는 파운드리 페이지의 축하 우편·촉매 주간 시한에 주간 숙제를 맞추세요. 레거시 길드 일정과 섞지 마세요."
       ],
       "event_h2": "런칭 창 이벤트",
       "event": [
-        "시크릿 래빗♥홀 사이드·사건 파일·럭키 보드는 로비 아이콘을 따르세요.",
+        "시크릿 래빗♥홀 사이드·사건 파일은 12/10 02:59 UTC까지, 럭키 보드는 11/19 02:59 UTC에 종료되었습니다. 로비 아이콘을 확인하세요.",
         "파운드리 긴급 촉매 주간은 교체 전에 수령하세요.",
         "로비 아이콘은 이벤트 종료 시 사라지니 재화를 일찍 교환하세요.",
-        "3,000일 댓글 이벤트: 댓글 마감 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai). 형식 “Nickname / Server / Day 3,000 Celebration Message”. 공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. [[3,000일 축하 댓글 이벤트|/updates/#celebrate-3000-comment]] 절 참고.",
+        "3,000일 댓글 이벤트: 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)에 종료되었습니다. 2 Leif는 2026/11/20 지급 예정이며 시각은 공지되지 않았습니다. 형식 “Nickname / Server / Day 3,000 Celebration Message”. 공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. [[3,000일 축하 댓글 이벤트|/updates/#celebrate-3000-comment]] 절 참고.",
         "3,000일 축하 서버 협력은 11/12 03:00 → 11/26 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event. [[3,000일 축하 서버 협력: 당근 모으기|/updates/#gather-carrots]] 절 참고.",
         "“Everyone, Gather Carrots!”: 하루 최대 800 Carrots. Adventure/Battle은 소모 Energy만큼(구매 Spectral Core 제외, 1개 = 160), Arena(Draft Arena·Arena NPC Challenge 포함) 1회 70, World Arena(World Arena Tournament 포함) 1회 120.",
         "Arena는 승패와 무관하게 같은 Carrots를 주며, Energy를 쓰지 않는 스테이지(예: 사이드 스토리 스토리 스테이지)는 집계되지 않습니다. 일일 리셋: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
@@ -14865,7 +15021,7 @@ export const CONTENT = {
       "foundry_delta": [
         "파운드리 캐릭은 레거시 퀘스트 체크를 상속하지 않습니다 — 신서버에서 스토리/미션 트랙을 다시 밀어야 합니다.",
         "축하 미션·우편 선물·시한 촉매 주간은 Steam 런칭 창 동안 파운드리에만 나타날 수 있습니다.",
-        "파운드리 길드전/드래프트/월드 아레나 해금일은 파운드리 캘린더를 따릅니다(길드전 2026-11-19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭; 월드 아레나 2026-12-10 점검 후, 공식 공지는 KST와 UTC를 각각 표기). 레거시 길드 일정이 아닙니다. 핵증일 2026-11-10 기준 길드전과 WA는 아직 시작하지 않았습니다.",
+        "파운드리 길드전/드래프트/월드 아레나 해금일은 파운드리 캘린더를 따릅니다(길드전 11/19 점검 후 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭; 월드 아레나 2026-12-10 점검 후, 공식 공지는 KST와 UTC를 각각 표기). 레거시 길드 일정이 아닙니다.",
         "로그인 이전은 레거시 서버의 퀘스트 진행을 유지하며 파운드리 미션을 자동 완료하지 않습니다."
       ],
       "foundry_track": "레거시 퀘스트 트랙은 옛 서버 후계자의 에피소드 클리어, 심연 층, 주간 길드 숙제입니다. Steam 이전은 그 체크를 그 서버에 남깁니다(STOVE Steam FAQ view/14378309). 파운드리 개척 트랙은 새 캐릭터에서 0부터 시작하며, 레거시에 없는 스토리 관문과 축하 미션이 포함됩니다. 한쪽을 끝내도 다른 쪽이 완료되지 않으니, 레거시 주간이 끝날 것이라며 파운드리 스테미나를 쓰지 마세요. 개척 트랙의 날짜형 해금(길드전 포함)은 [[파운드리 캘린더|/foundry/]]와 [[파운드리 길드전|/foundry/#guild-war]]에 있습니다(STOVE 파운드리 view/14571828, 런칭 view/14606481).",
@@ -14884,7 +15040,7 @@ export const CONTENT = {
       "case_files_h2": "Epic Seven Case Files — 무엇인가요",
       "case_files": [
         "Case Files(Secret Rabbit♥Hole의 Trusty Sidekick Alencia’s Case Files)는 전투 퀘스트가 아니라 출시 기간 격자 추론 미니게임입니다. 매일 지급되는 돋보기로 단서를 표시하고 범인을 좁히며, 새로운 질문을 할 때마다 돋보기 1개를 소모하며, 이미 확인한 질문을 다시 보는 데에는 소모하지 않습니다.",
-        "일반 파운드리 일일/주간과 Lucky Board 옆에 붙어 있습니다. 로비 아이콘이 살아있는 동안 Case Files 진행을 먼저 밀어 둔 뒤 사냥/스토리 AP로 돌아가세요. 범인 정답 스포일러는 올리지 않으며 STOVE 공지를 인용합니다.",
+        "일반 파운드리 일일/주간과 Lucky Board(11/19 02:59 UTC 종료) 옆에 붙어 있습니다. 사이드 스토리 로비 아이콘이 살아있는 동안 Case Files 진행을 밀어 두세요 — 사이드와 Case Files는 12/10 02:59 UTC까지 계속됩니다 — 그 뒤 사냥/스토리 AP로 돌아가세요. 범인 정답 스포일러는 올리지 않으며 STOVE 공지를 인용합니다.",
         "Case Files는 상시 에피소드 미션이 아니라 퀘스트/이벤트 허브에 붙은 기간 활동입니다. 사이드 스토리가 끝나면 남은 돋보기와 함께 로비 진입점이 사라집니다."
       ],
       "link_home": "Steam 가이드 홈"
@@ -14994,22 +15150,22 @@ export const CONTENT = {
         "每次重置先做好感／送禮每日，讓輔助在不太消耗體力的情況下成長。",
         "依裝備製作目標完成狩獵、精靈祭壇每日。前期常見目標是為速度套而打的飛龍；所需套裝以遊戲內製作視窗為準。",
         "即使停在較低段位，也值得把競技場攻擊次數用完，以換取每週代幣。",
-        "進行中的活動每日（例如名偵探每日調查點數 → Lucky Board）請在截止前完成。",
+        "上架期間的活動每日（例如名偵探每日調查點數 → Lucky Board）已於 11/19 02:59 UTC 結束；案件檔與支線仍至 12/10 02:59 UTC。",
         "剩下的體力，在重置前用在仍缺裝備的狩獵。"
       ],
       "weekly_h2": "每週",
       "weekly": [
         "週重置前用完每週任務、AP 兌換與商店週限，避免只剩體力卻浪費上限。",
-        "若已有公會，在重置前完成出缺席、捐獻、狩獵協助等每週公會作業。Foundry 公會戰是 2026-11-19 維護後導入、2026-11-21 03:00 UTC 組成防禦隊伍、2026-11-23 03:00 UTC 配對（Foundry 日程）。核對日 2026-11-10 時尚未開始。",
+        "若已有公會，在重置前完成出缺席、捐獻、狩獵協助等每週公會作業。Foundry 公會戰是今日 11/19 維護後導入、2026-11-21 03:00 UTC 組成防禦隊伍、2026-11-23 03:00 UTC 配對（Foundry 日程）。",
         "世界競技場與排名模式有各自賽季。Foundry 世界競技場在 2026-12-10 維護後，官方公告曾分別標過 KST 與 UTC。",
         "Foundry 玩家請把每週作業對齊 Foundry 頁的慶祝信件與催化劑週限，不要與原服公會時程混在一起。"
       ],
       "event_h2": "上架窗口活動",
       "event": [
-        "Rabbit♥Hole 支線、案件檔、幸運盤跟大廳圖示。",
+        "Rabbit♥Hole 支線與案件檔仍至 12/10 02:59 UTC；幸運盤已於 11/19 02:59 UTC 結束。入口跟大廳圖示。",
         "Foundry 緊急催化劑週輪替——換週前領取。",
         "活動結束大廳圖示會消失，貨幣盡早換。",
-        "3,000 天留言活動：留言截止 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）。格式「Nickname / Server / Day 3,000 Celebration Message」。官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]。參見[[3,000 天慶祝留言活動|/updates/#celebrate-3000-comment]]節。",
+        "3,000 天留言活動：已於 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）結束；2 Leif 預定 2026/11/20 發放，未公布時刻。格式「Nickname / Server / Day 3,000 Celebration Message」。官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]。參見[[3,000 天慶祝留言活動|/updates/#celebrate-3000-comment]]節。",
         "3,000 天慶祝伺服器合作：11/12 03:00 → 11/26 02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai），入口 Lobby > Event > Special Event。參見[[3,000 天慶祝伺服器合作：收集 Carrots|/updates/#gather-carrots]]節。",
         "「Everyone, Gather Carrots!」：每日最多 800 Carrots。Adventure/Battle 依消耗 Energy（不含購買 Spectral Core；1 個 = 160），Arena（含 Draft Arena、Arena NPC Challenge）每次 70，World Arena（含 World Arena Tournament）每次 120。",
         "競技場無論輸贏給予相同 Carrots；不消耗 Energy 的關卡（例如支線劇情關）不計入。每日重置：Korea / Asia / Japan 18:00 UTC；Europe 03:00 UTC；Global 10:00 UTC。",
@@ -15041,7 +15197,7 @@ export const CONTENT = {
       "foundry_delta": [
         "Foundry 角色不繼承原服任務勾選——需在新服重推劇情／任務軌。",
         "慶祝任務、信箱禮物與限時催化劑週任，可能僅在 Steam 上架窗口的 Foundry 出現。",
-        "Foundry 公會戰／Draft／世界競技場解鎖日跟 Foundry 日程（公會戰 2026-11-19 維護後導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對；世界競技場 2026-12-10 維護後，官方公告分別標過 KST 與 UTC）——不是原服公會時程。核對日 2026-11-10 時尚未開始。",
+        "Foundry 公會戰／Draft／世界競技場解鎖日跟 Foundry 日程（公會戰今日 11/19 維護後導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對；世界競技場 2026-12-10 維護後，官方公告分別標過 KST 與 UTC）——不是原服公會時程。",
         "登入轉移保留原服任務進度，不會自動完成 Foundry 任務。"
       ],
       "foundry_track": "原服任務軌是舊服繼承人的章節通關、深淵層數與每週公會雜務。Steam 轉移會把那些勾選留在原服（STOVE Steam FAQ view/14378309）。Foundry 開荒軌從新角色的零開始，包含原服沒有的劇情關卡與慶祝任務。完成其中一軌不會勾掉另一軌，不要以為原服週任會完成就去花 Foundry 體力。這條開荒軌的日期解鎖（含公會戰）在[[Foundry 日程|/foundry/]]與[[Foundry 公會戰|/foundry/#guild-war]]（STOVE Foundry view/14571828、Launch view/14606481）。",
@@ -15060,7 +15216,7 @@ export const CONTENT = {
       "case_files_h2": "Epic Seven Case Files — 是什麼",
       "case_files": [
         "Case Files（Secret Rabbit♥Hole 內的 Trusty Sidekick Alencia’s Case Files）是上線期間的格線推理小遊戲，不是戰鬥任務檢核。你用每日放大鏡標記線索並縮小兇手範圍；每次提出新問題消耗1個放大鏡；重新查看已讀問題不消耗放大鏡。",
-        "它與一般 Foundry 每日／每週與 Lucky Board 並列：大廳圖示還在時先推 Case Files，再回頭用體力打狩獵／劇情。這裡不公布兇手劇透，請以 STOVE 公告為準。",
+        "它與一般 Foundry 每日／每週與 Lucky Board（已於 11/19 02:59 UTC 結束）並列：支線大廳圖示還在時先推 Case Files——支線與 Case Files 仍至 12/10 02:59 UTC——再回頭用體力打狩獵／劇情。這裡不公布兇手劇透，請以 STOVE 公告為準。",
         "Case Files 屬於任務／活動樞紐上的期間活動，不是常駐 Episode 任務。支線結束後大廳入口與未用放大鏡一併消失。"
       ],
       "link_home": "Steam 指南首頁"
@@ -15086,13 +15242,13 @@ export const CONTENT = {
         "ภารกิจมิตรภาพ / ของขวัญเพื่อความสัมพันธ์และสกุลเงินเล็ก ๆ",
         "เข้าชม Hunt / Spirit Altar ตามเป้าหมายการคราฟต์อุปกรณ์ (Wyvern สำหรับชุดความเร็วเป็นเป้าหมายแรกที่พบบ่อย)",
         "โจมตี Arena เพื่อเก็บโทเคนรายสัปดาห์แม้จะอยู่ในแรงก์ต่ำ",
-        "อีเวนต์รายวันระหว่างที่ยังมี (เช่น Great Detective Daily Investigation เก็บแต้มไปยัง Lucky Board)",
+        "อีเวนต์รายวันช่วงเปิดตัว (เช่น Great Detective Daily Investigation เก็บแต้มไปยัง Lucky Board) สิ้นสุดแล้วเมื่อ 11/19 02:59 UTC; Case Files และไซด์สตอรี่ถึง 12/10 02:59 UTC",
         "ภารกิจมิตรภาพ / ของขวัญรายวันช่วยให้ตัวซัพพอร์ตพัฒนาต่อโดยไม่ต้องใช้สแตมินามาก",
         "ใช้ AP ที่เหลือกับ Hunt ที่ยังต้องการอุปกรณ์ก่อนรีเซ็ต"
       ],
       "weekly_h2": "รายสัปดาห์",
       "weekly": [
-        "หากมีกิลด์แล้ว ให้เช็กอิน บริจาค และช่วย Hunt ให้เสร็จก่อนรีเซ็ตรายสัปดาห์ Guild War บน Foundry เปิดตัวหลังปิดปรับปรุง 2026-11-19 จัดทีมป้องกัน 2026-11-21 03:00 UTC และจับคู่ 2026-11-23 03:00 UTC (ปฏิทิน Foundry) ณ วันตรวจ 2026-11-10 ยังไม่เริ่ม",
+        "หากมีกิลด์แล้ว ให้เช็กอิน บริจาค และช่วย Hunt ให้เสร็จก่อนรีเซ็ตรายสัปดาห์ Guild War บน Foundry เปิดตัวหลังปิดปรับปรุงวันนี้ 11/19 จัดทีมป้องกัน 2026-11-21 03:00 UTC และจับคู่ 2026-11-23 03:00 UTC (ปฏิทิน Foundry)",
         "AP exchange และร้านค้ารายสัปดาห์ — เคลียร์ก่อนรีเซ็ตรายสัปดาห์เพื่อไม่ให้สแตมินาเสียเปล่า",
         "World Arena / โหมดจัดอันดับมีซีซันของตัวเอง World Arena บน Foundry เปิดหลังปิดปรับปรุง 2026-12-10 ตาม STOVE",
         "ทำภารกิจกิลด์ให้เสร็จก่อนรีเซ็ตรายสัปดาห์หากอยู่ในกิลด์แล้ว",
@@ -15101,10 +15257,10 @@ export const CONTENT = {
       "event_h2": "อีเวนต์ช่วงเปิดตัว",
       "event": [
         "สัปดาห์ Foundry Emergency Mission หมุนเวียนแคตาลิสต์ — รับก่อนแต่ละสัปดาห์เปลี่ยน",
-        "Side story Secret Rabbit♥Hole + Case Files + Lucky Board — ไอคอนในล็อบบี้ รายละเอียดอยู่ในหน้า Rabbit Hole",
+        "Side story Secret Rabbit♥Hole + Case Files (ถึง 12/10 02:59 UTC) + Lucky Board (สิ้นสุด 11/19 02:59 UTC) — ไอคอนในล็อบบี้ รายละเอียดอยู่ในหน้า Rabbit Hole",
         "จดหมายกล่องจดหมายการเติบโต / wishlist / สกินต้อนรับบน Foundry มีกำหนดเวลา — เปิดจดหมายตั้งแต่เนิ่น ๆ",
         "ไอคอนล็อบบี้ของ Rabbit♥Hole / บอร์ดจะหายไปเมื่ออีเวนต์จบ — รับสกุลเงินแต่เนิ่น ๆ",
-        "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: กำหนดปิดคอมเมนต์ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai) รูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. ดูหัวข้อ “[[ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์|/updates/#celebrate-3000-comment]]”.",
+        "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: สิ้นสุดเมื่อ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai); 2 Leif กำหนด 2026/11/20 โดยไม่ระบุเวลา. รูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. ดูหัวข้อ “[[ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์|/updates/#celebrate-3000-comment]]”.",
         "อีเวนต์เซิร์ฟเวอร์ร่วมมือฉลอง 3,000 วัน: 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai) ทางเข้า Lobby > Event > Special Event. ดูหัวข้อ “[[ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท|/updates/#gather-carrots]]”.",
         "“Everyone, Gather Carrots!”: สูงสุด 800 Carrots ต่อวัน. Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมซื้อ Spectral Core; 1 ชิ้น = 160), Arena (รวม Draft Arena และ Arena NPC Challenge) ครั้งละ 70, World Arena (รวม World Arena Tournament) ครั้งละ 120.",
         "Arena ให้ Carrots เท่ากันไม่ว่าชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่อง Side Story) ไม่นับ. รีเซ็ตรายวัน: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
@@ -15115,7 +15271,7 @@ export const CONTENT = {
       "faqs": [
         [
           "แต่ละวันบน Steam / Foundry ควรทำอะไรก่อน",
-          "รับจดหมาย เคลียร์อีเวนต์รายวันระหว่างที่ยังมี ใช้พลังงานกับ Hunt หรือด่านเนื้อเรื่องที่ยังต้องผ่าน แล้วจึงโจมตี Arena"
+          "รับจดหมาย ตรวจอีเวนต์รายวันตามกำหนด ใช้พลังงานกับ Hunt หรือด่านเนื้อเรื่องที่ยังต้องผ่าน แล้วจึงโจมตี Arena"
         ],
         [
           "เควสอีเวนต์ตามวันที่อยู่ที่ไหน",
@@ -15136,7 +15292,7 @@ export const CONTENT = {
       "foundry_delta": [
         "ตัวละคร Foundry ไม่สืบทอดเครื่องหมายเควสจาก Legacy — คาดว่าจะต้องเคลียร์เนื้อเรื่อง/เส้นทางภารกิจใหม่บนเซิร์ฟเวอร์ใหม่",
         "ภารกิจฉลอง ของขวัญในกล่องจดหมาย และเควสรายสัปดาห์แคตาลิสต์ตามกำหนดอาจปรากฏเฉพาะบน Foundry ช่วงเปิดตัว Steam",
-        "วันปลดล็อก Guild War / Draft / World Arena บน Foundry เป็นไปตามปฏิทิน Foundry (Guild War เปิดตัวหลังปิดปรับปรุง 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; World Arena หลังปิดปรับปรุง 2026-12-10 และประกาศทางการเคยระบุทั้ง KST และ UTC) ไม่ใช่ตารางกิลด์เดิมของคุณ ณ วันตรวจ 2026-11-10 ยังไม่เริ่ม",
+        "วันปลดล็อก Guild War / Draft / World Arena บน Foundry เป็นไปตามปฏิทิน Foundry (Guild War เปิดตัวหลังปิดปรับปรุงวันนี้ 11/19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; World Arena หลังปิดปรับปรุง 2026-12-10 และประกาศทางการเคยระบุทั้ง KST และ UTC) ไม่ใช่ตารางกิลด์เดิมของคุณ",
         "การย้ายการเข้าสู่ระบบเก็บความคืบหน้าเควส Legacy ไว้บนเซิร์ฟเวอร์ Legacy ไม่ได้ทำภารกิจ Foundry ให้เสร็จอัตโนมัติ"
       ],
       "foundry_track": "เส้นทางเควส Legacy ของคุณคือการเคลียร์ Episode ชั้น Abyss และภารกิจกิลด์รายสัปดาห์บน Heir ของเซิร์ฟเวอร์เดิม การย้ายผ่าน Steam จะทิ้งเครื่องหมายเหล่านั้นไว้บนเซิร์ฟเวอร์นั้น (STOVE Steam FAQ view/14378309) เส้นทางใหม่ของ Foundry เริ่มที่ศูนย์บนตัวละครใหม่ รวมถึงด่านเนื้อเรื่องและภารกิจฉลองที่ไม่เคยปรากฏบน Legacy การทำเส้นทางหนึ่งให้เสร็จไม่ได้ติ๊กอีกเส้นทาง ดังนั้นอย่าใช้สแตมินาของ Foundry โดยหวังว่าจะทำรายสัปดาห์ Legacy ให้เสร็จ การปลดล็อกตามวันที่ของเส้นทางใหม่ รวมถึง Guild War อยู่ใน [[ปฏิทิน Foundry|/foundry/]] และ [[Guild War บน Foundry|/foundry/#guild-war]] (STOVE Foundry view/14571828, Launch view/14606481)",
@@ -15153,7 +15309,7 @@ export const CONTENT = {
       "case_files_h2": "Epic Seven Case Files — คืออะไร",
       "case_files": [
         "Case Files (Trusty Sidekick Alencia’s Case Files ใน Secret Rabbit♥Hole) เป็นมินิเกมสืบสวนบนตารางช่วงเปิดตัว ไม่ใช่เควสต์ต่อสู้ คุณใช้แว่นขยายรายวันทำเครื่องหมายเบาะแสและจำกัดตัวผู้ต้องสงสัย — คำถามใหม่แต่ละครั้งใช้แว่นขยาย 1 อัน ส่วนการตรวจดูคำถามที่เคยอ่านแล้วไม่ใช้แว่นขยาย",
-        "มันอยู่คู่กับเดลี่/วีคลี่ Foundry ปกติและ Lucky Board: ลุย Case Files ตอนไอคอนล็อบบียังอยู่ แล้วค่อยกลับไปใช้ AP ล่า/เนื้อเรื่อง ที่นี่ไม่เผยสปอยล์คำตอบคนร้าย อ้างอิงประกาศ STOVE",
+        "มันอยู่คู่กับเดลี่/วีคลี่ Foundry ปกติและ Lucky Board (สิ้นสุด 11/19 02:59 UTC): ลุย Case Files ตอนไอคอนไซด์สตอรี่ในล็อบบียังอยู่ — ไซด์สตอรี่และ Case Files ยังถึง 12/10 02:59 UTC — แล้วค่อยกลับไปใช้ AP ล่า/เนื้อเรื่อง ที่นี่ไม่เผยสปอยล์คำตอบคนร้าย อ้างอิงประกาศ STOVE",
         "ถือว่า Case Files เป็นกิจกรรมช่วงเวลาที่ผูกกับฮับเควสต์/อีเวนต์ ไม่ใช่ Episode ถาวร พอไซด์สตอรี่จบ ทางเข้าล็อบบี้และแว่นที่เหลือจะหายไป"
       ],
       "link_home": "หน้าแรกคู่มือ Steam"
