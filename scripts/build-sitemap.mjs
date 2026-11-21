@@ -3,6 +3,15 @@ import { writeFileSync } from 'node:fs';
 
 const ORIGIN = 'https://epicsevensteam.com';
 const LAST_MOD = '2026-11-09';
+/** Pages whose body changed in the 2026-11-21 living-log pass. */
+const LIVING_CHANGED = '2026-11-21';
+const LIVING_PATHS = new Set([
+  '/updates/',
+  '/maintenance/',
+  '/foundry/',
+  '/secret-rabbit-hole/',
+  '/about/',
+]);
 const TIER_CHANGED = '2026-11-10';
 const PATHS = [
   '/',
@@ -83,7 +92,8 @@ for (const path of PATHS) {
       urlFor(altLocale, path),
     ]);
     alternates.push(['x-default', urlFor('en', path)]);
-    pushUrl(urlFor(locale, path), LAST_MOD, alternates, path === '/' ? '1.0' : '0.8');
+    const lastmod = LIVING_PATHS.has(path) ? LIVING_CHANGED : LAST_MOD;
+    pushUrl(urlFor(locale, path), lastmod, alternates, path === '/' ? '1.0' : '0.8');
   }
 }
 for (const [locale] of CASE_FILES_LOCALES) {
@@ -94,7 +104,7 @@ for (const [locale] of CASE_FILES_LOCALES) {
   alternates.push(['x-default', urlFor('en', '/case-files/')]);
   pushUrl(
     urlFor(locale, '/case-files/'),
-    locale === 'en' ? LAST_MOD : CASE_FILES_PUBLISHED,
+    LIVING_CHANGED,
     alternates,
   );
 }

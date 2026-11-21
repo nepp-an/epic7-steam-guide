@@ -1471,7 +1471,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "The Daily Investigation gives points for adventure, battles, and Arena. The posted cap is 720 per day, so plan around it instead of trying to catch up later.",
       "bullets": [
         "Earn points through normal play; check the event page for the current daily cap.",
-        "Redeem Lucky Board tickets and Leif milestones before the 2026-11-19 02:59 UTC window closes.",
+        "Lucky Board tickets and Leif milestones can no longer be earned — that track ended 2026-11-19 02:59 UTC. The side story and Case Files still run to 2026-12-10 02:59 UTC.",
         "The Bunny Girl Party Hall lobby pack runs longer, to 2026-12-10 02:59 UTC, and is optional."
       ],
       "source": {
@@ -1499,7 +1499,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "일일 조사는 모험·전투·아레나로 포인트를 줍니다. 공지 기준 상한은 하루 720이라, 나중에 몰아서 채우기보다 그날 계획을 세우세요.",
       "bullets": [
         "일반 플레이로 포인트를 모으고 이벤트 페이지에서 당일 상한을 확인.",
-        "2026-11-19 02:59 UTC 창이 닫히기 전에 럭키 보드 티켓·Leif 마일스톤 수령.",
+        "럭키 보드 티켓과 Leif 마일스톤은 더 이상 얻을 수 없습니다 — 해당 트랙은 2026-11-19 02:59 UTC에 종료되었습니다. 사이드와 Case Files는 2026-12-10 02:59 UTC까지 계속됩니다.",
         "버니 걸 파티 홀 로비 팩은 2026-12-10 02:59 UTC까지로 더 길며 선택 사항."
       ],
       "source": {
@@ -1527,7 +1527,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "デイリー調査は冒険・バトル・アリーナでポイントが入ります。告知上の上限は1日720なので、後からまとめて取り戻すのではなく当日の計画を立ててください。",
       "bullets": [
         "通常プレイでポイントを集め、イベントページで当日の上限を確認。",
-        "2026-11-19 02:59 UTCの窓が閉じる前にラッキーボード券・Leifのマイルストーンを受け取る。",
+        "ラッキーボード券とLeifマイルストーンはもう獲得できません — このトラックは2026-11-19 02:59 UTCに終了しました。サイドとCase Filesは2026-12-10 02:59 UTCまで続きます。",
         "バニーガールパーティホールのロビーパックは2026-12-10 02:59 UTCまでで任意。"
       ],
       "source": {
@@ -1555,7 +1555,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "每日調查透過冒險、戰鬥與競技場取得點數。公告上限為每天 720，請依當日上限規劃，不要想之後一次補回。",
       "bullets": [
         "用正常遊玩累積點數，並在活動頁確認當日上限。",
-        "在 2026-11-19 02:59 UTC 結束前領取幸運盤券與 Leif 里程碑。",
+        "幸運盤券與 Leif 里程碑已無法再取得——該軌道已於 2026-11-19 02:59 UTC 結束。支線與 Case Files 仍進行至 2026-12-10 02:59 UTC。",
         "兔女郎派對大廳禮包開放到 2026-12-10 02:59 UTC，屬選購項目。"
       ],
       "source": {
@@ -1583,7 +1583,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "Daily Investigation ให้พอยต์จากการผจญภัย การต่อสู้ และ Arena เพดานที่ประกาศคือ 720 ต่อวัน วางแผนโดยยึดตามนี้แทนที่จะไปตามเก็บทีหลัง",
       "bullets": [
         "รับพอยต์จากการเล่นปกติ ตรวจหน้าอีเวนต์สำหรับเพดานรายวันปัจจุบัน",
-        "แลกตั๋ว Lucky Board และหมุดหมาย Leif ก่อนหน้าต่าง 2026-11-19 02:59 UTC ปิด",
+        "ไม่สามารถรับตั๋ว Lucky Board และไมล์สโตน Leif ได้แล้ว — แทร็กนั้นสิ้นสุดเมื่อ 2026-11-19 02:59 UTC เรื่องข้างเคียงและ Case Files ยังถึง 2026-12-10 02:59 UTC",
         "แพ็กในล็อบบี้ Bunny Girl Party Hall มีระยะเวลานานกว่า ถึง 2026-12-10 02:59 UTC และเป็นทางเลือก"
       ],
       "source": {
@@ -1611,7 +1611,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "La Investigación diaria da puntos por aventura, combates y Arena. El límite publicado es de 720 al día, así que planifica en torno a él en vez de intentar recuperar el retraso después.",
       "bullets": [
         "Gana puntos jugando con normalidad; consulta la página del evento para ver el límite diario vigente.",
-        "Canjea los billetes del Lucky Board y los hitos de Leif antes de que cierre la ventana del 2026-11-19 02:59 UTC.",
+        "Ya no se pueden ganar entradas del Lucky Board ni hitos de Leif: esa vía terminó el 2026-11-19 02:59 UTC. La historia secundaria y Case Files siguen hasta el 2026-12-10 02:59 UTC.",
         "El paquete de lobby del Bunny Girl Party Hall dura más, hasta el 2026-12-10 02:59 UTC, y es opcional."
       ],
       "source": {
@@ -1639,7 +1639,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "A Investigação Diária dá pontos por aventura, batalhas e Arena. O limite divulgado é 720 por dia, então planeje em torno disso em vez de tentar recuperar depois.",
       "bullets": [
         "Ganhe pontos jogando normalmente; confira a página do evento para o limite diário atual.",
-        "Resgate tickets do Lucky Board e marcos de Leif antes de a janela de 2026-11-19 02:59 UTC fechar.",
+        "Não é mais possível ganhar tickets do Lucky Board nem marcos de Leif — essa via terminou em 2026-11-19 02:59 UTC. A história secundária e o Case Files continuam até 2026-12-10 02:59 UTC.",
         "O pacote de lobby do Bunny Girl Party Hall dura mais, até 2026-12-10 02:59 UTC, e é opcional."
       ],
       "source": {
@@ -1667,7 +1667,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "Die Daily Investigation gibt Punkte für Abenteuer, Kämpfe und Arena. Das angegebene Limit liegt bei 720 pro Tag, plane also damit, statt später aufholen zu wollen.",
       "bullets": [
         "Sammle Punkte durch normales Spiel; prüfe die Event-Seite für das aktuelle Tageslimit.",
-        "Löse Lucky-Board-Tickets und Leif-Meilensteine ein, bevor das Fenster am 2026-11-19 02:59 UTC schließt.",
+        "Lucky-Board-Tickets und Leif-Meilensteine lassen sich nicht mehr verdienen — dieser Pfad endete am 2026-11-19 02:59 UTC. Die Nebenstory und Case Files laufen noch bis 2026-12-10 02:59 UTC.",
         "Das Lobby-Paket der Bunny Girl Party Hall läuft länger, bis 2026-12-10 02:59 UTC, und ist optional."
       ],
       "source": {
@@ -1695,7 +1695,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "L’Enquête quotidienne rapporte des points pour l’aventure, les combats et l’Arène. Le plafond annoncé est de 720 par jour ; organisez-vous en conséquence plutôt que de chercher à rattraper plus tard.",
       "bullets": [
         "Gagnez des points en jouant normalement ; consultez la page de l’événement pour le plafond quotidien actuel.",
-        "Échangez les tickets Lucky Board et les paliers Leif avant la fermeture de la fenêtre du 2026-11-19 02:59 UTC.",
+        "Les tickets Lucky Board et jalons Leif ne peuvent plus être gagnés — cette voie s’est terminée le 2026-11-19 02:59 UTC. L’histoire annexe et Case Files continuent jusqu’au 2026-12-10 02:59 UTC.",
         "Le pack de lobby Bunny Girl Party Hall dure plus longtemps, jusqu’au 2026-12-10 02:59 UTC, et reste facultatif."
       ],
       "source": {
@@ -1723,7 +1723,7 @@ export const RABBIT_SUPPLEMENT: Record<
       "intro": "Codzienne śledztwo daje punkty za przygody, walki i Arenę. Ogłoszony limit to 720 dziennie, więc planuj z jego uwzględnieniem, zamiast próbować nadrobić później.",
       "bullets": [
         "Zdobywaj punkty zwykłą grą; sprawdź stronę wydarzenia, aby poznać aktualny dzienny limit.",
-        "Wymień bilety Lucky Board i kamienie milowe Leif, zanim zamknie się okno 2026-11-19 02:59 UTC.",
+        "Biletów Lucky Board i kamieni milowych Leif nie da się już zdobyć — ta ścieżka zakończyła się 2026-11-19 02:59 UTC. Historia poboczna i Case Files trwają do 2026-12-10 02:59 UTC.",
         "Pakiet lobby Bunny Girl Party Hall trwa dłużej, do 2026-12-10 02:59 UTC, i jest opcjonalny."
       ],
       "source": {
