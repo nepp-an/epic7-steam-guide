@@ -6,8 +6,8 @@ export const VERIFIED_DATE = '2026-11-10';
 /** English /steam-transfer/ first screen keeps its frozen baseline date. */
 export const TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE = '2026-11-07';
 
-/** Foundry page re-checked against the 2026-11-07 Steam Guild War notice. */
-export const FOUNDRY_VERIFIED_DATE = '2026-11-12';
+/** Foundry page re-checked 2026-11-21 21:45 Asia/Shanghai against the 11/20 patch and Guild War status. */
+export const FOUNDRY_VERIFIED_DATE = '2026-11-21 21:45 Asia/Shanghai';
 
 /** Case Files page verified against the STOVE event notices. */
 export const CASE_FILES_VERIFIED_DATE = '2026-11-21';

@@ -856,8 +856,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — Steam client live and Foundry open after maintenance.",
         "2026-11-19 — Guild War introduced to Foundry.",
-        "2026-11-21 03:00 UTC — Form Defense Team opens.",
-        "2026-11-23 03:00 UTC — Guild War Matchmaking opens.",
+        "2026-11-21 03:00 UTC — Form Defense Team opened (started).",
+        "2026-11-23 03:00 UTC — Guild War Matchmaking is due; not yet reached at the 2026-11-21 21:45 Asia/Shanghai check.",
         "2026-11-07 09:00–11/23 03:00 UTC — Foundry login gift: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — Foundry World Arena after maintenance (UTC)."
       ],
@@ -887,8 +887,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — 점검 후 Steam 클라이언트 정식 오픈, Foundry 개설.",
         "2026-11-19 — Foundry에 길드전 도입.",
-        "2026-11-21 03:00 UTC — 방어팀 구성 오픈.",
-        "2026-11-23 03:00 UTC — 길드전 매칭 오픈.",
+        "2026-11-21 03:00 UTC — 방어팀 구성 시작됨.",
+        "2026-11-23 03:00 UTC — 길드전 매칭 예정 — 2026-11-21 21:45 Asia/Shanghai 기준 아직.",
         "2026-11-07 09:00–11/23 03:00 UTC — Foundry 로그인 선물: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — 점검 후 Foundry 월드 아레나(UTC)."
       ],
@@ -918,8 +918,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — メンテ後にSteamクライアント正式開始、ファウンドリ開設。",
         "2026-11-19 — Foundryにギルド戦導入。",
-        "2026-11-21 03:00 UTC — 防衛チーム編成開始。",
-        "2026-11-23 03:00 UTC — ギルド戦マッチング開始。",
+        "2026-11-21 03:00 UTC — 防衛チーム編成開始済み。",
+        "2026-11-23 03:00 UTC — ギルド戦マッチング予定 — 2026-11-21 21:45 Asia/Shanghai時点でまだ。",
         "2026-11-07 09:00–11/23 03:00 UTC — Foundryログイン贈り物: Commander's Armband ×1,000, Brave Crest ×3,000。",
         "2026-12-10 — メンテ後にファウンドリのワールドアリーナ（UTC）。"
       ],
@@ -949,8 +949,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — 維護後 Steam 客戶端正式上線、Foundry 開服。",
         "2026-11-19 — Foundry 導入公會戰。",
-        "2026-11-21 03:00 UTC — 開放編成防禦隊伍。",
-        "2026-11-23 03:00 UTC — 開放公會戰配對。",
+        "2026-11-21 03:00 UTC — 防禦隊伍已開始。",
+        "2026-11-23 03:00 UTC — 公會戰配對尚未到（2026-11-21 21:45 Asia/Shanghai 核對）。",
         "2026-11-07 09:00–11/23 03:00 UTC — Foundry 登入禮：Commander's Armband ×1,000、Brave Crest ×3,000。",
         "2026-12-10 — 維護後 Foundry 世界競技場（UTC）。"
       ],
@@ -980,8 +980,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — ไคลเอนต์ Steam เปิด และ Foundry เปิดหลังเมนเทนแนนซ์",
         "2026-11-19 — เปิดตัว Guild War บน Foundry",
-        "2026-11-21 03:00 UTC — เปิดจัดทีมป้องกัน",
-        "2026-11-23 03:00 UTC — เปิดจับคู่ Guild War",
+        "2026-11-21 03:00 UTC — ทีมป้องกันเริ่มแล้ว",
+        "2026-11-23 03:00 UTC — จับคู่ Guild War ยังไม่ถึง (ณ 2026-11-21 21:45 Asia/Shanghai)",
         "2026-11-07 09:00–11/23 03:00 UTC — ของขวัญล็อกอิน Foundry: Commander's Armband ×1,000, Brave Crest ×3,000",
         "2026-12-10 — World Arena บน Foundry หลังเมนเทนแนนซ์ (UTC)"
       ],
@@ -1011,8 +1011,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — cliente de Steam en vivo y Foundry abierto tras el mantenimiento.",
         "2026-11-19 — Guild War se introduce en Foundry.",
-        "2026-11-21 03:00 UTC — se abre el equipo de defensa.",
-        "2026-11-23 03:00 UTC — se abre el matchmaking de Guild War.",
+        "2026-11-21 03:00 UTC — el equipo de defensa ya empezó.",
+        "2026-11-23 03:00 UTC — el matchmaking de Guild War está previsto; aún no llegó en la comprobación del 2026-11-21 21:45 Asia/Shanghai.",
         "2026-11-07 09:00–11/23 03:00 UTC — regalo de inicio de sesión de Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena de Foundry tras el mantenimiento (UTC)."
       ],
@@ -1042,8 +1042,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — cliente Steam no ar e Foundry aberto após a manutenção.",
         "2026-11-19 — Guild War é introduzida no Foundry.",
-        "2026-11-21 03:00 UTC — a equipe de defesa é aberta.",
-        "2026-11-23 03:00 UTC — o matchmaking da Guild War é aberto.",
+        "2026-11-21 03:00 UTC — a equipe de defesa já começou.",
+        "2026-11-23 03:00 UTC — o matchmaking da Guild War está previsto; ainda não chegou na verificação de 2026-11-21 21:45 Asia/Shanghai.",
         "2026-11-07 09:00–11/23 03:00 UTC — presente de login do Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena do Foundry após a manutenção (UTC)."
       ],
@@ -1073,8 +1073,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — Steam-Client live und Foundry nach der Wartung offen.",
         "2026-11-19 — Guild War wird auf Foundry eingeführt.",
-        "2026-11-21 03:00 UTC — Verteidigungsteam wird geöffnet.",
-        "2026-11-23 03:00 UTC — Guild-War-Matchmaking wird geöffnet.",
+        "2026-11-21 03:00 UTC — Verteidigungsteam hat begonnen.",
+        "2026-11-23 03:00 UTC — Guild-War-Matchmaking steht aus; beim Check am 2026-11-21 21:45 Asia/Shanghai noch nicht erreicht.",
         "2026-11-07 09:00–11/23 03:00 UTC — Foundry-Login-Geschenk: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — Foundry World Arena nach der Wartung (UTC)."
       ],
@@ -1104,8 +1104,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — client Steam en ligne et Foundry ouvert après la maintenance.",
         "2026-11-19 — la Guild War est introduite sur Foundry.",
-        "2026-11-21 03:00 UTC — ouverture de l’équipe de défense.",
-        "2026-11-23 03:00 UTC — ouverture du matchmaking de la Guild War.",
+        "2026-11-21 03:00 UTC — l’équipe de défense a commencé.",
+        "2026-11-23 03:00 UTC — le matchmaking de la Guild War est prévu ; pas encore atteint lors de la vérification du 2026-11-21 21:45 Asia/Shanghai.",
         "2026-11-07 09:00–11/23 03:00 UTC — cadeau de connexion Foundry : Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena sur Foundry après la maintenance (UTC)."
       ],
@@ -1135,8 +1135,8 @@ export const UPDATES_SUPPLEMENT: Record<
       "bullets": [
         "2026-10-29 — klient Steam startuje, a Foundry otwiera się po konserwacji.",
         "2026-11-19 — Guild War zostaje wprowadzona na Foundry.",
-        "2026-11-21 03:00 UTC — otwarcie drużyny obrony.",
-        "2026-11-23 03:00 UTC — otwarcie matchmakingu Guild War.",
+        "2026-11-21 03:00 UTC — drużyna obrony już się rozpoczęła.",
+        "2026-11-23 03:00 UTC — matchmaking Guild War jest zaplanowany; jeszcze nieosiągnięty podczas sprawdzenia 2026-11-21 21:45 Asia/Shanghai.",
         "2026-11-07 09:00–11/23 03:00 UTC — prezent za logowanie na Foundry: Commander's Armband ×1,000, Brave Crest ×3,000.",
         "2026-12-10 — World Arena na Foundry po konserwacji (UTC)."
       ],
