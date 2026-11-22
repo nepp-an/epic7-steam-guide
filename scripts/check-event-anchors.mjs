@@ -239,7 +239,7 @@ const enCase = read('case-files/index.html');
 if (!enCase.includes('<h1>Epic Seven Case Files (Steam) — what it is</h1>')) {
   fail('English case-files H1 changed');
 }
-if (!enCase.includes('<title>Epic Seven Case Files (Steam) — Secret Rabbit♥Hole Guide</title>')) {
+if (!enCase.includes('<title>Epic Seven Case Files (Steam) — Trusty Sidekick Alencia | Secret Rabbit♥Hole</title>')) {
   fail('English case-files title changed');
 }
 if (!enCase.includes('<link rel="canonical" href="https://epicsevensteam.com/case-files/"')) {

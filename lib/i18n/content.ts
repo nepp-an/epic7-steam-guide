@@ -3661,8 +3661,8 @@ export const CONTENT = {
   },
   "/steam-transfer/": {
     "en": {
-      "title": "Epic Seven Steam Transfer Guide | Keep Progress | E7",
-      "meta": "Epic Seven Steam transfer: convert STOVE→Steam Simple Login to keep progress. Wrong-bind Convert, demo wipe; transfer ≠ Foundry. Unofficial.",
+      "title": "How to Link STOVE Account to Steam and Keep Progress | Epic Seven",
+      "meta": "How to link your STOVE account to Steam and keep Epic Seven progress by converting to Steam Simple Login. Wrong-bind Convert and transfer ≠ Foundry are secondary notes. Unofficial.",
       "h1": "Epic Seven Steam transfer — keep progress",
       "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [
@@ -10480,8 +10480,8 @@ export const CONTENT = {
   },
   "/banners/": {
     "en": {
-      "title": "Epic Seven Banners & New Heroes (Steam Window) | Guide",
-      "meta": "Living banner / new-hero log for Steam & Foundry. Independent summaries with STOVE citations.",
+      "title": "Epic Seven Banners & New Heroes — Yufine now, Cecilia from Nov 26",
+      "meta": "Current pickup: Bunny Girl Mafia Yufine through 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia from 2026-11-26 03:00 UTC to 2026-12-17 02:59 UTC. Independent Steam / Foundry summaries with STOVE citations.",
       "h1": "Banners & new heroes",
       "lead": "Current: Bunny Girl Mafia Yufine to 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Then the Foundry launch baseline. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
       "pickup_kicker": "Current pickup · scheduled",
@@ -10793,8 +10793,8 @@ export const CONTENT = {
   },
   "/updates/": {
     "en": {
-      "title": "Epic Seven Patch Notes & Updates — heroes & events",
-      "meta": "Living updates log for Steam / Foundry: launch notes and slots for new heroes/events when announced.",
+      "title": "Epic Seven Patch Notes & Updates — 11/19 and 11/20",
+      "meta": "Living Steam / Foundry patch notes for the completed 2026-11-19 update and the completed 2026-11-20 patch (STOVE 14640458, 14641953). Issue status follows those official posts; this page does not claim all known issues are fixed.",
       "h1": "Updates — heroes & events",
       "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
@@ -16938,7 +16938,7 @@ export const CONTENT = {
   },
   "/case-files/": {
     "en": {
-      "title": "Epic Seven Case Files (Steam) — Secret Rabbit♥Hole Guide",
+      "title": "Epic Seven Case Files (Steam) — Trusty Sidekick Alencia | Secret Rabbit♥Hole",
       "meta": "Epic Seven Case Files on Steam: Trusty Sidekick Alencia's Case Files, the deduction mini-game inside Secret Rabbit♥Hole, how it differs from the Lucky Board, and the 11/19 vs 12/10 deadlines. No spoilers.",
       "h1": "Epic Seven Case Files (Steam) — what it is",
       "answer": "Epic Seven Case Files are the Trusty Sidekick Alencia’s Case Files deduction mini-game inside the Secret Rabbit♥Hole side story. Spend daily magnifying glasses, fill the O/X grid, and narrow the culprit. The Lucky Board is a separate daily-point track: it and the parallel Moro Mystic banner closed on 2026-11-19 02:59 UTC, while the side story and Case Files run to 2026-12-10 02:59 UTC. No culprit answers are published here.",
