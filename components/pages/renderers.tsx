@@ -2363,7 +2363,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
       <h2>{c.foundry_h2}</h2>
       <ul>
         {c.foundry_delta.map((s) => (
-          <li key={s.slice(0, 40)}>{s}</li>
+          <li key={s.slice(0, 40)}><RichInline locale={locale} marked={s} /></li>
         ))}
       </ul>
       <p>

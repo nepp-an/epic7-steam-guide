@@ -5289,7 +5289,7 @@ export const CONTENT = {
         ],
         [
           "Is Guild War live on Foundry yet?",
-          "Guild War is staged on Foundry: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, and Matchmaking 2026-11-23 03:00 UTC per the 2026-11-07 Steam notice. World Arena follows after 2026-12-10 maintenance. The same notice adds a Foundry login gift (11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000). See [[Guild War on Foundry|/foundry/#guild-war]]."
+          "Guild War is staged on Foundry: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, and Matchmaking 2026-11-23 03:00 UTC per the 2026-11-07 Steam notice. World Arena follows after 2026-12-10 maintenance. The same notice adds a Foundry login gift (11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000). See [[Guild War on Foundry|/foundry/#guild-war]]. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]"
         ],
         [
           "Why doesn't Guild War hero revive work?",
@@ -5340,7 +5340,7 @@ export const CONTENT = {
         ],
         [
           "파운드리 길드전은 열렸나?",
-          "Foundry 길드전은 2026-11-07 Steam 공지 기준 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭으로 단계화됩니다. 월드 아레나는 2026-12-10 점검 후. 같은 공지에 Foundry 로그인 선물(11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000)이 있습니다. [[Foundry 길드전|/foundry/#guild-war]] 참고."
+          "Foundry 길드전은 2026-11-07 Steam 공지 기준 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀, 2026-11-23 03:00 UTC 매칭으로 단계화됩니다. 월드 아레나는 2026-12-10 점검 후. 같은 공지에 Foundry 로그인 선물(11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000)이 있습니다. [[Foundry 길드전|/foundry/#guild-war]] 참고. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]"
         ],
         [
           "실행 안 됨 / 안티치트 오류",
@@ -5363,7 +5363,7 @@ export const CONTENT = {
       "checks": [
         "공식 Steam 스토어 app 5019180인지 확인하세요. 미러·크랙 설치 파일은 쓰지 마세요.",
         "Steam이 지금 인가한 STOVE 로그인을 확인하세요. 임시 후계자면 재화나 시간을 쓰기 전에 이전 페이지의 공식 Convert 순서를 여세요.",
-        "STOVE 점검 공지와 파운드리 배너를 확인하세요. 2026-11-22 23:13 Asia/Shanghai 기준 길드전은 11/19 점검 후 도입되었고 11/21 03:00 UTC 방어팀 구성이 시작되었으며, 11/23 03:00 UTC 매칭은 아직입니다. WA는 12/10 점검 후입니다.",
+        "STOVE 점검 공지와 파운드리 배너를 확인하세요. 2026-11-23 14:26 Asia/Shanghai 기준 길드전은 11/19 점검 후 도입되었고 11/21 03:00 UTC 방어팀 구성이 시작되었으며, 11/23 03:00 UTC 매칭은 공식 일정상 시작 시각 경과(실제 진행은 게임 확인). WA는 12/10 점검 후입니다.",
         "Steam 로그인 전환 후 인게임 계정 삭제를 쓰지 마세요. 데모 주의 페이지를 먼저 읽으세요.",
         "그래도 막히면 디스코드 DM이 아니라 STOVE 공식 고객센터만 이용하세요."
       ],
@@ -5434,7 +5434,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 公會戰開了嗎？",
-          "Foundry 公會戰依 2026-11-07 Steam 公告分三階段：2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對。世界競技場於 2026-12-10 維護後。同一公告另有 Foundry 登入禮（11/07 09:00 → 11/23 03:00 UTC；Commander's Armband ×1,000、Brave Crest ×3,000）。見[[Foundry 公會戰|/foundry/#guild-war]]。"
+          "Foundry 公會戰依 2026-11-07 Steam 公告分三階段：2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對。世界競技場於 2026-12-10 維護後。同一公告另有 Foundry 登入禮（11/07 09:00 → 11/23 03:00 UTC；Commander's Armband ×1,000、Brave Crest ×3,000）。見[[Foundry 公會戰|/foundry/#guild-war]]。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】"
         ],
         [
           "無法啟動／反作弊錯誤",
@@ -5457,7 +5457,7 @@ export const CONTENT = {
       "checks": [
         "確認來自官方 Steam 商店的 app 5019180。不要使用鏡像或破解安裝檔。",
         "確認 Steam 目前授權的 STOVE 登入。若是臨時後繼者，先打開轉移頁的官方 Convert 順序，再花費資源或時間。",
-        "查看 STOVE 維護公告與 Foundry 橫幅。以 2026-11-22 23:13 Asia/Shanghai 核對：公會戰已於 11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對尚未到；世界競技場在 12/10 維護後。",
+        "查看 STOVE 維護公告與 Foundry 橫幅。以 2026-11-23 14:26 Asia/Shanghai 核對：公會戰已於 11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對已到官方排程時間（實際進行狀態請看遊戲）；世界競技場在 12/10 維護後。",
         "Steam 登入轉換後不要使用遊戲內刪號。請先閱讀試玩注意頁。",
         "若仍卡住，不要依賴 Discord 私訊，只使用 STOVE 官方客服。"
       ],
@@ -5481,7 +5481,7 @@ export const CONTENT = {
         ],
         [
           "Guild War เปิดบน Foundry แล้วหรือยัง?",
-          "Guild War บน Foundry แบ่งเป็น 2026-11-19 เปิดตัว, 2026-11-21 03:00 UTC จัดทีมป้องกัน และ 2026-11-23 03:00 UTC จับคู่ ตามประกาศ Steam 2026-11-07 World Arena หลังปิดปรับปรุง 2026-12-10 ประกาศเดียวกันมีของขวัญล็อกอิน Foundry (11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000) ดู [[Guild War บน Foundry|/foundry/#guild-war]]"
+          "Guild War บน Foundry แบ่งเป็น 2026-11-19 เปิดตัว, 2026-11-21 03:00 UTC จัดทีมป้องกัน และ 2026-11-23 03:00 UTC จับคู่ ตามประกาศ Steam 2026-11-07 World Arena หลังปิดปรับปรุง 2026-12-10 ประกาศเดียวกันมีของขวัญล็อกอิน Foundry (11/07 09:00 → 11/23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000) ดู [[Guild War บน Foundry|/foundry/#guild-war]] [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]"
         ],
         [
           "เกมไม่เริ่มทำงาน / เกิดข้อผิดพลาด anti-cheat",
@@ -5504,7 +5504,7 @@ export const CONTENT = {
       "checks": [
         "ตรวจสอบว่ามาจากร้านค้า Steam ทางการแอป 5019180 อย่าใช้ไฟล์มิเรอร์หรือแคร็ก",
         "ตรวจว่า Steam อนุญาตล็อกอิน STOVE ใดอยู่ตอนนี้ หากเป็นทายาทชั่วคราว ให้เปิดลำดับ Convert ทางการในหน้าคู่มือย้ายก่อนใช้เงินหรือเวลาในเกม",
-        "ดูประกาศปิดปรับปรุงของ STOVE และแบนเนอร์ Foundry ณ 2026-11-22 23:13 Asia/Shanghai Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่ม 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ยังไม่ถึง World Arena หลังปิดปรับปรุง 12/10",
+        "ดูประกาศปิดปรับปรุงของ STOVE และแบนเนอร์ Foundry ณ 2026-11-23 14:26 Asia/Shanghai Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่ม 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม) World Arena หลังปิดปรับปรุง 12/10",
         "หลังแปลงล็อกอินไป Steam ห้ามใช้การลบบัญชีในเกม ให้อ่านหน้าคำเตือนเดโมก่อน",
         "ถ้ายังติด อย่าพึ่งข้อความส่วนตัวใน Discord ให้ใช้ฝ่ายบริการลูกค้าทางการของ STOVE เท่านั้น"
       ],
@@ -6880,7 +6880,7 @@ export const CONTENT = {
       "meta": "Foundry guide: calendar, unlocks, Guild War — 11/19 intro, 11/21 defense teams, 11/23 matchmaking, World Arena 12/10. Foundry codes ≠ coupons.",
       "h1": "Foundry server guide — schedule & rewards",
       "lead": "Draft Arena is temporarily replaced by The Call of Chaos during Season 2 and its grace period, ending 17 Dec, 10:59 Asia/Shanghai. World Arena is scheduled after the 10 Dec maintenance.",
-      "as_of": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary.",
+      "as_of": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
       "unlock_h2": "Content unlock calendar",
       "th": [
         "Feature",
@@ -7002,7 +7002,7 @@ export const CONTENT = {
           "12/10 02:59"
         ],
         [
-          "Foundry GW login gift (Foundry login; Commander's Armband ×1,000 / Brave Crest ×3,000)",
+          "Foundry GW login gift (Foundry login; Commander's Armband ×1,000 / Brave Crest ×3,000) [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
           "11/7 09:00",
           "11/23 03:00"
         ],
@@ -7096,9 +7096,9 @@ export const CONTENT = {
       "link_demo": "Demo delete warning",
       "related_h2": "Related guides",
       "gw_h2": "Guild War on Foundry",
-      "gw_answer": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary.",
+      "gw_answer": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
       "gw_unlock_h3": "Unlock stages",
-      "gw_unlock": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary.",
+      "gw_unlock": "Guild War: introduction 19 Nov; Defense Team formation from 21 Nov, 11:00 Asia/Shanghai. Matchmaking is scheduled for 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ends at that same time. This is a timetable, not confirmation of a match or an attack result; check the game at the boundary. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
       "gw_prep_h3": "Pre-open checklist",
       "gw_prep": [
         "Confirm that your character and accepted guild membership are on Foundry. Check the actual guild-entry requirement and current defense setup in-game.",
@@ -7106,7 +7106,7 @@ export const CONTENT = {
         "Set two Defense Teams of three heroes each before 2026-11-21 03:00 UTC; the Guild Captain assigns them to the Stronghold and defense towers.",
         "Confirm your character is on Foundry — legacy-server guilds do not count as Foundry GW.",
         "Transferring login does not enroll a legacy Heir in Foundry Guild War. The GW roster is built from your Foundry character and its accepted guild membership.",
-        "Claim the Foundry login gift between 2026-11-07 09:00 and 2026-11-23 03:00 UTC: Commander's Armband ×1,000 and Brave Crest ×3,000. A legacy login does not qualify.",
+        "Claim the Foundry login gift between 2026-11-07 09:00 and 2026-11-23 03:00 UTC: Commander's Armband ×1,000 and Brave Crest ×3,000. A legacy login does not qualify. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
         "Watch STOVE/Steam for any GW rule or schedule errata after maintenance.",
         "Send the join request early and confirm it shows Accepted, not Pending. A request still pending at 2026-11-21 03:00 UTC sits out the first defense setup.",
         "Before each in-game reset, clear guild member missions and check-in. A missing name once war locks is a roster hole you cannot backfill.",
@@ -7117,7 +7117,7 @@ export const CONTENT = {
         "2026-12-10 (Thu) Guild War draw rule: the update removes match-time season-point and Guild Crest priority; the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Rewards window",
-      "gw_reward": "The same 2026-11-07 notice adds a Foundry login gift: log in on the Foundry server between 2026-11-07 09:00 and 2026-11-23 03:00 UTC to receive Commander's Armband ×1,000 and Brave Crest ×3,000. Eligibility is a Foundry login, not a legacy login. Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many starter buffs and login gifts run through about 2026-12-31 02:59 UTC. Re-check STOVE/Steam before spending resources — if posts disagree, follow the newer notice.",
+      "gw_reward": "The same 2026-11-07 notice adds a Foundry login gift: log in on the Foundry server between 2026-11-07 09:00 and 2026-11-23 03:00 UTC to receive Commander's Armband ×1,000 and Brave Crest ×3,000. Eligibility is a Foundry login, not a legacy login. Treat Guild War rewards as part of Foundry’s celebration cadence; exact loot tables belong on STOVE. Many starter buffs and login gifts run through about 2026-12-31 02:59 UTC. Re-check STOVE/Steam before spending resources — if posts disagree, follow the newer notice. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "Searches for “Foundry codes” or “Foundry server codes” usually point at celebration rewards and official STOVE notices — mailbox gifts, login items, and starter buffs — not a redeemable coupon list. This unofficial Foundry server guide never publishes, sells, or redeems fake codes. Claim only what the in-game mailbox shows, and re-check STOVE Foundry view/14571828 and Launch view/14606481 when windows move.",
       "guide_h2": "Foundry server guide — key dates",
@@ -7193,7 +7193,7 @@ export const CONTENT = {
       ],
       "deep_h2": "Planning notes (unofficial)",
       "deep": [
-        "Use the unlock table with the Guild War section on this Foundry server guide. Treat 11/19 (introduction), 11/21 (Form Defense Team), and 11/23 (matchmaking) as three separate checkpoints — not one unlock day. Claim the Foundry login gift early; treat legacy and Foundry characters as separate stamina pools. Re-check STOVE/Steam after maintenance rather than relying on a single end date."
+        "Use the unlock table with the Guild War section on this Foundry server guide. Treat 11/19 (introduction), 11/21 (Form Defense Team), and 11/23 (matchmaking) as three separate checkpoints — not one unlock day. Claim the Foundry login gift early; treat legacy and Foundry characters as separate stamina pools. Re-check STOVE/Steam after maintenance rather than relying on a single end date. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]"
       ],
       "img_alt2": "Self-drawn Transfer vs Foundry two-decision comparison",
       "img_alt3": "Self-drawn Foundry milestone strip: launch, Guild War, World Arena, 12/31"
@@ -7203,7 +7203,7 @@ export const CONTENT = {
       "meta": "Foundry 서버 가이드: 신서버 캘린더·해금·보상. 길드전은 2026-11-19 도입, 방어팀 구성 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC; 월드 아레나 2026-12-10. Foundry codes는 쿠폰이 아닌 축하/메일 보상. STOVE/Steam 인용.",
       "h1": "파운드리 서버 가이드 — 일정·보상",
       "lead": "드래프트 아레나는 혼돈의 부름 시즌2 및 유예 기간 동안 대체되며 유예 종료는12월17일10:59 Asia/Shanghai입니다. 월드 아레나는12월10일 점검 후 예정입니다.",
-      "as_of": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요.",
+      "as_of": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
       "unlock_h2": "콘텐츠 해금 캘린더",
       "th": [
         "콘텐츠",
@@ -7325,7 +7325,7 @@ export const CONTENT = {
           "12/10 02:59"
         ],
         [
-          "Foundry 길드전 로그인 선물 (Armband ×1,000 / Brave Crest ×3,000)",
+          "Foundry 길드전 로그인 선물 (Armband ×1,000 / Brave Crest ×3,000) [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
           "11/7 09:00",
           "11/23 03:00"
         ],
@@ -7419,9 +7419,9 @@ export const CONTENT = {
       "link_demo": "데모 삭제 경고",
       "related_h2": "관련 가이드",
       "gw_h2": "파운드리 길드전",
-      "gw_answer": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요.",
+      "gw_answer": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
       "gw_unlock_h3": "해금 단계",
-      "gw_unlock": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요.",
+      "gw_unlock": "기사단전은11월19일 도입, 방어팀 편성은11월21일11:00 Asia/Shanghai부터입니다. 매칭 예정은11월23일11:00 Asia/Shanghai (03:00 UTC)이며 별도 기사단전 접속 선물도 그때 종료됩니다. 이는 일정이지 실제 전투 결과나 공격 가능 여부 확인이 아닙니다. 경계 시점에는 게임을 확인하세요. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
       "gw_prep_h3": "오픈 전 체크리스트",
       "gw_prep": [
         "캐릭터와 가입 승인된 기사단이 파운드리에 있는지 확인하고 실제 가입 조건과 방어 편성을 게임에서 확인하세요.",
@@ -7439,7 +7439,7 @@ export const CONTENT = {
         "2026-12-10(목) 길드전 무승부 규칙: 업데이트에서 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 해당 경기 승/무/패 합산 공격 점수가 높은 쪽이 승리합니다. 그래도 무승부면 양쪽 완파 100% 승점, 양쪽 미완파 50%입니다. 세부는 12/10 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "보상 구간",
-      "gw_reward": "같은 공지에 Foundry 로그인 선물이 있습니다: 2026-11-07 09:00–2026-11-23 03:00 UTC 사이 Foundry 서버에 로그인하면 Commander's Armband ×1,000, Brave Crest ×3,000. 자격은 Foundry 로그인이며 레거시 로그인은 해당 없음. 길드전 보상은 파운드리 축하 일정의 일부로 보고 정확한 보상표는 STOVE를 따르세요. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지입니다. 자원을 쓰기 전 STOVE/Steam을 재확인하고, 공지가 다르면 더 최신 글을 따르세요.",
+      "gw_reward": "같은 공지에 Foundry 로그인 선물이 있습니다: 2026-11-07 09:00–2026-11-23 03:00 UTC 사이 Foundry 서버에 로그인하면 Commander's Armband ×1,000, Brave Crest ×3,000. 자격은 Foundry 로그인이며 레거시 로그인은 해당 없음. 길드전 보상은 파운드리 축하 일정의 일부로 보고 정확한 보상표는 STOVE를 따르세요. 많은 스타터 버프·로그인 선물이 약 2026-12-31 02:59 UTC까지입니다. 자원을 쓰기 전 STOVE/Steam을 재확인하고, 공지가 다르면 더 최신 글을 따르세요. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "“Foundry codes” 또는 “Foundry server codes” 검색은 대개 쿠폰 문자열이 아니라 축하 보상과 공식 STOVE 공지—우편 선물, 로그인 아이템, 스타터 버프—를 가리킵니다. 본 비공식 Foundry 서버 가이드는 가짜 코드를 게시·판매·교환하지 않습니다. 인게임 우편함에 보이는 것만 수령하고, 창이 바뀌면 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 확인하세요.",
       "guide_h2": "Foundry server guide — 핵심 일정",
@@ -7843,7 +7843,7 @@ export const CONTENT = {
       "meta": "Foundry 伺服器指南：新服日程、解鎖與獎勵。公會戰 2026-11-19 導入、防禦隊伍 2026-11-21 03:00 UTC、配對 2026-11-23 03:00 UTC；世界競技場 2026-12-10。Foundry codes 不是兌換碼。引述 STOVE／Steam。",
       "h1": "Foundry 伺服器指南 — 日程與獎勵",
       "lead": "競技場選秀於混沌的呼喚第2季及寬限期暫停，至12月17日10:59（Asia/Shanghai）；世界競技場預定12月10日維護後開放。",
-      "as_of": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。",
+      "as_of": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
       "unlock_h2": "內容解鎖",
       "th": [
         "項目",
@@ -7965,7 +7965,7 @@ export const CONTENT = {
           "12/10 02:59"
         ],
         [
-          "Foundry 公會戰登入禮（Armband ×1,000 / Brave Crest ×3,000）",
+          "Foundry 公會戰登入禮（Armband ×1,000 / Brave Crest ×3,000）【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
           "11/7 09:00",
           "11/23 03:00"
         ],
@@ -8059,9 +8059,9 @@ export const CONTENT = {
       "link_demo": "試玩刪號警告",
       "related_h2": "相關指南",
       "gw_h2": "Foundry 公會戰",
-      "gw_answer": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。",
+      "gw_answer": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
       "gw_unlock_h3": "解鎖階段",
-      "gw_unlock": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。",
+      "gw_unlock": "騎士團戰：11月19日導入，11月21日11:00（Asia/Shanghai）起可編組防禦；匹配排程為11月23日11:00（03:00 UTC）。獨立的團戰登入禮也在同時結束。此為官方時程，不代表已有戰果或可以進攻，交界時請看遊戲。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
       "gw_prep_h3": "開放前檢查清單",
       "gw_prep": [
         "確認角色及已加入的騎士團都在Foundry；入團條件與防禦隊伍請看當前遊戲介面。",
@@ -8079,7 +8079,7 @@ export const CONTENT = {
         "2026-12-10（週四）公會戰平局規則：更新移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。"
       ],
       "gw_reward_h3": "獎勵區間",
-      "gw_reward": "同一公告另有 Foundry 登入禮：2026-11-07 09:00–2026-11-23 03:00 UTC 登入 Foundry 伺服器可領 Commander's Armband ×1,000、Brave Crest ×3,000。資格是 Foundry 登入，原服登入不算。請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。花費資源前請再查 STOVE／Steam；公告不一致時跟較新的。",
+      "gw_reward": "同一公告另有 Foundry 登入禮：2026-11-07 09:00–2026-11-23 03:00 UTC 登入 Foundry 伺服器可領 Commander's Armband ×1,000、Brave Crest ×3,000。資格是 Foundry 登入，原服登入不算。請把公會戰獎勵視為 Foundry 慶祝節奏的一部分，精確掉落以 STOVE 為準。許多新手增益與登入禮物公告約至 2026-12-31 02:59 UTC。花費資源前請再查 STOVE／Steam；公告不一致時跟較新的。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "搜尋「Foundry codes」或「Foundry server codes」多半指向慶祝獎勵與官方 STOVE 公告——信箱禮物、登入道具、新手增益——而不是可兌換序號清單。本非官方 Foundry 伺服器指南從不發布、販售或代兌假碼。只領遊戲內信箱實際顯示的內容；時窗變動時請再查 STOVE Foundry view/14571828 與 Launch view/14606481。",
       "guide_h2": "Foundry server guide — 關鍵日程",
@@ -8290,7 +8290,7 @@ export const CONTENT = {
           "12/10 02:59"
         ],
         [
-          "ของขวัญล็อกอิน Foundry Guild War (Armband ×1,000 / Brave Crest ×3,000)",
+          "ของขวัญล็อกอิน Foundry Guild War (Armband ×1,000 / Brave Crest ×3,000) [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
           "11/7 09:00",
           "11/23 03:00"
         ],
@@ -8404,7 +8404,7 @@ export const CONTENT = {
         "2026-12-10 (พฤ.) กติกาการเสมอ Guild War: อัปเดตยกเลิกสิทธิ์ตามคะแนนซีซันและ Guild Crest ก่อนตอนจับคู่ ฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "ช่วงเวลารางวัล",
-      "gw_reward": "ประกาศเดียวกันมีของขวัญล็อกอิน Foundry: ล็อกอินเซิร์ฟเวอร์ Foundry ระหว่าง 2026-11-07 09:00–2026-11-23 03:00 UTC รับ Commander's Armband ×1,000 และ Brave Crest ×3,000 ผู้มีสิทธิ์คือล็อกอิน Foundry ไม่ใช่ล็อกอินเลกาซี มองรางวัล Guild War เป็นส่วนหนึ่งของจังหวะฉลอง Foundry; ตารางดรอปที่แน่นอนอยู่ใน STOVE บัฟผู้เริ่มต้นและของขวัญล็อกอินหลายอย่างถึงราว 2026-12-31 02:59 UTC ตรวจ STOVE/Steam ก่อนใช้ทรัพยากร และถ้าประกาศขัดกันให้ยึดอันใหม่กว่า",
+      "gw_reward": "ประกาศเดียวกันมีของขวัญล็อกอิน Foundry: ล็อกอินเซิร์ฟเวอร์ Foundry ระหว่าง 2026-11-07 09:00–2026-11-23 03:00 UTC รับ Commander's Armband ×1,000 และ Brave Crest ×3,000 ผู้มีสิทธิ์คือล็อกอิน Foundry ไม่ใช่ล็อกอินเลกาซี มองรางวัล Guild War เป็นส่วนหนึ่งของจังหวะฉลอง Foundry; ตารางดรอปที่แน่นอนอยู่ใน STOVE บัฟผู้เริ่มต้นและของขวัญล็อกอินหลายอย่างถึงราว 2026-12-31 02:59 UTC ตรวจ STOVE/Steam ก่อนใช้ทรัพยากร และถ้าประกาศขัดกันให้ยึดอันใหม่กว่า [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
       "codes_h2": "Foundry codes กับรางวัลฉลอง",
       "codes_note": "การค้นหา “Foundry codes” หรือ “Foundry server codes” มักชี้ไปที่รางวัลฉลองและประกาศทางการของ STOVE — ของขวัญในกล่องจดหมาย ของล็อกอิน และบัฟผู้เริ่มต้น — ไม่ใช่รายการคูปองที่แลกได้ ไกด์เซิร์ฟเวอร์ Foundry ที่ไม่เป็นทางการนี้ไม่เคยเผยแพร่ ขาย หรือแลกโค้ดปลอม รับเฉพาะสิ่งที่กล่องจดหมายในเกมแสดง และตรวจ STOVE Foundry view/14571828 กับ Launch view/14606481 อีกครั้งเมื่อช่วงเวลาเลื่อน",
       "guide_h2": "ไกด์เซิร์ฟเวอร์ Foundry — วันสำคัญ",
@@ -10945,8 +10945,8 @@ export const CONTENT = {
           [
             "Guild War was introduced to Foundry after the 11/19 maintenance.",
             "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — already started at this check.",
-            "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — not yet reached at the 2026-11-21 21:45 Asia/Shanghai check.",
-            "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000 — Foundry login required."
+            "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — scheduled start reached; actual matches require an in-game check.",
+            "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Commander's Armband ×1,000, Brave Crest ×3,000 — Foundry login required. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]"
           ],
           "Steam notice 2026-11-07"
         ],
@@ -10974,8 +10974,8 @@ export const CONTENT = {
         [
           "Upcoming to watch",
           [
-            "Foundry Guild War — introduced after the 11/19 maintenance; Form Defense Team opened 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (not yet reached at this check).",
-            "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Foundry Guild War — introduced after the 11/19 maintenance; Form Defense Team opened 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (scheduled start reached; actual matches require an in-game check).",
+            "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO return date — confirm on official notice when posted."
           ],
@@ -11075,8 +11075,8 @@ export const CONTENT = {
           [
             "길드전은 11/19 점검 후 Foundry에 도입되었습니다.",
             "방어팀 구성: 2026-11-21 03:00 UTC(11/21 11:00 Asia/Shanghai) — 2026-11-21 21:45 확인 기준 이미 시작.",
-            "길드전 매칭: 2026-11-23 03:00 UTC(11/23 11:00 Asia/Shanghai) — 2026-11-21 21:45 확인 기준 아직.",
-            "Foundry 로그인 선물: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry 로그인 필요; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "길드전 매칭: 2026-11-23 03:00 UTC(11/23 11:00 Asia/Shanghai) — 2026-11-23 14:26 확인 기준 공식 일정상 시작 시각 경과(실제 진행은 게임 확인).",
+            "Foundry 로그인 선물: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry 로그인 필요; Commander's Armband ×1,000, Brave Crest ×3,000. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
             "출처: [[Steam 공지|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ],
           "Steam 공지 2026-11-07"
@@ -11105,8 +11105,8 @@ export const CONTENT = {
         [
           "앞으로 볼 일정",
           [
-            "길드전 — 11/19 점검 후 도입, 방어팀 2026-11-21 03:00 UTC 시작, 매칭 2026-11-23 03:00 UTC(2026-11-21 21:45 기준 아직).",
-            "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "길드전 — 11/19 점검 후 도입, 방어팀 2026-11-21 03:00 UTC 시작, 매칭 2026-11-23 03:00 UTC(2026-11-23 14:26 기준 공식 일정상 시작 시각 경과(실제 진행은 게임 확인)).",
+            "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
             "월드 아레나 — 2026-12-10 점검 후.",
             "일본어 VO 복귀 — 공식 공지 확인."
           ],
@@ -11324,8 +11324,8 @@ export const CONTENT = {
           [
             "公會戰已於 11/19 維護後導入 Foundry。",
             "防禦隊伍：2026-11-21 03:00 UTC（11/21 11:00 Asia/Shanghai）——以 2026-11-21 21:45 核對，已開始。",
-            "公會戰配對：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）——尚未到。",
-            "Foundry 登入禮：2026-11-07 09:00 → 2026-11-23 03:00 UTC；需 Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
+            "公會戰配對：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）——已到官方排程時間（實際進行狀態請看遊戲）。",
+            "Foundry 登入禮：2026-11-07 09:00 → 2026-11-23 03:00 UTC；需 Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
             "來源：[[Steam 公告|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ],
           "Steam 公告 2026-11-07"
@@ -11354,8 +11354,8 @@ export const CONTENT = {
         [
           "即將關注",
           [
-            "公會戰 — 11/19 維護後導入；防禦隊伍 2026-11-21 03:00 UTC 已開始；配對 2026-11-23 03:00 UTC（2026-11-21 21:45 尚未到）。",
-            "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
+            "公會戰 — 11/19 維護後導入；防禦隊伍 2026-11-21 03:00 UTC 已開始；配對 2026-11-23 03:00 UTC（2026-11-23 14:26 已到官方排程時間（實際進行狀態請看遊戲））。",
+            "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
             "世界競技場 — 2026-12-10 維護後。",
             "日語 VO 回歸 — 以官方公告為準。"
           ],
@@ -11455,8 +11455,8 @@ export const CONTENT = {
           [
             "Guild War เปิดตัวบน Foundry หลังปิดปรับปรุง 11/19 แล้ว",
             "จัดทีมป้องกัน: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — เริ่มแล้ว ณ การตรวจ 2026-11-21 21:45",
-            "จับคู่ Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ยังไม่ถึง",
-            "ของขวัญล็อกอิน Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; ต้องล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000",
+            "จับคู่ Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม)",
+            "ของขวัญล็อกอิน Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; ต้องล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000 [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
             "แหล่งที่มา: [[ประกาศ Steam|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ],
           "ประกาศ Steam 2026-11-07"
@@ -11485,8 +11485,8 @@ export const CONTENT = {
         [
           "ที่ต้องจับตา",
           [
-            "Guild War — เปิดตัวหลังปิดปรับปรุง 11/19; ทีมป้องกัน 2026-11-21 03:00 UTC เริ่มแล้ว; จับคู่ 2026-11-23 03:00 UTC (ยังไม่ถึง ณ 2026-11-21 21:45)",
-            "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000",
+            "Guild War — เปิดตัวหลังปิดปรับปรุง 11/19; ทีมป้องกัน 2026-11-21 03:00 UTC เริ่มแล้ว; จับคู่ 2026-11-23 03:00 UTC (ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม) ณ 2026-11-23 14:26)",
+            "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000 [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน] [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "วันกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่"
           ],
@@ -12131,8 +12131,8 @@ export const CONTENT = {
           [
             "Guild War was introduced to Foundry after the 11/19 maintenance — not a single 11/21 unlock.",
             "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — already started.",
-            "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — not yet reached at the 2026-11-21 21:45 Asia/Shanghai check.",
-            "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry login only; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — scheduled start reached; actual matches require an in-game check.",
+            "Foundry login gift: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry login only; Commander's Armband ×1,000, Brave Crest ×3,000. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
             "Source: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
@@ -12175,8 +12175,8 @@ export const CONTENT = {
         [
           "Watch list",
           [
-            "Foundry Guild War — introduced after the 11/19 maintenance; Form Defense Team opened 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (not yet reached at this check).",
-            "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Foundry Guild War — introduced after the 11/19 maintenance; Form Defense Team opened 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (scheduled start reached; actual matches require an in-game check).",
+            "Foundry Guild War login gift — 11/07 09:00 → 11/23 03:00 UTC; Foundry login; Commander's Armband ×1,000, Brave Crest ×3,000. [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.] [Ended: the GW login window closed 23 Nov 2026, 11:00 Asia/Shanghai; not a current login claim.]",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO restore — confirm on official notice when posted.",
             "Emergency Mission week flips through late November — see Foundry calendar.",
@@ -12193,7 +12193,7 @@ export const CONTENT = {
         "Call out Foundry-only schedule slips separately from legacy servers."
       ],
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Most recent window: the 11/19 (Thu) maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. The notice points to the Version 8.7 2nd Update Content: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia rate-up 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. Foundry Guild War was introduced after the same maintenance, with Defense Team Formation 11/21 03:00 UTC already started and Matchmaking 11/23 03:00 UTC not yet reached. The 3,000-day comment event ended 11/18 14:59 UTC; carrots run to 11/26 02:59 UTC. Moro and the Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Most recent window: the 11/19 (Thu) maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. The notice points to the Version 8.7 2nd Update Content: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia rate-up 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. Foundry Guild War was introduced after the same maintenance, with Defense Team Formation 11/21 03:00 UTC already started and Matchmaking 11/23 03:00 UTC scheduled start reached; actual matches require an in-game check. The 3,000-day comment event ended 11/18 14:59 UTC; carrots run to 11/26 02:59 UTC. Moro and the Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai. Official timetable checked 23 Nov 2026: Foundry Guild War matchmaking reached its scheduled start on 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ended then; it is no longer a login-to-claim event. This confirms the published timetable, not an actual match or attack result. Check the client for your guild’s availability."
     },
     "ko": {
       "title": "점검·버전 노트",
@@ -12237,8 +12237,8 @@ export const CONTENT = {
           [
             "길드전은 11/19 점검 후 Foundry에 도입되었습니다.",
             "방어팀 구성: 2026-11-21 03:00 UTC(11/21 11:00 Asia/Shanghai) — 2026-11-21 21:45 확인 기준 이미 시작.",
-            "길드전 매칭: 2026-11-23 03:00 UTC(11/23 11:00 Asia/Shanghai) — 아직 도래하지 않음.",
-            "Foundry 로그인 선물: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry 로그인만; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "길드전 매칭: 2026-11-23 03:00 UTC(11/23 11:00 Asia/Shanghai) — 공식 일정상 시작 시각 경과(실제 진행은 게임 확인).",
+            "Foundry 로그인 선물: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry 로그인만; Commander's Armband ×1,000, Brave Crest ×3,000. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
             "출처: [[Steam 공지|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
@@ -12281,8 +12281,8 @@ export const CONTENT = {
         [
           "워치리스트",
           [
-            "길드전 — 11/19 점검 후 도입; 2026-11-21 03:00 UTC 방어팀 시작; 2026-11-23 03:00 UTC 매칭(2026-11-21 21:45 기준 아직).",
-            "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "길드전 — 11/19 점검 후 도입; 2026-11-21 03:00 UTC 방어팀 시작; 2026-11-23 03:00 UTC 매칭(2026-11-23 14:26 기준 공식 일정상 시작 시각 경과(실제 진행은 게임 확인)).",
+            "Foundry 길드전 로그인 선물 — 11/07 09:00 → 11/23 03:00 UTC; Foundry 로그인; Commander's Armband ×1,000, Brave Crest ×3,000. [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.] [종료: 길드전 접속 기간은2026년11월23일11:00 Asia/Shanghai에 끝났으며 지금 로그인해 받는 선물이 아닙니다.]",
             "월드 아레나 — 2026-12-10.",
             "일본어 VO — 공식 공지 확인.",
             "비상임무 주간 교체 ~11월 말 — 파운드리 캘린더.",
@@ -12298,7 +12298,7 @@ export const CONTENT = {
         "파운드리 전용 일정 변동은 기존 서버와 구분."
       ],
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최근 창: 11/19 (목) 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. 공지는 Version 8.7 2nd Update Content를 가리키며, 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료, Bunny Girl Maid Cecilia 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC, Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC입니다. Foundry 길드전은 같은 점검 후 도입(방어팀 11/21 03:00 UTC 시작, 매칭 11/23 03:00 UTC 아직)입니다. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료, 당근 이벤트는 11/26 02:59 UTC까지, Moro/Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지입니다. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최근 창: 11/19 (목) 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. 공지는 Version 8.7 2nd Update Content를 가리키며, 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료, Bunny Girl Maid Cecilia 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC, Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC입니다. Foundry 길드전은 같은 점검 후 도입(방어팀 11/21 03:00 UTC 시작, 매칭 11/23 03:00 UTC 공식 일정상 시작 시각 경과(실제 진행은 게임 확인))입니다. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료, 당근 이벤트는 11/26 02:59 UTC까지, Moro/Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지입니다. Last verified 2026-11-21 21:45 Asia/Shanghai. 2026년11월23일 공식 일정 재확인: 파운드리 길드전 매칭은11월23일11:00 Asia/Shanghai(03:00 UTC)에 예정 시작 시각이 지났습니다. 별도 길드전 접속 선물 기간도 그때 종료되어 지금 로그인해 받는 이벤트가 아닙니다. 실제 매칭·공격 결과를 확인했다는 뜻은 아닙니다. 소속 길드의 상태는 게임에서 확인하세요."
     },
     "ja": {
       "title": "メンテナンス＆バージョン",
@@ -12443,8 +12443,8 @@ export const CONTENT = {
           [
             "公會戰已於 11/19 維護後導入 Foundry。",
             "防禦隊伍：2026-11-21 03:00 UTC（11/21 11:00 Asia/Shanghai）——2026-11-21 21:45 核對時已開始。",
-            "配對：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）——尚未到。",
-            "Foundry 登入禮：2026-11-07 09:00 → 2026-11-23 03:00 UTC；僅 Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
+            "配對：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）——已到官方排程時間（實際進行狀態請看遊戲）。",
+            "Foundry 登入禮：2026-11-07 09:00 → 2026-11-23 03:00 UTC；僅 Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
             "來源：[[Steam 公告|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
@@ -12487,8 +12487,8 @@ export const CONTENT = {
         [
           "觀察清單",
           [
-            "公會戰 — 11/19 維護後導入；防禦隊伍 2026-11-21 03:00 UTC 已開始；配對 2026-11-23 03:00 UTC（尚未到）。",
-            "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。",
+            "公會戰 — 11/19 維護後導入；防禦隊伍 2026-11-21 03:00 UTC 已開始；配對 2026-11-23 03:00 UTC（已到官方排程時間（實際進行狀態請看遊戲））。",
+            "Foundry 公會戰登入禮 — 11/07 09:00 → 11/23 03:00 UTC；Foundry 登入；Commander's Armband ×1,000、Brave Crest ×3,000。【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】【已結束：團戰登入期間於2026年11月23日11:00 Asia/Shanghai截止，不是現在可登入領取。】",
             "世界競技場 — 2026-12-10。",
             "日語 VO — 等待官方日程。",
             "緊急任務週輪替至 11 月底——見 Foundry 日程。",
@@ -12504,7 +12504,7 @@ export const CONTENT = {
         "Foundry 專屬異動與舊服分開寫。"
       ],
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最近窗口：11/19（週四）維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。公告指向 Version 8.7 2nd Update Content：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia 提高掉率 11/26 03:00 – 12/17 02:59 UTC；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC。Foundry 公會戰於同次維護後導入（防禦隊伍 11/21 03:00 UTC 已開始、配對 11/23 03:00 UTC 尚未到）。3,000 天留言活動已於 11/18 14:59 UTC 結束；收胡蘿蔔至 11/26 02:59 UTC；Moro／Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-21 21:45 Asia/Shanghai。"
+      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最近窗口：11/19（週四）維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。公告指向 Version 8.7 2nd Update Content：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia 提高掉率 11/26 03:00 – 12/17 02:59 UTC；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC。Foundry 公會戰於同次維護後導入（防禦隊伍 11/21 03:00 UTC 已開始、配對 11/23 03:00 UTC 已到官方排程時間（實際進行狀態請看遊戲））。3,000 天留言活動已於 11/18 14:59 UTC 結束；收胡蘿蔔至 11/26 02:59 UTC；Moro／Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-21 21:45 Asia/Shanghai。 2026年11月23日重核官方日程：Foundry公會戰配對已到11月23日11:00 Asia/Shanghai（03:00 UTC）的排程開始點；獨立的團戰登入禮同時截止，現在不是登入即可領取的活動。這只確認公告時程，不代表已實測配對或戰果；請在遊戲查看自己公會的可用狀態。"
     },
     "th": {
       "title": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
@@ -12548,8 +12548,8 @@ export const CONTENT = {
           [
             "Guild War เปิดตัวบน Foundry หลังปิดปรับปรุง 11/19 แล้ว",
             "ทีมป้องกัน: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — ณ 2026-11-21 21:45 เริ่มแล้ว",
-            "จับคู่ Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ยังไม่ถึง",
-            "ของขวัญล็อกอิน Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; ล็อกอิน Foundry เท่านั้น; Commander's Armband ×1,000, Brave Crest ×3,000",
+            "จับคู่ Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม)",
+            "ของขวัญล็อกอิน Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; ล็อกอิน Foundry เท่านั้น; Commander's Armband ×1,000, Brave Crest ×3,000 [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
             "แหล่งที่มา: [[ประกาศ Steam|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
@@ -12592,8 +12592,8 @@ export const CONTENT = {
         [
           "รายการจับตา",
           [
-            "Guild War — เปิดตัวหลังปิดปรับปรุง 11/19; ทีมป้องกัน 2026-11-21 03:00 UTC เริ่มแล้ว; จับคู่ 2026-11-23 03:00 UTC (ยังไม่ถึง)",
-            "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000",
+            "Guild War — เปิดตัวหลังปิดปรับปรุง 11/19; ทีมป้องกัน 2026-11-21 03:00 UTC เริ่มแล้ว; จับคู่ 2026-11-23 03:00 UTC (ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม))",
+            "ของขวัญล็อกอิน Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; ล็อกอิน Foundry; Commander's Armband ×1,000, Brave Crest ×3,000 [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน] [สิ้นสุดแล้ว: ช่วงล็อกอิน Guild War ปิด23พฤศจิกายน2026 เวลา11:00 Asia/Shanghai ไม่ใช่ของขวัญล็อกอินปัจจุบัน]",
             "World Arena บน Foundry — 2026-12-10 หลังปิดปรับปรุง",
             "การกลับมาของเสียงพากย์ญี่ปุ่น — ยืนยันในประกาศทางการเมื่อเผยแพร่",
             "สัปดาห์ Emergency Mission เปลี่ยนไปจนถึงปลายพฤศจิกายน — ดูปฏิทิน Foundry",
@@ -12609,7 +12609,7 @@ export const CONTENT = {
         "ระบุการเลื่อนกำหนดการเฉพาะ Foundry แยกจากเซิร์ฟเวอร์เดิม"
       ],
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ช่วงล่าสุด: ปิดปรับปรุง 11/19 (พฤ.) เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. ประกาศชี้ไปที่ Version 8.7 2nd Update Content: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC. Guild War บน Foundry เปิดตัวหลังปิดปรับปรุงครั้งเดียวกัน (จัดทีมป้องกัน 11/21 03:00 UTC เริ่มแล้ว, จับคู่ 11/23 03:00 UTC ยังไม่ถึง). อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC; เก็บแครอทถึง 11/26 02:59 UTC; Moro/Lucky Board สิ้นสุด 11/19 02:59 UTC, ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ช่วงล่าสุด: ปิดปรับปรุง 11/19 (พฤ.) เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. ประกาศชี้ไปที่ Version 8.7 2nd Update Content: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC. Guild War บน Foundry เปิดตัวหลังปิดปรับปรุงครั้งเดียวกัน (จัดทีมป้องกัน 11/21 03:00 UTC เริ่มแล้ว, จับคู่ 11/23 03:00 UTC ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม)). อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC; เก็บแครอทถึง 11/26 02:59 UTC; Moro/Lucky Board สิ้นสุด 11/19 02:59 UTC, ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai. ตรวจประกาศทางการอีกครั้ง23พฤศจิกายน2026: การจับคู่ Guild War ของ Foundry ถึงเวลาเริ่มตามกำหนด23พฤศจิกายน11:00 Asia/Shanghai (03:00 UTC) แล้ว ช่วงของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดเวลาเดียวกัน ไม่ใช่กิจกรรมที่ล็อกอินรับได้ตอนนี้ นี่เป็นการยืนยันตารางประกาศ ไม่ใช่ผลการจับคู่หรือการโจมตีจริง โปรดตรวจสถานะกิลด์ในเกม"
     },
     "es": {
       "title": "Mantenimiento y notas de versión",
@@ -14686,7 +14686,7 @@ export const CONTENT = {
       "roster_h2": "速查名單表（與卡片相同）",
       "deep_h2": "養成節奏提示",
       "deep": [
-        "追卡池之前，先補齊專職輔助與刷圖手，對新手階段較穩妥。Foundry 成長增益可能改變升級速度，但不會取消專職材料與裝備製作門檻。本頁不製作版本強弱榜，技能倍率與材料以遊戲內提示為準。新服公會戰時點見[[Foundry 公會戰|/foundry/#guild-war]]（11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對尚未到；以 2026-11-21 19:18 核對）。非官方——請核對 STOVE。"
+        "追卡池之前，先補齊專職輔助與刷圖手，對新手階段較穩妥。Foundry 成長增益可能改變升級速度，但不會取消專職材料與裝備製作門檻。本頁不製作版本強弱榜，技能倍率與材料以遊戲內提示為準。新服公會戰時點見[[Foundry 公會戰|/foundry/#guild-war]]（11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對已到官方排程時間（實際進行狀態請看遊戲）；以 2026-11-21 19:18 核對）。非官方——請核對 STOVE。"
       ],
       "onsite_h2": "站內定位說明（非 wiki 鏡像）",
       "onsite": "分組卡、優先條與養成順序圖留在本頁。社群 wiki 摺疊於 Further reading。",
@@ -14920,7 +14920,7 @@ export const CONTENT = {
       "roster_h2": "ตารางรายชื่อฉบับย่อ (การ์ดเดียวกัน คัดลอกง่าย)",
       "deep_h2": "เคล็ดลับจังหวะการสร้างตัว",
       "deep": [
-        "ก่อนสุ่มแบนเนอร์ ควรเติมซัพพอร์ตสายเปลี่ยนความเชี่ยวชาญและฟาร์มเมอร์ก่อน เพราะช่วงเริ่มต้นจะปลอดภัยกว่า บัฟเติบโตของ Foundry อาจเปลี่ยนความเร็วเลเวล แต่ไม่ตัดเงื่อนไขวัตถุดิบเปลี่ยนความเชี่ยวชาญและการคราฟต์อุปกรณ์ หน้านี้ไม่ทำจัดอันดับความแข็งแกร่งของแพตช์ ค่าสกิลและวัตถุดิบให้ยึดทูลทิปในเกม กำหนดการ Guild War บนเซิร์ฟใหม่ดู [[Guild War บน Foundry|/foundry/#guild-war]] (เปิดตัวหลังปิดปรับปรุง 11/19, ทีมป้องกันเริ่ม 11/21 03:00 UTC, จับคู่ 11/23 03:00 UTC ยังไม่ถึง; ณ 2026-11-21 19:18) ไกด์อย่างไม่เป็นทางการ — ตรวจสอบ STOVE"
+        "ก่อนสุ่มแบนเนอร์ ควรเติมซัพพอร์ตสายเปลี่ยนความเชี่ยวชาญและฟาร์มเมอร์ก่อน เพราะช่วงเริ่มต้นจะปลอดภัยกว่า บัฟเติบโตของ Foundry อาจเปลี่ยนความเร็วเลเวล แต่ไม่ตัดเงื่อนไขวัตถุดิบเปลี่ยนความเชี่ยวชาญและการคราฟต์อุปกรณ์ หน้านี้ไม่ทำจัดอันดับความแข็งแกร่งของแพตช์ ค่าสกิลและวัตถุดิบให้ยึดทูลทิปในเกม กำหนดการ Guild War บนเซิร์ฟใหม่ดู [[Guild War บน Foundry|/foundry/#guild-war]] (เปิดตัวหลังปิดปรับปรุง 11/19, ทีมป้องกันเริ่ม 11/21 03:00 UTC, จับคู่ 11/23 03:00 UTC ถึงเวลาเริ่มตามประกาศแล้ว (ตรวจการจับคู่จริงในเกม); ณ 2026-11-21 19:18) ไกด์อย่างไม่เป็นทางการ — ตรวจสอบ STOVE"
       ],
       "onsite_h2": "บันทึกบทบาทในเว็บ (ไม่ใช่สำเนา wiki)",
       "onsite": "การ์ดจัดกลุ่ม แถบความสำคัญ และแผนภาพอยู่ในเว็บนี้ wiki ชุมชนถูกรวบไว้ใต้ Further reading เพื่อให้เส้นทางหลักอยู่บนเว็บ",
