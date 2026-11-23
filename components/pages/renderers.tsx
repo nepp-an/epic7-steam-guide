@@ -1,3 +1,4 @@
+import { EvergreenJump, FoundryRoadmap, SteamSymptomNavigator } from './EvergreenRoutes';
 import { GrowthHomePaths, FoundryActionRoutes } from '@/components/pages/GrowthRoutes';
 import { TaskChecklist } from '@/components/TaskChecklist';
 import { GROWTH_COPY, isGrowthLocale } from '@/lib/i18n/growth';
@@ -1352,6 +1353,7 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
       />
       <p>{c.lead}</p>
       <AdBanner468 />
+      {isGrowthLocale(locale) && <SteamSymptomNavigator locale={locale} />}
       <h2>{c.acct_h2}</h2>
       <ul>
         {c.acct.map((s) => (
@@ -1470,6 +1472,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       {isGrowthLocale(locale) && <p><a href="#calendar">{GROWTH_COPY[locale].full}</a></p>}
       <nav className="anchor-nav" aria-label={c.guide_h2}>
         <span className="anchor-nav-label">{c.guide_h2}</span>
+        {isGrowthLocale(locale) && <EvergreenJump locale={locale} kind="route" />}
         <a href="#server-guide">{c.unlock_h2}</a>
         <a href="#codes">{c.codes_h2}</a>
         <a href="#guild-war">{GW_LINK[locale]}</a>
@@ -1477,6 +1480,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       </nav>
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
+      {isGrowthLocale(locale) && <FoundryRoadmap locale={locale} />}
       <h2 id="server-guide">{c.guide_h2}</h2>
       <table className="data">
         <thead>

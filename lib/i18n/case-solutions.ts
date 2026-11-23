@@ -13,7 +13,11 @@ export const CASE_TASK_COPY = {
       "First category",
       "Second category"
     ],
-    "evidence": "Evidence boundary: culprit / decisive-clue pairs agree between Epic7Tools and GameKee. The other row assignments below follow GameKee’s community transcription; we have not independently checked them in the game. If your case number or statements differ, stop and follow your own clue list.",
+    "evidence": "Screenshot cross-check: all 15 pairs match two distinct player-board image sets—Traditional Chinese on Bahamut and Korean by Enkey on Cashfeed, linked per case. Culprit and decisive-clue pairs also agree with Epic7Tools’ readable text. These images show players’ selected O/X entries, not an official answer key, proof that every cell was accepted, or our own in-game completion. A transcription or repost is not another independent playtest. If your statements differ, follow your own clues.",
+    "secondSource": "Enkey / Cashfeed — Korean player report",
+    "secondImage": "Read the player board (Korean)",
+    "primary": "Bahamut — original player thread, floor",
+    "boardImage": "Read the player board (Traditional Chinese)",
     "rules": "Before you accuse — no spoilers",
     "steps": [
       "Check Case Progress at the top right. Finish the previous case before starting the next.",
@@ -64,7 +68,11 @@ export const CASE_TASK_COPY = {
       "第一類線索",
       "第二類線索"
     ],
-    "evidence": "證據範圍：犯人及決定性線索已比對Epic7Tools與GameKee；其餘人物配對依GameKee的社群轉錄整理，本站未在遊戲內逐格驗證。若案號或證詞不符，請停止套表，回到自己的線索清單。",
+    "evidence": "原圖交叉核對：15組配對已逐列比對兩組不同玩家看板影像——巴哈姆特繁中原帖與Enkey在Cashfeed的韓文紀錄，各案均附連結；犯人與決定性線索也與Epic7Tools可讀正文一致。這些圖顯示玩家填寫的O/X，不是官方答案表、每格已獲遊戲接受的證明，或本站實機通關；轉錄、轉載不另算獨立實測。若你的證詞不同，仍以自己的線索為準。",
+    "secondSource": "Enkey／Cashfeed——韓文玩家紀錄",
+    "secondImage": "查看玩家看板原圖（韓文）",
+    "primary": "巴哈姆特玩家原帖，樓層",
+    "boardImage": "查看玩家看板原圖（繁中）",
     "rules": "指認前先做完這些（無劇透）",
     "steps": [
       "查看右上事件進度，先完成前案再開始下一案。",
@@ -115,7 +123,11 @@ export const CASE_TASK_COPY = {
       "첫 번째 단서",
       "두 번째 단서"
     ],
-    "evidence": "근거 범위: 범인과 결정적 단서 조합은 Epic7Tools와 GameKee를 대조했습니다. 나머지 인물 대응은 GameKee의 커뮤니티 전사를 정리한 것으로, 이 사이트가 게임에서 직접 검증하지 않았습니다. 사건 번호나 증언이 다르면 표를 그대로 적용하지 마세요.",
+    "evidence": "원본 이미지 교차 대조: 15개 대응을 바하무트 번체 중국어 보드와 Enkey의 Cashfeed 한국어 보드라는 서로 다른 두 이미지 세트에서 행별로 읽었으며 모두 일치합니다. 각 사건에 원문과 이미지를 연결했습니다. 범인과 결정적 단서는 Epic7Tools 본문과도 같습니다. 이미지는 플레이어가 선택한 O/X이며 공식 정답표, 모든 칸의 게임 내 승인 증명, 본 사이트의 직접 클리어가 아닙니다. 전사·재게시를 추가 독립 플레이 검증으로 세지 않습니다. 증언이 다르면 본인 단서를 따르세요.",
+    "secondSource": "Enkey / Cashfeed — 한국어 플레이 기록",
+    "secondImage": "플레이어 보드 원본 보기 (한국어)",
+    "primary": "바하무트 플레이어 원글 — 층",
+    "boardImage": "플레이어 보드 원본 보기 (번체 중국어)",
     "rules": "지목 전 체크 — 스포일러 없음",
     "steps": [
       "우측 상단 사건 진행도를 확인하세요. 이전 사건을 완료해야 다음 사건으로 넘어갑니다.",
@@ -166,7 +178,11 @@ export const CASE_TASK_COPY = {
       "เบาะแสหมวดแรก",
       "เบาะแสหมวดที่สอง"
     ],
-    "evidence": "ขอบเขตหลักฐาน: เทียบชื่อผู้กระทำผิดและเบาะแสชี้ตัวจาก Epic7Tools กับ GameKee แล้ว ส่วนคู่ข้อมูลตัวละครอื่นเรียบเรียงจากบันทึกชุมชนของ GameKee เรายังไม่ได้ตรวจทุกช่องในเกม หากเลขคดีหรือคำให้การต่างกัน อย่าใช้ตารางนี้แทนข้อมูลในเกม",
+    "evidence": "ตรวจเทียบภาพต้นทางครบ15คู่กับกระดานสองชุดที่ต่างกัน คือภาพจีนตัวเต็มในBahamutและภาพเกาหลีของEnkeyบนCashfeed ซึ่งให้ค่าตรงกันและมีลิงก์แยกแต่ละคดี ผู้กระทำผิดกับคำใบ้ชี้ขาดยังตรงกับข้อความEpic7Tools ภาพเหล่านี้แสดงO/Xที่ผู้เล่นเลือก ไม่ใช่เฉลยทางการ หลักฐานว่าเกมยอมรับทุกช่อง หรือการเล่นจบด้วยตัวเราเอง การถอดข้อความ/โพสต์ซ้ำไม่นับเป็นการทดสอบอิสระเพิ่ม หากคำให้การต่างให้ยึดคำใบ้ของคุณ",
+    "secondSource": "Enkey / Cashfeed — บันทึกผู้เล่นเกาหลี",
+    "secondImage": "ดูภาพกระดานต้นทาง (เกาหลี)",
+    "primary": "กระทู้ผู้เล่นต้นทาง Bahamut — ชั้น",
+    "boardImage": "ดูภาพกระดานต้นทาง (จีนตัวเต็ม)",
     "rules": "ทำก่อนกล่าวหา — ไม่มีสปอยล์",
     "steps": [
       "ดู Case Progress มุมขวาบน ต้องจบคดีก่อนหน้าจึงไปคดีถัดไปได้",

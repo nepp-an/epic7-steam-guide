@@ -10,6 +10,16 @@ import { BoardDiagram, CaseGlyph, EntryDiagram, TroubleDiagram } from './CaseDia
 
 export const CASE_FILES_LOCALES = ['en', 'ko', 'zh-tw', 'th'] as const;
 export type CaseFilesLocale = (typeof CASE_FILES_LOCALES)[number];
+const PRIMARY_BOARDS = [
+  'https://truth.bahamut.com.tw/s01/202611/forum/34880/76437ee9d1a067f0ff4e06caf2cc59c9.JPG',
+  'https://truth.bahamut.com.tw/s01/202611/forum/34880/98eeab7245cd7eaa073f8aa7ec774de2.JPG',
+  'https://truth.bahamut.com.tw/s01/202611/forum/34880/1f2998c6a91c87df84a7dda604b77c7f.JPG',
+] as const;
+const SECOND_REPORTS = [
+  ['https://www.cashfeed.co.kr/posts/16452672', 'https://cdn.cashfeed.co.kr/attachments/af7d9b4cb1.jpg'],
+  ['https://www.cashfeed.co.kr/posts/16471499', 'https://cdn.cashfeed.co.kr/attachments/7584afdd41.jpg'],
+  ['https://www.cashfeed.co.kr/posts/16489128', 'https://cdn.cashfeed.co.kr/attachments/ca781b8ca0.jpg'],
+] as const;
 const CULPRITS = ['Bunny Girl Great Detective Moro', 'Bunny Girl Dancer Ilynav', 'Bunny Girl Maid Cecilia'];
 const NAMES: Record<string, string> = {
   Yufine: 'Bunny Girl Mafia Yufine',
@@ -88,15 +98,10 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
                 </div>
                 <p className="muted">{c.evidence}</p>
                 <ul className="sources">
+                  <li><ExternalLink href="https://forum.gamer.com.tw/C.php?bsn=34880&snA=15640">{c.primary} {i + 1}</ExternalLink>{' · '}<ExternalLink href={PRIMARY_BOARDS[i]}>{c.boardImage}</ExternalLink></li>
+                  <li><ExternalLink href={SECOND_REPORTS[i][0]}>{c.secondSource}</ExternalLink>{' · '}<ExternalLink href={SECOND_REPORTS[i][1]}>{c.secondImage}</ExternalLink></li>
                   <li><ExternalLink href="https://epic7tools.dev/guides/secret-rabbit-hole/">Epic7Tools — Cases 1–3</ExternalLink></li>
                   <li><ExternalLink href="https://www.gamekee.com/epic7/727226.html">GameKee — Cases 1–3</ExternalLink></li>
-                  {i === 1 && (
-                    <li>
-                      <ExternalLink href="https://page.onstove.com/EPICSeven/kr/view/14626349">
-                        STOVE — community discussion, Case 2
-                      </ExternalLink>
-                    </li>
-                  )}
                 </ul>
               </details>
             </section>

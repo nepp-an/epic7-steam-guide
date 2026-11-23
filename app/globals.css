@@ -1454,3 +1454,14 @@ main:has(.case-dossier) {
     grid-template-columns: 1fr;
   }
 }
+
+/* Existing-URL progression and Steam triage cards; local sizing only. */
+.evergreen-guide { margin-block: 1.6rem; min-width: 0; }
+.evergreen-guide .evergreen-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 1rem; }
+.evergreen-guide .evergreen-card { min-width: 0; overflow-wrap: anywhere; }
+.evergreen-guide dl { margin: 0; }
+.evergreen-guide dl > div { margin-block: .75rem; }
+.evergreen-guide dt { font-weight: 700; }
+.evergreen-guide dd { margin: .2rem 0 0; }
+.evergreen-guide .anchor-nav { flex-wrap: wrap; }
+.evergreen-guide .anchor-nav a { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
