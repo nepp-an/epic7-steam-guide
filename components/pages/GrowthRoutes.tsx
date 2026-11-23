@@ -2,6 +2,7 @@ import { LocaleLink as L } from '@/components/LocaleLink';
 import { ExternalLink } from '@/components/ExternalLink';
 import { GROWTH_COPY, type GrowthLocale } from '@/lib/i18n/growth';
 import { FoundryUpcomingEventsNote } from '@/components/pages/ActiveEventRoutes';
+import { FoundryClaimWindowsNote } from '@/components/pages/ClaimWindows';
 import { OFFICIAL } from '@/lib/site';
 
 export function GrowthHomePaths({locale}: {locale: GrowthLocale}) {
@@ -17,6 +18,7 @@ export function FoundryActionRoutes({locale}: {locale: GrowthLocale}) {
   <h2 id="foundry-next-action">{c.routeTitle}</h2>
   <div className="task-grid">{(['today','week','next'] as const).map(group => <article key={group} className="card task-card"><h3>{c[group]}</h3><ul>{c.tasks.filter(task => task[1] === group).map(task => <li key={task[0]}><L locale={locale} href={`/quests/#task-${task[0]}`}>{task[2]}</L><p>{task[4]}</p><p className="muted">{task[5]}</p></li>)}</ul></article>)}</div>
   <p className="schedule-note">{c.schedule}</p><p>{c.mode}</p>
+  <FoundryClaimWindowsNote locale={locale} />
   <FoundryUpcomingEventsNote locale={locale} />
   <p><ExternalLink href="https://store.steampowered.com/news/app/5019180/view/1848664643349012">Steam — Foundry Guild War (11/07)</ExternalLink>{' · '}<ExternalLink href={OFFICIAL.stoveVersion87Update}>STOVE — 11/19</ExternalLink></p>
  </section>;

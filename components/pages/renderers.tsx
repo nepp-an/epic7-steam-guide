@@ -1,6 +1,7 @@
 import { EvergreenJump, FoundryRoadmap, SteamSymptomNavigator } from './EvergreenRoutes';
 import { GrowthHomePaths, FoundryActionRoutes } from '@/components/pages/GrowthRoutes';
 import { ActiveEventRoutes, PalaceMaidBannerNote, PalaceMaidRabbitNote } from '@/components/pages/ActiveEventRoutes';
+import { ClaimWindows } from '@/components/pages/ClaimWindows';
 import { isActiveEventsLocale } from '@/lib/i18n/activeEvents';
 import { TaskChecklist } from '@/components/TaskChecklist';
 import { GROWTH_COPY, isGrowthLocale } from '@/lib/i18n/growth';
@@ -2353,6 +2354,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
         doneText={cl.questDone}
       />
       )}
+      {isGrowthLocale(locale) && <ClaimWindows locale={locale} />}
       {isActiveEventsLocale(locale) && <ActiveEventRoutes locale={locale} />}
       <AdBanner468 />
       <Fig

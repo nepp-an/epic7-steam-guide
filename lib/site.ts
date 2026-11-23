@@ -243,6 +243,8 @@ export const OFFICIAL = {
   stoveVersion87Update:
     'https://page.onstove.com/epicseven/GLOBAL/view/14638143',
   stoveFoundry: 'https://page.onstove.com/epicseven/global/view/14571828',
+  stoveWishlist100k:
+    'https://page.onstove.com/epicseven/global/view/14606492',
   stoveDemoDelete: 'https://page.onstove.com/epicseven/global/view/14581667',
   stoveHome: 'https://page.onstove.com/epicseven/global',
   stoveAnnouncements: 'https://page.onstove.com/epicseven/global/list/986',

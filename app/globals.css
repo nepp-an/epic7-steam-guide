@@ -1163,6 +1163,32 @@ summary:focus-visible, .task-route:focus-visible, .task-checklist button:focus-v
   overflow-wrap: normal;
 }
 
+/* Claim-windows tables reuse the same narrow-screen number rule.
+   Do not alter the #event-routes selectors above (pending independent recheck). */
+#claim-windows { scroll-margin-top: 8rem; }
+#claim-windows .event-route-table {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#claim-windows .event-route-table table.data {
+  width: max-content;
+  min-width: 100%;
+  overflow: visible;
+}
+#claim-windows .event-route-table th,
+#claim-windows .event-route-table td {
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+}
+#claim-windows .event-route-table th.num,
+#claim-windows .event-route-table td.num {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+
+
 /* Case Files dossier visual (2026-11-23). PageShell stays frozen; widen only this page. */
 main:has(.case-dossier) {
   max-width: 68rem;
