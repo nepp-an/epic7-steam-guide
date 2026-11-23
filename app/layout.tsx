@@ -31,11 +31,6 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3175943774981621"
           crossOrigin="anonymous"
         />
-        {/* Adsterra popunder — classic script, one per page; sits after AdSense and before </head>. */}
-        <script
-          data-cfasync="false"
-          src="https://abscloud.org/1/75744de4f5c51a8f39eccbfc87cc86e7"
-        />
       </head>
       <body>
         {/* GA4: E7 Steam Guide property only (G-QY1D1CDXDZ). Not ArtCraft. */}

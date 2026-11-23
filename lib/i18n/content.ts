@@ -3703,7 +3703,7 @@ export const CONTENT = {
         "Choose a login method other than Steam to convert the temporary account.",
         "Then convert the original email/SNS account to a Steam login."
       ],
-      "conflict_note": "The official Q3 answer does not require withdrawal or a uniform waiting period. If a button is greyed out, follow the current STOVE UI / CS wording. Do not use third-party unlock tools.",
+      "conflict_note": "The official Q3 Convert answer does not require withdrawal. Separately, the official account conversion guide says that if you transferred within the last 3 months, you must wait 3 months from the last transfer before transferring again; after the wait, continue from STOVE > [My Info]. If you cannot log in before it ends, contact STOVE customer service. This is not a blanket wait for every first-time link. Do not use third-party unlock tools.",
       "cooldown_h2": "“Already registered” and a greyed-out Transfer button",
       "cooldown_lead": "Two errors account for most stuck transfers. Read the exact STOVE message before creating another account or deleting anything.",
       "cooldown_th": [
@@ -3719,8 +3719,8 @@ export const CONTENT = {
         ],
         [
           "Transfer button greyed out",
-          "STOVE is showing a hold or a greyed-out button, or the login is not eligible yet. The official Q3 answer states no uniform 3-month waiting period.",
-          "Read the current condition and date in STOVE UI. Follow the on-screen wording or ask STOVE CS; no third-party unlock is official."
+          "STOVE is showing a hold or a greyed-out button, or the login does not meet the current condition. The official account conversion guide says that if you transferred within the last 3 months, you must wait 3 months from the last transfer before transferring again.",
+          "Read the current condition and date in STOVE UI. After the wait, proceed from STOVE > [My Info]; if you cannot log in before it ends, contact STOVE customer service. No third-party unlock is official."
         ],
         [
           "Converted, but old heroes are missing",
@@ -3728,7 +3728,7 @@ export const CONTENT = {
           "Confirm the login pair, then use the official Convert sequence. Never use in-game account deletion after transfer."
         ]
       ],
-      "cooldown_note": "The official Q3 answer does not state a uniform 3-month cooldown. Button state and dates are account-specific — read STOVE UI / CS. This unofficial guide cannot reset it.",
+      "cooldown_note": "The 3-month condition applies to a repeat transfer within the last 3 months — not to every first-time bind. After the wait, continue from STOVE > [My Info]; if login is blocked during the wait, contact STOVE CS. Button state and dates are account-specific. Official account conversion guide checked 2026-11-22. This unofficial guide cannot reset it.",
       "cross_h2": "Cross-play notes",
       "cross": [
         "Steam, STOVE PC, and mobile share gameplay with cross-play (per FAQ).",
@@ -3746,7 +3746,7 @@ export const CONTENT = {
         ],
         [
           "STOVE says “already been registered” — what now?",
-          "That Steam ID is already linked to another STOVE login — often the temporary account Steam created on first launch. Do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Official Q3 states no uniform 3-month wait; confirm the current button/conditions in STOVE UI or CS."
+          "That Steam ID is already linked to another STOVE login — often the temporary account Steam created on first launch. Do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. If you transferred within the last 3 months, the repeat-transfer 3-month condition may apply; see the greyed-out answer and the official account conversion guide. Confirm the current button/conditions in STOVE UI or CS."
         ],
         [
           "Do I lose heroes when transferring to Steam?",
@@ -3855,7 +3855,7 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "Steam이 이미 새 계정을 만든 경우",
-      "conflict_intro": "공식 FAQ 3번(요약): Steam으로 만든 임시 STOVE 계정은 삭제하지 않습니다. 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인으로 임시 계정을 변환한 뒤, 원래 이메일/SNS 계정을 Steam 로그인으로 변환합니다. 공식 답변에는 탈퇴나 일괄 대기 기간이 없습니다.",
+      "conflict_intro": "공식 FAQ 3번(요약): Steam으로 만든 임시 STOVE 계정은 삭제하지 않습니다. 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인으로 임시 계정을 변환한 뒤, 원래 이메일/SNS 계정을 Steam 로그인으로 변환합니다. 공식 답변은 탈퇴를 요구하지 않습니다. 별도로, 최근 3개월 안에 이전했다면 마지막 이전일로부터 3개월이 지나야 다시 이전할 수 있습니다. 이는 반복 이전 조건이며 모든 최초 연동에 적용되는 일괄 대기가 아닙니다.",
       "conflict_steps": [
         "STOVE 로그인 화면에서 Steam 로그인 방식을 선택해 STOVE에 가입/로그인합니다.",
         "그 Steam 계정으로 STOVE 웹에 로그인한 뒤 [내 프로필 아이콘 > 계정 정보]에서 Convert를 선택합니다.",
@@ -3863,7 +3863,7 @@ export const CONTENT = {
         "그다음 원래 사용하던 이메일 또는 SNS 계정을 Steam 로그인 계정으로 변환합니다.",
         "인게임 계정 삭제는 누르지 마세요 — 전환 후에는 원서버 진행도까지 삭제될 수 있습니다(view/14581667)."
       ],
-      "conflict_note": "공식 FAQ에는 탈퇴나 통일된 대기 기간이 없습니다. 화면 버튼 이름과 조건이 다르면 STOVE 현재 UI와 원문을 따르고, 삭제는 누르지 마세요. 제3자 해제 툴은 쓰지 마세요. 본 사이트는 비공식 안내입니다.",
+      "conflict_note": "공식 FAQ 3번 Convert 답변은 탈퇴를 요구하지 않습니다. 별도로 공식 계정 전환 가이드는 최근 3개월 안에 이전했다면 마지막 이전일로부터 3개월이 지나야 다시 이전할 수 있다고 안내합니다. 대기 기간이 끝나면 STOVE > [내 정보]에서 바로 진행하고, 그 전에 로그인할 수 없다면 STOVE 고객센터에 문의하세요. 모든 최초 연동에 적용되는 일괄 대기는 아닙니다. 화면 버튼 이름과 조건이 다르면 STOVE 현재 UI와 원문을 따르고, 삭제는 누르지 마세요. 제3자 해제 툴은 쓰지 마세요. 본 사이트는 비공식 안내입니다.",
       "cooldown_h2": "“이미 등록됨” 오류와 전환 조건",
       "cooldown_lead": "이전이 막히는 경우는 대개 Steam이 만든 임시 STOVE 계정이 남아 있기 때문입니다. 계정을 삭제하거나 새로 만들기 전에 공식 FAQ 3번의 Convert 순서와 STOVE 화면 문구를 확인하세요.",
       "cooldown_th": [
@@ -3879,8 +3879,8 @@ export const CONTENT = {
         ],
         [
           "이전 버튼이 비활성화됨",
-          "STOVE가 전환 자격/보류 상태를 표시 중이거나 화면 조건이 맞지 않습니다. 공식 FAQ에는 탈퇴 선행이나 일괄 3개월 대기가 없습니다.",
-          "STOVE에 표시된 조건과 날짜를 읽고 현재 버튼/원문을 따르세요. 막히면 STOVE 고객지원에 문의하고 제3자 해제 툴은 쓰지 마세요."
+          "STOVE가 전환 자격/보류 상태를 표시 중이거나 화면 조건이 맞지 않습니다. 공식 계정 전환 가이드에 따르면 최근 3개월 안에 이전했다면 마지막 이전일로부터 3개월이 지나야 다시 이전할 수 있습니다.",
+          "STOVE에 표시된 조건과 날짜를 읽으세요. 대기 기간이 끝나면 STOVE > [내 정보]에서 진행하고, 그 전에 로그인할 수 없다면 STOVE 고객지원에 문의하세요. 제3자 해제 툴은 쓰지 마세요."
         ],
         [
           "전환했는데 옛 영웅이 없음",
@@ -3888,7 +3888,7 @@ export const CONTENT = {
           "로그인 쌍을 확인하고 공식 Convert 순서로 원래 계정을 Steam 로그인으로 변환하세요. 전환 후 인게임 계정 삭제는 절대 쓰지 마세요."
         ]
       ],
-      "cooldown_note": "3개월 쿨다운은 공식 FAQ 3번에 나오는 절차가 아닙니다. 사이트에 고정된 규칙처럼 쓰지 말고, 실제 조건과 기간은 STOVE 계정 UI와 고객센터 답변에서 확인하세요. 본 비공식 가이드는 이를 초기화할 수 없습니다.",
+      "cooldown_note": "3개월 조건은 최근 3개월 안에 한 번 이전한 경우의 반복 이전에 적용되며, 모든 최초 연동에 적용되는 일괄 대기가 아닙니다. 대기 후에는 STOVE > [내 정보]에서 진행하고, 대기 중 로그인이 막히면 STOVE 고객센터에 문의하세요. 실제 조건과 기간은 STOVE 계정 UI와 고객센터 답변에서 확인하세요. 공식 계정 전환 가이드는 2026-11-22에 확인했습니다. 본 비공식 가이드는 이를 초기화할 수 없습니다.",
       "cross_h2": "크로스플레이 메모",
       "cross": [
         "Steam·STOVE PC·모바일은 동일 경험과 크로스플레이를 지원한다고 FAQ에 안내됩니다.",
@@ -3906,7 +3906,7 @@ export const CONTENT = {
         ],
         [
           "STOVE에 “already been registered”가 뜨면 어떻게 하나요?",
-          "해당 Steam ID가 다른 STOVE 로그인(임시 계정 포함)에 이미 연결되어 있을 수 있습니다. 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 임시 계정을 변환한 뒤, 원래 이메일/SNS를 Steam 로그인으로 변환하세요. Steam 계정을 계속 만들지 말고, 정확한 버튼/조건은 STOVE 화면과 공식 FAQ에서 확인하세요."
+          "해당 Steam ID가 다른 STOVE 로그인(임시 계정 포함)에 이미 연결되어 있을 수 있습니다. 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 임시 계정을 변환한 뒤, 원래 이메일/SNS를 Steam 로그인으로 변환하세요. Steam 계정을 계속 만들지 말고, 최근 3개월 안에 이전했다면 반복 이전 3개월 조건이 적용될 수 있으니 비활성화 답변과 공식 계정 전환 가이드를 확인하세요. 정확한 버튼/조건은 STOVE 화면과 공식 FAQ에서 확인하세요."
         ],
         [
           "Steam 전환 시 영웅을 잃나요?",
@@ -3975,7 +3975,7 @@ export const CONTENT = {
       ],
       "deep_h2": "플레이어가 막히는 이유(비공식)",
       "deep": [
-        "런칭 주간에 공개 FAQ 스레드에서 자주 보이는 막힘은 대개 세 갈래입니다. Steam을 전환 전에 먼저 실행한 경우, 빈 데모 계정을 인게임 삭제로 「정리」하려 한 경우, 계정 이전이 곧 파운드리 입장인 줄 아는 경우입니다. 복구 순서는 항상 같습니다. Steam이 인가한 STOVE 신원을 확인하고, Steam이 만든 임시 계정은 삭제하지 말고 공식 FAQ 3번대로 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 이메일/SNS 로그인을 Steam 로그인으로 전환하세요. 파괴적인 UI를 누르기 전에 STOVE Steam FAQ(view/14378309)와 데모 주의(view/14581667)를 인용·확인하세요. 공식 FAQ에는 탈퇴나 일괄 대기 기간이 없습니다. 화면 버튼과 조건이 다르면 STOVE 현재 UI와 원문을 따르세요。",
+        "런칭 주간에 공개 FAQ 스레드에서 자주 보이는 막힘은 대개 세 갈래입니다. Steam을 전환 전에 먼저 실행한 경우, 빈 데모 계정을 인게임 삭제로 「정리」하려 한 경우, 계정 이전이 곧 파운드리 입장인 줄 아는 경우입니다. 복구 순서는 항상 같습니다. Steam이 인가한 STOVE 신원을 확인하고, Steam이 만든 임시 계정은 삭제하지 말고 공식 FAQ 3번대로 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 이메일/SNS 로그인을 Steam 로그인으로 전환하세요. 파괴적인 UI를 누르기 전에 STOVE Steam FAQ(view/14378309)와 데모 주의(view/14581667)를 인용·확인하세요. 공식 FAQ 3번 Convert 답변은 탈퇴를 요구하지 않으며, 반복 이전에는 최근 3개월 조건이 적용될 수 있습니다. 화면 버튼과 조건이 다르면 STOVE 현재 UI와 원문을 따르세요。",
         "이 페이지는 지도일 뿐 고객지원 창구가 아닙니다. 전환 조건을 초기화하거나 Steam 연동을 강제로 풀거나 삭제된 진행도를 복구할 수 없습니다. 스크린샷을 남기고 공식 CS를 이용하며, 점검 패치로 문구가 바뀌면 최신 STOVE 화면을 다시 읽으세요. 올바른 전환 이후의 크로스플레이는 공식 FAQ에 설명되어 있고, 파운드리는 별도의 서버 선택이며 길드전은 11/19 도입, 11/21 03:00 UTC 방어팀, 11/23 03:00 UTC 매칭입니다. 이전 가이드·데모 주의·파운드리 캘린더·Steam 안내·다운로드 체크리스트를 함께 열어 두고 작업하세요.",
         "구매·미수령 보상·에픽패스 이전 여부는 공식 Steam FAQ 문구를 기준으로 하되, 실행 직전 다시 확인하세요. 제3자 「즉시 해제」 툴, 계정 거래, 비공식 실행 파일은 악성코드·약관 위반 위험이 큽니다. 정보가 충돌하면 항상 STOVE와 Steam 스토어(app 5019180) 원문을 우선합니다. 본 사이트 epicsevensteam.com은 Smilegate·STOVE·Valve·Steam과 무관한 비공식 플레이어 정보입니다。",
         "추가로, Steam 데모와 정식 클라이언트를 혼용할 때는 항상 정식 app 5019180 설치 상태를 먼저 확인하세요. 데모 잔여 로그인이 남아 있으면 전환 UI가 「이미 연동됨」으로 막힐 수 있고, 이때 인게임 삭제로 해결하려 하면 STOVE 주의가 경고한 원서버 데이터 손실 경로로 빠질 수 있습니다. 복구는 공식 Convert 순서만 따르고, 임시 계정을 삭제하거나 새 캐릭터를 키워 손해를 키우지 마세요. 크로스플레이·가격·에픽패스 문구는 공식 FAQ를 재확인하고, 파운드리 참가 여부는 이전과 별도로 결정하세요. 작업 중 다운로드 체크리스트·Steam 안내·데모 주의·FAQ 허브를 함께 두면 실수가 줄어듭니다. 본 비공식 가이드는 고객지원을 대체하지 않습니다。"
@@ -4181,7 +4181,7 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "若 Steam 已建立新帳",
-      "conflict_intro": "官方 FAQ 第 3 問（摘要）：不要刪除 Steam 建立的臨時 STOVE 帳。先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本的電子郵件／社群帳號轉成 Steam 登入。官方答覆沒有要求註銷，也沒有統一等待期。",
+      "conflict_intro": "官方 FAQ 第 3 問（摘要）：不要刪除 Steam 建立的臨時 STOVE 帳。先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本的電子郵件／社群帳號轉成 Steam 登入。官方答覆沒有要求註銷。另依官方帳號轉換指南，若最近 3 個月內做過轉移，必須從上次轉移日起等滿 3 個月才能再次轉移；這是重複轉移的適用條件，不是所有首次綁定都須等待。",
       "conflict_steps": [
         "在 STOVE 登入頁選擇 Steam 登入方式並註冊／登入 STOVE。",
         "以該 Steam 帳號登入 STOVE 網站，於 [我的個人檔案圖示 > 帳號資訊] 選擇 Convert。",
@@ -4189,7 +4189,7 @@ export const CONTENT = {
         "再把原本使用的電子郵件或社群帳號轉成 Steam 登入帳號。",
         "不要按遊戲內刪號——轉換後可能連原服進度一起刪除（view/14581667）。"
       ],
-      "conflict_note": "官方 FAQ 沒有要求註銷，也沒有統一等待期。畫面按鈕名稱與條件不同時，以 STOVE 目前 UI 與原文為準；不要按刪除，也不要使用第三方解鎖工具。本站為非官方說明。",
+      "conflict_note": "官方 FAQ 第 3 問的 Convert 答覆沒有要求註銷。另依官方帳號轉換指南，若最近 3 個月內做過轉移，必須從上次轉移日起等滿 3 個月才能再次轉移；等待結束後可從 STOVE > [我的資訊] 繼續，若等待期內無法登入，請聯絡 STOVE 客服。這不是所有首次綁定都須等待的統一規定。畫面按鈕名稱與條件不同時，以 STOVE 目前 UI 與原文為準；不要按刪除，也不要使用第三方解鎖工具。本站為非官方說明。",
       "cooldown_h2": "「already registered」錯誤與轉換條件",
       "cooldown_lead": "轉移卡住多半是 Steam 建立的臨時 STOVE 帳還在。建立新帳或刪除任何東西前，先讀官方 FAQ 第 3 問的 Convert 順序與 STOVE 畫面原文。",
       "cooldown_th": [
@@ -4205,8 +4205,8 @@ export const CONTENT = {
         ],
         [
           "轉移按鈕灰掉",
-          "STOVE 顯示轉換資格／保留狀態，或畫面條件尚未符合。官方 FAQ 沒有要求先註銷，也沒有統一三個月等待期。",
-          "讀 STOVE 顯示的條件與日期，依目前按鈕與原文處理。卡住時詢問 STOVE 客服；不要使用第三方解鎖。"
+          "STOVE 顯示轉換資格／保留狀態，或畫面條件尚未符合。官方帳號轉換指南指出，若最近 3 個月內做過轉移，必須從上次轉移日起等滿 3 個月才能再次轉移。",
+          "讀 STOVE 顯示的條件與日期。等待結束後可從 STOVE > [我的資訊] 繼續；若等待期內無法登入，請聯絡 STOVE 客服。不要使用第三方解鎖。"
         ],
         [
           "轉換了但舊英雄不見",
@@ -4214,7 +4214,7 @@ export const CONTENT = {
           "確認登入組合，依官方 Convert 順序把原帳號轉成 Steam 登入。轉移後絕不要用遊戲內刪號。"
         ]
       ],
-      "cooldown_note": "三個月冷靜期不是官方 FAQ 第 3 問的步驟。不要把它當成固定規則；實際條件與期間以 STOVE 帳號介面或客服回覆為準。本非官方指南無法解除。",
+      "cooldown_note": "三個月條件適用於最近 3 個月內做過轉移的重複轉移，不是所有首次綁定都須等待。等待結束後從 STOVE > [我的資訊] 繼續；若等待期內無法登入，請聯絡 STOVE 客服。實際條件與期間以 STOVE 帳號介面或客服回覆為準。官方帳號轉換指南於 2026-11-22 核對。本非官方指南無法解除。",
       "cross_h2": "跨平台備註",
       "cross": [
         "Steam、STOVE PC、手機同體驗並支援跨平台（FAQ）。",
@@ -4232,7 +4232,7 @@ export const CONTENT = {
         ],
         [
           "STOVE 顯示「already been registered」怎麼辦？",
-          "該 Steam ID 可能已連結另一個 STOVE 登入（包含臨時帳號）。不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] > Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本 Email／SNS 轉成 Steam 登入。不要一直新開 Steam 帳號；實際按鈕與條件請以 STOVE 畫面及官方 FAQ 為準。"
+          "該 Steam ID 可能已連結另一個 STOVE 登入（包含臨時帳號）。不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] > Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本 Email／SNS 轉成 Steam 登入。不要一直新開 Steam 帳號；若最近 3 個月內做過轉移，重複轉移的 3 個月條件可能適用，請看按鈕反灰的答案與官方帳號轉換指南。實際按鈕與條件請以 STOVE 畫面及官方 FAQ 為準。"
         ],
         [
           "轉 Steam 會丢掉英雄嗎？",
@@ -4301,7 +4301,7 @@ export const CONTENT = {
       ],
       "deep_h2": "玩家卡關常見原因（非官方）",
       "deep": [
-        "上架週在公開 FAQ 討論裡常見的卡住點大致三類：轉換前就先開 Steam、想用遊戲內刪號「清掉」空白試玩帳、以為帳號轉移等於進入 Foundry。復原順序永遠相同：確認 Steam 授權的是哪個 STOVE 身分；若是 Steam 建立的臨時帳號，不要註銷，改用官方 FAQ 第 3 問的 Convert：以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 把臨時帳號轉成 Steam 以外的登入，再把原本 Email／SNS 轉成 Steam 登入。按下破壞性介面前，請查閱並引用 STOVE Steam FAQ（view/14378309）與試玩注意（view/14581667）。官方 FAQ 沒有要求註銷，也沒有統一等待期；按鈕與條件不同時以 STOVE 畫面與原文為準。",
+        "上架週在公開 FAQ 討論裡常見的卡住點大致三類：轉換前就先開 Steam、想用遊戲內刪號「清掉」空白試玩帳、以為帳號轉移等於進入 Foundry。復原順序永遠相同：確認 Steam 授權的是哪個 STOVE 身分；若是 Steam 建立的臨時帳號，不要註銷，改用官方 FAQ 第 3 問的 Convert：以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 把臨時帳號轉成 Steam 以外的登入，再把原本 Email／SNS 轉成 Steam 登入。按下破壞性介面前，請查閱並引用 STOVE Steam FAQ（view/14378309）與試玩注意（view/14581667）。官方 FAQ 第 3 問的 Convert 答覆沒有要求註銷；重複轉移可能適用最近 3 個月條件。按鈕與條件不同時以 STOVE 畫面與原文為準。",
         "本頁只是地圖，不是客服窗口。我們無法重設轉換條件、強制解綁 Steam，或復原已清除的進度。請保留截圖、走官方客服，並在維護改文案後重讀最新 STOVE 畫面。正確轉換後的跨平台以官方 FAQ 為準；Foundry 是另一個伺服器選擇，公會戰為 11/19 導入、11/21 03:00 UTC 防禦隊伍、11/23 03:00 UTC 配對。操作時建議同時打開轉移指南、試玩警告、Foundry 日程、Steam 說明與下載清單。",
         "儲值、未領獎勵、Epic Pass 是否帶過以官方 Steam FAQ 原文為準，動手前記得再查一次。第三方「立刻解綁」工具、賣帳、非官方執行檔有惡意軟體與違規風險。資訊衝突時永遠優先 STOVE 與 Steam 商店（app 5019180）原文。本站 epicsevensteam.com 為與 Smilegate、STOVE、Valve、Steam 無關的非官方玩家資訊。",
         "此外，混用 Steam 試玩與正式客戶端時，請先確認已安裝正式 app 5019180。若仍留有試玩登入，轉換介面可能顯示「已連結」而卡住；若此時想用遊戲內刪號解決，就可能掉進 STOVE 注意所警告的原服資料損失路徑。復原只走官方 Convert 順序，不要註銷帳號或養成新角色加深損失。跨平台、售價、Epic Pass 文案請再對官方 FAQ；是否進 Foundry 與轉移分開決定。操作時同時開著下載清單、Steam 說明、試玩警告與 FAQ 中心可減少失誤。本非官方指南不能取代客服。"
@@ -4344,7 +4344,7 @@ export const CONTENT = {
         ]
       ],
       "conflict_h2": "ถ้า Steam สร้างบัญชีใหม่ไปแล้ว",
-      "conflict_intro": "สรุปจาก FAQ ทางการข้อ 3: อย่าถอนบัญชี STOVE ชั่วคราวที่ Steam สร้าง ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นวิธีล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงอีเมล/SNS เดิมเป็นล็อกอิน Steam คำตอบทางการไม่ได้กำหนดให้ถอนบัญชีหรือรอเป็นระยะเหมารวม",
+      "conflict_intro": "สรุปจาก FAQ ทางการข้อ 3: อย่าถอนบัญชี STOVE ชั่วคราวที่ Steam สร้าง ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นวิธีล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงอีเมล/SNS เดิมเป็นล็อกอิน Steam คำตอบทางการไม่ได้กำหนดให้ถอนบัญชี. คู่มือแปลงบัญชีทางการระบุว่า หากโอนย้ายภายใน 3 เดือนล่าสุด ต้องรอให้ครบ 3 เดือนนับจากวันที่โอนย้ายครั้งล่าสุดก่อนจึงจะโอนย้ายได้อีกครั้ง; นี่เป็นเงื่อนไขการโอนย้ายซ้ำ ไม่ใช่การรอแบบเหมารวมสำหรับการผูกครั้งแรกทุกครั้ง",
       "conflict_steps": [
         "ที่หน้าเข้าสู่ระบบ STOVE เลือกวิธีล็อกอิน Steam แล้วลงทะเบียน/เข้าสู่ระบบ STOVE",
         "ล็อกอินเว็บ STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี]",
@@ -4352,7 +4352,7 @@ export const CONTENT = {
         "จากนั้นแปลงอีเมลหรือบัญชี SNS เดิมที่เคยใช้ให้เป็นบัญชีล็อกอิน Steam",
         "อย่ากดลบบัญชีในเกม — หลังแปลงแล้วอาจลบความคืบหน้าบนเซิร์ฟเวอร์เดิมด้วย (view/14581667)"
       ],
-      "conflict_note": "FAQ ทางการไม่ได้กำหนดให้ถอนบัญชีหรือรอเป็นระยะเหมารวม หากชื่อปุ่มและเงื่อนไขบนหน้าจอต่างออกไป ให้ยึด UI และข้อความ STOVE ปัจจุบัน อย่ากดลบ และอย่าใช้เครื่องมือปลดล็อกจากบุคคลที่สาม เว็บนี้เป็นคู่มือที่ไม่เป็นทางการ",
+      "conflict_note": "FAQ ทางการข้อ 3 (Convert) ไม่ได้กำหนดให้ถอนบัญชี. คู่มือแปลงบัญชีทางการระบุว่า หากโอนย้ายภายใน 3 เดือนล่าสุด ต้องรอให้ครบ 3 เดือนนับจากวันที่โอนย้ายครั้งล่าสุดก่อนจึงจะโอนย้ายได้อีกครั้ง; เมื่อครบกำหนดแล้วให้ดำเนินการต่อจาก STOVE > [ข้อมูลของฉัน] หากเข้าสู่ระบบไม่ได้ระหว่างรอ ให้ติดต่อฝ่ายบริการลูกค้า STOVE. นี่ไม่ใช่การรอแบบเหมารวมสำหรับการผูกครั้งแรกทุกครั้ง หากชื่อปุ่มและเงื่อนไขบนหน้าจอต่างออกไป ให้ยึด UI และข้อความ STOVE ปัจจุบัน อย่ากดลบ และอย่าใช้เครื่องมือปลดล็อกจากบุคคลที่สาม เว็บนี้เป็นคู่มือที่ไม่เป็นทางการ",
       "cooldown_h2": "ข้อความ “ลงทะเบียนแล้ว” กับเงื่อนไขการแปลง",
       "cooldown_lead": "การย้ายมักติดเพราะบัญชี STOVE ชั่วคราวที่ Steam สร้างยังอยู่ ก่อนสร้างบัญชีใหม่หรือลบอะไร ให้อ่านลำดับ Convert ใน FAQ ทางการข้อ 3 และข้อความบนหน้าจอ STOVE",
       "cooldown_th": [
@@ -4368,8 +4368,8 @@ export const CONTENT = {
         ],
         [
           "ปุ่มย้ายเป็นสีเทา",
-          "STOVE กำลังแสดงสถานะคุณสมบัติ/การพัก หรือเงื่อนไขบนหน้าจอยังไม่ตรง FAQ ทางการไม่ได้กำหนดให้ถอนบัญชีก่อนหรือรอสามเดือนแบบเหมารวม",
-          "อ่านเงื่อนไขและวันที่ที่ STOVE แสดง แล้วยึดปุ่มและข้อความปัจจุบัน หากยังติดให้ถามฝ่ายบริการลูกค้า STOVE อย่าใช้ตัวปลดล็อกจากบุคคลที่สาม"
+          "STOVE กำลังแสดงสถานะคุณสมบัติ/การพัก หรือเงื่อนไขบนหน้าจอยังไม่ตรง คู่มือแปลงบัญชีทางการระบุว่า หากโอนย้ายภายใน 3 เดือนล่าสุด ต้องรอให้ครบ 3 เดือนนับจากวันที่โอนย้ายครั้งล่าสุดก่อนจึงจะโอนย้ายได้อีกครั้ง",
+          "อ่านเงื่อนไขและวันที่ที่ STOVE แสดง เมื่อครบกำหนดแล้วให้ดำเนินการต่อจาก STOVE > [ข้อมูลของฉัน] หากเข้าสู่ระบบไม่ได้ระหว่างรอ ให้ติดต่อฝ่ายบริการลูกค้า STOVE อย่าใช้ตัวปลดล็อกจากบุคคลที่สาม"
         ],
         [
           "แปลงแล้วแต่ฮีโร่เดิมหาย",
@@ -4377,7 +4377,7 @@ export const CONTENT = {
           "ยืนยันคู่บัญชีที่เข้าสู่ระบบ แล้วใช้ลำดับ Convert ทางการเพื่อแปลงบัญชีเดิมเป็นล็อกอิน Steam ห้ามใช้การลบบัญชีในเกมหลังย้าย"
         ]
       ],
-      "cooldown_note": "คูลดาวน์สามเดือนไม่ใช่ขั้นตอนใน FAQ ทางการข้อ 3 อย่าถือเป็นกฎตายตัว เงื่อนไขและระยะเวลาจริงอยู่ใน UI บัญชี STOVE หรือคำตอบจากฝ่ายบริการลูกค้า คู่มือที่ไม่เป็นทางการนี้รีเซ็ตให้ไม่ได้",
+      "cooldown_note": "เงื่อนไข 3 เดือนใช้กับการโอนย้ายซ้ำเมื่อเคยโอนย้ายภายใน 3 เดือนล่าสุด ไม่ใช่การรอแบบเหมารวมสำหรับการผูกครั้งแรกทุกครั้ง เมื่อครบกำหนดให้ดำเนินการต่อจาก STOVE > [ข้อมูลของฉัน] หากเข้าสู่ระบบไม่ได้ระหว่างรอ ให้ติดต่อฝ่ายบริการลูกค้า STOVE เงื่อนไขและระยะเวลาจริงอยู่ใน UI บัญชี STOVE หรือคำตอบจากฝ่ายบริการลูกค้า ตรวจคู่มือแปลงบัญชีทางการเมื่อ 2026-11-22 คู่มือที่ไม่เป็นทางการนี้รีเซ็ตให้ไม่ได้",
       "cross_h2": "หมายเหตุ cross-play",
       "cross": [
         "Steam, STOVE PC และมือถือเล่นร่วมกันได้ด้วย cross-play (ตาม FAQ)",
@@ -4395,7 +4395,7 @@ export const CONTENT = {
         ],
         [
           "STOVE ขึ้นว่า “ลงทะเบียนแล้ว” — ทำไงต่อ?",
-          "Steam ID นั้นผูกกับ STOVE อีกบัญชีอยู่ (อาจเป็นบัญชีชั่วคราว) อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงอีเมล/SNS เดิมเป็นล็อกอิน Steam อย่าสร้างบัญชี Steam ไปเรื่อยๆ ปุ่มและเงื่อนไขจริงให้ยึดหน้าจอ STOVE กับ FAQ ทางการ"
+          "Steam ID นั้นผูกกับ STOVE อีกบัญชีอยู่ (อาจเป็นบัญชีชั่วคราว) อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงอีเมล/SNS เดิมเป็นล็อกอิน Steam อย่าสร้างบัญชี Steam ไปเรื่อยๆ หากโอนย้ายภายใน 3 เดือนล่าสุด เงื่อนไขการโอนย้ายซ้ำ 3 เดือนอาจมีผล โปรดดูคำตอบเรื่องปุ่มสีเทาและคู่มือแปลงบัญชีทางการ ปุ่มและเงื่อนไขจริงให้ยึดหน้าจอ STOVE กับ FAQ ทางการ"
         ],
         [
           "ย้ายไป Steam แล้วฮีโร่จะหายไหม?",
@@ -5275,13 +5275,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — STOVE Bind, Demo Wipe & Foundry ≠ Transfer",
       "meta": "Epic Seven Steam FAQ: wrong STOVE bind, demo wipe after transfer, and Foundry≠transfer — troubleshooting answers with deep links and STOVE sources. Unofficial.",
       "h1": "Epic Seven Steam FAQ & troubleshooting",
-      "answer": "Start with the [[Case Files|/case-files/]] index for documented account-recovery threads, then use this Epic Seven Steam FAQ: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
+      "answer": "This Epic Seven Steam FAQ starts with account problems: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. If the Transfer button is still blocked or support is needed, use official STOVE customer service. The [[Case Files|/case-files/]] page covers the Secret Rabbit♥Hole event’s case deduction mini-game — it is not an account-recovery case archive. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, convert the temporary account to a non-Steam login, then convert the original",
       "lead": "Use this Epic Seven Steam FAQ alongside the homepage cards. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
           "What does this Epic Seven Steam FAQ cover — and why a new Heir?",
-          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). Unofficial — verify on STOVE."
+          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). The [[Case Files|/case-files/]] page is the Secret Rabbit♥Hole event’s deduction mini-game, not an account-recovery archive. Unofficial — verify on STOVE."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -5326,13 +5326,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — 이전·Foundry·런칭 | E7",
       "meta": "Epic Seven Steam FAQ: 잘못된 연동, 전환 후 데모 삭제, Foundry≠이전 — 딥링크 포함 짧은 답변. 런칭 수정과 STOVE 공식 출처. 비공식.",
       "h1": "Epic Seven Steam FAQ · 문제 해결",
-      "answer": "Epic Seven Steam FAQ: 잘못된 연동은 대개 Steam이 만든 임시 계정입니다. 계정을 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 계정을 Steam 로그인으로 전환하세요([[이전 가이드|/steam-transfer/]]). 전환 후 데모 인게임 삭제는 레거시 진행을 지울 수 있습니다 — [[데모 삭제 경고|/demo-delete-warning/]]를 읽으세요. Foundry는 이전이 아닌 별도 서버입니다 — [[Foundry 서버 가이드|/foundry/]].",
+      "answer": "Epic Seven Steam FAQ: 잘못된 연동은 대개 Steam이 만든 임시 계정입니다. 계정을 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 계정을 Steam 로그인으로 전환하세요([[이전 가이드|/steam-transfer/]]). 전환 후 데모 인게임 삭제는 레거시 진행을 지울 수 있습니다 — [[데모 삭제 경고|/demo-delete-warning/]]를 읽으세요. Case Files는 Secret Rabbit♥Hole 이벤트의 사건 추리 미니게임이며 계정 복구 사례 모음이 아닙니다 — [[케이스 파일|/case-files/]]. 그래도 막히면 STOVE 공식 고객센터를 이용하세요. Foundry는 이전이 아닌 별도 서버입니다 — [[Foundry 서버 가이드|/foundry/]].",
       "img_alt": "비공식 FAQ 흐름도: 잘못된 연동 후 Convert로 임시 계정을 Steam 이외 로그인으로 바꾸고 원 계정을 전환",
       "lead": "홈 카드와 함께 이 Epic Seven Steam FAQ를 쓰세요. 제3자 스크립트보다 STOVE 화면을 믿으세요.",
       "faqs": [
         [
           "이 Steam transfer + Foundry FAQ는 무엇을 다루며, 새 후계자는 왜 뜨나요?",
-          "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다. 새 후계자는 대개 Steam이 만든 임시 STOVE 계정이니 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 로그인을 Steam으로 전환하세요([[이전 가이드|/steam-transfer/]]). Foundry는 계정 이전이 아닌 별도 신서버([[파운드리 서버 가이드|/foundry/#server-guide]]). 전환 후 데모 삭제는 레거시 진행을 지울 수 있습니다([[데모 삭제 경고|/demo-delete-warning/]]). 비공식 — STOVE 확인."
+          "Steam transfer는 STOVE→Steam Simple Login으로 진행을 유지합니다. 새 후계자는 대개 Steam이 만든 임시 STOVE 계정이니 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보] > Convert에서 Steam 이외 로그인으로 변환한 뒤 원래 로그인을 Steam으로 전환하세요([[이전 가이드|/steam-transfer/]]). Foundry는 계정 이전이 아닌 별도 신서버([[파운드리 서버 가이드|/foundry/#server-guide]]). 전환 후 데모 삭제는 레거시 진행을 지울 수 있습니다([[데모 삭제 경고|/demo-delete-warning/]]). [[케이스 파일|/case-files/]]은 Secret Rabbit♥Hole 이벤트의 추리 미니게임이며 계정 복구 사례 모음이 아닙니다. 비공식 — STOVE 확인."
         ],
         [
           "Steam 파운드리를 모바일에서도?",
@@ -5363,7 +5363,7 @@ export const CONTENT = {
       "checks": [
         "공식 Steam 스토어 app 5019180인지 확인하세요. 미러·크랙 설치 파일은 쓰지 마세요.",
         "Steam이 지금 인가한 STOVE 로그인을 확인하세요. 임시 후계자면 재화나 시간을 쓰기 전에 이전 페이지의 공식 Convert 순서를 여세요.",
-        "STOVE 점검 공지와 파운드리 배너를 확인하세요. 2026-11-21 19:18 Asia/Shanghai 기준 길드전은 11/19 점검 후 도입되었고 11/21 03:00 UTC 방어팀 구성이 시작되었으며, 11/23 03:00 UTC 매칭은 아직입니다. WA는 12/10 점검 후입니다.",
+        "STOVE 점검 공지와 파운드리 배너를 확인하세요. 2026-11-22 23:13 Asia/Shanghai 기준 길드전은 11/19 점검 후 도입되었고 11/21 03:00 UTC 방어팀 구성이 시작되었으며, 11/23 03:00 UTC 매칭은 아직입니다. WA는 12/10 점검 후입니다.",
         "Steam 로그인 전환 후 인게임 계정 삭제를 쓰지 마세요. 데모 주의 페이지를 먼저 읽으세요.",
         "그래도 막히면 디스코드 DM이 아니라 STOVE 공식 고객센터만 이용하세요."
       ],
@@ -5420,13 +5420,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — 轉移、Foundry 與上架 | E7",
       "meta": "Epic Seven Steam FAQ：錯綁、轉換後試玩刪號、Foundry≠轉移——短答附深鏈。上架排障與 STOVE 官方來源。非官方。",
       "h1": "Epic Seven Steam FAQ 與疑難排解",
-      "answer": "Epic Seven Steam FAQ：錯綁通常是 Steam 建了臨時繼承者。不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本帳號轉成 Steam 登入（[[轉移指南|/steam-transfer/]]）。轉換後在試玩內刪號可能抹掉原服進度——請讀[[試玩刪號警告|/demo-delete-warning/]]。Foundry 是另一個伺服器，不是轉移——見[[Foundry 伺服器指南|/foundry/]]。",
+      "answer": "Epic Seven Steam FAQ：錯綁通常是 Steam 建了臨時繼承者。不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本帳號轉成 Steam 登入（[[轉移指南|/steam-transfer/]]）。轉換後在試玩內刪號可能抹掉原服進度——請讀[[試玩刪號警告|/demo-delete-warning/]]。[[案例檔案|/case-files/]]是 Secret Rabbit♥Hole 活動的推理小遊戲，不是帳號復原案例庫。若仍卡住，請使用 STOVE 官方客服。Foundry 是另一個伺服器，不是轉移——見[[Foundry 伺服器指南|/foundry/]]。",
       "img_alt": "非官方 FAQ 流程圖：錯綁後以 Convert 把臨時帳號轉成非 Steam 登入，再轉換原帳號",
       "lead": "請搭配首頁卡片使用本 Epic Seven Steam FAQ。請相信 STOVE 畫面，勿信第三方腳本。",
       "faqs": [
         [
           "這份 Steam transfer + Foundry FAQ 涵蓋什麼——為何出現全新繼承人？",
-          "Steam transfer 以 STOVE→Steam Simple Login 保留進度。全新繼承人多半是 Steam 建的臨時 STOVE——不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] > Convert 把臨時帳號轉成 Steam 以外的登入，再把原本登入轉成 Steam（[[轉移指南|/steam-transfer/]]）。Foundry 是另一個新服，不是帳號轉移（[[Foundry 伺服器指南|/foundry/#server-guide]]）。轉換後試玩刪號可能抹掉原服進度（[[試玩刪號警告|/demo-delete-warning/]]）。非官方——請在 STOVE 核對。"
+          "Steam transfer 以 STOVE→Steam Simple Login 保留進度。全新繼承人多半是 Steam 建的臨時 STOVE——不要註銷；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] > Convert 把臨時帳號轉成 Steam 以外的登入，再把原本登入轉成 Steam（[[轉移指南|/steam-transfer/]]）。Foundry 是另一個新服，不是帳號轉移（[[Foundry 伺服器指南|/foundry/#server-guide]]）。轉換後試玩刪號可能抹掉原服進度（[[試玩刪號警告|/demo-delete-warning/]]）。[[案例檔案|/case-files/]]是 Secret Rabbit♥Hole 活動的推理小遊戲，不是帳號復原案例庫。非官方——請在 STOVE 核對。"
         ],
         [
           "Steam 的 Foundry 能在手機繼續嗎？",
@@ -5457,7 +5457,7 @@ export const CONTENT = {
       "checks": [
         "確認來自官方 Steam 商店的 app 5019180。不要使用鏡像或破解安裝檔。",
         "確認 Steam 目前授權的 STOVE 登入。若是臨時後繼者，先打開轉移頁的官方 Convert 順序，再花費資源或時間。",
-        "查看 STOVE 維護公告與 Foundry 橫幅。以 2026-11-21 19:18 Asia/Shanghai 核對：公會戰已於 11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對尚未到；世界競技場在 12/10 維護後。",
+        "查看 STOVE 維護公告與 Foundry 橫幅。以 2026-11-22 23:13 Asia/Shanghai 核對：公會戰已於 11/19 維護後導入、11/21 03:00 UTC 防禦隊伍已開始、11/23 03:00 UTC 配對尚未到；世界競技場在 12/10 維護後。",
         "Steam 登入轉換後不要使用遊戲內刪號。請先閱讀試玩注意頁。",
         "若仍卡住，不要依賴 Discord 私訊，只使用 STOVE 官方客服。"
       ],
@@ -5467,13 +5467,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ — ย้ายข้อมูล & Foundry | E7",
       "meta": "คำถามที่พบบ่อย Epic Seven Steam: ผูกบัญชีผิด, demo ถูกล้างหลังย้าย, Foundry≠การย้ายข้อมูล — คำตอบสั้นพร้อมลิงก์ลึก แหล่ง STOVE ทางการ ไม่เป็นทางการ",
       "h1": "คำถามที่พบบ่อยและวิธีแก้ปัญหา Epic Seven บน Steam",
-      "answer": "คำถามที่พบบ่อยนี้ครอบคลุมเรื่องการย้ายข้อมูล Foundry และปัญหาการเปิดตัวของ Epic Seven บน Steam การย้ายข้อมูลบน Steam รักษาความคืบหน้าเดิมไว้ผ่าน STOVE→Steam Simple Login — ดู [[คู่มือย้ายข้อมูล|/steam-transfer/]] Foundry เป็นเซิร์ฟเวอร์ใหม่แยกต่างหาก ไม่ใช่การย้ายข้อมูล — ดู [[Foundry|/foundry/]] การลบบัญชีในเกมหลังการแปลงบัญชีอาจล้างความคืบหน้าบนเซิร์ฟเวอร์เดิม — อ่าน [[คำเตือนเรื่อง demo|/demo-delete-warning/]] นี่คือศูนย์รวม FAQ ของ Epic Seven บน Steam ที่ไม่เป็นทางการ",
+      "answer": "คำถามที่พบบ่อยนี้ครอบคลุมเรื่องการย้ายข้อมูล Foundry และปัญหาการเปิดตัวของ Epic Seven บน Steam การย้ายข้อมูลบน Steam รักษาความคืบหน้าเดิมไว้ผ่าน STOVE→Steam Simple Login — ดู [[คู่มือย้ายข้อมูล|/steam-transfer/]] [[แฟ้มคดี|/case-files/]] เป็นมินิเกมไขคดีของกิจกรรม Secret Rabbit♥Hole ไม่ใช่คลังเคสกู้คืนบัญชี หากยังติด ให้ใช้ฝ่ายบริการลูกค้า STOVE ทางการ Foundry เป็นเซิร์ฟเวอร์ใหม่แยกต่างหาก ไม่ใช่การย้ายข้อมูล — ดู [[Foundry|/foundry/]] การลบบัญชีในเกมหลังการแปลงบัญชีอาจล้างความคืบหน้าบนเซิร์ฟเวอร์เดิม — อ่าน [[คำเตือนเรื่อง demo|/demo-delete-warning/]] นี่คือศูนย์รวม FAQ ของ Epic Seven บน Steam ที่ไม่เป็นทางการ",
       "img_alt": "แผนผังคำถามที่พบบ่อย (ไม่เป็นทางการ): ผูกบัญชีผิด, ใช้ Convert แปลงบัญชี Steam ชั่วคราวเป็นล็อกอินที่ไม่ใช่ Steam, แล้วจึงแปลงบัญชีเดิม",
       "lead": "ใช้ FAQ นี้ควบคู่กับการ์ดบนหน้าแรก เชื่อหน้าจอ STOVE มากกว่าสคริปต์ของบุคคลที่สามใด ๆ",
       "faqs": [
         [
           "FAQ นี้ครอบคลุมอะไรบ้าง — และทำไมถึงได้ Heir ใหม่?",
-          "FAQ นี้อธิบายเรื่องการย้ายข้อมูล Foundry และปัญหาการเปิดตัว การย้ายข้อมูลบน Steam รักษาความคืบหน้าผ่าน STOVE→Steam Simple Login การที่ได้ Heir ใหม่เอี่ยมอาจหมายความว่า Steam สร้างบัญชี STOVE ชั่วคราวขึ้นมา — อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงบัญชีเดิมเป็นล็อกอิน Steam (ดู [[คู่มือย้ายข้อมูล|/steam-transfer/]]) Foundry เป็นเซิร์ฟเวอร์ใหม่แยกต่างหาก ไม่ใช่การย้ายบัญชี ([[คู่มือเซิร์ฟเวอร์ Foundry|/foundry/#server-guide]]) การล้างข้อมูล demo หลังการแปลงอาจลบความคืบหน้าเดิม ([[คำเตือนเรื่อง demo|/demo-delete-warning/]]) ไม่เป็นทางการ — ตรวจสอบบน STOVE"
+          "FAQ นี้อธิบายเรื่องการย้ายข้อมูล Foundry และปัญหาการเปิดตัว การย้ายข้อมูลบน Steam รักษาความคืบหน้าผ่าน STOVE→Steam Simple Login การที่ได้ Heir ใหม่เอี่ยมอาจหมายความว่า Steam สร้างบัญชี STOVE ชั่วคราวขึ้นมา — อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงบัญชีเดิมเป็นล็อกอิน Steam (ดู [[คู่มือย้ายข้อมูล|/steam-transfer/]]) Foundry เป็นเซิร์ฟเวอร์ใหม่แยกต่างหาก ไม่ใช่การย้ายบัญชี ([[คู่มือเซิร์ฟเวอร์ Foundry|/foundry/#server-guide]]) การล้างข้อมูล demo หลังการแปลงอาจลบความคืบหน้าเดิม ([[คำเตือนเรื่อง demo|/demo-delete-warning/]]) [[แฟ้มคดี|/case-files/]] เป็นมินิเกมไขคดีของกิจกรรม Secret Rabbit♥Hole ไม่ใช่คลังเคสกู้คืนบัญชี ไม่เป็นทางการ — ตรวจสอบบน STOVE"
         ],
         [
           "เล่น Foundry บน Steam แล้วไปเล่นต่อบนมือถือได้ไหม?",
@@ -5504,7 +5504,7 @@ export const CONTENT = {
       "checks": [
         "ตรวจสอบว่ามาจากร้านค้า Steam ทางการแอป 5019180 อย่าใช้ไฟล์มิเรอร์หรือแคร็ก",
         "ตรวจว่า Steam อนุญาตล็อกอิน STOVE ใดอยู่ตอนนี้ หากเป็นทายาทชั่วคราว ให้เปิดลำดับ Convert ทางการในหน้าคู่มือย้ายก่อนใช้เงินหรือเวลาในเกม",
-        "ดูประกาศปิดปรับปรุงของ STOVE และแบนเนอร์ Foundry ณ 2026-11-21 19:18 Asia/Shanghai Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่ม 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ยังไม่ถึง World Arena หลังปิดปรับปรุง 12/10",
+        "ดูประกาศปิดปรับปรุงของ STOVE และแบนเนอร์ Foundry ณ 2026-11-22 23:13 Asia/Shanghai Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่ม 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ยังไม่ถึง World Arena หลังปิดปรับปรุง 12/10",
         "หลังแปลงล็อกอินไป Steam ห้ามใช้การลบบัญชีในเกม ให้อ่านหน้าคำเตือนเดโมก่อน",
         "ถ้ายังติด อย่าพึ่งข้อความส่วนตัวใน Discord ให้ใช้ฝ่ายบริการลูกค้าทางการของ STOVE เท่านั้น"
       ],
@@ -6879,8 +6879,8 @@ export const CONTENT = {
       "title": "Epic Seven Foundry Server Guide: Calendar & Guild War | E7",
       "meta": "Foundry guide: calendar, unlocks, Guild War — 11/19 intro, 11/21 defense teams, 11/23 matchmaking, World Arena 12/10. Foundry codes ≠ coupons.",
       "h1": "Foundry server guide — schedule & rewards",
-      "lead": "This Foundry server guide covers Epic Seven’s new-server track: starter buffs, celebration mail, Guild War progression, and Foundry-only matchmaking for listed PvP. Per the 2026-11-07 Steam notice, Guild War was introduced on 2026-11-19, Form Defense Team opened 2026-11-21 03:00 UTC, and Guild War Matchmaking is due 2026-11-23 03:00 UTC (not yet reached at the 2026-11-21 21:45 Asia/Shanghai check). Paraphrases public STOVE/Steam notices — schedules can shift after maintenance. Independent guide; not Smilegate or STOVE.",
-      "as_of": "Snapshot updated 2026-11-21 21:45 Asia/Shanghai. Times UTC unless noted. Guild War was introduced on 2026-11-19; Form Defense Team opened 2026-11-21 03:00 UTC; matchmaking is due 2026-11-23 03:00 UTC. The 2026-11-05 patch fixed a Foundry shop misdisplay; the 2026-11-07 Steam notice added the schedule and login gift below.",
+      "lead": "This Foundry server guide covers Epic Seven’s new-server track: starter buffs, celebration mail, Guild War progression, and Foundry-only matchmaking for listed PvP. Per the 2026-11-07 Steam notice, Guild War was introduced on 2026-11-19, Form Defense Team opened 2026-11-21 03:00 UTC, and Guild War Matchmaking is due 2026-11-23 03:00 UTC (still future at the 2026-11-22 23:13 Asia/Shanghai check). Draft Arena is currently unavailable while The Call of Chaos Season 2 is active: the official 11/19 post lists the season from after the 11/19 maintenance to 12/10 02:59 UTC and a grace period from 12/10 03:00 to 12/17 02:59 UTC, and says Draft Arena will be replaced again after the grace period ends. Paraphrases public STOVE/Steam notices — schedules can shift after maintenance. Independent guide; not Smilegate or STOVE.",
+      "as_of": "Snapshot updated 2026-11-22 23:13 Asia/Shanghai. Times UTC unless noted. Guild War was introduced on 2026-11-19; Form Defense Team opened 2026-11-21 03:00 UTC; matchmaking is due 2026-11-23 03:00 UTC and is still future at this check. The Call of Chaos Season 2 runs from after the 11/19 maintenance to 12/10 02:59 UTC, with a grace period 12/10 03:00–12/17 02:59 UTC; Draft Arena is unavailable while the season is active, and the official notice says it will be replaced again after the grace period ends (STOVE 14638143). The 2026-11-05 patch fixed a Foundry shop misdisplay; the 2026-11-07 Steam notice added the schedule and login gift below.",
       "unlock_h2": "Content unlock calendar",
       "th": [
         "Feature",
@@ -6895,8 +6895,13 @@ export const CONTENT = {
         ],
         [
           "Draft Arena",
-          "2026-10-29 after maint",
-          "Foundry-only matchmaking"
+          "Unavailable during Call of Chaos S2 (11/19–12/10; grace to 12/17)",
+          "STOVE 14638143"
+        ],
+        [
+          "The Call of Chaos Season 2",
+          "2026-11-19 after maint – 12/10 02:59",
+          "STOVE 14638143"
         ],
         [
           "Guild War introduced",
@@ -7010,6 +7015,11 @@ export const CONTENT = {
           "World Arena",
           "12/10 after maint",
           "scheduled"
+        ],
+        [
+          "The Call of Chaos Season 2 — Draft Arena unavailable",
+          "11/19 after maint",
+          "12/10 02:59 (grace to 12/17 02:59)"
         ]
       ],
       "buff_h2": "Starter Support buffs",
@@ -7040,7 +7050,7 @@ export const CONTENT = {
       "side_h2": "Side story",
       "side": "Deep dive: Secret Rabbit♥Hole (Case Files, Lucky Board, lobby pack).",
       "src_h2": "Sources",
-      "answer": "Foundry server guide for Epic Seven’s new-server track: celebration calendar, content unlocks, rewards, Guild War, and World Arena. “Foundry codes” means celebration or official notices — mailbox gifts, login items, buffs — not a coupon list. Transfer keeps legacy progress and does not auto-join Foundry; full steps stay on the [[STOVE↔Steam transfer guide|/steam-transfer/]]. Draft Arena is live. Guild War was introduced on 2026-11-19; Form Defense Team started 2026-11-21 03:00 UTC; Matchmaking is due 2026-11-23 03:00 UTC and had not arrived at the 2026-11-21 21:45 Asia/Shanghai check. World Arena after 2026-12-10 maintenance; buffs through ~12/31 — verify on STOVE/Steam. The 11/17 notice also says the 12/10 (Thu) update changes Guild War draw resolution: remove the match-time season-point and Guild Crest priority rules; the side with the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears get 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Foundry server guide for Epic Seven’s new-server track: celebration calendar, content unlocks, rewards, Guild War, and World Arena. “Foundry codes” means celebration or official notices — mailbox gifts, login items, buffs — not a coupon list. Transfer keeps legacy progress and does not auto-join Foundry; full steps stay on the [[STOVE↔Steam transfer guide|/steam-transfer/]]. Draft Arena is unavailable while The Call of Chaos Season 2 is active. The official 11/19 post lists the season from after the maintenance on 11/19 to 12/10 02:59 UTC, with a grace period 12/10 03:00–12/17 02:59 UTC, and says Draft Arena will be unavailable while the season is active and will be replaced again after the grace period ends ([[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]]). Guild War was introduced on 2026-11-19; Form Defense Team started 2026-11-21 03:00 UTC; Matchmaking is due 2026-11-23 03:00 UTC and is still future at the 2026-11-22 23:13 Asia/Shanghai check. World Arena after 2026-12-10 maintenance; buffs through ~12/31 — verify on STOVE/Steam. The 11/17 notice also says the 12/10 (Thu) update changes Guild War draw resolution: remove the match-time season-point and Guild Crest priority rules; the side with the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears get 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Self-drawn Foundry calendar visual covering launch buffs, Rabbit Hole, Guild War, and World Arena",
       "img_ss_alt": "Official Steam screenshot illustrating Epic Seven presentation — Steam CDN",
       "faq_h2": "Foundry FAQ",
@@ -7055,7 +7065,7 @@ export const CONTENT = {
         ],
         [
           "When do Guild War and World Arena open on Foundry?",
-          "Guild War is staged per the 2026-11-07 Steam notice: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, and Matchmaking 2026-11-23 03:00 UTC. World Arena is listed after 2026-12-10 maintenance. Draft Arena opened with the launch window. See the Guild War section and verify on Steam/STOVE."
+          "Guild War is staged per the 2026-11-07 Steam notice: introduced 2026-11-19, Form Defense Team 2026-11-21 03:00 UTC, and Matchmaking 2026-11-23 03:00 UTC. World Arena is listed after 2026-12-10 maintenance. Draft Arena is unavailable while The Call of Chaos Season 2 is active (season to 12/10 02:59 UTC; grace to 12/17 02:59 UTC; STOVE 14638143). See the Guild War section and verify on Steam/STOVE."
         ],
         [
           "How long do Foundry starter buffs last?",
@@ -7086,12 +7096,12 @@ export const CONTENT = {
       "link_demo": "Demo delete warning",
       "related_h2": "Related guides",
       "gw_h2": "Guild War on Foundry",
-      "gw_answer": "On Foundry, Guild War is a staged rollout, not one unlock day. As of 2026-11-21 21:45 Asia/Shanghai, the 11/19 introduction and the 11/21 03:00 UTC Defense Team formation have started; 11/23 03:00 UTC matchmaking has not yet arrived. Per the 2026-11-07 Steam notice: Guild War is introduced on 2026-11-19; Form Defense Team opens 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai); Guild War Matchmaking opens 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Join or create a Foundry guild early, clear daily guild content, and treat GW as a Foundry-side unlock separate from account transfer. Transferring login does not enroll a legacy Heir in Foundry GW. Dates can shift after maintenance; cite the Steam/STOVE notice, not this page alone.",
+      "gw_answer": "On Foundry, Guild War is a staged rollout, not one unlock day. As of 2026-11-22 23:13 Asia/Shanghai, the 11/19 introduction and the 11/21 03:00 UTC Defense Team formation have started; 11/23 03:00 UTC matchmaking has not yet arrived. Per the 2026-11-07 Steam notice: Guild War is introduced on 2026-11-19; Form Defense Team opens 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai); Guild War Matchmaking opens 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Join or create a Foundry guild early, clear daily guild content, and treat GW as a Foundry-side unlock separate from account transfer. Transferring login does not enroll a legacy Heir in Foundry GW. Dates can shift after maintenance; cite the Steam/STOVE notice, not this page alone.",
       "gw_unlock_h3": "Unlock stages",
-      "gw_unlock": "The 2026-11-07 Steam notice splits the rollout into three checkpoints. (1) 2026-11-19: Guild War is introduced to Foundry. (2) 2026-11-21 03:00 UTC (11:00 Asia/Shanghai): Form Defense Team. (3) 2026-11-23 03:00 UTC (11:00 Asia/Shanghai): Guild War Matchmaking. Draft Arena opened with the Steam launch window; World Arena is listed after 2026-12-10 maintenance; the official notices labelled it both KST and UTC, so check the notice in force. Re-open the live Steam/STOVE notice before scheduling guild activities — patches can move windows. At the 2026-11-21 21:45 Asia/Shanghai check, stages (1) and (2) have started; stage (3) has not yet arrived.",
+      "gw_unlock": "The 2026-11-07 Steam notice splits the rollout into three checkpoints. (1) 2026-11-19: Guild War is introduced to Foundry. (2) 2026-11-21 03:00 UTC (11:00 Asia/Shanghai): Form Defense Team. (3) 2026-11-23 03:00 UTC (11:00 Asia/Shanghai): Guild War Matchmaking. Draft Arena is currently unavailable because The Call of Chaos Season 2 is active; the official 11/19 post lists the season to 12/10 02:59 UTC and a grace period to 12/17 02:59 UTC, and says Draft Arena will be replaced again after the grace period ends (STOVE 14638143). World Arena is listed after 2026-12-10 maintenance; the official notices labelled it both KST and UTC, so check the notice in force. Re-open the live Steam/STOVE notice before scheduling guild activities — patches can move windows. At the 2026-11-22 23:13 Asia/Shanghai check, stages (1) and (2) have started; stage (3) has not yet arrived.",
       "gw_prep_h3": "Pre-open checklist",
       "gw_prep": [
-        "The rollout is staged: Guild War was introduced 2026-11-19, Form Defense Team started 2026-11-21 03:00 UTC, and Matchmaking is due 2026-11-23 03:00 UTC (not yet at the 2026-11-21 21:45 Asia/Shanghai check). Plan the guild join around the introduction, not a single 11/21 unlock.",
+        "The rollout is staged: Guild War was introduced 2026-11-19, Form Defense Team started 2026-11-21 03:00 UTC, and Matchmaking is due 2026-11-23 03:00 UTC (not yet at the 2026-11-22 23:13 Asia/Shanghai check). Plan the guild join around the introduction, not a single 11/21 unlock.",
         "Reach the posted guild-entry requirement first — the community checklist cites account Rank 10; confirm the live gate in-game — then join or create a Foundry guild well before 2026-11-19.",
         "Set two Defense Teams of three heroes each before 2026-11-21 03:00 UTC; the Guild Captain assigns them to the Stronghold and defense towers.",
         "Confirm your character is on Foundry — legacy-server guilds do not count as Foundry GW.",
@@ -7101,7 +7111,7 @@ export const CONTENT = {
         "Send the join request early and confirm it shows Accepted, not Pending. A request still pending at 2026-11-21 03:00 UTC sits out the first defense setup.",
         "Before each in-game reset, clear guild member missions and check-in. A missing name once war locks is a roster hole you cannot backfill.",
         "Spend the daily donate or contribute cap every reset. Missed contribution days do not stack, so skipping several days costs more guild progress than skipping one hunt.",
-        "Use Foundry Draft Arena, open since the Steam launch (STOVE Launch view/14606481), as Guild War practice: gear a tank, a cleanser, and a healer you can field on both attack and defense, not a one-shot team you cannot hold a tower with.",
+        "Draft Arena is unavailable while The Call of Chaos Season 2 is active (season to 12/10 02:59 UTC; grace to 12/17 02:59 UTC; STOVE 14638143). After the grace period ends, re-check in-client before using it as Guild War practice; when it is available, gear a tank, a cleanser, and a healer you can field on both attack and defense, not a one-shot team you cannot hold a tower with.",
         "After matchmaking opens on 2026-11-23 03:00 UTC, confirm the war schedule in-client. Re-open the Steam/STOVE notice before you spend leifs or guild marks.",
         "Known issue: the Guild War feature for reviving unavailable Heroes, unlocked at Guild Rank 21, does not work. The official 10/29 Known Issues notice (added 11/9 06:08 UTC) schedules the fix for the 12/10 (Thu) maintenance; no time of day was given. See [[maintenance|/maintenance/]] and the [[11/9 Known Issues notice|https://page.onstove.com/epicSeven/global/view/14608118]].",
         "2026-12-10 (Thu) Guild War draw rule: the update removes match-time season-point and Guild Crest priority; the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
@@ -7119,8 +7129,8 @@ export const CONTENT = {
       "guide": [
         [
           "Draft Arena",
-          "2026-10-29 after maint",
-          "Per STOVE"
+          "Unavailable during Call of Chaos S2 (11/19–12/10; grace to 12/17)",
+          "STOVE 14638143"
         ],
         [
           "Guild War introduced",
@@ -7192,8 +7202,8 @@ export const CONTENT = {
       "title": "Epic Seven 파운드리 서버 가이드: 캘린더·길드전 | E7 Steam Guide",
       "meta": "Foundry 서버 가이드: 신서버 캘린더·해금·보상. 길드전은 2026-11-19 도입, 방어팀 구성 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC; 월드 아레나 2026-12-10. Foundry codes는 쿠폰이 아닌 축하/메일 보상. STOVE/Steam 인용.",
       "h1": "파운드리 서버 가이드 — 일정·보상",
-      "lead": "파운드리는 Epic Seven Steam 출시 구간에 열린 신서버 트랙입니다. 성장 버프, 축하 우편, 길드전 진행, 안내된 PvP의 파운드리 전용 매칭이 핵심입니다. 2026-11-07 Steam 공지 기준 길드전은 2026-11-19 도입되었고, 방어팀 구성은 2026-11-21 03:00 UTC에 시작되었으며, 길드전 매칭은 2026-11-23 03:00 UTC에 예정되어 있습니다. 공개 STOVE/Steam 공지를 요약한 것이며 점검 후 일정이 바뀔 수 있습니다. Smilegate/STOVE와 무관한 독립 가이드입니다.",
-      "as_of": "2026-11-21 21:45 Asia/Shanghai 업데이트. 시간은 UTC. 길드전은 11/19 점검 후 도입되었고, 방어팀은 11/21 03:00 UTC에 시작되었으며, 매칭은 11/23 03:00 UTC에 아직 도래하지 않았습니다. 2026-11-05 패치로 파운드리 상점 오표시가 수정되었고, 2026-11-07 Steam 공지로 길드전 일정과 파운드리 로그인 선물이 추가되었습니다.",
+      "lead": "파운드리는 Epic Seven Steam 출시 구간에 열린 신서버 트랙입니다. 성장 버프, 축하 우편, 길드전 진행, 안내된 PvP의 파운드리 전용 매칭이 핵심입니다. 2026-11-07 Steam 공지 기준 길드전은 2026-11-19 도입되었고, 방어팀 구성은 2026-11-21 03:00 UTC에 시작되었으며, 길드전 매칭은 2026-11-23 03:00 UTC에 예정되어 있으며 2026-11-22 23:13 Asia/Shanghai 확인 기준 아직입니다. Call of Chaos 시즌 2가 진행되는 동안 Draft Arena는 사용할 수 없습니다. 공식 11/19 공지는 시즌을 11/19 점검 후부터 12/10 02:59 UTC까지, 유예 기간을 12/10 03:00–12/17 02:59 UTC로 안내하며, 유예 기간이 끝난 뒤 Draft Arena가 다시 교체된다고 밝힙니다. 공개 STOVE/Steam 공지를 요약한 것이며 점검 후 일정이 바뀔 수 있습니다. Smilegate/STOVE와 무관한 독립 가이드입니다.",
+      "as_of": "2026-11-22 23:13 Asia/Shanghai 업데이트. 시간은 UTC. 길드전은 11/19 점검 후 도입되었고, 방어팀은 11/21 03:00 UTC에 시작되었으며, 매칭은 11/23 03:00 UTC에 아직 도래하지 않았습니다. Call of Chaos 시즌 2는 11/19 점검 후부터 12/10 02:59 UTC까지, 유예 기간은 12/10 03:00–12/17 02:59 UTC이며, 시즌 중 Draft Arena는 사용할 수 없고 유예 기간 종료 후 다시 교체된다고 공지되었습니다(STOVE 14638143). 2026-11-05 패치로 파운드리 상점 오표시가 수정되었고, 2026-11-07 Steam 공지로 길드전 일정과 파운드리 로그인 선물이 추가되었습니다.",
       "unlock_h2": "콘텐츠 해금 캘린더",
       "th": [
         "콘텐츠",
@@ -7208,8 +7218,13 @@ export const CONTENT = {
         ],
         [
           "드래프트 아레나",
-          "2026-10-29 점검 후",
-          "파운드리 매칭"
+          "Call of Chaos 시즌 2 중 사용 불가(11/19–12/10, 유예 12/17까지)",
+          "STOVE 14638143"
+        ],
+        [
+          "Call of Chaos 시즌 2",
+          "2026-11-19 점검 후 – 12/10 02:59",
+          "STOVE 14638143"
         ],
         [
           "길드전 도입",
@@ -7323,6 +7338,11 @@ export const CONTENT = {
           "월드 아레나",
           "12/10 점검 후",
           "시즌"
+        ],
+        [
+          "Call of Chaos 시즌 2 — Draft Arena 사용 불가",
+          "11/19 점검 후",
+          "12/10 02:59(유예 12/17 02:59까지)"
         ]
       ],
       "buff_h2": "스타터 지원 버프",
@@ -7353,7 +7373,7 @@ export const CONTENT = {
       "side_h2": "사이드 스토리",
       "side": "상세: Secret Rabbit♥Hole.",
       "src_h2": "출처",
-      "answer": "Foundry 서버 가이드는 Epic Seven 신서버 트랙의 캘린더·콘텐츠 해금·보상·길드전·월드 아레나를 정리합니다. “Foundry codes”는 쿠폰 목록이 아니라 축하/공식 공지의 메일·로그인 보상입니다. 로그인 전환은 레거시 진행을 유지할 뿐 Foundry에 자동 입장하지 않습니다 — 전체 절차는 [[STOVE↔Steam 이전 가이드|/steam-transfer/]]. Draft Arena는 오픈됨; 길드전은 2026-11-19에 도입되었고, 2026-11-21 03:00 UTC 방어팀 구성은 시작되었으며, 2026-11-23 03:00 UTC 매칭은 2026-11-21 21:45 Asia/Shanghai 확인 기준 아직입니다. WA는 2026-12-10 점검 후; 다수 버프 ~12/31 — STOVE/Steam 재확인. 11/17 공지는 12/10(목) 업데이트에서 길드전 무승부 판정을 바꾼다고 합니다: 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 그 경기의 공격 승/무/패 합산 공격 점수가 높은 쪽이 승리; 그래도 무승부면 양쪽 완파 시 100% 승점, 양쪽 미완파 시 50%. 세부는 12/10 업데이트 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Foundry 서버 가이드는 Epic Seven 신서버 트랙의 캘린더·콘텐츠 해금·보상·길드전·월드 아레나를 정리합니다. “Foundry codes”는 쿠폰 목록이 아니라 축하/공식 공지의 메일·로그인 보상입니다. 로그인 전환은 레거시 진행을 유지할 뿐 Foundry에 자동 입장하지 않습니다 — 전체 절차는 [[STOVE↔Steam 이전 가이드|/steam-transfer/]]. Draft Arena는 Call of Chaos 시즌 2가 진행되는 동안 사용할 수 없습니다. 공식 11/19 공지는 시즌을 11/19 점검 후부터 12/10 02:59 UTC까지, 유예 기간을 12/10 03:00–12/17 02:59 UTC로 안내하며, 시즌 중 Draft Arena를 사용할 수 없고 유예 기간이 끝난 뒤 다시 교체된다고 밝힙니다([[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]]). 길드전은 2026-11-19에 도입되었고, 2026-11-21 03:00 UTC 방어팀 구성은 시작되었으며, 2026-11-23 03:00 UTC 매칭은 2026-11-22 23:13 Asia/Shanghai 확인 기준 아직입니다. WA는 2026-12-10 점검 후; 다수 버프 ~12/31 — STOVE/Steam 재확인. 11/17 공지는 12/10(목) 업데이트에서 길드전 무승부 판정을 바꾼다고 합니다: 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 그 경기의 공격 승/무/패 합산 공격 점수가 높은 쪽이 승리; 그래도 무승부면 양쪽 완파 시 100% 승점, 양쪽 미완파 시 50%. 세부는 12/10 업데이트 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "파운드리 캘린더 자작 시각자료(버프·래빗홀·길드전·WA)",
       "img_ss_alt": "Epic Seven 공식 Steam 스크린샷 — Steam CDN",
       "faq_h2": "파운드리 FAQ",
@@ -7376,7 +7396,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 길드전은 언제 열리나요?",
-          "2026-11-07 Steam 공지 기준 길드전은 2026-11-19 도입, 방어팀 구성 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC입니다. 월드 아레나는 2026-12-10 점검 후. 자세한 내용은 위 길드전 섹션과 Steam/STOVE 공지를 확인하세요."
+          "2026-11-07 Steam 공지 기준 길드전은 2026-11-19 도입, 방어팀 구성 2026-11-21 03:00 UTC, 매칭 2026-11-23 03:00 UTC입니다. Draft Arena는 Call of Chaos 시즌 2가 진행되는 동안 사용할 수 없습니다(시즌 12/10 02:59 UTC까지, 유예 12/17 02:59 UTC까지; STOVE 14638143). 월드 아레나는 2026-12-10 점검 후. 자세한 내용은 위 길드전 섹션과 Steam/STOVE 공지를 확인하세요."
         ],
         [
           "파운드리 코드를 교환할 수 있나요?",
@@ -7399,12 +7419,12 @@ export const CONTENT = {
       "link_demo": "데모 삭제 경고",
       "related_h2": "관련 가이드",
       "gw_h2": "파운드리 길드전",
-      "gw_answer": "파운드리 길드전은 단일 해금일이 아니라 단계적 롤아웃입니다. 2026-11-21 21:45 Asia/Shanghai 기준 11/19 도입과 11/21 03:00 UTC 방어팀 구성은 시작되었고, 11/23 03:00 UTC 매칭은 아직 도래하지 않았습니다. 2026-11-07 Steam 공지 기준: 2026-11-19 길드전 도입, 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성, 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 미리 파운드리 길드에 가입/생성하고 일일 길드 콘텐츠를 소화하세요. 길드전은 계정 이전과 별개인 파운드리 측 기능이며, 로그인 전환은 레거시 후계자를 Foundry GW에 자동 등록하지 않습니다. 점검 후 일정이 바뀔 수 있으니 Steam/STOVE 공지를 인용하세요.",
+      "gw_answer": "파운드리 길드전은 단일 해금일이 아니라 단계적 롤아웃입니다. 2026-11-22 23:13 Asia/Shanghai 기준 11/19 도입과 11/21 03:00 UTC 방어팀 구성은 시작되었고, 11/23 03:00 UTC 매칭은 아직 도래하지 않았습니다. 2026-11-07 Steam 공지 기준: 2026-11-19 길드전 도입, 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성, 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 미리 파운드리 길드에 가입/생성하고 일일 길드 콘텐츠를 소화하세요. 길드전은 계정 이전과 별개인 파운드리 측 기능이며, 로그인 전환은 레거시 후계자를 Foundry GW에 자동 등록하지 않습니다. 점검 후 일정이 바뀔 수 있으니 Steam/STOVE 공지를 인용하세요.",
       "gw_unlock_h3": "해금 단계",
-      "gw_unlock": "2026-11-07 Steam 공지는 세 체크포인트로 나뉩니다. (1) 2026-11-19 Foundry에 길드전 도입. (2) 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성. (3) 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. 드래프트 아레나는 Steam 런칭 구간과 함께 열렸고, 월드 아레나는 2026-12-10 점검 후로 안내되며, 공식 공지는 KST와 UTC를 각각 표기했습니다. 당시 공지를 확인하세요. 길드 일정을 잡기 전에 최신 Steam/STOVE 공지를 다시 여세요 — 패치로 창이 이동할 수 있습니다. 2026-11-21 21:45 Asia/Shanghai 확인 기준 (1)과 (2)는 시작되었고 (3)은 아직입니다.",
+      "gw_unlock": "2026-11-07 Steam 공지는 세 체크포인트로 나뉩니다. (1) 2026-11-19 Foundry에 길드전 도입. (2) 2026-11-21 03:00 UTC(상하이 11:00) 방어팀 구성. (3) 2026-11-23 03:00 UTC(상하이 11:00) 길드전 매칭. Draft Arena는 Call of Chaos 시즌 2가 진행되는 동안 사용할 수 없으며, 공식 11/19 공지는 시즌을 12/10 02:59 UTC까지, 유예 기간을 12/17 02:59 UTC까지로 안내하고 유예 종료 후 다시 교체된다고 밝힙니다(STOVE 14638143). 월드 아레나는 2026-12-10 점검 후로 안내되며, 공식 공지는 KST와 UTC를 각각 표기했습니다. 당시 공지를 확인하세요. 길드 일정을 잡기 전에 최신 Steam/STOVE 공지를 다시 여세요 — 패치로 창이 이동할 수 있습니다. 2026-11-22 23:13 Asia/Shanghai 확인 기준 (1)과 (2)는 시작되었고 (3)은 아직입니다.",
       "gw_prep_h3": "오픈 전 체크리스트",
       "gw_prep": [
-        "롤아웃은 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀 시작, 2026-11-23 03:00 UTC 매칭 예정(2026-11-21 21:45 Asia/Shanghai 기준 아직)으로 단계화됩니다. 단일 11/21 해금일로 계획하지 마세요.",
+        "롤아웃은 2026-11-19 도입, 2026-11-21 03:00 UTC 방어팀 시작, 2026-11-23 03:00 UTC 매칭 예정(2026-11-22 23:13 Asia/Shanghai 기준 아직)으로 단계화됩니다. 단일 11/21 해금일로 계획하지 마세요.",
         "먼저 공지된 길드 가입 요건을 충족하세요 — 커뮤니티 체크리스트는 계정 Rank 10을 언급하며, 실제 기준은 인게임에서 확인 — 그다음 2026-11-19 전에 파운드리 길드에 가입하거나 생성해 멤버십을 안정화하세요.",
         "가능한 일일 길드 미션·기부를 처리해 길드 레벨/재화를 쌓으세요.",
         "스태미나 아이템을 확보하고 길드 공/수용 탱·힐·정화 코어를 준비하세요.",
@@ -7414,7 +7434,7 @@ export const CONTENT = {
         "가입 신청을 일찍 보내고 상태가 Pending이 아니라 Accepted로 표시되는지 확인하세요. 2026-11-21 03:00 UTC(STOVE 파운드리 view/14571828)에 신청이 대기 중이면 첫 방어팀 구성에 참여하지 못합니다.",
         "인게임 리셋 전에 길드원 미션과 출석을 끝내세요. 전쟁이 잠긴 뒤 빈 이름은 나중에 메울 수 없는 로스터 구멍입니다.",
         "매일 리셋마다 일일 기부·기여 한도를 소진하세요. 빠진 날은 쌓이지 않으므로, 며칠을 건너뛰면 사냥 한 번을 빼는 것보다 길드 진행 손해가 큽니다.",
-        "Steam 런칭부터 열린 파운드리 드래프트 아레나(STOVE 런칭 view/14606481)를 길드전 연습으로 쓰세요. 한 방 공격이 아니라 공격과 수비 모두에 낼 수 있는 탱커·정화·힐러를 장비하세요.",
+        "Draft Arena는 Call of Chaos 시즌 2가 진행되는 동안 사용할 수 없습니다(시즌 12/10 02:59 UTC까지, 유예 12/17 02:59 UTC까지; STOVE 14638143). 유예 기간이 끝나면 인게임에서 다시 확인한 뒤 길드전 연습으로 쓰세요. 사용 가능할 때는 한 방 공격이 아니라 공격과 수비 모두에 낼 수 있는 탱커·정화·힐러를 장비하세요.",
         "멤버십이 수락된 날에 공격·수비 팀을 고정하세요. 점검이 끝날 때마다 리프나 길드 재화를 쓰기 전에 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 여세요.",
         "2026-12-10(목) 길드전 무승부 규칙: 업데이트에서 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 해당 경기 승/무/패 합산 공격 점수가 높은 쪽이 승리합니다. 그래도 무승부면 양쪽 완파 100% 승점, 양쪽 미완파 50%입니다. 세부는 12/10 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
@@ -7431,8 +7451,8 @@ export const CONTENT = {
       "guide": [
         [
           "Draft Arena",
-          "2026-10-29 점검 후",
-          "STOVE 기준"
+          "Call of Chaos 시즌 2 중 사용 불가(11/19–12/10, 유예 12/17까지)",
+          "STOVE 14638143"
         ],
         [
           "길드전 도입",
@@ -7495,7 +7515,7 @@ export const CONTENT = {
       ],
       "deep_h2": "일정 계획 메모(비공식)",
       "deep": [
-        "해금 표와 길드전 절을 함께 보세요. 드래프트 아레나는 런칭 구간에 이미 열려 있고, 길드전은 11월 중순 관문이며, 월드 아레나는 12월 중순 점검 라인 이후입니다. 축하 버프와 다수 우편 선물은 UTC 기준 12월 말까지로 잡혀 있는 경우가 많으니, 12/31 단일 절벽만 가정하지 말고 우편을 일찍 수령하세요. 시크릿 래빗♥홀 같은 사이드 콘텐츠는 이 페이지에서 연결되지만 자체 타이머를 가집니다. 길드전 준비는 멤버십 안정화, 일일 길드 미션, 공/방 코어 정비가 기본이며 레거시 길드 일정과 혼동하지 마세요.",
+        "해금 표와 길드전 절을 함께 보세요. 드래프트 아레나는 Call of Chaos 시즌 2 동안 사용할 수 없고(공식 11/19 공지: 시즌 12/10 02:59 UTC까지, 유예 12/17 02:59 UTC까지), 유예 종료 후 다시 교체된다고 안내됩니다(STOVE 14638143). 길드전은 11월 중순 관문이며, 월드 아레나는 12월 중순 점검 라인 이후입니다. 축하 버프와 다수 우편 선물은 UTC 기준 12월 말까지로 잡혀 있는 경우가 많으니, 12/31 단일 절벽만 가정하지 말고 우편을 일찍 수령하세요. 시크릿 래빗♥홀 같은 사이드 콘텐츠는 이 페이지에서 연결되지만 자체 타이머를 가집니다. 길드전 준비는 멤버십 안정화, 일일 길드 미션, 공/방 코어 정비가 기본이며 레거시 길드 일정과 혼동하지 마세요.",
         "Steam 로그인 전환으로 레거시 후계자도 유지한다면 두 캐릭터를 별도 스테미나 소비로 보세요. 이전 질문은 이전 가이드, 퀘스트·사냥 루프는 퀘스트 허브로 보냅니다. 점검이 끝나면 반드시 STOVE 파운드리 공지(view/14571828)와 Steam 뉴스를 다시 여세요. 본 캘린더는 공개 공지 요약이며 Smilegate/STOVE 공식 UI가 아닙니다. 날짜가 충돌하면 원문 공지가 이깁니다. 파운드리 전용 매칭 PvP는 로그인 전환과 무관하게 파운드리 캐릭이 필요합니다.",
         "보상·버프 수치는 패치로 바뀔 수 있으니 「대략」 프레임만 기억하고 상세 표는 STOVE를 따릅니다. 길드전 보상 창을 축하 구간 안에서 소화하되, 자원 소모 전 실시간 공지를 재확인하세요. epicsevensteam.com은 비공식 정보 사이트입니다。",
         "파운드리 길드전 절의 체크리스트를 실제로 달력에 옮겨 적어두면 실수를 줄일 수 있습니다. 11/21 전에 길드 가입을 끝내고, 일일 길드 미션을 밀려 두지 않으며, 공/방 코어 영웅의 장비 최소선을 정해 두세요. 12/10 월드 아레나 라인과 12/31 버프 종료 프레임은 별개이므로 「시즌 하나」로 뭉뚱그리지 마세요. 사이드 스토리·래빗 홀·행운 보드는 로비 아이콘이 사라지기 전에 재화를 소진하세요. 레거시 캐릭과 동시 육성 시 스테미나 예산을 주 단위로 나누고, 이전 가이드와 퀘스트 허브 링크를 북마크하세요. 공지 원문과 본 요약이 다르면 원문이 우선입니다。"
@@ -7822,8 +7842,8 @@ export const CONTENT = {
       "title": "Epic Seven Foundry 伺服器指南：日程與公會戰 | E7 Steam Guide",
       "meta": "Foundry 伺服器指南：新服日程、解鎖與獎勵。公會戰 2026-11-19 導入、防禦隊伍 2026-11-21 03:00 UTC、配對 2026-11-23 03:00 UTC；世界競技場 2026-12-10。Foundry codes 不是兌換碼。引述 STOVE／Steam。",
       "h1": "Foundry 伺服器指南 — 日程與獎勵",
-      "lead": "Foundry 隨 Epic Seven Steam 上架窗口開啟，屬於新服軌道：成長增益、慶祝信件、公會戰進程，以及所列 PvP 的 Foundry 專用匹配。依 2026-11-07 Steam 公告，公會戰已於 2026-11-19 導入，防禦隊伍已於 2026-11-21 03:00 UTC 開始，公會戰配對 2026-11-23 03:00 UTC 尚未到。本頁摘要公開 STOVE／Steam 公告，維護後時程可能變動。與 Smilegate／STOVE 無關的獨立指南。",
-      "as_of": "2026-11-21 21:45 Asia/Shanghai 更新。時間為 UTC。公會戰已於 11/19 維護後導入、防禦隊伍 11/21 03:00 UTC 已開始、配對 11/23 03:00 UTC 尚未到。2026-11-05 修補修正 Foundry 商店誤顯；2026-11-07 Steam 公告新增公會戰時程與 Foundry 登入禮。",
+      "lead": "Foundry 隨 Epic Seven Steam 上架窗口開啟，屬於新服軌道：成長增益、慶祝信件、公會戰進程，以及所列 PvP 的 Foundry 專用匹配。依 2026-11-07 Steam 公告，公會戰已於 2026-11-19 導入，防禦隊伍已於 2026-11-21 03:00 UTC 開始，公會戰配對 2026-11-23 03:00 UTC 尚未到（以 2026-11-22 23:13 Asia/Shanghai 核對）。Call of Chaos 賽季 2 期間 Draft Arena 無法使用：官方 11/19 公告列賽季自 11/19 維護後至 12/10 02:59 UTC、寬限 12/10 03:00–12/17 02:59 UTC，並表示寬限期結束後會再次替換 Draft Arena。本頁摘要公開 STOVE／Steam 公告，維護後時程可能變動。與 Smilegate／STOVE 無關的獨立指南。",
+      "as_of": "2026-11-22 23:13 Asia/Shanghai 更新。時間為 UTC。公會戰已於 11/19 維護後導入、防禦隊伍 11/21 03:00 UTC 已開始、配對 11/23 03:00 UTC 尚未到。Call of Chaos 賽季 2 自 11/19 維護後至 12/10 02:59 UTC，寬限 12/10 03:00–12/17 02:59 UTC；賽季期間 Draft Arena 無法使用，官方公告表示寬限期結束後會再次替換（STOVE 14638143）。2026-11-05 修補修正 Foundry 商店誤顯；2026-11-07 Steam 公告新增公會戰時程與 Foundry 登入禮。",
       "unlock_h2": "內容解鎖",
       "th": [
         "項目",
@@ -7838,8 +7858,13 @@ export const CONTENT = {
         ],
         [
           "Draft Arena",
-          "2026-10-29 維護後",
-          "服內匹配"
+          "Call of Chaos 賽季 2 期間無法使用（11/19–12/10，寬限至 12/17）",
+          "STOVE 14638143"
+        ],
+        [
+          "Call of Chaos 賽季 2",
+          "2026-11-19 維護後 – 12/10 02:59",
+          "STOVE 14638143"
         ],
         [
           "公會戰導入",
@@ -7953,6 +7978,11 @@ export const CONTENT = {
           "World Arena",
           "12/10 維護後",
           "賽季"
+        ],
+        [
+          "Call of Chaos 賽季 2 — Draft Arena 無法使用",
+          "11/19 維護後",
+          "12/10 02:59（寬限至 12/17 02:59）"
         ]
       ],
       "buff_h2": "新手支援增益",
@@ -7983,7 +8013,7 @@ export const CONTENT = {
       "side_h2": "支線",
       "side": "詳見：Secret Rabbit♥Hole。",
       "src_h2": "來源",
-      "answer": "Foundry 伺服器指南整理 Epic Seven 新服的日程、內容解鎖、獎勵、公會戰與世界競技場。「Foundry codes」是慶祝／官方公告的信箱與登入獎勵，不是兌換碼清單。登入轉換只保留原服進度，不會自動進 Foundry——完整步驟見[[STOVE↔Steam 轉移指南|/steam-transfer/]]。Draft Arena 已開；公會戰已於 2026-11-19 導入，2026-11-21 03:00 UTC 防禦隊伍已開始，2026-11-23 03:00 UTC 配對以 2026-11-21 21:45 Asia/Shanghai 核對尚未到。WA 於 2026-12-10 維護後；多數增益至約 12/31——請以 STOVE／Steam 為準。11/17 公告指 12/10（週四）更新將調整公會戰平局判定：移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。",
+      "answer": "Foundry 伺服器指南整理 Epic Seven 新服的日程、內容解鎖、獎勵、公會戰與世界競技場。「Foundry codes」是慶祝／官方公告的信箱與登入獎勵，不是兌換碼清單。登入轉換只保留原服進度，不會自動進 Foundry——完整步驟見[[STOVE↔Steam 轉移指南|/steam-transfer/]]。Draft Arena 於 Call of Chaos 賽季 2 期間無法使用。官方 11/19 公告列賽季自 11/19 維護後至 12/10 02:59 UTC、寬限 12/10 03:00–12/17 02:59 UTC，並表示賽季期間 Draft Arena 無法使用、寬限期結束後會再次替換（[[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]]）。公會戰已於 2026-11-19 導入，2026-11-21 03:00 UTC 防禦隊伍已開始，2026-11-23 03:00 UTC 配對於 2026-11-22 23:13 Asia/Shanghai 核對尚未到。WA 於 2026-12-10 維護後；多數增益至約 12/31——請以 STOVE／Steam 為準。11/17 公告指 12/10（週四）更新將調整公會戰平局判定：移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。",
       "img_alt": "Foundry 日程自繪月曆（增益、兔子洞、公會戰、WA）",
       "img_ss_alt": "Epic Seven 官方 Steam 截圖 — Steam CDN",
       "faq_h2": "Foundry FAQ",
@@ -8006,7 +8036,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 公會戰何時開放？",
-          "依 2026-11-07 Steam 公告：2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對。世界競技場於 2026-12-10 維護後。詳見上方公會戰段落與 Steam／STOVE 公告。"
+          "依 2026-11-07 Steam 公告：2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍、2026-11-23 03:00 UTC 配對。Draft Arena 於 Call of Chaos 賽季 2 期間無法使用（賽季至 12/10 02:59 UTC，寬限至 12/17 02:59 UTC；STOVE 14638143）。世界競技場於 2026-12-10 維護後。詳見上方公會戰段落與 Steam／STOVE 公告。"
         ],
         [
           "Foundry 序號可以兌換嗎？",
@@ -8029,12 +8059,12 @@ export const CONTENT = {
       "link_demo": "試玩刪號警告",
       "related_h2": "相關指南",
       "gw_h2": "Foundry 公會戰",
-      "gw_answer": "Foundry 公會戰是分階段 rollout，不是單一解鎖日。以 2026-11-21 21:45 Asia/Shanghai 核對：11/19 導入與 11/21 03:00 UTC 防禦隊伍已開始，11/23 03:00 UTC 配對尚未到。依 2026-11-07 Steam 公告：2026-11-19 導入公會戰；2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。盡早加入或建立 Foundry 公會並清每日公會內容。公會戰是與帳號轉移分開的 Foundry 側功能；登入轉移不會讓原服繼承人自動進入 Foundry GW。維護後可能改期，請以 Steam／STOVE 公告為準。",
+      "gw_answer": "Foundry 公會戰是分階段 rollout，不是單一解鎖日。以 2026-11-22 23:13 Asia/Shanghai 核對：11/19 導入與 11/21 03:00 UTC 防禦隊伍已開始，11/23 03:00 UTC 配對尚未到。依 2026-11-07 Steam 公告：2026-11-19 導入公會戰；2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。盡早加入或建立 Foundry 公會並清每日公會內容。公會戰是與帳號轉移分開的 Foundry 側功能；登入轉移不會讓原服繼承人自動進入 Foundry GW。維護後可能改期，請以 Steam／STOVE 公告為準。",
       "gw_unlock_h3": "解鎖階段",
-      "gw_unlock": "2026-11-07 Steam 公告分成三個檢查點：(1) 2026-11-19 在 Foundry 導入公會戰；(2) 2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；(3) 2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。Draft Arena 隨 Steam 上架窗口開放；世界競技場標為 2026-12-10 維護後；官方公告分別標過 KST 與 UTC，請以當時公告為準。安排公會活動前請重新開啟最新 Steam／STOVE 公告——改版可能移動時段。 以 2026-11-21 21:45 Asia/Shanghai 核對：(1)(2) 已開始，(3) 尚未到。",
+      "gw_unlock": "2026-11-07 Steam 公告分成三個檢查點：(1) 2026-11-19 在 Foundry 導入公會戰；(2) 2026-11-21 03:00 UTC（上海 11:00）編成防禦隊伍；(3) 2026-11-23 03:00 UTC（上海 11:00）開放公會戰配對。Draft Arena 於 Call of Chaos 賽季 2 期間無法使用；官方 11/19 公告列賽季至 12/10 02:59 UTC、寬限至 12/17 02:59 UTC，並表示寬限期結束後會再次替換（STOVE 14638143）。世界競技場標為 2026-12-10 維護後；官方公告分別標過 KST 與 UTC，請以當時公告為準。安排公會活動前請重新開啟最新 Steam／STOVE 公告——改版可能移動時段。 以 2026-11-22 23:13 Asia/Shanghai 核對：(1)(2) 已開始，(3) 尚未到。",
       "gw_prep_h3": "開放前檢查清單",
       "gw_prep": [
-        "Rollout 分為 2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍已開始、2026-11-23 03:00 UTC 配對尚未到（以 2026-11-21 21:45 Asia/Shanghai 核對）三階段，請不要當成單一 11/21 解鎖日。",
+        "Rollout 分為 2026-11-19 導入、2026-11-21 03:00 UTC 防禦隊伍已開始、2026-11-23 03:00 UTC 配對尚未到（以 2026-11-22 23:13 Asia/Shanghai 核對）三階段，請不要當成單一 11/21 解鎖日。",
         "先達到公告的公會加入門檻——社群清單提到帳號 Rank 10，實際條件請在遊戲內確認——再於 2026-11-19 前加入或建立 Foundry 公會，穩定成員身分。",
         "盡量完成每日公會任務與捐獻，累積公會等級／貨幣。",
         "備妥體力道具，並準備可用的公會攻／防坦克、治療、淨化核心。",
@@ -8044,7 +8074,7 @@ export const CONTENT = {
         "提早送出加入申請，並確認狀態顯示 Accepted 而不是 Pending。申請若在 2026-11-21 03:00 UTC（STOVE Foundry view/14571828）仍在等待，就無法參與第一次防禦隊伍編成。",
         "每次遊戲內重置前清完公會成員任務與簽到。戰爭鎖定後缺的名字無法事後補上。",
         "每次重置都用完當日捐獻／貢獻上限。漏掉的日子不會累積，連跳數日比少打一次狩獵更傷公會進度。",
-        "把 Steam 上架起就開的 Foundry Draft Arena（STOVE Launch view/14606481）當成公會戰練習：養成攻防都能上場的坦克、淨化、治療，而不是守不住塔的一波隊。",
+        "Draft Arena 於 Call of Chaos 賽季 2 期間無法使用（賽季至 12/10 02:59 UTC、寬限至 12/17 02:59 UTC；STOVE 14638143）。寬限期結束後請先在遊戲內確認是否恢復，再當成公會戰練習；可用時養成攻防都能上場的坦克、淨化、治療，而不是守不住塔的一波隊。",
         "會籍顯示通過的當天就設定攻擊與防守。每次維護後，花樹葉或公會貨幣之前先重開 STOVE Foundry view/14571828 與 Launch view/14606481。",
         "2026-12-10（週四）公會戰平局規則：更新移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。"
       ],
@@ -8061,8 +8091,8 @@ export const CONTENT = {
       "guide": [
         [
           "Draft Arena",
-          "2026-10-29 維護後",
-          "以 STOVE 為準"
+          "Call of Chaos 賽季 2 期間無法使用（11/19–12/10，寬限至 12/17）",
+          "STOVE 14638143"
         ],
         [
           "公會戰導入",
@@ -8125,7 +8155,7 @@ export const CONTENT = {
       ],
       "deep_h2": "行程規劃備註（非官方）",
       "deep": [
-        "請把解鎖表與公會戰章節一起看：Draft Arena 已在上架窗口開放，公會戰是 11 月中旬關卡，世界競技場在 12 月中旬維護線之後。慶祝增益與多數信件禮物常標到 UTC 12 月底——別只假設 12/31 一道悬崖，信件請提早領。Secret Rabbit♥Hole 等支線可從本頁連過去，但有自己的計時。公會戰準備以穩定會籍、每日公會、攻防核心為主，不要和原服公會時程搞混。",
+        "請把解鎖表與公會戰章節一起看：Draft Arena 於 Call of Chaos 賽季 2 期間無法使用（官方 11/19 公告：賽季至 12/10 02:59 UTC、寬限至 12/17 02:59 UTC，寬限結束後再次替換；STOVE 14638143），公會戰是 11 月中旬關卡，世界競技場在 12 月中旬維護線之後。慶祝增益與多數信件禮物常標到 UTC 12 月底——別只假設 12/31 一道悬崖，信件請提早領。Secret Rabbit♥Hole 等支線可從本頁連過去，但有自己的計時。公會戰準備以穩定會籍、每日公會、攻防核心為主，不要和原服公會時程搞混。",
         "若你也用 Steam 登入轉換保留原服繼承人，請把兩個角色當成兩套體力池。轉移問題去轉移指南，任務／狩獵循環去任務總覽。維護結束後務必重開 STOVE Foundry 公告（view/14571828）與 Steam 新聞。本日程是公開公告摘要，不是 Smilegate／STOVE 官方介面。日期衝突時以原文公告為準。Foundry 專用匹配 PvP 與登入轉換無關，需要 Foundry 角色。",
         "獎勵與增益數字可能隨改版變動，只記「大約」框架，細節表跟 STOVE。公會戰獎勵窗放在慶祝區間內消化，但花資源前再查即時公告。epicsevensteam.com 為非官方資訊站。",
         "把 Foundry 公會戰章節的清單實際寫進日曆可減少失誤：11/21 前完成入會、別堆每日公會、先訂攻防核心裝備下限。12/10 世界競技場線與 12/31 增益結束框架是兩件事，別併成「同一個賽季」。支線、兔子洞、幸運盤在大廳圖示消失前把貨幣用完。若同時練原服，按週拆體力預算，並收藏轉移指南與任務總覽。公告原文與本摘要衝突時以原文為準。"
@@ -8137,8 +8167,8 @@ export const CONTENT = {
       "title": "ไกด์ Foundry Epic Seven: ปฏิทินและ Guild War | E7",
       "meta": "ไกด์เซิร์ฟเวอร์ Foundry: ปฏิทิน การปลดล็อก รางวัล Guild War เปิดตัว 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC; WA 2026-12-10. Foundry codes ≠ คูปอง อ้างอิง STOVE/Steam",
       "h1": "ไกด์เซิร์ฟเวอร์ Foundry — กำหนดการและรางวัล",
-      "lead": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: บัฟผู้เริ่มต้น เมลฉลอง ความคืบหน้า Guild War และการจับคู่เฉพาะ Foundry สำหรับ PvP ที่ระบุ ตามประกาศ Steam 2026-11-07 Guild War เปิดตัวแล้ว 2026-11-19, ทีมป้องกันเริ่มแล้ว 2026-11-21 03:00 UTC และการจับคู่ Guild War 2026-11-23 03:00 UTC ยังไม่ถึง สรุปจากประกาศสาธารณะ STOVE/Steam — กำหนดการอาจเลื่อนหลังปิดปรับปรุง ไกด์อิสระ ไม่ใช่ Smilegate หรือ STOVE",
-      "as_of": "อัปเดต 2026-11-21 21:45 Asia/Shanghai เวลา UTC Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่มแล้ว 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ยังไม่ถึง แพตช์ 2026-11-05 แก้การแสดงผลร้านค้า Foundry ประกาศ Steam 2026-11-07 เพิ่มกำหนด Guild War และของขวัญล็อกอิน Foundry",
+      "lead": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: บัฟผู้เริ่มต้น เมลฉลอง ความคืบหน้า Guild War และการจับคู่เฉพาะ Foundry สำหรับ PvP ที่ระบุ ตามประกาศ Steam 2026-11-07 Guild War เปิดตัวแล้ว 2026-11-19, ทีมป้องกันเริ่มแล้ว 2026-11-21 03:00 UTC และการจับคู่ Guild War 2026-11-23 03:00 UTC ยังไม่ถึง (ณ 2026-11-22 23:13 Asia/Shanghai) Draft Arena ใช้งานไม่ได้ระหว่างที่ The Call of Chaos ซีซัน 2 เปิดอยู่: ประกาศทางการ 11/19 ระบุซีซันตั้งแต่หลังปิดปรับปรุง 11/19 ถึง 12/10 02:59 UTC และช่วงผ่อนผัน 12/10 03:00–12/17 02:59 UTC และระบุว่า Draft Arena จะถูกแทนที่อีกครั้งหลังช่วงผ่อนผันสิ้นสุด สรุปจากประกาศสาธารณะ STOVE/Steam — กำหนดการอาจเลื่อนหลังปิดปรับปรุง ไกด์อิสระ ไม่ใช่ Smilegate หรือ STOVE",
+      "as_of": "อัปเดต 2026-11-22 23:13 Asia/Shanghai เวลา UTC Guild War เปิดตัวหลังปิดปรับปรุง 11/19 แล้ว ทีมป้องกันเริ่มแล้ว 11/21 03:00 UTC และการจับคู่ 11/23 03:00 UTC ยังไม่ถึง Call of Chaos ซีซัน 2 ตั้งแต่หลังปิดปรับปรุง 11/19 ถึง 12/10 02:59 UTC ช่วงผ่อนผัน 12/10 03:00–12/17 02:59 UTC; Draft Arena ใช้งานไม่ได้ระหว่างซีซัน และประกาศทางการระบุว่าจะถูกแทนที่อีกครั้งหลังช่วงผ่อนผันสิ้นสุด (STOVE 14638143) แพตช์ 2026-11-05 แก้การแสดงผลร้านค้า Foundry ประกาศ Steam 2026-11-07 เพิ่มกำหนด Guild War และของขวัญล็อกอิน Foundry",
       "unlock_h2": "ปฏิทินปลดล็อกเนื้อหา",
       "th": [
         "เนื้อหา",
@@ -8153,8 +8183,13 @@ export const CONTENT = {
         ],
         [
           "Draft Arena",
-          "2026-10-29 หลังปิดปรับปรุง",
-          "จับคู่เฉพาะ Foundry"
+          "ใช้งานไม่ได้ระหว่าง Call of Chaos ซีซัน 2 (11/19–12/10; ผ่อนผันถึง 12/17)",
+          "STOVE 14638143"
+        ],
+        [
+          "Call of Chaos ซีซัน 2",
+          "2026-11-19 หลังปิดปรับปรุง – 12/10 02:59",
+          "STOVE 14638143"
         ],
         [
           "เปิดตัว Guild War",
@@ -8268,6 +8303,11 @@ export const CONTENT = {
           "World Arena",
           "12/10 หลังปิดปรับปรุง",
           "ตามกำหนด"
+        ],
+        [
+          "Call of Chaos ซีซัน 2 — Draft Arena ใช้งานไม่ได้",
+          "11/19 หลังปิดปรับปรุง",
+          "12/10 02:59 (ผ่อนผันถึง 12/17 02:59)"
         ]
       ],
       "buff_h2": "บัฟสนับสนุนผู้เริ่มต้น",
@@ -8298,7 +8338,7 @@ export const CONTENT = {
       "side_h2": "เรื่องราวเสริม",
       "side": "เจาะลึก: Secret Rabbit♥Hole (Case Files, Lucky Board, แพ็กล็อบบี้)",
       "src_h2": "แหล่งอ้างอิง",
-      "answer": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: ปฏิทินฉลอง การปลดล็อก รางวัล Guild War และ World Arena “Foundry codes” หมายถึงประกาศฉลองหรือประกาศทางการ ไม่ใช่รายการคูปอง การโอนย้ายเก็บความคืบหน้าเดิมไว้ แต่ไม่ได้เข้าร่วม Foundry โดยอัตโนมัติ Draft Arena เปิดแล้ว; Guild War เปิดตัวแล้ว 2026-11-19, ทีมป้องกันเริ่มแล้ว 2026-11-21 03:00 UTC, การจับคู่ 2026-11-23 03:00 UTC ยังไม่ถึง ณ การตรวจ 2026-11-21 21:45 Asia/Shanghai. WA หลังปิดปรับปรุง 2026-12-10; บัฟถึง ~12/31 — ตรวจบน STOVE/Steam. ประกาศ 11/17 ระบุว่าอัปเดต 12/10 (พฤ.) จะเปลี่ยนกติกาการเสมอของ Guild War: ยกเลิกกฎให้สิทธิ์ตามคะแนนซีซันและผู้ใช้ Guild Crest ก่อนตอนจับคู่ เปลี่ยนเป็นฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "ไกด์เซิร์ฟเวอร์ Foundry นี้ครอบคลุมเส้นทางเซิร์ฟเวอร์ใหม่ของ Epic Seven: ปฏิทินฉลอง การปลดล็อก รางวัล Guild War และ World Arena “Foundry codes” หมายถึงประกาศฉลองหรือประกาศทางการ ไม่ใช่รายการคูปอง การโอนย้ายเก็บความคืบหน้าเดิมไว้ แต่ไม่ได้เข้าร่วม Foundry โดยอัตโนมัติ Draft Arena ใช้งานไม่ได้ระหว่างที่ The Call of Chaos ซีซัน 2 เปิดอยู่ ประกาศทางการ 11/19 ระบุซีซันตั้งแต่หลังปิดปรับปรุง 11/19 ถึง 12/10 02:59 UTC และช่วงผ่อนผัน 12/10 03:00–12/17 02:59 UTC โดย Draft Arena ใช้งานไม่ได้ระหว่างซีซันและจะถูกแทนที่อีกครั้งหลังช่วงผ่อนผันสิ้นสุด ([[STOVE 14638143|https://page.onstove.com/epicseven/GLOBAL/view/14638143]]). Guild War เปิดตัวแล้ว 2026-11-19, ทีมป้องกันเริ่มแล้ว 2026-11-21 03:00 UTC, การจับคู่ 2026-11-23 03:00 UTC ยังไม่ถึง ณ การตรวจ 2026-11-22 23:13 Asia/Shanghai. WA หลังปิดปรับปรุง 2026-12-10; บัฟถึง ~12/31 — ตรวจบน STOVE/Steam. ประกาศ 11/17 ระบุว่าอัปเดต 12/10 (พฤ.) จะเปลี่ยนกติกาการเสมอของ Guild War: ยกเลิกกฎให้สิทธิ์ตามคะแนนซีซันและผู้ใช้ Guild Crest ก่อนตอนจับคู่ เปลี่ยนเป็นฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "ภาพปฏิทิน Foundry ที่วาดเอง ครอบคลุมบัฟเปิดตัว, Rabbit Hole, Guild War และ World Arena",
       "img_ss_alt": "ภาพหน้าจอทางการจาก Steam แสดงการนำเสนอของ Epic Seven — Steam CDN",
       "faq_h2": "คำถามที่พบบ่อยเกี่ยวกับ Foundry",
@@ -8313,7 +8353,7 @@ export const CONTENT = {
         ],
         [
           "Guild War บน Foundry เปิดเมื่อไร?",
-          "ตามประกาศ Steam 2026-11-07: เปิดตัว 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC World Arena หลังปิดปรับปรุง 2026-12-10 ดูส่วน Guild War ด้านบนและประกาศ Steam/STOVE"
+          "ตามประกาศ Steam 2026-11-07: เปิดตัว 2026-11-19, จัดทีมป้องกัน 2026-11-21 03:00 UTC, จับคู่ 2026-11-23 03:00 UTC Draft Arena ใช้งานไม่ได้ระหว่าง Call of Chaos ซีซัน 2 (ซีซันถึง 12/10 02:59 UTC; ผ่อนผันถึง 12/17 02:59 UTC; STOVE 14638143) World Arena หลังปิดปรับปรุง 2026-12-10 ดูส่วน Guild War ด้านบนและประกาศ Steam/STOVE"
         ],
         [
           "บัฟผู้เริ่มต้นของ Foundry อยู่นานแค่ไหน?",
@@ -8344,12 +8384,12 @@ export const CONTENT = {
       "link_demo": "คำเตือนการลบบัญชีเดโม",
       "related_h2": "ไกด์ที่เกี่ยวข้อง",
       "gw_h2": "Guild War บน Foundry",
-      "gw_answer": "Guild War บน Foundry เป็นการเปิดแบบเป็นระยะ ไม่ใช่วันปลดล็อกวันเดียว ณ 2026-11-21 21:45 Asia/Shanghai การเปิดตัว 11/19 และทีมป้องกัน 11/21 03:00 UTC เริ่มแล้ว ส่วนการจับคู่ 11/23 03:00 UTC ยังไม่ถึง ตามประกาศ Steam 2026-11-07: เปิดตัว 2026-11-19; จัดทีมป้องกัน 2026-11-21 03:00 UTC (11:00 ตามเวลาเซี่ยงไฮ้); จับคู่ Guild War 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) เข้าร่วมหรือสร้างกิลด์ Foundry แต่เนิ่น ๆ และเคลียร์เนื้อหากิลด์รายวัน GW เป็นฟีเจอร์ฝั่ง Foundry ที่แยกจากการโอนบัญชี และการโอนล็อกอินไม่ได้พา Heir เดิมเข้า Foundry GW อัตโนมัติ วันที่อาจเลื่อนหลังปิดปรับปรุง อ้างอิงประกาศ Steam/STOVE",
+      "gw_answer": "Guild War บน Foundry เป็นการเปิดแบบเป็นระยะ ไม่ใช่วันปลดล็อกวันเดียว ณ 2026-11-22 23:13 Asia/Shanghai การเปิดตัว 11/19 และทีมป้องกัน 11/21 03:00 UTC เริ่มแล้ว ส่วนการจับคู่ 11/23 03:00 UTC ยังไม่ถึง ตามประกาศ Steam 2026-11-07: เปิดตัว 2026-11-19; จัดทีมป้องกัน 2026-11-21 03:00 UTC (11:00 ตามเวลาเซี่ยงไฮ้); จับคู่ Guild War 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) เข้าร่วมหรือสร้างกิลด์ Foundry แต่เนิ่น ๆ และเคลียร์เนื้อหากิลด์รายวัน GW เป็นฟีเจอร์ฝั่ง Foundry ที่แยกจากการโอนบัญชี และการโอนล็อกอินไม่ได้พา Heir เดิมเข้า Foundry GW อัตโนมัติ วันที่อาจเลื่อนหลังปิดปรับปรุง อ้างอิงประกาศ Steam/STOVE",
       "gw_unlock_h3": "ขั้นตอนปลดล็อก",
-      "gw_unlock": "ประกาศ Steam 2026-11-07 แบ่งเป็นสามจุด: (1) 2026-11-19 เปิดตัว Guild War บน Foundry; (2) 2026-11-21 03:00 UTC (11:00 เซี่ยงไฮ้) จัดทีมป้องกัน; (3) 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) จับคู่ Guild War Draft Arena เปิดพร้อมช่วงเปิดตัวบน Steam; World Arena ระบุหลังปิดปรับปรุง 2026-12-10 โดยประกาศทางการระบุทั้ง KST และ UTC โปรดตรวจประกาศ ณ เวลานั้น เปิดประกาศ Steam/STOVE ล่าสุดก่อนจัดกิจกรรมกิลด์ — แพตช์อาจเลื่อนช่วงเวลา ณ 2026-11-21 21:45 Asia/Shanghai (1) และ (2) เริ่มแล้ว (3) ยังไม่ถึง",
+      "gw_unlock": "ประกาศ Steam 2026-11-07 แบ่งเป็นสามจุด: (1) 2026-11-19 เปิดตัว Guild War บน Foundry; (2) 2026-11-21 03:00 UTC (11:00 เซี่ยงไฮ้) จัดทีมป้องกัน; (3) 2026-11-23 03:00 UTC (11:00 เซี่ยงไฮ้) จับคู่ Guild War Draft Arena ใช้งานไม่ได้ระหว่าง Call of Chaos ซีซัน 2; ประกาศทางการ 11/19 ระบุซีซันถึง 12/10 02:59 UTC และช่วงผ่อนผันถึง 12/17 02:59 UTC และจะถูกแทนที่อีกครั้งหลังช่วงผ่อนผันสิ้นสุด (STOVE 14638143) World Arena ระบุหลังปิดปรับปรุง 2026-12-10 โดยประกาศทางการระบุทั้ง KST และ UTC โปรดตรวจประกาศ ณ เวลานั้น เปิดประกาศ Steam/STOVE ล่าสุดก่อนจัดกิจกรรมกิลด์ — แพตช์อาจเลื่อนช่วงเวลา ณ 2026-11-22 23:13 Asia/Shanghai (1) และ (2) เริ่มแล้ว (3) ยังไม่ถึง",
       "gw_prep_h3": "เช็กลิสต์ก่อนเปิด",
       "gw_prep": [
-        "กำหนดการแบ่งเป็น 2026-11-19 เปิดตัวแล้ว, 2026-11-21 03:00 UTC ทีมป้องกันเริ่มแล้ว และ 2026-11-23 03:00 UTC จับคู่ยังไม่ถึง (ณ 2026-11-21 21:45 Asia/Shanghai) อย่าวางแผนเป็นวันปลดล็อกเดียว 11/21",
+        "กำหนดการแบ่งเป็น 2026-11-19 เปิดตัวแล้ว, 2026-11-21 03:00 UTC ทีมป้องกันเริ่มแล้ว และ 2026-11-23 03:00 UTC จับคู่ยังไม่ถึง (ณ 2026-11-22 23:13 Asia/Shanghai) อย่าวางแผนเป็นวันปลดล็อกเดียว 11/21",
         "ไปให้ถึงเงื่อนไขเข้ากิลด์ที่ประกาศไว้ก่อน — เช็กลิสต์ชุมชนอ้างถึงอันดับบัญชี 10; ยืนยันเงื่อนไขจริงในเกม — แล้วเข้าร่วมหรือสร้างกิลด์ Foundry ให้เสร็จก่อน 2026-11-19",
         "เคลียร์ภารกิจกิลด์รายวันและบริจาคเมื่อทำได้เพื่อเพิ่มเลเวล/สกุลเงินกิลด์",
         "สะสมไอเทม stamina และเตรียมทีม PvP ที่ใช้ได้จริง (แทงก์/ฮีลเลอร์/คลีนเซอร์) ให้พร้อมสำหรับรุก/รับของกิลด์",
@@ -8359,7 +8399,7 @@ export const CONTENT = {
         "ส่งคำขอเข้าร่วมแต่เนิ่น ๆ และยืนยันว่าแสดง Accepted ไม่ใช่ Pending คำขอที่ยัง Pending ตอน 2026-11-21 03:00 UTC (STOVE Foundry view/14571828) จะพลาดการจัดทีมป้องกันครั้งแรก",
         "ก่อนรีเซ็ตในเกมแต่ละครั้ง เคลียร์ภารกิจสมาชิกกิลด์และเช็คอิน ชื่อที่หายไปเมื่อศึกล็อกแล้วคือช่องว่างในรายชื่อที่เติมกลับไม่ได้",
         "ใช้โควตาบริจาคหรือมีส่วนร่วมรายวันให้หมดทุกรีเซ็ต วันที่พลาดการมีส่วนร่วมไม่สะสม ข้ามหลายวันจึงเสียความคืบหน้ากิลด์มากกว่าข้าม Hunt หนึ่งครั้ง",
-        "ใช้ Draft Arena ของ Foundry ที่เปิดตั้งแต่เปิดตัวบน Steam (STOVE Launch view/14606481) เป็นซ้อม Guild War: ใส่ gear ให้แทงก์ คลีนเซอร์ และฮีลเลอร์ที่ลงได้ทั้งรุกและรับ ไม่ใช่ทีมช็อตเดียวที่ถือหอไม่ได้",
+        "Draft Arena ใช้งานไม่ได้ระหว่าง Call of Chaos ซีซัน 2 (ซีซันถึง 12/10 02:59 UTC; ผ่อนผันถึง 12/17 02:59 UTC; STOVE 14638143) หลังช่วงผ่อนผันสิ้นสุด ให้ตรวจในเกมอีกครั้งก่อนใช้เป็นซ้อม Guild War; เมื่อใช้งานได้ ให้ใส่ gear ให้แทงก์ คลีนเซอร์ และฮีลเลอร์ที่ลงได้ทั้งรุกและรับ ไม่ใช่ทีมช็อตเดียวที่ถือหอไม่ได้",
         "วันที่สมาชิกภาพขึ้นว่าตอบรับแล้ว ตั้งทีมรุกและรับ หลังปิดปรับปรุงทุกครั้ง เปิด STOVE Foundry view/14571828 และ Launch view/14606481 ใหม่ก่อนใช้ leif หรือ guild mark",
         "2026-12-10 (พฤ.) กติกาการเสมอ Guild War: อัปเดตยกเลิกสิทธิ์ตามคะแนนซีซันและ Guild Crest ก่อนตอนจับคู่ ฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
@@ -8376,8 +8416,8 @@ export const CONTENT = {
       "guide": [
         [
           "Draft Arena",
-          "2026-10-29 หลังปิดปรับปรุง",
-          "ตาม STOVE"
+          "ใช้งานไม่ได้ระหว่าง Call of Chaos ซีซัน 2 (11/19–12/10; ผ่อนผันถึง 12/17)",
+          "STOVE 14638143"
         ],
         [
           "เปิดตัว Guild War",
@@ -10483,13 +10523,19 @@ export const CONTENT = {
       "title": "Epic Seven Banners & New Heroes — Yufine now, Cecilia from Nov 26",
       "meta": "Current pickup: Bunny Girl Mafia Yufine through 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia from 2026-11-26 03:00 UTC to 2026-12-17 02:59 UTC. Independent Steam / Foundry summaries with STOVE citations.",
       "h1": "Banners & new heroes",
-      "lead": "Current: Bunny Girl Mafia Yufine to 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Then the Foundry launch baseline. We do not sell bookmarks or gray codes — pity and rates live only in the official client.",
+      "lead": "Current: Bunny Girl Mafia Yufine to 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for Yufine and other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
       "pickup_kicker": "Current pickup · scheduled",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "5★ artifact A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Current limited pickup for this window. The in-client banner is the authority for cost, pity, and eligible characters; this page only tracks the public schedule. Check the [[Foundry calendar|/foundry/]], [[Guild War on Foundry|/foundry/#guild-war]], and [[heroes|/heroes/]] before spending.",
-      "pickup_note": "Scheduled window — re-check the STOVE pickup notice and the in-client banner before pulling. Pity and rates are client-only; Luna is not this pickup.",
+      "pickup_body": "Current limited pickup for this window. For Yufine, the in-client banner is the authority for cost, rates, pity, and eligible characters; this page only tracks the public schedule. The published Cecilia rules below apply only to that banner. Check the [[Foundry calendar|/foundry/]], [[Guild War on Foundry|/foundry/#guild-war]], and [[heroes|/heroes/]] before spending.",
+      "pickup_note": "Scheduled window — re-check the STOVE pickup notice and the in-client banner before pulling. For Yufine, use the in-client banner for cost and pity; the Cecilia rules in the next card apply only to that banner. Luna is not this pickup.",
+      "next_kicker": "Upcoming banner · 2026-11-26",
+      "next_h2": "Bunny Girl Maid Cecilia & Covert Service",
+      "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
+      "next_body": "Covenant rate-up. The official 11/19 post gives the rules for this banner: each summon reduces the counter by 1 (maximum 120); if you do not receive the featured Hero after 120 summons, the next summon is 100% guaranteed to be that Hero; summoning the featured Hero resets the counter. On this banner the featured 5★ Bunny Girl Maid Cecilia has a 1% rate, and no other 5★ Hero can be summoned. These rules apply only to this Cecilia banner — do not apply them to Yufine or other banners. Your personal counter and account state are still visible only in the client.",
+      "next_note": "Upcoming — not active at the 2026-11-22 23:13 Asia/Shanghai check. Re-check the STOVE notice and the in-client banner before pulling.",
+      "next_source": "STOVE 14638143",
       "pickup_source": "STOVE announcements",
       "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
@@ -10508,20 +10554,26 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service Covenant rate-up, 11/26 03:00 – 12/17 02:59 UTC (not today). Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). Pity and rates are client-only; verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC (not the Covenant pickup).",
-      "last_verified": "2026-11-19"
+      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service Covenant rate-up, 11/26 03:00 – 12/17 02:59 UTC (not today). Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). For Yufine, check cost, rates, and pity in-client; the official Cecilia guaranteed-summon/1% rules are in the upcoming card below and apply only to that banner. Verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC (not the Covenant pickup).",
+      "last_verified": "2026-11-22"
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",
       "meta": "Steam·파운드리용 배너/신규 로그. STOVE 인용 비공식 요약.",
       "h1": "배너·신규 영웅",
-      "lead": "현재 창을 먼저, 그다음 파운드리 런칭 기준선입니다. 북마크·그레이 코드 판매 없음 — 천장/확률은 공식 클라이언트에만 있습니다.",
+      "lead": "현재: 버니 걸 마피아 유핀 ~2026-11-26 02:59 UTC. 예정: 버니 걸 메이드 세실리아 & Covert Service, 11/26 03:00–12/17 02:59 UTC. 공식 11/19 공지는 세실리아의 확정 소환과 1% 픽업 확률 규칙을 공개합니다. 유핀과 다른 배너의 비용·확률·천장은 게임 내 배너에서 확인하세요. 그다음 파운드리 런칭 기준선입니다. 북마크·그레이 코드 판매 없음.",
       "pickup_kicker": "현재 픽업 · 예정",
       "pickup_h2": "버니 걸 마피아 유핀",
       "pickup_artifact": "5★ 아티팩트 A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "이번 창의 현재 한정 픽업입니다. 소환 비용·천장·대상 캐릭터는 게임 내 배너가 기준이며, 이 페이지는 공개 일정만 정리합니다. 재화를 쓰기 전에 [[파운드리 캘린더|/foundry/]], [[파운드리 길드전|/foundry/#guild-war]], [[영웅|/heroes/]]을 확인하세요.",
-      "pickup_note": "예정 창입니다 — 뽑기 전에 STOVE 픽업 공지와 게임 내 배너를 다시 확인하세요. 천장·확률은 클라이언트 전용이며, 루나는 이번 픽업이 아닙니다.",
+      "pickup_body": "이번 창의 현재 한정 픽업입니다. 유핀의 소환 비용·확률·천장·대상 캐릭터는 게임 내 배너가 기준이며, 이 페이지는 공개 일정만 정리합니다. 아래 공개된 세실리아 규칙은 해당 배너에만 적용됩니다. 재화를 쓰기 전에 [[파운드리 캘린더|/foundry/]], [[파운드리 길드전|/foundry/#guild-war]], [[영웅|/heroes/]]을 확인하세요.",
+      "pickup_note": "예정 창입니다 — 뽑기 전에 STOVE 픽업 공지와 게임 내 배너를 다시 확인하세요. 유핀은 게임 내 배너에서 비용·천장을 확인하고, 다음 카드의 세실리아 규칙은 그 배너에만 적용됩니다. 루나는 이번 픽업이 아닙니다.",
+      "next_kicker": "예정 배너 · 2026-11-26",
+      "next_h2": "버니 걸 메이드 세실리아 & Covert Service",
+      "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
+      "next_body": "Covenant 픽업. 공식 11/19 공지가 이 배너의 규칙을 제시합니다: 소환할 때마다 카운터가 1 감소(최대 120회); 120회 소환 후에도 픽업 영웅을 얻지 못하면 다음 소환은 해당 영웅 100% 확정; 픽업 영웅을 획득하면 카운터가 초기화됩니다. 이 배너에서 픽업 5★ 버니 걸 메이드 세실리아의 확률은 1%이며 다른 5★ 영웅은 소환되지 않습니다. 이 규칙은 이 세실리아 배너에만 적용되며 유핀 또는 다른 배너에 적용하지 마세요. 개인 카운터와 계정 상태는 여전히 클라이언트에서만 확인할 수 있습니다.",
+      "next_note": "예정 — 2026-11-22 23:13 Asia/Shanghai 확인 기준 아직 시작되지 않았습니다. 뽑기 전에 STOVE 공지와 게임 내 배너를 다시 확인하세요.",
+      "next_source": "STOVE 14638143",
       "pickup_source": "STOVE 공지",
       "launch_h2": "파운드리 런칭 기준선(2026-10-29+)",
       "launch": [
@@ -10540,7 +10592,7 @@ export const CONTENT = {
       ],
       "also": "업데이트·점검 페이지도 보세요.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 천장·확률은 클라이언트 전용이니 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다(계약 픽업 아님)."
+      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 유핀은 비용·확률·천장을 게임 내에서 확인하고, 아래 예정 카드의 공식 세실리아 확정/1% 규칙은 그 배너에만 적용됩니다. 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다(계약 픽업 아님)."
     },
     "ja": {
       "title": "バナー・新英雄 — Steam窓",
@@ -10577,13 +10629,19 @@ export const CONTENT = {
       "title": "卡池與新英雄 — Steam 窗口",
       "meta": "Steam／Foundry 卡池與新英雄日誌。引述 STOVE 之非官方摘要。",
       "h1": "卡池與新英雄",
-      "lead": "先看目前窗口，再看 Foundry 上架基準。不賣書籤或灰產序號——保底／機率只以官方客戶端為準。",
+      "lead": "目前：兔女郎黑手黨 優芬妮至 2026-11-26 02:59 UTC。預定：兔女郎女僕 賽西莉亞 & Covert Service，11/26 03:00–12/17 02:59 UTC。官方 11/19 公告已公布賽西莉亞的保底與 1% pickup 機率規則；優芬妮與其他卡池的成本、機率、保底請以遊戲內卡池為準。接著是 Foundry 上架基準。不賣書籤或灰產序號。",
       "pickup_kicker": "目前 Pickup · 預定",
       "pickup_h2": "兔女郎黑手黨 優芬妮",
       "pickup_artifact": "5★ 神器 A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "這是本期窗口的限定 Pickup。召喚成本、保底與適用角色以遊戲內卡池為準；本頁只整理公開時程。投入資源前請看[[Foundry 日程|/foundry/]]、[[Foundry 公會戰|/foundry/#guild-war]]與[[英雄|/heroes/]]。",
-      "pickup_note": "預定窗口——抽之前請再核 STOVE Pickup 公告與遊戲內卡池。保底／機率只在客戶端，Luna 不是本期 Pickup。",
+      "pickup_body": "這是本期窗口的限定 Pickup。優芬妮的召喚成本、機率、保底與適用角色以遊戲內卡池為準；本頁只整理公開時程。下方公布的賽西莉亞規則只適用於該卡池。投入資源前請看[[Foundry 日程|/foundry/]]、[[Foundry 公會戰|/foundry/#guild-war]]與[[英雄|/heroes/]]。",
+      "pickup_note": "預定窗口——抽之前請再核 STOVE Pickup 公告與遊戲內卡池。優芬妮請在遊戲內確認成本與保底；下一張卡的賽西莉亞規則只適用於該卡池。Luna 不是本期 Pickup。",
+      "next_kicker": "預定卡池 · 2026-11-26",
+      "next_h2": "兔女郎女僕 賽西莉亞 & Covert Service",
+      "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
+      "next_body": "Covenant Pickup。官方 11/19 公告公布本卡池規則：每次召喚使計數減 1（最多 120 次）；120 次後仍未取得 pickup 英雄，下一次召喚 100% 為該英雄；取得 pickup 英雄後計數重置。本卡池 pickup 5★ 兔女郎女僕 賽西莉亞機率為 1%，且不會出現其他 5★ 英雄。這些規則只適用於本賽西莉亞卡池，請勿套用到優芬妮或其他卡池。個人剩餘計數與帳號狀態仍只能在客戶端查看。",
+      "next_note": "預定——以 2026-11-22 23:13 Asia/Shanghai 核對尚未開始。抽之前請再核 STOVE 公告與遊戲內卡池。",
+      "next_source": "STOVE 14638143",
       "pickup_source": "STOVE 公告",
       "launch_h2": "Foundry 上架基準（2026-10-29+）",
       "launch": [
@@ -10602,19 +10660,25 @@ export const CONTENT = {
       ],
       "also": "另見更新與維護頁。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。保底／機率只在客戶端，抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束（非 Covenant Pickup）。"
+      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。優芬妮請在遊戲內確認成本、機率與保底；下方預定卡的官方賽西莉亞保底／1% 規則只適用於該卡池。抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束（非 Covenant Pickup）。"
     },
     "th": {
       "title": "แบนเนอร์และฮีโร่ใหม่ Epic Seven (ช่วง Steam) | คู่มือ",
       "meta": "บันทึกแบนเนอร์ / ฮีโร่ใหม่สำหรับ Steam และ Foundry สรุปอิสระพร้อมอ้างอิง STOVE",
       "h1": "แบนเนอร์และฮีโร่ใหม่",
-      "lead": "ช่วงปัจจุบันขึ้นก่อน ตามด้วยพื้นฐานการเปิดตัว Foundry เราไม่ขายบุ๊กมาร์กหรือ gray codes — pity และอัตราดรอปมีเฉพาะในไคลเอนต์ทางการ",
+      "lead": "ปัจจุบัน: Bunny Girl Mafia Yufine ถึง 2026-11-26 02:59 UTC กำหนดถัดไป: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00–12/17 02:59 UTC ประกาศทางการ 11/19 เผยกฎการรับประกันและอัตรา featured 1% ของ Cecilia; สำหรับ Yufine และตู้อื่น ให้ดูต้นทุน อัตรา และ pity ในไคลเอนต์ จากนั้นเป็นพื้นฐานเปิดตัว Foundry เราไม่ขายบุ๊กมาร์กหรือ gray codes",
       "pickup_kicker": "pickup ปัจจุบัน · ตามกำหนด",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "อาร์ติแฟกต์ 5★ A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "pickup แบบจำกัดประจำช่วงนี้ แบนเนอร์ในไคลเอนต์เป็นหลักสำหรับค่าใช้จ่าย, pity และตัวละครที่เข้าร่วม; หน้านี้ติดตามเฉพาะกำหนดการสาธารณะ ตรวจ [[ปฏิทิน Foundry|/foundry/]], [[Guild War บน Foundry|/foundry/#guild-war]] และ [[ฮีโร่|/heroes/]] ก่อนใช้จ่าย",
-      "pickup_note": "ช่วงเวลาตามกำหนด — ตรวจประกาศ pickup ของ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; Luna ไม่ใช่ pickup นี้",
+      "pickup_body": "pickup แบบจำกัดประจำช่วงนี้ สำหรับ Yufine แบนเนอร์ในไคลเอนต์เป็นหลักสำหรับค่าใช้จ่าย อัตรา pity และตัวละครที่เข้าร่วม; หน้านี้ติดตามเฉพาะกำหนดการสาธารณะ กฎ Cecilia ที่เผยแพร่ด้านล่างใช้เฉพาะตู้นั้น ตรวจ [[ปฏิทิน Foundry|/foundry/]], [[Guild War บน Foundry|/foundry/#guild-war]] และ [[ฮีโร่|/heroes/]] ก่อนใช้จ่าย",
+      "pickup_note": "ช่วงเวลาตามกำหนด — ตรวจประกาศ pickup ของ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม สำหรับ Yufine ให้ดูต้นทุนและ pity ในไคลเอนต์; กฎ Cecilia ในบัตรถัดไปใช้เฉพาะตู้นั้น Luna ไม่ใช่ pickup นี้",
+      "next_kicker": "ตู้ที่กำลังจะมา · 2026-11-26",
+      "next_h2": "Bunny Girl Maid Cecilia & Covert Service",
+      "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
+      "next_body": "Covenant rate-up ประกาศทางการ 11/19 กำหนดกฎของตู้นี้: การอัญเชิญแต่ละครั้งลดตัวนับลง 1 (สูงสุด 120 ครั้ง); หากยังไม่ได้รับฮีโร่ featured หลัง 120 ครั้ง การอัญเชิญครั้งถัดไปรับประกัน 100% ว่าเป็นฮีโร่ตัวนั้น; เมื่อได้รับฮีโร่ featured ตัวนับจะรีเซ็ต ในตู้นี้ฮีโร่ featured 5★ Bunny Girl Maid Cecilia มีอัตรา 1% และจะไม่มีฮีโร่ 5★ ตัวอื่นออกมา กฎเหล่านี้ใช้เฉพาะตู้ Cecilia นี้เท่านั้น อย่านำไปใช้กับ Yufine หรือตู้อื่น จำนวนครั้งคงเหลือและสถานะบัญชีส่วนตัวยังดูได้เฉพาะในไคลเอนต์",
+      "next_note": "กำลังจะมา — ณ การตรวจ 2026-11-22 23:13 Asia/Shanghai ยังไม่เริ่ม ตรวจประกาศ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม",
+      "next_source": "STOVE 14638143",
       "pickup_source": "ประกาศ STOVE",
       "launch_h2": "พื้นฐานการเปิดตัว Foundry (2026-10-29+)",
       "launch": [
@@ -10633,7 +10697,7 @@ export const CONTENT = {
       ],
       "also": "ดูเพิ่มเติมที่อัปเดตและปิดปรับปรุง",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 Pity และอัตราดรอปมีเฉพาะในไคลเอนต์; ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
+      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 สำหรับ Yufine ให้ดูต้นทุน อัตรา และ pity ในไคลเอนต์; กฎ Cecilia ทางการในบัตรด้านล่างใช้เฉพาะตู้นั้น ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
     },
     "es": {
       "title": "Banners y héroes nuevos de Epic Seven (Steam) | Guía",

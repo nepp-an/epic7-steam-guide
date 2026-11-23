@@ -22,11 +22,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE says “already been registered” — what does that mean?",
-      "That message usually means the Steam ID is already tied to another STOVE login, often the empty account Steam created on first launch. Do not delete it: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Do not create more Steam accounts. The official Q3 answer states no uniform waiting period. Check the exact wording on the [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
+      "That message usually means the Steam ID is already tied to another STOVE login, often the empty account Steam created on first launch. Do not delete it: log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS login. Do not create more Steam accounts. If you transferred within the last 3 months, the separate repeat-transfer wait may apply — see the greyed-out answer below and the [[account conversion guide|https://page.onstove.com/epicseven/global/view/14609690]]. Check the exact wording on the [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]."
     ],
     [
       "Why is the Transfer button greyed out?",
-      "The official Q3 answer does not state a uniform three-month cooldown. If the Transfer button is greyed out, read the current condition and date in your STOVE account UI and follow the on-screen wording or STOVE customer support. Do not use withdrawal as a recovery step, and never use a third-party unlock service."
+      "The official account conversion guide says that if you transferred your account within the last 3 months, you must wait 3 months from the date of your last transfer before you can transfer again. This is a condition for a repeat transfer, not a blanket wait for every first-time bind. Once the waiting period ends, proceed directly from STOVE > [My Info]. If you cannot log in before it ends, contact STOVE customer service. Do not use withdrawal as a recovery step, and never use a third-party unlock service. See the [[account conversion guide|https://page.onstove.com/epicseven/global/view/14609690]]."
     ]
   ],
   "ko": [
@@ -40,11 +40,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE에 “already been registered”가 뜨면 무슨 뜻인가요?",
-      "보통 해당 Steam ID가 다른 STOVE 로그인(첫 실행 때 Steam이 만든 임시 계정인 경우가 많음)에 이미 묶여 있다는 뜻입니다. 계정을 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인 방식으로 임시 계정을 변환한 뒤, 원래 이메일/SNS 로그인을 Steam 로그인으로 변환하세요. Steam 계정을 더 만들지 마세요. 정확한 문구는 [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]에서 확인하세요."
+      "보통 해당 Steam ID가 다른 STOVE 로그인(첫 실행 때 Steam이 만든 임시 계정인 경우가 많음)에 이미 묶여 있다는 뜻입니다. 계정을 삭제하지 말고, 그 Steam 계정으로 STOVE에 로그인해 [내 프로필 아이콘 > 계정 정보]의 Convert에서 Steam 이외 로그인 방식으로 임시 계정을 변환한 뒤, 원래 이메일/SNS 로그인을 Steam 로그인으로 변환하세요. Steam 계정을 더 만들지 마세요. 최근 3개월 안에 이전했다면 반복 이전 3개월 조건이 적용될 수 있으니 아래 비활성화 답변과 [[계정 전환 가이드|https://page.onstove.com/epicseven/global/view/14609690]]를 확인하세요. 정확한 문구는 [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]에서 확인하세요."
     ],
     [
       "이전 버튼이 비활성화되는 이유는?",
-      "공식 FAQ 3번에는 탈퇴나 일괄 3개월 대기가 나오지 않습니다. 버튼이 비활성화되면 STOVE 계정 UI에 표시된 조건과 날짜를 읽고, 현재 화면 문구와 고객센터 안내를 따르세요. 계정 삭제를 복구 절차로 쓰지 말고 제3자 해제 서비스도 이용하지 마세요."
+      "공식 계정 전환 가이드에 따르면 최근 3개월 안에 계정을 이전했다면 마지막 이전일로부터 3개월이 지나야 다시 이전할 수 있습니다. 이는 반복 이전에 적용되는 조건이며 모든 최초 연동에 적용되는 일괄 대기가 아닙니다. 대기 기간이 끝나면 STOVE > [내 정보]에서 바로 진행할 수 있습니다. 대기 중에 로그인할 수 없다면 STOVE 고객센터에 문의하세요. 계정 삭제를 복구 절차로 쓰지 말고 제3자 해제 서비스도 이용하지 마세요. [[계정 전환 가이드|https://page.onstove.com/epicseven/global/view/14609690]]"
     ]
   ],
   "ja": [
@@ -76,11 +76,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE 顯示「already been registered」是什麼意思？",
-      "通常表示該 Steam ID 已綁定另一個 STOVE 登入（常見是首次啟動時 Steam 自動建立的臨時帳號）。請不要註銷帳號；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本的 Email／SNS 登入轉成 Steam 登入。不要一直新開 Steam 帳號。實際文案請見[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。"
+      "通常表示該 Steam ID 已綁定另一個 STOVE 登入（常見是首次啟動時 Steam 自動建立的臨時帳號）。請不要註銷帳號；先以該 Steam 帳號登入 STOVE，於 [我的個人檔案圖示 > 帳號資訊] 的 Convert 把臨時帳號轉成 Steam 以外的登入方式，再把原本的 Email／SNS 登入轉成 Steam 登入。不要一直新開 Steam 帳號。若最近 3 個月內做過轉移，重複轉移的 3 個月條件可能適用——請看下方按鈕反灰的答案與[[帳號轉換指南|https://page.onstove.com/epicseven/global/view/14609690]]。實際文案請見[[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]。"
     ],
     [
       "為什麼轉移按鈕會灰掉？",
-      "官方 FAQ 第 3 問並沒有要求註銷，也沒有統一的三個月等待期。若按鈕反灰，請讀 STOVE 帳號介面顯示的條件與日期，並依目前畫面文字與客服說明處理。不要把註銷當成復原步驟，也不要使用第三方解鎖服務。"
+      "官方帳號轉換指南指出：若你在最近 3 個月內做過帳號轉移，必須從上次轉移日起等滿 3 個月才能再次轉移。這是重複轉移的適用條件，不是所有首次綁定都須等待。等待期結束後可直接從 STOVE > [我的資訊] 繼續；若在等待期內無法登入，請聯絡 STOVE 客服。不要把註銷當成復原步驟，也不要使用第三方解鎖服務。見[[帳號轉換指南|https://page.onstove.com/epicseven/global/view/14609690]]。"
     ]
   ],
   "th": [
@@ -94,11 +94,11 @@ export const FAQ_EXTRA: Record<
     ],
     [
       "STOVE ขึ้นว่า “already been registered” — หมายความว่าอะไร",
-      "ข้อความนี้มักหมายถึง Steam ID ถูกผูกกับล็อกอิน STOVE อื่นอยู่แล้ว ซึ่งมักเป็นบัญชีชั่วคราวที่ Steam สร้างตอนเปิดครั้งแรก อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นวิธีล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงล็อกอินอีเมล/SNS เดิมเป็นล็อกอิน Steam อย่าสร้างบัญชี Steam เพิ่ม ตรวจถ้อยคำที่แน่นอนได้ที่ [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]"
+      "ข้อความนี้มักหมายถึง Steam ID ถูกผูกกับล็อกอิน STOVE อื่นอยู่แล้ว ซึ่งมักเป็นบัญชีชั่วคราวที่ Steam สร้างตอนเปิดครั้งแรก อย่าถอนบัญชี ให้ล็อกอิน STOVE ด้วยบัญชี Steam นั้น แล้วเลือก Convert ที่ [ไอคอนโปรไฟล์ของฉัน > ข้อมูลบัญชี] เพื่อแปลงบัญชีชั่วคราวเป็นวิธีล็อกอินที่ไม่ใช่ Steam จากนั้นจึงแปลงล็อกอินอีเมล/SNS เดิมเป็นล็อกอิน Steam อย่าสร้างบัญชี Steam เพิ่ม หากโอนย้ายภายใน 3 เดือนล่าสุด เงื่อนไขการโอนย้ายซ้ำอาจมีผล — ดูคำตอบเรื่องปุ่มสีเทาด้านล่างและ[[คู่มือแปลงบัญชี|https://page.onstove.com/epicseven/global/view/14609690]] ตรวจถ้อยคำที่แน่นอนได้ที่ [[STOVE Steam FAQ|https://page.onstove.com/epicseven/global/view/14378309]]"
     ],
     [
       "ทำไมปุ่ม Transfer ถึงเป็นสีเทา",
-      "FAQ ทางการข้อ 3 ไม่ได้กำหนดให้ถอนบัญชีหรือรอสามเดือนแบบเหมารวม หากปุ่มเป็นสีเทา ให้อ่านเงื่อนไขและวันที่ที่แสดงใน UI บัญชี STOVE และยึดข้อความหน้าจอกับคำแนะนำของฝ่ายบริการลูกค้าปัจจุบัน อย่าใช้การถอนบัญชีเป็นขั้นตอนกู้คืน และอย่าใช้บริการปลดล็อกจากบุคคลที่สาม"
+      "คู่มือแปลงบัญชีทางการระบุว่า หากคุณโอนย้ายบัญชีภายใน 3 เดือนล่าสุด ต้องรอให้ครบ 3 เดือนนับจากวันที่โอนย้ายครั้งล่าสุดก่อนจึงจะโอนย้ายได้อีกครั้ง นี่เป็นเงื่อนไขสำหรับการโอนย้ายซ้ำ ไม่ใช่การรอแบบเหมารวมสำหรับการผูกครั้งแรกทุกครั้ง เมื่อครบกำหนดแล้วให้ดำเนินการต่อจาก STOVE > [ข้อมูลของฉัน] หากเข้าสู่ระบบไม่ได้ระหว่างรอ ให้ติดต่อฝ่ายบริการลูกค้า STOVE อย่าใช้การถอนบัญชีเป็นขั้นตอนกู้คืน และอย่าใช้บริการปลดล็อกจากบุคคลที่สาม ดู[[คู่มือแปลงบัญชี|https://page.onstove.com/epicseven/global/view/14609690]]"
     ]
   ],
   "es": [

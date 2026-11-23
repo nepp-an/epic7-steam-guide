@@ -24,21 +24,6 @@ export function PageShell({
         languages={languages}
         languagePaths={languagePaths}
       />
-      {/* Adsterra 468x60 banner — classic script: atOptions must run before the loader. */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-  atOptions = {
-    'key' : '2f2b23287458fafe6c5ad067db996e93',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-`,
-        }}
-      />
-      <script src="https://bauval.org/22/2f2b23287458fafe6c5ad067db996e93" />
       <main>{children}</main>
       {/* Adsterra native/container unit — script and its target div stay together.
           Emitted as raw SSR HTML so the async script is not hoisted into <head>

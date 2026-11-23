@@ -1,3 +1,4 @@
+import { AdBanner468 } from '@/components/AdBanner468';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
 import { LocaleLink as L } from '@/components/LocaleLink';
@@ -57,6 +58,7 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
         <strong>TL;DR — </strong>
         {c.answer}
       </p>
+      <AdBanner468 />
       {c.paras.map((p) => (
         <p key={p.slice(0, 48)}>{p}</p>
       ))}

@@ -9,6 +9,9 @@ export const TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE = '2026-11-07';
 /** Foundry page re-checked 2026-11-21 21:45 Asia/Shanghai against the 11/20 patch and Guild War status. */
 export const FOUNDRY_VERIFIED_DATE = '2026-11-21 21:45 Asia/Shanghai';
 
+/** Batch-1 Foundry re-check (en/ko/zh-tw/th) for Call of Chaos / Draft Arena status. */
+export const FOUNDRY_VERIFIED_DATE_BATCH1 = '2026-11-22 23:13 Asia/Shanghai';
+
 /** Case Files page verified against the STOVE event notices. */
 export const CASE_FILES_VERIFIED_DATE = '2026-11-21';
 

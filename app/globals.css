@@ -565,6 +565,36 @@ table.data tr:hover td {
   box-shadow: var(--shadow-card);
 }
 
+/* 468x60 ad slot: kept in a bounded, non-overlapping container after answers.
+   The unit stays 468x60; on narrow screens the viewport scrolls inside the
+   slot instead of forcing horizontal page overflow. */
+.ad-468 {
+  width: 100%;
+  max-width: 468px;
+  margin: 1.5rem auto;
+  overflow: hidden;
+}
+.ad-468-label {
+  display: block;
+  margin: 0 0 0.3rem;
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ad-468-viewport {
+  width: 100%;
+  max-width: 468px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.ad-468-unit {
+  width: 468px;
+  height: 60px;
+  max-width: 100%;
+}
+
 .card.pickup {
   border-color: var(--border-gold);
   background: linear-gradient(135deg, rgba(212, 168, 75, 0.08), var(--bg-card));

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AdBanner468 } from '@/components/AdBanner468';
 import { Checklist, QuestChecklist } from '@/components/Checklist';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
@@ -10,6 +11,7 @@ import { CORE_DEEPEN, type DeepenBlock } from '@/lib/i18n/coreDeepen';
 import {
   FOUNDRY_VERIFIED,
   FOUNDRY_VERIFIED_DATE,
+  FOUNDRY_VERIFIED_DATE_BATCH1,
   HEROES_VERIFIED,
   HOME_VERIFIED,
   ROLE_CHIPS,
@@ -649,6 +651,7 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       </section>
       <IndepNotice locale={locale} />
+      <AdBanner468 />
       <div className="kpi-strip" aria-label={isPl ? 'Najważniejsze informacje' : 'Hub highlights'}>
         <span className="chip chip-dark">{isPl ? 'Aplikacja Steam 5019180' : 'Steam app 5019180'}</span>
         <span className="chip chip-light">Foundry → 2026-12-31</span>
@@ -888,6 +891,7 @@ export function DownloadView({ locale }: { locale: Locale }) {
           {c.cta}
         </ExternalLink>
       </p>
+      <AdBanner468 />
       <h2>{c.before_h2}</h2>
       <Checklist
         items={c.steps.map(stripMarked)}
@@ -997,6 +1001,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         <RichInline locale={locale} marked={c.answer} />
       </p>
       <p>{c.goal}</p>
+      <AdBanner468 />
       <h2>{c.before_h2}</h2>
       <Checklist
         items={c.before}
@@ -1129,6 +1134,11 @@ export function TransferView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveSteamFaq}>Steam FAQ</ExternalLink>
         </li>
         <li>
+          <ExternalLink href={OFFICIAL.stoveAccountTransferGuide}>
+            Account conversion guide (view/14609690)
+          </ExternalLink>
+        </li>
+        <li>
           <ExternalLink href={OFFICIAL.stoveLaunch}>Launch</ExternalLink>
         </li>
         <li>
@@ -1161,6 +1171,7 @@ export function DemoView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveDemoDelete}>STOVE</ExternalLink>
         </p>
       </div>
+      <AdBanner468 />
       <h2>{c.table_h2}</h2>
       <table className="data">
         <thead>
@@ -1253,6 +1264,7 @@ export function FaqView({ locale }: { locale: Locale }) {
         credit="Unofficial FAQ flowchart · wrong bind, Convert the temporary account, then convert the original"
       />
       <p>{c.lead}</p>
+      <AdBanner468 />
       <h2>{c.check_h2}</h2>
       <Checklist
         items={c.checks}
@@ -1337,6 +1349,7 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
         credit="Unofficial UNCHEATER triage · epicsevensteam.com"
       />
       <p>{c.lead}</p>
+      <AdBanner468 />
       <h2>{c.acct_h2}</h2>
       <ul>
         {c.acct.map((s) => (
@@ -1438,7 +1451,14 @@ export function FoundryView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <LastVerified copy={FOUNDRY_VERIFIED[locale]} date={FOUNDRY_VERIFIED_DATE} />
+      <LastVerified
+        copy={FOUNDRY_VERIFIED[locale]}
+        date={
+          isCaseFilesLocale(locale)
+            ? FOUNDRY_VERIFIED_DATE_BATCH1
+            : FOUNDRY_VERIFIED_DATE
+        }
+      />
       <p className="quick-answer">
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
@@ -1452,6 +1472,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       </nav>
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
+      <AdBanner468 />
       <h2 id="server-guide">{c.guide_h2}</h2>
       <table className="data">
         <thead>
@@ -1646,6 +1667,11 @@ export function FoundryView({ locale }: { locale: Locale }) {
           <ExternalLink href={OFFICIAL.stoveFoundry}>Foundry</ExternalLink>
         </li>
         <li>
+          <ExternalLink href={OFFICIAL.stoveVersion87Update}>
+            The Call of Chaos S2 / 11.19 update (view/14638143)
+          </ExternalLink>
+        </li>
+        <li>
           <ExternalLink href={OFFICIAL.stoveLaunch}>
             STOVE Launch (view/14606481)
           </ExternalLink>
@@ -1697,6 +1723,7 @@ export function RabbitView({ locale }: { locale: Locale }) {
           <RichInline locale={locale} marked={c.deadline_text} />
         </p>
       </div>
+      <AdBanner468 />
       <p>{c.lead}</p>
       <h2>{c.glance_h2}</h2>
       <table className="data">
@@ -1754,6 +1781,7 @@ export function RabbitView({ locale }: { locale: Locale }) {
 
 export function BannersView({ locale }: { locale: Locale }) {
   const c = CONTENT['/banners/'][locale];
+  const next = 'next_h2' in c ? c : null;
   const lastVerified =
     locale === 'en' && 'last_verified' in c ? c.last_verified : null;
   return (
@@ -1784,6 +1812,23 @@ export function BannersView({ locale }: { locale: Locale }) {
           </ExternalLink>
         </p>
       </article>
+      <AdBanner468 />
+      {next ? (
+        <article className="card pickup">
+          <p className="as-of">{next.next_kicker}</p>
+          <h2>{next.next_h2}</h2>
+          <p className="pickup-window">{next.next_window}</p>
+          <p>
+            <RichInline locale={locale} marked={next.next_body} />
+          </p>
+          <p className="muted">{next.next_note}</p>
+          <p className="sources">
+            <ExternalLink href={OFFICIAL.stoveVersion87Update}>
+              {next.next_source}
+            </ExternalLink>
+          </p>
+        </article>
+      ) : null}
       <article className="card">
         <h2>{c.launch_h2}</h2>
         <ul>
@@ -1842,6 +1887,7 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       <p>
         <RichInline locale={locale} marked={c.lead} />
       </p>
+      <AdBanner468 />
       {c.cards.map(([title, bullets, src]) => {
         const anchor = updatesEventAnchor(bullets);
         return (
@@ -1887,6 +1933,7 @@ export function MaintenanceView({ locale }: { locale: Locale }) {
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} locale={locale} rich />
       <p>{c.lead}</p>
+      <AdBanner468 />
       {c.cards.map(([title, bullets]) => (
         <article className="card" key={title}>
           <h2>{title}</h2>
@@ -2090,6 +2137,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
         <a href="#farmers-hunt">{c.anchor_farmer}</a>
       </nav>
       <p className="prio-note muted">{c.prio_note}</p>
+      <AdBanner468 />
       <div className="kpi-strip" id="elements" aria-label={c.anchor_elements}>
         <span className="chip chip-fire">Fire</span>
         <span className="chip chip-ice">Ice</span>
@@ -2288,6 +2336,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
         rows={questRows}
         doneText={cl.questDone}
       />
+      <AdBanner468 />
       <Fig
         src="/images/diagram-quests.webp"
         alt={c.img_alt}
@@ -2547,6 +2596,7 @@ export function TierListView({ locale }: { locale: Locale }) {
         </p>
       )}
       <QuickAnswer text={c.answer} />
+      <AdBanner468 />
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#steam-lens">{c.anchor_why}</a>

@@ -232,6 +232,10 @@ export const OFFICIAL = {
     'https://store.steampowered.com/news/app/5019180/view/685267261521395852',
   stoveLaunch: 'https://page.onstove.com/epicseven/global/view/14606481',
   stoveSteamFaq: 'https://page.onstove.com/epicseven/global/view/14378309',
+  stoveAccountTransferGuide:
+    'https://page.onstove.com/epicseven/global/view/14609690',
+  stoveVersion87Update:
+    'https://page.onstove.com/epicseven/GLOBAL/view/14638143',
   stoveFoundry: 'https://page.onstove.com/epicseven/global/view/14571828',
   stoveDemoDelete: 'https://page.onstove.com/epicseven/global/view/14581667',
   stoveHome: 'https://page.onstove.com/epicseven/global',

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AdBanner468 } from '@/components/AdBanner468';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
@@ -149,6 +150,7 @@ export function TierResourcesView() {
         affiliated with Smilegate. This is not a completed three-mode master
         table.
       </p>
+      <AdBanner468 />
       <nav className="anchor-nav" aria-label="Jump to">
         <span className="anchor-nav-label">Jump to</span>
         <a href="#sources">Source comparison</a>
