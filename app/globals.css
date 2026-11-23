@@ -1131,8 +1131,8 @@ a.hub-card img {
 .task-card input[type="checkbox"] { width: 1.2rem; height: 1.2rem; vertical-align: middle; }
 .task-checklist > button { min-height: 44px; padding: .5rem 1rem; cursor: pointer; }
 .task-table-scroll { max-width: 100%; overflow-x: auto; }
-.task-table-scroll table { min-width: 0; table-layout: fixed; }
-.task-table-scroll th, .task-table-scroll td { overflow-wrap: anywhere; white-space: normal; }
+.task-table-scroll table { min-width: 38rem; table-layout: auto; }
+.task-table-scroll th, .task-table-scroll td { overflow-wrap: normal; word-break: normal; hyphens: none; white-space: normal; }
 .spoiler-answer { border: 1px solid var(--border); border-radius: var(--radius); padding: .8rem; }
 .spoiler-answer > summary, .reference-details > summary { cursor: pointer; padding: .5rem 0; font-weight: 700; min-height: 44px; }
 .reference-details { margin: 1.25rem 0; }
