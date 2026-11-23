@@ -27,17 +27,6 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
       <article className="case-dossier">
         <header className="dossier-hero">
           <h1>{c.h1}</h1>
-          <IndepNotice locale={locale} compact />
-          <p className="quick-answer">
-            {v.answerBefore}
-            <L locale={locale} href="/secret-rabbit-hole/">{v.eventName}</L>
-            {v.answerAfter}
-          </p>
-          <p className="dossier-window">
-            {v.windowEnd}{' '}
-            <L locale={locale} href="/banners/">{v.bannerDates}</L>
-            {v.windowBannerAfter}
-          </p>
         </header>
 
         <nav className="anchor-nav dossier-jump" aria-label={c.nav}>
@@ -45,6 +34,23 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
           <a href="#before-accusing">{c.rules}</a>
           <a href="#troubleshooting">{c.trouble}</a>
         </nav>
+
+        <details className="dossier-brief">
+          <summary>{c.brief}</summary>
+          <div className="dossier-brief-body">
+            <IndepNotice locale={locale} compact />
+            <p className="quick-answer">
+              {v.answerBefore}
+              <L locale={locale} href="/secret-rabbit-hole/">{v.eventName}</L>
+              {v.answerAfter}
+            </p>
+            <p className="dossier-window">
+              {v.windowEnd}{' '}
+              <L locale={locale} href="/banners/">{v.bannerDates}</L>
+              {v.windowBannerAfter}
+            </p>
+          </div>
+        </details>
 
         <div className="dossier-grid">
           {[0, 1, 2].map(i => (
@@ -63,9 +69,9 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
                   <p className="case-culprit"><strong>{c.culprit}: {CULPRITS[i]}</strong></p>
                   <p className="case-clue"><span className="clue-label">{v.decisive}</span> {c.clues[i]}</p>
                 </div>
+                <p className="case-table-caption" id={`case-${i + 1}-table-caption`}>{c.titles[i]}</p>
                 <div className="task-table-scroll" tabIndex={0} role="region" aria-label={`${c.case} ${i + 1}`}>
-                  <table className="data">
-                    <caption>{c.titles[i]}</caption>
+                  <table className="data" aria-labelledby={`case-${i + 1}-table-caption`}>
                     <thead>
                       <tr>{c.columns.map(col => <th key={col} scope="col">{col}</th>)}</tr>
                     </thead>
