@@ -6987,6 +6987,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 after maint",
           "12/10 02:59"
@@ -7310,6 +7315,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole+사건파일",
           "10/29 점검 후",
           "12/10 02:59"
@@ -7630,6 +7640,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole+事件簿",
           "10/29メンテ後",
           "12/10 02:59"
@@ -7948,6 +7963,11 @@ export const CONTENT = {
           "緊急任務：魅力週2",
           "11/19 維護後",
           "11/26 02:59"
+        ],
+        [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
         ],
         [
           "Secret Rabbit♥Hole＋案件",
@@ -8275,6 +8295,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 หลังปิดปรับปรุง",
           "12/10 02:59"
@@ -8592,6 +8617,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 tras mantenimiento",
           "12/10 02:59"
@@ -8902,6 +8932,11 @@ export const CONTENT = {
           "Missão de Emergência: semana 2 de Charm",
           "11/19 após manutenção",
           "11/26 02:59"
+        ],
+        [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
         ],
         [
           "Secret Rabbit♥Hole + Case Files",
@@ -9216,6 +9251,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 nach Wartung",
           "12/10 02:59"
@@ -9528,6 +9568,11 @@ export const CONTENT = {
           "11/26 02:59"
         ],
         [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
+        ],
+        [
           "Secret Rabbit♥Hole + Case Files",
           "10/29 après maintenance",
           "12/10 02:59"
@@ -9838,6 +9883,11 @@ export const CONTENT = {
           "Emergency Mission: tydzień czarów 2",
           "11/19 po konserwacji",
           "11/26 02:59"
+        ],
+        [
+          "Emergency Mission: Catalyst Search",
+          "11/26 03:00",
+          "12/3 02:59"
         ],
         [
           "Secret Rabbit♥Hole + Case Files",

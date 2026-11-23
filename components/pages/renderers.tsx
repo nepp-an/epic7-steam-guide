@@ -1,5 +1,7 @@
 import { EvergreenJump, FoundryRoadmap, SteamSymptomNavigator } from './EvergreenRoutes';
 import { GrowthHomePaths, FoundryActionRoutes } from '@/components/pages/GrowthRoutes';
+import { ActiveEventRoutes, PalaceMaidBannerNote, PalaceMaidRabbitNote } from '@/components/pages/ActiveEventRoutes';
+import { isActiveEventsLocale } from '@/lib/i18n/activeEvents';
 import { TaskChecklist } from '@/components/TaskChecklist';
 import { GROWTH_COPY, isGrowthLocale } from '@/lib/i18n/growth';
 import Link from 'next/link';
@@ -1727,6 +1729,7 @@ export function RabbitView({ locale }: { locale: Locale }) {
           </L>
         </p>
       ) : null}
+      {isActiveEventsLocale(locale) && <PalaceMaidRabbitNote locale={locale} />}
       <div className="card warn">
         <h2>{c.deadline_h2}</h2>
         <p>
@@ -1837,6 +1840,7 @@ export function BannersView({ locale }: { locale: Locale }) {
               {next.next_source}
             </ExternalLink>
           </p>
+          {isActiveEventsLocale(locale) ? <PalaceMaidBannerNote locale={locale} /> : null}
         </article>
       ) : null}
       <article className="card">
@@ -1897,6 +1901,7 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       <p>
         <RichInline locale={locale} marked={c.lead} />
       </p>
+      {isActiveEventsLocale(locale) && <ActiveEventRoutes locale={locale} />}
       <AdBanner468 />
       {c.cards.map(([title, bullets, src]) => {
         const anchor = updatesEventAnchor(bullets);
@@ -2348,6 +2353,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
         doneText={cl.questDone}
       />
       )}
+      {isActiveEventsLocale(locale) && <ActiveEventRoutes locale={locale} />}
       <AdBanner468 />
       <Fig
         src="/images/diagram-quests.webp"

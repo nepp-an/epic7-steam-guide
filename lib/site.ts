@@ -251,6 +251,12 @@ export const OFFICIAL = {
   stoveLuckyBoard: 'https://page.onstove.com/epicseven/global/view/14606365',
   stoveBunnyLobbyPack:
     'https://page.onstove.com/epicseven/global/view/14606343',
+  stoveCatalystSearch:
+    'https://page.onstove.com/epicseven/global/view/14638258',
+  stovePalaceMaid:
+    'https://page.onstove.com/epicseven/global/view/14638262',
+  stoveDirgeRewind:
+    'https://page.onstove.com/epicseven/global/view/14638347',
 } as const;
 
 export const DOMAIN_CANDIDATES = [
