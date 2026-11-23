@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata({
   path: PATH,
   locale: LOCALE,
   absoluteTitle: true,
-  ogImage: '/images/diagram-quests.webp',
+  ogImage: '/images/og-case-files-zh-tw.webp',
   alternateLocales: ['en', 'ko', 'zh-tw', 'th'],
 });
 

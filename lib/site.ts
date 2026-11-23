@@ -106,6 +106,12 @@ export function absoluteUrl(path: string): string {
   return `${SITE_ORIGIN}${p}`;
 }
 
+/** Absolute URL for a static file. Do not add a trailing slash (that 404s on .webp/.png). */
+export function absoluteAssetUrl(path: string): string {
+  const raw = (path.startsWith('/') ? path : `/${path}`).replace(/\/+$/, '');
+  return `${SITE_ORIGIN}${raw}`;
+}
+
 export function languageAlternatesFor(
   path: string,
   locales: readonly Locale[] = LOCALES,
@@ -177,7 +183,7 @@ export function pageMetadata({
   const canonicalPath = localizedPath(locale, path);
   const url = absoluteUrl(canonicalPath);
   const images = ogImage
-    ? [{ url: absoluteUrl(ogImage.startsWith('/') ? ogImage : `/${ogImage}`) }]
+    ? [{ url: absoluteAssetUrl(ogImage.startsWith('/') ? ogImage : `/${ogImage}`) }]
     : undefined;
   return {
     title: { absolute: full },

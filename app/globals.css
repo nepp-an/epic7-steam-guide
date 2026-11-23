@@ -1138,3 +1138,282 @@ a.hub-card img {
 .reference-details { margin: 1.25rem 0; }
 .case-task, [id^="task-"], #today, #quick-teams, #before-accusing, #troubleshooting, #calendar { scroll-margin-top: 8rem; }
 summary:focus-visible, .task-route:focus-visible, .task-checklist button:focus-visible { outline: 3px solid var(--steam); outline-offset: 3px; }
+
+/* Case Files dossier visual (2026-11-23). PageShell stays frozen; widen only this page. */
+main:has(.case-dossier) {
+  max-width: 68rem;
+}
+.case-dossier {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.case-dossier .indep-notice {
+  margin: 0.4rem 0 0.7rem;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.86rem;
+  box-shadow: none;
+}
+.case-dossier .quick-answer {
+  max-width: none;
+  margin-bottom: 0.65rem;
+}
+.dossier-window {
+  margin: 0 0 0.85rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+.dossier-jump {
+  margin-bottom: 1rem;
+}
+.dossier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 0.5rem;
+}
+.dossier-file {
+  --case-accent: var(--gold);
+  --case-accent-soft: rgba(212, 168, 75, 0.18);
+  background:
+    linear-gradient(180deg, #f7f1e6 0%, #efe6d4 100%);
+  color: #241e16;
+  border-radius: 14px;
+  border: 1px solid rgba(60, 44, 22, 0.18);
+  border-top: 5px solid var(--case-accent);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.65);
+  padding: 1rem 1rem 0.85rem;
+  min-width: 0;
+  scroll-margin-top: 8rem;
+}
+.dossier-file.case-1 { --case-accent: #2f7a74; --case-ink: #1c4f4b; }
+.dossier-file.case-2 { --case-accent: #8a3d52; --case-ink: #5a2434; }
+.dossier-file.case-3 { --case-accent: #9a7420; --case-ink: #5c4510; }
+.dossier-file:has(details[open]) {
+  grid-column: 1 / -1;
+}
+.dossier-file-head {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  margin-bottom: 0.65rem;
+}
+.dossier-glyph {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  color: var(--case-ink, #241e16);
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  padding: 6px;
+  border: 1px solid rgba(60, 44, 22, 0.12);
+}
+.dossier-file-copy {
+  min-width: 0;
+}
+.dossier-kicker {
+  margin: 0 0 0.15rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--case-accent);
+}
+.dossier-file h2 {
+  margin: 0 0 0.2rem;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: #1a1610;
+  border: none;
+  border-image: none;
+  padding: 0;
+}
+.dossier-type {
+  margin: 0;
+  color: #5c5346;
+  font-size: 0.9rem;
+}
+.dossier-file a {
+  color: #215a86;
+}
+.dossier-file a:hover {
+  color: #8a5a10;
+}
+.dossier-file .spoiler-answer {
+  background: rgba(255, 252, 245, 0.7);
+  border-color: rgba(60, 44, 22, 0.16);
+  color: #241e16;
+}
+.dossier-file .spoiler-answer > summary {
+  color: var(--case-ink, #241e16);
+}
+.case-verdict {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.35rem 0 0.85rem;
+  padding: 0.75rem 0.85rem;
+  background: #fffaf0;
+  border-left: 4px solid var(--case-accent);
+  border-radius: 0 10px 10px 0;
+  box-shadow: inset 0 0 0 1px rgba(60, 44, 22, 0.08);
+}
+.case-culprit,
+.case-clue {
+  margin: 0;
+}
+.case-culprit {
+  font-size: 1.05rem;
+  color: #1a1610;
+}
+.clue-label {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: var(--case-accent);
+  color: #fffdf6;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.dossier-file table.data {
+  background: #fffdf8;
+  color: #241e16;
+  overflow: visible;
+  box-shadow: none;
+  border: 1px solid rgba(60, 44, 22, 0.16);
+}
+.dossier-file table.data th,
+.dossier-file table.data td {
+  border-color: rgba(60, 44, 22, 0.14);
+}
+.dossier-file table.data th {
+  background: #e9dcc0;
+  color: #241e16;
+}
+.dossier-file table.data tr:hover td {
+  background: rgba(47, 122, 116, 0.06);
+}
+.dossier-file caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  color: #3a3226;
+  padding: 0 0 0.4rem;
+}
+.dossier-file .muted {
+  color: #5c5346;
+}
+.dossier-guide {
+  margin-top: 2rem;
+}
+.case-diagram {
+  margin: 1rem 0 1.25rem;
+  padding: 0.85rem 1rem 0.75rem;
+  background: linear-gradient(180deg, rgba(247, 241, 230, 0.08), rgba(247, 241, 230, 0.02));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.diagram-title {
+  margin: 0 0 0.7rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+}
+.diagram-note {
+  margin: 0.7rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.enter-path,
+.board-path,
+.trouble-path,
+.related-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+.enter-path {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.enter-path li,
+.board-path li,
+.trouble-path li {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+}
+.enter-path li {
+  align-items: flex-start;
+  position: relative;
+}
+.enter-icon,
+.board-mark,
+.trouble-icon {
+  color: var(--gold-bright);
+}
+.enter-label,
+.board-path strong,
+.trouble-path strong {
+  font-weight: 700;
+  color: #fff;
+}
+.board-path,
+.trouble-path {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.trouble-path {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.board-path span,
+.trouble-path span:not(.board-mark):not(.trouble-icon) {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+.related-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 0.75rem;
+}
+.related-cards a {
+  display: block;
+  min-height: 44px;
+  padding: 0.85rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--gold-bright);
+  font-weight: 650;
+}
+.related-cards a:hover {
+  border-color: var(--gold-bright);
+  color: #fff;
+}
+@media (max-width: 70rem) {
+  .board-path {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 52rem) {
+  .dossier-grid,
+  .enter-path,
+  .trouble-path,
+  .related-cards {
+    grid-template-columns: 1fr;
+  }
+  .dossier-glyph {
+    width: 56px;
+    height: 56px;
+  }
+}
+@media (max-width: 40rem) {
+  .board-path {
+    grid-template-columns: 1fr;
+  }
+}
