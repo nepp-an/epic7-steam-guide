@@ -1,3 +1,6 @@
+import { GrowthHomePaths, FoundryActionRoutes } from '@/components/pages/GrowthRoutes';
+import { TaskChecklist } from '@/components/TaskChecklist';
+import { GROWTH_COPY, isGrowthLocale } from '@/lib/i18n/growth';
 import Link from 'next/link';
 import { AdBanner468 } from '@/components/AdBanner468';
 import { Checklist, QuestChecklist } from '@/components/Checklist';
@@ -618,7 +621,7 @@ export function HomeView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <section className="hero">
         <h1>{c.h1}</h1>
-        <p className="quick-answer">
+        {!isGrowthLocale(locale) && <><p className="quick-answer">
           <strong>TL;DR — </strong>
           <RichInline locale={locale} marked={c.answer} />
         </p>
@@ -648,7 +651,8 @@ export function HomeView({ locale }: { locale: Locale }) {
               </span>
             </Link>
           )}
-        </div>
+        </div></>}
+        {isGrowthLocale(locale) && <GrowthHomePaths locale={locale} />}
       </section>
       <IndepNotice locale={locale} />
       <AdBanner468 />
@@ -659,13 +663,11 @@ export function HomeView({ locale }: { locale: Locale }) {
         <span className="chip chip-fire">{isPl ? 'Potwierdź na STOVE' : 'Verify on STOVE'}</span>
         <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
-      <LastVerified copy={HOME_VERIFIED[locale]} />
-      <section className="hub-section" aria-labelledby="hub-cards-h2">
+      {!isGrowthLocale(locale) && <LastVerified copy={HOME_VERIFIED[locale]} />}
+      {!isGrowthLocale(locale) && <section className="hub-section" aria-labelledby="hub-cards-h2">
         <h2 id="hub-cards-h2">{c.hubs_h2}</h2>
         {(() => {
-          const dl = CONTENT['/download/'][locale] as typeof CONTENT['/download/']['en'] & {
-            hub_blurb?: string;
-          };
+          const dl = CONTENT['/download/'][locale] as { h1: string; lead: string; hub_blurb?: string };
           const byHref = new Map(c.hubs.map((h) => [h[0], h] as const));
           const primary = [
             byHref.get('/steam-transfer/'),
@@ -734,7 +736,7 @@ export function HomeView({ locale }: { locale: Locale }) {
             </>
           );
         })()}
-      </section>
+      </section>}
       <section className="start-5" aria-labelledby="get-started-h2">
         <h2 id="get-started-h2">{START5[locale].h2}</h2>
         <ol className="steps">
@@ -1455,7 +1457,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         copy={FOUNDRY_VERIFIED[locale]}
         date={
           isCaseFilesLocale(locale)
-            ? FOUNDRY_VERIFIED_DATE_BATCH1
+            ? '2026-11-23'
             : FOUNDRY_VERIFIED_DATE
         }
       />
@@ -1463,6 +1465,9 @@ export function FoundryView({ locale }: { locale: Locale }) {
         <strong>TL;DR — </strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
+      {isGrowthLocale(locale) && <FoundryActionRoutes locale={locale} />}
+      <AdBanner468 />
+      {isGrowthLocale(locale) && <p><a href="#calendar">{GROWTH_COPY[locale].full}</a></p>}
       <nav className="anchor-nav" aria-label={c.guide_h2}>
         <span className="anchor-nav-label">{c.guide_h2}</span>
         <a href="#server-guide">{c.unlock_h2}</a>
@@ -1472,7 +1477,6 @@ export function FoundryView({ locale }: { locale: Locale }) {
       </nav>
       <p>{c.lead}</p>
       <p className="as-of">{c.as_of}</p>
-      <AdBanner468 />
       <h2 id="server-guide">{c.guide_h2}</h2>
       <table className="data">
         <thead>
@@ -1531,7 +1535,8 @@ export function FoundryView({ locale }: { locale: Locale }) {
           ))}
         </tbody>
       </table>
-      <h2 id="calendar">{c.cal_h2}</h2>
+      <details id="calendar" className="reference-details" open={!isGrowthLocale(locale)}><summary>{isGrowthLocale(locale) ? GROWTH_COPY[locale].full : c.cal_h2}</summary>
+      <h2>{c.cal_h2}</h2>
       <table className="data">
         <thead>
           <tr>
@@ -1572,6 +1577,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
           →
         </L>
       </p>
+      </details>
       <h2 id="guild-war">{c.gw_h2}</h2>
       <p className="quick-answer">
         <strong>TL;DR — </strong>
@@ -2331,11 +2337,13 @@ export function QuestsView({ locale }: { locale: Locale }) {
       </p>
       <p>{c.lead}</p>
       <p className="muted">{c.reset_note}</p>
+      {isGrowthLocale(locale) ? <TaskChecklist copy={GROWTH_COPY[locale]} /> : (
       <QuestChecklist
         headers={cl.questTh}
         rows={questRows}
         doneText={cl.questDone}
       />
+      )}
       <AdBanner468 />
       <Fig
         src="/images/diagram-quests.webp"
@@ -2379,6 +2387,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
+      {!isGrowthLocale(locale) && <>
       <h2>{c.daily_h2}</h2>
       <ul>
         {c.daily.map((s) => (
@@ -2391,6 +2400,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
           <li key={s.slice(0, 40)}>{s}</li>
         ))}
       </ul>
+      </>}
       <h2>{c.event_h2}</h2>
       <ul>
         {c.event.map((s) => {

@@ -127,29 +127,21 @@ export function TierResourcesView() {
   return (
     <PageShell locale="en" path="/tier-list/" languages={['en']}>
       <h1>Epic Seven tier lists by game mode: sources and limits</h1>
-      <IndepNotice locale="en" />
-      <p className="last-verified">
-        Sources checked by row:{' '}
-        <time dateTime={TIER_RESOURCES_CHECKED}>{TIER_RESOURCES_CHECKED}</time>{' '}
-        for pages re-read this round; gacha.gg, PocketGamer and Fandom remain
-        2026-11-10 after HTTP 403. This is a resource comparison, not a ranking
-        of our own.
-      </p>
-      <p className="quick-answer">
-        <strong>Short answer: </strong>
-        There is still no single official Epic Seven tier list for every mode,
-        and this page does not claim one. What it now carries: four dated,
-        bounded community clear samples for representative high-difficulty PvE
-        panels (top three teams plus each panel’s most-used five); Guild War
-        quotes E7GW’s defenses (labelled “Nov 10 top-50 report”, with no year or
-        date range on the page) separately from E7GW’s attackers (no report date
-        visible on that page, checked 2026-11-13); Epic7Tools’ 10 November 2026
-        editorial archetypes and the official Foundry phases; and a bounded
-        Helper Champion+ snapshot for World Arena. None of this is a Foundry
-        measurement. The E7GW pages state no region and say they are not
-        affiliated with Smilegate. This is not a completed three-mode master
-        table.
-      </p>
+      <IndepNotice locale="en" compact />
+      <p className="quick-answer"><strong>Choose the content you need:</strong> PvE clear-team examples, Guild War references, or RTA data. These are dated community samples, not our own all-hero ranking or a Foundry-only measurement.</p>
+      <nav className="anchor-nav" aria-label="Choose mode"><a href="#pve">PvE clear teams</a><a href="#guild-war">Guild War</a><a href="#world-arena">RTA / World Arena</a><a href="/steam-tier-list/">New Steam account: build order</a></nav>
+      <section id="quick-teams" aria-labelledby="quick-teams-title"><h2 id="quick-teams-title">Four PvE samples: find your next reference</h2>
+       <p className="muted">Existing Hideout community snapshots, read 13 Nov 2026. The first team shown is an observed sample leader, not a guaranteed team or a new-account build order. Hunt / Expedition window: 29 Oct–4 Nov 2026; Abyss 91: 7 Aug–4 Nov 2026. Shares are not success rates.</p>
+       <div className="task-grid">{[
+        ['Wyvern · Hell', TIER_PVE_WYVERN_HELL_TEAMS[0], '#wyvern-hell'],
+        ['Banshee · Hell', TIER_PVE_BANSHEE_HELL_TEAMS[0], '#banshee-hell'],
+        ['Brutal Pherus · Stage 3', TIER_PVE_PHERUS_S3_TEAMS[0], '#pherus-3'],
+        ['Abyss Floor 91', TIER_PVE_ABYSS91_TEAMS[0], '#abyss-91'],
+       ].map(([title, team, href]) => {
+         const row = team as TierPveTeam;
+         return <article key={title as string} className="card task-card"><h3>{title as string}</h3><p><strong>{row.team}</strong></p><p>{row.share} — share of clears in this panel.</p><a href={href as string}>Sample, alternatives and source →</a></article>;
+       })}</div>
+      </section>
       <AdBanner468 />
       <nav className="anchor-nav" aria-label="Jump to">
         <span className="anchor-nav-label">Jump to</span>
@@ -169,60 +161,6 @@ export function TierResourcesView() {
         Steam/transfer account. Those are different jobs, so they now live on
         different pages instead of pretending to be one ranking.
       </p>
-
-      <section id="sources">
-        <h2>Source comparison by mode</h2>
-        <p>
-          The table records what each source covers, how it is built, when it
-          was last updated, and what it cannot tell you. “Checked” is the date
-          this site read the page, not the source’s update date. The two must
-          stay separate: an old PvE board can still be online today.
-        </p>
-        <div className={styles.tableScroll}>
-          <table className={`data ${styles.dataTable}`}>
-            <thead>
-              <tr>
-                <th scope="col">Source</th>
-                <th scope="col">Mode</th>
-                <th scope="col">Method / data</th>
-                <th scope="col">Source updated</th>
-                <th scope="col">Checked</th>
-                <th scope="col">Limits</th>
-                <th scope="col">Direct link</th>
-              </tr>
-            </thead>
-            <tbody>
-              {TIER_SOURCE_ROWS.map((row) => (
-                <tr key={row.source}>
-                  <td data-label="Source">
-                    <strong>{row.source}</strong>
-                  </td>
-                  <td data-label="Mode">{row.modes}</td>
-                  <td data-label="Method / data">{row.method}</td>
-                  <td data-label="Source updated">{row.updated}</td>
-                  <td data-label="Checked">{row.checked}</td>
-                  <td data-label="Limits">{row.limits}</td>
-                  <td data-label="Direct link" className={styles.cellBreak}>
-                    {row.href ? (
-                      <ExternalLink href={row.href}>{row.linkLabel}</ExternalLink>
-                    ) : (
-                      <span className="muted">{row.linkLabel}</span>
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p className="muted">
-          Source dates are copied from the pages as read. A missing exact date
-          is shown as “not captured” rather than guessed. A source being online
-          is not evidence that its data is current. gacha.gg, PocketGamer and
-          Fandom were re-fetched on 2026-11-13 and returned HTTP 403, so their
-          checked date stays at 2026-11-10, with the fetch failure recorded in
-          the limits column.
-        </p>
-      </section>
 
       <section id="pve">
         <h2>PvE — representative high-difficulty samples, not a full board</h2>
@@ -252,7 +190,7 @@ export function TierResourcesView() {
           Schniel / Bellona. That is a source-field difference, not a grade.
         </p>
 
-        <h3>1. Wyvern · Hell — Hideout community clears</h3>
+        <h3 id="wyvern-hell">1. Wyvern · Hell — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts#wyvern-hell-1">
@@ -271,7 +209,7 @@ export function TierResourcesView() {
           inspect, not a claim that it is best for every account.
         </p>
 
-        <h3>2. Banshee · Hell — Hideout community clears</h3>
+        <h3 id="banshee-hell">2. Banshee · Hell — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/hunts#banshee-hell-1">
@@ -291,7 +229,7 @@ export function TierResourcesView() {
           clears, not a single dominant lineup.
         </p>
 
-        <h3>3. Brutal Pherus · Stage 3 — Hideout community clears</h3>
+        <h3 id="pherus-3">3. Brutal Pherus · Stage 3 — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/expedition#pherus-3-1">
@@ -311,7 +249,7 @@ export function TierResourcesView() {
           set of four panels.
         </p>
 
-        <h3>4. Abyss Floor 91 — Hideout community clears</h3>
+        <h3 id="abyss-91">4. Abyss Floor 91 — Hideout community clears</h3>
         <p>
           <strong>Source / checked:</strong>{' '}
           <ExternalLink href="https://www.hideoutgacha.com/games/epic-seven/abyss#91-100-91-1">
@@ -420,7 +358,7 @@ export function TierResourcesView() {
         <p>
           <strong>Applies to:</strong> the live (non-Foundry) Guild War
           reference lists from E7GW and Epic7Tools, plus the official Foundry
-          schedule. Foundry Guild War is not open, so none of these lists is a
+          schedule. These historical samples do not measure Foundry, so none of these lists is a
           Foundry measurement, and this is not a complete Guild War letter
           board.
         </p>
@@ -430,7 +368,7 @@ export function TierResourcesView() {
         </p>
         <ul>
           <li>
-            Guild War is scheduled to be introduced to the Foundry Server on
+            Guild War was scheduled for introduction to the Foundry Server on
             Thursday, November 19; the official sentence gives no clock time, so
             none is invented here.
           </li>
@@ -797,6 +735,68 @@ export function TierResourcesView() {
           complete WA table and a Foundry measurement are still not completed.
         </p>
       </section>
+
+      <details id="sources" className="reference-details"><summary>Source comparison, checked dates and limits</summary>
+        <h2>Source comparison by mode</h2>
+      <p className="last-verified">
+        Sources checked by row:{' '}
+        <time dateTime={TIER_RESOURCES_CHECKED}>{TIER_RESOURCES_CHECKED}</time>{' '}
+        for pages re-read this round; gacha.gg, PocketGamer and Fandom remain
+        2026-11-10 after HTTP 403. This is a resource comparison, not a ranking
+        of our own.
+      </p>
+
+        <p>
+          The table records what each source covers, how it is built, when it
+          was last updated, and what it cannot tell you. “Checked” is the date
+          this site read the page, not the source’s update date. The two must
+          stay separate: an old PvE board can still be online today.
+        </p>
+        <div className={styles.tableScroll}>
+          <table className={`data ${styles.dataTable}`}>
+            <thead>
+              <tr>
+                <th scope="col">Source</th>
+                <th scope="col">Mode</th>
+                <th scope="col">Method / data</th>
+                <th scope="col">Source updated</th>
+                <th scope="col">Checked</th>
+                <th scope="col">Limits</th>
+                <th scope="col">Direct link</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TIER_SOURCE_ROWS.map((row) => (
+                <tr key={row.source}>
+                  <td data-label="Source">
+                    <strong>{row.source}</strong>
+                  </td>
+                  <td data-label="Mode">{row.modes}</td>
+                  <td data-label="Method / data">{row.method}</td>
+                  <td data-label="Source updated">{row.updated}</td>
+                  <td data-label="Checked">{row.checked}</td>
+                  <td data-label="Limits">{row.limits}</td>
+                  <td data-label="Direct link" className={styles.cellBreak}>
+                    {row.href ? (
+                      <ExternalLink href={row.href}>{row.linkLabel}</ExternalLink>
+                    ) : (
+                      <span className="muted">{row.linkLabel}</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="muted">
+          Source dates are copied from the pages as read. A missing exact date
+          is shown as “not captured” rather than guessed. A source being online
+          is not evidence that its data is current. gacha.gg, PocketGamer and
+          Fandom were re-fetched on 2026-11-13 and returned HTTP 403, so their
+          checked date stays at 2026-11-10, with the fetch failure recorded in
+          the limits column.
+        </p>
+      </details>
 
       <section id="method">
         <h2>How to read a tier list without misusing it</h2>

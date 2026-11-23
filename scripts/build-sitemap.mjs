@@ -13,6 +13,9 @@ const LIVING_PATHS = new Set([
   '/about/',
 ]);
 const TIER_CHANGED = '2026-11-10';
+const GROWTH_CHANGED = '2026-11-23';
+const GROWTH_LOCALES = new Set(['en', 'ko', 'zh-tw', 'th']);
+const GROWTH_PATHS = new Set(['/', '/foundry/', '/quests/']);
 const PATHS = [
   '/',
   '/download/',
@@ -92,7 +95,9 @@ for (const path of PATHS) {
       urlFor(altLocale, path),
     ]);
     alternates.push(['x-default', urlFor('en', path)]);
-    const lastmod = LIVING_PATHS.has(path) ? LIVING_CHANGED : LAST_MOD;
+    const lastmod = GROWTH_LOCALES.has(locale) && GROWTH_PATHS.has(path)
+      ? GROWTH_CHANGED
+      : LIVING_PATHS.has(path) ? LIVING_CHANGED : LAST_MOD;
     pushUrl(urlFor(locale, path), lastmod, alternates, path === '/' ? '1.0' : '0.8');
   }
 }
@@ -104,7 +109,7 @@ for (const [locale] of CASE_FILES_LOCALES) {
   alternates.push(['x-default', urlFor('en', '/case-files/')]);
   pushUrl(
     urlFor(locale, '/case-files/'),
-    LIVING_CHANGED,
+    GROWTH_CHANGED,
     alternates,
   );
 }
@@ -113,7 +118,7 @@ for (const [locale] of CASE_FILES_LOCALES) {
  * /tier-list/ is now an English-only mode-resource page. It must not claim the
  * nine locale /tier-list/ pages as translations.
  */
-pushUrl(`${ORIGIN}/tier-list/`, TIER_CHANGED, [
+pushUrl(`${ORIGIN}/tier-list/`, GROWTH_CHANGED, [
   ['en', `${ORIGIN}/tier-list/`],
   ['x-default', `${ORIGIN}/tier-list/`],
 ]);

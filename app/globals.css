@@ -702,6 +702,11 @@ table.data tr:hover td {
   margin: 0.75rem 0 1rem;
 }
 .kpi-strip .chip {
+  display: inline-block;
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
   font-size: 0.82rem;
   padding: 0.28rem 0.7rem;
 }
@@ -1114,3 +1119,22 @@ a.hub-card img {
     font-size: 1.3rem;
   }
 }
+
+/* Task-first growth pages: narrow columns wrap; spoiler tables scroll locally. */
+.task-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr)); gap: 1rem; margin: 1rem 0; }
+.task-grid > * { min-width: 0; max-width: 100%; }
+.task-route { display: flex; flex-direction: column; padding: 1rem; gap: .6rem; text-decoration: none; }
+.task-card { padding: 1rem; }
+.task-card h3 { margin-top: 0; }
+.task-card dd { margin: 0 0 .8rem; }
+.task-card dt { color: var(--gold-bright); font-weight: 650; }
+.task-card input[type="checkbox"] { width: 1.2rem; height: 1.2rem; vertical-align: middle; }
+.task-checklist > button { min-height: 44px; padding: .5rem 1rem; cursor: pointer; }
+.task-table-scroll { max-width: 100%; overflow-x: auto; }
+.task-table-scroll table { min-width: 0; table-layout: fixed; }
+.task-table-scroll th, .task-table-scroll td { overflow-wrap: anywhere; white-space: normal; }
+.spoiler-answer { border: 1px solid var(--border); border-radius: var(--radius); padding: .8rem; }
+.spoiler-answer > summary, .reference-details > summary { cursor: pointer; padding: .5rem 0; font-weight: 700; min-height: 44px; }
+.reference-details { margin: 1.25rem 0; }
+.case-task, [id^="task-"], #today, #quick-teams, #before-accusing, #troubleshooting, #calendar { scroll-margin-top: 8rem; }
+summary:focus-visible, .task-route:focus-visible, .task-checklist button:focus-visible { outline: 3px solid var(--steam); outline-offset: 3px; }
