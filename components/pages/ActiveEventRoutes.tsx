@@ -49,6 +49,7 @@ function EventCard({ event, sourceLabel }: { event: ActiveEventCard; sourceLabel
       {event.resetRows && event.resetTitle && event.resetTh ? (
         <>
           <h4>{event.resetTitle}</h4>
+          <div className="event-route-table">
           <table className="data">
             <thead>
               <tr>
@@ -65,30 +66,33 @@ function EventCard({ event, sourceLabel }: { event: ActiveEventCard; sourceLabel
               ))}
             </tbody>
           </table>
+          </div>
         </>
       ) : null}
       {event.exchangeRows && event.exchangeTitle && event.exchangeTh ? (
         <>
           <h4>{event.exchangeTitle}</h4>
           {event.exchangeNote ? <p className="muted">{event.exchangeNote}</p> : null}
+          <div className="event-route-table">
           <table className="data">
             <thead>
               <tr>
                 <th>{event.exchangeTh[0]}</th>
-                <th>{event.exchangeTh[1]}</th>
-                <th>{event.exchangeTh[2]}</th>
+                <th className="num">{event.exchangeTh[1]}</th>
+                <th className="num">{event.exchangeTh[2]}</th>
               </tr>
             </thead>
             <tbody>
               {event.exchangeRows.map((row, i) => (
                 <tr key={`${row[0]}-${row[1]}-${i}`}>
                   <td>{row[0]}</td>
-                  <td>{row[1]}</td>
-                  <td>{row[2]}</td>
+                  <td className="num">{row[1]}</td>
+                  <td className="num">{row[2]}</td>
                 </tr>
               ))}
             </tbody>
           </table>
+          </div>
         </>
       ) : null}
       <p className="sources">

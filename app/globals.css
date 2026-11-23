@@ -1139,6 +1139,30 @@ a.hub-card img {
 .case-task, [id^="task-"], #today, #quick-teams, #before-accusing, #troubleshooting, #calendar { scroll-margin-top: 8rem; }
 summary:focus-visible, .task-route:focus-visible, .task-checklist button:focus-visible { outline: 3px solid var(--steam); outline-offset: 3px; }
 
+/* Event-route tables: do not mid-break 100,000 or Quantity/Probability.
+   Local horizontal scroll is allowed; do not force site-wide nowrap. */
+#event-routes .event-route-table {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#event-routes .event-route-table table.data {
+  width: max-content;
+  min-width: 100%;
+  overflow: visible;
+}
+#event-routes .event-route-table th,
+#event-routes .event-route-table td {
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+}
+#event-routes .event-route-table th.num,
+#event-routes .event-route-table td.num {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+
 /* Case Files dossier visual (2026-11-23). PageShell stays frozen; widen only this page. */
 main:has(.case-dossier) {
   max-width: 68rem;
