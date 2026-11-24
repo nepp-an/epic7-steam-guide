@@ -7537,8 +7537,8 @@ export const CONTENT = {
       "title": "Epic Seven ファウンドリ鯖ガイド: 日程・ギルド戦 | E7 Steam Guide",
       "meta": "Foundryサーバーガイド：新鯖カレンダー・解放・報酬。ギルド戦は2026-11-19導入、防衛チーム編成2026-11-21 03:00 UTC、マッチング2026-11-23 03:00 UTC。WA 2026-12-10。Foundry codesはクーポンではなくお祝い/メール報酬。STOVE/Steam引用。",
       "h1": "ファウンドリ鯖ガイド — 日程と報酬",
-      "lead": "ファウンドリはEpic Seven Steam発売枠で開いた新鯖トラックです。成長バフ、お祝いメール、ギルド戦の進行、掲載PvPのファウンドリ専用マッチが要点。2026-11-07のSteam告知では、ギルド戦は2026-11-19に導入済み、防衛チーム編成は2026-11-21 03:00 UTCに開始済み、ギルド戦マッチングは2026-11-23 03:00 UTCでまだです。公開STOVE/Steam告知の要約で、メンテ後に日程が変わることがあります。Smilegate/STOVEとは無関係の独立ガイドです。",
-      "as_of": "2026-11-21 21:45 Asia/Shanghai更新。時刻はUTC。ギルド戦は11/19メンテ後に導入済み、防衛チームは11/21 03:00 UTCに開始済み、マッチングは11/23 03:00 UTCでまだです。2026-11-05パッチでファウンドリ商店の誤表示を修正。2026-11-07のSteam告知でギルド戦日程とファウンドリのログイン贈り物が追加されました。",
+      "lead": "ファウンドリはEpic Seven Steam発売枠で開いた新鯖トラックです。成長バフ、お祝いメール、ギルド戦の進行、掲載PvPのファウンドリ専用マッチが要点。2026-11-07のSteam告知では、ギルド戦は2026-11-19に導入済み、防衛チーム編成は2026-11-21 03:00 UTCに開始済み、ギルド戦マッチングの公式開始時刻（2026-11-23 03:00 UTC）には到達済みです（実際の対戦・戦果は未確認）。公開STOVE/Steam告知の要約で、メンテ後に日程が変わることがあります。Smilegate/STOVEとは無関係の独立ガイドです。",
+      "as_of": "2026-11-21 21:45 Asia/Shanghai更新。時刻はUTC。ギルド戦は11/19メンテ後に導入済み、防衛チームは11/21 03:00 UTCに開始済み、マッチングの公式開始時刻（11/23 03:00 UTC）には到達済みです。これは日程の確認であり、実際の対戦・攻撃可否・戦果の確認ではありません。2026-11-05パッチでファウンドリ商店の誤表示を修正。2026-11-07のSteam告知でギルド戦日程とファウンドリのログイン贈り物が追加されました。",
       "unlock_h2": "コンテンツ解放",
       "th": [
         "内容",
@@ -7703,7 +7703,7 @@ export const CONTENT = {
       "side_h2": "サイドストーリー",
       "side": "詳細：Secret Rabbit♥Hole。",
       "src_h2": "ソース",
-      "answer": "Foundryサーバーガイドは、Epic Seven新鯖のカレンダー・解放・報酬・ギルド戦・WAをまとめます。「Foundry codes」はクーポン一覧ではなく、お祝い/公式告知のメール・ログイン報酬です。ログイン変換はレガシー進行を残すだけでFoundryへ自動配置しません — 手順は[[STOVE↔Steam引き継ぎガイド|/steam-transfer/]]へ。Draft Arenaは開放済み；ギルド戦は2026-11-19に導入済み、2026-11-21 03:00 UTCの防衛チーム編成は開始済み、2026-11-23 03:00 UTCのマッチングは2026-11-21 21:45 Asia/Shanghai時点でまだです。WAは2026-12-10メンテ後；多くのバフ〜12/31 — STOVE/Steamで再確認。11/17告知では12/10（木）更新でギルド戦の引き分け判定を変更：マッチ時のシーズン勝点とGuild Crest優先ルールを廃止し、その戦の攻撃勝/分/敗の合計攻撃スコアが高い側の勝ち；なお同点なら双方完破で100%勝点、双方未完破で50%。詳細は12/10更新告知に従う：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。",
+      "answer": "Foundryサーバーガイドは、Epic Seven新鯖のカレンダー・解放・報酬・ギルド戦・WAをまとめます。「Foundry codes」はクーポン一覧ではなく、お祝い/公式告知のメール・ログイン報酬です。ログイン変換はレガシー進行を残すだけでFoundryへ自動配置しません — 手順は[[STOVE↔Steam引き継ぎガイド|/steam-transfer/]]へ。Draft Arenaは開放済み；ギルド戦は2026-11-19に導入済み、2026-11-21 03:00 UTCの防衛チーム編成は開始済み、2026-11-23 03:00 UTCのマッチング公式開始時刻には到達済みです（実際の対戦・戦果は未確認）。WAは2026-12-10メンテ後；多くのバフ〜12/31 — STOVE/Steamで再確認。11/17告知では12/10（木）更新でギルド戦の引き分け判定を変更：マッチ時のシーズン勝点とGuild Crest優先ルールを廃止し、その戦の攻撃勝/分/敗の合計攻撃スコアが高い側の勝ち；なお同点なら双方完破で100%勝点、双方未完破で50%。詳細は12/10更新告知に従う：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。",
       "img_alt": "ファウンドリ日程の自作カレンダー図",
       "img_ss_alt": "Epic Seven公式Steamスクリーンショット — Steam CDN",
       "faq_h2": "ファウンドリFAQ",
@@ -7734,7 +7734,7 @@ export const CONTENT = {
         ],
         [
           "Foundryギルド戦のログイン贈り物は？",
-          "2026-11-07 09:00–2026-11-23 03:00 UTCの間にFoundryサーバーへログインでCommander's Armband ×1,000、Brave Crest ×3,000。対象はFoundryログインで、レガシーログインは対象外。ゲーム内メール/イベントで受け取り、実際の告知を確認してください。"
+          "Foundryのギルド戦ログイン贈り物は 2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）に終了しました。当時の報酬は Commander's Armband ×1,000、Brave Crest ×3,000。今ログインしてもこの窓の対象にはなりません。対象は当時のFoundryログインで、レガシーログインは対象外でした。"
         ]
       ],
       "vs_h2": "引き継ぎ vs ファウンドリ開始",
@@ -7749,9 +7749,9 @@ export const CONTENT = {
       "link_demo": "デモ削除の注意",
       "related_h2": "関連ガイド",
       "gw_h2": "ファウンドリのギルド戦",
-      "gw_answer": "ファウンドリのギルド戦は単一の解禁日ではなく段階的です。2026-11-21 21:45 Asia/Shanghai時点で、11/19の導入と11/21 03:00 UTCの防衛チーム編成は開始済み、11/23 03:00 UTCのマッチングはまだです。2026-11-07のSteam告知では、2026-11-19にギルド戦導入、2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成、2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。早めにファウンドリのギルドへ参加/作成し、日次ギルド内容を消化してください。GWはアカウント引き継ぎとは別のファウンドリ側機能で、ログイン引き継ぎはレガシー後継者をFoundry GWへ自動登録しません。メンテ後にずれ得るのでSteam/STOVE告知を引用してください。",
+      "gw_answer": "ファウンドリのギルド戦は単一の解禁日ではなく段階的です。2026-11-21 21:45 Asia/Shanghai時点で、11/19の導入と11/21 03:00 UTCの防衛チーム編成は開始済み、11/23 03:00 UTCのマッチング公式開始時刻には到達済みです。これは日程の確認であり、実際の対戦・攻撃可否・戦果の確認ではありません。2026-11-07のSteam告知では、2026-11-19にギルド戦導入、2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成、2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。早めにファウンドリのギルドへ参加/作成し、日次ギルド内容を消化してください。GWはアカウント引き継ぎとは別のファウンドリ側機能で、ログイン引き継ぎはレガシー後継者をFoundry GWへ自動登録しません。メンテ後にずれ得るのでSteam/STOVE告知を引用してください。",
       "gw_unlock_h3": "解禁ステップ",
-      "gw_unlock": "2026-11-07のSteam告知は三つのチェックポイントに分かれます。(1) 2026-11-19にFoundryへギルド戦導入。(2) 2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成。(3) 2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。ドラフトアリーナはSteamローンチ枠と同時、ワールドアリーナは2026-12-10メンテ後。公式告知はKSTとUTCを別々に表記しており、その時点の告知を確認してください。ギルド予定の前に最新のSteam/STOVE告知を開き直してください — パッチで窓が動く場合があります。 2026-11-21 21:45 Asia/Shanghai時点で(1)(2)は開始済み、(3)はまだです。",
+      "gw_unlock": "2026-11-07のSteam告知は三つのチェックポイントに分かれます。(1) 2026-11-19にFoundryへギルド戦導入。(2) 2026-11-21 03:00 UTC（上海11:00）に防衛チーム編成。(3) 2026-11-23 03:00 UTC（上海11:00）にギルド戦マッチング。ドラフトアリーナはSteamローンチ枠と同時、ワールドアリーナは2026-12-10メンテ後。公式告知はKSTとUTCを別々に表記しており、その時点の告知を確認してください。ギルド予定の前に最新のSteam/STOVE告知を開き直してください — パッチで窓が動く場合があります。 公式開始時刻の確認では(1)(2)(3)いずれも到達済みです（実際の対戦・戦果は未確認）。",
       "gw_prep_h3": "解禁前チェック",
       "gw_prep": [
         "ロールアウトは2026-11-19導入済み、2026-11-21 03:00 UTC 防衛チーム開始済み、2026-11-23 03:00 UTC マッチングはまだ（2026-11-21 21:45 Asia/Shanghai時点）の三段階です。単一の11/21解禁日として計画しないでください。",
@@ -7769,7 +7769,7 @@ export const CONTENT = {
         "2026-12-10（木）ギルド戦引き分けルール：更新でマッチ時のシーズン勝点・Guild Crest優先を廃止し、その戦の攻撃勝/分/敗の合計攻撃スコアが高い側が勝利。なお同点なら双方完破で100%勝点、双方未完破で50%。詳細は12/10更新告知に従う：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。"
       ],
       "gw_reward_h3": "報酬ウィンドウ",
-      "gw_reward": "同じ告知にFoundryログイン贈り物があります。2026-11-07 09:00–2026-11-23 03:00 UTCの間にFoundryサーバーへログインでCommander's Armband ×1,000、Brave Crest ×3,000。対象はFoundryログインで、レガシーログインは対象外。ギルド戦報酬はファウンドリのお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまで。資源消費前にSTOVE/Steamを再確認し、告知が食い違う場合は新しい方を優先してください。",
+      "gw_reward": "同じ告知のFoundryギルド戦ログイン贈り物は 2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）に終了しました。当時の報酬は Commander's Armband ×1,000、Brave Crest ×3,000。今ログインしてもこの窓の対象にはなりません。対象は当時のFoundryログインで、レガシーログインは対象外でした。ギルド戦報酬はファウンドリのお祝い节奏の一部として扱い、正確な報酬表はSTOVE準拠。多くのスターターバフ・ログイン贈り物は約2026-12-31 02:59 UTCまで。資源消費前にSTOVE/Steamを再確認し、告知が食い違う場合は新しい方を優先してください。",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "「Foundry codes」「Foundry server codes」検索は、クーポン文字列ではなくお祝い報酬と公式STOVE告知—メール贈り物、ログインアイテム、スターターバフ—を指すことが多いです。本非公式Foundryサーバーガイドは偽コードを公開・販売・引き換えしません。ゲーム内メールに表示されたものだけ受け取り、窓が動いたらSTOVEファウンドリ view/14571828 とローンチ view/14606481 を再確認してください。",
       "guide_h2": "Foundry server guide — 主要日程",
@@ -8514,8 +8514,8 @@ export const CONTENT = {
       "title": "Guía Foundry de Epic Seven: calendario y Guild War | E7",
       "meta": "Guía del servidor Foundry: calendario, desbloqueos y recompensas. Guild War se introduce el 2026-11-19, equipo de defensa 2026-11-21 03:00 UTC y matchmaking 2026-11-23 03:00 UTC; World Arena 2026-12-10. Foundry codes ≠ cupones. Cita STOVE/Steam.",
       "h1": "Guía del servidor Foundry — calendario y recompensas",
-      "lead": "Esta guía del servidor Foundry cubre la ruta de servidor nuevo de Epic Seven: mejoras de inicio, correo de celebración, progresión de Guild War y emparejamiento exclusivo de Foundry para los PvP indicados. Según el aviso de Steam del 2026-11-07, Guild War se introdujo el 2026-11-19, el equipo de defensa se formó el 2026-11-21 03:00 UTC y el matchmaking está previsto para el 2026-11-23 03:00 UTC (aún no alcanzado en la comprobación del 2026-11-21 21:45 Asia/Shanghai). Parafrasea avisos públicos de STOVE/Steam; los calendarios pueden cambiar tras el mantenimiento. Guía independiente; no es de Smilegate ni de STOVE.",
-      "as_of": "Instantánea actualizada el 2026-11-21 21:45 Asia/Shanghai. Horas en UTC salvo aviso. Guild War se introdujo el 2026-11-19; el equipo de defensa abrió el 2026-11-21 03:00 UTC; el matchmaking está previsto para el 2026-11-23 03:00 UTC y aún no había llegado en esta comprobación. El parche del 2026-11-05 corrigió una visualización de la tienda Foundry; el aviso de Steam del 2026-11-07 añadió el calendario y el regalo de inicio de sesión.",
+      "lead": "Esta guía del servidor Foundry cubre la ruta de servidor nuevo de Epic Seven: mejoras de inicio, correo de celebración, progresión de Guild War y emparejamiento exclusivo de Foundry para los PvP indicados. Según el aviso de Steam del 2026-11-07, Guild War se introdujo el 2026-11-19, el equipo de defensa se formó el 2026-11-21 03:00 UTC y el matchmaking está alcanzó su hora oficial de inicio el 2026-11-23 03:00 UTC (confirma el calendario, no un combate real). Parafrasea avisos públicos de STOVE/Steam; los calendarios pueden cambiar tras el mantenimiento. Guía independiente; no es de Smilegate ni de STOVE.",
+      "as_of": "Instantánea actualizada el 2026-11-21 21:45 Asia/Shanghai. Horas en UTC salvo aviso. Guild War se introdujo el 2026-11-19; el equipo de defensa abrió el 2026-11-21 03:00 UTC; el matchmaking alcanzó su hora oficial de inicio el 2026-11-23 03:00 UTC; esto confirma el calendario, no un combate real. El parche del 2026-11-05 corrigió una visualización de la tienda Foundry; el aviso de Steam del 2026-11-07 añadió el calendario y el regalo de inicio de sesión.",
       "unlock_h2": "Calendario de desbloqueo de contenido",
       "th": [
         "Función",
@@ -8680,7 +8680,7 @@ export const CONTENT = {
       "side_h2": "Historia secundaria",
       "side": "Análisis a fondo: Secret Rabbit♥Hole (Case Files, Lucky Board, paquete de vestíbulo).",
       "src_h2": "Fuentes",
-      "answer": "Esta guía del servidor Foundry cubre la ruta de progreso del servidor nuevo de Epic Seven: calendario de celebración, recompensas, Guild War y World Arena. «Foundry codes» se refiere a avisos de celebración u oficiales, no a una lista de cupones. La transferencia conserva el progreso antiguo; no te une automáticamente a Foundry. Draft Arena ya está disponible; Guild War se introdujo el 2026-11-19, el equipo de defensa empezó el 2026-11-21 03:00 UTC y el matchmaking del 2026-11-23 03:00 UTC aún no había llegado en la comprobación del 2026-11-21 21:45 Asia/Shanghai. World Arena tras el mantenimiento del 2026-12-10; mejoras hasta ~12/31 — verifica en STOVE/Steam. El aviso del 11/17 también indica que la actualización del 12/10 (jue) cambia la resolución de empates de Guild War: se eliminan la prioridad por puntos de temporada y por usar Guild Crest primero al emparejar; gana el lado con mayor puntuación de ataque combinada de victorias/empates/derrotas de esa batalla; si sigue empatado, ambos con ruptura completa reciben 100% de puntos de temporada y ambos sin ruptura completa, 50%. Detalles según el aviso de la actualización del 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Esta guía del servidor Foundry cubre la ruta de progreso del servidor nuevo de Epic Seven: calendario de celebración, recompensas, Guild War y World Arena. «Foundry codes» se refiere a avisos de celebración u oficiales, no a una lista de cupones. La transferencia conserva el progreso antiguo; no te une automáticamente a Foundry. Draft Arena ya está disponible; Guild War se introdujo el 2026-11-19, el equipo de defensa empezó el 2026-11-21 03:00 UTC y el matchmaking del 2026-11-23 03:00 UTC ya alcanzó su hora oficial de inicio (sin confirmar un combate real). World Arena tras el mantenimiento del 2026-12-10; mejoras hasta ~12/31 — verifica en STOVE/Steam. El aviso del 11/17 también indica que la actualización del 12/10 (jue) cambia la resolución de empates de Guild War: se eliminan la prioridad por puntos de temporada y por usar Guild Crest primero al emparejar; gana el lado con mayor puntuación de ataque combinada de victorias/empates/derrotas de esa batalla; si sigue empatado, ambos con ruptura completa reciben 100% de puntos de temporada y ambos sin ruptura completa, 50%. Detalles según el aviso de la actualización del 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Imagen de calendario de Foundry dibujada por el autor que cubre las mejoras de lanzamiento, Rabbit Hole, Guild War y World Arena",
       "img_ss_alt": "Captura de pantalla oficial de Steam que ilustra la presentación de Epic Seven — CDN de Steam",
       "faq_h2": "Preguntas frecuentes de Foundry",
@@ -8711,7 +8711,7 @@ export const CONTENT = {
         ],
         [
           "¿Qué es el regalo de inicio de sesión de Foundry Guild War?",
-          "Inicia sesión en el servidor Foundry entre el 2026-11-07 09:00 y el 2026-11-23 03:00 UTC para recibir Commander's Armband ×1,000 y Brave Crest ×3,000. La elegibilidad es el inicio de sesión en Foundry, no en el servidor legado. Reclámalo en el correo/evento del juego y confirma el aviso real."
+          "El regalo de inicio de sesión de Guild War en Foundry terminó el 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Las recompensas históricas fueron Commander's Armband ×1,000 y Brave Crest ×3,000; iniciar sesión ahora no da derecho a esa ventana. La elegibilidad es el inicio de sesión en Foundry, no en el servidor legado. Reclámalo en el correo/evento del juego y confirma el aviso real."
         ]
       ],
       "vs_h2": "Transferir o empezar en Foundry",
@@ -8726,12 +8726,12 @@ export const CONTENT = {
       "link_demo": "Aviso de borrado de la demo",
       "related_h2": "Guías relacionadas",
       "gw_h2": "Guild War en Foundry",
-      "gw_answer": "En Foundry, Guild War es un despliegue por etapas, no un único día de desbloqueo. A 2026-11-21 21:45 Asia/Shanghai, la introducción del 11/19 y la formación del equipo de defensa del 11/21 03:00 UTC ya empezaron; el matchmaking del 11/23 03:00 UTC aún no ha llegado. Según el aviso de Steam del 2026-11-07: se introduce el 2026-11-19; el equipo de defensa se forma el 2026-11-21 03:00 UTC (11:00 en Shanghái); el matchmaking abre el 2026-11-23 03:00 UTC (11:00 en Shanghái). Únete o crea un gremio de Foundry pronto y completa el contenido diario de gremio. GW es una función del lado de Foundry, aparte de la transferencia de cuenta; la transferencia de inicio de sesión no inscribe al Heir legado en Foundry GW. Las fechas pueden cambiar tras el mantenimiento; cita el aviso de Steam/STOVE.",
+      "gw_answer": "En Foundry, Guild War es un despliegue por etapas, no un único día de desbloqueo. A 2026-11-21 21:45 Asia/Shanghai, la introducción del 11/19 y la formación del equipo de defensa del 11/21 03:00 UTC ya empezaron; el matchmaking del 11/23 03:00 UTC ya alcanzó su hora oficial de inicio (sin confirmar un combate real). Según el aviso de Steam del 2026-11-07: se introduce el 2026-11-19; el equipo de defensa se forma el 2026-11-21 03:00 UTC (11:00 en Shanghái); el matchmaking abre el 2026-11-23 03:00 UTC (11:00 en Shanghái). Únete o crea un gremio de Foundry pronto y completa el contenido diario de gremio. GW es una función del lado de Foundry, aparte de la transferencia de cuenta; la transferencia de inicio de sesión no inscribe al Heir legado en Foundry GW. Las fechas pueden cambiar tras el mantenimiento; cita el aviso de Steam/STOVE.",
       "gw_unlock_h3": "Etapas de desbloqueo",
-      "gw_unlock": "El aviso de Steam del 2026-11-07 divide el despliegue en tres hitos: (1) 2026-11-19, Guild War se introduce en Foundry; (2) 2026-11-21 03:00 UTC (11:00 en Shanghái), equipo de defensa; (3) 2026-11-23 03:00 UTC (11:00 en Shanghái), matchmaking de Guild War. Draft Arena abrió con la ventana de lanzamiento de Steam; World Arena figura después del mantenimiento del 2026-12-10; los avisos oficiales usaron KST y UTC, así que consulta el aviso vigente. Vuelve a abrir el aviso más reciente de Steam/STOVE antes de programar actividades de gremio; los parches pueden mover las ventanas. En la comprobación del 2026-11-21 21:45 Asia/Shanghai, (1) y (2) ya empezaron; (3) aún no ha llegado.",
+      "gw_unlock": "El aviso de Steam del 2026-11-07 divide el despliegue en tres hitos: (1) 2026-11-19, Guild War se introduce en Foundry; (2) 2026-11-21 03:00 UTC (11:00 en Shanghái), equipo de defensa; (3) 2026-11-23 03:00 UTC (11:00 en Shanghái), matchmaking de Guild War. Draft Arena abrió con la ventana de lanzamiento de Steam; World Arena figura después del mantenimiento del 2026-12-10; los avisos oficiales usaron KST y UTC, así que consulta el aviso vigente. Vuelve a abrir el aviso más reciente de Steam/STOVE antes de programar actividades de gremio; los parches pueden mover las ventanas. En la comprobación del 2026-11-21 21:45 Asia/Shanghai, (1), (2) y (3) ya alcanzaron su hora oficial de inicio (sin confirmar un combate real).",
       "gw_prep_h3": "Lista de preparación antes de la apertura",
       "gw_prep": [
-        "El despliegue es 2026-11-19 introducción, 2026-11-21 03:00 UTC equipo de defensa ya iniciado y 2026-11-23 03:00 UTC matchmaking aún no alcanzado (comprobación del 2026-11-21 21:45 Asia/Shanghai). No lo planifiques como un único desbloqueo el 11/21.",
+        "El despliegue es 2026-11-19 introducción, 2026-11-21 03:00 UTC equipo de defensa ya iniciado y 2026-11-23 03:00 UTC matchmaking: la hora oficial de inicio ya se alcanzó (sin confirmar un combate real). No lo planifiques como un único desbloqueo el 11/21.",
         "Primero alcanza el requisito de entrada al gremio indicado (la lista de la comunidad menciona rango de cuenta 10; confirma el requisito real en el juego) y luego únete a un gremio de Foundry o créalo con bastante antelación al 2026-11-19.",
         "Completa las misiones diarias de gremio y dona cuando puedas para subir el nivel y la moneda del gremio.",
         "Guarda objetos de energía y mantén listo un núcleo de PvP útil (tanque/curador/limpiador) para ataque y defensa de gremio.",
@@ -8746,7 +8746,7 @@ export const CONTENT = {
         "2026-12-10 (jue) regla de empate de Guild War: la actualización elimina la prioridad por puntos de temporada y por Guild Crest al emparejar; gana el lado con mayor puntuación de ataque combinada de victorias/empates/derrotas; si sigue empatado, ambos con ruptura completa reciben 100% de puntos de temporada y ambos sin ruptura completa, 50%. Detalles según el aviso del 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Ventana de recompensas",
-      "gw_reward": "El mismo aviso añade un regalo de inicio de sesión de Foundry: inicia sesión en el servidor Foundry entre el 2026-11-07 09:00 y el 2026-11-23 03:00 UTC para recibir Commander's Armband ×1,000 y Brave Crest ×3,000. La elegibilidad es el inicio de sesión en Foundry, no en el servidor legado. Considera las recompensas de Guild War como parte del ritmo de celebración de Foundry; las tablas exactas están en STOVE. Muchas mejoras y regalos de inicio de sesión llegan hasta cerca del 2026-12-31 02:59 UTC. Revisa STOVE/Steam antes de gastar recursos; si los avisos no coinciden, sigue el más reciente.",
+      "gw_reward": "El mismo aviso añade un regalo de inicio de sesión de Foundry: el regalo de inicio de sesión de Guild War en Foundry terminó el 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Las recompensas históricas fueron Commander's Armband ×1,000 y Brave Crest ×3,000; iniciar sesión ahora no da derecho a esa ventana. La elegibilidad es el inicio de sesión en Foundry, no en el servidor legado. Considera las recompensas de Guild War como parte del ritmo de celebración de Foundry; las tablas exactas están en STOVE. Muchas mejoras y regalos de inicio de sesión llegan hasta cerca del 2026-12-31 02:59 UTC. Revisa STOVE/Steam antes de gastar recursos; si los avisos no coinciden, sigue el más reciente.",
       "codes_h2": "Códigos de Foundry frente a recompensas de celebración",
       "codes_note": "Las búsquedas de «Foundry codes» o «Foundry server codes» suelen apuntar a recompensas de celebración y avisos oficiales de STOVE (regalos del buzón, objetos de inicio de sesión y mejoras de inicio), no a una lista de cupones canjeables. Esta guía no oficial del servidor Foundry nunca publica, vende ni canjea códigos falsos. Reclama solo lo que muestre el buzón del juego y vuelve a revisar STOVE Foundry view/14571828 y Launch view/14606481 cuando cambien las ventanas.",
       "guide_h2": "Guía del servidor Foundry — fechas clave",
@@ -8831,8 +8831,8 @@ export const CONTENT = {
       "title": "Epic Seven Foundry: calendário e Guild War | E7 Steam",
       "meta": "Guia do servidor Foundry: calendário, desbloqueios e recompensas. Guild War é introduzida em 2026-11-19, equipe de defesa em 2026-11-21 03:00 UTC e matchmaking em 2026-11-23 03:00 UTC; World Arena 2026-12-10. Foundry codes ≠ cupons. Cite STOVE/Steam.",
       "h1": "Guia do servidor Foundry — cronograma e recompensas",
-      "lead": "Este guia do servidor Foundry cobre a trilha de novo servidor de Epic Seven: buffs de iniciante, correio de celebração, progressão da Guild War e matchmaking exclusivo do Foundry para o PvP listado. Segundo o aviso da Steam de 2026-11-07, a Guild War foi introduzida em 2026-11-19, a equipe de defesa foi formada em 2026-11-21 03:00 UTC e o matchmaking está previsto para 2026-11-23 03:00 UTC (ainda não alcançado na verificação de 2026-11-21 21:45 Asia/Shanghai). Parafraseia avisos públicos da STOVE/Steam; os cronogramas podem mudar após a manutenção. Guia independente; não é da Smilegate nem da STOVE.",
-      "as_of": "Atualizado em 2026-11-21 21:45 Asia/Shanghai. Horários em UTC, salvo indicação. A Guild War foi introduzida em 2026-11-19; a equipe de defesa abriu em 2026-11-21 03:00 UTC; o matchmaking está previsto para 2026-11-23 03:00 UTC e ainda não havia chegado nesta verificação. O patch de 2026-11-05 corrigiu uma exibição da loja Foundry; o aviso da Steam de 2026-11-07 adicionou o cronograma e o presente de login.",
+      "lead": "Este guia do servidor Foundry cobre a trilha de novo servidor de Epic Seven: buffs de iniciante, correio de celebração, progressão da Guild War e matchmaking exclusivo do Foundry para o PvP listado. Segundo o aviso da Steam de 2026-11-07, a Guild War foi introduzida em 2026-11-19, a equipe de defesa foi formada em 2026-11-21 03:00 UTC e o matchmaking alcançou o horário oficial de início em 2026-11-23 03:00 UTC (confirma o calendário, não um combate real). Parafraseia avisos públicos da STOVE/Steam; os cronogramas podem mudar após a manutenção. Guia independente; não é da Smilegate nem da STOVE.",
+      "as_of": "Atualizado em 2026-11-21 21:45 Asia/Shanghai. Horários em UTC, salvo indicação. A Guild War foi introduzida em 2026-11-19; a equipe de defesa abriu em 2026-11-21 03:00 UTC; o matchmaking alcançou o horário oficial de início em 2026-11-23 03:00 UTC; isso confirma o calendário, não um combate real. O patch de 2026-11-05 corrigiu uma exibição da loja Foundry; o aviso da Steam de 2026-11-07 adicionou o cronograma e o presente de login.",
       "unlock_h2": "Calendário de liberação de conteúdo",
       "th": [
         "Recurso",
@@ -8997,7 +8997,7 @@ export const CONTENT = {
       "side_h2": "História paralela",
       "side": "Mergulho fundo: Secret Rabbit♥Hole (Case Files, Lucky Board, pacote de lobby).",
       "src_h2": "Fontes",
-      "answer": "Este guia do servidor Foundry cobre a trilha de progresso de novo servidor de Epic Seven: calendário de celebração, recompensas, Guild War e World Arena. “Foundry codes” significa recompensas de celebração ou avisos oficiais, não uma lista de cupons. A transferência mantém o progresso legado; ela não entra automaticamente no Foundry. A Draft Arena já está no ar; a Guild War foi introduzida em 2026-11-19, a equipe de defesa começou em 2026-11-21 03:00 UTC e o matchmaking de 2026-11-23 03:00 UTC ainda não havia chegado na verificação de 2026-11-21 21:45 Asia/Shanghai. World Arena após a manutenção de 2026-12-10; buffs até ~12/31 — confirme na STOVE/Steam. O aviso de 11/17 também diz que a atualização de 12/10 (qui) muda a resolução de empates da Guild War: remove a prioridade por pontos de temporada e por usar Guild Crest primeiro no matchmaking; vence o lado com maior pontuação de ataque combinada de vitórias/empates/derrotas daquela batalha; se ainda empatar, ambos com ruptura total recebem 100% dos pontos de temporada e ambos sem ruptura total, 50%. Detalhes conforme o aviso da atualização de 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Este guia do servidor Foundry cobre a trilha de progresso de novo servidor de Epic Seven: calendário de celebração, recompensas, Guild War e World Arena. “Foundry codes” significa recompensas de celebração ou avisos oficiais, não uma lista de cupons. A transferência mantém o progresso legado; ela não entra automaticamente no Foundry. A Draft Arena já está no ar; a Guild War foi introduzida em 2026-11-19, a equipe de defesa começou em 2026-11-21 03:00 UTC e o matchmaking de 2026-11-23 03:00 UTC já alcançou o horário oficial de início (sem confirmar um combate real). World Arena após a manutenção de 2026-12-10; buffs até ~12/31 — confirme na STOVE/Steam. O aviso de 11/17 também diz que a atualização de 12/10 (qui) muda a resolução de empates da Guild War: remove a prioridade por pontos de temporada e por usar Guild Crest primeiro no matchmaking; vence o lado com maior pontuação de ataque combinada de vitórias/empates/derrotas daquela batalha; se ainda empatar, ambos com ruptura total recebem 100% dos pontos de temporada e ambos sem ruptura total, 50%. Detalhes conforme o aviso da atualização de 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Ilustração própria do calendário do Foundry cobrindo buffs de lançamento, Rabbit Hole, Guild War e World Arena",
       "img_ss_alt": "Captura de tela oficial do Steam ilustrando a apresentação de Epic Seven — CDN do Steam",
       "faq_h2": "Perguntas frequentes sobre o Foundry",
@@ -9028,7 +9028,7 @@ export const CONTENT = {
         ],
         [
           "O que é o presente de login da Foundry Guild War?",
-          "Faça login no servidor Foundry entre 2026-11-07 09:00 e 2026-11-23 03:00 UTC para receber Commander's Armband ×1,000 e Brave Crest ×3,000. A elegibilidade é o login no Foundry, não no legado. Resgate no correio/evento do jogo e confirme o aviso real."
+          "O presente de login da Guild War no Foundry terminou em 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). As recompensas históricas foram Commander's Armband ×1,000 e Brave Crest ×3,000; fazer login agora não dá direito a essa janela. A elegibilidade é o login no Foundry, não no legado. Resgate no correio/evento do jogo e confirme o aviso real."
         ]
       ],
       "vs_h2": "Transferir vs. começar no Foundry",
@@ -9043,12 +9043,12 @@ export const CONTENT = {
       "link_demo": "Aviso de exclusão da demo",
       "related_h2": "Guias relacionados",
       "gw_h2": "Guild War no Foundry",
-      "gw_answer": "No Foundry, a Guild War é uma implantação por etapas, não um único dia de liberação. Em 2026-11-21 21:45 Asia/Shanghai, a introdução de 11/19 e a formação da equipe de defesa de 11/21 03:00 UTC já começaram; o matchmaking de 11/23 03:00 UTC ainda não chegou. Segundo o aviso da Steam de 2026-11-07: introdução em 2026-11-19; equipe de defesa em 2026-11-21 03:00 UTC (11:00 em Xangai); matchmaking em 2026-11-23 03:00 UTC (11:00 em Xangai). Entre ou crie uma guilda do Foundry cedo e cumpra o conteúdo diário. A GW é um recurso do lado do Foundry, separado da transferência de conta; a transferência de login não inscreve o Heir legado na Foundry GW. As datas podem mudar após a manutenção; cite o aviso da Steam/STOVE.",
+      "gw_answer": "No Foundry, a Guild War é uma implantação por etapas, não um único dia de liberação. Em 2026-11-21 21:45 Asia/Shanghai, a introdução de 11/19 e a formação da equipe de defesa de 11/21 03:00 UTC já começaram; o matchmaking de 11/23 03:00 UTC já alcançou o horário oficial de início (sem confirmar um combate real). Segundo o aviso da Steam de 2026-11-07: introdução em 2026-11-19; equipe de defesa em 2026-11-21 03:00 UTC (11:00 em Xangai); matchmaking em 2026-11-23 03:00 UTC (11:00 em Xangai). Entre ou crie uma guilda do Foundry cedo e cumpra o conteúdo diário. A GW é um recurso do lado do Foundry, separado da transferência de conta; a transferência de login não inscreve o Heir legado na Foundry GW. As datas podem mudar após a manutenção; cite o aviso da Steam/STOVE.",
       "gw_unlock_h3": "Etapas de liberação",
-      "gw_unlock": "O aviso da Steam de 2026-11-07 divide a implantação em três marcos: (1) 2026-11-19, a Guild War é introduzida no Foundry; (2) 2026-11-21 03:00 UTC (11:00 em Xangai), equipe de defesa; (3) 2026-11-23 03:00 UTC (11:00 em Xangai), matchmaking da Guild War. A Draft Arena abriu com a janela de lançamento no Steam; a World Arena está listada para depois da manutenção de 2026-12-10; os avisos oficiais usaram KST e UTC, então confirme o aviso vigente. Reabra o aviso mais recente da Steam/STOVE antes de agendar atividades de guilda; patches podem mover as janelas. Na verificação de 2026-11-21 21:45 Asia/Shanghai, (1) e (2) já começaram; (3) ainda não chegou.",
+      "gw_unlock": "O aviso da Steam de 2026-11-07 divide a implantação em três marcos: (1) 2026-11-19, a Guild War é introduzida no Foundry; (2) 2026-11-21 03:00 UTC (11:00 em Xangai), equipe de defesa; (3) 2026-11-23 03:00 UTC (11:00 em Xangai), matchmaking da Guild War. A Draft Arena abriu com a janela de lançamento no Steam; a World Arena está listada para depois da manutenção de 2026-12-10; os avisos oficiais usaram KST e UTC, então confirme o aviso vigente. Reabra o aviso mais recente da Steam/STOVE antes de agendar atividades de guilda; patches podem mover as janelas. Na verificação de 2026-11-21 21:45 Asia/Shanghai, (1), (2) e (3) já alcançaram o horário oficial de início (sem confirmar um combate real).",
       "gw_prep_h3": "Checklist antes da abertura",
       "gw_prep": [
-        "A implantação é 2026-11-19 introdução, 2026-11-21 03:00 UTC equipe de defesa já iniciada e 2026-11-23 03:00 UTC matchmaking ainda não alcançado (verificação de 2026-11-21 21:45 Asia/Shanghai). Não planeje como um único desbloqueio em 11/21.",
+        "A implantação é 2026-11-19 introdução, 2026-11-21 03:00 UTC equipe de defesa já iniciada e 2026-11-23 03:00 UTC matchmaking: o horário oficial de início já foi atingido (sem confirmar um combate real). Não planeje como um único desbloqueio em 11/21.",
         "Primeiro alcance o requisito de entrada em guilda anunciado — a checklist da comunidade cita Rank 10 de conta; confirme o requisito ao vivo no jogo — e então entre ou crie uma guilda do Foundry bem antes de 2026-11-19.",
         "Cumpra as missões diárias de guilda e doe quando possível para acumular nível/moeda de guilda.",
         "Estoque itens de stamina e mantenha um núcleo de PvP utilizável (tanque/curandeiro/limpador) pronto para ataque/defesa de guilda.",
@@ -9063,7 +9063,7 @@ export const CONTENT = {
         "2026-12-10 (qui) regra de empate da Guild War: a atualização remove a prioridade por pontos de temporada e por Guild Crest no matchmaking; vence o lado com maior pontuação de ataque combinada de vitórias/empates/derrotas; se ainda empatar, ambos com ruptura total recebem 100% dos pontos de temporada e ambos sem ruptura total, 50%. Detalhes conforme o aviso de 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Janela de recompensas",
-      "gw_reward": "O mesmo aviso adiciona um presente de login do Foundry: faça login no servidor Foundry entre 2026-11-07 09:00 e 2026-11-23 03:00 UTC para receber Commander's Armband ×1,000 e Brave Crest ×3,000. A elegibilidade é o login no Foundry, não no servidor legado. Trate as recompensas da Guild War como parte da cadência de celebração do Foundry; as tabelas exatas estão na STOVE. Muitos buffs e presentes de login vão até cerca de 2026-12-31 02:59 UTC. Verifique a STOVE/Steam antes de gastar recursos; se os avisos discordarem, siga o mais recente.",
+      "gw_reward": "O mesmo aviso adiciona um presente de login do Foundry: o presente de login da Guild War no Foundry terminou em 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). As recompensas históricas foram Commander's Armband ×1,000 e Brave Crest ×3,000; fazer login agora não dá direito a essa janela. A elegibilidade é o login no Foundry, não no servidor legado. Trate as recompensas da Guild War como parte da cadência de celebração do Foundry; as tabelas exatas estão na STOVE. Muitos buffs e presentes de login vão até cerca de 2026-12-31 02:59 UTC. Verifique a STOVE/Steam antes de gastar recursos; se os avisos discordarem, siga o mais recente.",
       "codes_h2": "Códigos do Foundry vs. recompensas de celebração",
       "codes_note": "Buscas por “Foundry codes” ou “Foundry server codes” geralmente apontam para recompensas de celebração e avisos oficiais da STOVE — presentes no correio, itens de login e buffs de iniciante — não uma lista de cupons resgatáveis. Este guia não oficial do servidor Foundry nunca publica, vende ou resgata códigos falsos. Resgate só o que o correio do jogo mostra e verifique de novo STOVE Foundry view/14571828 e Launch view/14606481 quando as janelas mudarem.",
       "guide_h2": "Guia do servidor Foundry — datas principais",
@@ -9148,8 +9148,8 @@ export const CONTENT = {
       "title": "Epic Seven Foundry-Server-Guide: Kalender & Guild War | E7",
       "meta": "Foundry-Server-Guide: Kalender, Freischaltungen, Belohnungen. Guild War wird am 2026-11-19 eingeführt, Verteidigungsteam am 2026-11-21 03:00 UTC, Matchmaking am 2026-11-23 03:00 UTC; World Arena 2026-12-10. Foundry-Codes ≠ Coupons. STOVE/Steam als Quelle.",
       "h1": "Foundry-Server-Guide — Zeitplan & Belohnungen",
-      "lead": "Dieser Foundry-Server-Guide behandelt den Start auf dem neuen Server von Epic Seven: Starter-Buffs, Glückwunsch-Mails, Guild-War-Verlauf und Foundry-eigenes Matchmaking für das aufgeführte PvP. Laut Steam-Hinweis vom 2026-11-07 wurde Guild War am 2026-11-19 eingeführt, das Verteidigungsteam am 2026-11-21 03:00 UTC gebildet und das Matchmaking ist für den 2026-11-23 03:00 UTC vorgesehen (beim Check am 2026-11-21 21:45 Asia/Shanghai noch nicht erreicht). Der Guide fasst öffentliche STOVE-/Steam-Hinweise zusammen — Zeitpläne können sich nach der Wartung verschieben. Unabhängiger Guide; nicht von Smilegate oder STOVE.",
-      "as_of": "Stand 2026-11-21 21:45 Asia/Shanghai. Zeiten in UTC, sofern nicht anders angegeben. Guild War wurde am 2026-11-19 eingeführt; das Verteidigungsteam öffnete am 2026-11-21 03:00 UTC; das Matchmaking ist für den 2026-11-23 03:00 UTC vorgesehen und war bei diesem Check noch nicht erreicht. Der Patch vom 2026-11-05 behob eine Fehlanzeige im Foundry-Shop; der Steam-Hinweis vom 2026-11-07 ergänzte Zeitplan und Login-Geschenk.",
+      "lead": "Dieser Foundry-Server-Guide behandelt den Start auf dem neuen Server von Epic Seven: Starter-Buffs, Glückwunsch-Mails, Guild-War-Verlauf und Foundry-eigenes Matchmaking für das aufgeführte PvP. Laut Steam-Hinweis vom 2026-11-07 wurde Guild War am 2026-11-19 eingeführt, das Verteidigungsteam am 2026-11-21 03:00 UTC gebildet und das Matchmaking ist für den 2026-11-23 03:00 UTC vorgesehen (beim die offizielle Startzeit wurde erreicht; das bestätigt den Zeitplan, nicht ein tatsächliches Gefecht). Der Guide fasst öffentliche STOVE-/Steam-Hinweise zusammen — Zeitpläne können sich nach der Wartung verschieben. Unabhängiger Guide; nicht von Smilegate oder STOVE.",
+      "as_of": "Stand 2026-11-21 21:45 Asia/Shanghai. Zeiten in UTC, sofern nicht anders angegeben. Guild War wurde am 2026-11-19 eingeführt; das Verteidigungsteam öffnete am 2026-11-21 03:00 UTC; das Matchmaking hat seine offizielle Startzeit am 2026-11-23 03:00 UTC erreicht; das bestätigt den Zeitplan, nicht ein tatsächliches Gefecht. Der Patch vom 2026-11-05 behob eine Fehlanzeige im Foundry-Shop; der Steam-Hinweis vom 2026-11-07 ergänzte Zeitplan und Login-Geschenk.",
       "unlock_h2": "Kalender der Content-Freischaltungen",
       "th": [
         "Inhalt",
@@ -9314,7 +9314,7 @@ export const CONTENT = {
       "side_h2": "Nebenstory",
       "side": "Deep Dive: Secret Rabbit♥Hole (Case Files, Lucky Board, Lobby-Paket).",
       "src_h2": "Quellen",
-      "answer": "Dieser Foundry-Server-Guide behandelt den Fortschritt auf dem neuen Server von Epic Seven: Launch-Kalender, Belohnungen, Guild War und World Arena. „Foundry-Codes“ meint Belohnungen zum Launch oder offizielle Hinweise, keine Coupon-Liste. Ein Transfer behält den alten Fortschritt; er führt nicht automatisch nach Foundry. Draft Arena läuft; Guild War wurde am 2026-11-19 eingeführt, das Verteidigungsteam begann am 2026-11-21 03:00 UTC, und das Matchmaking am 2026-11-23 03:00 UTC war beim Check am 2026-11-21 21:45 Asia/Shanghai noch nicht erreicht. World Arena nach der Wartung am 2026-12-10; Buffs bis ~12/31 — auf STOVE/Steam prüfen. Der Hinweis vom 11/17 besagt außerdem, dass das Update am 12/10 (Do) die Guild-War-Unentschieden-Regel ändert: Die Priorität nach Saisonpunkten und nach zuerst genutztem Guild Crest beim Matching entfällt; es gewinnt die Seite mit der höheren kombinierten Angriffspunktzahl aus Siegen/Unentschieden/Niederlagen dieser Schlacht; steht es dann noch unentschieden, erhalten beide mit vollständiger Durchbrechung 100 % Saisonpunkte, beide ohne vollständige Durchbrechung 50 %. Details nach dem Update-Hinweis vom 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Dieser Foundry-Server-Guide behandelt den Fortschritt auf dem neuen Server von Epic Seven: Launch-Kalender, Belohnungen, Guild War und World Arena. „Foundry-Codes“ meint Belohnungen zum Launch oder offizielle Hinweise, keine Coupon-Liste. Ein Transfer behält den alten Fortschritt; er führt nicht automatisch nach Foundry. Draft Arena läuft; Guild War wurde am 2026-11-19 eingeführt, das Verteidigungsteam begann am 2026-11-21 03:00 UTC, und das Matchmaking am 2026-11-23 03:00 UTC war beim die offizielle Startzeit wurde erreicht (kein bestätigtes Gefecht). World Arena nach der Wartung am 2026-12-10; Buffs bis ~12/31 — auf STOVE/Steam prüfen. Der Hinweis vom 11/17 besagt außerdem, dass das Update am 12/10 (Do) die Guild-War-Unentschieden-Regel ändert: Die Priorität nach Saisonpunkten und nach zuerst genutztem Guild Crest beim Matching entfällt; es gewinnt die Seite mit der höheren kombinierten Angriffspunktzahl aus Siegen/Unentschieden/Niederlagen dieser Schlacht; steht es dann noch unentschieden, erhalten beide mit vollständiger Durchbrechung 100 % Saisonpunkte, beide ohne vollständige Durchbrechung 50 %. Details nach dem Update-Hinweis vom 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Selbst gezeichnete Foundry-Kalender-Grafik zu Launch-Buffs, Rabbit Hole, Guild War und World Arena",
       "img_ss_alt": "Offizieller Steam-Screenshot, der die Epic-Seven-Präsentation zeigt — Steam CDN",
       "faq_h2": "Foundry-FAQ",
@@ -9345,7 +9345,7 @@ export const CONTENT = {
         ],
         [
           "Was ist das Foundry-Guild-War-Login-Geschenk?",
-          "Melde dich zwischen 2026-11-07 09:00 und 2026-11-23 03:00 UTC auf dem Foundry-Server an, um Commander's Armband ×1,000 und Brave Crest ×3,000 zu erhalten. Voraussetzung ist ein Foundry-Login, kein Legacy-Login. Hole es über Ingame-Mail/Event ab und prüfe den echten Hinweis."
+          "Das Foundry-Guild-War-Login-Geschenk endete am 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Die damaligen Belohnungen waren Commander's Armband ×1,000 und Brave Crest ×3,000; ein Login jetzt berechtigt nicht mehr zu diesem Fenster. Voraussetzung ist ein Foundry-Login, kein Legacy-Login. Hole es über Ingame-Mail/Event ab und prüfe den echten Hinweis."
         ]
       ],
       "vs_h2": "Transfer oder Neustart auf Foundry",
@@ -9360,12 +9360,12 @@ export const CONTENT = {
       "link_demo": "Warnung: Demo-Löschung",
       "related_h2": "Verwandte Guides",
       "gw_h2": "Guild War auf Foundry",
-      "gw_answer": "Auf Foundry ist Guild War ein stufenweiser Rollout, kein einzelner Freischaltungstag. Stand 2026-11-21 21:45 Asia/Shanghai haben die Einführung am 11/19 und die Verteidigungsteam-Bildung am 11/21 03:00 UTC begonnen; das Matchmaking am 11/23 03:00 UTC steht noch aus. Laut Steam-Hinweis vom 2026-11-07: Einführung am 2026-11-19; Verteidigungsteam am 2026-11-21 03:00 UTC (11:00 in Shanghai); Guild-War-Matchmaking am 2026-11-23 03:00 UTC (11:00 in Shanghai). Tritt früh einer Foundry-Gilde bei oder gründe eine und erledige die täglichen Gilden-Inhalte. GW ist eine Foundry-Funktion, getrennt vom Account-Transfer; ein Login-Transfer meldet keinen Legacy-Heir automatisch für Foundry GW an. Termine können sich nach der Wartung verschieben; zitiere den Steam-/STOVE-Hinweis.",
+      "gw_answer": "Auf Foundry ist Guild War ein stufenweiser Rollout, kein einzelner Freischaltungstag. Stand 2026-11-21 21:45 Asia/Shanghai haben die Einführung am 11/19 und die Verteidigungsteam-Bildung am 11/21 03:00 UTC begonnen; das Matchmaking am 11/23 03:00 UTC hat die offizielle Startzeit erreicht (kein bestätigtes Gefecht). Laut Steam-Hinweis vom 2026-11-07: Einführung am 2026-11-19; Verteidigungsteam am 2026-11-21 03:00 UTC (11:00 in Shanghai); Guild-War-Matchmaking am 2026-11-23 03:00 UTC (11:00 in Shanghai). Tritt früh einer Foundry-Gilde bei oder gründe eine und erledige die täglichen Gilden-Inhalte. GW ist eine Foundry-Funktion, getrennt vom Account-Transfer; ein Login-Transfer meldet keinen Legacy-Heir automatisch für Foundry GW an. Termine können sich nach der Wartung verschieben; zitiere den Steam-/STOVE-Hinweis.",
       "gw_unlock_h3": "Freischaltungsstufen",
-      "gw_unlock": "Der Steam-Hinweis vom 2026-11-07 teilt den Rollout in drei Meilensteine: (1) 2026-11-19 wird Guild War auf Foundry eingeführt; (2) 2026-11-21 03:00 UTC (11:00 in Shanghai) Verteidigungsteam; (3) 2026-11-23 03:00 UTC (11:00 in Shanghai) Guild-War-Matchmaking. Draft Arena öffnete mit dem Steam-Launch-Fenster; World Arena ist nach der Wartung am 2026-12-10 angegeben; offizielle Hinweise nannten KST und UTC — prüfe den jeweils gültigen Hinweis. Öffne immer den aktuellen Steam-/STOVE-Hinweis neu, bevor du Gilden-Aktivitäten planst — Patches können Zeitfenster verschieben. Beim Check am 2026-11-21 21:45 Asia/Shanghai haben (1) und (2) begonnen; (3) steht noch aus.",
+      "gw_unlock": "Der Steam-Hinweis vom 2026-11-07 teilt den Rollout in drei Meilensteine: (1) 2026-11-19 wird Guild War auf Foundry eingeführt; (2) 2026-11-21 03:00 UTC (11:00 in Shanghai) Verteidigungsteam; (3) 2026-11-23 03:00 UTC (11:00 in Shanghai) Guild-War-Matchmaking. Draft Arena öffnete mit dem Steam-Launch-Fenster; World Arena ist nach der Wartung am 2026-12-10 angegeben; offizielle Hinweise nannten KST und UTC — prüfe den jeweils gültigen Hinweis. Öffne immer den aktuellen Steam-/STOVE-Hinweis neu, bevor du Gilden-Aktivitäten planst — Patches können Zeitfenster verschieben. Beim Check am 2026-11-21 21:45 Asia/Shanghai haben (1), (2) und (3) die offizielle Startzeit erreicht (kein bestätigtes Gefecht).",
       "gw_prep_h3": "Checkliste vor der Öffnung",
       "gw_prep": [
-        "Der Rollout ist 2026-11-19 Einführung, 2026-11-21 03:00 UTC Verteidigungsteam bereits gestartet und 2026-11-23 03:00 UTC Matchmaking noch nicht erreicht (Check am 2026-11-21 21:45 Asia/Shanghai). Plane nicht mit einem einzigen Freischaltungstag am 11/21.",
+        "Der Rollout ist 2026-11-19 Einführung, 2026-11-21 03:00 UTC Verteidigungsteam bereits gestartet und 2026-11-23 03:00 UTC Matchmaking: die offizielle Startzeit wurde erreicht (kein bestätigtes Gefecht). Plane nicht mit einem einzigen Freischaltungstag am 11/21.",
         "Erfülle zuerst die angegebene Voraussetzung für den Gildeneintritt — die Community-Checkliste nennt Account-Rang 10; bestätige die aktuelle Hürde im Spiel — und tritt dann deutlich vor 2026-11-19 einer Foundry-Gilde bei oder gründe eine.",
         "Erledige tägliche Gildenmissionen und spende, wenn möglich, um Gildenlevel und Gildenwährung aufzubauen.",
         "Leg Ausdauer-Items an und halte einen brauchbaren PvP-Kern (Tank/Heiler/Reiniger) für Gilden-Angriff und -Verteidigung bereit.",
@@ -9380,7 +9380,7 @@ export const CONTENT = {
         "2026-12-10 (Do) Guild-War-Unentschieden-Regel: Das Update entfernt die Priorität nach Saisonpunkten und Guild Crest beim Matching; es gewinnt die Seite mit der höheren kombinierten Angriffspunktzahl aus Siegen/Unentschieden/Niederlagen; steht es dann noch unentschieden, erhalten beide mit vollständiger Durchbrechung 100 % Saisonpunkte, beide ohne vollständige Durchbrechung 50 %. Details nach dem Hinweis vom 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Belohnungszeitraum",
-      "gw_reward": "Derselbe Hinweis ergänzt ein Foundry-Login-Geschenk: Melde dich zwischen 2026-11-07 09:00 und 2026-11-23 03:00 UTC auf dem Foundry-Server an, um Commander's Armband ×1,000 und Brave Crest ×3,000 zu erhalten. Voraussetzung ist ein Foundry-Login, kein Legacy-Login. Sieh Guild-War-Belohnungen als Teil des Launch-Zeitplans von Foundry; die genauen Loot-Tabellen stehen auf STOVE. Viele Starter-Buffs und Login-Geschenke laufen bis etwa 2026-12-31 02:59 UTC. Prüfe STOVE/Steam vor dem Ausgeben von Ressourcen; bei abweichenden Hinweisen gilt der neuere.",
+      "gw_reward": "Derselbe Hinweis ergänzt ein Foundry-Login-Geschenk: Das Foundry-Guild-War-Login-Geschenk endete am 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Die damaligen Belohnungen waren Commander's Armband ×1,000 und Brave Crest ×3,000; ein Login jetzt berechtigt nicht mehr zu diesem Fenster. Voraussetzung ist ein Foundry-Login, kein Legacy-Login. Sieh Guild-War-Belohnungen als Teil des Launch-Zeitplans von Foundry; die genauen Loot-Tabellen stehen auf STOVE. Viele Starter-Buffs und Login-Geschenke laufen bis etwa 2026-12-31 02:59 UTC. Prüfe STOVE/Steam vor dem Ausgeben von Ressourcen; bei abweichenden Hinweisen gilt der neuere.",
       "codes_h2": "Foundry-Codes vs. Belohnungen zum Launch",
       "codes_note": "Wer nach „Foundry-Codes“ oder „Foundry-Server-Codes“ sucht, meint meist Belohnungen zum Launch und offizielle STOVE-Hinweise — Postfach-Geschenke, Login-Items und Starter-Buffs — nicht eine einlösbare Coupon-Liste. Dieser inoffizielle Foundry-Server-Guide veröffentlicht, verkauft oder löst niemals gefälschte Codes ein. Hol nur ab, was das Postfach im Spiel zeigt, und prüfe STOVE Foundry view/14571828 und Launch view/14606481 erneut, wenn sich Zeitfenster verschieben.",
       "guide_h2": "Foundry-Server-Guide — wichtige Termine",
@@ -9465,8 +9465,8 @@ export const CONTENT = {
       "title": "Guide Foundry Epic Seven : calendrier et Guild War | E7 Steam",
       "meta": "Guide du serveur Foundry : calendrier, déblocages, récompenses. La Guild War est introduite le 2026-11-19, l’équipe de défense le 2026-11-21 03:00 UTC et le matchmaking le 2026-11-23 03:00 UTC ; World Arena 2026-12-10. Foundry codes ≠ coupons. Source STOVE/Steam.",
       "h1": "Guide du serveur Foundry — calendrier et récompenses",
-      "lead": "Ce guide du serveur Foundry couvre le parcours nouveau serveur d’Epic Seven : buffs de départ, courrier de célébration, progression de la Guild War et matchmaking réservé à Foundry pour les PvP listés. Selon l’avis Steam du 2026-11-07, la Guild War a été introduite le 2026-11-19, l’équipe de défense s’est formée le 2026-11-21 03:00 UTC et le matchmaking est prévu le 2026-11-23 03:00 UTC (pas encore atteint lors de la vérification du 2026-11-21 21:45 Asia/Shanghai). Reformulation des avis publics STOVE/Steam — les horaires peuvent changer après maintenance. Guide indépendant ; non affilié à Smilegate ni à STOVE.",
-      "as_of": "Instantané mis à jour le 2026-11-21 21:45 Asia/Shanghai. Heures en UTC sauf mention. La Guild War a été introduite le 2026-11-19 ; l’équipe de défense a ouvert le 2026-11-21 03:00 UTC ; le matchmaking est prévu le 2026-11-23 03:00 UTC et n’était pas encore atteint lors de cette vérification. Le correctif du 2026-11-05 a corrigé un affichage de la boutique Foundry ; l’avis Steam du 2026-11-07 a ajouté le calendrier et le cadeau de connexion.",
+      "lead": "Ce guide du serveur Foundry couvre le parcours nouveau serveur d’Epic Seven : buffs de départ, courrier de célébration, progression de la Guild War et matchmaking réservé à Foundry pour les PvP listés. Selon l’avis Steam du 2026-11-07, la Guild War a été introduite le 2026-11-19, l’équipe de défense s’est formée le 2026-11-21 03:00 UTC et le matchmaking a atteint son horaire officiel de début le 2026-11-23 03:00 UTC (confirme le calendrier, pas un combat réel). Reformulation des avis publics STOVE/Steam — les horaires peuvent changer après maintenance. Guide indépendant ; non affilié à Smilegate ni à STOVE.",
+      "as_of": "Instantané mis à jour le 2026-11-21 21:45 Asia/Shanghai. Heures en UTC sauf mention. La Guild War a été introduite le 2026-11-19 ; l’équipe de défense a ouvert le 2026-11-21 03:00 UTC ; le matchmaking a atteint son horaire officiel de début le 2026-11-23 03:00 UTC ; cela confirme le calendrier, pas un combat réel. Le correctif du 2026-11-05 a corrigé un affichage de la boutique Foundry ; l’avis Steam du 2026-11-07 a ajouté le calendrier et le cadeau de connexion.",
       "unlock_h2": "Calendrier de déblocage du contenu",
       "th": [
         "Fonctionnalité",
@@ -9631,7 +9631,7 @@ export const CONTENT = {
       "side_h2": "Histoire annexe",
       "side": "Approfondissement : Secret Rabbit♥Hole (Case Files, Lucky Board, pack de lobby).",
       "src_h2": "Sources",
-      "answer": "Ce guide du serveur Foundry couvre la progression du nouveau serveur d’Epic Seven : calendrier de célébration, récompenses, Guild War et World Arena. « Foundry codes » désigne les récompenses de célébration ou les avis officiels, pas une liste de coupons. Le transfert conserve la progression historique ; il ne rejoint pas Foundry automatiquement. La Draft Arena est ouverte ; la Guild War a été introduite le 2026-11-19, l’équipe de défense a commencé le 2026-11-21 03:00 UTC et le matchmaking du 2026-11-23 03:00 UTC n’était pas encore arrivé lors de la vérification du 2026-11-21 21:45 Asia/Shanghai. World Arena après la maintenance du 2026-12-10 ; buffs jusqu’au ~12/31 — à vérifier sur STOVE/Steam. L’avis du 11/17 indique aussi que la mise à jour du 12/10 (jeu) modifie la résolution des égalités de Guild War : suppression de la priorité aux points de saison et à l’utilisation du Guild Crest en premier lors du matchmaking ; l’équipe avec le plus haut score d’attaque combiné (victoires/nuls/défaites) de cette bataille l’emporte ; si l’égalité persiste, les deux avec percée complète reçoivent 100 % des points de saison, les deux sans percée complète 50 %. Détails selon l’avis de mise à jour du 12/10 : [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Ce guide du serveur Foundry couvre la progression du nouveau serveur d’Epic Seven : calendrier de célébration, récompenses, Guild War et World Arena. « Foundry codes » désigne les récompenses de célébration ou les avis officiels, pas une liste de coupons. Le transfert conserve la progression historique ; il ne rejoint pas Foundry automatiquement. La Draft Arena est ouverte ; la Guild War a été introduite le 2026-11-19, l’équipe de défense a commencé le 2026-11-21 03:00 UTC et le matchmaking du 2026-11-23 03:00 UTC a atteint son horaire officiel de début (sans confirmer un combat réel). World Arena après la maintenance du 2026-12-10 ; buffs jusqu’au ~12/31 — à vérifier sur STOVE/Steam. L’avis du 11/17 indique aussi que la mise à jour du 12/10 (jeu) modifie la résolution des égalités de Guild War : suppression de la priorité aux points de saison et à l’utilisation du Guild Crest en premier lors du matchmaking ; l’équipe avec le plus haut score d’attaque combiné (victoires/nuls/défaites) de cette bataille l’emporte ; si l’égalité persiste, les deux avec percée complète reçoivent 100 % des points de saison, les deux sans percée complète 50 %. Détails selon l’avis de mise à jour du 12/10 : [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Visuel de calendrier Foundry dessiné maison couvrant les buffs de lancement, Rabbit Hole, la Guild War et la World Arena",
       "img_ss_alt": "Capture d’écran Steam officielle illustrant la présentation d’Epic Seven — CDN Steam",
       "faq_h2": "FAQ Foundry",
@@ -9662,7 +9662,7 @@ export const CONTENT = {
         ],
         [
           "Qu’est-ce que le cadeau de connexion Foundry Guild War ?",
-          "Connectez-vous au serveur Foundry entre le 2026-11-07 09:00 et le 2026-11-23 03:00 UTC pour recevoir Commander's Armband ×1,000 et Brave Crest ×3,000. L’éligibilité est une connexion Foundry, pas legacy. Récupérez-le via le courrier/événement en jeu et confirmez l’avis réel."
+          "Le cadeau de connexion Guild War Foundry s’est terminé le 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Les récompenses historiques étaient Commander’s Armband ×1,000 et Brave Crest ×3,000 ; une connexion maintenant ne donne plus droit à cette fenêtre. L’éligibilité est une connexion Foundry, pas legacy. Récupérez-le via le courrier/événement en jeu et confirmez l’avis réel."
         ]
       ],
       "vs_h2": "Transfert ou démarrage sur Foundry",
@@ -9677,12 +9677,12 @@ export const CONTENT = {
       "link_demo": "Avertissement sur la suppression de la démo",
       "related_h2": "Guides associés",
       "gw_h2": "La Guild War sur Foundry",
-      "gw_answer": "Sur Foundry, la Guild War est un déploiement par étapes, pas un seul jour de déblocage. Au 2026-11-21 21:45 Asia/Shanghai, l’introduction du 11/19 et la formation de l’équipe de défense du 11/21 03:00 UTC ont commencé ; le matchmaking du 11/23 03:00 UTC n’est pas encore arrivé. Selon l’avis Steam du 2026-11-07 : introduction le 2026-11-19 ; équipe de défense le 2026-11-21 03:00 UTC (11:00 à Shanghai) ; matchmaking le 2026-11-23 03:00 UTC (11:00 à Shanghai). Rejoignez ou créez tôt une guilde Foundry et faites le contenu de guilde quotidien. La GW est une fonction côté Foundry, distincte du transfert de compte ; le transfert de connexion n’inscrit pas automatiquement un Héritier legacy dans la GW Foundry. Les dates peuvent changer après maintenance ; citez l’avis Steam/STOVE.",
+      "gw_answer": "Sur Foundry, la Guild War est un déploiement par étapes, pas un seul jour de déblocage. Au 2026-11-21 21:45 Asia/Shanghai, l’introduction du 11/19 et la formation de l’équipe de défense du 11/21 03:00 UTC ont commencé ; le matchmaking du 11/23 03:00 UTC a atteint son horaire officiel de début (sans confirmer un combat réel). Selon l’avis Steam du 2026-11-07 : introduction le 2026-11-19 ; équipe de défense le 2026-11-21 03:00 UTC (11:00 à Shanghai) ; matchmaking le 2026-11-23 03:00 UTC (11:00 à Shanghai). Rejoignez ou créez tôt une guilde Foundry et faites le contenu de guilde quotidien. La GW est une fonction côté Foundry, distincte du transfert de compte ; le transfert de connexion n’inscrit pas automatiquement un Héritier legacy dans la GW Foundry. Les dates peuvent changer après maintenance ; citez l’avis Steam/STOVE.",
       "gw_unlock_h3": "Étapes de déblocage",
-      "gw_unlock": "L’avis Steam du 2026-11-07 divise le déploiement en trois étapes : (1) 2026-11-19, introduction de la Guild War sur Foundry ; (2) 2026-11-21 03:00 UTC (11:00 à Shanghai), équipe de défense ; (3) 2026-11-23 03:00 UTC (11:00 à Shanghai), matchmaking de la Guild War. La Draft Arena a ouvert avec la fenêtre de lancement Steam ; la World Arena est annoncée après la maintenance du 2026-12-10 ; les avis officiels indiquent KST et UTC — vérifiez l’avis en vigueur. Rouvrez toujours l’avis Steam/STOVE le plus récent avant de planifier des activités de guilde — les patchs peuvent déplacer les fenêtres. Lors de la vérification du 2026-11-21 21:45 Asia/Shanghai, (1) et (2) ont commencé ; (3) n’est pas encore arrivé.",
+      "gw_unlock": "L’avis Steam du 2026-11-07 divise le déploiement en trois étapes : (1) 2026-11-19, introduction de la Guild War sur Foundry ; (2) 2026-11-21 03:00 UTC (11:00 à Shanghai), équipe de défense ; (3) 2026-11-23 03:00 UTC (11:00 à Shanghai), matchmaking de la Guild War. La Draft Arena a ouvert avec la fenêtre de lancement Steam ; la World Arena est annoncée après la maintenance du 2026-12-10 ; les avis officiels indiquent KST et UTC — vérifiez l’avis en vigueur. Rouvrez toujours l’avis Steam/STOVE le plus récent avant de planifier des activités de guilde — les patchs peuvent déplacer les fenêtres. Lors de la vérification du 2026-11-21 21:45 Asia/Shanghai, (1), (2) et (3) ont atteint leur horaire officiel de début (sans confirmer un combat réel).",
       "gw_prep_h3": "Checklist avant ouverture",
       "gw_prep": [
-        "Le déploiement est 2026-11-19 introduction, 2026-11-21 03:00 UTC équipe de défense déjà commencée et 2026-11-23 03:00 UTC matchmaking pas encore atteint (vérification du 2026-11-21 21:45 Asia/Shanghai). Ne planifiez pas un seul déblocage le 11/21.",
+        "Le déploiement est 2026-11-19 introduction, 2026-11-21 03:00 UTC équipe de défense déjà commencée et 2026-11-23 03:00 UTC matchmaking : l’horaire officiel de début a été atteint (sans confirmer un combat réel). Ne planifiez pas un seul déblocage le 11/21.",
         "Atteignez d’abord le prérequis d’entrée en guilde annoncé — la checklist communautaire cite le rang de compte 10 ; confirmez la condition en jeu — puis rejoignez ou créez une guilde Foundry bien avant le 2026-11-19.",
         "Faites les missions de guilde quotidiennes et donnez quand c’est possible pour monter le niveau/la monnaie de guilde.",
         "Stockez des objets d’endurance et gardez un noyau PvP utilisable (tank/soigneur/cleanser) prêt pour l’attaque/défense de guilde.",
@@ -9697,7 +9697,7 @@ export const CONTENT = {
         "2026-12-10 (jeu) règle d’égalité de la Guild War : la mise à jour supprime la priorité aux points de saison et au Guild Crest lors du matchmaking ; l’équipe avec le plus haut score d’attaque combiné (victoires/nuls/défaites) l’emporte ; si l’égalité persiste, les deux avec percée complète reçoivent 100 % des points de saison, les deux sans percée complète 50 %. Détails selon l’avis du 12/10 : [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Fenêtre des récompenses",
-      "gw_reward": "Le même avis ajoute un cadeau de connexion Foundry : connectez-vous au serveur Foundry entre le 2026-11-07 09:00 et le 2026-11-23 03:00 UTC pour recevoir Commander's Armband ×1,000 et Brave Crest ×3,000. L’éligibilité est une connexion Foundry, pas une connexion legacy. Considérez les récompenses de Guild War comme faisant partie du rythme de célébration de Foundry ; les tables exactes appartiennent à STOVE. De nombreux buffs et cadeaux de connexion vont jusqu’au 2026-12-31 02:59 UTC environ. Revérifiez STOVE/Steam avant de dépenser des ressources ; en cas de divergence, suivez l’avis le plus récent.",
+      "gw_reward": "Le même avis ajoute un cadeau de connexion Foundry : le cadeau de connexion Guild War Foundry s’est terminé le 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Les récompenses historiques étaient Commander’s Armband ×1,000 et Brave Crest ×3,000 ; une connexion maintenant ne donne plus droit à cette fenêtre. L’éligibilité est une connexion Foundry, pas une connexion legacy. Considérez les récompenses de Guild War comme faisant partie du rythme de célébration de Foundry ; les tables exactes appartiennent à STOVE. De nombreux buffs et cadeaux de connexion vont jusqu’au 2026-12-31 02:59 UTC environ. Revérifiez STOVE/Steam avant de dépenser des ressources ; en cas de divergence, suivez l’avis le plus récent.",
       "codes_h2": "Codes Foundry ou récompenses de célébration",
       "codes_note": "Les recherches « Foundry codes » ou « Foundry server codes » renvoient généralement aux récompenses de célébration et aux avis officiels STOVE — cadeaux de boîte aux lettres, objets de connexion et buffs de départ — et non à une liste de coupons à utiliser. Ce guide non officiel du serveur Foundry ne publie, ne vend et n’utilise jamais de faux codes. Ne récupérez que ce que la boîte aux lettres en jeu affiche, et revérifiez STOVE Foundry view/14571828 et Launch view/14606481 quand les fenêtres bougent.",
       "guide_h2": "Guide du serveur Foundry — dates clés",
@@ -9782,8 +9782,8 @@ export const CONTENT = {
       "title": "Poradnik serwera Foundry w Epic Seven: kalendarz i Guild War | E7",
       "meta": "Poradnik serwera Foundry: kalendarz, odblokowania, nagrody. Guild War zostaje wprowadzona 2026-11-19, drużyna obrony 2026-11-21 03:00 UTC, matchmaking 2026-11-23 03:00 UTC; World Arena 2026-12-10. Kody Foundry ≠ kupony. Źródło: STOVE/Steam.",
       "h1": "Poradnik serwera Foundry — harmonogram i nagrody",
-      "lead": "Ten poradnik serwera Foundry obejmuje nowy tor serwerowy Epic Seven: buffy startowe, pocztę celebracyjną, przebieg Guild War i matchmaking wyłącznie Foundry dla wymienionego PvP. Według ogłoszenia Steam z 2026-11-07 Guild War została wprowadzona 2026-11-19, drużyna obrony została utworzona 2026-11-21 03:00 UTC, a matchmaking jest zaplanowany na 2026-11-23 03:00 UTC (jeszcze nieosiągnięty podczas sprawdzenia 2026-11-21 21:45 Asia/Shanghai). Parafrazy publicznych ogłoszeń STOVE/Steam — harmonogramy mogą się zmienić po konserwacji. Poradnik niezależny; nie Smilegate ani STOVE.",
-      "as_of": "Zaktualizowano 2026-11-21 21:45 Asia/Shanghai. Czasy UTC, o ile nie zaznaczono inaczej. Guild War wprowadzono 2026-11-19; drużyna obrony otworzyła się 2026-11-21 03:00 UTC; matchmaking zaplanowano na 2026-11-23 03:00 UTC i podczas tego sprawdzenia jeszcze nie nadszedł. Patch z 2026-11-05 naprawił błędne wyświetlanie sklepu Foundry; ogłoszenie Steam z 2026-11-07 dodało harmonogram i prezent za logowanie.",
+      "lead": "Ten poradnik serwera Foundry obejmuje nowy tor serwerowy Epic Seven: buffy startowe, pocztę celebracyjną, przebieg Guild War i matchmaking wyłącznie Foundry dla wymienionego PvP. Według ogłoszenia Steam z 2026-11-07 Guild War została wprowadzona 2026-11-19, drużyna obrony została utworzona 2026-11-21 03:00 UTC, a matchmaking josiągnął oficjalną godzinę startu 2026-11-23 03:00 UTC (potwierdza harmonogram, nie rzeczywisty pojedynek). Parafrazy publicznych ogłoszeń STOVE/Steam — harmonogramy mogą się zmienić po konserwacji. Poradnik niezależny; nie Smilegate ani STOVE.",
+      "as_of": "Zaktualizowano 2026-11-21 21:45 Asia/Shanghai. Czasy UTC, o ile nie zaznaczono inaczej. Guild War wprowadzono 2026-11-19; drużyna obrony otworzyła się 2026-11-21 03:00 UTC; matchmaking osiągnął oficjalną godzinę startu 2026-11-23 03:00 UTC; to potwierdza harmonogram, nie rzeczywisty pojedynek. Patch z 2026-11-05 naprawił błędne wyświetlanie sklepu Foundry; ogłoszenie Steam z 2026-11-07 dodało harmonogram i prezent za logowanie.",
       "unlock_h2": "Kalendarz odblokowywania treści",
       "th": [
         "Funkcja",
@@ -9948,7 +9948,7 @@ export const CONTENT = {
       "side_h2": "Historia poboczna",
       "side": "Szczegóły: Secret Rabbit♥Hole (Case Files, Lucky Board, pakiet lobby).",
       "src_h2": "Źródła",
-      "answer": "Poradnik serwera Foundry dla nowego toru Epic Seven: kalendarz celebracyjny, odblokowania treści, nagrody, Guild War i World Arena. „Kody Foundry” oznaczają nagrody celebracyjne lub oficjalne ogłoszenia — prezenty w skrzynce, przedmioty za logowanie, buffy — a nie listę kuponów. Transfer zachowuje stary postęp i nie dołącza automatycznie do Foundry. Draft Arena działa; Guild War została wprowadzona 2026-11-19, drużyna obrony rozpoczęła 2026-11-21 03:00 UTC, a matchmaking 2026-11-23 03:00 UTC jeszcze nie nadszedł podczas sprawdzenia 2026-11-21 21:45 Asia/Shanghai. World Arena po konserwacji 2026-12-10; buffy do ~12/31 — potwierdź na STOVE/Steam. Ogłoszenie z 11/17 mówi też, że aktualizacja 12/10 (czw) zmienia rozstrzyganie remisów Guild War: znosi pierwszeństwo punktów sezonu i użycia Guild Crest przy dopasowaniu; wygrywa strona z wyższą łączną punktacją ataku z wygranych/remisów/porażek w tej bitwie; jeśli nadal remis, obie strony z pełnym przełamaniem dostają 100% punktów sezonu, obie bez pełnego przełamania 50%. Szczegóły według ogłoszenia aktualizacji 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
+      "answer": "Poradnik serwera Foundry dla nowego toru Epic Seven: kalendarz celebracyjny, odblokowania treści, nagrody, Guild War i World Arena. „Kody Foundry” oznaczają nagrody celebracyjne lub oficjalne ogłoszenia — prezenty w skrzynce, przedmioty za logowanie, buffy — a nie listę kuponów. Transfer zachowuje stary postęp i nie dołącza automatycznie do Foundry. Draft Arena działa; Guild War została wprowadzona 2026-11-19, drużyna obrony rozpoczęła 2026-11-21 03:00 UTC, a matchmaking 2026-11-23 03:00 UTC osiągnął już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku). World Arena po konserwacji 2026-12-10; buffy do ~12/31 — potwierdź na STOVE/Steam. Ogłoszenie z 11/17 mówi też, że aktualizacja 12/10 (czw) zmienia rozstrzyganie remisów Guild War: znosi pierwszeństwo punktów sezonu i użycia Guild Crest przy dopasowaniu; wygrywa strona z wyższą łączną punktacją ataku z wygranych/remisów/porażek w tej bitwie; jeśli nadal remis, obie strony z pełnym przełamaniem dostają 100% punktów sezonu, obie bez pełnego przełamania 50%. Szczegóły według ogłoszenia aktualizacji 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]].",
       "img_alt": "Własnoręcznie rysowany kalendarz Foundry obejmujący buffy startowe, Rabbit Hole, Guild War i World Arena",
       "img_ss_alt": "Oficjalny zrzut ekranu ze Steam ilustrujący prezentację Epic Seven — CDN Steam",
       "faq_h2": "FAQ Foundry",
@@ -9979,7 +9979,7 @@ export const CONTENT = {
         ],
         [
           "Co to jest prezent za logowanie Foundry Guild War?",
-          "Zaloguj się na serwer Foundry między 2026-11-07 09:00 a 2026-11-23 03:00 UTC, aby otrzymać Commander's Armband ×1,000 i Brave Crest ×3,000. Warunkiem jest logowanie na Foundry, nie legacy. Odbierz przez pocztę/wydarzenie w grze i potwierdź rzeczywiste ogłoszenie."
+          "Prezent za logowanie Guild War na Foundry zakończył się 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Historyczne nagrody to Commander's Armband ×1,000 i Brave Crest ×3,000; logowanie teraz nie kwalifikuje do tego okna. Warunkiem jest logowanie na Foundry, nie legacy. Odbierz przez pocztę/wydarzenie w grze i potwierdź rzeczywiste ogłoszenie."
         ]
       ],
       "vs_h2": "Transfer a start na Foundry",
@@ -9994,12 +9994,12 @@ export const CONTENT = {
       "link_demo": "Ostrzeżenie o usuwaniu dema",
       "related_h2": "Powiązane poradniki",
       "gw_h2": "Guild War na Foundry",
-      "gw_answer": "Na Foundry Guild War jest wdrażana etapami, a nie w jednym dniu odblokowania. Na 2026-11-21 21:45 Asia/Shanghai wprowadzenie 11/19 i tworzenie drużyny obrony 11/21 03:00 UTC już się rozpoczęły; matchmaking 11/23 03:00 UTC jeszcze nie nadszedł. Według ogłoszenia Steam z 2026-11-07: wprowadzenie 2026-11-19; drużyna obrony 2026-11-21 03:00 UTC (11:00 w Szanghaju); matchmaking Guild War 2026-11-23 03:00 UTC (11:00 w Szanghaju). Dołącz lub utwórz wcześnie gildię Foundry i wykonuj dzienne treści gildii. GW to funkcja po stronie Foundry, osobna od transferu konta; transfer logowania nie zapisuje automatycznie dziedzica legacy do Foundry GW. Daty mogą się zmienić po konserwacji; cytuj ogłoszenie Steam/STOVE.",
+      "gw_answer": "Na Foundry Guild War jest wdrażana etapami, a nie w jednym dniu odblokowania. Na 2026-11-21 21:45 Asia/Shanghai wprowadzenie 11/19 i tworzenie drużyny obrony 11/21 03:00 UTC już się rozpoczęły; matchmaking 11/23 03:00 UTC osiągnął już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku). Według ogłoszenia Steam z 2026-11-07: wprowadzenie 2026-11-19; drużyna obrony 2026-11-21 03:00 UTC (11:00 w Szanghaju); matchmaking Guild War 2026-11-23 03:00 UTC (11:00 w Szanghaju). Dołącz lub utwórz wcześnie gildię Foundry i wykonuj dzienne treści gildii. GW to funkcja po stronie Foundry, osobna od transferu konta; transfer logowania nie zapisuje automatycznie dziedzica legacy do Foundry GW. Daty mogą się zmienić po konserwacji; cytuj ogłoszenie Steam/STOVE.",
       "gw_unlock_h3": "Etapy odblokowania",
-      "gw_unlock": "Ogłoszenie Steam z 2026-11-07 dzieli wdrożenie na trzy etapy: (1) 2026-11-19 Guild War zostaje wprowadzona na Foundry; (2) 2026-11-21 03:00 UTC (11:00 w Szanghaju) drużyna obrony; (3) 2026-11-23 03:00 UTC (11:00 w Szanghaju) matchmaking Guild War. Draft Arena otworzyła się w oknie premiery Steam; World Arena jest wymieniona po konserwacji 2026-12-10; oficjalne ogłoszenia podają KST i UTC — sprawdź obowiązujące ogłoszenie. Zawsze otwórz ponownie najnowsze ogłoszenie Steam/STOVE przed planowaniem aktywności gildii — patche mogą przesuwać okna. Podczas sprawdzenia 2026-11-21 21:45 Asia/Shanghai (1) i (2) już się rozpoczęły; (3) jeszcze nie nadszedł.",
+      "gw_unlock": "Ogłoszenie Steam z 2026-11-07 dzieli wdrożenie na trzy etapy: (1) 2026-11-19 Guild War zostaje wprowadzona na Foundry; (2) 2026-11-21 03:00 UTC (11:00 w Szanghaju) drużyna obrony; (3) 2026-11-23 03:00 UTC (11:00 w Szanghaju) matchmaking Guild War. Draft Arena otworzyła się w oknie premiery Steam; World Arena jest wymieniona po konserwacji 2026-12-10; oficjalne ogłoszenia podają KST i UTC — sprawdź obowiązujące ogłoszenie. Zawsze otwórz ponownie najnowsze ogłoszenie Steam/STOVE przed planowaniem aktywności gildii — patche mogą przesuwać okna. Podczas sprawdzenia 2026-11-21 21:45 Asia/Shanghai (1), (2) i (3) osiągnęły już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku).",
       "gw_prep_h3": "Lista kontrolna przed otwarciem",
       "gw_prep": [
-        "Wdrożenie to 2026-11-19 wprowadzenie, 2026-11-21 03:00 UTC drużyna obrony już rozpoczęta i 2026-11-23 03:00 UTC matchmaking jeszcze nieosiągnięty (sprawdzenie 2026-11-21 21:45 Asia/Shanghai). Nie planuj jednego odblokowania 11/21.",
+        "Wdrożenie to 2026-11-19 wprowadzenie, 2026-11-21 03:00 UTC drużyna obrony już rozpoczęta i 2026-11-23 03:00 UTC matchmaking: oficjalna godzina startu została osiągnięta (bez potwierdzenia rzeczywistego pojedynku). Nie planuj jednego odblokowania 11/21.",
         "Najpierw osiągnij ogłoszony wymóg wejścia do gildii — społecznościowa lista kontrolna podaje rangę konta 10; potwierdź bieżącą bramkę w grze — a potem dołącz lub utwórz gildię Foundry znacznie przed 2026-11-19.",
         "Wykonuj dzienne misje gildii i wpłacaj, gdy dostępne, budując poziom/walutę gildii.",
         "Zapasy przedmiotów na stamina i utrzymuj użyteczny rdzeń PvP (tank/uzdrowiciel/oczyszczający) gotowy do ataku/obrony gildii.",
@@ -10014,7 +10014,7 @@ export const CONTENT = {
         "2026-12-10 (czw) zasada remisu Guild War: aktualizacja znosi pierwszeństwo punktów sezonu i Guild Crest przy dopasowaniu; wygrywa strona z wyższą łączną punktacją ataku z wygranych/remisów/porażek; jeśli nadal remis, obie strony z pełnym przełamaniem dostają 100% punktów sezonu, obie bez pełnego przełamania 50%. Szczegóły według ogłoszenia 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Okno nagród",
-      "gw_reward": "To samo ogłoszenie dodaje prezent za logowanie na Foundry: zaloguj się na serwer Foundry między 2026-11-07 09:00 a 2026-11-23 03:00 UTC, aby otrzymać Commander's Armband ×1,000 i Brave Crest ×3,000. Warunkiem jest logowanie na Foundry, nie na serwerze legacy. Traktuj nagrody Guild War jako część celebracyjnego rytmu Foundry; dokładne tabele łupów należą do STOVE. Wiele buffów i prezentów za logowanie trwa do około 2026-12-31 02:59 UTC. Sprawdź STOVE/Steam przed wydaniem zasobów; jeśli ogłoszenia się różnią, podążaj za nowszym.",
+      "gw_reward": "To samo ogłoszenie dodaje prezent za logowanie na Foundry: prezent za logowanie Guild War na Foundry zakończył się 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai). Historyczne nagrody to Commander's Armband ×1,000 i Brave Crest ×3,000; logowanie teraz nie kwalifikuje do tego okna. Warunkiem jest logowanie na Foundry, nie na serwerze legacy. Traktuj nagrody Guild War jako część celebracyjnego rytmu Foundry; dokładne tabele łupów należą do STOVE. Wiele buffów i prezentów za logowanie trwa do około 2026-12-31 02:59 UTC. Sprawdź STOVE/Steam przed wydaniem zasobów; jeśli ogłoszenia się różnią, podążaj za nowszym.",
       "codes_h2": "Kody Foundry a nagrody celebracyjne",
       "codes_note": "Wyszukiwania „kody Foundry” lub „kody serwera Foundry” zwykle prowadzą do nagród celebracyjnych i oficjalnych ogłoszeń STOVE — prezentów w skrzynce, przedmiotów za logowanie i buffów startowych — a nie listy kuponów do odebrania. Ten nieoficjalny poradnik serwera Foundry nigdy nie publikuje, nie sprzedaje ani nie realizuje fałszywych kodów. Odbieraj tylko to, co pokazuje skrzynka w grze, i sprawdzaj ponownie STOVE Foundry view/14571828 i Launch view/14606481, gdy okna się przesuwają.",
       "guide_h2": "Poradnik serwera Foundry — kluczowe daty",
@@ -10923,13 +10923,13 @@ export const CONTENT = {
           "STOVE official 2026-11-20"
         ],
         [
-          "2026-11-19 — Known Issues following the update (edited 11/20 09:30 UTC)",
+          "2026-11-19 — Known Issues following the update (edited 11/23 09:10 UTC)",
           [
-            "Official notice: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "As seen through WebFetch, the body still says item 1 “will be fixed” and that affected Heirs can contact support for an exchange; item 2 (Traditional Chinese 4-8) still asks players to change language temporarily.",
-            "The 11/20 patch targets these items. Current status is governed by that Known Issues post (including the 11/20 09:30 UTC edit) and by 14641953. This page does not claim that every listed item is resolved.",
+            "Official notice: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "As of the official 11/23 09:10 UTC edit, the post lists three items and does not mark them resolved: (1) the 2+1 Mana Stone Hot Deal Pack still grants a Lv.85 Mana Stone Selection Chest — the post still says this “will be fixed”, and affected Heirs can contact Customer Service for an exchange; (2) [CHT] Traditional Chinese 6th World Episode Chapter 4-8 still cannot continue after the cutscene — the post still asks players to switch language temporarily until it is resolved; (3) [The Call of Chaos] the game stops when a [Guardian: Kazran] Fate skill activates while Yuna has a skin equipped. The official post does not publish a workaround or a fix time for item 3.",
+            "The Ban Pick forfeit settlement-screen item named in the 11/20 patch notice (14641953) is no longer listed in this Known Issues post after the 11/23 09:10 UTC edit. This page does not treat that absence as a confirmed fix. Current status is governed by this Known Issues post (including the 11/23 09:10 UTC edit). This page does not claim that every listed item is resolved.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11053,13 +11053,13 @@ export const CONTENT = {
           "STOVE 공식 2026-11-20"
         ],
         [
-          "2026-11-19 — 업데이트 후 알려진 문제(11/20 09:30 UTC 편집)",
+          "2026-11-19 — 업데이트 후 알려진 문제(11/23 09:10 UTC 편집)",
           [
-            "공식 공지: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "WebFetch로 확인한 본문은 여전히 1번 항목이 “will be fixed”이며 영향을 받은 Heirs가 고객센터에 문의해 교환할 수 있다고 적고, 2번 항목(중국어 번체 4-8)은 언어를 잠시 바꾸라고 안내합니다.",
-            "11/20 패치는 이 항목들을 대상으로 합니다. 현재 상태는 해당 Known Issues 글(11/20 09:30 UTC 편집 포함)과 14641953을 기준으로 합니다. 이 페이지는 모든 항목이 해결되었다고 주장하지 않습니다.",
+            "공식 공지: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "공식 11/23 09:10 UTC 편집(한국어 공지 14640457은 11/23 18:03 수정) 기준으로, 글은 세 항목을 적고 해결되었다고 하지 않습니다. (1) 2+1 마석 핫딜 패키지 구매 시 여전히 Lv.85 마석 선택 상자가 지급되며, 공지는 수정 예정이고 교환은 고객센터를 통해 문의하라고 합니다. (2) [번체] 6시대 에피소드 4-8은 컷신 후 진행이 불가할 수 있으며, 수정 전까지 다른 언어로 잠시 바꾸라고 안내합니다. (3) [혼돈의 부름] 유나가 스킨을 착용한 상태로 [신수: 카즈란] 숙명의 스킬 발동 시 게임이 중단되는 현상. 이 3번에 대한 우회 방법이나 수정 시각은 공지에 없습니다.",
+            "11/20 패치 공지(14641953)에 있던 Ban Pick 포기 후 결산 화면 항목은 11/23 09:10 UTC 편집 이후 이 Known Issues 글에 더 이상 없습니다. 목록에서 빠졌다는 것만으로 수정 완료라고 보지 않습니다. 현재 상태는 이 Known Issues 글(11/23 09:10 UTC 편집 포함)을 기준으로 하며, 모든 항목이 해결되었다고 주장하지 않습니다.",
             "링크: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11184,13 +11184,13 @@ export const CONTENT = {
           "STOVE 公式 2026-11-20"
         ],
         [
-          "2026-11-19 — アップデート後の既知の問題（11/20 09:30 UTC 編集）",
+          "2026-11-19 — アップデート後の既知の問題（11/23 09:10 UTC 編集）",
           [
-            "公式告知：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)」。",
-            "WebFetch で見た本文は、第1項が今も「will be fixed」で、対象の Heirs はサポートに連絡して交換できると記載。第2項（繁体字 4-8）は一時的に言語を変更するよう案内しています。",
-            "11/20 パッチはこれらの項目を対象にしています。現在の状態は、この Known Issues 投稿（11/20 09:30 UTC 編集を含む）と 14641953 を基準にします。本ページは全項目が解決したとは主張しません。",
+            "公式告知：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)」。",
+            "公式の 11/23 09:10 UTC 編集時点で、投稿は3項目を挙げ、解決済みとは書いていません。(1) 2+1 Mana Stone Hot Deal Pack が今も Lv.85 Mana Stone Selection Chest を付与する件。投稿は「will be fixed」とし、交換はカスタマーサービスへ連絡するよう案内。(2) [CHT] 繁体字の 6th World Episode Chapter 4-8 はカットシーン後に進行できない場合があり、修正まで一時的に言語を切り替えるよう案内。(3) [The Call of Chaos] Yuna がスキンを装備した状態で [Guardian: Kazran] の Fate スキルが発動するとゲームが停止する。第3項の回避策や修正時刻は公式投稿にありません。",
+            "11/20 パッチ告知（14641953）にあった Ban Pick 放棄後の精算画面の項目は、11/23 09:10 UTC 編集後のこの Known Issues 投稿には載っていません。掲載が消えたこと自体を修正完了とはみなしません。現在の状態はこの Known Issues 投稿（11/23 09:10 UTC 編集を含む）を基準にし、全項目が解決したとは主張しません。",
             "リンク：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]。",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai。"
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai。"
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11246,7 +11246,7 @@ export const CONTENT = {
             "ギルド戦は11/19メンテ後にFoundryへ導入済みです。",
             "防衛チーム編成：2026-11-21 03:00 UTC（11/21 11:00 Asia/Shanghai）— 2026-11-21 21:45時点で開始済み。",
             "ギルド戦マッチング：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）— 2026-11-21 21:45時点ではまだ。",
-            "Foundryログインギフト：2026-11-07 09:00 → 2026-11-23 03:00 UTC。Foundryログインが必要。Commander's Armband ×1,000、Brave Crest ×3,000。"
+            "Foundryギルド戦ログインギフト：2026-11-07 09:00 → 2026-11-23 03:00 UTC（終了済み。今ログインしても対象外）。当時の報酬は Commander's Armband ×1,000、Brave Crest ×3,000。"
           ],
           "Steam告知 2026-11-07"
         ],
@@ -11302,13 +11302,13 @@ export const CONTENT = {
           "STOVE 官方 2026-11-20"
         ],
         [
-          "2026-11-19 — 更新後已知問題（11/20 09:30 UTC 編輯）",
+          "2026-11-19 — 更新後已知問題（11/23 09:10 UTC 編輯）",
           [
-            "官方公告：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)」。",
-            "以 WebFetch 所見，正文仍寫：第 1 項「will be fixed」，受影響繼承人可聯絡客服兌換；第 2 項繁中 4-8 請暫時更換語言。",
-            "11/20 補丁針對這些項；當前狀態以該 Known Issues 帖（含 11/20 09:30 UTC 編輯）和 14641953 為準。本頁不主張所有列出項目均已解決。",
+            "官方公告：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)」。",
+            "依官方 11/23 09:10 UTC 編輯（繁中公告 14640455 標題為 11/23 17:05 修正），文中列出三項，並未寫成已修復。（1）購買「2+1魔石優惠禮包」時仍可能發放「Lv.85魔石選擇箱」，公告寫預計修正，若要更換請洽客服中心。（2）[繁體中文] 第6時代故事 4-8 影片結束後可能無法繼續，修正前請暫時切換其他語言進行該關。（3）【混沌的呼喚】尤娜穿戴造型時，發動宿命「神獸：卡茲瀾」的技能會導致遊戲中斷。第 3 項公告未提供迴避方法或修復時刻。",
+            "11/20 補丁公告（14641953）曾列出的 Ban Pick 放棄後結算畫面項目，在 11/23 09:10 UTC 編輯後的此 Known Issues 公告中已不再列出。本頁不把「未再列出」當成已修復。當前狀態以此 Known Issues 公告（含 11/23 09:10 UTC 編輯）為準，不主張所有列出項目均已解決。",
             "連結：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]。",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai。"
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai。"
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11433,13 +11433,13 @@ export const CONTENT = {
           "STOVE ทางการ 2026-11-20"
         ],
         [
-          "2026-11-19 — ปัญหาที่ทราบหลังอัปเดต (แก้ไข 11/20 09:30 UTC)",
+          "2026-11-19 — ปัญหาที่ทราบหลังอัปเดต (แก้ไข 11/23 09:10 UTC)",
           [
-            "ประกาศทางการ: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”",
-            "จากที่เห็นผ่าน WebFetch เนื้อหายังระบุข้อ 1 ว่า “will be fixed” และผู้เล่นที่ได้รับผลกระทบติดต่อฝ่ายบริการเพื่อแลกได้; ข้อ 2 (ภาษาจีนตัวเต็ม 4-8) ยังขอให้เปลี่ยนภาษาเป็นการชั่วคราว",
-            "แพตช์ 11/20 ครอบคลุมรายการเหล่านี้ สถานะปัจจุบันยึดตามโพสต์ Known Issues นี้ (รวมการแก้ไข 11/20 09:30 UTC) และ 14641953 หน้านี้ไม่ได้อ้างว่ารายการทั้งหมดได้รับการแก้ไขแล้ว",
+            "ประกาศทางการ: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”",
+            "ณ การแก้ไขทางการ 11/23 09:10 UTC โพสต์ระบุสามรายการ และไม่ได้ทำเครื่องหมายว่าแก้ไขแล้ว: (1) 2+1 Mana Stone Hot Deal Pack ยังมอบ Lv.85 Mana Stone Selection Chest — โพสต์ยังระบุว่า “will be fixed” และให้ติดต่อฝ่ายบริการเพื่อแลก (2) [CHT] ตอน 6th World Episode Chapter 4-8 ภาษาจีนตัวเต็มยังเล่นต่อไม่ได้หลังคัตซีน — ยังขอให้สลับภาษาชั่วคราวจนกว่าจะแก้ (3) [The Call of Chaos] เกมหยุดเมื่อสกิล Fate ของ [Guardian: Kazran] ทำงานขณะที่ Yuna สวมสกิน โพสต์อย่างเป็นทางการไม่ได้เผยแพร่วิธีเลี่ยงหรือเวลาแก้ไขสำหรับข้อ 3",
+            "รายการหน้าจอสรุปผลหลังสละสิทธิ์ Ban Pick ที่ปรากฏในประกาศแพตช์ 11/20 (14641953) ไม่ได้อยู่ในโพสต์ Known Issues นี้อีกหลังการแก้ไข 11/23 09:10 UTC หน้านี้ไม่ถือว่าการหายไปคือการยืนยันว่าแก้แล้ว สถานะปัจจุบันยึดตามโพสต์ Known Issues นี้ (รวมการแก้ไข 11/23 09:10 UTC) และไม่ได้อ้างว่ารายการทั้งหมดได้รับการแก้ไขแล้ว",
             "ลิงก์: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]",
-            "ตรวจสอบล่าสุด: 2026-11-21 21:45 Asia/Shanghai"
+            "ตรวจสอบล่าสุด: 2026-11-24 10:10 Asia/Shanghai"
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11564,13 +11564,13 @@ export const CONTENT = {
           "STOVE oficial 2026-11-20"
         ],
         [
-          "2026-11-19 — Problemas conocidos tras la actualización (editado 11/20 09:30 UTC)",
+          "2026-11-19 — Problemas conocidos tras la actualización (editado 11/23 09:10 UTC)",
           [
-            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — «11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)».",
-            "Según lo visto con WebFetch, el cuerpo aún dice que el punto 1 «will be fixed» y que los Heirs afectados pueden contactar con soporte para el intercambio; el punto 2 (4-8 en chino tradicional) sigue pidiendo cambiar de idioma temporalmente.",
-            "El parche del 11/20 aborda estos puntos. El estado actual se rige por ese aviso de Known Issues (incluida la edición del 11/20 09:30 UTC) y por 14641953. Esta página no afirma que todos los puntos estén resueltos.",
+            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — «11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)».",
+            "Según la edición oficial del 11/23 09:10 UTC, el aviso enumera tres puntos y no los da por resueltos: (1) el 2+1 Mana Stone Hot Deal Pack sigue entregando un Lv.85 Mana Stone Selection Chest — el aviso sigue diciendo que «will be fixed» y que se puede contactar con soporte para el intercambio; (2) [CHT] el Episode 6 Chapter 4-8 en chino tradicional sigue sin poder continuar tras la cinemática — sigue pidiendo cambiar de idioma temporalmente hasta que se resuelva; (3) [The Call of Chaos] el juego se detiene cuando se activa una habilidad Fate de [Guardian: Kazran] mientras Yuna lleva un skin. El aviso oficial no publica un apaño ni una hora de corrección para el punto 3.",
+            "El punto de la pantalla de liquidación tras una retirada en Ban Pick, citado en el aviso del parche del 11/20 (14641953), ya no figura en este aviso de Known Issues tras la edición del 11/23 09:10 UTC. Esta página no interpreta esa ausencia como una corrección confirmada. El estado actual se rige por este aviso de Known Issues (incluida la edición del 11/23 09:10 UTC). Esta página no afirma que todos los puntos estén resueltos.",
             "Enlaces: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Última verificación: 2026-11-21 21:45 Asia/Shanghai."
+            "Última verificación: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11625,8 +11625,8 @@ export const CONTENT = {
           [
             "Guild War se introdujo en Foundry tras el mantenimiento del 11/19.",
             "Equipo de defensa: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — ya empezó en esta comprobación.",
-            "Matchmaking de Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — aún no llegó a las 2026-11-21 21:45 Asia/Shanghai.",
-            "Regalo de login de Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; requiere login en Foundry; Commander's Armband ×1,000, Brave Crest ×3,000."
+            "Matchmaking de Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — la hora oficial de inicio ya se alcanzó; esto no confirma un combate real.",
+            "Regalo de login de Guild War en Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC (ya terminó; iniciar sesión ahora no califica); recompensas históricas Commander's Armband ×1,000, Brave Crest ×3,000."
           ],
           "Aviso de Steam 2026-11-07"
         ],
@@ -11653,8 +11653,8 @@ export const CONTENT = {
         [
           "Próximos hitos",
           [
-            "Guild War en Foundry — introducida tras el mantenimiento del 11/19; equipo de defensa abierto el 2026-11-21 03:00 UTC; matchmaking el 2026-11-23 03:00 UTC (aún no).",
-            "Regalo de login de Guild War en Foundry — 11/07 09:00 → 11/23 03:00 UTC; login en Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War en Foundry — introducida tras el mantenimiento del 11/19; equipo de defensa abierto el 2026-11-21 03:00 UTC; matchmaking el 2026-11-23 03:00 UTC (hora oficial ya alcanzada, sin confirmar un combate real).",
+            "Regalo de login de Guild War en Foundry — 11/07 09:00 → 11/23 03:00 UTC (ya terminó; iniciar sesión ahora no califica); recompensas históricas Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena en Foundry — 2026-12-10 tras el mantenimiento.",
             "Regreso de la VO japonesa — confirma en el aviso oficial cuando se publique."
           ],
@@ -11682,13 +11682,13 @@ export const CONTENT = {
           "STOVE oficial 2026-11-20"
         ],
         [
-          "2026-11-19 — Problemas conhecidos após a atualização (editado em 11/20 09:30 UTC)",
+          "2026-11-19 — Problemas conhecidos após a atualização (editado em 11/23 09:10 UTC)",
           [
-            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "Conforme visto via WebFetch, o texto ainda diz que o item 1 “will be fixed” e que os Heirs afetados podem contatar o suporte para troca; o item 2 (4-8 em chinês tradicional) ainda pede para trocar de idioma temporariamente.",
-            "O patch de 11/20 trata desses itens. O status atual é regido por esse aviso de Known Issues (incluindo a edição de 11/20 09:30 UTC) e por 14641953. Esta página não afirma que todos os itens estejam resolvidos.",
+            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "Conforme a edição oficial de 11/23 09:10 UTC, o aviso lista três itens e não os dá como resolvidos: (1) o 2+1 Mana Stone Hot Deal Pack ainda entrega um Lv.85 Mana Stone Selection Chest — o aviso ainda diz que “will be fixed” e que se pode contatar o suporte para troca; (2) [CHT] o Episode 6 Chapter 4-8 em chinês tradicional ainda não pode continuar após a cinemática — ainda pede para trocar de idioma temporariamente até a correção; (3) [The Call of Chaos] o jogo para quando uma habilidade Fate de [Guardian: Kazran] é ativada enquanto Yuna está com uma skin. O aviso oficial não publica um contorno nem um horário de correção para o item 3.",
+            "O item da tela de liquidação após desistência no Ban Pick, citado no aviso do patch de 11/20 (14641953), não aparece mais neste aviso de Known Issues após a edição de 11/23 09:10 UTC. Esta página não interpreta essa ausência como correção confirmada. O status atual é regido por este aviso de Known Issues (incluindo a edição de 11/23 09:10 UTC). Esta página não afirma que todos os itens estejam resolvidos.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Última verificação: 2026-11-21 21:45 Asia/Shanghai."
+            "Última verificação: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11743,8 +11743,8 @@ export const CONTENT = {
           [
             "A Guild War foi introduzida no Foundry após a manutenção de 11/19.",
             "Equipe de defesa: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — já começou nesta verificação.",
-            "Matchmaking da Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ainda não chegou em 2026-11-21 21:45 Asia/Shanghai.",
-            "Presente de login do Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; exige login no Foundry; Commander's Armband ×1,000, Brave Crest ×3,000."
+            "Matchmaking da Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — o horário oficial de início já foi atingido; isso não confirma um combate real.",
+            "Presente de login da Guild War no Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC (já encerrado; fazer login agora não qualifica); recompensas históricas Commander's Armband ×1,000, Brave Crest ×3,000."
           ],
           "Aviso da Steam 2026-11-07"
         ],
@@ -11771,8 +11771,8 @@ export const CONTENT = {
         [
           "Próximos marcos",
           [
-            "Guild War no Foundry — introduzida após a manutenção de 11/19; equipe de defesa aberta em 2026-11-21 03:00 UTC; matchmaking em 2026-11-23 03:00 UTC (ainda não).",
-            "Presente de login da Guild War no Foundry — 11/07 09:00 → 11/23 03:00 UTC; login no Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War no Foundry — introduzida após a manutenção de 11/19; equipe de defesa aberta em 2026-11-21 03:00 UTC; matchmaking em 2026-11-23 03:00 UTC (horário oficial já atingido, sem confirmar combate real).",
+            "Presente de login da Guild War no Foundry — 11/07 09:00 → 11/23 03:00 UTC (já encerrado; fazer login agora não qualifica); recompensas históricas Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena no Foundry — 2026-12-10 após a manutenção.",
             "Retorno da VO japonesa — confirme no aviso oficial quando publicado."
           ],
@@ -11800,13 +11800,13 @@ export const CONTENT = {
           "STOVE offiziell 2026-11-20"
         ],
         [
-          "2026-11-19 — Bekannte Probleme nach dem Update (bearbeitet am 11/20 09:30 UTC)",
+          "2026-11-19 — Bekannte Probleme nach dem Update (bearbeitet am 11/23 09:10 UTC)",
           [
-            "Offizieller Hinweis: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)“.",
-            "Nach dem, was WebFetch zeigt, steht im Text weiterhin, Punkt 1 „will be fixed“ und betroffene Heirs könnten sich für einen Umtausch an den Support wenden; Punkt 2 (4-8 in traditionellem Chinesisch) bittet weiterhin, vorübergehend die Sprache zu wechseln.",
-            "Der Patch vom 11/20 betrifft diese Punkte. Der aktuelle Stand richtet sich nach diesem Known-Issues-Beitrag (einschließlich der Bearbeitung vom 11/20 09:30 UTC) und nach 14641953. Diese Seite behauptet nicht, dass alle Punkte gelöst sind.",
+            "Offizieller Hinweis: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)“.",
+            "Laut der offiziellen Bearbeitung vom 11/23 09:10 UTC listet der Beitrag drei Punkte und kennzeichnet sie nicht als behoben: (1) das 2+1 Mana Stone Hot Deal Pack gewährt weiterhin eine Lv.85 Mana Stone Selection Chest — der Beitrag sagt weiterhin „will be fixed“, Umtausch über den Kundendienst; (2) [CHT] Episode 6 Chapter 4-8 in traditionellem Chinesisch lässt sich nach der Zwischensequenz weiterhin nicht fortsetzen — es wird weiterhin gebeten, bis zur Behebung vorübergehend die Sprache zu wechseln; (3) [The Call of Chaos] das Spiel bleibt stehen, wenn ein Fate-Skill von [Guardian: Kazran] auslöst, während Yuna einen Skin trägt. Für Punkt 3 nennt der offizielle Beitrag weder einen Workaround noch einen Fix-Zeitpunkt.",
+            "Der im Patch-Hinweis vom 11/20 (14641953) genannte Punkt zur Abrechnungsanzeige nach einem Ban-Pick-Forfeit steht nach der Bearbeitung vom 11/23 09:10 UTC nicht mehr in diesem Known-Issues-Beitrag. Diese Seite wertet das Fehlen nicht als bestätigten Fix. Der aktuelle Stand richtet sich nach diesem Known-Issues-Beitrag (einschließlich der Bearbeitung vom 11/23 09:10 UTC). Diese Seite behauptet nicht, dass alle Punkte gelöst sind.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Zuletzt geprüft: 2026-11-21 21:45 Asia/Shanghai."
+            "Zuletzt geprüft: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11861,8 +11861,8 @@ export const CONTENT = {
           [
             "Guild War wurde nach der Wartung am 11/19 auf Foundry eingeführt.",
             "Verteidigungsteam: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — zum Prüfzeitpunkt bereits gestartet.",
-            "Guild-War-Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — am 2026-11-21 21:45 Asia/Shanghai noch nicht erreicht.",
-            "Foundry-Login-Geschenk: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; Foundry-Login erforderlich; Commander's Armband ×1,000, Brave Crest ×3,000."
+            "Guild-War-Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — die offizielle Startzeit wurde erreicht; das bestätigt kein tatsächliches Gefecht.",
+            "Foundry-Guild-War-Login-Geschenk: 2026-11-07 09:00 → 2026-11-23 03:00 UTC (bereits beendet; ein Login jetzt berechtigt nicht); damalige Belohnungen Commander's Armband ×1,000, Brave Crest ×3,000."
           ],
           "Steam-Hinweis 2026-11-07"
         ],
@@ -11889,8 +11889,8 @@ export const CONTENT = {
         [
           "Nächste Meilensteine",
           [
-            "Guild War auf Foundry — nach der Wartung am 11/19 eingeführt; Verteidigungsteam am 2026-11-21 03:00 UTC geöffnet; Matchmaking am 2026-11-23 03:00 UTC (noch nicht).",
-            "Foundry-Guild-War-Login-Geschenk — 11/07 09:00 → 11/23 03:00 UTC; Foundry-Login; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War auf Foundry — nach der Wartung am 11/19 eingeführt; Verteidigungsteam am 2026-11-21 03:00 UTC geöffnet; Matchmaking am 2026-11-23 03:00 UTC (offizielle Startzeit erreicht, kein bestätigtes Gefecht).",
+            "Foundry-Guild-War-Login-Geschenk — 11/07 09:00 → 11/23 03:00 UTC (bereits beendet; ein Login jetzt berechtigt nicht); damalige Belohnungen Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Foundry World Arena — 2026-12-10 nach der Wartung.",
             "Rückkehr der japanischen VO — im offiziellen Hinweis bestätigen, sobald verfügbar."
           ],
@@ -11918,13 +11918,13 @@ export const CONTENT = {
           "STOVE officiel 2026-11-20"
         ],
         [
-          "2026-11-19 — Problèmes connus après la mise à jour (modifié le 11/20 09:30 UTC)",
+          "2026-11-19 — Problèmes connus après la mise à jour (modifié le 11/23 09:10 UTC)",
           [
-            "Avis officiel : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — « 11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC) ».",
-            "D’après ce que montre WebFetch, le texte indique encore que le point 1 « will be fixed » et que les Héritiers concernés peuvent contacter le support pour un échange ; le point 2 (4-8 en chinois traditionnel) demande toujours de changer temporairement de langue.",
-            "Le correctif du 11/20 cible ces points. L’état actuel dépend de ce message Known Issues (y compris la modification du 11/20 09:30 UTC) et de 14641953. Cette page n’affirme pas que tous les points sont résolus.",
+            "Avis officiel : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — « 11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC) ».",
+            "Selon la modification officielle du 11/23 09:10 UTC, l’avis liste trois points et ne les marque pas comme résolus : (1) le 2+1 Mana Stone Hot Deal Pack attribue toujours un Lv.85 Mana Stone Selection Chest — l’avis dit encore « will be fixed » et d’écrire au support pour un échange ; (2) [CHT] l’Episode 6 Chapter 4-8 en chinois traditionnel ne peut toujours pas continuer après la cinématique — il est encore demandé de changer temporairement de langue jusqu’à la correction ; (3) [The Call of Chaos] le jeu s’arrête lorsqu’une compétence Fate de [Guardian: Kazran] s’active alors que Yuna porte un skin. L’avis officiel ne publie ni contournement ni horaire de correction pour le point 3.",
+            "Le point de l’écran de règlement après un abandon en Ban Pick, cité dans l’avis de correctif du 11/20 (14641953), n’apparaît plus dans ce message Known Issues après la modification du 11/23 09:10 UTC. Cette page ne traite pas cette absence comme une correction confirmée. L’état actuel dépend de ce message Known Issues (y compris la modification du 11/23 09:10 UTC). Cette page n’affirme pas que tous les points sont résolus.",
             "Liens : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Dernière vérification : 2026-11-21 21:45 Asia/Shanghai."
+            "Dernière vérification : 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -11979,8 +11979,8 @@ export const CONTENT = {
           [
             "La Guild War a été introduite sur Foundry après la maintenance du 11/19.",
             "Équipe de défense : 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — déjà commencée à ce contrôle.",
-            "Matchmaking Guild War : 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — pas encore atteint au 2026-11-21 21:45 Asia/Shanghai.",
-            "Cadeau de connexion Foundry : 2026-11-07 09:00 → 2026-11-23 03:00 UTC ; connexion Foundry requise ; Commander’s Armband ×1 000, Brave Crest ×3 000."
+            "Matchmaking Guild War : 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — l’horaire officiel de début a été atteint (sans confirmer un combat réel).",
+            "Cadeau de connexion Guild War Foundry : 2026-11-07 09:00 → 2026-11-23 03:00 UTC (terminé ; une connexion maintenant ne qualifie plus) ; récompenses historiques Commander’s Armband ×1 000, Brave Crest ×3 000."
           ],
           "Avis Steam 2026-11-07"
         ],
@@ -12007,8 +12007,8 @@ export const CONTENT = {
         [
           "Prochains jalons",
           [
-            "Guild War sur Foundry — introduite après la maintenance du 11/19 ; équipe de défense ouverte le 2026-11-21 03:00 UTC ; matchmaking le 2026-11-23 03:00 UTC (pas encore).",
-            "Cadeau de connexion Guild War Foundry — 11/07 09:00 → 11/23 03:00 UTC ; connexion Foundry ; Commander’s Armband ×1 000, Brave Crest ×3 000.",
+            "Guild War sur Foundry — introduite après la maintenance du 11/19 ; équipe de défense ouverte le 2026-11-21 03:00 UTC ; matchmaking le 2026-11-23 03:00 UTC (horaire officiel atteint, sans confirmer un combat réel).",
+            "Cadeau de connexion Guild War Foundry — 11/07 09:00 → 11/23 03:00 UTC (terminé ; une connexion maintenant ne qualifie plus) ; récompenses historiques Commander’s Armband ×1 000, Brave Crest ×3 000.",
             "World Arena Foundry — 2026-12-10 après maintenance.",
             "Retour de la VO japonaise — à confirmer sur l’avis officiel dès sa publication."
           ],
@@ -12036,13 +12036,13 @@ export const CONTENT = {
           "STOVE oficjalne 2026-11-20"
         ],
         [
-          "2026-11-19 — Znane problemy po aktualizacji (edytowano 11/20 09:30 UTC)",
+          "2026-11-19 — Znane problemy po aktualizacji (edytowano 11/23 09:10 UTC)",
           [
-            "Oficjalne ogłoszenie: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "Jak widać przez WebFetch, treść nadal mówi, że punkt 1 „will be fixed”, a dotknięci Heirs mogą skontaktować się z obsługą w sprawie wymiany; punkt 2 (4-8 w tradycyjnym chińskim) nadal prosi o tymczasową zmianę języka.",
-            "Patch z 11/20 dotyczy tych punktów. Obecny stan wyznaczają ten wpis Known Issues (w tym edycja z 11/20 09:30 UTC) oraz 14641953. Ta strona nie twierdzi, że wszystkie punkty zostały rozwiązane.",
+            "Oficjalne ogłoszenie: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "Według oficjalnej edycji z 11/23 09:10 UTC wpis wymienia trzy punkty i nie oznacza ich jako naprawione: (1) 2+1 Mana Stone Hot Deal Pack nadal przyznaje Lv.85 Mana Stone Selection Chest — wpis nadal pisze „will be fixed”, a wymianę załatwia się przez Biuro Obsługi; (2) [CHT] Episode 6 Chapter 4-8 w tradycyjnym chińskim nadal nie pozwala kontynuować po przerywniku — nadal prosi o tymczasową zmianę języka do czasu naprawy; (3) [The Call of Chaos] gra się zatrzymuje, gdy umiejętność Fate [Guardian: Kazran] aktywuje się, gdy Yuna ma założony skin. Oficjalny wpis nie podaje obejścia ani godziny naprawy dla punktu 3.",
+            "Punkt ekranu rozliczenia po rezygnacji w Ban Pick, wymieniony w ogłoszeniu patcha z 11/20 (14641953), nie występuje już w tym wpisie Known Issues po edycji z 11/23 09:10 UTC. Ta strona nie traktuje tego braku jako potwierdzonej naprawy. Obecny stan wyznacza ten wpis Known Issues (w tym edycja z 11/23 09:10 UTC). Ta strona nie twierdzi, że wszystkie punkty zostały rozwiązane.",
             "Linki: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Ostatnia weryfikacja: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ],
           "STOVE 14640458 · 14641953"
         ],
@@ -12097,8 +12097,8 @@ export const CONTENT = {
           [
             "Guild War wprowadzono na Foundry po konserwacji 11/19.",
             "Drużyna obrony: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — już rozpoczęta w tym sprawdzeniu.",
-            "Matchmaking Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — jeszcze nie nadszedł o 2026-11-21 21:45 Asia/Shanghai.",
-            "Prezent za logowanie na Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; wymagane logowanie na Foundry; Commander's Armband ×1,000, Brave Crest ×3,000."
+            "Matchmaking Guild War: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — oficjalna godzina startu została osiągnięta (bez potwierdzenia rzeczywistego pojedynku).",
+            "Prezent za logowanie Guild War na Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC (już zakończony; logowanie teraz nie kwalifikuje); historyczne nagrody Commander's Armband ×1,000, Brave Crest ×3,000."
           ],
           "Wpis Steam 2026-11-07"
         ],
@@ -12125,8 +12125,8 @@ export const CONTENT = {
         [
           "Następne kamienie milowe",
           [
-            "Guild War na Foundry — wprowadzona po konserwacji 11/19; drużyna obrony otwarta 2026-11-21 03:00 UTC; matchmaking 2026-11-23 03:00 UTC (jeszcze nie).",
-            "Prezent za logowanie Guild War na Foundry — 11/07 09:00 → 11/23 03:00 UTC; logowanie na Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War na Foundry — wprowadzona po konserwacji 11/19; drużyna obrony otwarta 2026-11-21 03:00 UTC; matchmaking 2026-11-23 03:00 UTC (oficjalna godzina startu osiągnięta, bez potwierdzenia rzeczywistego pojedynku).",
+            "Prezent za logowanie Guild War na Foundry — 11/07 09:00 → 11/23 03:00 UTC (już zakończony; logowanie teraz nie kwalifikuje); historyczne nagrody Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena na Foundry — 2026-12-10 po konserwacji.",
             "Powrót japońskiego VO — potwierdź w oficjalnym wpisie, gdy się pojawi."
           ],
@@ -12155,13 +12155,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Known Issues following the update (edited 11/20 09:30 UTC)",
+          "2026-11-19 — Known Issues following the update (edited 11/23 09:10 UTC)",
           [
-            "Official notice: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "As seen through WebFetch, the body still says item 1 “will be fixed” and that affected Heirs can contact support for an exchange; item 2 (Traditional Chinese 4-8) still asks players to change language temporarily.",
-            "The 11/20 patch targets these items. Current status is governed by that Known Issues post (including the 11/20 09:30 UTC edit) and by 14641953. This page does not claim that every listed item is resolved.",
+            "Official notice: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "As of the official 11/23 09:10 UTC edit, the post lists three items and does not mark them resolved: (1) the 2+1 Mana Stone Hot Deal Pack still grants a Lv.85 Mana Stone Selection Chest — the post still says this “will be fixed”, and affected Heirs can contact Customer Service for an exchange; (2) [CHT] Traditional Chinese 6th World Episode Chapter 4-8 still cannot continue after the cutscene — the post still asks players to switch language temporarily until it is resolved; (3) [The Call of Chaos] the game stops when a [Guardian: Kazran] Fate skill activates while Yuna has a skin equipped. The official post does not publish a workaround or a fix time for item 3.",
+            "The Ban Pick forfeit settlement-screen item named in the 11/20 patch notice (14641953) is no longer listed in this Known Issues post after the 11/23 09:10 UTC edit. This page does not treat that absence as a confirmed fix. Current status is governed by this Known Issues post (including the 11/23 09:10 UTC edit). This page does not claim that every listed item is resolved.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -12261,13 +12261,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — 업데이트 후 알려진 문제(11/20 09:30 UTC 편집)",
+          "2026-11-19 — 업데이트 후 알려진 문제(11/23 09:10 UTC 편집)",
           [
-            "공식 공지: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "WebFetch로 확인한 본문은 여전히 1번 항목이 “will be fixed”이며 영향을 받은 Heirs가 고객센터에 문의해 교환할 수 있다고 적고, 2번 항목(중국어 번체 4-8)은 언어를 잠시 바꾸라고 안내합니다.",
-            "11/20 패치는 이 항목들을 대상으로 합니다. 현재 상태는 해당 Known Issues 글(11/20 09:30 UTC 편집 포함)과 14641953을 기준으로 합니다. 이 페이지는 모든 항목이 해결되었다고 주장하지 않습니다.",
+            "공식 공지: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "공식 11/23 09:10 UTC 편집(한국어 공지 14640457은 11/23 18:03 수정) 기준으로, 글은 세 항목을 적고 해결되었다고 하지 않습니다. (1) 2+1 마석 핫딜 패키지 구매 시 여전히 Lv.85 마석 선택 상자가 지급되며, 공지는 수정 예정이고 교환은 고객센터를 통해 문의하라고 합니다. (2) [번체] 6시대 에피소드 4-8은 컷신 후 진행이 불가할 수 있으며, 수정 전까지 다른 언어로 잠시 바꾸라고 안내합니다. (3) [혼돈의 부름] 유나가 스킨을 착용한 상태로 [신수: 카즈란] 숙명의 스킬 발동 시 게임이 중단되는 현상. 이 3번에 대한 우회 방법이나 수정 시각은 공지에 없습니다.",
+            "11/20 패치 공지(14641953)에 있던 Ban Pick 포기 후 결산 화면 항목은 11/23 09:10 UTC 편집 이후 이 Known Issues 글에 더 이상 없습니다. 목록에서 빠졌다는 것만으로 수정 완료라고 보지 않습니다. 현재 상태는 이 Known Issues 글(11/23 09:10 UTC 편집 포함)을 기준으로 하며, 모든 항목이 해결되었다고 주장하지 않습니다.",
             "링크: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -12366,13 +12366,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — アップデート後の既知の問題（11/20 09:30 UTC 編集）",
+          "2026-11-19 — アップデート後の既知の問題（11/23 09:10 UTC 編集）",
           [
-            "公式告知：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)」。",
-            "WebFetch で見た本文は、第1項が今も「will be fixed」で、対象の Heirs はサポートに連絡して交換できると記載。第2項（繁体字 4-8）は一時的に言語を変更するよう案内しています。",
-            "11/20 パッチはこれらの項目を対象にしています。現在の状態は、この Known Issues 投稿（11/20 09:30 UTC 編集を含む）と 14641953 を基準にします。本ページは全項目が解決したとは主張しません。",
+            "公式告知：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)」。",
+            "公式の 11/23 09:10 UTC 編集時点で、投稿は3項目を挙げ、解決済みとは書いていません。(1) 2+1 Mana Stone Hot Deal Pack が今も Lv.85 Mana Stone Selection Chest を付与する件。投稿は「will be fixed」とし、交換はカスタマーサービスへ連絡するよう案内。(2) [CHT] 繁体字の 6th World Episode Chapter 4-8 はカットシーン後に進行できない場合があり、修正まで一時的に言語を切り替えるよう案内。(3) [The Call of Chaos] Yuna がスキンを装備した状態で [Guardian: Kazran] の Fate スキルが発動するとゲームが停止する。第3項の回避策や修正時刻は公式投稿にありません。",
+            "11/20 パッチ告知（14641953）にあった Ban Pick 放棄後の精算画面の項目は、11/23 09:10 UTC 編集後のこの Known Issues 投稿には載っていません。掲載が消えたこと自体を修正完了とはみなしません。現在の状態はこの Known Issues 投稿（11/23 09:10 UTC 編集を含む）を基準にし、全項目が解決したとは主張しません。",
             "リンク：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]。",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai。"
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai。"
           ]
         ],
         [
@@ -12391,7 +12391,7 @@ export const CONTENT = {
             "ギルド戦は11/19メンテ後にFoundryへ導入済み。",
             "防衛チーム：2026-11-21 03:00 UTC（11/21 11:00 Asia/Shanghai）— 開始済み。",
             "マッチング：2026-11-23 03:00 UTC（11/23 11:00 Asia/Shanghai）— まだ。",
-            "Foundryログインギフト：2026-11-07 09:00 → 2026-11-23 03:00 UTC。Foundryログインのみ。Commander's Armband ×1,000、Brave Crest ×3,000。",
+            "Foundryギルド戦ログインギフト：2026-11-07 09:00 → 2026-11-23 03:00 UTC（終了済み。今ログインしても対象外）。当時の報酬は Commander's Armband ×1,000、Brave Crest ×3,000。",
             "出典：[[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
         ],
@@ -12467,13 +12467,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — 更新後已知問題（11/20 09:30 UTC 編輯）",
+          "2026-11-19 — 更新後已知問題（11/23 09:10 UTC 編輯）",
           [
-            "官方公告：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)」。",
-            "以 WebFetch 所見，正文仍寫：第 1 項「will be fixed」，受影響繼承人可聯絡客服兌換；第 2 項繁中 4-8 請暫時更換語言。",
-            "11/20 補丁針對這些項；當前狀態以該 Known Issues 帖（含 11/20 09:30 UTC 編輯）和 14641953 為準。本頁不主張所有列出項目均已解決。",
+            "官方公告：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] —「11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)」。",
+            "依官方 11/23 09:10 UTC 編輯（繁中公告 14640455 標題為 11/23 17:05 修正），文中列出三項，並未寫成已修復。（1）購買「2+1魔石優惠禮包」時仍可能發放「Lv.85魔石選擇箱」，公告寫預計修正，若要更換請洽客服中心。（2）[繁體中文] 第6時代故事 4-8 影片結束後可能無法繼續，修正前請暫時切換其他語言進行該關。（3）【混沌的呼喚】尤娜穿戴造型時，發動宿命「神獸：卡茲瀾」的技能會導致遊戲中斷。第 3 項公告未提供迴避方法或修復時刻。",
+            "11/20 補丁公告（14641953）曾列出的 Ban Pick 放棄後結算畫面項目，在 11/23 09:10 UTC 編輯後的此 Known Issues 公告中已不再列出。本頁不把「未再列出」當成已修復。當前狀態以此 Known Issues 公告（含 11/23 09:10 UTC 編輯）為準，不主張所有列出項目均已解決。",
             "連結：[[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]。",
-            "Last verified: 2026-11-21 21:45 Asia/Shanghai。"
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai。"
           ]
         ],
         [
@@ -12572,13 +12572,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — ปัญหาที่ทราบหลังอัปเดต (แก้ไข 11/20 09:30 UTC)",
+          "2026-11-19 — ปัญหาที่ทราบหลังอัปเดต (แก้ไข 11/23 09:10 UTC)",
           [
-            "ประกาศทางการ: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”",
-            "จากที่เห็นผ่าน WebFetch เนื้อหายังระบุข้อ 1 ว่า “will be fixed” และผู้เล่นที่ได้รับผลกระทบติดต่อฝ่ายบริการเพื่อแลกได้; ข้อ 2 (ภาษาจีนตัวเต็ม 4-8) ยังขอให้เปลี่ยนภาษาเป็นการชั่วคราว",
-            "แพตช์ 11/20 ครอบคลุมรายการเหล่านี้ สถานะปัจจุบันยึดตามโพสต์ Known Issues นี้ (รวมการแก้ไข 11/20 09:30 UTC) และ 14641953 หน้านี้ไม่ได้อ้างว่ารายการทั้งหมดได้รับการแก้ไขแล้ว",
+            "ประกาศทางการ: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”",
+            "ณ การแก้ไขทางการ 11/23 09:10 UTC โพสต์ระบุสามรายการ และไม่ได้ทำเครื่องหมายว่าแก้ไขแล้ว: (1) 2+1 Mana Stone Hot Deal Pack ยังมอบ Lv.85 Mana Stone Selection Chest — โพสต์ยังระบุว่า “will be fixed” และให้ติดต่อฝ่ายบริการเพื่อแลก (2) [CHT] ตอน 6th World Episode Chapter 4-8 ภาษาจีนตัวเต็มยังเล่นต่อไม่ได้หลังคัตซีน — ยังขอให้สลับภาษาชั่วคราวจนกว่าจะแก้ (3) [The Call of Chaos] เกมหยุดเมื่อสกิล Fate ของ [Guardian: Kazran] ทำงานขณะที่ Yuna สวมสกิน โพสต์อย่างเป็นทางการไม่ได้เผยแพร่วิธีเลี่ยงหรือเวลาแก้ไขสำหรับข้อ 3",
+            "รายการหน้าจอสรุปผลหลังสละสิทธิ์ Ban Pick ที่ปรากฏในประกาศแพตช์ 11/20 (14641953) ไม่ได้อยู่ในโพสต์ Known Issues นี้อีกหลังการแก้ไข 11/23 09:10 UTC หน้านี้ไม่ถือว่าการหายไปคือการยืนยันว่าแก้แล้ว สถานะปัจจุบันยึดตามโพสต์ Known Issues นี้ (รวมการแก้ไข 11/23 09:10 UTC) และไม่ได้อ้างว่ารายการทั้งหมดได้รับการแก้ไขแล้ว",
             "ลิงก์: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]]",
-            "ตรวจสอบล่าสุด: 2026-11-21 21:45 Asia/Shanghai"
+            "ตรวจสอบล่าสุด: 2026-11-24 10:10 Asia/Shanghai"
           ]
         ],
         [
@@ -12677,13 +12677,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Problemas conocidos tras la actualización (editado 11/20 09:30 UTC)",
+          "2026-11-19 — Problemas conocidos tras la actualización (editado 11/23 09:10 UTC)",
           [
-            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — «11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)».",
-            "Según lo visto con WebFetch, el cuerpo aún dice que el punto 1 «will be fixed» y que los Heirs afectados pueden contactar con soporte para el intercambio; el punto 2 (4-8 en chino tradicional) sigue pidiendo cambiar de idioma temporalmente.",
-            "El parche del 11/20 aborda estos puntos. El estado actual se rige por ese aviso de Known Issues (incluida la edición del 11/20 09:30 UTC) y por 14641953. Esta página no afirma que todos los puntos estén resueltos.",
+            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — «11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)».",
+            "Según la edición oficial del 11/23 09:10 UTC, el aviso enumera tres puntos y no los da por resueltos: (1) el 2+1 Mana Stone Hot Deal Pack sigue entregando un Lv.85 Mana Stone Selection Chest — el aviso sigue diciendo que «will be fixed» y que se puede contactar con soporte para el intercambio; (2) [CHT] el Episode 6 Chapter 4-8 en chino tradicional sigue sin poder continuar tras la cinemática — sigue pidiendo cambiar de idioma temporalmente hasta que se resuelva; (3) [The Call of Chaos] el juego se detiene cuando se activa una habilidad Fate de [Guardian: Kazran] mientras Yuna lleva un skin. El aviso oficial no publica un apaño ni una hora de corrección para el punto 3.",
+            "El punto de la pantalla de liquidación tras una retirada en Ban Pick, citado en el aviso del parche del 11/20 (14641953), ya no figura en este aviso de Known Issues tras la edición del 11/23 09:10 UTC. Esta página no interpreta esa ausencia como una corrección confirmada. El estado actual se rige por este aviso de Known Issues (incluida la edición del 11/23 09:10 UTC). Esta página no afirma que todos los puntos estén resueltos.",
             "Enlaces: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Última verificación: 2026-11-21 21:45 Asia/Shanghai."
+            "Última verificación: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -12701,7 +12701,7 @@ export const CONTENT = {
           [
             "Guild War se introdujo en Foundry tras el mantenimiento del 11/19.",
             "Equipo de defensa: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — ya empezó.",
-            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — aún no llegó.",
+            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — la hora oficial de inicio ya se alcanzó (sin confirmar un combate real).",
             "Regalo de login de Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; solo login en Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Fuente: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
@@ -12745,7 +12745,7 @@ export const CONTENT = {
         [
           "Lista de seguimiento",
           [
-            "Guild War — introducida tras el mantenimiento del 11/19; equipo de defensa 2026-11-21 03:00 UTC ya empezado; matchmaking 2026-11-23 03:00 UTC aún no.",
+            "Guild War — introducida tras el mantenimiento del 11/19; equipo de defensa 2026-11-21 03:00 UTC ya empezado; matchmaking 2026-11-23 03:00 UTC: hora oficial ya alcanzada (sin confirmar un combate real).",
             "Regalo de login de Foundry Guild War — 11/07 09:00 → 11/23 03:00 UTC; login en Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena de Foundry — 2026-12-10 tras el mantenimiento.",
             "Restauración del doblaje japonés: confírmala en el aviso oficial cuando se publique.",
@@ -12762,7 +12762,7 @@ export const CONTENT = {
         "Señala los retrasos de calendario exclusivos de Foundry por separado de los servidores anteriores."
       ],
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. La ventana más reciente, el mantenimiento del 11/19 (jue), está completada: se publicó para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado. El aviso apunta al Version 8.7 2nd Update Content: la recogida de 2 Leif terminó el 11/21 10:30 UTC; el rate-up de Cecilia va del 11/26 03:00 al 12/17 02:59 UTC; Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. Guild War en Foundry se introdujo tras ese mantenimiento, con equipo de defensa el 11/21 03:00 UTC ya empezado y matchmaking el 11/23 03:00 UTC aún no. El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC; las zanahorias siguen hasta el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. La ventana más reciente, el mantenimiento del 11/19 (jue), está completada: se publicó para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado. El aviso apunta al Version 8.7 2nd Update Content: la recogida de 2 Leif terminó el 11/21 10:30 UTC; el rate-up de Cecilia va del 11/26 03:00 al 12/17 02:59 UTC; Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. Guild War en Foundry se introdujo tras ese mantenimiento, con equipo de defensa el 11/21 03:00 UTC ya empezado y el matchmaking del 11/23 03:00 UTC ya alcanzó su hora oficial (sin confirmar un combate real). El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC; las zanahorias siguen hasta el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
     },
     "pt": {
       "title": "Manutenção e notas de versão",
@@ -12780,13 +12780,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Problemas conhecidos após a atualização (editado em 11/20 09:30 UTC)",
+          "2026-11-19 — Problemas conhecidos após a atualização (editado em 11/23 09:10 UTC)",
           [
-            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "Conforme visto via WebFetch, o texto ainda diz que o item 1 “will be fixed” e que os Heirs afetados podem contatar o suporte para troca; o item 2 (4-8 em chinês tradicional) ainda pede para trocar de idioma temporariamente.",
-            "O patch de 11/20 trata desses itens. O status atual é regido por esse aviso de Known Issues (incluindo a edição de 11/20 09:30 UTC) e por 14641953. Esta página não afirma que todos os itens estejam resolvidos.",
+            "Aviso oficial: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — “11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "Conforme a edição oficial de 11/23 09:10 UTC, o aviso lista três itens e não os dá como resolvidos: (1) o 2+1 Mana Stone Hot Deal Pack ainda entrega um Lv.85 Mana Stone Selection Chest — o aviso ainda diz que “will be fixed” e que se pode contatar o suporte para troca; (2) [CHT] o Episode 6 Chapter 4-8 em chinês tradicional ainda não pode continuar após a cinemática — ainda pede para trocar de idioma temporariamente até a correção; (3) [The Call of Chaos] o jogo para quando uma habilidade Fate de [Guardian: Kazran] é ativada enquanto Yuna está com uma skin. O aviso oficial não publica um contorno nem um horário de correção para o item 3.",
+            "O item da tela de liquidação após desistência no Ban Pick, citado no aviso do patch de 11/20 (14641953), não aparece mais neste aviso de Known Issues após a edição de 11/23 09:10 UTC. Esta página não interpreta essa ausência como correção confirmada. O status atual é regido por este aviso de Known Issues (incluindo a edição de 11/23 09:10 UTC). Esta página não afirma que todos os itens estejam resolvidos.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Última verificação: 2026-11-21 21:45 Asia/Shanghai."
+            "Última verificação: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -12804,7 +12804,7 @@ export const CONTENT = {
           [
             "A Guild War foi introduzida no Foundry após a manutenção de 11/19.",
             "Equipe de defesa: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — já começou.",
-            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — ainda não chegou.",
+            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — o horário oficial de início já foi atingido (sem confirmar um combate real).",
             "Presente de login do Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; apenas login no Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Fonte: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
@@ -12848,7 +12848,7 @@ export const CONTENT = {
         [
           "Lista de acompanhamento",
           [
-            "Guild War — introduzida após a manutenção de 11/19; equipe de defesa 2026-11-21 03:00 UTC já começou; matchmaking 2026-11-23 03:00 UTC ainda não.",
+            "Guild War — introduzida após a manutenção de 11/19; equipe de defesa 2026-11-21 03:00 UTC já começou; matchmaking 2026-11-23 03:00 UTC: horário oficial já atingido (sem confirmar um combate real).",
             "Presente de login da Guild War do Foundry — 11/07 09:00 → 11/23 03:00 UTC; login no Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena do Foundry — 2026-12-10 após a manutenção.",
             "Restauração da VO japonesa — confirme no aviso oficial quando publicado.",
@@ -12865,7 +12865,7 @@ export const CONTENT = {
         "Destaque atrasos de calendário exclusivos do Foundry separadamente dos servidores legados."
       ],
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. A janela mais recente, a manutenção de 11/19 (qui), está concluída: foi publicada para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado. O aviso aponta para o Version 8.7 2nd Update Content: a coleta de 2 Leif terminou em 11/21 10:30 UTC; o rate-up de Cecilia vai de 11/26 03:00 a 12/17 02:59 UTC; Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. A Guild War no Foundry foi introduzida após essa manutenção, com equipe de defesa em 11/21 03:00 UTC já começada e matchmaking em 11/23 03:00 UTC ainda não. O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC; as cenouras seguem até 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. A janela mais recente, a manutenção de 11/19 (qui), está concluída: foi publicada para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado. O aviso aponta para o Version 8.7 2nd Update Content: a coleta de 2 Leif terminou em 11/21 10:30 UTC; o rate-up de Cecilia vai de 11/26 03:00 a 12/17 02:59 UTC; Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. A Guild War no Foundry foi introduzida após essa manutenção, com equipe de defesa em 11/21 03:00 UTC já começada e o matchmaking em 11/23 03:00 UTC já alcançou o horário oficial (sem confirmar um combate real). O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC; as cenouras seguem até 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
     },
     "de": {
       "title": "Wartung & Versionshinweise",
@@ -12883,13 +12883,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Bekannte Probleme nach dem Update (bearbeitet am 11/20 09:30 UTC)",
+          "2026-11-19 — Bekannte Probleme nach dem Update (bearbeitet am 11/23 09:10 UTC)",
           [
-            "Offizieller Hinweis: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)“.",
-            "Nach dem, was WebFetch zeigt, steht im Text weiterhin, Punkt 1 „will be fixed“ und betroffene Heirs könnten sich für einen Umtausch an den Support wenden; Punkt 2 (4-8 in traditionellem Chinesisch) bittet weiterhin, vorübergehend die Sprache zu wechseln.",
-            "Der Patch vom 11/20 betrifft diese Punkte. Der aktuelle Stand richtet sich nach diesem Known-Issues-Beitrag (einschließlich der Bearbeitung vom 11/20 09:30 UTC) und nach 14641953. Diese Seite behauptet nicht, dass alle Punkte gelöst sind.",
+            "Offizieller Hinweis: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)“.",
+            "Laut der offiziellen Bearbeitung vom 11/23 09:10 UTC listet der Beitrag drei Punkte und kennzeichnet sie nicht als behoben: (1) das 2+1 Mana Stone Hot Deal Pack gewährt weiterhin eine Lv.85 Mana Stone Selection Chest — der Beitrag sagt weiterhin „will be fixed“, Umtausch über den Kundendienst; (2) [CHT] Episode 6 Chapter 4-8 in traditionellem Chinesisch lässt sich nach der Zwischensequenz weiterhin nicht fortsetzen — es wird weiterhin gebeten, bis zur Behebung vorübergehend die Sprache zu wechseln; (3) [The Call of Chaos] das Spiel bleibt stehen, wenn ein Fate-Skill von [Guardian: Kazran] auslöst, während Yuna einen Skin trägt. Für Punkt 3 nennt der offizielle Beitrag weder einen Workaround noch einen Fix-Zeitpunkt.",
+            "Der im Patch-Hinweis vom 11/20 (14641953) genannte Punkt zur Abrechnungsanzeige nach einem Ban-Pick-Forfeit steht nach der Bearbeitung vom 11/23 09:10 UTC nicht mehr in diesem Known-Issues-Beitrag. Diese Seite wertet das Fehlen nicht als bestätigten Fix. Der aktuelle Stand richtet sich nach diesem Known-Issues-Beitrag (einschließlich der Bearbeitung vom 11/23 09:10 UTC). Diese Seite behauptet nicht, dass alle Punkte gelöst sind.",
             "Links: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Zuletzt geprüft: 2026-11-21 21:45 Asia/Shanghai."
+            "Zuletzt geprüft: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -12907,7 +12907,7 @@ export const CONTENT = {
           [
             "Guild War wurde nach der Wartung am 11/19 auf Foundry eingeführt.",
             "Verteidigungsteam: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — bereits gestartet.",
-            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — noch nicht erreicht.",
+            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — die offizielle Startzeit wurde erreicht (kein bestätigtes Gefecht).",
             "Foundry-Login-Geschenk: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; nur Foundry-Login; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Quelle: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
@@ -12951,8 +12951,8 @@ export const CONTENT = {
         [
           "Beobachtungsliste",
           [
-            "Guild War — nach der Wartung am 11/19 eingeführt; Verteidigungsteam 2026-11-21 03:00 UTC bereits gestartet; Matchmaking 2026-11-23 03:00 UTC noch nicht.",
-            "Foundry-Guild-War-Login-Geschenk — 11/07 09:00 → 11/23 03:00 UTC; Foundry-Login; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War — nach der Wartung am 11/19 eingeführt; Verteidigungsteam 2026-11-21 03:00 UTC bereits gestartet; Matchmaking 2026-11-23 03:00 UTC: offizielle Startzeit erreicht (kein bestätigtes Gefecht).",
+            "Foundry-Guild-War-Login-Geschenk — 11/07 09:00 → 11/23 03:00 UTC (bereits beendet; ein Login jetzt berechtigt nicht); damalige Belohnungen Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Foundry World Arena — 2026-12-10 nach der Wartung.",
             "Wiederherstellung der japanischen VO — im offiziellen Hinweis bestätigen, sobald verfügbar.",
             "Die Emergency-Mission-Woche rotiert bis Ende November — siehe Foundry-Kalender.",
@@ -12968,7 +12968,7 @@ export const CONTENT = {
         "Nenne Terminverschiebungen, die nur Foundry betreffen, getrennt von den Legacy-Servern."
       ],
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Das jüngste Fenster, die Wartung am 11/19 (Do), ist abgeschlossen: angekündigt für 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), vorzeitig beendet um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai) und ist Vergangenheit. Der Hinweis verweist auf Version 8.7 2nd Update Content: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Cecilia-Rate-up läuft 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Guild War auf Foundry wurde nach dieser Wartung eingeführt; Verteidigungsteam am 11/21 03:00 UTC gestartet, Matchmaking am 11/23 03:00 UTC noch nicht. Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC; Carrots laufen bis 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Das jüngste Fenster, die Wartung am 11/19 (Do), ist abgeschlossen: angekündigt für 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), vorzeitig beendet um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai) und ist Vergangenheit. Der Hinweis verweist auf Version 8.7 2nd Update Content: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Cecilia-Rate-up läuft 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Guild War auf Foundry wurde nach dieser Wartung eingeführt; Verteidigungsteam am 11/21 03:00 UTC gestartet, Matchmaking am 11/23 03:00 UTC hat die offizielle Startzeit erreicht (kein bestätigtes Gefecht). Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC; Carrots laufen bis 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
     },
     "fr": {
       "title": "Maintenance et notes de version",
@@ -12986,13 +12986,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Problèmes connus après la mise à jour (modifié le 11/20 09:30 UTC)",
+          "2026-11-19 — Problèmes connus après la mise à jour (modifié le 11/23 09:10 UTC)",
           [
-            "Avis officiel : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — « 11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC) ».",
-            "D’après ce que montre WebFetch, le texte indique encore que le point 1 « will be fixed » et que les Héritiers concernés peuvent contacter le support pour un échange ; le point 2 (4-8 en chinois traditionnel) demande toujours de changer temporairement de langue.",
-            "Le correctif du 11/20 cible ces points. L’état actuel dépend de ce message Known Issues (y compris la modification du 11/20 09:30 UTC) et de 14641953. Cette page n’affirme pas que tous les points sont résolus.",
+            "Avis officiel : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — « 11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC) ».",
+            "Selon la modification officielle du 11/23 09:10 UTC, l’avis liste trois points et ne les marque pas comme résolus : (1) le 2+1 Mana Stone Hot Deal Pack attribue toujours un Lv.85 Mana Stone Selection Chest — l’avis dit encore « will be fixed » et d’écrire au support pour un échange ; (2) [CHT] l’Episode 6 Chapter 4-8 en chinois traditionnel ne peut toujours pas continuer après la cinématique — il est encore demandé de changer temporairement de langue jusqu’à la correction ; (3) [The Call of Chaos] le jeu s’arrête lorsqu’une compétence Fate de [Guardian: Kazran] s’active alors que Yuna porte un skin. L’avis officiel ne publie ni contournement ni horaire de correction pour le point 3.",
+            "Le point de l’écran de règlement après un abandon en Ban Pick, cité dans l’avis de correctif du 11/20 (14641953), n’apparaît plus dans ce message Known Issues après la modification du 11/23 09:10 UTC. Cette page ne traite pas cette absence comme une correction confirmée. L’état actuel dépend de ce message Known Issues (y compris la modification du 11/23 09:10 UTC). Cette page n’affirme pas que tous les points sont résolus.",
             "Liens : [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Dernière vérification : 2026-11-21 21:45 Asia/Shanghai."
+            "Dernière vérification : 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -13010,7 +13010,7 @@ export const CONTENT = {
           [
             "La Guild War a été introduite sur Foundry après la maintenance du 11/19.",
             "Équipe de défense : 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — déjà commencée.",
-            "Matchmaking : 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — pas encore atteint.",
+            "Matchmaking : 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — l’horaire officiel de début a été atteint (sans confirmer un combat réel).",
             "Cadeau de connexion Foundry : 2026-11-07 09:00 → 2026-11-23 03:00 UTC ; connexion Foundry uniquement ; Commander’s Armband ×1 000, Brave Crest ×3 000.",
             "Source : [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
@@ -13054,8 +13054,8 @@ export const CONTENT = {
         [
           "Liste de surveillance",
           [
-            "Guild War — introduite après la maintenance du 11/19 ; équipe de défense 2026-11-21 03:00 UTC déjà commencée ; matchmaking 2026-11-23 03:00 UTC pas encore.",
-            "Cadeau de connexion Guild War Foundry — 11/07 09:00 → 11/23 03:00 UTC ; connexion Foundry ; Commander’s Armband ×1 000, Brave Crest ×3 000.",
+            "Guild War — introduite après la maintenance du 11/19 ; équipe de défense 2026-11-21 03:00 UTC déjà commencée ; matchmaking 2026-11-23 03:00 UTC : horaire officiel atteint (sans confirmer un combat réel).",
+            "Cadeau de connexion Guild War Foundry — 11/07 09:00 → 11/23 03:00 UTC (terminé ; une connexion maintenant ne qualifie plus) ; récompenses historiques Commander’s Armband ×1 000, Brave Crest ×3 000.",
             "World Arena Foundry — 2026-12-10 après maintenance.",
             "Restauration de la VO japonaise — à confirmer sur l'avis officiel lorsqu'il sera publié.",
             "La semaine Emergency Mission bascule fin novembre — voir le calendrier Foundry.",
@@ -13071,7 +13071,7 @@ export const CONTENT = {
         "Signalez séparément les retards de calendrier propres à Foundry par rapport aux serveurs existants."
       ],
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. La fenêtre la plus récente, la maintenance du 11/19 (jeu), est terminée : annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), elle s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé. L’annonce renvoie au Version 8.7 2nd Update Content : la collecte des 2 Leif a pris fin le 11/21 10:30 UTC ; le rate-up de Cecilia court du 11/26 03:00 au 12/17 02:59 UTC ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. La Guild War sur Foundry a été introduite après cette maintenance, avec l’équipe de défense le 11/21 03:00 UTC déjà commencée et le matchmaking le 11/23 03:00 UTC pas encore. L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC ; les carottes vont jusqu’au 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. La fenêtre la plus récente, la maintenance du 11/19 (jeu), est terminée : annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), elle s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé. L’annonce renvoie au Version 8.7 2nd Update Content : la collecte des 2 Leif a pris fin le 11/21 10:30 UTC ; le rate-up de Cecilia court du 11/26 03:00 au 12/17 02:59 UTC ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. La Guild War sur Foundry a été introduite après cette maintenance, avec l’équipe de défense le 11/21 03:00 UTC déjà commencée et le matchmaking le 11/23 03:00 UTC a atteint son horaire officiel (sans confirmer un combat réel). L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC ; les carottes vont jusqu’au 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
     },
     "pl": {
       "title": "Konserwacja i noty wersji",
@@ -13089,13 +13089,13 @@ export const CONTENT = {
           ]
         ],
         [
-          "2026-11-19 — Znane problemy po aktualizacji (edytowano 11/20 09:30 UTC)",
+          "2026-11-19 — Znane problemy po aktualizacji (edytowano 11/23 09:10 UTC)",
           [
-            "Oficjalne ogłoszenie: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/20 09:30 UTC)”.",
-            "Jak widać przez WebFetch, treść nadal mówi, że punkt 1 „will be fixed”, a dotknięci Heirs mogą skontaktować się z obsługą w sprawie wymiany; punkt 2 (4-8 w tradycyjnym chińskim) nadal prosi o tymczasową zmianę języka.",
-            "Patch z 11/20 dotyczy tych punktów. Obecny stan wyznaczają ten wpis Known Issues (w tym edycja z 11/20 09:30 UTC) oraz 14641953. Ta strona nie twierdzi, że wszystkie punkty zostały rozwiązane.",
+            "Oficjalne ogłoszenie: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] — „11/19(Thu) Known Issues Following the Update (Edited on 11/23 09:10 UTC)”.",
+            "Według oficjalnej edycji z 11/23 09:10 UTC wpis wymienia trzy punkty i nie oznacza ich jako naprawione: (1) 2+1 Mana Stone Hot Deal Pack nadal przyznaje Lv.85 Mana Stone Selection Chest — wpis nadal pisze „will be fixed”, a wymianę załatwia się przez Biuro Obsługi; (2) [CHT] Episode 6 Chapter 4-8 w tradycyjnym chińskim nadal nie pozwala kontynuować po przerywniku — nadal prosi o tymczasową zmianę języka do czasu naprawy; (3) [The Call of Chaos] gra się zatrzymuje, gdy umiejętność Fate [Guardian: Kazran] aktywuje się, gdy Yuna ma założony skin. Oficjalny wpis nie podaje obejścia ani godziny naprawy dla punktu 3.",
+            "Punkt ekranu rozliczenia po rezygnacji w Ban Pick, wymieniony w ogłoszeniu patcha z 11/20 (14641953), nie występuje już w tym wpisie Known Issues po edycji z 11/23 09:10 UTC. Ta strona nie traktuje tego braku jako potwierdzonej naprawy. Obecny stan wyznacza ten wpis Known Issues (w tym edycja z 11/23 09:10 UTC). Ta strona nie twierdzi, że wszystkie punkty zostały rozwiązane.",
             "Linki: [[STOVE 14640458|https://page.onstove.com/epicseven/global/view/14640458]] · [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]].",
-            "Ostatnia weryfikacja: 2026-11-21 21:45 Asia/Shanghai."
+            "Last verified: 2026-11-24 10:10 Asia/Shanghai."
           ]
         ],
         [
@@ -13113,7 +13113,7 @@ export const CONTENT = {
           [
             "Guild War wprowadzono na Foundry po konserwacji 11/19.",
             "Drużyna obrony: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — już rozpoczęta.",
-            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — jeszcze nie nadszedł.",
+            "Matchmaking: 2026-11-23 03:00 UTC (11/23 11:00 Asia/Shanghai) — oficjalna godzina startu została osiągnięta (bez potwierdzenia rzeczywistego pojedynku).",
             "Prezent za logowanie na Foundry: 2026-11-07 09:00 → 2026-11-23 03:00 UTC; tylko logowanie na Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
             "Źródło: [[Steam news|https://store.steampowered.com/news/app/5019180/view/1848664643349012]]"
           ]
@@ -13157,8 +13157,8 @@ export const CONTENT = {
         [
           "Lista obserwowanych",
           [
-            "Guild War — wprowadzona po konserwacji 11/19; drużyna obrony 2026-11-21 03:00 UTC już rozpoczęta; matchmaking 2026-11-23 03:00 UTC jeszcze nie.",
-            "Prezent za logowanie Guild War na Foundry — 11/07 09:00 → 11/23 03:00 UTC; logowanie na Foundry; Commander's Armband ×1,000, Brave Crest ×3,000.",
+            "Guild War — wprowadzona po konserwacji 11/19; drużyna obrony 2026-11-21 03:00 UTC już rozpoczęta; matchmaking 2026-11-23 03:00 UTC: oficjalna godzina startu osiągnięta (bez potwierdzenia rzeczywistego pojedynku).",
+            "Prezent za logowanie Guild War na Foundry — 11/07 09:00 → 11/23 03:00 UTC (już zakończony; logowanie teraz nie kwalifikuje); historyczne nagrody Commander's Armband ×1,000, Brave Crest ×3,000.",
             "World Arena na Foundry — 2026-12-10 po konserwacji.",
             "Przywrócenie japońskiego VO — potwierdź w oficjalnym ogłoszeniu, gdy się pojawi.",
             "Tydzień Emergency Mission zmienia się pod koniec listopada — zobacz kalendarz Foundry.",
@@ -13174,7 +13174,7 @@ export const CONTENT = {
         "Opóźnienia harmonogramu dotyczące tylko Foundry zaznaczaj osobno od starych serwerów."
       ],
       "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
-      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze okno, konserwacja 11/19 (czw), jest zakończone: ogłoszono 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyło się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość. Wpis wskazuje Version 8.7 2nd Update Content: odbiór 2 Leif zakończył się 11/21 10:30 UTC; rate-up Cecilii trwa 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Guild War na Foundry wprowadzono po tej konserwacji; drużyna obrony 11/21 03:00 UTC już się rozpoczęła, matchmaking 11/23 03:00 UTC jeszcze nie. Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC; marchewki trwają do 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze okno, konserwacja 11/19 (czw), jest zakończone: ogłoszono 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyło się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość. Wpis wskazuje Version 8.7 2nd Update Content: odbiór 2 Leif zakończył się 11/21 10:30 UTC; rate-up Cecilii trwa 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Guild War na Foundry wprowadzono po tej konserwacji; drużyna obrony 11/21 03:00 UTC już się rozpoczęła, matchmaking 11/23 03:00 UTC osiągnął już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku). Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC; marchewki trwają do 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
     }
   },
   "/about/": {
