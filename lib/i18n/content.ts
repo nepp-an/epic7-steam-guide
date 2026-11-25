@@ -6959,7 +6959,7 @@ export const CONTENT = {
         [
           "Foundry mailbox growth pack",
           "10/29 after maint",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Steam 100k wishlist mail (Foundry login)",
@@ -7086,7 +7086,7 @@ export const CONTENT = {
         ],
         [
           "What is the Foundry Guild War login gift?",
-          "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login deadline is 26 November 2026 at 22:59 Asia/Shanghai, with seven-day mailbox storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones."
+          "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 10:59 Asia/Shanghai (11/19 02:59 UTC); any copy already in the mailbox follows its own 7-day storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones."
         ]
       ],
       "vs_h2": "Transfer vs start on Foundry",
@@ -7122,7 +7122,7 @@ export const CONTENT = {
         "2026-12-10 (Thu) Guild War draw rule: the update removes match-time season-point and Guild Crest priority; the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Rewards window",
-      "gw_reward": "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login deadline is 26 November 2026 at 22:59 Asia/Shanghai, with seven-day mailbox storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones.",
+      "gw_reward": "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 10:59 Asia/Shanghai (11/19 02:59 UTC); any copy already in the mailbox follows its own 7-day storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones.",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "Searches for “Foundry codes” or “Foundry server codes” usually point at celebration rewards and official STOVE notices — mailbox gifts, login items, and starter buffs — not a redeemable coupon list. This unofficial Foundry server guide never publishes, sells, or redeems fake codes. Claim only what the in-game mailbox shows, and re-check STOVE Foundry view/14571828 and Launch view/14606481 when windows move.",
       "guide_h2": "Foundry server guide — key dates",
@@ -7287,7 +7287,7 @@ export const CONTENT = {
         [
           "우편 성장 팩",
           "10/29 점검 후",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Steam 10만 위시 우편",
@@ -7414,7 +7414,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 길드전 로그인 선물은 무엇인가요?",
-          "별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기한은 2026년 11월 26일 22:59 Asia/Shanghai이며 우편 보관은 7일입니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요."
+          "별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 10:59 Asia/Shanghai(11/19 02:59 UTC)에 종료되었으며, 우편함에 이미 있는 우편은 자체 7일 보관을 따릅니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요."
         ]
       ],
       "vs_h2": "계정 이전 vs 파운드리 시작",
@@ -7449,7 +7449,7 @@ export const CONTENT = {
         "2026-12-10(목) 길드전 무승부 규칙: 업데이트에서 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 해당 경기 승/무/패 합산 공격 점수가 높은 쪽이 승리합니다. 그래도 무승부면 양쪽 완파 100% 승점, 양쪽 미완파 50%입니다. 세부는 12/10 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "보상 구간",
-      "gw_reward": "별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기한은 2026년 11월 26일 22:59 Asia/Shanghai이며 우편 보관은 7일입니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요.",
+      "gw_reward": "별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 10:59 Asia/Shanghai(11/19 02:59 UTC)에 종료되었으며, 우편함에 이미 있는 우편은 자체 7일 보관을 따릅니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요.",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "“Foundry codes” 또는 “Foundry server codes” 검색은 대개 쿠폰 문자열이 아니라 축하 보상과 공식 STOVE 공지—우편 선물, 로그인 아이템, 스타터 버프—를 가리킵니다. 본 비공식 Foundry 서버 가이드는 가짜 코드를 게시·판매·교환하지 않습니다. 인게임 우편함에 보이는 것만 수령하고, 창이 바뀌면 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 확인하세요.",
       "guide_h2": "Foundry server guide — 핵심 일정",
@@ -7612,7 +7612,7 @@ export const CONTENT = {
         [
           "メール成長パック",
           "10/29メンテ後",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Steam10万ウィッシュメール",
@@ -7937,7 +7937,7 @@ export const CONTENT = {
         [
           "信箱成長包",
           "10/29 維護後",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Steam 十萬願望單信",
@@ -8064,7 +8064,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 公會戰登入禮是什麼？",
-          "獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入期限為2026年11月26日22:59 Asia/Shanghai，郵件保管7天。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。"
+          "獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日10:59 Asia/Shanghai（11/19 02:59 UTC）結束；若信箱裡已有該信，依其自身7天保管。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。"
         ]
       ],
       "vs_h2": "帳號轉移 vs 在 Foundry 開荒",
@@ -8099,7 +8099,7 @@ export const CONTENT = {
         "2026-12-10（週四）公會戰平局規則：更新移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。"
       ],
       "gw_reward_h3": "獎勵區間",
-      "gw_reward": "獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入期限為2026年11月26日22:59 Asia/Shanghai，郵件保管7天。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。",
+      "gw_reward": "獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日10:59 Asia/Shanghai（11/19 02:59 UTC）結束；若信箱裡已有該信，依其自身7天保管。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "搜尋「Foundry codes」或「Foundry server codes」多半指向慶祝獎勵與官方 STOVE 公告——信箱禮物、登入道具、新手增益——而不是可兌換序號清單。本非官方 Foundry 伺服器指南從不發布、販售或代兌假碼。只領遊戲內信箱實際顯示的內容；時窗變動時請再查 STOVE Foundry view/14571828 與 Launch view/14606481。",
       "guide_h2": "Foundry server guide — 關鍵日程",
@@ -8267,7 +8267,7 @@ export const CONTENT = {
         [
           "แพ็กเติบโตในกล่องจดหมาย Foundry",
           "10/29 หลังปิดปรับปรุง",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "เมล 100k wishlist ของ Steam (ล็อกอิน Foundry)",
@@ -8394,7 +8394,7 @@ export const CONTENT = {
         ],
         [
           "ของขวัญล็อกอิน Foundry Guild War คืออะไร?",
-          "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม กำหนดล็อกอินถึง26 พฤศจิกายน2026 เวลา22:59 Asia/Shanghai และเก็บในกล่อง7วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม"
+          "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 10:59 Asia/Shanghai (11/19 02:59 UTC) และฉบับที่อยู่ในกล่องแล้วเก็บ 7 วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม"
         ]
       ],
       "vs_h2": "โอนย้าย vs เริ่มบน Foundry",
@@ -8429,7 +8429,7 @@ export const CONTENT = {
         "2026-12-10 (พฤ.) กติกาการเสมอ Guild War: อัปเดตยกเลิกสิทธิ์ตามคะแนนซีซันและ Guild Crest ก่อนตอนจับคู่ ฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "ช่วงเวลารางวัล",
-      "gw_reward": "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม กำหนดล็อกอินถึง26 พฤศจิกายน2026 เวลา22:59 Asia/Shanghai และเก็บในกล่อง7วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม",
+      "gw_reward": "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 10:59 Asia/Shanghai (11/19 02:59 UTC) และฉบับที่อยู่ในกล่องแล้วเก็บ 7 วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม",
       "codes_h2": "Foundry codes กับรางวัลฉลอง",
       "codes_note": "การค้นหา “Foundry codes” หรือ “Foundry server codes” มักชี้ไปที่รางวัลฉลองและประกาศทางการของ STOVE — ของขวัญในกล่องจดหมาย ของล็อกอิน และบัฟผู้เริ่มต้น — ไม่ใช่รายการคูปองที่แลกได้ ไกด์เซิร์ฟเวอร์ Foundry ที่ไม่เป็นทางการนี้ไม่เคยเผยแพร่ ขาย หรือแลกโค้ดปลอม รับเฉพาะสิ่งที่กล่องจดหมายในเกมแสดง และตรวจ STOVE Foundry view/14571828 กับ Launch view/14606481 อีกครั้งเมื่อช่วงเวลาเลื่อน",
       "guide_h2": "ไกด์เซิร์ฟเวอร์ Foundry — วันสำคัญ",
@@ -8589,7 +8589,7 @@ export const CONTENT = {
         [
           "Paquete de crecimiento del buzón de Foundry",
           "10/29 tras mantenimiento",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Correo de 100k listas de deseos de Steam (inicio de sesión en Foundry)",
@@ -8906,7 +8906,7 @@ export const CONTENT = {
         [
           "Pacote de crescimento do correio do Foundry",
           "10/29 após manutenção",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Correio de 100 mil listas de desejos do Steam (login no Foundry)",
@@ -9223,7 +9223,7 @@ export const CONTENT = {
         [
           "Foundry-Postfach-Wachstumspaket",
           "10/29 nach Wartung",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Steam-100k-Wunschlisten-Mail (Foundry-Login)",
@@ -9540,7 +9540,7 @@ export const CONTENT = {
         [
           "Pack de croissance de la boîte aux lettres Foundry",
           "10/29 après maintenance",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Courrier Steam 100k wishlists (connexion Foundry)",
@@ -9857,7 +9857,7 @@ export const CONTENT = {
         [
           "Pakiet rozwoju w skrzynce Foundry",
           "10/29 po konserwacji",
-          "11/26 14:59"
+          "ended 11/19 02:59"
         ],
         [
           "Poczta za 100 tys. list życzeń Steam (logowanie na Foundry)",

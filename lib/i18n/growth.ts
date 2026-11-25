@@ -57,7 +57,7 @@ export const GROWTH_COPY = {
         "Check the one-time growth mail",
         "Log in on Foundry; open the mailbox and read each mail’s expiry.",
         "Official one-time pack: Penguins, rune and catalyst chests, and Spirit Blooms. Official quantities, and which other Foundry gifts have already ended, are in the Claim windows table.",
-        "Login window: 26 Nov 2026, 22:59 Asia/Shanghai; mail stores for 7 days.",
+        "Login window ended 19 Nov 2026, 10:59 Asia/Shanghai (11/19 02:59 UTC); if a copy is already in the mailbox, it stores for 7 days.",
         "Eligible mail claimed before its own timer expires."
       ],
       [
@@ -145,7 +145,7 @@ export const GROWTH_COPY = {
         "檢查一次性成長郵件",
         "登入Foundry，開啟信箱並逐封確認到期時間。",
         "官方一次性補給：企鵝、符文／催化劑選擇箱與精靈之花。精確數量，以及其他已結束的 Foundry 獎勵，見「領取時段對照」。",
-        "登入窗口至2026年11月26日22:59（Asia/Shanghai）；信件保存7天。",
+        "登入窗口已於2026年11月19日10:59（Asia/Shanghai，即11/19 02:59 UTC）結束；若信箱裡已有該信，保存7天。",
         "符合資格的郵件已在自身倒數前領完。"
       ],
       [
@@ -233,7 +233,7 @@ export const GROWTH_COPY = {
         "일회성 성장 우편 확인",
         "파운드리 로그인 후 우편함에서 각 만료 타이머를 읽으세요.",
         "공식 일회성 성장 우편: 펭귄, 룬·촉매 선택 상자, 정령의 꽃. 정확한 수량과 이미 종료된 다른 파운드리 선물은 수령 기간 비교표를 보세요.",
-        "로그인 기간:2026년11월26일22:59 Asia/Shanghai; 우편 보관7일.",
+        "로그인 기간은 2026년 11월 19일 10:59 Asia/Shanghai(11/19 02:59 UTC)에 종료; 우편함에 이미 있는 우편은 7일 보관.",
         "자격에 맞는 우편을 자체 만료 전에 수령."
       ],
       [
@@ -321,7 +321,7 @@ export const GROWTH_COPY = {
         "ตรวจจดหมายเติบโตครั้งเดียว",
         "ล็อกอิน Foundry เปิดกล่องจดหมายและดูวันหมดอายุแต่ละฉบับ",
         "ชุดสนับสนุนทางการครั้งเดียว: Penguin, กล่องเลือกรูน/ตัวเร่ง และ Spirit Bloom จำนวนทางการ และของขวัญ Foundry อื่นที่จบแล้ว ดูตารางช่วงรับของ",
-        "ช่วงล็อกอินถึง26พ.ย.2026 22:59 Asia/Shanghai; เก็บจดหมาย7วัน",
+        "ช่วงล็อกอินจบแล้วเมื่อ 19 พ.ย. 2026 10:59 Asia/Shanghai (11/19 02:59 UTC); ถ้ามีฉบับอยู่ในกล่องแล้ว เก็บ 7 วัน",
         "รับจดหมายที่มีสิทธิ์ก่อนหมดเวลาของฉบับนั้น"
       ],
       [
