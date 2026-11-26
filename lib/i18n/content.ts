@@ -3662,7 +3662,7 @@ export const CONTENT = {
   "/steam-transfer/": {
     "en": {
       "title": "Epic Seven Steam Transfer: Keep Your STOVE Progress",
-      "meta": "Transfer your Epic Seven STOVE account to Steam and keep your progress. Do the STOVE transfer first to avoid a new save. Unofficial; not Foundry.",
+      "meta": "Transfer or link your Epic Seven STOVE account to Steam and keep your progress. Convert on STOVE first, or Steam may start a new empty save.",
       "h1": "Epic Seven Steam transfer — keep progress",
       "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [
@@ -5272,8 +5272,8 @@ export const CONTENT = {
   },
   "/faq/": {
     "en": {
-      "title": "Epic Seven Steam FAQ — STOVE Bind, Demo Wipe & Foundry ≠ Transfer",
-      "meta": "Epic Seven Steam FAQ: wrong STOVE bind, demo wipe after transfer, and Foundry≠transfer — troubleshooting answers with deep links and STOVE sources. Unofficial.",
+      "title": "Epic Seven Steam FAQ: Wrong Account, Demo Delete, Foundry",
+      "meta": "Answers for Epic Seven on Steam: a wrong STOVE bind, what not to delete after transfer, and why Foundry is not a transfer.",
       "h1": "Epic Seven Steam FAQ & troubleshooting",
       "answer": "This Epic Seven Steam FAQ starts with account problems: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. If the Transfer button is still blocked or support is needed, use official STOVE customer service. The [[Case Files|/case-files/]] page covers the Secret Rabbit♥Hole event’s case deduction mini-game — it is not an account-recovery case archive. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, convert the temporary account to a non-Steam login, then convert the original",
@@ -10571,7 +10571,7 @@ export const CONTENT = {
   "/banners/": {
     "en": {
       "title": "Epic Seven Current Banner: Bunny Girl Maid Cecilia | Steam",
-      "meta": "Current pickup: Bunny Girl Maid Cecilia & Covert Service through 17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC). Unofficial; confirm on official STOVE.",
+      "meta": "The current Epic Seven pickup is Bunny Girl Maid Cecilia and Covert Service, through 17 December 2026. Confirm the window on official STOVE.",
       "h1": "Banners & new heroes",
       "lead": "Current: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC (26 Nov 2026, 11:00 – 17 Dec 2026, 10:59 Asia/Shanghai). Ended: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC (ended 26 Nov 2026, 10:59 Asia/Shanghai). The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for ended or other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
       "pickup_kicker": "Ended pickup · closed 26 Nov 2026, 10:59 Asia/Shanghai",
@@ -10908,7 +10908,7 @@ export const CONTENT = {
   "/updates/": {
     "en": {
       "title": "Epic Seven Patch Notes and Known Issues | Steam",
-      "meta": "Steam and Foundry patch notes for Epic Seven, including known issues from official STOVE posts. This page does not claim every issue is fixed.",
+      "meta": "Epic Seven patch notes for Steam and Foundry, plus known issues from official STOVE posts. See what changed, and which issues are still listed as open.",
       "h1": "Updates — heroes & events",
       "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
@@ -16203,7 +16203,7 @@ export const CONTENT = {
   "/quests/": {
     "en": {
       "title": "Epic Seven Foundry Quests vs Legacy — Daily/Weekly Guide",
-      "meta": "Foundry quests ≠ legacy after Steam transfer: daily and weekly reset points, Foundry-only missions, and priority order. Cite STOVE. Unofficial.",
+      "meta": "A Foundry quests guide for Epic Seven: daily and weekly resets, Foundry-only missions, and what stays different from a transferred legacy account.",
       "h1": "Foundry quests — daily / weekly vs legacy",
       "lead": "Steam-era quest rhythm for Epic Seven: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
       "answer": "Start with expiring claims, then daily summons and case clues. Use this five-task checklist to plan the current Foundry window; it is not a full list of every in-game daily.",
@@ -17090,7 +17090,7 @@ export const CONTENT = {
   "/case-files/": {
     "en": {
       "title": "Trusty Sidekick Alencia's Case Files | Epic Seven",
-      "meta": "Trusty Sidekick Alencia's Case Files in Secret Rabbit♥Hole: Cases 1–3, how it differs from the Lucky Board, and the 10 December 2026 deadline. No spoilers.",
+      "meta": "Walk through Trusty Sidekick Alencia's Case Files in Secret Rabbit Hole, including Cases 1–3 and the 10 December 2026 deadline. No answer spoilers.",
       "h1": "Trusty Sidekick Alencia’s Case Files — Cases 1, 2 & 3",
       "answer": "Open Lobby → Secret Rabbit♥Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
       "paras": [
