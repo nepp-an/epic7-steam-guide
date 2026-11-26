@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     'Independent guide to Epic Seven on Steam: official store link, STOVE↔Steam account transfer, Foundry schedule & rewards, FAQ. Not affiliated with Smilegate or STOVE.',
   robots: { index: true, follow: true },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
   other: {
     'google-adsense-account': 'ca-pub-3175943774981621',
   },
