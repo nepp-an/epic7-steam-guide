@@ -28,7 +28,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
   troubleVisual: [[string, string], [string, string], [string, string]];
 }> = {
   en: {
-    answerBefore: 'Open Lobby → ',
+    answerBefore: "Trusty Sidekick Alencia's Case Files: open Lobby → ",
     answerAfter: ' → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.',
     windowEnd: 'Case Files and the side story end 10 December 2026, 10:59 Asia/Shanghai (02:59 UTC).',
     windowBannerAfter: ' ended 19 November. Check the in-game timer before spending.',
@@ -42,7 +42,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
     diagramNote: 'Illustrative diagram — not a game screenshot.',
     shortTitles: ['Missing plushie', 'Broken gramophone', 'Missing safe item'],
     types: ['Time + location', 'Nail polish + arrival order', 'Food + possession'],
-    enterTitle: 'How to enter',
+    enterTitle: "Trusty Sidekick Alencia's Case Files — how to enter",
     enterSteps: ['Lobby', 'Secret Rabbit♥Hole', 'Case Files'],
     boardTitle: 'How a case unlocks',
     boardSteps: [

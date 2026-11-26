@@ -1,7 +1,7 @@
 // Official rules and explicitly attributed community reports; no claim of in-game testing.
 export const CASE_TASK_COPY = {
   "en": {
-    "h1": "Trusty Sidekick Alencia’s Case Files — Cases 1, 2 & 3",
+    "h1": "Trusty Sidekick Alencia's Case Files — Cases 1, 2 & 3",
     "answer": "Open Lobby → Secret Rabbit♥Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
     "nav": "Choose your case",
     "brief": "Before you start: independent notice, entry steps, deadline & spoiler note",
