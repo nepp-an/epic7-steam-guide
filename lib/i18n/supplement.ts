@@ -857,8 +857,8 @@ export const UPDATES_SUPPLEMENT: Record<
         "2026-10-29 — Steam client live and Foundry open after maintenance.",
         "2026-11-19 — Guild War introduced to Foundry.",
         "2026-11-21 03:00 UTC — Form Defense Team opened (started).",
-        "The official Foundry Guild War matchmaking start, 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC), has been reached. This confirms the timetable, not an actual match, attack opportunity or battle result; check your guild in-game.",
-        "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window.",
+        "The official Foundry Guild War matchmaking start, 23 November 2026 at 03:00 UTC, has been reached. This confirms the timetable, not an actual match, attack opportunity or battle result; check your guild in-game.",
+        "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window.",
         "2026-12-10 — Foundry World Arena after maintenance (UTC)."
       ],
       "source": {

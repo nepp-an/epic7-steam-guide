@@ -86,17 +86,17 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
     mailRows: MAIL_ROWS,
     wishlistTitle: 'Ended wishlist-mail items (for reference)',
     wishlistNote:
-      'The login window ended 19 Nov 2026, 11:00 Asia/Shanghai (11/19 03:00 UTC). This is not an instruction to log in now for a new mail. If a copy is already in your mailbox, it follows its own 7-day storage timer from when it was sent. The item list follows official notice 14606492, not unofficial alternative lists.',
+      'The login window ended 19 Nov 2026, 03:00 UTC. This is not an instruction to log in now for a new mail. If a copy is already in your mailbox, it follows its own 7-day storage timer from when it was sent. The item list follows official notice 14606492, not unofficial alternative lists.',
     wishlistTh: ['Item', 'Quantity'],
     wishlistRows: WISHLIST_ROWS,
     stuckLabel: 'If the mail is missing',
     stuckBody:
-      'The growth-mail login window has already ended (official notice 14571828, edited 11/24 06:03 UTC, now ends 11/19 02:59 UTC). Logging in now will not generate a new mail. If a copy is already in your mailbox, claim it before its own 7-day timer ends. If you logged in during the window and the mail did not appear, log out and back in, or return to the lobby, then open the mailbox. Missed mail is not reissued. The welcome skin is a first-login pop-up through 31 Dec 2026, 10:59 Asia/Shanghai, not this mailbox pack. The Guild War login gift already ended on 23 Nov 2026, 11:00 Asia/Shanghai.',
+      'The growth-mail login window has already ended (official notice 14571828, edited 11/24 06:03 UTC, now ends 11/19 02:59 UTC). Logging in now will not generate a new mail. If a copy is already in your mailbox, claim it before its own 7-day timer ends. If you logged in during the window and the mail did not appear, log out and back in, or return to the lobby, then open the mailbox. Missed mail is not reissued. The welcome skin is a first-login pop-up through 31 Dec 2026, 02:59 UTC, not this mailbox pack. The Guild War login gift already ended on 23 Nov 2026, 03:00 UTC.',
     sourceLabel: 'Official notice',
     mailOfficialLabel: 'Foundry Server Gift',
     wishlistOfficialLabel: 'Steam 100,000 Wishlist Milestone Reward',
     foundryLead:
-      'The one-time growth-mail login window ended 19 Nov 2026, 10:59 Asia/Shanghai (11/19 02:59 UTC). Official item quantities, and which other launch gifts have already ended:',
+      'The one-time growth-mail login window ended 19 Nov 2026, 02:59 UTC. Official item quantities, and which other launch gifts have already ended:',
     foundryLinkLabel: 'Claim windows on the quests page',
   },
   'zh-tw': {

@@ -26,8 +26,8 @@ export const GROWTH_COPY = {
     "today": "Today: claims and clues",
     "week": "This week: finish the current dungeon",
     "next": "Next milestone: Rank 70",
-    "schedule": "Official timetable checked 23 Nov 2026: Foundry Guild War matchmaking reached its scheduled start on 23 Nov, 11:00 Asia/Shanghai (03:00 UTC). The separate GW login-gift window ended then; it is no longer a login-to-claim event. This confirms the published timetable, not an actual match or attack result. Check the client for your guild’s availability.",
-    "mode": "Draft Arena is temporarily replaced by The Call of Chaos during Season 2 and its grace period, ending 17 Dec, 10:59 Asia/Shanghai. World Arena is scheduled after the 10 Dec maintenance.",
+    "schedule": "Official timetable checked 23 Nov 2026: Foundry Guild War matchmaking reached its scheduled start on 23 Nov, 03:00 UTC. The separate GW login-gift window ended then; it is no longer a login-to-claim event. This confirms the published timetable, not an actual match or attack result. Check the client for your guild’s availability.",
+    "mode": "Draft Arena is temporarily replaced by The Call of Chaos during Season 2 and its grace period, ending 17 Dec, 02:59 UTC. World Arena is scheduled after the 10 Dec maintenance.",
     "full": "Full calendar, reward reference and background",
     "questAnswer": "Start with expiring claims, then daily summons and case clues. Use this five-task checklist to plan the current Foundry window; it is not a full list of every in-game daily.",
     "checkNote": "Checks are for this tab only; they do not claim rewards, track your game account or reset with the server. Confirm server timers in the client.",
@@ -48,7 +48,7 @@ export const GROWTH_COPY = {
         "Claim daily Foundry summons",
         "Event → Welcome! Foundry Server → Summon Support; Foundry character.",
         "+20 free Covenant summons daily. 1,260 is the full-window maximum, not a reward for joining late.",
-        "31 Dec 2026, 10:59 Asia/Shanghai; use the client’s daily-reset timer.",
+        "31 Dec 2026, 02:59 UTC; use the client’s daily-reset timer.",
         "Today’s free summons used; do not spend bookmarks by mistake."
       ],
       [
@@ -57,7 +57,7 @@ export const GROWTH_COPY = {
         "Check the one-time growth mail",
         "Log in on Foundry; open the mailbox and read each mail’s expiry.",
         "Official one-time pack: Penguins, rune and catalyst chests, and Spirit Blooms. Official quantities, and which other Foundry gifts have already ended, are in the Claim windows table.",
-        "Login window ended 19 Nov 2026, 10:59 Asia/Shanghai (11/19 02:59 UTC); if a copy is already in the mailbox, it stores for 7 days.",
+        "Login window ended 19 Nov 2026, 02:59 UTC; if a copy is already in the mailbox, it stores for 7 days.",
         "Eligible mail claimed before its own timer expires."
       ],
       [
@@ -66,7 +66,7 @@ export const GROWTH_COPY = {
         "Collect Case Files clues",
         "Lobby → Secret Rabbit♥Hole → Case Files; finish the previous case first.",
         "Two daily magnifying glasses; one per new question. All 10 clues plus completed O/X boards unlock the decisive clue.",
-        "10 Dec 2026, 10:59 Asia/Shanghai; stop daily claims after all cases are completed.",
+        "10 Dec 2026, 02:59 UTC; stop daily claims after all cases are completed.",
         "Daily glasses claimed and current-case clues recorded; answer key cannot skip collection."
       ],
       [
@@ -75,8 +75,8 @@ export const GROWTH_COPY = {
         "Use the current Catalyst Search window",
         "Battle → Event → Emergency Mission; clear 6th World Episode 1-6.",
         "Ruins Exploration Coins for the official catalyst exchange; 5 daily entries, optional Skystone recharges.",
-        "3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC). Exchange closes too; leftover coins are removed.",
-        "Chosen entries finished and coins exchanged before closing. The previous charm week / Ruins Reclamation already ended 26 Nov 2026, 10:59 Asia/Shanghai."
+        "3 Dec 2026, 02:59 UTC. Exchange closes too; leftover coins are removed.",
+        "Chosen entries finished and coins exchanged before closing. The previous charm week / Ruins Reclamation already ended 26 Nov 2026, 02:59 UTC."
       ],
       [
         "luna",
@@ -84,7 +84,7 @@ export const GROWTH_COPY = {
         "Work toward Rank 70 Luna",
         "Event → Welcome! Foundry Server → Luna Joins; Foundry account Rank 70.",
         "Limited 5★ Luna, Glacial Purity skin and 15 Experienced Penguins.",
-        "31 Dec 2026, 10:59 Asia/Shanghai.",
+        "31 Dec 2026, 02:59 UTC.",
         "Rank 70 reached and reward claimed. Follow story unlocks and use available growth buffs; no unverified speed-run promise."
       ]
     ]

@@ -49,7 +49,7 @@ export function CaseGlyph({ index, className }: { index: 0 | 1 | 2; className?: 
 export function EntryDiagram({ title, steps, note }: { title: string; steps: Trio; note: string }) {
   return (
     <figure className="case-diagram case-diagram-enter">
-      <figcaption className="diagram-title">{title}</figcaption>
+      <h3 className="diagram-title">{title}</h3>
       <ol className="enter-path">
         {steps.map((label, i) => (
           <li key={label}>
@@ -87,7 +87,7 @@ export function EntryDiagram({ title, steps, note }: { title: string; steps: Tri
 export function BoardDiagram({ title, steps, note }: { title: string; steps: [Pair, Pair, Pair, Pair]; note: string }) {
   return (
     <figure className="case-diagram case-diagram-board">
-      <figcaption className="diagram-title">{title}</figcaption>
+      <h3 className="diagram-title">{title}</h3>
       <ol className="board-path">
         {steps.map(([name, detail], i) => (
           <li key={name}>
@@ -135,7 +135,7 @@ export function BoardDiagram({ title, steps, note }: { title: string; steps: [Pa
 export function TroubleDiagram({ title, items, note }: { title: string; items: [Pair, Pair, Pair]; note: string }) {
   return (
     <figure className="case-diagram case-diagram-trouble">
-      <figcaption className="diagram-title">{title}</figcaption>
+      <h3 className="diagram-title">{title}</h3>
       <ul className="trouble-path">
         {items.map(([name, detail], i) => (
           <li key={name}>

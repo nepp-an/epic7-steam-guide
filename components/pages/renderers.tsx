@@ -7,6 +7,7 @@ import { TaskChecklist } from '@/components/TaskChecklist';
 import { GROWTH_COPY, isGrowthLocale } from '@/lib/i18n/growth';
 import Link from 'next/link';
 import { AdBanner468 } from '@/components/AdBanner468';
+import { WebPageJsonLd } from '@/components/JsonLd';
 import { Checklist, QuestChecklist } from '@/components/Checklist';
 import { ExternalLink } from '@/components/ExternalLink';
 import { IndepNotice } from '@/components/IndepNotice';
@@ -1800,6 +1801,13 @@ export function BannersView({ locale }: { locale: Locale }) {
     locale === 'en' && 'last_verified' in c ? c.last_verified : null;
   return (
     <PageShell locale={locale} path="/banners/">
+      <WebPageJsonLd
+        name={c.h1}
+        description={c.meta}
+        path="/banners/"
+        locale={locale}
+        type="CollectionPage"
+      />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       {lastVerified ? (
@@ -1896,6 +1904,13 @@ export function UpdatesView({ locale }: { locale: Locale }) {
   const c = CONTENT['/updates/'][locale];
   return (
     <PageShell locale={locale} path="/updates/">
+      <WebPageJsonLd
+        name={c.h1}
+        description={c.meta}
+        path="/updates/"
+        locale={locale}
+        type="WebPage"
+      />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <QuickAnswer text={c.answer} />

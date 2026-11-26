@@ -10910,15 +10910,15 @@ export const CONTENT = {
       "title": "Epic Seven Patch Notes and Known Issues | Steam",
       "meta": "Epic Seven patch notes for Steam and Foundry, plus known issues from official STOVE posts. See what changed, and which issues are still listed as open.",
       "h1": "Epic Seven Patch Notes and Known Issues",
-      "lead": "These Epic Seven patch notes are listed newest first. Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
+      "lead": "These Epic Seven patch notes are listed newest first. Official notices use UTC; Asia/Shanghai is UTC+8 (02:59 UTC is 10:59, and 03:00 UTC is 11:00). Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
       "cards": [
         [
           "2026-11-26 — Schedule status: Yufine, charm week and carrots ended; Cecilia, Catalyst Search and Palace Maid are open",
           [
             "Checked 26 November 2026, Asia/Shanghai, against the official STOVE notices below. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update. No new official notice was posted after the 11/23 09:10 UTC Known Issues edit (STOVE 14640458, last content edit 11/23 09:13:10 UTC). Later 15:00 UTC timestamps on older posts match a daily 00:00 KST touch and do not change the published titles or body windows.",
-            "Ended at 26 Nov 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC): Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up (STOVE 14606225); Emergency Dispatch Mission: Ruins Reclamation / charm week (STOVE 14571828); 3,000-Day Celebration “Everyone, Gather Carrots!” (STOVE 14606362). Official text says the Ruins Reclamation exchange closed at the same time and leftover medals were removed.",
-            "Now open from 26 Nov 2026, 11:00 Asia/Shanghai (11/26 03:00 UTC): Bunny Girl Maid Cecilia & Covert Service Covenant Drop Rate Up, through 17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC) (STOVE 14638143); Emergency Mission! Catalyst Search, through 3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC) (STOVE 14638258); Daily Life of a Palace Maid, play through 17 Dec at each server’s reset, Party Lost and Found until 17 Dec 2026, 10:59 Asia/Shanghai (STOVE 14638262).",
-            "Dirge of the End: Rewind remains open until 17 Dec 2026, 10:59 Asia/Shanghai (STOVE 14638347). The Foundry growth-mail login window remains closed at 11/19 02:59 UTC per notice 14571828 (edited 11/24 06:03 UTC); mail already received follows its own 7-day mailbox timer.",
+            "Ended at 11/26 02:59 UTC: Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up (STOVE 14606225); Emergency Dispatch Mission: Ruins Reclamation / charm week (STOVE 14571828); 3,000-Day Celebration “Everyone, Gather Carrots!” (STOVE 14606362). Official text says the Ruins Reclamation exchange closed at the same time and leftover medals were removed.",
+            "Now open from 11/26 03:00 UTC: Bunny Girl Maid Cecilia & Covert Service Covenant Drop Rate Up, through 12/17 02:59 UTC (STOVE 14638143); Emergency Mission! Catalyst Search, through 12/3 02:59 UTC (STOVE 14638258); Daily Life of a Palace Maid, play through 17 Dec at each server’s reset, Party Lost and Found until 17 Dec 2026, 02:59 UTC (STOVE 14638262).",
+            "Dirge of the End: Rewind remains open until 17 Dec 2026, 02:59 UTC (STOVE 14638347). The Foundry growth-mail login window remains closed at 11/19 02:59 UTC per notice 14571828 (edited 11/24 06:03 UTC); mail already received follows its own 7-day mailbox timer.",
             "Current routes: [[banners|/banners/]], [[event routes|/quests/#event-routes]], [[claim windows|/quests/#claim-windows]]."
           ],
           "STOVE 14606225 · 14571828 · 14606362 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
@@ -10926,7 +10926,7 @@ export const CONTENT = {
         [
           "2026-11-20 — Patch completed: 08:30–09:30 UTC window ended",
           [
-            "Official notice: [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]] — “[Maintenance] 11/20 (Fri) Patch Information”. Posted window: 11/20 08:30–09:30 UTC = 16:30–17:30 Asia/Shanghai. That window has ended.",
+            "Official notice: [[STOVE 14641953|https://page.onstove.com/epicseven/global/view/14641953]] — “[Maintenance] 11/20 (Fri) Patch Information”. Posted window: 11/20 08:30–09:30 UTC. That window has ended.",
             "Items listed in the notice, names only: the 2+1 Mana Stone Hot Deal Pack mis-delivered a Lv.85 Mana Stone Selection Chest; the Traditional Chinese Episode 6 Chapter 4-8 story could not continue after the cutscene; The Call of Chaos settlement screen still showed base rewards as unavailable after a Ban Pick forfeit. No fix result beyond what the notice states is claimed here.",
             "During the same 08:30–09:30 UTC window, World Arena, Draft Arena, The Call of Chaos, World Boss, and Guild War were temporarily restricted. That restriction window has ended.",
             "Last verified: 2026-11-21 21:45 Asia/Shanghai against the official post."
@@ -10947,9 +10947,9 @@ export const CONTENT = {
         [
           "2026-11-19 — Maintenance completed: 03:00–10:00 UTC window ended early at 09:30 UTC",
           [
-            "Official notice: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — the title now reads “[Maintenance] 11/19 (Thu) Maintenance Notice (Completed)”. Posted window: 11/19 03:00–10:00 UTC = 11/19 11:00–18:00 Asia/Shanghai (7 hours).",
-            "Actual end: 11/19 09:30 UTC = 17:30 Asia/Shanghai — 30 minutes before the posted 10:00 UTC end.",
-            "Compensation: Leif ×6 delivered to the in-game mailbox, storage period 7 days. Claim period: after the 11/19 maintenance through 11/20 (Fri) 14:59 UTC = 11/20 22:59 Asia/Shanghai. That period has already ended; this is a record, not an instruction to claim now.",
+            "Official notice: [[STOVE 14635223|https://page.onstove.com/epicseven/global/view/14635223]] — the title now reads “[Maintenance] 11/19 (Thu) Maintenance Notice (Completed)”. Posted window: 11/19 03:00–10:00 UTC (7 hours).",
+            "Actual end: 11/19 09:30 UTC — 30 minutes before the posted 10:00 UTC end.",
+            "Compensation: Leif ×6 delivered to the in-game mailbox, storage period 7 days. Claim period: after the 11/19 maintenance through 11/20 (Fri) 14:59 UTC. That period has already ended; this is a record, not an instruction to claim now.",
             "The notice points to the 11/19 Version 8.7 2nd Update Content (separate card below).",
             "Separate timings, not the maintenance window: Foundry Guild War Defense Team Formation began 11/21 03:00 UTC; the 8.7 update-mail Leif collection deadline was 11/21 10:30 UTC and has also passed.",
             "Foundry Guild War was introduced after the 11/19 maintenance. Form Defense Team 2026-11-21 03:00 UTC; Matchmaking 2026-11-23 03:00 UTC (Foundry guilds only).",
@@ -10960,8 +10960,8 @@ export const CONTENT = {
         [
           "2026-11-19 — Version 8.7 2nd update (after maintenance): Cecilia preview, Call of Chaos S2, balance",
           [
-            "Update mail — 2 Leif: the collection period was 11/18 (Wed) – 11/21 (Sat) 10:30 UTC (11/21 18:30 Asia/Shanghai) and has ended. This is a record of the posted window, not confirmation that the mail is still in your inbox; do not expect to claim it now.",
-            "New 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul Weaver-exclusive artifact). Covenant Drop Rate Up and Preview Video Events: 11/26 (Thu) 03:00 – 12/17 (Thu) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Official window from 11/26 03:00 UTC; current open/closed status is in the 26 Nov card above. The preview videos give 1 Leif per event.",
+            "Update mail — 2 Leif: the collection period was 11/18 (Wed) – 11/21 (Sat) 10:30 UTC and has ended. This is a record of the posted window, not confirmation that the mail is still in your inbox; do not expect to claim it now.",
+            "New 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul Weaver-exclusive artifact). Covenant Drop Rate Up and Preview Video Events: 11/26 (Thu) 03:00 – 12/17 (Thu) 02:59 UTC. Official window from 11/26 03:00 UTC; current open/closed status is in the 26 Nov card above. The preview videos give 1 Leif per event.",
             "Drop Rate Up: the featured 5★ rate is raised to 1% and no other 5★ can be summoned; no Moonlight Heroes. The counter drops by 1 per summon (max 120); after 120, the next summon is guaranteed to be the featured Hero, then the counter resets. The artifact is obtained through this rate-up pool. Cecilia and Covert Service will be Global Banned in the E7WC 2026 Grand Final.",
             "The Call of Chaos Season 2: after the 11/19 maintenance – 12/10 (Thu) 02:59 UTC; grace period 12/10 03:00 – 12/17 02:59 UTC. Entry is the banner at the bottom-left of the Arena entry screen; Account Rank 20+. It is shared across all servers and runs on KST start/end, independent of each server’s local reset. Draft Arena is unavailable during the season and returns after the grace period; during the grace period you can enter but cannot start a new Challenge. Seven season Heroes are added and Researcher Carrot is removed — see the official post for the full list.",
             "Hero balance (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. These are listed for the 11/19 8.7 update and applied after maintenance; final values and descriptions follow the official post/client. No skill before/after is copied here. World Arena battle records from before the 11/19 maintenance starts will not be replayable.",
@@ -10976,7 +10976,7 @@ export const CONTENT = {
         [
           "2026-11-12 — Celebrate 3,000 Days: comment event ended 11/18 14:59 UTC",
           [
-            "Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — the comment event ended 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai).",
+            "Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]] — the comment event ended 11/18 (Wed) 14:59 UTC.",
             "Posted entry method: a comment on the official post, not in-game mail or an in-game comment. Format: “Nickname / Server / Day 3,000 Celebration Message”.",
             "Comments that do not follow the format, or include special characters not listed in it, may be excluded from the event.",
             "All participants: 2 Leif, sent to the in-game mailbox on 2026/11/20 (Fri); storage period 7 days. No delivery hour was published.",
@@ -10989,7 +10989,7 @@ export const CONTENT = {
         [
           "2026-11-12 — 3,000-Day Celebration: Gather Carrots (ended 11/26 02:59 UTC)",
           [
-            "Official post: [[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (Thu) 03:00 → 11/26 (Thu) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
+            "Official post: [[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (Thu) 03:00 → 11/26 (Thu) 02:59 UTC.",
             "Entry: Lobby > Event > Special Event. “Everyone, Gather Carrots!” rewards daily play; Carrots start accumulating when the event begins.",
             "Points: Adventure/Battle = Energy used (excluding purchased Spectral Core); 1 Spectral Core consumed = 160. Arena (including Draft Arena and Arena NPC Challenge) 1 play = 70; World Arena (including World Arena Tournament) 1 play = 120.",
             "Daily cap: up to 800 Carrots. Arena gives the same Carrots win or lose; stages that consume no Energy (e.g. Side Story story stages) do not count.",
@@ -10997,7 +10997,7 @@ export const CONTENT = {
             "Unclaimed event rewards expired when the event ended.",
             "“3,000 Days Celebration Party Cake”: the all-Heirs cake gives bonus rewards per completed layer; cake completion rewards go only to Heirs who have collected 800+ Carrots cumulatively (not a requirement to hit the 800 daily cap every day). The all-Heirs total is tallied and reflected daily at 01:00 UTC — a total, not a reward-delivery time.",
             "Prize names and quantities were not given as text in the English post or its graphics, so they are omitted here. Related quest routing: [[quests|/quests/#gather-carrots]] — entry, point sources and daily cap.",
-            "This is separate from the comment event above; this event ended 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai)."
+            "This is separate from the comment event above; this event ended 11/26 02:59 UTC."
           ],
           "STOVE official 2026-11-12"
         ],
@@ -11005,16 +11005,16 @@ export const CONTENT = {
           "2026-11-07 — Foundry Guild War schedule",
           [
             "Guild War was introduced to Foundry after the 11/19 maintenance.",
-            "Form Defense Team: 2026-11-21 03:00 UTC (11/21 11:00 Asia/Shanghai) — already started at this check.",
+            "Form Defense Team: 2026-11-21 03:00 UTC — already started at this check.",
             "Foundry matchmaking reached its official 23 Nov, 03:00 UTC start; actual guild availability is not confirmed.",
-            "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window."
+            "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window."
           ],
           "Steam notice 2026-11-07"
         ],
         [
           "2026-11-19 — Balance adjustment preview (applied after the 11/19 8.7 update)",
           [
-            "Preview title revised: “Edited on 11/11 02:19 UTC” (11/11 10:19 Asia/Shanghai). The seven names below were unchanged at this check.",
+            "Preview title revised: “Edited on 11/11 02:19 UTC”. The seven names below were unchanged at this check.",
             "STOVE EN preview: [[STOVE 14618757|https://page.onstove.com/epicseven/global/view/14618757]]",
             "Listed: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika.",
             "The 11/19 maintenance ended early at 09:30 UTC (see the maintenance card above). These seven names were listed for the 11/19 8.7 update and applied after maintenance — final values and descriptions follow the official post/client.",
@@ -11036,7 +11036,7 @@ export const CONTENT = {
           "Upcoming to watch",
           [
             "Official rollout history: 19 Nov introduction, 21 Nov defense setup, 23 Nov matchmaking. These dates are now past; this is not a battle report.",
-            "The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window.",
+            "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window.",
             "Foundry World Arena — 2026-12-10 after maintenance.",
             "Japanese VO return date — confirm on official notice when posted."
           ],
@@ -11045,7 +11045,7 @@ export const CONTENT = {
       ],
       "cont": "Living log — last verified 2026-11-26, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (now open); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots ended 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
+      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC and ended early at 09:30 UTC. Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC, so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (now open); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots ended 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "ko": {
       "title": "업데이트 — 영웅·이벤트",
@@ -16236,12 +16236,12 @@ export const CONTENT = {
       ],
       "event_h2": "Launch-window events",
       "event": [
-        "Current Foundry dungeon: Emergency Mission! Catalyst Search, through 3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC). The previous charm week / Ruins Reclamation ended 26 Nov 2026, 10:59 Asia/Shanghai; leftover medals were removed. Use the checklist above for entry, eligibility and token expiry.",
+        "Current Foundry dungeon: Emergency Mission! Catalyst Search, through 12/3 02:59 UTC. The previous charm week / Ruins Reclamation ended 26 Nov 2026, 02:59 UTC; leftover medals were removed. Use the checklist above for entry, eligibility and token expiry.",
         "Secret Rabbit♥Hole side story + Case Files (still to 12/10 02:59 UTC) + Lucky Board (ended 11/19 02:59 UTC) — lobby icon; details on the Rabbit Hole page.",
         "Mailbox growth / wishlist / welcome skin mails on Foundry are time-gated — open mail early.",
         "Lobby icons for Rabbit♥Hole / boards disappear when the event ends — claim currencies early.",
-        "3,000 Days comment event: it ended 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai); 2 Leif is scheduled for 2026/11/20 with no delivery hour published. Format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event ended|/updates/#celebrate-3000-comment]]” section.",
-        "3,000-Day Celebration server cooperation ended 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai); it ran 11/12 03:00 → 11/26 02:59 UTC. Entry was Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
+        "3,000 Days comment event: it ended 11/18 (Wed) 14:59 UTC; 2 Leif is scheduled for 2026/11/20 with no delivery hour published. Format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event ended|/updates/#celebrate-3000-comment]]” section.",
+        "3,000-Day Celebration server cooperation ended 11/26 02:59 UTC; it ran 11/12 03:00 → 11/26 02:59 UTC. Entry was Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
         "“Everyone, Gather Carrots!”: up to 800 Carrots per day; Adventure/Battle points equal Energy used (excluding purchased Spectral Core; 1 Spectral Core = 160); Arena (incl. Draft Arena / Arena NPC Challenge) 70 per play; World Arena (incl. World Arena Tournament) 120 per play.",
         "Arena Carrots are the same win or lose; stages that use no Energy (e.g. Side Story story stages) do not count. Daily reset: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
         "Unclaimed event rewards expired when the event ended. Party Cake completion rewards required 800+ Carrots collected cumulatively; the all-Heirs total was tallied and reflected daily at 01:00 UTC.",
@@ -16267,7 +16267,7 @@ export const CONTENT = {
         ]
       ],
       "related_h2": "Related",
-      "reset_note": "Reset timezone note: daily/weekly boundaries follow the in-game clock shown in Epic Seven / STOVE notices for your region. When in doubt, trust the client timer over any third-party summary (including this page).",
+      "reset_note": "Reset timezone note: official event windows on this page are given in UTC (Asia/Shanghai is UTC+8). Daily/weekly boundaries follow the in-game clock shown in Epic Seven / STOVE notices for your region. When in doubt, trust the client timer over any third-party summary (including this page).",
       "foundry_h2": "Foundry-only quest deltas",
       "foundry_delta": [
         "Foundry characters do not inherit legacy quest checkmarks — expect to re-clear story/mission tracks on the new server.",

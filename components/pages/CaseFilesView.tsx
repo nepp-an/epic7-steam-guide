@@ -5,7 +5,8 @@ import { LocaleLink as L } from '@/components/LocaleLink';
 import { PageShell } from '@/components/PageShell';
 import { CASE_TASK_COPY, CASE_TABLES } from '@/lib/i18n/case-solutions';
 import { CASE_VISUAL_COPY } from '@/lib/i18n/case-visual';
-import type { Locale } from '@/lib/site';
+import { FaqJsonLd, WebPageJsonLd } from '@/components/JsonLd';
+import { type Locale } from '@/lib/site';
 import { BoardDiagram, CaseGlyph, EntryDiagram, TroubleDiagram } from './CaseDiagrams';
 
 export const CASE_FILES_LOCALES = ['en', 'ko', 'zh-tw', 'th'] as const;
@@ -34,6 +35,13 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
   const v = CASE_VISUAL_COPY[locale];
   return (
     <PageShell locale={locale} path="/case-files/" languages={CASE_FILES_LOCALES}>
+      <WebPageJsonLd
+        name={c.h1}
+        description={`${v.answerBefore}${v.eventName}${v.answerAfter} ${v.windowEnd}`}
+        path="/case-files/"
+        locale={locale}
+      />
+      <FaqJsonLd faqs={c.issues} />
       <article className="case-dossier">
         <header className="dossier-hero">
           <h1>{c.h1}</h1>
@@ -62,6 +70,8 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
           </div>
         </details>
 
+        <section className="dossier-cases" aria-labelledby="case-files-cases">
+        <h2 id="case-files-cases">{v.casesHeading}</h2>
         <div className="dossier-grid">
           {[0, 1, 2].map(i => (
             <section key={i} id={`case-${i + 1}`} className={`dossier-file case-${i + 1}`}>
@@ -69,7 +79,7 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
                 <CaseGlyph index={i as 0 | 1 | 2} className="dossier-glyph" />
                 <div className="dossier-file-copy">
                   <p className="dossier-kicker">{c.case} {i + 1}</p>
-                  <h2>{v.shortTitles[i]}</h2>
+                  <h3>{v.shortTitles[i]}</h3>
                   <p className="dossier-type">{v.types[i]}</p>
                 </div>
               </header>
@@ -107,6 +117,7 @@ export function CaseFilesView({ locale = 'en' }: { locale?: CaseFilesLocale }) {
             </section>
           ))}
         </div>
+        </section>
 
         <AdBanner468 />
 

@@ -1238,6 +1238,9 @@ main:has(.case-dossier) {
 .dossier-jump {
   margin: 0 0 0.85rem;
 }
+.dossier-cases > h2 {
+  margin-top: 0.4rem;
+}
 .dossier-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1291,7 +1294,8 @@ main:has(.case-dossier) {
   font-weight: 700;
   color: var(--case-accent);
 }
-.dossier-file h2 {
+.dossier-file h2,
+.dossier-file h3 {
   margin: 0 0 0.2rem;
   font-size: 1.2rem;
   line-height: 1.25;
@@ -1388,6 +1392,13 @@ main:has(.case-dossier) {
 .diagram-title {
   margin: 0 0 0.7rem;
   font-weight: 700;
+  color: var(--gold-bright);
+}
+h3.diagram-title {
+  margin: 0 0 0.7rem;
+  font-size: 1.05rem;
+  padding: 0;
+  border: none;
   color: var(--gold-bright);
 }
 .diagram-note {

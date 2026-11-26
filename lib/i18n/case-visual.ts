@@ -18,6 +18,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
   openFile: string;
   decisive: string;
   diagramNote: string;
+  casesHeading: string;
   shortTitles: [string, string, string];
   types: [string, string, string];
   enterTitle: string;
@@ -40,6 +41,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
     openFile: 'Open this case',
     decisive: 'Decisive clue',
     diagramNote: 'Illustrative diagram — not a game screenshot.',
+    casesHeading: "Cases in Trusty Sidekick Alencia's Case Files",
     shortTitles: ['Missing plushie', 'Broken gramophone', 'Missing safe item'],
     types: ['Time + location', 'Nail polish + arrival order', 'Food + possession'],
     enterTitle: "Trusty Sidekick Alencia's Case Files — how to enter",
@@ -71,6 +73,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
     openFile: '이 사건 열기',
     decisive: '결정적 단서',
     diagramNote: '설명용 도해이며 게임 스크린샷이 아닙니다.',
+    casesHeading: '명조수 알렌시아의 사건수첩 각 사건',
     shortTitles: ['사라진 인형', '고장 난 축음기', '금고 분실물'],
     types: ['시간 × 장소', '매니큐어 × 도착 순서', '음식 × 소지품'],
     enterTitle: '입장 경로',
@@ -102,6 +105,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
     openFile: '打開本案',
     decisive: '決定性線索',
     diagramNote: '此為說明用示意圖，不是遊戲截圖。',
+    casesHeading: '名助手艾蓮西雅的事件手冊各案',
     shortTitles: ['遺失的玩偶', '壞掉的留聲機', '保險箱失物'],
     types: ['時間 × 地點', '指甲油 × 抵達順序', '食物 × 持有物'],
     enterTitle: '怎麼進入',
@@ -133,6 +137,7 @@ export const CASE_VISUAL_COPY: Record<'en' | 'ko' | 'zh-tw' | 'th', {
     openFile: 'เปิดคดีนี้',
     decisive: 'เบาะแสชี้ตัว',
     diagramNote: 'แผนภาพประกอบ — ไม่ใช่ภาพหน้าจอในเกม',
+    casesHeading: 'คดีในแฟ้มคดีผู้ช่วย Alencia',
     shortTitles: ['ตุ๊กตาที่หาย', 'เครื่องเล่นแผ่นเสียงพัง', 'ของหายในตู้เซฟ'],
     types: ['เวลา × สถานที่', 'สีเล็บ × ลำดับมาถึง', 'อาหาร × สิ่งของ'],
     enterTitle: 'วิธีเข้า',

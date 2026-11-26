@@ -71,16 +71,16 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
   en: {
     sectionTitle: 'Current event routes',
     intro:
-      'Official windows only — this is not a full in-game quest list. Dirge of the End: Rewind, Catalyst Search, and Daily Life of a Palace Maid are now open. The previous Emergency Mission charm week ended 26 Nov 2026, 10:59 Asia/Shanghai. Shop catalogs and Leif totals are listed only when the official notice publishes them.',
+      'Official windows only — this is not a full in-game quest list. Times below are official UTC (Asia/Shanghai is UTC+8). Dirge of the End: Rewind, Catalyst Search, and Daily Life of a Palace Maid are now open. The previous Emergency Mission charm week ended 26 Nov 2026, 02:59 UTC. Shop catalogs and Leif totals are listed only when the official notice publishes them.',
     verified:
       'Reviewed 26 November 2026, Asia/Shanghai, against the official notices linked below. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update.',
     sourceLabel: 'Official notice',
     bannerNote:
       'A separate points event, Daily Life of a Palace Maid, is now open on the same schedule as this Cecilia pickup. It is entered from Secret Rabbit♥Hole and does not summon Cecilia. Route, point cap and shop close: the quests page.',
     rabbitNote:
-      'Secret Rabbit♥Hole now also hosts Daily Life of a Palace Maid, a points-and-exchange event that opened 26 Nov 2026, 11:00 Asia/Shanghai. It is not part of Case Files and does not replace clue collection. Details are on the quests page.',
+      'Secret Rabbit♥Hole now also hosts Daily Life of a Palace Maid, a points-and-exchange event that opened 26 Nov 2026, 03:00 UTC. It is not part of Case Files and does not replace clue collection. Details are on the quests page.',
     foundryLead:
-      'The charm-week Emergency Mission ended 26 Nov 2026, 10:59 Asia/Shanghai. Catalyst Search is now open until 3 Dec, 10:59. Dirge of the End: Rewind is already open until 17 Dec, 10:59.',
+      'The charm-week Emergency Mission ended 26 Nov 2026, 02:59 UTC. Catalyst Search is now open until 3 Dec, 02:59 UTC. Dirge of the End: Rewind is already open until 17 Dec, 02:59 UTC.',
     foundryLinkLabel: 'Event routes on the quests page',
     events: [
       {
@@ -94,7 +94,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         rewardBody:
           'Official notice: a free Continue buff during the event, and Leif from missions and participation. The notice does not publish per-step Leif amounts or buff values.',
         deadlineLabel: 'Deadline',
-        deadlineBody: '17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC).',
+        deadlineBody: '17 Dec 2026, 02:59 UTC.',
         doneLabel: 'Done when',
         doneBody:
           'All eight listed chapters are cleared, and each previous mission’s rewards have been claimed before the next claim. That claim order is an official rule.',
@@ -128,12 +128,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           'Gold and the event token Ruins Exploration Coin on clear. Coins exchange at 100 per pull in the official table below. The exchange closes when the mission ends; leftover coins are removed.',
         deadlineLabel: 'Deadline',
         deadlineBody:
-          'Now open: 26 Nov 2026, 11:00 Asia/Shanghai (11/26 03:00 UTC) through 3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC). The previous charm week already ended one hour earlier, at 26 Nov, 10:59 Asia/Shanghai (11/26 02:59 UTC).',
+          'Now open: 26 Nov 2026, 03:00 UTC through 3 Dec 2026, 02:59 UTC. The previous charm week already ended one hour earlier, at 26 Nov, 02:59 UTC.',
         doneLabel: 'Done when',
         doneBody: 'Planned entries are finished and coins are exchanged before the exchange closes.',
         stuckLabel: 'If blocked',
         stuckBody:
-          'If Episode 1-6 is not cleared, finish that first. The previous charm week / Ruins Reclamation already ended 26 Nov 2026, 10:59 Asia/Shanghai; leftover medals were removed when that exchange closed. This week is Catalyst Search.',
+          'If Episode 1-6 is not cleared, finish that first. The previous charm week / Ruins Reclamation already ended 26 Nov 2026, 02:59 UTC; leftover medals were removed when that exchange closed. This week is Catalyst Search.',
         officialHref: CATALYST_HREF,
         officialLabel: 'STOVE 14638258 — Emergency Mission! Catalyst Search',
         exchangeTitle: 'Official exchange (100 tokens each)',
@@ -154,12 +154,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           'Decorative Buttons and Leif at official point milestones, spent in Party Lost and Found. Each shop item has an exchange limit. The notice does not list the shop catalog or Leif milestone values, so they are not invented here.',
         deadlineLabel: 'Deadline',
         deadlineBody:
-          'Event play: 26 Nov 2026, 11:00 Asia/Shanghai (11/26 03:00 UTC) through 17 Dec at each server’s reset (official wording). Party Lost and Found closes 17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC). Do not treat the whole event as one global end hour except for that shop close.',
+          'Event play: 26 Nov 2026, 03:00 UTC through 17 Dec at each server’s reset (official wording). Party Lost and Found closes 17 Dec 2026, 02:59 UTC. Do not treat the whole event as one global end hour except for that shop close.',
         doneLabel: 'Done when',
         doneBody: 'Daily points are used before they expire, and buttons are exchanged before the shop closes.',
         stuckLabel: 'If blocked',
         stuckBody:
-          'The event is now open (from 26 Nov 2026, 11:00 Asia/Shanghai). Enter from Secret Rabbit♥Hole, not the Case Files page. The official point list includes Draft Arena; on Foundry, Draft Arena is temporarily replaced by The Call of Chaos through 17 Dec. World Arena is scheduled after the 10 Dec maintenance. Use modes that are actually open in your client.',
+          'The event is now open (from 26 Nov 2026, 03:00 UTC). Enter from Secret Rabbit♥Hole, not the Case Files page. The official point list includes Draft Arena; on Foundry, Draft Arena is temporarily replaced by The Call of Chaos through 17 Dec. World Arena is scheduled after the 10 Dec maintenance. Use modes that are actually open in your client.',
         officialHref: PALACE_HREF,
         officialLabel: 'STOVE 14638262 — Daily Life of a Palace Maid',
         pointsTitle: 'Official point sources (daily cap 400; unused points expire)',
