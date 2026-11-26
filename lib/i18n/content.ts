@@ -3661,8 +3661,8 @@ export const CONTENT = {
   },
   "/steam-transfer/": {
     "en": {
-      "title": "How to Link STOVE Account to Steam and Keep Progress | Epic Seven",
-      "meta": "How to link your STOVE account to Steam and keep Epic Seven progress by converting to Steam Simple Login. Wrong-bind Convert and transfer ≠ Foundry are secondary notes. Unofficial.",
+      "title": "Epic Seven Steam Transfer: Keep Your STOVE Progress",
+      "meta": "Transfer your Epic Seven STOVE account to Steam and keep your progress. Do the STOVE transfer first to avoid a new save. Unofficial; not Foundry.",
       "h1": "Epic Seven Steam transfer — keep progress",
       "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [
