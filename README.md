@@ -32,7 +32,7 @@ npm run dev      # next dev
 
 ## Deploy to Cloudflare Pages
 
-Pushes to `master` are built by the Cloudflare Pages project `epicsevensteam` from the repo root. `npm run build` writes `out/`. Do not push this repo to Vercel.
+Pushes to `master` are built by the Cloudflare Pages project `epicsevensteam` from the repo root. `npm run build` writes `out/`. Live acceptance is on Cloudflare Pages only. Do not push this repo to Vercel.
 
 Optional env when needed:
 

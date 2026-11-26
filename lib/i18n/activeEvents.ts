@@ -191,7 +191,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
     rabbitNote:
       '秘密兔子洞現已同時舉辦積分兌換活動「宮廷女僕的日常」（2026年11月26日 03:00 UTC起）。它不是事件手冊的一部分，也不取代線索蒐集。詳細步驟見任務頁。',
     foundryLead:
-      '魅力週緊急任務已於2026年11月26日 02:59 UTC結束。Catalyst Search 現已開放，至12月3日10:59。Dirge of the End: Rewind 已開放，至12月17日10:59。',
+      '魅力週緊急任務已於2026年11月26日 02:59 UTC結束。Catalyst Search 現已開放，至12月3日 02:59 UTC。Dirge of the End: Rewind 已開放，至12月17日 02:59 UTC。',
     foundryLinkLabel: '任務頁的活動路線',
     events: [
       {
@@ -238,7 +238,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '通關獲得金幣與活動代幣Ruins Exploration Coin。每100枚依下方官方表兌換一次。活動結束時兌換所立即關閉，剩餘代幣會被移除。',
         deadlineLabel: '期限',
         deadlineBody:
-          '現已開放：2026年11月26日11:00至12月3日 02:59 UTC。上一檔魅力週已提早一小時結束，即11月26日 02:59 UTC。',
+          '現已開放：2026年11月26日 03:00 UTC至12月3日 02:59 UTC。上一檔魅力週已提早一小時結束，即11月26日 02:59 UTC。',
         doneLabel: '完成判據',
         doneBody: '已完成預定場次，並在兌換所關閉前換完代幣。',
         stuckLabel: '若卡住',
@@ -300,7 +300,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
     rabbitNote:
       'Secret Rabbit♥Hole에서 Daily Life of a Palace Maid 포인트·교환 이벤트가 2026년 11월 26일 03:00 UTC부터 열려 있습니다. 케이스 파일의 일부가 아니며 단서 수집을 대체하지 않습니다. 자세한 동선은 퀘스트 페이지에 있습니다.',
     foundryLead:
-      '매력 주간 Emergency Mission은 2026년 11월 26일 02:59 UTC에 종료되었습니다. Catalyst Search는 지금 열려 있으며 12월 3일 10:59까지입니다. Dirge of the End: Rewind는 이미 열려 있으며 12월 17일 10:59까지입니다.',
+      '매력 주간 Emergency Mission은 2026년 11월 26일 02:59 UTC에 종료되었습니다. Catalyst Search는 지금 열려 있으며 12월 3일 02:59 UTC까지입니다. Dirge of the End: Rewind는 이미 열려 있으며 12월 17일 02:59 UTC까지입니다.',
     foundryLinkLabel: '퀘스트 페이지의 이벤트 동선',
     events: [
       {
@@ -347,7 +347,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '클리어 시 골드와 이벤트 토큰 Ruins Exploration Coin. 100개당 아래 공식 표로 교환. 미션이 끝나면 교환소가 바로 닫히고 남은 코인은 삭제됩니다.',
         deadlineLabel: '기한',
         deadlineBody:
-          '지금 열려 있음: 2026년 11월 26일 11:00–12월 3일 02:59 UTC. 이전 매력 주간은 한 시간 이른 11월 26일 02:59 UTC에 이미 종료되었습니다.',
+          '지금 열려 있음: 2026년 11월 26일 03:00 UTC–12월 3일 02:59 UTC. 이전 매력 주간은 한 시간 이른 11월 26일 02:59 UTC에 이미 종료되었습니다.',
         doneLabel: '완료 기준',
         doneBody: '계획한 입장 횟수를 소진하고 교환소가 닫히기 전에 코인을 교환했습니다.',
         stuckLabel: '막혔을 때',
@@ -409,7 +409,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
     rabbitNote:
       'Secret Rabbit♥Hole มีอีเวนต์คะแนนและแลกของ Daily Life of a Palace Maid เปิดแล้วตั้งแต่ 26 พ.ย. 2026 03:00 UTC ซึ่งไม่ใช่ส่วนหนึ่งของ Case Files และไม่ทดแทนการเก็บเบาะแส รายละเอียดอยู่ที่หน้าเควสต์',
     foundryLead:
-      'Emergency Mission สัปดาห์ชาร์มจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC Catalyst Search เปิดอยู่แล้วถึง 3 ธ.ค. 10:59 Dirge of the End: Rewind เปิดอยู่แล้วถึง 17 ธ.ค. 10:59',
+      'Emergency Mission สัปดาห์ชาร์มจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC Catalyst Search เปิดอยู่แล้วถึง 3 ธ.ค. 02:59 UTC Dirge of the End: Rewind เปิดอยู่แล้วถึง 17 ธ.ค. 02:59 UTC',
     foundryLinkLabel: 'เส้นทางอีเวนต์ในหน้าเควสต์',
     events: [
       {
@@ -456,7 +456,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           'เคลียร์ได้ทองและเหรียญอีเวนต์ Ruins Exploration Coin แลก 100 เหรียญต่อการสุ่มตามตารางทางการด้านล่าง เมื่อมิชชันจบ ร้านแลกปิดทันที และเหรียญที่เหลือจะถูกลบ',
         deadlineLabel: 'กำหนดสิ้นสุด',
         deadlineBody:
-          'เปิดแล้ว: 26 พ.ย. 2026 11:00 ถึง 3 ธ.ค. 2026 02:59 UTC สัปดาห์ชาร์มก่อนหน้าจบเร็วกว่าหนึ่งชั่วโมงแล้ว คือ 26 พ.ย. 02:59 UTC',
+          'เปิดแล้ว: 26 พ.ย. 2026 03:00 UTC ถึง 3 ธ.ค. 2026 02:59 UTC สัปดาห์ชาร์มก่อนหน้าจบเร็วกว่าหนึ่งชั่วโมงแล้ว คือ 26 พ.ย. 02:59 UTC',
         doneLabel: 'ถือว่าเสร็จเมื่อ',
         doneBody: 'เล่นครบตามที่วางแผน และแลกเหรียญก่อนร้านปิด',
         stuckLabel: 'ถ้าติด',

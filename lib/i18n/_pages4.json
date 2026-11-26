@@ -1334,7 +1334,7 @@
         "Not a full wiki replacement — we cite official posts."
       ],
       "dom_h2": "Domain status",
-      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Vercel, DNS-only / gray-cloud).",
+      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages, project epicsevensteam, branch master).",
       "contact_h2": "Contact",
       "contact": "privacy@epicsevensteam.com (Email Routing → site operator Gmail). Do not send passwords.",
       "off_h2": "Official destinations"
@@ -1351,7 +1351,7 @@
         "전체 위키 대체 아님 — 공식 공지를 인용."
       ],
       "dom_h2": "도메인",
-      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Vercel, 회雲 DNS).",
+      "dom": "Apex: epicsevensteam.com (Cloudflare Registrar → Cloudflare Pages, 프로젝트 epicsevensteam, 브랜치 master).",
       "contact_h2": "연락",
       "contact": "privacy@epicsevensteam.com (Email Routing → 운영자 Gmail). 비밀번호 보내지 마세요.",
       "off_h2": "공식 목적지"
@@ -1368,7 +1368,7 @@
         "完全Wiki置換ではない — 公式告知を引用。"
       ],
       "dom_h2": "ドメイン",
-      "dom": "Apex: epicsevensteam.com（Cloudflare Registrar → Vercel、灰雲DNS）。",
+      "dom": "Apex: epicsevensteam.com（Cloudflare Registrar → Cloudflare Pages、プロジェクト epicsevensteam、ブランチ master）。",
       "contact_h2": "連絡",
       "contact": "privacy@epicsevensteam.com（Email Routing → 運営Gmail）。パスワードは送らないでください。",
       "off_h2": "公式先"
@@ -1385,7 +1385,7 @@
         "不是完整 wiki——我們引用官方公告。"
       ],
       "dom_h2": "網域狀態",
-      "dom": "Apex：epicsevensteam.com（Cloudflare Registrar → Vercel，灰雲 DNS）。",
+      "dom": "Apex：epicsevensteam.com（Cloudflare Registrar → Cloudflare Pages，專案 epicsevensteam，分支 master）。",
       "contact_h2": "聯絡",
       "contact": "privacy@epicsevensteam.com（Email Routing → 站長 Gmail）。請勿寄密碼。",
       "off_h2": "官方目的地"
