@@ -503,6 +503,64 @@ def diagram_summon_calculator() -> Image.Image:
     return im
 
 
+
+def diagram_already_registered() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Already registered or a greyed-out Transfer button (independent)",
+        "Two official wordings are restated side by side — this page does not pick one",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_ORANGE, "Already registered", "Official wording: “This information\nhas already been registered.\nPlease start over.” A temporary\nSteam account already exists,\nso you cannot transfer onto it."),
+            (DIA_BLUE, "Two official wordings", "FAQ Q3 is Convert only.\nThe account guide also says\nregister, then withdraw, and\nfollow its current-Steam steps.\nThis page does not pick one."),
+            (DIA_GREEN, "Greyed-out button", "Only if you already transferred\nin the last 3 months: wait 3\nmonths from that date, then\ncontinue in STOVE > [My Info].\nNot a first-bind default wait."),
+        ],
+    )
+    return im
+
+
+def diagram_wrong_bind() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Steam opened a new account — recover STOVE progress (independent)",
+        "Official FAQ Q3 is the Convert sequence; Q3 does not require withdrawal",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_ORANGE, "New Steam account", "Official FAQ Q3: if Steam\nalready opened a new account,\nyou can still return to your\noriginal email or SNS login."),
+            (DIA_GREEN, "Q3 Convert sequence", "Register via Steam login if\nneeded, convert the temporary\naccount to a non-Steam login,\nthen convert the original\nemail/SNS login to Steam."),
+            (DIA_BLUE, "Temporary-account note", "The account guide: a first\nlaunch can create a temporary\nSteam account. If it is not\nattached to STOVE, access and\nCS help may not be possible."),
+        ],
+    )
+    return im
+
+
+def diagram_transfer_vs_foundry() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Transferring your login is not moving to Foundry (independent)",
+        "Official FAQ Q4: Steam can still enter new and existing worlds",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_BLUE, "Login transfer", "Converting your login only\nchanges how you sign in\n(email/SNS → Steam) and keeps\nlegacy-server progress."),
+            (DIA_ORANGE, "Foundry is separate", "Foundry is a new server you\nopt into on purpose. Transfer\nitself does not move an old\nHeir onto Foundry."),
+            (DIA_GREEN, "New and existing worlds", "Official FAQ Q4: after a\nSteam conversion you can still\nenter the new world and\nexisting worlds — not only\nthe new world."),
+        ],
+    )
+    return im
+
+
 def main() -> None:
     AVATAR_DIR.mkdir(parents=True, exist_ok=True)
     for slug, letters, tint in LIBRARY_NEW + SAMPLE_ONLY:
@@ -513,6 +571,9 @@ def main() -> None:
     write_diagram("diagram-steam-beginner.webp", diagram_steam_beginner())
     write_diagram("diagram-steam-vs-mobile.webp", diagram_steam_vs_mobile())
     write_diagram("diagram-summon-calculator.webp", diagram_summon_calculator())
+    write_diagram("diagram-already-registered.webp", diagram_already_registered())
+    write_diagram("diagram-wrong-bind.webp", diagram_wrong_bind())
+    write_diagram("diagram-transfer-vs-foundry.webp", diagram_transfer_vs_foundry())
 
 
 if __name__ == "__main__":

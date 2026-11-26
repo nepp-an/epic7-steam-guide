@@ -2990,4 +2990,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://epicsevensteam.com/already-registered/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/already-registered/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/already-registered/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/wrong-bind/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/wrong-bind/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/wrong-bind/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/transfer-vs-foundry/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/transfer-vs-foundry/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/transfer-vs-foundry/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

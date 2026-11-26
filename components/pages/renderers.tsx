@@ -1062,6 +1062,12 @@ export function TransferView({ locale }: { locale: Locale }) {
           ))}
         </ol>
         <p className="muted">{c.conflict_note}</p>
+        {locale === 'en' ? (
+          <p>
+            A longer walkthrough of this Convert path is on the{' '}
+            <a href="/wrong-bind/">wrong-bind recovery page</a>.
+          </p>
+        ) : null}
       </div>
       <h2 id="cooldown">{c.cooldown_h2}</h2>
       <div className="card warn">
@@ -1085,6 +1091,12 @@ export function TransferView({ locale }: { locale: Locale }) {
           </tbody>
         </table>
         <p className="muted">{c.cooldown_note}</p>
+        {locale === 'en' ? (
+          <p>
+            A longer walkthrough of these two stuck-transfer messages is on the{' '}
+            <a href="/already-registered/">already-registered and greyed-button page</a>.
+          </p>
+        ) : null}
       </div>
       <h2>{c.tree_h2}</h2>
       {c.tree.map(([h, body]) => (
@@ -1100,6 +1112,13 @@ export function TransferView({ locale }: { locale: Locale }) {
           {c.link_foundry}
         </L>
         .
+        {locale === 'en' ? (
+          <>
+            {' '}
+            A dedicated comparison is on the{' '}
+            <a href="/transfer-vs-foundry/">transfer vs Foundry page</a>.
+          </>
+        ) : null}
       </p>
       <h2>{c.cross_h2}</h2>
       <ul>
@@ -1132,6 +1151,24 @@ export function TransferView({ locale }: { locale: Locale }) {
           <details key={q}>
             <summary>{q}</summary>
             <FaqRich locale={locale} marked={a} />
+            {locale === 'en' && q === 'STOVE says “already been registered” — what now?' ? (
+              <p>
+                A longer walkthrough is on the{' '}
+                <a href="/already-registered/">already-registered and greyed-button page</a>.
+              </p>
+            ) : null}
+            {locale === 'en' && q === 'What if Steam already made a new account?' ? (
+              <p>
+                A longer walkthrough is on the{' '}
+                <a href="/wrong-bind/">wrong-bind recovery page</a>.
+              </p>
+            ) : null}
+            {locale === 'en' && q === 'Does transfer move me onto Foundry?' ? (
+              <p>
+                A dedicated comparison is on the{' '}
+                <a href="/transfer-vs-foundry/">transfer vs Foundry page</a>.
+              </p>
+            ) : null}
           </details>
         ))}
       </section>
@@ -1289,6 +1326,27 @@ export function FaqView({ locale }: { locale: Locale }) {
               <details key={q}>
                 <summary>{q}</summary>
                 <FaqRich locale={locale} marked={a} />
+                {locale === 'en' &&
+                (q.includes('already been registered') ||
+                  q.includes('Transfer button greyed out')) ? (
+                  <p>
+                    A longer walkthrough is on the{' '}
+                    <a href="/already-registered/">already-registered and greyed-button page</a>.
+                  </p>
+                ) : null}
+                {locale === 'en' && q.includes('why a new Heir') ? (
+                  <p>
+                    A longer walkthrough of an empty Steam account is on the{' '}
+                    <a href="/wrong-bind/">wrong-bind recovery page</a>.
+                  </p>
+                ) : null}
+                {locale === 'en' &&
+                q === 'Can I play Foundry on Steam and continue on mobile?' ? (
+                  <p>
+                    A dedicated comparison of login transfer and Foundry is on the{' '}
+                    <a href="/transfer-vs-foundry/">transfer vs Foundry page</a>.
+                  </p>
+                ) : null}
               </details>
             );
           })}
@@ -1446,6 +1504,16 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
             {c.link_foundry}
           </L>
         </li>
+        {locale === 'en' ? (
+          <>
+            <li>
+              <a href="/already-registered/">Already registered or a greyed-out Transfer button</a>
+            </li>
+            <li>
+              <a href="/wrong-bind/">Wrong-bind recovery: Steam opened a new account</a>
+            </li>
+          </>
+        ) : null}
       </ul>
     </PageShell>
   );
@@ -1523,6 +1591,13 @@ export function FoundryView({ locale }: { locale: Locale }) {
           {c.link_transfer}
         </L>
         .
+        {locale === 'en' ? (
+          <>
+            {' '}
+            A dedicated comparison of login transfer and Foundry is on the{' '}
+            <a href="/transfer-vs-foundry/">transfer vs Foundry page</a>.
+          </>
+        ) : null}
       </p>
       <h2>{c.unlock_h2}</h2>
       <table className="data">

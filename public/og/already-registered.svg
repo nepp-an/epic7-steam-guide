@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Already registered or a greyed-out Transfer button, independent guide, epicsevensteam.com">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1018"/>
+      <stop offset="0.5" stop-color="#122033"/>
+      <stop offset="1" stop-color="#1c3a3a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c75e"/>
+      <stop offset="1" stop-color="#d4a84b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.15" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#1f6b6b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1f6b6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="36" y="36" width="1128" height="558" fill="none" stroke="#d4a84b" stroke-opacity="0.45" stroke-width="2" rx="18"/>
+  <text x="80" y="150" fill="#9aa6bc" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" letter-spacing="4">INDEPENDENT TRANSFER HELP</text>
+  <text x="80" y="250" fill="url(#gold)" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800">Already Registered</text>
+  <text x="80" y="330" fill="#ffffff" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="800">or a Greyed Transfer Button</text>
+  <text x="80" y="420" fill="#e8ecf4" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="28">Official wording restated — this page does not pick a path</text>
+  <text x="80" y="520" fill="#9aa6bc" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="28">epicsevensteam.com · not Smilegate official</text>
+</svg>

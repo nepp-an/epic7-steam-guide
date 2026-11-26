@@ -58,6 +58,14 @@ export function SteamSymptomNavigator({ locale }: { locale: GrowthLocale }) {
     <nav className="anchor-nav" aria-label={c.steamTitle}>{c.steam.map((card, i) => <a key={card[0]} href={`#steam-symptom-${i + 1}`}>{card[0]}</a>)}</nav>
     <RouteCards cards={c.steam} labels={c.labels} prefix="steam-symptom" sources={STEAM_SOURCES} />
     <p><L locale={locale} href="/steam-transfer/">{c.steamLinks[0]}</L>{' · '}<L locale={locale} href="/maintenance/">{c.steamLinks[1]}</L>{' · '}<L locale={locale} href="/faq/">{c.steamLinks[3]}</L>{' · '}<ExternalLink href={SUPPORT}>{c.steamLinks[2]}</ExternalLink></p>
+    {locale === 'en' ? (
+      <p>
+        If Steam opened a new empty Heir, see the{' '}
+        <a href="/wrong-bind/">wrong-bind recovery page</a>. If you see
+        “already registered” or a greyed-out Transfer button, see the{' '}
+        <a href="/already-registered/">already-registered page</a>.
+      </p>
+    ) : null}
     <h3>{c.sources}</h3><p className="muted">{c.steamSourceNote}</p><ul className="sources">{STEAM_SOURCES.map(([href, text]) => <li key={href}><ExternalLink href={href}>{text}</ExternalLink></li>)}</ul>
   </section>;
 }

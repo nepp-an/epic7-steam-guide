@@ -241,6 +241,9 @@ export const OFFICIAL = {
   stoveSteamFaq: 'https://page.onstove.com/epicseven/global/view/14378309',
   stoveAccountTransferGuide:
     'https://page.onstove.com/epicseven/global/view/14609690',
+  stoveAccountBindFaq:
+    'https://page.onstove.com/epicseven/global/view/9979189',
+  stoveCustomerService: 'https://cs.onstove.com/en/service/STOVE_EPIC7',
   stoveVersion87Update:
     'https://page.onstove.com/epicseven/GLOBAL/view/14638143',
   stoveFoundry: 'https://page.onstove.com/epicseven/global/view/14571828',
