@@ -17,7 +17,7 @@ export function TaskChecklist({copy: c}: {copy: (typeof GROWTH_COPY)[GrowthLocal
           const on = e.target.checked; setChecked(prev => toggleTask(prev, task[0], on));
         }}/>{' '}{task[2]}</label></h3>
         <dl><dt>{c.entry}</dt><dd>{task[3]}</dd><dt>{c.reward}</dt><dd>{task[4]}</dd><dt>{c.deadline}</dt><dd>{task[5]}</dd><dt>{c.done}</dt><dd>{task[6]}</dd></dl>
-        <a href={task[0] === 'case' ? OFFICIAL.stoveSecretRabbitCase : OFFICIAL.stoveFoundry} target="_blank" rel="noopener noreferrer">{c.source} ↗</a>
+        <a href={task[0] === 'case' ? OFFICIAL.stoveSecretRabbitCase : task[0] === 'catalyst' ? OFFICIAL.stoveCatalystSearch : OFFICIAL.stoveFoundry} target="_blank" rel="noopener noreferrer">{c.source} ↗</a>
       </article>)}</div>
     </section>)}
     <p role="status" hidden={checked.length !== c.tasks.length}>{c.complete}</p>

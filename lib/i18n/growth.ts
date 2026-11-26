@@ -70,13 +70,13 @@ export const GROWTH_COPY = {
         "Daily glasses claimed and current-case clues recorded; answer key cannot skip collection."
       ],
       [
-        "ruins",
+        "catalyst",
         "week",
-        "Use the current Ruins Reclamation window",
+        "Use the current Catalyst Search window",
         "Battle → Event → Emergency Mission; clear 6th World Episode 1-6.",
-        "Elite Raid Team’s Medals for the charm / modification-gem exchange; 5 daily entries, optional paid recharges.",
-        "26 Nov 2026, 10:59 Asia/Shanghai. Exchange closes too; remaining medals are removed.",
-        "Chosen entries finished and tokens exchanged before closing; do not confuse this with Catalyst Search."
+        "Ruins Exploration Coins for the official catalyst exchange; 5 daily entries, optional Skystone recharges.",
+        "3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC). Exchange closes too; leftover coins are removed.",
+        "Chosen entries finished and coins exchanged before closing. The previous charm week / Ruins Reclamation already ended 26 Nov 2026, 10:59 Asia/Shanghai."
       ],
       [
         "luna",
@@ -158,13 +158,13 @@ export const GROWTH_COPY = {
         "今日放大鏡已領並記錄當案線索；知道答案不能跳過蒐集。"
       ],
       [
-        "ruins",
+        "catalyst",
         "week",
-        "完成當期Ruins Reclamation",
+        "完成當期Catalyst Search",
         "戰鬥 → 活動 → 緊急任務；先通過第6世界Episode1-6。",
-        "精銳突擊隊勳章用於強化石／變更石交換；每日5次，額外次數需付資源。",
-        "2026年11月26日10:59（Asia/Shanghai）；交換同步關閉，剩餘代幣刪除。",
-        "完成預定場次，關閉前換完代幣；不要與Catalyst Search混淆。"
+        "Ruins Exploration Coin用於官方催化劑兌換；每日5次，額外次數可用天空石。",
+        "2026年12月3日10:59（Asia/Shanghai；12/3 02:59 UTC）；兌換同步關閉，剩餘代幣刪除。",
+        "完成預定場次，關閉前換完代幣。上一檔魅力週／Ruins Reclamation已於2026年11月26日10:59（Asia/Shanghai）結束。"
       ],
       [
         "luna",
@@ -246,13 +246,13 @@ export const GROWTH_COPY = {
         "오늘 돋보기 수령 및 현재 사건 단서 기록; 정답을 알아도 수집은 필요."
       ],
       [
-        "ruins",
+        "catalyst",
         "week",
-        "현재 Ruins Reclamation 마무리",
+        "현재 Catalyst Search 진행",
         "전투 → 이벤트 → 긴급 임무; 6th World Episode1-6 클리어.",
-        "정예 습격대 메달로 강화석/변경석 교환; 일일5회, 추가 충전은 선택적 유료 재화.",
-        "2026년11월26일10:59 Asia/Shanghai; 교환소도 닫히며 잔여 토큰 삭제.",
-        "계획한 입장 및 종료 전 토큰 교환 완료; Catalyst Search와 구분."
+        "공식 촉매 교환용 Ruins Exploration Coin; 일일 5회, 추가 충전은 선택적 스카이스톤.",
+        "2026년 12월 3일 10:59 Asia/Shanghai (12/3 02:59 UTC); 교환소도 닫히며 남은 코인 삭제.",
+        "계획한 입장 및 종료 전 코인 교환 완료. 이전 매력 주간/Ruins Reclamation은 2026년 11월 26일 10:59 Asia/Shanghai에 이미 종료됨."
       ],
       [
         "luna",
@@ -334,13 +334,13 @@ export const GROWTH_COPY = {
         "รับแว่นวันนี้และบันทึกเบาะแสคดีปัจจุบันแล้ว รู้เฉลยก็ข้ามการเก็บไม่ได้"
       ],
       [
-        "ruins",
+        "catalyst",
         "week",
-        "จบ Ruins Reclamation รอบปัจจุบัน",
+        "เล่น Catalyst Search รอบปัจจุบัน",
         "Battle → Event → Emergency Mission; ผ่าน6th World Episode1-6",
-        "Elite Raid Team’s Medals ใช้แลก Charm/Modification Gem เข้าฟรีวันละ5ครั้ง ซื้อเพิ่มได้เป็นทางเลือก",
-        "26พ.ย.2026 10:59 Asia/Shanghai ร้านแลกปิดพร้อมกันและลบเหรียญคงเหลือ",
-        "เล่นตามแผนและแลกเหรียญก่อนปิด อย่าสับสนกับ Catalyst Search"
+        "Ruins Exploration Coin สำหรับแลกตัวเร่งตามประกาศทางการ เข้าฟรีวันละ5ครั้ง เติมด้วย Skystone ได้เป็นทางเลือก",
+        "3 ธ.ค. 2026 10:59 Asia/Shanghai (12/3 02:59 UTC) ร้านแลกปิดพร้อมกันและลบเหรียญคงเหลือ",
+        "เล่นตามแผนและแลกเหรียญก่อนปิด สัปดาห์ชาร์ม / Ruins Reclamation ก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai"
       ],
       [
         "luna",

@@ -7045,7 +7045,7 @@ export const CONTENT = {
         ],
         [
           "Login gifts",
-          "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). Mailbox pack through ~11/26 — claim before 7-day expiry."
+          "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). The mailbox-pack login window ended 11/19 02:59 UTC; mail already received follows its own 7-day mailbox timer."
         ],
         [
           "World Arena prep ladder",
@@ -7373,7 +7373,7 @@ export const CONTENT = {
         ],
         [
           "로그인 선물",
-          "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 ~11/26 — 7일 내 수령"
+          "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 로그인 창은 11/19 02:59 UTC에 종료; 이미 받은 메일은 자체 7일 타이머를 따름"
         ],
         [
           "WA 준비 사다리",
@@ -7693,7 +7693,7 @@ export const CONTENT = {
         ],
         [
           "ログインギフト",
-          "歓迎：New Moon Lunaエピックスキン+SD。メールパック〜11/26 — 7日内受取"
+          "歓迎：New Moon Lunaエピックス킨+SD。メールパックのログイン期間は11/19 02:59 UTCに終了。受取済みメールは各自の7日タイマーに従う"
         ],
         [
           "WA準備ラダー",
@@ -8023,7 +8023,7 @@ export const CONTENT = {
         ],
         [
           "登入禮",
-          "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包至約 11/26 — 7 日內領"
+          "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包登入窗口已於 11/19 02:59 UTC 結束；若信箱已有該信，依其自身 7 天倒數"
         ],
         [
           "WA 準備階梯",
@@ -8353,7 +8353,7 @@ export const CONTENT = {
         ],
         [
           "ของขวัญล็อกอิน",
-          "ต้อนรับ: สกิน epic New Moon Luna (Majestic Bunny Girl) + สติกเกอร์ SD (ครั้งเดียว) แพ็กในกล่องจดหมายถึง ~11/26 — รับก่อนหมดอายุ 7 วัน"
+          "ต้อนรับ: สกิน epic New Moon Luna (Majestic Bunny Girl) + สติกเกอร์ SD (ครั้งเดียว) ช่วงล็อกอินของแพ็กในกล่องจดหมายจบแล้วเมื่อ 11/19 02:59 UTC; หากมีอยู่ในกล่องแล้ว ให้ถือตามเวลา 7 วันของจดหมายนั้น"
         ],
         [
           "บันไดเตรียม World Arena",
@@ -8670,7 +8670,7 @@ export const CONTENT = {
         ],
         [
           "Regalos de inicio de sesión",
-          "Bienvenida: aspecto épico New Moon Luna (Majestic Bunny Girl) + pegatina SD (una vez). Paquete del buzón hasta ~11/26: reclámalo antes de que caduque en 7 días."
+          "Bienvenida: aspecto épico New Moon Luna (Majestic Bunny Girl) + pegatina SD (una vez). La ventana de acceso del paquete del buzón terminó el 11/19 02:59 UTC; el correo ya recibido sigue su propio temporizador de 7 días."
         ],
         [
           "Escalera de preparación para World Arena",
@@ -8987,7 +8987,7 @@ export const CONTENT = {
         ],
         [
           "Presentes de login",
-          "Boas-vindas: skin épica New Moon Luna (Majestic Bunny Girl) + sticker SD (uma vez). Pacote do correio até ~11/26 — resgate antes do vencimento de 7 dias."
+          "Boas-vindas: skin épica New Moon Luna (Majestic Bunny Girl) + sticker SD (uma vez). A janela de login do pacote do correio terminou em 11/19 02:59 UTC; o correio já recebido segue o próprio temporizador de 7 dias."
         ],
         [
           "Escada de preparação para a World Arena",
@@ -9304,7 +9304,7 @@ export const CONTENT = {
         ],
         [
           "Login-Geschenke",
-          "Willkommen: epischer Skin „New Moon Luna“ (Majestic Bunny Girl) + SD-Sticker (einmalig). Postfach-Paket bis ~11/26 — vor Ablauf der 7-Tage-Frist abholen."
+          "Willkommen: epischer Skin „New Moon Luna“ (Majestic Bunny Girl) + SD-Sticker (einmalig). Das Login-Fenster des Postfach-Pakets endete am 11/19 02:59 UTC; bereits empfangene Post folgt dem eigenen 7-Tage-Timer."
         ],
         [
           "World-Arena-Vorbereitung",
@@ -9621,7 +9621,7 @@ export const CONTENT = {
         ],
         [
           "Cadeaux de connexion",
-          "Accueil : skin épique New Moon Luna (Majestic Bunny Girl) + sticker SD (une fois). Pack de boîte aux lettres jusqu’au ~11/26 — à récupérer avant l’expiration à 7 jours."
+          "Accueil : skin épique New Moon Luna (Majestic Bunny Girl) + sticker SD (une fois). La fenêtre de connexion du pack de boîte aux lettres s’est close le 11/19 02:59 UTC ; le courrier déjà reçu suit son propre délai de 7 jours."
         ],
         [
           "Parcours de préparation World Arena",
@@ -9938,7 +9938,7 @@ export const CONTENT = {
         ],
         [
           "Prezenty za logowanie",
-          "Powitalna: epicka skórka New Moon Luna (Majestic Bunny Girl) + naklejka SD (raz). Pakiet w skrzynce do ~11/26 — odbierz przed 7-dniowym wygaśnięciem."
+          "Powitalna: epicka skórka New Moon Luna (Majestic Bunny Girl) + naklejka SD (raz). Okno logowania pakietu w skrzynce zakończyło się 11/19 02:59 UTC; już otrzymana poczta podlega własnemu 7-dniowemu timerowi."
         ],
         [
           "Drabinka przygotowań do World Arena",
@@ -10570,23 +10570,23 @@ export const CONTENT = {
   },
   "/banners/": {
     "en": {
-      "title": "Epic Seven Banners & New Heroes — Yufine now, Cecilia from Nov 26",
-      "meta": "Current pickup: Bunny Girl Mafia Yufine through 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia from 2026-11-26 03:00 UTC to 2026-12-17 02:59 UTC. Independent Steam / Foundry summaries with STOVE citations.",
+      "title": "Epic Seven Current Banner: Bunny Girl Maid Cecilia | Steam",
+      "meta": "Current pickup: Bunny Girl Maid Cecilia & Covert Service through 17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC). Unofficial; confirm on official STOVE.",
       "h1": "Banners & new heroes",
-      "lead": "Current: Bunny Girl Mafia Yufine to 2026-11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for Yufine and other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
-      "pickup_kicker": "Current pickup · scheduled",
+      "lead": "Current: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC (26 Nov 2026, 11:00 – 17 Dec 2026, 10:59 Asia/Shanghai). Ended: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC (ended 26 Nov 2026, 10:59 Asia/Shanghai). The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for ended or other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
+      "pickup_kicker": "Ended pickup · closed 26 Nov 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "5★ artifact A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Current limited pickup for this window. For Yufine, the in-client banner is the authority for cost, rates, pity, and eligible characters; this page only tracks the public schedule. The published Cecilia rules below apply only to that banner. Check the [[Foundry calendar|/foundry/]], [[Guild War on Foundry|/foundry/#guild-war]], and [[heroes|/heroes/]] before spending.",
-      "pickup_note": "Scheduled window — re-check the STOVE pickup notice and the in-client banner before pulling. For Yufine, use the in-client banner for cost and pity; the Cecilia rules in the next card apply only to that banner. Luna is not this pickup.",
-      "next_kicker": "Upcoming banner · 2026-11-26",
+      "pickup_body": "This limited pickup window has ended. For Yufine, the in-client banner was the authority for cost, rates, pity, and eligible characters; this page only tracks the public schedule. The published Cecilia rules in the next card apply only to that banner. Check the [[Foundry calendar|/foundry/]], [[Guild War on Foundry|/foundry/#guild-war]], and [[heroes|/heroes/]] before spending.",
+      "pickup_note": "Window ended 26 Nov 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC), official notice 14606225. The Cecilia rules in the next card apply only to that banner. Luna is not this pickup.",
+      "next_kicker": "Current pickup · open now",
       "next_h2": "Bunny Girl Maid Cecilia & Covert Service",
       "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
       "next_body": "Covenant rate-up. The official 11/19 post gives the rules for this banner: each summon reduces the counter by 1 (maximum 120); if you do not receive the featured Hero after 120 summons, the next summon is 100% guaranteed to be that Hero; summoning the featured Hero resets the counter. On this banner the featured 5★ Bunny Girl Maid Cecilia has a 1% rate, and no other 5★ Hero can be summoned. These rules apply only to this Cecilia banner — do not apply them to Yufine or other banners. Your personal counter and account state are still visible only in the client.",
-      "next_note": "Upcoming — not active at the 2026-11-22 23:13 Asia/Shanghai check. Re-check the STOVE notice and the in-client banner before pulling.",
+      "next_note": "Open as of 26 Nov 2026, 11:00 Asia/Shanghai (11/26 03:00 UTC). Re-check the STOVE notice and the in-client banner before pulling.",
       "next_source": "STOVE 14638143",
-      "pickup_source": "STOVE announcements",
+      "pickup_source": "STOVE 14606225",
       "launch_h2": "Foundry launch baseline (2026-10-29+)",
       "launch": [
         "Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC.",
@@ -10604,25 +10604,25 @@ export const CONTENT = {
       ],
       "also": "Also see updates and maintenance.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Current scheduled pickup: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Upcoming: Bunny Girl Maid Cecilia & Covert Service Covenant rate-up, 11/26 03:00 – 12/17 02:59 UTC (not today). Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). For Yufine, check cost, rates, and pity in-client; the official Cecilia guaranteed-summon/1% rules are in the upcoming card below and apply only to that banner. Verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC (not the Covenant pickup).",
-      "last_verified": "2026-11-22"
+      "answer": "Current pickup: Bunny Girl Maid Cecilia & Covert Service Covenant rate-up, 11/26 03:00 – 12/17 02:59 UTC (26 Nov 2026, 11:00 – 17 Dec 2026, 10:59 Asia/Shanghai), now open. Ended: Bunny Girl Mafia Yufine + 5★ artifact A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (ended 26 Nov 2026, 10:59 Asia/Shanghai). Foundry launch rewards (Rank 70 Luna, daily free Covenant summons) run through 12/31 (Thu) 02:59 UTC (12/31 10:59 Beijing time). The official Cecilia guaranteed-summon/1% rules are in the current card and apply only to that banner. Verify STOVE before pulling. Parallel Mystic: Bunny Girl Great Detective Moro ended 2026-11-19 02:59 UTC (not the Covenant pickup).",
+      "last_verified": "2026-11-26"
     },
     "ko": {
       "title": "배너·신규 영웅 — Steam 윈도우",
       "meta": "Steam·파운드리용 배너/신규 로그. STOVE 인용 비공식 요약.",
       "h1": "배너·신규 영웅",
-      "lead": "현재: 버니 걸 마피아 유핀 ~2026-11-26 02:59 UTC. 예정: 버니 걸 메이드 세실리아 & Covert Service, 11/26 03:00–12/17 02:59 UTC. 공식 11/19 공지는 세실리아의 확정 소환과 1% 픽업 확률 규칙을 공개합니다. 유핀과 다른 배너의 비용·확률·천장은 게임 내 배너에서 확인하세요. 그다음 파운드리 런칭 기준선입니다. 북마크·그레이 코드 판매 없음.",
-      "pickup_kicker": "현재 픽업 · 예정",
+      "lead": "현재: 버니 걸 메이드 세실리아 & Covert Service, 11/26 03:00–12/17 02:59 UTC(2026년 11월 26일 11:00–12월 17일 10:59 Asia/Shanghai). 종료: 버니 걸 마피아 유핀, 11/5 03:00–11/26 02:59 UTC(2026년 11월 26일 10:59 Asia/Shanghai에 종료). 공식 11/19 공지는 세실리아의 확정 소환과 1% 픽업 확률 규칙을 공개합니다. 종료되었거나 다른 배너의 비용·확률·천장은 게임 내 배너에서 확인하세요. 그다음 파운드리 런칭 기준선입니다. 북마크·그레이 코드 판매 없음.",
+      "pickup_kicker": "종료된 픽업 · 2026년 11월 26일 10:59 Asia/Shanghai 마감",
       "pickup_h2": "버니 걸 마피아 유핀",
       "pickup_artifact": "5★ 아티팩트 A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "이번 창의 현재 한정 픽업입니다. 유핀의 소환 비용·확률·천장·대상 캐릭터는 게임 내 배너가 기준이며, 이 페이지는 공개 일정만 정리합니다. 아래 공개된 세실리아 규칙은 해당 배너에만 적용됩니다. 재화를 쓰기 전에 [[파운드리 캘린더|/foundry/]], [[파운드리 길드전|/foundry/#guild-war]], [[영웅|/heroes/]]을 확인하세요.",
-      "pickup_note": "예정 창입니다 — 뽑기 전에 STOVE 픽업 공지와 게임 내 배너를 다시 확인하세요. 유핀은 게임 내 배너에서 비용·천장을 확인하고, 다음 카드의 세실리아 규칙은 그 배너에만 적용됩니다. 루나는 이번 픽업이 아닙니다.",
-      "next_kicker": "예정 배너 · 2026-11-26",
+      "pickup_body": "이 한정 픽업 창은 종료되었습니다. 유핀의 소환 비용·확률·천장·대상 캐릭터는 게임 내 배너가 기준이었으며, 이 페이지는 공개 일정만 정리합니다. 다음 카드의 세실리아 규칙은 해당 배너에만 적용됩니다. 재화를 쓰기 전에 [[파운드리 캘린더|/foundry/]], [[파운드리 길드전|/foundry/#guild-war]], [[영웅|/heroes/]]을 확인하세요.",
+      "pickup_note": "창은 2026년 11월 26일 10:59 Asia/Shanghai(11/26 02:59 UTC)에 종료되었습니다. 공식 공지 14606225. 다음 카드의 세실리아 규칙은 그 배너에만 적용됩니다. 루나는 이번 픽업이 아닙니다.",
+      "next_kicker": "현재 픽업 · 지금 진행 중",
       "next_h2": "버니 걸 메이드 세실리아 & Covert Service",
       "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
       "next_body": "Covenant 픽업. 공식 11/19 공지가 이 배너의 규칙을 제시합니다: 소환할 때마다 카운터가 1 감소(최대 120회); 120회 소환 후에도 픽업 영웅을 얻지 못하면 다음 소환은 해당 영웅 100% 확정; 픽업 영웅을 획득하면 카운터가 초기화됩니다. 이 배너에서 픽업 5★ 버니 걸 메이드 세실리아의 확률은 1%이며 다른 5★ 영웅은 소환되지 않습니다. 이 규칙은 이 세실리아 배너에만 적용되며 유핀 또는 다른 배너에 적용하지 마세요. 개인 카운터와 계정 상태는 여전히 클라이언트에서만 확인할 수 있습니다.",
-      "next_note": "예정 — 2026-11-22 23:13 Asia/Shanghai 확인 기준 아직 시작되지 않았습니다. 뽑기 전에 STOVE 공지와 게임 내 배너를 다시 확인하세요.",
+      "next_note": "2026년 11월 26일 11:00 Asia/Shanghai(11/26 03:00 UTC)부터 열려 있습니다. 뽑기 전에 STOVE 공지와 게임 내 배너를 다시 확인하세요.",
       "next_source": "STOVE 14638143",
       "pickup_source": "STOVE 공지",
       "launch_h2": "파운드리 런칭 기준선(2026-10-29+)",
@@ -10642,19 +10642,19 @@ export const CONTENT = {
       ],
       "also": "업데이트·점검 페이지도 보세요.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "현재 예정 픽업은 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)입니다. 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 유핀은 비용·확률·천장을 게임 내에서 확인하고, 아래 예정 카드의 공식 세실리아 확정/1% 규칙은 그 배너에만 적용됩니다. 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다(계약 픽업 아님)."
+      "answer": "현재 픽업은 버니 걸 메이드 세실리아 & Covert Service 계약 드롭률 업, 11/26 03:00 – 12/17 02:59 UTC(2026년 11월 26일 11:00–12월 17일 10:59 Asia/Shanghai)이며 지금 열려 있습니다. 종료: 버니 걸 마피아 유핀 + 5★ 아티팩트 A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC, 2026년 11월 26일 10:59 Asia/Shanghai에 종료). 파운드리 런칭 보상인 랭크70 루나와 일일 무료 계약은 ~2026-12-31까지입니다. 공식 세실리아 확정/1% 규칙은 현재 카드에만 적용됩니다. 뽑기 전에 STOVE를 확인하세요. 병행 미스틱: 버니 걸 그레이트 디텍티브 모로는 2026-11-19 02:59 UTC에 종료되었습니다(계약 픽업 아님)."
     },
     "ja": {
       "title": "バナー・新英雄 — Steam窓",
       "meta": "Steam＆ファウンドリ向けバナー/新英雄ログ。STOVE引用の非公式要約。",
       "h1": "バナー・新英雄",
-      "lead": "現在の枠を先に、次にファウンドリのローンチ基準を掲載します。ブックマークや不正コードは扱いません — 天井/確率は公式クライアントのみです。",
-      "pickup_kicker": "現在のピックアップ · 予定",
+      "lead": "現在のピックアップはバニーガール・メイド・セシリア & Covert Service（11/26 03:00–12/17 02:59 UTC）。終了：バニーガール・マフィア・ユフィン（11/5 03:00–11/26 02:59 UTC）。ブックマークや不正コードは扱いません — 天井/確率は公式クライアントのみです。",
+      "pickup_kicker": "終了したピックアップ · 11/26 02:59 UTC に終了",
       "pickup_h2": "バニーガール・マフィア・ユフィン",
       "pickup_artifact": "5★アーティファクト A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "この枠の現在の限定ピックアップです。召喚コスト・天井・対象キャラはゲーム内バナーが基準で、当頁は公開日程のみを整理します。消費前に[[ファウンドリ日程|/foundry/]]、[[ファウンドリのギルド戦|/foundry/#guild-war]]、[[英雄|/heroes/]]を確認してください。",
-      "pickup_note": "予定枠です — 引く前にSTOVEのピックアップ告知とゲーム内バナーを再確認してください。天井・確率はクライアント内のみで、ルナは今回のピックアップではありません。",
+      "pickup_body": "この限定ピックアップ枠は終了しました。召喚コスト・天井・対象キャラはゲーム内バナーが基準で、当頁は公開日程のみを整理します。消費前に[[ファウンドリ日程|/foundry/]]、[[ファウンドリのギルド戦|/foundry/#guild-war]]、[[英雄|/heroes/]]を確認してください。",
+      "pickup_note": "この枠は 11/26 02:59 UTC（2026年11月26日 10:59 Asia/Shanghai）に終了しました。天井・確率はクライアント内のみで、ルナはこのピックアップではありません。",
       "pickup_source": "STOVE告知",
       "launch_h2": "ファウンドリ ローンチ基準(2026-10-29+)",
       "launch": [
@@ -10673,24 +10673,24 @@ export const CONTENT = {
       ],
       "also": "更新・メンテ頁も参照。",
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "現在の予定ピックアップはバニーガール・マフィア・ユフィン + 5★アーティファクト A Boss's Dignity(2026-11-05 03:00 → 11-26 02:59 UTC)。ファウンドリのランク70ルナと毎日無料契約は〜2026-12-31。天井・確率はクライアント内のみなので、引く前にSTOVEを確認してください。 並行ミスティック：バニーガール・グレートディテクティブ・モロが2026-11-19 02:59 UTCまで（契約ピックアップではありません）。"
+      "answer": "現在のピックアップはバニーガール・メイド・セシリア & Covert Service 契約ドロップ率アップ、11/26 03:00 – 12/17 02:59 UTC（2026年11月26日 11:00–12月17日 10:59 Asia/Shanghai）で、現在開催中です。終了：バニーガール・マフィア・ユフィン + 5★アーティファクト A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC、2026年11月26日 10:59 Asia/Shanghaiに終了）。ファウンドリのランク70ルナと毎日無料契約は〜2026-12-31。天井・確率はクライアント内のみなので、引く前にSTOVEを確認してください。 並行ミスティック：バニーガール・グレートディテクティブ・モロは2026-11-19 02:59 UTCに終了（契約ピックアップではありません）。"
     },
     "zh-tw": {
       "title": "卡池與新英雄 — Steam 窗口",
       "meta": "Steam／Foundry 卡池與新英雄日誌。引述 STOVE 之非官方摘要。",
       "h1": "卡池與新英雄",
-      "lead": "目前：兔女郎黑手黨 優芬妮至 2026-11-26 02:59 UTC。預定：兔女郎女僕 賽西莉亞 & Covert Service，11/26 03:00–12/17 02:59 UTC。官方 11/19 公告已公布賽西莉亞的保底與 1% pickup 機率規則；優芬妮與其他卡池的成本、機率、保底請以遊戲內卡池為準。接著是 Foundry 上架基準。不賣書籤或灰產序號。",
-      "pickup_kicker": "目前 Pickup · 預定",
+      "lead": "目前：兔女郎女僕 賽西莉亞 & Covert Service，11/26 03:00–12/17 02:59 UTC（2026年11月26日11:00至12月17日10:59 Asia/Shanghai）。已結束：兔女郎黑手黨 優芬妮，11/5 03:00–11/26 02:59 UTC（已於2026年11月26日10:59 Asia/Shanghai結束）。官方 11/19 公告已公布賽西莉亞的保底與 1% pickup 機率規則；已結束或其他卡池的成本、機率、保底請以遊戲內卡池為準。接著是 Foundry 上架基準。不賣書籤或灰產序號。",
+      "pickup_kicker": "已結束的 Pickup · 2026年11月26日10:59 Asia/Shanghai 關閉",
       "pickup_h2": "兔女郎黑手黨 優芬妮",
       "pickup_artifact": "5★ 神器 A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "這是本期窗口的限定 Pickup。優芬妮的召喚成本、機率、保底與適用角色以遊戲內卡池為準；本頁只整理公開時程。下方公布的賽西莉亞規則只適用於該卡池。投入資源前請看[[Foundry 日程|/foundry/]]、[[Foundry 公會戰|/foundry/#guild-war]]與[[英雄|/heroes/]]。",
-      "pickup_note": "預定窗口——抽之前請再核 STOVE Pickup 公告與遊戲內卡池。優芬妮請在遊戲內確認成本與保底；下一張卡的賽西莉亞規則只適用於該卡池。Luna 不是本期 Pickup。",
-      "next_kicker": "預定卡池 · 2026-11-26",
+      "pickup_body": "此限定 Pickup 窗口已結束。優芬妮的召喚成本、機率、保底與適用角色以遊戲內卡池為準；本頁只整理公開時程。下一張卡的賽西莉亞規則只適用於該卡池。投入資源前請看[[Foundry 日程|/foundry/]]、[[Foundry 公會戰|/foundry/#guild-war]]與[[英雄|/heroes/]]。",
+      "pickup_note": "窗口已於2026年11月26日10:59 Asia/Shanghai（11/26 02:59 UTC）結束，官方公告 14606225。下一張卡的賽西莉亞規則只適用於該卡池。Luna 不是本期 Pickup。",
+      "next_kicker": "目前 Pickup · 現已開放",
       "next_h2": "兔女郎女僕 賽西莉亞 & Covert Service",
       "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
       "next_body": "Covenant Pickup。官方 11/19 公告公布本卡池規則：每次召喚使計數減 1（最多 120 次）；120 次後仍未取得 pickup 英雄，下一次召喚 100% 為該英雄；取得 pickup 英雄後計數重置。本卡池 pickup 5★ 兔女郎女僕 賽西莉亞機率為 1%，且不會出現其他 5★ 英雄。這些規則只適用於本賽西莉亞卡池，請勿套用到優芬妮或其他卡池。個人剩餘計數與帳號狀態仍只能在客戶端查看。",
-      "next_note": "預定——以 2026-11-22 23:13 Asia/Shanghai 核對尚未開始。抽之前請再核 STOVE 公告與遊戲內卡池。",
+      "next_note": "已於2026年11月26日11:00 Asia/Shanghai（11/26 03:00 UTC）開放。抽之前請再核 STOVE 公告與遊戲內卡池。",
       "next_source": "STOVE 14638143",
       "pickup_source": "STOVE 公告",
       "launch_h2": "Foundry 上架基準（2026-10-29+）",
@@ -10710,24 +10710,24 @@ export const CONTENT = {
       ],
       "also": "另見更新與維護頁。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "目前預定 Pickup 為兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。優芬妮請在遊戲內確認成本、機率與保底；下方預定卡的官方賽西莉亞保底／1% 規則只適用於該卡池。抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束（非 Covenant Pickup）。"
+      "answer": "目前 Pickup 為兔女郎女僕 賽西莉亞 & Covert Service 契約提高掉率，11/26 03:00 – 12/17 02:59 UTC（2026年11月26日11:00至12月17日10:59 Asia/Shanghai），現已開放。已結束：兔女郎黑手黨 優芬妮 + 5★ 神器 A Boss's Dignity（2026-11-05 03:00 → 11-26 02:59 UTC，已於2026年11月26日10:59 Asia/Shanghai結束）。Foundry 上架獎勵 Rank 70 Luna 與每日免費契約至約 2026-12-31。官方賽西莉亞保底／1% 規則只適用於該卡池。抽之前請確認 STOVE。 並行 Mystic：兔女郎名偵探 莫羅已於 2026-11-19 02:59 UTC 結束（非 Covenant Pickup）。"
     },
     "th": {
       "title": "แบนเนอร์และฮีโร่ใหม่ Epic Seven (ช่วง Steam) | คู่มือ",
       "meta": "บันทึกแบนเนอร์ / ฮีโร่ใหม่สำหรับ Steam และ Foundry สรุปอิสระพร้อมอ้างอิง STOVE",
       "h1": "แบนเนอร์และฮีโร่ใหม่",
-      "lead": "ปัจจุบัน: Bunny Girl Mafia Yufine ถึง 2026-11-26 02:59 UTC กำหนดถัดไป: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00–12/17 02:59 UTC ประกาศทางการ 11/19 เผยกฎการรับประกันและอัตรา featured 1% ของ Cecilia; สำหรับ Yufine และตู้อื่น ให้ดูต้นทุน อัตรา และ pity ในไคลเอนต์ จากนั้นเป็นพื้นฐานเปิดตัว Foundry เราไม่ขายบุ๊กมาร์กหรือ gray codes",
-      "pickup_kicker": "pickup ปัจจุบัน · ตามกำหนด",
+      "lead": "ปัจจุบัน: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00–12/17 02:59 UTC (26 พ.ย. 2026 11:00 – 17 ธ.ค. 2026 10:59 Asia/Shanghai) จบแล้ว: Bunny Girl Mafia Yufine, 11/5 03:00–11/26 02:59 UTC (จบ 26 พ.ย. 2026 10:59 Asia/Shanghai) ประกาศทางการ 11/19 เผยกฎการรับประกันและอัตรา featured 1% ของ Cecilia; สำหรับตู้ที่จบแล้วหรือตู้อื่น ให้ดูต้นทุน อัตรา และ pity ในไคลเอนต์ จากนั้นเป็นพื้นฐานเปิดตัว Foundry เราไม่ขายบุ๊กมาร์กหรือ gray codes",
+      "pickup_kicker": "pickup ที่จบแล้ว · ปิด 26 พ.ย. 2026 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "อาร์ติแฟกต์ 5★ A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "pickup แบบจำกัดประจำช่วงนี้ สำหรับ Yufine แบนเนอร์ในไคลเอนต์เป็นหลักสำหรับค่าใช้จ่าย อัตรา pity และตัวละครที่เข้าร่วม; หน้านี้ติดตามเฉพาะกำหนดการสาธารณะ กฎ Cecilia ที่เผยแพร่ด้านล่างใช้เฉพาะตู้นั้น ตรวจ [[ปฏิทิน Foundry|/foundry/]], [[Guild War บน Foundry|/foundry/#guild-war]] และ [[ฮีโร่|/heroes/]] ก่อนใช้จ่าย",
-      "pickup_note": "ช่วงเวลาตามกำหนด — ตรวจประกาศ pickup ของ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม สำหรับ Yufine ให้ดูต้นทุนและ pity ในไคลเอนต์; กฎ Cecilia ในบัตรถัดไปใช้เฉพาะตู้นั้น Luna ไม่ใช่ pickup นี้",
-      "next_kicker": "ตู้ที่กำลังจะมา · 2026-11-26",
+      "pickup_body": "ช่วง pickup จำกัดนี้จบแล้ว สำหรับ Yufine แบนเนอร์ในไคลเอนต์เป็นหลักสำหรับค่าใช้จ่าย อัตรา pity และตัวละครที่เข้าร่วม; หน้านี้ติดตามเฉพาะกำหนดการสาธารณะ กฎ Cecilia ในบัตรถัดไปใช้เฉพาะตู้นั้น ตรวจ [[ปฏิทิน Foundry|/foundry/]], [[Guild War บน Foundry|/foundry/#guild-war]] และ [[ฮีโร่|/heroes/]] ก่อนใช้จ่าย",
+      "pickup_note": "ช่วงนี้จบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai (11/26 02:59 UTC) ประกาศทางการ 14606225 กฎ Cecilia ในบัตรถัดไปใช้เฉพาะตู้นั้น Luna ไม่ใช่ pickup นี้",
+      "next_kicker": "pickup ปัจจุบัน · เปิดอยู่ตอนนี้",
       "next_h2": "Bunny Girl Maid Cecilia & Covert Service",
       "next_window": "2026-11-26 03:00 → 2026-12-17 02:59 UTC",
       "next_body": "Covenant rate-up ประกาศทางการ 11/19 กำหนดกฎของตู้นี้: การอัญเชิญแต่ละครั้งลดตัวนับลง 1 (สูงสุด 120 ครั้ง); หากยังไม่ได้รับฮีโร่ featured หลัง 120 ครั้ง การอัญเชิญครั้งถัดไปรับประกัน 100% ว่าเป็นฮีโร่ตัวนั้น; เมื่อได้รับฮีโร่ featured ตัวนับจะรีเซ็ต ในตู้นี้ฮีโร่ featured 5★ Bunny Girl Maid Cecilia มีอัตรา 1% และจะไม่มีฮีโร่ 5★ ตัวอื่นออกมา กฎเหล่านี้ใช้เฉพาะตู้ Cecilia นี้เท่านั้น อย่านำไปใช้กับ Yufine หรือตู้อื่น จำนวนครั้งคงเหลือและสถานะบัญชีส่วนตัวยังดูได้เฉพาะในไคลเอนต์",
-      "next_note": "กำลังจะมา — ณ การตรวจ 2026-11-22 23:13 Asia/Shanghai ยังไม่เริ่ม ตรวจประกาศ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม",
+      "next_note": "เปิดแล้วตั้งแต่ 26 พ.ย. 2026 11:00 Asia/Shanghai (11/26 03:00 UTC) ตรวจประกาศ STOVE และแบนเนอร์ในไคลเอนต์อีกครั้งก่อนสุ่ม",
       "next_source": "STOVE 14638143",
       "pickup_source": "ประกาศ STOVE",
       "launch_h2": "พื้นฐานการเปิดตัว Foundry (2026-10-29+)",
@@ -10747,19 +10747,19 @@ export const CONTENT = {
       ],
       "also": "ดูเพิ่มเติมที่อัปเดตและปิดปรับปรุง",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "pickup ตามกำหนดปัจจุบัน: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 สำหรับ Yufine ให้ดูต้นทุน อัตรา และ pity ในไคลเอนต์; กฎ Cecilia ทางการในบัตรด้านล่างใช้เฉพาะตู้นั้น ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
+      "answer": "pickup ปัจจุบัน: Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตรา Covenant, 11/26 03:00 – 12/17 02:59 UTC (26 พ.ย. 2026 11:00 – 17 ธ.ค. 2026 10:59 Asia/Shanghai) เปิดอยู่แล้ว จบแล้ว: Bunny Girl Mafia Yufine + อาร์ติแฟกต์ 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (จบ 26 พ.ย. 2026 10:59 Asia/Shanghai) รางวัลเปิดตัว Foundry (Luna Rank 70, ซัมมอน Covenant ฟรีรายวัน) ถึง ~2026-12-31 กฎ Cecilia ทางการใช้เฉพาะตู้นั้น ตรวจสอบ STOVE ก่อนสุ่ม Mystic คู่ขนาน: Bunny Girl Great Detective Moro สิ้นสุดเมื่อ 2026-11-19 02:59 UTC (ไม่ใช่ pickup Covenant)"
     },
     "es": {
       "title": "Banners y héroes nuevos de Epic Seven (Steam) | Guía",
       "meta": "Registro actualizado de banners y héroes nuevos para Steam y Foundry. Resúmenes independientes con citas de STOVE.",
       "h1": "Banners y héroes nuevos",
-      "lead": "Primero la ventana actual y luego la base del lanzamiento de Foundry. No vendemos marcadores ni códigos de mercado gris; la garantía y los porcentajes solo están en el cliente oficial.",
-      "pickup_kicker": "Pickup actual · programado",
+      "lead": "Actual: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Finalizado: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. No vendemos marcadores ni códigos de mercado gris; la garantía y los porcentajes solo están en el cliente oficial.",
+      "pickup_kicker": "Pickup finalizado · cerrado el 26 nov 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "Artefacto 5★ A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Pickup limitado actual de esta ventana. El banner del cliente es la referencia para el coste, la garantía y los personajes elegibles; esta página solo sigue el calendario público. Consulta el [[calendario de Foundry|/foundry/]], [[Guild War en Foundry|/foundry/#guild-war]] y los [[héroes|/heroes/]] antes de gastar.",
-      "pickup_note": "Ventana programada: vuelve a revisar el aviso de pickup de STOVE y el banner del cliente antes de tirar. La garantía y los porcentajes solo están en el cliente; Luna no es este pickup.",
+      "pickup_body": "Esta ventana de pickup limitado ha terminado. El banner del cliente es la referencia para el coste, la garantía y los personajes elegibles; esta página solo sigue el calendario público. Consulta el [[calendario de Foundry|/foundry/]], [[Guild War en Foundry|/foundry/#guild-war]] y los [[héroes|/heroes/]] antes de gastar.",
+      "pickup_note": "Esta ventana terminó el 26 nov 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC). La garantía y los porcentajes solo están en el cliente; Luna no es este pickup.",
       "pickup_source": "Anuncios de STOVE",
       "launch_h2": "Base del lanzamiento de Foundry (2026-10-29+)",
       "launch": [
@@ -10778,19 +10778,19 @@ export const CONTENT = {
       ],
       "also": "Consulta también las actualizaciones y el mantenimiento.",
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "Pickup programado actual: Bunny Girl Mafia Yufine + artefacto 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Las recompensas de lanzamiento de Foundry (Luna de rango 70, invocaciones Covenant diarias gratis) siguen hasta ~2026-12-31. La garantía y los porcentajes solo están en el cliente; verifica en STOVE antes de tirar. Mystic paralelo: Bunny Girl Great Detective Moro hasta 2026-11-19 02:59 UTC (no es el pickup de Covenant)."
+      "answer": "Pickup actual: Bunny Girl Maid Cecilia & Covert Service (subida de tasa Covenant), 11/26 03:00 – 12/17 02:59 UTC (26 nov 2026, 11:00 – 17 dic 2026, 10:59 Asia/Shanghai), ahora abierto. Finalizado: Bunny Girl Mafia Yufine + artefacto 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (cerrado el 26 nov 2026, 10:59 Asia/Shanghai). Las recompensas de lanzamiento de Foundry (Luna de rango 70, invocaciones Covenant diarias gratis) siguen hasta ~2026-12-31. La garantía y los porcentajes solo están en el cliente; verifica en STOVE antes de tirar. Mystic paralelo: Bunny Girl Great Detective Moro terminó el 2026-11-19 02:59 UTC (no es el pickup de Covenant)."
     },
     "pt": {
       "title": "Banners e novos heróis de Epic Seven (janela do Steam) | Guia",
       "meta": "Registro vivo de banners / novos heróis para Steam e Foundry. Resumos independentes com citações do STOVE.",
       "h1": "Banners e novos heróis",
-      "lead": "Primeiro a janela atual, depois a base do lançamento do Foundry. Não vendemos bookmarks nem códigos cinza — pity e taxas existem só no cliente oficial.",
-      "pickup_kicker": "Pickup atual · agendado",
+      "lead": "Atual: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Encerrado: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. Não vendemos bookmarks nem códigos cinza — pity e taxas existem só no cliente oficial.",
+      "pickup_kicker": "Pickup encerrado · fechado em 26 nov 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "Artefato 5★ A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Pickup limitado atual desta janela. O banner no cliente é a autoridade para custo, pity e personagens elegíveis; esta página só acompanha o calendário público. Confira o [[calendário do Foundry|/foundry/]], a [[Guild War no Foundry|/foundry/#guild-war]] e os [[heróis|/heroes/]] antes de gastar.",
-      "pickup_note": "Janela agendada — confira de novo o aviso de pickup do STOVE e o banner no cliente antes de puxar. Pity e taxas são só no cliente; Luna não é este pickup.",
+      "pickup_body": "Esta janela de pickup limitado encerrou. O banner no cliente é a autoridade para custo, pity e personagens elegíveis; esta página só acompanha o calendário público. Confira o [[calendário do Foundry|/foundry/]], a [[Guild War no Foundry|/foundry/#guild-war]] e os [[heróis|/heroes/]] antes de gastar.",
+      "pickup_note": "Esta janela encerrou em 26 nov 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC). Pity e taxas são só no cliente; Luna não é este pickup.",
       "pickup_source": "Anúncios do STOVE",
       "launch_h2": "Base do lançamento do Foundry (2026-10-29+)",
       "launch": [
@@ -10809,19 +10809,19 @@ export const CONTENT = {
       ],
       "also": "Veja também atualizações e manutenção.",
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "Pickup agendado atual: Bunny Girl Mafia Yufine + artefato 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. As recompensas de lançamento do Foundry (Luna Rank 70, invocações diárias gratuitas de Covenant) vão até ~2026-12-31. Pity e taxas são só no cliente; confirme no STOVE antes de puxar. Mystic paralelo: Bunny Girl Great Detective Moro até 2026-11-19 02:59 UTC (não é o pickup de Covenant)."
+      "answer": "Pickup atual: Bunny Girl Maid Cecilia & Covert Service (aumento de taxa Covenant), 11/26 03:00 – 12/17 02:59 UTC (26 nov 2026, 11:00 – 17 dez 2026, 10:59 Asia/Shanghai), agora aberto. Encerrado: Bunny Girl Mafia Yufine + artefato 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (fechado em 26 nov 2026, 10:59 Asia/Shanghai). As recompensas de lançamento do Foundry (Luna Rank 70, invocações diárias gratuitas de Covenant) vão até ~2026-12-31. Pity e taxas são só no cliente; confirme no STOVE antes de puxar. Mystic paralelo: Bunny Girl Great Detective Moro terminou em 2026-11-19 02:59 UTC (não é o pickup de Covenant)."
     },
     "de": {
       "title": "Epic Seven Banner & neue Helden (Steam-Fenster) | Guide",
       "meta": "Laufendes Banner-/Neuhelden-Log für Steam & Foundry. Unabhängige Zusammenfassungen mit STOVE-Quellen.",
       "h1": "Banner & neue Helden",
-      "lead": "Zuerst das aktuelle Fenster, dann die Foundry-Launch-Basis. Wir verkaufen keine Bookmarks oder Gray Codes — Pity und Raten stehen nur im offiziellen Client.",
-      "pickup_kicker": "Aktuelles Pickup · geplant",
+      "lead": "Aktuell: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Beendet: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. Wir verkaufen keine Bookmarks oder Gray Codes — Pity und Raten stehen nur im offiziellen Client.",
+      "pickup_kicker": "Beendetes Pickup · geschlossen am 26. Nov. 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "5★-Artefakt A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Aktuelles limitiertes Pickup für dieses Fenster. Das Banner im Client ist maßgeblich für Kosten, Pity und berechtigte Charaktere; diese Seite verfolgt nur den öffentlichen Zeitplan. Prüfe den [[Foundry-Kalender|/foundry/]], [[Guild War auf Foundry|/foundry/#guild-war]] und die [[Helden|/heroes/]], bevor du ziehst.",
-      "pickup_note": "Geplantes Fenster — prüfe vor dem Ziehen erneut die STOVE-Pickup-Ankündigung und das Banner im Client. Pity und Raten gibt es nur im Client; Luna ist nicht dieses Pickup.",
+      "pickup_body": "Dieses limitierte Pickup-Fenster ist beendet. Das Banner im Client ist maßgeblich für Kosten, Pity und berechtigte Charaktere; diese Seite verfolgt nur den öffentlichen Zeitplan. Prüfe den [[Foundry-Kalender|/foundry/]], [[Guild War auf Foundry|/foundry/#guild-war]] und die [[Helden|/heroes/]], bevor du ziehst.",
+      "pickup_note": "Dieses Fenster endete am 26. Nov. 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC). Pity und Raten gibt es nur im Client; Luna ist nicht dieses Pickup.",
       "pickup_source": "STOVE-Ankündigungen",
       "launch_h2": "Foundry-Launch-Basis (ab 2026-10-29)",
       "launch": [
@@ -10840,19 +10840,19 @@ export const CONTENT = {
       ],
       "also": "Siehe auch Updates und Wartung.",
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Aktuelles geplantes Pickup: Bunny Girl Mafia Yufine + 5★-Artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Die Foundry-Launch-Belohnungen (Rang-70-Luna, täglich kostenlose Covenant-Beschwörungen) laufen bis ~2026-12-31. Pity und Raten gibt es nur im Client; prüfe STOVE, bevor du ziehst. Paralleles Mystic: Bunny Girl Great Detective Moro bis 2026-11-19 02:59 UTC (nicht das Covenant-Pickup)."
+      "answer": "Aktuelles Pickup: Bunny Girl Maid Cecilia & Covert Service (Covenant-Rate-up), 11/26 03:00 – 12/17 02:59 UTC (26. Nov. 2026, 11:00 – 17. Dez. 2026, 10:59 Asia/Shanghai), jetzt geöffnet. Beendet: Bunny Girl Mafia Yufine + 5★-Artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (geschlossen am 26. Nov. 2026, 10:59 Asia/Shanghai). Die Foundry-Launch-Belohnungen (Rang-70-Luna, täglich kostenlose Covenant-Beschwörungen) laufen bis ~2026-12-31. Pity und Raten gibt es nur im Client; prüfe STOVE, bevor du ziehst. Paralleles Mystic: Bunny Girl Great Detective Moro endete am 2026-11-19 02:59 UTC (nicht das Covenant-Pickup)."
     },
     "fr": {
       "title": "Bannières et nouveaux héros Epic Seven (fenêtre Steam) | Guide",
       "meta": "Journal évolutif des bannières / nouveaux héros pour Steam et Foundry. Résumés indépendants avec citations STOVE.",
       "h1": "Bannières et nouveaux héros",
-      "lead": "La fenêtre actuelle d'abord, puis la base de lancement Foundry. Nous ne vendons ni signets ni codes gris — la pitié et les taux existent uniquement dans le client officiel.",
-      "pickup_kicker": "Sélection actuelle · programmée",
+      "lead": "Actuel : Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Terminé : Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. Nous ne vendons ni signets ni codes gris — la pitié et les taux existent uniquement dans le client officiel.",
+      "pickup_kicker": "Sélection terminée · close le 26 nov. 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "Artefact 5★ A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Sélection limitée actuelle pour cette fenêtre. La bannière en jeu fait autorité pour le coût, la pitié et les personnages éligibles ; cette page ne suit que le calendrier public. Consultez le [[calendrier Foundry|/foundry/]], [[Guild War sur Foundry|/foundry/#guild-war]] et les [[héros|/heroes/]] avant de dépenser.",
-      "pickup_note": "Fenêtre programmée — revérifiez l'avis de sélection STOVE et la bannière en jeu avant d'invoquer. La pitié et les taux sont uniquement dans le client ; Luna n'est pas cette sélection.",
+      "pickup_body": "Cette fenêtre de sélection limitée est terminée. La bannière en jeu fait autorité pour le coût, la pitié et les personnages éligibles ; cette page ne suit que le calendrier public. Consultez le [[calendrier Foundry|/foundry/]], [[Guild War sur Foundry|/foundry/#guild-war]] et les [[héros|/heroes/]] avant de dépenser.",
+      "pickup_note": "Cette fenêtre s'est close le 26 nov. 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC). La pitié et les taux sont uniquement dans le client ; Luna n'est pas cette sélection.",
       "pickup_source": "Annonces STOVE",
       "launch_h2": "Base de lancement Foundry (2026-10-29+)",
       "launch": [
@@ -10871,19 +10871,19 @@ export const CONTENT = {
       ],
       "also": "Voir aussi les mises à jour et la maintenance.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Sélection programmée actuelle : Bunny Girl Mafia Yufine + artefact 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Les récompenses de lancement Foundry (Luna rang 70, invocations Covenant gratuites quotidiennes) courent jusqu'au ~2026-12-31. La pitié et les taux sont uniquement dans le client ; vérifiez STOVE avant d'invoquer. Mystic parallèle : Bunny Girl Great Detective Moro jusqu'au 2026-11-19 02:59 UTC (pas la sélection Covenant)."
+      "answer": "Sélection actuelle : Bunny Girl Maid Cecilia & Covert Service (augmentation de taux Covenant), 11/26 03:00 – 12/17 02:59 UTC (26 nov. 2026, 11:00 – 17 déc. 2026, 10:59 Asia/Shanghai), désormais ouverte. Terminé : Bunny Girl Mafia Yufine + artefact 5★ A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (close le 26 nov. 2026, 10:59 Asia/Shanghai). Les récompenses de lancement Foundry (Luna rang 70, invocations Covenant gratuites quotidiennes) courent jusqu'au ~2026-12-31. La pitié et les taux sont uniquement dans le client ; vérifiez STOVE avant d'invoquer. Mystic parallèle : Bunny Girl Great Detective Moro s'est terminé le 2026-11-19 02:59 UTC (pas la sélection Covenant)."
     },
     "pl": {
       "title": "Banery Epic Seven i nowi bohaterowie (okno Steam) | Poradnik",
       "meta": "Bieżący dziennik banerów / nowych bohaterów dla Steam i Foundry. Niezależne podsumowania ze źródłem STOVE.",
       "h1": "Banery i nowi bohaterowie",
-      "lead": "Najpierw bieżące okno, potem baza startowa Foundry. Nie sprzedajemy zakładek ani szarych kodów — pity i szanse są wyłącznie w oficjalnym kliencie.",
-      "pickup_kicker": "Bieżący pickup · zaplanowany",
+      "lead": "Bieżący: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Zakończony: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. Nie sprzedajemy zakładek ani szarych kodów — pity i szanse są wyłącznie w oficjalnym kliencie.",
+      "pickup_kicker": "Zakończony pickup · zamknięty 26 lis 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
       "pickup_artifact": "5★ artefakt A Boss's Dignity",
       "pickup_window": "2026-11-05 03:00 → 2026-11-26 02:59 UTC",
-      "pickup_body": "Bieżący limitowany pickup tego okna. Baner w kliencie jest wyrocznią co do kosztu, pity i kwalifikujących się postaci; ta strona śledzi tylko publiczny harmonogram. Przed wydaniem sprawdź [[kalendarz Foundry|/foundry/]], [[Guild War na Foundry|/foundry/#guild-war]] i [[bohaterów|/heroes/]].",
-      "pickup_note": "Zaplanowane okno — przed przywołaniem sprawdź ponownie ogłoszenie STOVE i baner w kliencie. Pity i szanse są tylko w kliencie; Luna nie jest tym pickupem.",
+      "pickup_body": "To limitowane okno pickupu się zakończyło. Baner w kliencie jest wyrocznią co do kosztu, pity i kwalifikujących się postaci; ta strona śledzi tylko publiczny harmonogram. Przed wydaniem sprawdź [[kalendarz Foundry|/foundry/]], [[Guild War na Foundry|/foundry/#guild-war]] i [[bohaterów|/heroes/]].",
+      "pickup_note": "To okno zakończyło się 26 lis 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC). Pity i szanse są tylko w kliencie; Luna nie jest tym pickupem.",
       "pickup_source": "Ogłoszenia STOVE",
       "launch_h2": "Baza startowa Foundry (2026-10-29+)",
       "launch": [
@@ -10902,16 +10902,27 @@ export const CONTENT = {
       ],
       "also": "Zobacz też aktualizacje i konserwację.",
       "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
-      "answer": "Bieżący zaplanowany pickup: Bunny Girl Mafia Yufine + 5★ artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC. Nagrody startowe Foundry (Luna na randze 70, dzienne darmowe przywołania Przymierza) trwają do ~2026-12-31. Pity i szanse są tylko w kliencie; potwierdź na STOVE przed przywołaniem. Równoległe Mystic: Bunny Girl Great Detective Moro trwa do 2026-11-19 02:59 UTC (nie pickup Przymierza)."
+      "answer": "Bieżący pickup: Bunny Girl Maid Cecilia & Covert Service (zwiększenie szansy Przymierza), 11/26 03:00 – 12/17 02:59 UTC (26 lis 2026, 11:00 – 17 gru 2026, 10:59 Asia/Shanghai), teraz otwarty. Zakończony: Bunny Girl Mafia Yufine + 5★ artefakt A Boss's Dignity, 2026-11-05 03:00 → 11-26 02:59 UTC (zamknięty 26 lis 2026, 10:59 Asia/Shanghai). Nagrody startowe Foundry (Luna na randze 70, dzienne darmowe przywołania Przymierza) trwają do ~2026-12-31. Pity i szanse są tylko w kliencie; potwierdź na STOVE przed przywołaniem. Równoległe Mystic: Bunny Girl Great Detective Moro zakończyło się 2026-11-19 02:59 UTC (nie pickup Przymierza)."
     }
   },
   "/updates/": {
     "en": {
-      "title": "Epic Seven Patch Notes & Updates — 11/19 and 11/20",
-      "meta": "Living Steam / Foundry patch notes for the completed 2026-11-19 update and the completed 2026-11-20 patch (STOVE 14640458, 14641953). Issue status follows those official posts; this page does not claim all known issues are fixed.",
+      "title": "Epic Seven Patch Notes and Known Issues | Steam",
+      "meta": "Steam and Foundry patch notes for Epic Seven, including known issues from official STOVE posts. This page does not claim every issue is fixed.",
       "h1": "Updates — heroes & events",
       "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
       "cards": [
+        [
+          "2026-11-26 — Schedule status: Yufine, charm week and carrots ended; Cecilia, Catalyst Search and Palace Maid are open",
+          [
+            "Checked 26 November 2026, Asia/Shanghai, against the official STOVE notices below. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update. No new official notice was posted after the 11/23 09:10 UTC Known Issues edit (STOVE 14640458, last content edit 11/23 09:13:10 UTC). Later 15:00 UTC timestamps on older posts match a daily 00:00 KST touch and do not change the published titles or body windows.",
+            "Ended at 26 Nov 2026, 10:59 Asia/Shanghai (11/26 02:59 UTC): Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up (STOVE 14606225); Emergency Dispatch Mission: Ruins Reclamation / charm week (STOVE 14571828); 3,000-Day Celebration “Everyone, Gather Carrots!” (STOVE 14606362). Official text says the Ruins Reclamation exchange closed at the same time and leftover medals were removed.",
+            "Now open from 26 Nov 2026, 11:00 Asia/Shanghai (11/26 03:00 UTC): Bunny Girl Maid Cecilia & Covert Service Covenant Drop Rate Up, through 17 Dec 2026, 10:59 Asia/Shanghai (12/17 02:59 UTC) (STOVE 14638143); Emergency Mission! Catalyst Search, through 3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC) (STOVE 14638258); Daily Life of a Palace Maid, play through 17 Dec at each server’s reset, Party Lost and Found until 17 Dec 2026, 10:59 Asia/Shanghai (STOVE 14638262).",
+            "Dirge of the End: Rewind remains open until 17 Dec 2026, 10:59 Asia/Shanghai (STOVE 14638347). The Foundry growth-mail login window remains closed at 11/19 02:59 UTC per notice 14571828 (edited 11/24 06:03 UTC); mail already received follows its own 7-day mailbox timer.",
+            "Current routes: [[banners|/banners/]], [[event routes|/quests/#event-routes]], [[claim windows|/quests/#claim-windows]]."
+          ],
+          "STOVE 14606225 · 14571828 · 14606362 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-20 — Patch completed: 08:30–09:30 UTC window ended",
           [
@@ -10950,7 +10961,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7 2nd update (after maintenance): Cecilia preview, Call of Chaos S2, balance",
           [
             "Update mail — 2 Leif: the collection period was 11/18 (Wed) – 11/21 (Sat) 10:30 UTC (11/21 18:30 Asia/Shanghai) and has ended. This is a record of the posted window, not confirmation that the mail is still in your inbox; do not expect to claim it now.",
-            "New 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul Weaver-exclusive artifact). Covenant Drop Rate Up and Preview Video Events: 11/26 (Thu) 03:00 – 12/17 (Thu) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Not summonable today; the preview videos give 1 Leif per event.",
+            "New 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul Weaver-exclusive artifact). Covenant Drop Rate Up and Preview Video Events: 11/26 (Thu) 03:00 – 12/17 (Thu) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Official window from 11/26 03:00 UTC; current open/closed status is in the 26 Nov card above. The preview videos give 1 Leif per event.",
             "Drop Rate Up: the featured 5★ rate is raised to 1% and no other 5★ can be summoned; no Moonlight Heroes. The counter drops by 1 per summon (max 120); after 120, the next summon is guaranteed to be the featured Hero, then the counter resets. The artifact is obtained through this rate-up pool. Cecilia and Covert Service will be Global Banned in the E7WC 2026 Grand Final.",
             "The Call of Chaos Season 2: after the 11/19 maintenance – 12/10 (Thu) 02:59 UTC; grace period 12/10 03:00 – 12/17 02:59 UTC. Entry is the banner at the bottom-left of the Arena entry screen; Account Rank 20+. It is shared across all servers and runs on KST start/end, independent of each server’s local reset. Draft Arena is unavailable during the season and returns after the grace period; during the grace period you can enter but cannot start a new Challenge. Seven season Heroes are added and Researcher Carrot is removed — see the official post for the full list.",
             "Hero balance (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. These are listed for the 11/19 8.7 update and applied after maintenance; final values and descriptions follow the official post/client. No skill before/after is copied here. World Arena battle records from before the 11/19 maintenance starts will not be replayable.",
@@ -10976,17 +10987,17 @@ export const CONTENT = {
           "STOVE official 2026-11-12"
         ],
         [
-          "2026-11-12 — 3,000-Day Celebration: Gather Carrots (until 11/26 02:59 UTC)",
+          "2026-11-12 — 3,000-Day Celebration: Gather Carrots (ended 11/26 02:59 UTC)",
           [
             "Official post: [[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (Thu) 03:00 → 11/26 (Thu) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Entry: Lobby > Event > Special Event. “Everyone, Gather Carrots!” rewards daily play; Carrots start accumulating when the event begins.",
             "Points: Adventure/Battle = Energy used (excluding purchased Spectral Core); 1 Spectral Core consumed = 160. Arena (including Draft Arena and Arena NPC Challenge) 1 play = 70; World Arena (including World Arena Tournament) 1 play = 120.",
             "Daily cap: up to 800 Carrots. Arena gives the same Carrots win or lose; stages that consume no Energy (e.g. Side Story story stages) do not count.",
             "Daily reset is per server: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
-            "Unclaimed event rewards expire; claim them before the event ends.",
+            "Unclaimed event rewards expired when the event ended.",
             "“3,000 Days Celebration Party Cake”: the all-Heirs cake gives bonus rewards per completed layer; cake completion rewards go only to Heirs who have collected 800+ Carrots cumulatively (not a requirement to hit the 800 daily cap every day). The all-Heirs total is tallied and reflected daily at 01:00 UTC — a total, not a reward-delivery time.",
             "Prize names and quantities were not given as text in the English post or its graphics, so they are omitted here. Related quest routing: [[quests|/quests/#gather-carrots]] — entry, point sources and daily cap.",
-            "This is separate from the comment event above; this event runs to 11/26."
+            "This is separate from the comment event above; this event ended 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai)."
           ],
           "STOVE official 2026-11-12"
         ],
@@ -11032,9 +11043,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Living log — last verified 2026-11-21 21:45 Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
+      "cont": "Living log — last verified 2026-11-26, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (not yet); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots run to 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (now open); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots ended 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "ko": {
       "title": "업데이트 — 영웅·이벤트",
@@ -11042,6 +11053,16 @@ export const CONTENT = {
       "h1": "업데이트 — 영웅·이벤트",
       "lead": "최신 우선. 공개 STOVE/Steam 요약 — 전체 패치 미러 아님.",
       "cards": [
+        [
+          "2026-11-26 — 일정 현황: 유핀·매력 주간·당근 종료, 세실리아·Catalyst Search·Palace Maid 진행 중",
+          [
+            "2026년 11월 26일 Asia/Shanghai 기준으로 아래 공식 STOVE 공지를 대조했습니다. 이 시점 Steam 뉴스에는 2026년 11월 18일 18:30 Asia/Shanghai의 8.7 업데이트보다 새로운 글이 없었습니다. 11/23 09:10 UTC Known Issues 수정(STOVE 14640458, 마지막 본문 수정 11/23 09:13:10 UTC) 이후 새 공식 공지는 없습니다.",
+            "2026년 11월 26일 10:59 Asia/Shanghai(11/26 02:59 UTC)에 종료: Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up(STOVE 14606225); Emergency Dispatch Mission: Ruins Reclamation/매력 주간(STOVE 14571828); 3,000일 축하 “Everyone, Gather Carrots!”(STOVE 14606362). 공식 문구에 따르면 Ruins Reclamation 교환소도 함께 닫히고 남은 메달은 삭제됩니다.",
+            "2026년 11월 26일 11:00 Asia/Shanghai(11/26 03:00 UTC)부터 진행 중: Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업, 2026년 12월 17일 10:59 Asia/Shanghai(12/17 02:59 UTC)까지(STOVE 14638143); Emergency Mission! Catalyst Search, 2026년 12월 3일 10:59 Asia/Shanghai(12/3 02:59 UTC)까지(STOVE 14638258); Daily Life of a Palace Maid는 12월 17일 각 서버 리셋까지, Party Lost and Found는 2026년 12월 17일 10:59 Asia/Shanghai까지(STOVE 14638262).",
+            "Dirge of the End: Rewind는 2026년 12월 17일 10:59 Asia/Shanghai까지 열려 있습니다(STOVE 14638347). 파운드리 성장 우편 로그인 창은 공지 14571828(11/24 06:03 UTC 수정)에 따라 11/19 02:59 UTC에 종료된 상태이며, 이미 받은 메일은 자체 7일 타이머를 따릅니다."
+          ],
+          "STOVE 14606225 · 14571828 · 14606362 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-20 — 패치 완료: 08:30–09:30 UTC 창 종료",
           [
@@ -11080,7 +11101,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7 2nd 업데이트(점검 후): Cecilia 예고, Call of Chaos S2, 밸런스",
           [
             "업데이트 메일 — 2 Leif: 수령 기간은 11/18 (수) – 11/21 (토) 10:30 UTC(11/21 18:30 Asia/Shanghai)였으며 이미 종료되었습니다. 공지된 기간의 기록이며, 우편함에 아직 있다는 확인이 아닙니다. 지금 수령을 기대하지 마세요.",
-            "신규 5★ Bunny Girl Maid Cecilia(대지 속성 소울위버) + Covert Service(소울위버 전용 아티팩트). Covenant 드롭률 업 및 프리뷰 영상 이벤트: 11/26 (목) 03:00 – 12/17 (목) 02:59 UTC(11/26 11:00 – 12/17 10:59 Asia/Shanghai). 오늘 뽑을 수 없습니다; 프리뷰 영상은 이벤트당 1 Leif.",
+            "신규 5★ Bunny Girl Maid Cecilia(대지 속성 소울위버) + Covert Service(소울위버 전용 아티팩트). Covenant 드롭률 업 및 프리뷰 영상 이벤트: 11/26 (목) 03:00 – 12/17 (목) 02:59 UTC(11/26 11:00 – 12/17 10:59 Asia/Shanghai). 공식 기간은 11/26 03:00 UTC부터입니다. 현재 개폐 상태는 위 11월 26일 카드를 보세요. 프리뷰 영상은 이벤트당 1 Leif.",
             "드롭률 업: 픽업 5★ 확률 1% 상향, 다른 5★ 없음, 월광 없음. 소환 1회당 카운터 1 감소(최대 120); 120회 후 다음 소환은 픽업 영웅 100% 보장, 이후 카운터 초기화. 아티팩트는 이 상향 풀에서 획득. Cecilia와 Covert Service는 E7WC 2026 Grand Final에서 Global Ban됩니다.",
             "The Call of Chaos 시즌 2: 11/19 점검 후 – 12/10 (목) 02:59 UTC; 유예 기간 12/10 03:00 – 12/17 02:59 UTC. 입장: 아레나 입장 화면 왼쪽 아래 배너; 계정 Rank 20 이상. 전 서버 공통이며 KST 시작/종료 기준으로 각 서버 로컬 리셋과 무관합니다. 시즌 중 Draft Arena 사용 불가, 유예 기간 종료 후 복귀. 유예 기간에는 입장만 가능하고 새 Challenge 시작 불가. 시즌 영웅 7명 추가, Researcher Carrot 제외 — 전체 명단은 공식 글 참고.",
             "영웅 밸런스(7명): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. 11/19 8.7 업데이트에 포함되어 점검 후 적용되며, 최종 수치·설명은 공식 글/클라이언트 기준입니다. 스킬 Before/After는 옮기지 않습니다. 11/19 점검 시작 전 World Arena 전투 기록은 다시보기 불가.",
@@ -11106,7 +11127,7 @@ export const CONTENT = {
           "STOVE 공식 2026-11-12"
         ],
         [
-          "2026-11-12 — 3,000일 축하 서버 협력: 당근 모으기 (11/26 02:59 UTC까지)",
+          "2026-11-12 — 3,000일 축하 서버 협력: 당근 모으기 (11/26 02:59 UTC 종료)",
           [
             "공식 게시글: [[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (목) 03:00 → 11/26 (목) 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "입장: Lobby > Event > Special Event. “Everyone, Gather Carrots!”에서 매일 콘텐츠를 플레이해 Carrots를 모아 보상을 받습니다. Carrots는 이벤트 시작 시점부터 누적됩니다.",
@@ -11116,7 +11137,7 @@ export const CONTENT = {
             "이벤트 기간 중 받지 않은 보상은 만료되므로 종료 전에 수령하세요.",
             "“3,000 Days Celebration Party Cake”: 모든 Heirs가 함께 Carrots를 모아 케이크를 완성하고, 층을 완성할 때마다 추가 보상을 받습니다. 케이크 완성 보상은 누적 800개 이상의 Carrots를 모은 Heirs에게만 지급됩니다(매일 800 상한을 채워야 한다는 뜻이 아님). 전체 누적량은 매일 01:00 UTC에 집계·반영되며, 이는 보상 지급 시각이 아닙니다.",
             "영문 공지 본문과 이미지에 보상 아이템 이름·수량이 문자로 제시되지 않아 이 페이지에서는 생략합니다. [[퀘스트 페이지|/quests/#gather-carrots]] — 입장·포인트·일일 상한 정리.",
-            "위 댓글 이벤트와 별개이며 이 이벤트는 11/26까지 진행됩니다."
+            "위 댓글 이벤트와 별개이며 이 이벤트는 11/26 02:59 UTC(11/26 10:59 Asia/Shanghai)에 종료되었습니다."
           ],
           "STOVE 공식 2026-11-12"
         ],
@@ -11163,9 +11184,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "활페이지 — Last verified 2026-11-21 21:45 Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
+      "cont": "활페이지 — Last verified 2026-11-26, Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최신: 11/19 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함으로 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. Version 8.7 2nd 업데이트: 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료; Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC(아직); Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC; 영웅 7명 밸런스는 점검 후 적용. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료(2 Leif는 11/20 지급 예정, 시각 미공지); 당근 이벤트는 11/26 02:59 UTC까지. Moro Mystic과 Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최신: 11/19 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함으로 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. Version 8.7 2nd 업데이트: 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료; Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC(지금 열림); Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC; 영웅 7명 밸런스는 점검 후 적용. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료(2 Leif는 11/20 지급 예정, 시각 미공지); 당근 이벤트는 11/26 02:59 UTC에 종료. Moro Mystic과 Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지. Last verified 2026-11-26, Asia/Shanghai."
     },
     "ja": {
       "title": "更新 — 英雄＆イベント",
@@ -11210,7 +11231,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7 第2弾アップデート（メンテ後）：Cecilia予告、Call of Chaos S2、バランス",
           [
             "アップデートメール — 2 Leif：受取期間は 11/18（水）〜11/21（土）10:30 UTC（11/21 18:30 Asia/Shanghai）で終了済み。告知期間の記録であり、メールが今も届いている保証ではありません。",
-            "新5★ Bunny Girl Maid Cecilia（Earth Soul Weaver）＋ Covert Service（Soul Weaver専用アーティファクト）。Covenantドロップ率アップとプレビュー動画イベント：11/26（木）03:00〜12/17（木）02:59 UTC（11/26 11:00〜12/17 10:59 Asia/Shanghai）。確認時点ではまだ召喚できません。",
+            "新5★ Bunny Girl Maid Cecilia（Earth Soul Weaver）＋ Covert Service（Soul Weaver専用アーティファクト）。Covenantドロップ率アップとプレビュー動画イベント：11/26（木）03:00〜12/17（木）02:59 UTC（11/26 11:00〜12/17 10:59 Asia/Shanghai）。公式期間は11/26 03:00 UTC開始で、現在は開いています。",
             "ドロップ率アップ：featured 5★は1%、他の5★は出ず、Moonlightなし。カウンターは1召喚ごとに1減り（最大120）、120回後の次召喚はfeatured確定、その後リセット。アーティファクトはこの率アップ枠から。CeciliaとCovert ServiceはE7WC 2026 Grand FinalでGlobal Ban。",
             "The Call of Chaos シーズン2：11/19メンテ後〜12/10（木）02:59 UTC、猶予期間 12/10 03:00〜12/17 02:59 UTC。Arena入口左下のバナーから、Account Rank 20以上。全サーバー共通でKST基準、各サーバーのローカルリセットとは別。シーズン中Draft Arenaは不可、猶予期間は入場のみで新規Challenge不可。シーズンヒーロー7名追加、Researcher Carrotは除外。",
             "ヒーローバランス（7名）：ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua；Covenant Summertime Iseria / Guard Captain Krau；4★ Victorika。11/19 8.7アップデートでメンテ後に適用済み。最終値は公式告知/クライアント基準。スキルBefore/Afterは転載しません。",
@@ -11231,12 +11252,12 @@ export const CONTENT = {
           "STOVE 公式 2026-11-12"
         ],
         [
-          "2026-11-12 — 3,000日記念：Carrots収集（11/26 02:59 UTCまで）",
+          "2026-11-12 — 3,000日記念：Carrots収集（11/26 02:59 UTCに終了）",
           [
             "公式投稿：[[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12（木）03:00 → 11/26（木）02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai）。",
             "入口：Lobby > Event > Special Event。Adventure/Battleは消費Energy（購入Spectral Coreを除く）、Spectral Core 1個=160。Arena 1回=70、World Arena 1回=120。",
             "1日最大800 Carrots。Arenaは勝敗問わず同数、Energyを消費しないステージは不算入。デイリーリセットはサーバー別：韓国/アジア/日本 18:00 UTC、欧州 03:00 UTC、Global 10:00 UTC。",
-            "未受取報酬は終了前に受け取ってください。コメントイベントとは別で、こちらは11/26まで続きます。"
+            "未受取報酬はイベント終了時に期限切れになりました。コメントイベントとは別で、こちらは11/26 02:59 UTCに終了しました。"
           ],
           "STOVE 公式 2026-11-12"
         ],
@@ -11281,9 +11302,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Living log — Last verified 2026-11-21 21:45 Asia/Shanghai。公式STOVE/Steamの告知で日付や状態が変わったときに更新します。",
+      "cont": "Living log — Last verified 2026-11-26, Asia/Shanghai。公式STOVE/Steamの告知で日付や状態が変わったときに更新します。",
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "最新パッチ：11/20（金）パッチは完了し、08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）の枠は終了しました。最新：11/19メンテは完了しました。告知枠は03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）で、09:30 UTC（17:30 Asia/Shanghai）に30分早く終了。補償はゲーム内メールのLeif ×6、保管7日で、受取期間は11/20 14:59 UTC（22:59 Asia/Shanghai）に終了済みです。現在の受取案内ではありません。Version 8.7第2弾：2 Leifアップデートメールの受取は11/21 10:30 UTCに終了。Bunny Girl Maid Cecilia＆Covert ServiceのCovenant率アップは11/26 03:00–12/17 02:59 UTC（まだ）。Call of Chaosシーズン2はメンテ後–12/10 02:59 UTC。7名のバランスはメンテ後に適用済み。3,000日コメントは11/18 14:59 UTC終了（2 Leifは11/20予定、時刻未公表）、Carrotsは11/26 02:59 UTCまで。MoroとLucky Boardは11/19 02:59 UTC終了、サイドとCase Filesは12/10 02:59 UTCまで。Last verified 2026-11-21 21:45 Asia/Shanghai。"
+      "answer": "最新パッチ：11/20（金）パッチは完了し、08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）の枠は終了しました。最新：11/19メンテは完了しました。告知枠は03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）で、09:30 UTC（17:30 Asia/Shanghai）に30分早く終了。補償はゲーム内メールのLeif ×6、保管7日で、受取期間は11/20 14:59 UTC（22:59 Asia/Shanghai）に終了済みです。現在の受取案内ではありません。Version 8.7第2弾：2 Leifアップデートメールの受取は11/21 10:30 UTCに終了。Bunny Girl Maid Cecilia＆Covert ServiceのCovenant率アップは11/26 03:00–12/17 02:59 UTC（現在開催中）。Call of Chaosシーズン2はメンテ後–12/10 02:59 UTC。7名のバランスはメンテ後に適用済み。3,000日コメントは11/18 14:59 UTC終了（2 Leifは11/20予定、時刻未公表）、Carrotsは11/26 02:59 UTCに終了。MoroとLucky Boardは11/19 02:59 UTC終了、サイドとCase Filesは12/10 02:59 UTCまで。Last verified 2026-11-26, Asia/Shanghai。"
     },
     "zh-tw": {
       "title": "更新 — 英雄與活動",
@@ -11291,6 +11312,16 @@ export const CONTENT = {
       "h1": "更新 — 英雄與活動",
       "lead": "最新在上。摘要公開 STOVE／Steam——非完整補丁鏡像。",
       "cards": [
+        [
+          "2026-11-26 — 時程現況：優芬妮、魅力週與胡蘿蔔已結束；賽西莉亞、Catalyst Search 與宮廷女僕的日常已開放",
+          [
+            "已於 2026 年 11 月 26 日（Asia/Shanghai）對照下方官方 STOVE 公告。此次檢查時，Steam 新聞仍無晚於 2026 年 11 月 18 日 18:30（Asia/Shanghai）的 8.7 更新帖。11/23 09:10 UTC Known Issues 修訂（STOVE 14640458，最後本文修訂 11/23 09:13:10 UTC）之後沒有新的官方公告。",
+            "已於 2026 年 11 月 26 日 10:59 Asia/Shanghai（11/26 02:59 UTC）結束：Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up（STOVE 14606225）；Emergency Dispatch Mission: Ruins Reclamation／魅力週（STOVE 14571828）；3,000 天慶祝「Everyone, Gather Carrots!」（STOVE 14606362）。官方原文寫明 Ruins Reclamation 兌換所同時關閉，剩餘勳章會被移除。",
+            "自 2026 年 11 月 26 日 11:00 Asia/Shanghai（11/26 03:00 UTC）起已開放：Bunny Girl Maid Cecilia & Covert Service 契約提高掉率，至 2026 年 12 月 17 日 10:59 Asia/Shanghai（12/17 02:59 UTC）（STOVE 14638143）；Emergency Mission! Catalyst Search，至 2026 年 12 月 3 日 10:59 Asia/Shanghai（12/3 02:59 UTC）（STOVE 14638258）；宮廷女僕的日常遊玩至 12 月 17 日各伺服器重置，Party Lost and Found 至 2026 年 12 月 17 日 10:59 Asia/Shanghai（STOVE 14638262）。",
+            "Dirge of the End: Rewind 仍開放至 2026 年 12 月 17 日 10:59 Asia/Shanghai（STOVE 14638347）。Foundry 成長郵件登入窗口依公告 14571828（11/24 06:03 UTC 修訂）仍為 11/19 02:59 UTC 結束；若信箱已有該信，依其自身 7 天倒數。"
+          ],
+          "STOVE 14606225 · 14571828 · 14606362 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-20 — 補丁已結束：08:30–09:30 UTC 窗口已過",
           [
@@ -11329,7 +11360,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7 第 2 彈更新（維護後）：Cecilia 預告、Call of Chaos S2、平衡",
           [
             "更新郵件——2 Leif：領取期為 11/18（週三）– 11/21（週六）10:30 UTC（11/21 18:30 Asia/Shanghai），已結束。這是公告窗口的紀錄，不代表信件仍在信箱；請勿預期現在還能領。",
-            "新 5★ Bunny Girl Maid Cecilia（大地靈魂使者）＋ Covert Service（靈魂使者專用神器）。Covenant 提高掉率與預覽影片活動：11/26（週四）03:00 – 12/17（週四）02:59 UTC（11/26 11:00 – 12/17 10:59 Asia/Shanghai）。今天還不能抽；預覽影片每場 1 Leif。",
+            "新 5★ Bunny Girl Maid Cecilia（大地靈魂使者）＋ Covert Service（靈魂使者專用神器）。Covenant 提高掉率與預覽影片活動：11/26（週四）03:00 – 12/17（週四）02:59 UTC（11/26 11:00 – 12/17 10:59 Asia/Shanghai）。官方時段自 11/26 03:00 UTC 起；目前開閉狀態見上方 11 月 26 日卡片。預覽影片每場 1 Leif。",
             "提高掉率：featured 5★ 提高至 1%，不會出其他 5★，無月光。每抽計數減 1（最多 120）；120 抽後下一抽保證 featured，抽出後計數重置。神器經此提高掉率池獲得。Cecilia 與 Covert Service 將成為 E7WC 2026 Grand Final 的 Global Banned。",
             "The Call of Chaos 第 2 賽季：11/19 維護後 – 12/10（週四）02:59 UTC；寬限期 12/10 03:00 – 12/17 02:59 UTC。入口：競技場入口左下 Banner；帳號 Rank 20 以上。全服共通，按 KST 起訖，與各服本地重置無關。賽季期間 Draft Arena 不可用，寬限期結束後換回。寬限期可進但不能開新 Challenge。新增 7 名賽季英雄、移出 Researcher Carrot——完整名單見官方貼文。",
             "英雄平衡（7 名）：ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua；Covenant Summertime Iseria / Guard Captain Krau；4★ Victorika。列入 11/19 8.7 更新、維護後實裝；正式數值與說明以官方貼文／客戶端為準。此處不抄技能 Before/After。11/19 維護開始前的 World Arena 戰報將無法回放。",
@@ -11355,7 +11386,7 @@ export const CONTENT = {
           "STOVE 官方 2026-11-12"
         ],
         [
-          "2026-11-12 — 3,000 天慶祝伺服器合作：收集 Carrots（至 11/26 02:59 UTC）",
+          "2026-11-12 — 3,000 天慶祝伺服器合作：收集 Carrots（已於 11/26 02:59 UTC 結束）",
           [
             "官方貼文：[[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12（週四）03:00 → 11/26（週四）02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai）。",
             "入口：Lobby > Event > Special Event。「Everyone, Gather Carrots!」每天遊玩內容收集 Carrots 領取獎勵；Carrots 從活動開始後才開始累計。",
@@ -11365,7 +11396,7 @@ export const CONTENT = {
             "活動期間未領取的獎勵會過期，請在結束前領取。",
             "「3,000 Days Celebration Party Cake」：與全體 Heirs 一起收集 Carrots 完成蛋糕，每完成一層可獲得額外獎勵；蛋糕完成獎勵只發給累計收集 800 個以上 Carrots 的 Heirs（不是必須每天達到 800 上限）。全體總量每天 01:00 UTC 統計並反映，這不是發獎時刻。",
             "英文公告正文與圖片未以文字列出獎品名稱與數量，因此本頁省略。[[任務頁|/quests/#gather-carrots]] — 入口、點數來源與每日上限。",
-            "與上方留言活動分開，本活動進行至 11/26。"
+            "與上方留言活動分開，本活動已於 11/26 02:59 UTC（11/26 10:59 Asia/Shanghai）結束。"
           ],
           "STOVE 官方 2026-11-12"
         ],
@@ -11412,9 +11443,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "活頁日誌 — Last verified 2026-11-21 21:45 Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
+      "cont": "活頁日誌 — Last verified 2026-11-26, Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最新：11/19 維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。Version 8.7 第 2 彈：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia & Covert Service 契約提高掉率 11/26 03:00 – 12/17 02:59 UTC（尚未）；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC；7 名英雄平衡於維護後套用。3,000 天留言活動已於 11/18 14:59 UTC 結束（2 Leif 預定 11/20 發放，未公布時刻）；收胡蘿蔔至 11/26 02:59 UTC。Moro Mystic 與 Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-21 21:45 Asia/Shanghai。"
+      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最新：11/19 維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。Version 8.7 第 2 彈：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia & Covert Service 契約提高掉率 11/26 03:00 – 12/17 02:59 UTC（現已開放）；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC；7 名英雄平衡於維護後套用。3,000 天留言活動已於 11/18 14:59 UTC 結束（2 Leif 預定 11/20 發放，未公布時刻）；收胡蘿蔔已於 11/26 02:59 UTC 結束。Moro Mystic 與 Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-26, Asia/Shanghai。"
     },
     "th": {
       "title": "อัปเดต Epic Seven — ฮีโร่และอีเวนต์",
@@ -11422,6 +11453,16 @@ export const CONTENT = {
       "h1": "อัปเดต — ฮีโร่และอีเวนต์",
       "lead": "ใหม่สุดขึ้นก่อน เราสรุปโพสต์สาธารณะของ STOVE / Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด",
       "cards": [
+        [
+          "2026-11-26 — สถานะกำหนดการ: Yufine สัปดาห์ชาร์ม และแครอทจบแล้ว; Cecilia, Catalyst Search และ Palace Maid เปิดแล้ว",
+          [
+            "ตรวจกับประกาศทางการ STOVE ด้านล่างเมื่อ 26 พ.ย. 2026 เขตเวลา Asia/Shanghai ข่าว Steam ณ รอบนี้ยังไม่มีโพสต์ใหม่กว่าอัปเดต 8.7 วันที่ 18 พ.ย. 2026 18:30 Asia/Shanghai ไม่มีประกาศทางการใหม่หลังการแก้ไข Known Issues 11/23 09:10 UTC (STOVE 14640458, แก้เนื้อหาล่าสุด 11/23 09:13:10 UTC)",
+            "จบเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai (11/26 02:59 UTC): Bunny Girl Mafia Yufine & A Boss's Dignity Drop Rate Up (STOVE 14606225); Emergency Dispatch Mission: Ruins Reclamation / สัปดาห์ชาร์ม (STOVE 14571828); ฉลอง 3,000 วัน “Everyone, Gather Carrots!” (STOVE 14606362) ข้อความทางการระบุว่าร้านแลก Ruins Reclamation ปิดพร้อมกันและเหรียญที่เหลือถูกลบ",
+            "เปิดแล้วตั้งแต่ 26 พ.ย. 2026 11:00 Asia/Shanghai (11/26 03:00 UTC): Bunny Girl Maid Cecilia & Covert Service Covenant Drop Rate Up ถึง 17 ธ.ค. 2026 10:59 Asia/Shanghai (12/17 02:59 UTC) (STOVE 14638143); Emergency Mission! Catalyst Search ถึง 3 ธ.ค. 2026 10:59 Asia/Shanghai (12/3 02:59 UTC) (STOVE 14638258); Daily Life of a Palace Maid เล่นถึงรีเซ็ตของแต่ละเซิร์ฟเวอร์วันที่ 17 ธ.ค. และ Party Lost and Found ถึง 17 ธ.ค. 2026 10:59 Asia/Shanghai (STOVE 14638262)",
+            "Dirge of the End: Rewind ยังเปิดถึง 17 ธ.ค. 2026 10:59 Asia/Shanghai (STOVE 14638347) ช่วงล็อกอินของจดหมายเติบโต Foundry ยังปิดที่ 11/19 02:59 UTC ตามประกาศ 14571828 (แก้ไข 11/24 06:03 UTC); หากมีอยู่ในกล่องแล้ว ให้ถือตามเวลา 7 วันของจดหมายนั้น"
+          ],
+          "STOVE 14606225 · 14571828 · 14606362 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-20 — แพตช์เสร็จสิ้น: ช่วง 08:30–09:30 UTC สิ้นสุดแล้ว",
           [
@@ -11460,7 +11501,7 @@ export const CONTENT = {
           "2026-11-19 — อัปเดต Version 8.7 ครั้งที่ 2 (หลังปิดปรับปรุง): Cecilia พรีวิว, Call of Chaos S2, ปรับสมดุล",
           [
             "อีเมลอัปเดต — 2 Leif: ช่วงรับคือ 11/18 (พ.) – 11/21 (ส.) 10:30 UTC (11/21 18:30 Asia/Shanghai) และสิ้นสุดแล้ว เป็นบันทึกของช่วงที่ประกาศ ไม่ใช่ยืนยันว่าเมลยังอยู่ในกล่อง โปรดอย่าคาดว่าจะรับได้ตอนนี้.",
-            "ฮีโร่ 5★ ใหม่ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (อาร์ติแฟกต์เฉพาะ Soul Weaver). Covenant Drop Rate Up และ Preview Video Events: 11/26 (พฤ.) 03:00 – 12/17 (พฤ.) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). ยังสุ่มไม่ได้วันนี้; วิดีโอพรีวิวให้ 1 Leif ต่ออีเวนต์.",
+            "ฮีโร่ 5★ ใหม่ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (อาร์ติแฟกต์เฉพาะ Soul Weaver). Covenant Drop Rate Up และ Preview Video Events: 11/26 (พฤ.) 03:00 – 12/17 (พฤ.) 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). ช่วงทางการเริ่ม 11/26 03:00 UTC; สถานะเปิด/ปิดปัจจุบันดูที่การ์ด 26 พ.ย. ด้านบน วิดีโอพรีวิวให้ 1 Leif ต่ออีเวนต์.",
             "Drop Rate Up: อัตราฮีโร่ 5★ แบบ featured เพิ่มเป็น 1% และไม่มี 5★ อื่น, ไม่มี Moonlight. ตัวนับลด 1 ต่อการสุ่ม (สูงสุด 120); หลัง 120 ครั้ง การสุ่มถัดไปรับประกัน featured แล้วตัวนับรีเซ็ต. อาร์ติแฟกต์ได้จากพูลเพิ่มอัตรานี้. Cecilia และ Covert Service จะเป็น Global Banned ใน E7WC 2026 Grand Final.",
             "The Call of Chaos ซีซัน 2: หลังปิดปรับปรุง 11/19 – 12/10 (พฤ.) 02:59 UTC; ช่วงผ่อนผัน 12/10 03:00 – 12/17 02:59 UTC. ทางเข้า: แบนเนอร์มุมซ้ายล่างของหน้าเข้า Arena; Account Rank 20 ขึ้นไป. ใช้ร่วมทุกเซิร์ฟเวอร์และเริ่ม/จบตาม KST ไม่เกี่ยวกับรีเซ็ตท้องถิ่นของแต่ละเซิร์ฟเวอร์. Draft Arena ใช้ไม่ได้ระหว่างซีซันและกลับมาหลังช่วงผ่อนผัน; ช่วงผ่อนผันเข้าได้แต่เริ่ม Challenge ใหม่ไม่ได้. เพิ่มฮีโร่ซีซัน 7 ตัวและนำ Researcher Carrot ออก — ดูรายชื่อทั้งหมดในโพสต์ทางการ.",
             "ปรับสมดุลฮีโร่ 7 ตัว: ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. อยู่ในรายการอัปเดต 8.7 วันที่ 11/19 และมีผลหลังปิดปรับปรุง; ค่าสุดท้ายเป็นไปตามโพสต์ทางการ/ไคลเอนต์. ไม่มีการคัดลอกสกิล Before/After ที่นี่. บันทึกการต่อสู้ World Arena ก่อนเริ่มปิดปรับปรุง 11/19 จะเล่นย้อนหลังไม่ได้.",
@@ -11486,17 +11527,17 @@ export const CONTENT = {
           "STOVE ทางการ 2026-11-12"
         ],
         [
-          "2026-11-12 — ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท (ถึง 11/26 02:59 UTC)",
+          "2026-11-12 — ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท (จบ 11/26 02:59 UTC)",
           [
             "โพสต์ทางการ: [[https://page.onstove.com/epicseven/global/view/14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (พฤ.) 03:00 → 11/26 (พฤ.) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "ทางเข้า: Lobby > Event > Special Event. “Everyone, Gather Carrots!” ให้เล่นเนื้อหาในเกมทุกวันเพื่อเก็บ Carrots รับรางวัล; Carrots เริ่มสะสมเมื่ออีเวนต์เริ่ม",
             "คะแนน: Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมการซื้อ Spectral Core); ใช้ Spectral Core 1 ชิ้น = 160. Arena (รวม Draft Arena และ Arena NPC Challenge) 1 ครั้ง = 70; World Arena (รวม World Arena Tournament) 1 ครั้ง = 120.",
             "สูงสุด 800 Carrots ต่อวัน. Arena ให้ Carrots เท่ากันไม่ว่าจะชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่องใน Side Story) ไม่นับ",
             "รีเซ็ตรายวันตามเซิร์ฟเวอร์: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
-            "รางวัลที่ยังไม่รับในช่วงอีเวนต์จะหมดอายุ ต้องรับก่อนอีเวนต์จบ",
+            "รางวัลที่ยังไม่รับหมดอายุเมื่ออีเวนต์จบ",
             "“3,000 Days Celebration Party Cake”: ร่วมกับ Heirs ทั้งหมดเก็บ Carrots เพื่อทำเค้กให้เสร็จ และรับรางวัลเพิ่มเมื่อแต่ละชั้นเสร็จ; รางวัลจบเค้กให้เฉพาะ Heirs ที่สะสม Carrots ได้ 800 ชิ้นขึ้นไป (สะสม ไม่ใช่ต้องถึงเพดาน 800 ทุกวัน). ยอดรวมของทุกคนจะถูกสรุปและแสดงทุกวันเวลา 01:00 UTC — ไม่ใช่เวลาจ่ายรางวัล",
             "ชื่อและจำนวนไอเทมรางวัลไม่ได้ระบุเป็นข้อความในโพสต์หรือภาพภาษาอังกฤษ จึงละไว้ในหน้านี้. [[หน้าเควส|/quests/#gather-carrots]] — ทางเข้า แหล่งคะแนน และเพดานรายวัน",
-            "แยกจากอีเวนต์คอมเมนต์ด้านบน; อีเวนต์นี้ดำเนินถึง 11/26"
+            "แยกจากอีเวนต์คอมเมนต์ด้านบน; อีเวนต์นี้จบแล้วเมื่อ 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai)"
           ],
           "STOVE ทางการ 2026-11-12"
         ],
@@ -11543,9 +11584,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "บันทึก live — Last verified 2026-11-21 21:45 Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
+      "cont": "บันทึก live — Last verified 2026-11-26, Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ล่าสุด: ปิดปรับปรุง 11/19 เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. Version 8.7 ครั้งที่ 2: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC (ยังไม่ถึง); Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC; ปรับสมดุล 7 ฮีโร่หลังปิดปรับปรุง. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC (2 Leif กำหนด 11/20 ไม่ระบุเวลา); เก็บแครอทถึง 11/26 02:59 UTC. Moro Mystic และ Lucky Board สิ้นสุด 11/19 02:59 UTC; ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ล่าสุด: ปิดปรับปรุง 11/19 เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. Version 8.7 ครั้งที่ 2: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC (เปิดแล้ว); Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC; ปรับสมดุล 7 ฮีโร่หลังปิดปรับปรุง. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC (2 Leif กำหนด 11/20 ไม่ระบุเวลา); เก็บแครอทสิ้นสุด 11/26 02:59 UTC. Moro Mystic และ Lucky Board สิ้นสุด 11/19 02:59 UTC; ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "es": {
       "title": "Actualizaciones de Epic Seven — héroes y eventos",
@@ -11590,7 +11631,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7, 2.ª parte (tras el mantenimiento): avance de Cecilia, Call of Chaos S2, balance",
           [
             "Correo de actualización — 2 Leif: el periodo de recogida fue 11/18 (mié) – 11/21 (sáb) 10:30 UTC (11/21 18:30 Asia/Shanghai) y ya terminó. Es el registro de la ventana publicada, no la confirmación de que el correo siga en la bandeja; no cuentes con reclamarlo ahora.",
-            "Nuevo 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefacto exclusivo de Soul Weaver). Covenant Drop Rate Up y eventos de vídeo: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). En esta comprobación aún no se puede invocar.",
+            "Nuevo 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefacto exclusivo de Soul Weaver). Covenant Drop Rate Up y eventos de vídeo: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). La ventana oficial empieza el 11/26 03:00 UTC; este rate-up ya está abierto.",
             "Rate-up: el 5★ destacado sube al 1%, no salen otros 5★ ni Moonlight; el contador baja 1 por invocación (máx. 120), la siguiente tras 120 garantiza al destacado y el contador se reinicia. El artefacto sale de este pool. Cecilia y Covert Service estarán Global Banned en E7WC 2026 Grand Final.",
             "Call of Chaos temporada 2: tras el mantenimiento del 11/19 – 12/10 02:59 UTC; gracia 12/10 03:00 – 12/17 02:59 UTC. Entrada en el banner inferior izquierdo de Arena; Account Rank 20+. Común a todos los servidores, con inicio/fin en KST. Draft Arena no disponible durante la temporada; en la gracia se entra pero no se inicia Challenge. Siete héroes de temporada añadidos y Researcher Carrot retirado.",
             "Balance de héroes (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. Se aplicó tras el mantenimiento del 11/19; los valores finales siguen la publicación/cliente. No se copian los Before/After de habilidades.",
@@ -11611,12 +11652,12 @@ export const CONTENT = {
           "STOVE oficial 2026-11-12"
         ],
         [
-          "2026-11-12 — 3.000 días: recogida de Carrots (hasta el 11/26 02:59 UTC)",
+          "2026-11-12 — 3.000 días: recogida de Carrots (terminó el 11/26 02:59 UTC)",
           [
             "Publicación oficial: [[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (jue) 03:00 → 11/26 (jue) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Entrada: Lobby > Event > Special Event. Adventure/Battle cuentan la Energy consumida (sin Spectral Core comprado); 1 Spectral Core = 160. Arena (incluida Draft Arena y NPC Challenge) 1 partida = 70; World Arena 1 = 120.",
             "Tope diario: 800 Carrots. Arena da lo mismo al ganar o perder; las etapas sin Energy (por ejemplo, historia de Side Story) no cuentan. El reinicio diario es por servidor: Corea/Asia/Japón 18:00 UTC; Europa 03:00 UTC; Global 10:00 UTC.",
-            "Las recompensas sin reclamar caducan; recógelas antes del final. Es un evento distinto del de comentarios y sigue hasta el 11/26."
+            "Las recompensas sin reclamar caducaron cuando terminó el evento. Es un evento distinto del de comentarios y terminó el 11/26 02:59 UTC."
           ],
           "STOVE oficial 2026-11-12"
         ],
@@ -11661,9 +11702,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Registro vivo — Last verified 2026-11-21 21:45 Asia/Shanghai. Se actualiza cuando una publicación oficial de STOVE/Steam cambia una fecha o un estado.",
+      "cont": "Registro vivo — Last verified 2026-11-26, Asia/Shanghai. Se actualiza cuando una publicación oficial de STOVE/Steam cambia una fecha o un estado.",
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. Último: el mantenimiento del 11/19 está completado. La ventana publicada era 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, almacenamiento 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado y no una instrucción para reclamar. Version 8.7 2.ª parte: la recogida de 2 Leif por correo terminó el 11/21 10:30 UTC; el rate-up de Bunny Girl Maid Cecilia & Covert Service va del 11/26 03:00 al 12/17 02:59 UTC (aún no); Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC (2 Leif previstos el 11/20, sin hora); las zanahorias siguen hasta el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia secundaria y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. Último: el mantenimiento del 11/19 está completado. La ventana publicada era 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, almacenamiento 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado y no una instrucción para reclamar. Version 8.7 2.ª parte: la recogida de 2 Leif por correo terminó el 11/21 10:30 UTC; el rate-up de Bunny Girl Maid Cecilia & Covert Service va del 11/26 03:00 al 12/17 02:59 UTC (ahora abierto); Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC (2 Leif previstos el 11/20, sin hora); las zanahorias terminaron el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia secundaria y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "pt": {
       "title": "Atualizações de Epic Seven — heróis e eventos",
@@ -11708,7 +11749,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7, 2.ª parte (após a manutenção): prévia de Cecilia, Call of Chaos S2, balanceamento",
           [
             "E-mail de atualização — 2 Leif: o período de coleta foi 11/18 (qua) – 11/21 (sáb) 10:30 UTC (11/21 18:30 Asia/Shanghai) e já terminou. É o registro da janela publicada, não a confirmação de que o e-mail ainda está na caixa; não conte com resgatá-lo agora.",
-            "Novo 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefato exclusivo de Soul Weaver). Covenant Drop Rate Up e eventos de vídeo: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Nesta verificação ainda não é possível invocar.",
+            "Novo 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefato exclusivo de Soul Weaver). Covenant Drop Rate Up e eventos de vídeo: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). A janela oficial começa em 11/26 03:00 UTC; este rate-up já está aberto.",
             "Rate-up: o 5★ em destaque sobe para 1%, sem outros 5★ nem Moonlight; o contador cai 1 por invocação (máx. 120), a seguinte após 120 garante o destaque e o contador reinicia. O artefato sai deste pool. Cecilia e Covert Service serão Global Banned na E7WC 2026 Grand Final.",
             "Call of Chaos temporada 2: após a manutenção de 11/19 – 12/10 02:59 UTC; carência 12/10 03:00 – 12/17 02:59 UTC. Entrada no banner inferior esquerdo da Arena; Account Rank 20+. Comum a todos os servidores, com início/fim em KST. Draft Arena indisponível na temporada; na carência entra mas não inicia Challenge. Sete heróis de temporada adicionados e Researcher Carrot removido.",
             "Balanceamento de heróis (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. Aplicado após a manutenção de 11/19; valores finais seguem o post/cliente. Não copiamos Before/After de habilidades.",
@@ -11729,12 +11770,12 @@ export const CONTENT = {
           "STOVE oficial 2026-11-12"
         ],
         [
-          "2026-11-12 — 3.000 dias: coleta de Carrots (até 11/26 02:59 UTC)",
+          "2026-11-12 — 3.000 dias: coleta de Carrots (terminou em 11/26 02:59 UTC)",
           [
             "Post oficial: [[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (qui) 03:00 → 11/26 (qui) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Entrada: Lobby > Event > Special Event. Adventure/Battle contam a Energy gasta (sem Spectral Core comprado); 1 Spectral Core = 160. Arena (incluindo Draft Arena e NPC Challenge) 1 partida = 70; World Arena 1 = 120.",
             "Limite diário: 800 Carrots. Arena dá o mesmo ao vencer ou perder; fases sem Energy (como a história da Side Story) não contam. O reset diário é por servidor: Coreia/Ásia/Japão 18:00 UTC; Europa 03:00 UTC; Global 10:00 UTC.",
-            "Recompensas não resgatadas expiram; resgate antes do fim. É um evento separado do de comentários e segue até 11/26."
+            "Recompensas não resgatadas expiraram quando o evento terminou. É um evento separado do de comentários e terminou em 11/26 02:59 UTC."
           ],
           "STOVE oficial 2026-11-12"
         ],
@@ -11779,9 +11820,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Registro vivo — Last verified 2026-11-21 21:45 Asia/Shanghai. Atualizado quando um post oficial do STOVE/Steam muda uma data ou status.",
+      "cont": "Registro vivo — Last verified 2026-11-26, Asia/Shanghai. Atualizado quando um post oficial do STOVE/Steam muda uma data ou status.",
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. Mais recente: a manutenção de 11/19 está concluída. A janela publicada era 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, armazenamento 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado e não uma instrução para resgatar. Version 8.7 2.ª parte: a coleta de 2 Leif por e-mail terminou em 11/21 10:30 UTC; o rate-up de Bunny Girl Maid Cecilia & Covert Service vai de 11/26 03:00 a 12/17 02:59 UTC (ainda não); Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC (2 Leif previstos para 11/20, sem hora); as cenouras seguem até 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história secundária e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. Mais recente: a manutenção de 11/19 está concluída. A janela publicada era 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, armazenamento 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado e não uma instrução para resgatar. Version 8.7 2.ª parte: a coleta de 2 Leif por e-mail terminou em 11/21 10:30 UTC; o rate-up de Bunny Girl Maid Cecilia & Covert Service vai de 11/26 03:00 a 12/17 02:59 UTC (agora aberto); Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC (2 Leif previstos para 11/20, sem hora); as cenouras terminaram em 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história secundária e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "de": {
       "title": "Epic Seven Updates — Helden & Events",
@@ -11826,7 +11867,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7, 2. Teil (nach der Wartung): Cecilia-Vorschau, Call of Chaos S2, Balance",
           [
             "Update-Mail — 2 Leif: Der Abholzeitraum war 11/18 (Mi) – 11/21 (Sa) 10:30 UTC (11/21 18:30 Asia/Shanghai) und ist beendet. Das ist die Aufzeichnung des angekündigten Fensters, kein Beleg dafür, dass die Mail noch im Postfach liegt; plane nicht, sie jetzt abzuholen.",
-            "Neue 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul-Weaver-exklusives Artefakt). Covenant Drop Rate Up und Video-Events: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Zum Prüfzeitpunkt noch nicht beschwörbar.",
+            "Neue 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (Soul-Weaver-exklusives Artefakt). Covenant Drop Rate Up und Video-Events: 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Das offizielle Fenster beginnt am 11/26 03:00 UTC; dieses Rate-up ist jetzt offen.",
             "Rate-up: der featured 5★ steigt auf 1 %, keine anderen 5★, kein Moonlight; der Zähler sinkt um 1 pro Beschwörung (max. 120), die nächste nach 120 garantiert den Featured Hero, danach wird zurückgesetzt. Das Artefakt kommt aus diesem Pool. Cecilia und Covert Service sind im E7WC 2026 Grand Final Global Ban.",
             "Call of Chaos Saison 2: nach der Wartung am 11/19 – 12/10 02:59 UTC; Gnadenfrist 12/10 03:00 – 12/17 02:59 UTC. Einstieg über das Banner unten links im Arena-Bildschirm; Account Rank 20+. Serverübergreifend, Start/Ende nach KST. Draft Arena während der Saison nicht verfügbar; in der Gnadenfrist ist Einstieg möglich, aber kein neuer Challenge. Sieben Saison-Helden hinzugefügt, Researcher Carrot entfernt.",
             "Heldenbalance (7): ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua; Covenant Summertime Iseria / Guard Captain Krau; 4★ Victorika. Nach der Wartung am 11/19 angewendet; endgültige Werte laut offiziellem Beitrag/Client. Keine Skill-Before/After-Kopien.",
@@ -11847,12 +11888,12 @@ export const CONTENT = {
           "STOVE offiziell 2026-11-12"
         ],
         [
-          "2026-11-12 — 3.000 Tage: Carrots sammeln (bis 11/26 02:59 UTC)",
+          "2026-11-12 — 3.000 Tage: Carrots sammeln (endete am 11/26 02:59 UTC)",
           [
             "Offizieller Beitrag: [[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (Do) 03:00 → 11/26 (Do) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Einstieg: Lobby > Event > Special Event. Adventure/Battle zählen verbrauchte Energy (ohne gekauften Spectral Core); 1 Spectral Core = 160. Arena (inkl. Draft Arena und NPC Challenge) 1 Lauf = 70; World Arena 1 = 120.",
             "Tageslimit: 800 Carrots. Arena gibt unabhängig von Sieg/Niederlage gleich viel; Stages ohne Energy (z. B. Side-Story-Handlung) zählen nicht. Der Tagesreset ist serverseitig: Korea/Asien/Japan 18:00 UTC; Europa 03:00 UTC; Global 10:00 UTC.",
-            "Nicht abgeholte Belohnungen verfallen; hole sie vor dem Ende ab. Dies ist ein separates Event vom Kommentar-Event und läuft bis 11/26."
+            "Nicht abgeholte Belohnungen sind mit dem Eventende verfallen. Dies ist ein separates Event vom Kommentar-Event und endete am 11/26 02:59 UTC."
           ],
           "STOVE offiziell 2026-11-12"
         ],
@@ -11897,9 +11938,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Laufendes Protokoll — Last verified 2026-11-21 21:45 Asia/Shanghai. Wird aktualisiert, wenn ein offizieller STOVE-/Steam-Beitrag ein Datum oder einen Status ändert.",
+      "cont": "Laufendes Protokoll — Last verified 2026-11-26, Asia/Shanghai. Wird aktualisiert, wenn ein offizieller STOVE-/Steam-Beitrag ein Datum oder einen Status ändert.",
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Neuestes: Die Wartung am 11/19 ist abgeschlossen. Angekündigt war 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); sie endete vorzeitig um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai), ist also Vergangenheit und keine Aufforderung, jetzt abzuholen. Version 8.7 2. Teil: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Rate-up von Bunny Girl Maid Cecilia & Covert Service läuft 11/26 03:00 – 12/17 02:59 UTC (noch nicht); Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC (2 Leif am 11/20 geplant, ohne Uhrzeit); Carrots laufen bis 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Neuestes: Die Wartung am 11/19 ist abgeschlossen. Angekündigt war 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai); sie endete vorzeitig um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai), ist also Vergangenheit und keine Aufforderung, jetzt abzuholen. Version 8.7 2. Teil: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Rate-up von Bunny Girl Maid Cecilia & Covert Service läuft 11/26 03:00 – 12/17 02:59 UTC (jetzt geöffnet); Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC (2 Leif am 11/20 geplant, ohne Uhrzeit); Carrots endeten am 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "fr": {
       "title": "Mises à jour Epic Seven — héros et événements",
@@ -11944,7 +11985,7 @@ export const CONTENT = {
           "2026-11-19 — Version 8.7, 2e partie (après la maintenance) : aperçu de Cecilia, Call of Chaos S2, équilibrage",
           [
             "Mail de mise à jour — 2 Leif : la période de collecte était 11/18 (mer) – 11/21 (sam) 10:30 UTC (11/21 18:30 Asia/Shanghai) et elle est terminée. C’est le relevé de la fenêtre annoncée, pas la preuve que le mail est encore dans la boîte ; ne comptez pas le récupérer maintenant.",
-            "Nouveau 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefact exclusif Soul Weaver). Covenant Drop Rate Up et événements vidéo : 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). Pas encore invocable à ce contrôle.",
+            "Nouveau 5★ Bunny Girl Maid Cecilia (Earth Soul Weaver) + Covert Service (artefact exclusif Soul Weaver). Covenant Drop Rate Up et événements vidéo : 11/26 03:00 – 12/17 02:59 UTC (11/26 11:00 – 12/17 10:59 Asia/Shanghai). La fenêtre officielle commence le 11/26 03:00 UTC ; ce rate-up est désormais ouvert.",
             "Rate-up : le 5★ vedette passe à 1 %, pas d’autre 5★ ni de Moonlight ; le compteur baisse de 1 par invocation (max. 120), la suivante après 120 garantit le vedette, puis le compteur se réinitialise. L’artefact sort de ce pool. Cecilia et Covert Service seront Global Banned à l’E7WC 2026 Grand Final.",
             "Call of Chaos saison 2 : après la maintenance du 11/19 – 12/10 02:59 UTC ; période de grâce 12/10 03:00 – 12/17 02:59 UTC. Entrée via la bannière en bas à gauche de l’écran Arena ; Account Rank 20+. Commun à tous les serveurs, début/fin en KST. Draft Arena indisponible pendant la saison ; en grâce, entrée possible mais pas de nouveau Challenge. Sept héros de saison ajoutés, Researcher Carrot retiré.",
             "Équilibrage des héros (7) : ML Death Dealer Ray / Requiem Roana / Eternal Wanderer Ludwig / Hellion Lua ; Covenant Summertime Iseria / Guard Captain Krau ; 4★ Victorika. Appliqué après la maintenance du 11/19 ; valeurs finales selon la publication/le client. Aucun Before/After de compétence copié.",
@@ -11965,12 +12006,12 @@ export const CONTENT = {
           "STOVE officiel 2026-11-12"
         ],
         [
-          "2026-11-12 — 3 000 jours : collecte de Carrots (jusqu’au 11/26 02:59 UTC)",
+          "2026-11-12 — 3 000 jours : collecte de Carrots (terminé le 11/26 02:59 UTC)",
           [
             "Publication officielle : [[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (jeu) 03:00 → 11/26 (jeu) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Entrée : Lobby > Event > Special Event. Adventure/Battle comptent l’Energy dépensée (hors Spectral Core acheté) ; 1 Spectral Core = 160. Arena (Draft Arena et NPC Challenge inclus) 1 partie = 70 ; World Arena 1 = 120.",
             "Plafond quotidien : 800 Carrots. Arena donne autant en victoire qu’en défaite ; les étapes sans Energy (par ex. l’histoire de la Side Story) ne comptent pas. Le reset quotidien est par serveur : Corée/Asie/Japon 18:00 UTC ; Europe 03:00 UTC ; Global 10:00 UTC.",
-            "Les récompenses non récupérées expirent ; récupérez-les avant la fin. C’est un événement distinct de celui des commentaires et il dure jusqu’au 11/26."
+            "Les récompenses non récupérées ont expiré à la fin de l’événement. C’est un événement distinct de celui des commentaires et il s’est terminé le 11/26 02:59 UTC."
           ],
           "STOVE officiel 2026-11-12"
         ],
@@ -12015,9 +12056,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Journal vivant — Last verified 2026-11-21 21:45 Asia/Shanghai. Mis à jour lorsqu’une publication officielle STOVE/Steam change une date ou un statut.",
+      "cont": "Journal vivant — Last verified 2026-11-26, Asia/Shanghai. Mis à jour lorsqu’une publication officielle STOVE/Steam change une date ou un statut.",
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. Dernier point : la maintenance du 11/19 est terminée. Elle était annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) et s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, conservation 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé et non une consigne de récupérer maintenant. Version 8.7 2e partie : la collecte des 2 Leif par mail a pris fin le 11/21 10:30 UTC ; le rate-up de Bunny Girl Maid Cecilia & Covert Service court du 11/26 03:00 au 12/17 02:59 UTC (pas encore) ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC (2 Leif prévus le 11/20, sans heure) ; les carottes vont jusqu’au 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire annexe et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. Dernier point : la maintenance du 11/19 est terminée. Elle était annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) et s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, conservation 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé et non une consigne de récupérer maintenant. Version 8.7 2e partie : la collecte des 2 Leif par mail a pris fin le 11/21 10:30 UTC ; le rate-up de Bunny Girl Maid Cecilia & Covert Service court du 11/26 03:00 au 12/17 02:59 UTC (désormais ouvert) ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC (2 Leif prévus le 11/20, sans heure) ; les carottes ont pris fin le 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire annexe et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "pl": {
       "title": "Aktualizacje Epic Seven — bohaterowie i wydarzenia",
@@ -12083,12 +12124,12 @@ export const CONTENT = {
           "STOVE oficjalne 2026-11-12"
         ],
         [
-          "2026-11-12 — 3000 dni: zbieranie Carrots (do 11/26 02:59 UTC)",
+          "2026-11-12 — 3000 dni: zbieranie Carrots (zakończone 11/26 02:59 UTC)",
           [
             "Oficjalny wpis: [[STOVE 14606362|https://page.onstove.com/epicseven/global/view/14606362]] — 11/12 (czw) 03:00 → 11/26 (czw) 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai).",
             "Wejście: Lobby > Event > Special Event. Adventure/Battle liczą zużytą Energy (bez kupionego Spectral Core); 1 Spectral Core = 160. Arena (w tym Draft Arena i NPC Challenge) 1 gra = 70; World Arena 1 = 120.",
             "Limit dzienny: 800 Carrots. Arena daje tyle samo przy wygranej i przegranej; etapy bez Energy (np. fabuła Side Story) nie liczą się. Reset dzienny jest per serwer: Korea/Azja/Japonia 18:00 UTC; Europa 03:00 UTC; Global 10:00 UTC.",
-            "Nieodebrane nagrody wygasają; odbierz je przed końcem. To osobne wydarzenie od komentarzy i trwa do 11/26."
+            "Nieodebrane nagrody wygasły, gdy wydarzenie się skończyło. To osobne wydarzenie od komentarzy i zakończyło się 11/26 02:59 UTC."
           ],
           "STOVE oficjalne 2026-11-12"
         ],
@@ -12133,9 +12174,9 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Dziennik na żywo — Last verified 2026-11-21 21:45 Asia/Shanghai. Aktualizowany, gdy oficjalny wpis STOVE/Steam zmieni datę lub status.",
+      "cont": "Dziennik na żywo — Last verified 2026-11-26, Asia/Shanghai. Aktualizowany, gdy oficjalny wpis STOVE/Steam zmieni datę lub status.",
       "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
-      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze: konserwacja 11/19 jest zakończona. Ogłoszono ją na 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyła się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość, a nie polecenie odbioru teraz. Version 8.7 część 2: odbiór 2 Leif z maila zakończył się 11/21 10:30 UTC; rate-up Bunny Girl Maid Cecilia & Covert Service trwa 11/26 03:00 – 12/17 02:59 UTC (jeszcze nie); Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC (2 Leif zaplanowane na 11/20, bez godziny); marchewki trwają do 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia poboczna i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze: konserwacja 11/19 jest zakończona. Ogłoszono ją na 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyła się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość, a nie polecenie odbioru teraz. Version 8.7 część 2: odbiór 2 Leif z maila zakończył się 11/21 10:30 UTC; rate-up Bunny Girl Maid Cecilia & Covert Service trwa 11/26 03:00 – 12/17 02:59 UTC (teraz otwarty); Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC (2 Leif zaplanowane na 11/20, bez godziny); marchewki zakończyły się 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia poboczna i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     }
   },
   "/maintenance/": {
@@ -12145,6 +12186,7 @@ export const CONTENT = {
       "h1": "Epic Seven maintenance & patch notes",
       "lead": "Track weekly patches affecting Steam clients, Foundry unlocks, and launch caveats (e.g. Japanese VO delay).",
       "cards": [
+        
         [
           "2026-11-20 — Patch completed: 08:30–09:30 UTC window ended",
           [
@@ -12243,7 +12285,7 @@ export const CONTENT = {
         "Call out Foundry-only schedule slips separately from legacy servers."
       ],
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
-      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Most recent window: the 11/19 (Thu) maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. The notice points to the Version 8.7 2nd Update Content: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia rate-up 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC; carrots run to 11/26 02:59 UTC. Moro and the Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Historical maintenance/event snapshot checked 2026-11-21 21:45 Asia/Shanghai; the separately dated current GW update follows. Guild War update checked 23 November 2026: The official Foundry Guild War matchmaking start, 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC), has been reached. This confirms the timetable, not an actual match, attack opportunity or battle result; check your guild in-game. The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window."
+      "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) window has ended. Most recent window: the 11/19 (Thu) maintenance is completed. It was posted for 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) and ended early at 09:30 UTC (17:30 Asia/Shanghai). Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC (22:59 Asia/Shanghai), so it is past, not a live claim. The notice points to the Version 8.7 2nd Update Content: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia rate-up 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos Season 2 after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC; carrots ended 11/26 02:59 UTC. Moro and the Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Historical maintenance/event snapshot checked 2026-11-21 21:45 Asia/Shanghai; the separately dated current GW update follows. Guild War update checked 23 November 2026: The official Foundry Guild War matchmaking start, 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC), has been reached. This confirms the timetable, not an actual match, attack opportunity or battle result; check your guild in-game. The separate Guild War login gift ended on 23 November 2026 at 11:00 Asia/Shanghai (03:00 UTC). Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window."
     },
     "ko": {
       "title": "점검·버전 노트",
@@ -12251,6 +12293,7 @@ export const CONTENT = {
       "h1": "점검·버전 노트",
       "lead": "Steam 클라이언트·파운드리 해금·런칭 이슈(일본어 VO 지연 등)를 추적합니다.",
       "cards": [
+        
         [
           "2026-11-20 — 패치 완료: 08:30–09:30 UTC 창 종료",
           [
@@ -12348,7 +12391,7 @@ export const CONTENT = {
         "파운드리 전용 일정 변동은 기존 서버와 구분."
       ],
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
-      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최근 창: 11/19 (목) 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. 공지는 Version 8.7 2nd Update Content를 가리키며, 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료, Bunny Girl Maid Cecilia 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC, Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC입니다. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료, 당근 이벤트는 11/26 02:59 UTC까지, Moro/Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지입니다. 점검·이벤트 과거 스냅샷 확인:2026-11-21 21:45 Asia/Shanghai. 현재 기사단전 상태는 아래 별도 날짜로 갱신. 기사단전 상태는 2026년11월23일 별도 확인: 파운드리 기사단전 매칭의 공식 시작 시각인 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)는 지났습니다. 이는 공지 일정 확인이며 실제 매칭·공격 가능 여부·전투 결과를 확인한 것은 아닙니다. 소속 기사단 상태는 게임에서 확인하세요. 별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다."
+      "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최근 창: 11/19 (목) 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. 공지는 Version 8.7 2nd Update Content를 가리키며, 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료, Bunny Girl Maid Cecilia 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC, Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC입니다. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료, 당근 이벤트는 11/26 02:59 UTC에 종료, Moro/Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지입니다. 점검·이벤트 과거 스냅샷 확인:2026-11-21 21:45 Asia/Shanghai. 현재 기사단전 상태는 아래 별도 날짜로 갱신. 기사단전 상태는 2026년11월23일 별도 확인: 파운드리 기사단전 매칭의 공식 시작 시각인 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)는 지났습니다. 이는 공지 일정 확인이며 실제 매칭·공격 가능 여부·전투 결과를 확인한 것은 아닙니다. 소속 기사단 상태는 게임에서 확인하세요. 별도 기사단전 접속 선물 기간은 2026년 11월 23일 11:00 Asia/Shanghai(03:00 UTC)에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다."
     },
     "ja": {
       "title": "メンテナンス＆バージョン",
@@ -12434,7 +12477,7 @@ export const CONTENT = {
         [
           "ウォッチリスト",
           [
-            "ギルド戦 — 11/19メンテ後に導入済み。防衛チーム11/21 03:00 UTC開始済み、マッチング11/23 03:00 UTCはまだ。",
+            "ギルド戦 — 11/19メンテ後に導入済み。防衛チーム11/21 03:00 UTC開始済み、マッチング11/23 03:00 UTCは公式開始時刻に到達済み（実戦の確認ではない）。",
             "Foundryギルド戦ログイン贈り物 — 11/07 09:00 → 11/23 03:00 UTC。Foundryログイン。Commander's Armband ×1,000、Brave Crest ×3,000。",
             "World Arena — 2026-12-10メンテ後。",
             "日本語VO — 公式告知で確認。",
@@ -12449,7 +12492,7 @@ export const CONTENT = {
         "ファウンドリ専用のずれは既存鯖と分けて書く。"
       ],
       "img_alt": "Epic Seven Steamスクリーンショット — Steam CDN",
-      "answer": "最新パッチ：11/20（金）パッチは完了し、08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）の枠は終了しました。直近のメンテは11/19（木）03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）予定で、09:30 UTC（17:30 Asia/Shanghai）に30分早く終了。補償Leif ×6はゲーム内メール、保管7日、受取期間は11/20 14:59 UTC（22:59 Asia/Shanghai）に終了済み。Version 8.7第2弾の2 Leifメール受取は11/21 10:30 UTCに終了、Cecilia率アップは11/26 03:00–12/17 02:59 UTC、Call of Chaosシーズン2はメンテ後–12/10 02:59 UTC。Foundryギルド戦は同じメンテ後に導入され、防衛チーム11/21 03:00 UTCは開始済み、マッチング11/23 03:00 UTCはまだ。3,000日コメントは11/18 14:59 UTC終了、Carrotsは11/26 02:59 UTCまで。Moro/Lucky Boardは11/19 02:59 UTC終了、サイド/Case Filesは12/10 02:59 UTCまで。Last verified 2026-11-21 21:45 Asia/Shanghai。"
+      "answer": "最新パッチ：11/20（金）パッチは完了し、08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）の枠は終了しました。直近のメンテは11/19（木）03:00–10:00 UTC（11:00–18:00 Asia/Shanghai）予定で、09:30 UTC（17:30 Asia/Shanghai）に30分早く終了。補償Leif ×6はゲーム内メール、保管7日、受取期間は11/20 14:59 UTC（22:59 Asia/Shanghai）に終了済み。Version 8.7第2弾の2 Leifメール受取は11/21 10:30 UTCに終了、Cecilia率アップは11/26 03:00–12/17 02:59 UTC、Call of Chaosシーズン2はメンテ後–12/10 02:59 UTC。Foundryギルド戦は同じメンテ後に導入され、防衛チーム11/21 03:00 UTCは開始済み、マッチング11/23 03:00 UTCは公式開始時刻に到達済み（実戦の確認ではない）。3,000日コメントは11/18 14:59 UTC終了、Carrotsは11/26 02:59 UTCに終了。Moro/Lucky Boardは11/19 02:59 UTC終了、サイド/Case Filesは12/10 02:59 UTCまで。Last verified 2026-11-26, Asia/Shanghai。"
     },
     "zh-tw": {
       "title": "維護與版本說明",
@@ -12457,6 +12500,7 @@ export const CONTENT = {
       "h1": "維護與版本說明",
       "lead": "追蹤影響 Steam 客戶端、Foundry 解鎖與上架注意（如日語 VO 延後）的週維護。",
       "cards": [
+        
         [
           "2026-11-20 — 補丁已結束：08:30–09:30 UTC 窗口已過",
           [
@@ -12554,7 +12598,7 @@ export const CONTENT = {
         "Foundry 專屬異動與舊服分開寫。"
       ],
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
-      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最近窗口：11/19（週四）維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。公告指向 Version 8.7 2nd Update Content：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia 提高掉率 11/26 03:00 – 12/17 02:59 UTC；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC。3,000 天留言活動已於 11/18 14:59 UTC 結束；收胡蘿蔔至 11/26 02:59 UTC；Moro／Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。維護／活動歷史快照核對：2026-11-21 21:45 Asia/Shanghai；下方公會戰狀態另註目前核對日。 公會戰狀態另於2026年11月23日核對：Foundry公會戰配對的官方排程開始點為2026年11月23日11:00 Asia/Shanghai（03:00 UTC），現已到點。這只確認公告時程，不代表已確認實際配對、進攻資格或戰果；請在遊戲查看自己公會的狀態。 獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。"
+      "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最近窗口：11/19（週四）維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。公告指向 Version 8.7 2nd Update Content：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia 提高掉率 11/26 03:00 – 12/17 02:59 UTC；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC。3,000 天留言活動已於 11/18 14:59 UTC 結束；收胡蘿蔔已於 11/26 02:59 UTC 結束；Moro／Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。維護／活動歷史快照核對：2026-11-21 21:45 Asia/Shanghai；下方公會戰狀態另註目前核對日。 公會戰狀態另於2026年11月23日核對：Foundry公會戰配對的官方排程開始點為2026年11月23日11:00 Asia/Shanghai（03:00 UTC），現已到點。這只確認公告時程，不代表已確認實際配對、進攻資格或戰果；請在遊戲查看自己公會的狀態。 獨立的公會戰登入禮已於2026年11月23日11:00 Asia/Shanghai（03:00 UTC）截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。"
     },
     "th": {
       "title": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
@@ -12562,6 +12606,7 @@ export const CONTENT = {
       "h1": "ปิดปรับปรุงและบันทึกเวอร์ชัน",
       "lead": "ติดตามแพตช์รายสัปดาห์ที่มีผลกับไคลเอนต์ Steam, การปลดล็อกบน Foundry และข้อควรระวังตอนเปิดตัว (เช่น เสียงพากย์ญี่ปุ่นล่าช้า)",
       "cards": [
+        
         [
           "2026-11-20 — แพตช์เสร็จสิ้น: ช่วง 08:30–09:30 UTC สิ้นสุดแล้ว",
           [
@@ -12659,7 +12704,7 @@ export const CONTENT = {
         "ระบุการเลื่อนกำหนดการเฉพาะ Foundry แยกจากเซิร์ฟเวอร์เดิม"
       ],
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
-      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ช่วงล่าสุด: ปิดปรับปรุง 11/19 (พฤ.) เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. ประกาศชี้ไปที่ Version 8.7 2nd Update Content: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC; เก็บแครอทถึง 11/26 02:59 UTC; Moro/Lucky Board สิ้นสุด 11/19 02:59 UTC, ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. ข้อมูลปิดปรับปรุง/อีเวนต์ย้อนหลังตรวจ2026-11-21 21:45 Asia/Shanghai ส่วนสถานะGuild Warปัจจุบันมีวันตรวจแยกด้านล่าง. ตรวจสถานะ Guild War แยก23พฤศจิกายน2026: ถึงเวลาเริ่มจับคู่ Guild War ของ Foundry ตามประกาศแล้ว คือ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) นี่ยืนยันเพียงตาราง ไม่ได้ยืนยันการจับคู่ สิทธิ์โจมตี หรือผลศึกจริง โปรดตรวจสถานะกิลด์ของคุณในเกม ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว"
+      "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ช่วงล่าสุด: ปิดปรับปรุง 11/19 (พฤ.) เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. ประกาศชี้ไปที่ Version 8.7 2nd Update Content: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC; เก็บแครอทสิ้นสุด 11/26 02:59 UTC; Moro/Lucky Board สิ้นสุด 11/19 02:59 UTC, ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. ข้อมูลปิดปรับปรุง/อีเวนต์ย้อนหลังตรวจ2026-11-21 21:45 Asia/Shanghai ส่วนสถานะGuild Warปัจจุบันมีวันตรวจแยกด้านล่าง. ตรวจสถานะ Guild War แยก23พฤศจิกายน2026: ถึงเวลาเริ่มจับคู่ Guild War ของ Foundry ตามประกาศแล้ว คือ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) นี่ยืนยันเพียงตาราง ไม่ได้ยืนยันการจับคู่ สิทธิ์โจมตี หรือผลศึกจริง โปรดตรวจสถานะกิลด์ของคุณในเกม ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา11:00 Asia/Shanghai (03:00 UTC) รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว"
     },
     "es": {
       "title": "Mantenimiento y notas de versión",
@@ -12762,7 +12807,7 @@ export const CONTENT = {
         "Señala los retrasos de calendario exclusivos de Foundry por separado de los servidores anteriores."
       ],
       "img_alt": "Captura de la tienda de Steam de Epic Seven — cita del CDN de Steam",
-      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. La ventana más reciente, el mantenimiento del 11/19 (jue), está completada: se publicó para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado. El aviso apunta al Version 8.7 2nd Update Content: la recogida de 2 Leif terminó el 11/21 10:30 UTC; el rate-up de Cecilia va del 11/26 03:00 al 12/17 02:59 UTC; Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. Guild War en Foundry se introdujo tras ese mantenimiento, con equipo de defensa el 11/21 03:00 UTC ya empezado y el matchmaking del 11/23 03:00 UTC ya alcanzó su hora oficial (sin confirmar un combate real). El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC; las zanahorias siguen hasta el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Parche más reciente: el parche del 11/20 (vie) está completado; su ventana 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ha terminado. La ventana más reciente, el mantenimiento del 11/19 (jue), está completada: se publicó para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) y terminó antes, a las 09:30 UTC (17:30 Asia/Shanghai). La compensación fue Leif ×6 al buzón, 7 días; el periodo de reclamo terminó el 11/20 14:59 UTC (22:59 Asia/Shanghai), así que es pasado. El aviso apunta al Version 8.7 2nd Update Content: la recogida de 2 Leif terminó el 11/21 10:30 UTC; el rate-up de Cecilia va del 11/26 03:00 al 12/17 02:59 UTC; Call of Chaos S2 va tras el mantenimiento – 12/10 02:59 UTC; siete héroes se ajustaron tras el mantenimiento. Guild War en Foundry se introdujo tras ese mantenimiento, con equipo de defensa el 11/21 03:00 UTC ya empezado y el matchmaking del 11/23 03:00 UTC ya alcanzó su hora oficial (sin confirmar un combate real). El evento de comentarios de 3.000 días terminó el 11/18 14:59 UTC; las zanahorias terminaron el 11/26 02:59 UTC. Moro y Lucky Board terminaron el 11/19 02:59 UTC; la historia y Case Files siguen hasta el 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "pt": {
       "title": "Manutenção e notas de versão",
@@ -12865,7 +12910,7 @@ export const CONTENT = {
         "Destaque atrasos de calendário exclusivos do Foundry separadamente dos servidores legados."
       ],
       "img_alt": "Captura da loja do Steam de Epic Seven — citação do CDN do Steam",
-      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. A janela mais recente, a manutenção de 11/19 (qui), está concluída: foi publicada para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado. O aviso aponta para o Version 8.7 2nd Update Content: a coleta de 2 Leif terminou em 11/21 10:30 UTC; o rate-up de Cecilia vai de 11/26 03:00 a 12/17 02:59 UTC; Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. A Guild War no Foundry foi introduzida após essa manutenção, com equipe de defesa em 11/21 03:00 UTC já começada e o matchmaking em 11/23 03:00 UTC já alcançou o horário oficial (sem confirmar um combate real). O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC; as cenouras seguem até 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Patch mais recente: o patch de 11/20 (sex) está concluído; a janela 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) terminou. A janela mais recente, a manutenção de 11/19 (qui), está concluída: foi publicada para 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) e terminou antes, às 09:30 UTC (17:30 Asia/Shanghai). A compensação foi Leif ×6 no correio, 7 dias; o período de resgate terminou em 11/20 14:59 UTC (22:59 Asia/Shanghai), então é passado. O aviso aponta para o Version 8.7 2nd Update Content: a coleta de 2 Leif terminou em 11/21 10:30 UTC; o rate-up de Cecilia vai de 11/26 03:00 a 12/17 02:59 UTC; Call of Chaos S2 vai após a manutenção – 12/10 02:59 UTC; sete heróis foram ajustados após a manutenção. A Guild War no Foundry foi introduzida após essa manutenção, com equipe de defesa em 11/21 03:00 UTC já começada e o matchmaking em 11/23 03:00 UTC já alcançou o horário oficial (sem confirmar um combate real). O evento de comentários de 3.000 dias terminou em 11/18 14:59 UTC; as cenouras terminaram em 11/26 02:59 UTC. Moro e Lucky Board terminaram em 11/19 02:59 UTC; a história e o Case Files seguem até 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "de": {
       "title": "Wartung & Versionshinweise",
@@ -12968,7 +13013,7 @@ export const CONTENT = {
         "Nenne Terminverschiebungen, die nur Foundry betreffen, getrennt von den Legacy-Servern."
       ],
       "img_alt": "Steam-Store-Screenshot zu Epic Seven — Steam-CDN-Quelle",
-      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Das jüngste Fenster, die Wartung am 11/19 (Do), ist abgeschlossen: angekündigt für 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), vorzeitig beendet um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai) und ist Vergangenheit. Der Hinweis verweist auf Version 8.7 2nd Update Content: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Cecilia-Rate-up läuft 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Guild War auf Foundry wurde nach dieser Wartung eingeführt; Verteidigungsteam am 11/21 03:00 UTC gestartet, Matchmaking am 11/23 03:00 UTC hat die offizielle Startzeit erreicht (kein bestätigtes Gefecht). Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC; Carrots laufen bis 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Jüngster Patch: Der Patch vom 11/20 (Fr) ist abgeschlossen; sein Fenster 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) ist beendet. Das jüngste Fenster, die Wartung am 11/19 (Do), ist abgeschlossen: angekündigt für 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), vorzeitig beendet um 09:30 UTC (17:30 Asia/Shanghai). Die Entschädigung war Leif ×6 ins Postfach, 7 Tage; der Abholzeitraum endete am 11/20 14:59 UTC (22:59 Asia/Shanghai) und ist Vergangenheit. Der Hinweis verweist auf Version 8.7 2nd Update Content: Die 2-Leif-Mail endete am 11/21 10:30 UTC; der Cecilia-Rate-up läuft 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 läuft nach der Wartung – 12/10 02:59 UTC; sieben Helden wurden nach der Wartung angepasst. Guild War auf Foundry wurde nach dieser Wartung eingeführt; Verteidigungsteam am 11/21 03:00 UTC gestartet, Matchmaking am 11/23 03:00 UTC hat die offizielle Startzeit erreicht (kein bestätigtes Gefecht). Das 3.000-Tage-Kommentar-Event endete am 11/18 14:59 UTC; Carrots endeten am 11/26 02:59 UTC. Moro und Lucky Board endeten am 11/19 02:59 UTC; Nebenstory und Case Files laufen bis 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "fr": {
       "title": "Maintenance et notes de version",
@@ -13071,7 +13116,7 @@ export const CONTENT = {
         "Signalez séparément les retards de calendrier propres à Foundry par rapport aux serveurs existants."
       ],
       "img_alt": "Capture d'écran de la boutique Steam pour Epic Seven — citation du CDN Steam",
-      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. La fenêtre la plus récente, la maintenance du 11/19 (jeu), est terminée : annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), elle s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé. L’annonce renvoie au Version 8.7 2nd Update Content : la collecte des 2 Leif a pris fin le 11/21 10:30 UTC ; le rate-up de Cecilia court du 11/26 03:00 au 12/17 02:59 UTC ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. La Guild War sur Foundry a été introduite après cette maintenance, avec l’équipe de défense le 11/21 03:00 UTC déjà commencée et le matchmaking le 11/23 03:00 UTC a atteint son horaire officiel (sans confirmer un combat réel). L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC ; les carottes vont jusqu’au 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Correctif le plus récent : le correctif du 11/20 (ven) est terminé ; sa fenêtre 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) est close. La fenêtre la plus récente, la maintenance du 11/19 (jeu), est terminée : annoncée pour 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), elle s’est achevée en avance à 09:30 UTC (17:30 Asia/Shanghai). La compensation était Leif ×6 en boîte aux lettres, 7 jours ; la période de récupération a pris fin le 11/20 14:59 UTC (22:59 Asia/Shanghai), c’est donc du passé. L’annonce renvoie au Version 8.7 2nd Update Content : la collecte des 2 Leif a pris fin le 11/21 10:30 UTC ; le rate-up de Cecilia court du 11/26 03:00 au 12/17 02:59 UTC ; Call of Chaos S2 court après la maintenance – 12/10 02:59 UTC ; sept héros ont été ajustés après la maintenance. La Guild War sur Foundry a été introduite après cette maintenance, avec l’équipe de défense le 11/21 03:00 UTC déjà commencée et le matchmaking le 11/23 03:00 UTC a atteint son horaire officiel (sans confirmer un combat réel). L’événement commentaire des 3 000 jours a pris fin le 11/18 14:59 UTC ; les carottes ont pris fin le 11/26 02:59 UTC. Moro et Lucky Board ont pris fin le 11/19 02:59 UTC ; l’histoire et Case Files vont jusqu’au 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
     "pl": {
       "title": "Konserwacja i noty wersji",
@@ -13174,7 +13219,7 @@ export const CONTENT = {
         "Opóźnienia harmonogramu dotyczące tylko Foundry zaznaczaj osobno od starych serwerów."
       ],
       "img_alt": "Zrzut ekranu ze sklepu Steam dla Epic Seven — cytat z CDN Steam",
-      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze okno, konserwacja 11/19 (czw), jest zakończone: ogłoszono 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyło się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość. Wpis wskazuje Version 8.7 2nd Update Content: odbiór 2 Leif zakończył się 11/21 10:30 UTC; rate-up Cecilii trwa 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Guild War na Foundry wprowadzono po tej konserwacji; drużyna obrony 11/21 03:00 UTC już się rozpoczęła, matchmaking 11/23 03:00 UTC osiągnął już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku). Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC; marchewki trwają do 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-21 21:45 Asia/Shanghai."
+      "answer": "Najnowszy patch: patch z 11/20 (pt) jest zakończony; jego okno 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) dobiegło końca. Najnowsze okno, konserwacja 11/19 (czw), jest zakończone: ogłoszono 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai), a zakończyło się wcześniej o 09:30 UTC (17:30 Asia/Shanghai). Rekompensata to Leif ×6 do skrzynki, 7 dni; okres odbioru zakończył się 11/20 14:59 UTC (22:59 Asia/Shanghai), więc to przeszłość. Wpis wskazuje Version 8.7 2nd Update Content: odbiór 2 Leif zakończył się 11/21 10:30 UTC; rate-up Cecilii trwa 11/26 03:00 – 12/17 02:59 UTC; Call of Chaos S2 trwa po konserwacji – 12/10 02:59 UTC; siedmiu bohaterów zmieniono po konserwacji. Guild War na Foundry wprowadzono po tej konserwacji; drużyna obrony 11/21 03:00 UTC już się rozpoczęła, matchmaking 11/23 03:00 UTC osiągnął już oficjalną godzinę startu (bez potwierdzenia rzeczywistego pojedynku). Wydarzenie komentarzy 3000 dni zakończyło się 11/18 14:59 UTC; marchewki zakończyły się 11/26 02:59 UTC. Moro i Lucky Board zakończyły się 11/19 02:59 UTC; historia i Case Files trwają do 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     }
   },
   "/about/": {
@@ -16191,15 +16236,15 @@ export const CONTENT = {
       ],
       "event_h2": "Launch-window events",
       "event": [
-        "Current Foundry dungeon: Ruins Reclamation (charms / modification gems), through 26 Nov 2026, 10:59 Asia/Shanghai. Use the checklist above for entry, eligibility and token expiry.",
+        "Current Foundry dungeon: Emergency Mission! Catalyst Search, through 3 Dec 2026, 10:59 Asia/Shanghai (12/3 02:59 UTC). The previous charm week / Ruins Reclamation ended 26 Nov 2026, 10:59 Asia/Shanghai; leftover medals were removed. Use the checklist above for entry, eligibility and token expiry.",
         "Secret Rabbit♥Hole side story + Case Files (still to 12/10 02:59 UTC) + Lucky Board (ended 11/19 02:59 UTC) — lobby icon; details on the Rabbit Hole page.",
         "Mailbox growth / wishlist / welcome skin mails on Foundry are time-gated — open mail early.",
         "Lobby icons for Rabbit♥Hole / boards disappear when the event ends — claim currencies early.",
         "3,000 Days comment event: it ended 11/18 (Wed) 14:59 UTC (11/18 22:59 Asia/Shanghai); 2 Leif is scheduled for 2026/11/20 with no delivery hour published. Format “Nickname / Server / Day 3,000 Celebration Message”. Official post: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. See the “[[Celebrate 3,000 Days: comment event ended|/updates/#celebrate-3000-comment]]” section.",
-        "3,000-Day Celebration server cooperation runs 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
+        "3,000-Day Celebration server cooperation ended 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai); it ran 11/12 03:00 → 11/26 02:59 UTC. Entry was Lobby > Event > Special Event; see the “[[3,000-Day Celebration: Gather Carrots|/updates/#gather-carrots]]” section.",
         "“Everyone, Gather Carrots!”: up to 800 Carrots per day; Adventure/Battle points equal Energy used (excluding purchased Spectral Core; 1 Spectral Core = 160); Arena (incl. Draft Arena / Arena NPC Challenge) 70 per play; World Arena (incl. World Arena Tournament) 120 per play.",
         "Arena Carrots are the same win or lose; stages that use no Energy (e.g. Side Story story stages) do not count. Daily reset: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
-        "Unclaimed event rewards expire before the event ends. Party Cake completion rewards require 800+ Carrots collected cumulatively; the all-Heirs total is only tallied and reflected daily at 01:00 UTC.",
+        "Unclaimed event rewards expired when the event ended. Party Cake completion rewards required 800+ Carrots collected cumulatively; the all-Heirs total was tallied and reflected daily at 01:00 UTC.",
         "Cross-check Updates/Banners when a new Steam-week mission appears."
       ],
       "faq_h2": "Quests FAQ",
@@ -16279,11 +16324,11 @@ export const CONTENT = {
       ],
       "event_h2": "런칭 창 이벤트",
       "event": [
-        "현재 파운드리 던전은 Ruins Reclamation(강화석/변경석)이며 2026년11월26일10:59 Asia/Shanghai까지입니다. 입장·조건·토큰 만료는 위 체크리스트를 보세요.",
+        "현재 파운드리 던전은 Emergency Mission! Catalyst Search이며 2026년 12월 3일 10:59 Asia/Shanghai(12/3 02:59 UTC)까지입니다. 이전 매력 주간/Ruins Reclamation은 2026년 11월 26일 10:59 Asia/Shanghai에 종료되었고 남은 메달은 삭제되었습니다. 입장·조건·토큰 만료는 위 체크리스트를 보세요.",
         "파운드리 긴급 촉매 주간은 교체 전에 수령하세요.",
         "로비 아이콘은 이벤트 종료 시 사라지니 재화를 일찍 교환하세요.",
         "3,000일 댓글 이벤트: 11/18 (수) 14:59 UTC(11/18 22:59 Asia/Shanghai)에 종료되었습니다. 2 Leif는 2026/11/20 지급 예정이며 시각은 공지되지 않았습니다. 형식 “Nickname / Server / Day 3,000 Celebration Message”. 공식 게시글: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. [[3,000일 축하 댓글 이벤트|/updates/#celebrate-3000-comment]] 절 참고.",
-        "3,000일 축하 서버 협력은 11/12 03:00 → 11/26 02:59 UTC(11/12 11:00 → 11/26 10:59 Asia/Shanghai): Lobby > Event > Special Event. [[3,000일 축하 서버 협력: 당근 모으기|/updates/#gather-carrots]] 절 참고.",
+        "3,000일 축하 서버 협력은 11/26 02:59 UTC(11/26 10:59 Asia/Shanghai)에 종료되었습니다. 기간은 11/12 03:00 → 11/26 02:59 UTC였습니다. 입구는 Lobby > Event > Special Event. [[3,000일 축하 서버 협력: 당근 모으기|/updates/#gather-carrots]] 절 참고.",
         "“Everyone, Gather Carrots!”: 하루 최대 800 Carrots. Adventure/Battle은 소모 Energy만큼(구매 Spectral Core 제외, 1개 = 160), Arena(Draft Arena·Arena NPC Challenge 포함) 1회 70, World Arena(World Arena Tournament 포함) 1회 120.",
         "Arena는 승패와 무관하게 같은 Carrots를 주며, Energy를 쓰지 않는 스테이지(예: 사이드 스토리 스토리 스테이지)는 집계되지 않습니다. 일일 리셋: Korea / Asia / Japan 18:00 UTC, Europe 03:00 UTC, Global 10:00 UTC.",
         "받지 않은 이벤트 보상은 종료 전에 수령해야 하며, Party Cake 완성 보상은 누적 800개 이상의 Carrots를 모은 Heirs에게만 지급됩니다. 전체 누적량은 매일 01:00 UTC에 집계·반영됩니다.",
@@ -16453,14 +16498,14 @@ export const CONTENT = {
       ],
       "event_h2": "上架窗口活動",
       "event": [
-        "當前Foundry副本為Ruins Reclamation（強化石／變更石），至2026年11月26日10:59 Asia/Shanghai；入口、條件與代幣期限見上方清單。",
+        "當前Foundry副本為Emergency Mission! Catalyst Search，至2026年12月3日10:59 Asia/Shanghai（12/3 02:59 UTC）。上一檔魅力週／Ruins Reclamation已於2026年11月26日10:59 Asia/Shanghai結束，剩餘勳章已移除。入口、條件與代幣期限見上方清單。",
         "Foundry 緊急催化劑週輪替——換週前領取。",
         "活動結束大廳圖示會消失，貨幣盡早換。",
         "3,000 天留言活動：已於 11/18（週三）14:59 UTC（11/18 22:59 Asia/Shanghai）結束；2 Leif 預定 2026/11/20 發放，未公布時刻。格式「Nickname / Server / Day 3,000 Celebration Message」。官方貼文：[[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]。參見[[3,000 天慶祝留言活動|/updates/#celebrate-3000-comment]]節。",
-        "3,000 天慶祝伺服器合作：11/12 03:00 → 11/26 02:59 UTC（11/12 11:00 → 11/26 10:59 Asia/Shanghai），入口 Lobby > Event > Special Event。參見[[3,000 天慶祝伺服器合作：收集 Carrots|/updates/#gather-carrots]]節。",
+        "3,000 天慶祝伺服器合作已於 11/26 02:59 UTC（11/26 10:59 Asia/Shanghai）結束，原時段為 11/12 03:00 → 11/26 02:59 UTC。入口曾為 Lobby > Event > Special Event。參見[[3,000 天慶祝伺服器合作：收集 Carrots|/updates/#gather-carrots]]節。",
         "「Everyone, Gather Carrots!」：每日最多 800 Carrots。Adventure/Battle 依消耗 Energy（不含購買 Spectral Core；1 個 = 160），Arena（含 Draft Arena、Arena NPC Challenge）每次 70，World Arena（含 World Arena Tournament）每次 120。",
         "競技場無論輸贏給予相同 Carrots；不消耗 Energy 的關卡（例如支線劇情關）不計入。每日重置：Korea / Asia / Japan 18:00 UTC；Europe 03:00 UTC；Global 10:00 UTC。",
-        "未領取的活動獎勵會在結束前過期；Party Cake 完成獎勵只給累計收集 800 個以上 Carrots 的 Heirs。全體總量每天 01:00 UTC 統計並反映。",
+        "未領取的活動獎勵已在活動結束時過期；Party Cake 完成獎勵只給累計收集 800 個以上 Carrots 的 Heirs。全體總量每天 01:00 UTC 統計並反映。",
         "出現新的 Steam 週任務時交叉查更新／卡池頁。"
       ],
       "faq_h2": "任務 FAQ",
@@ -16545,12 +16590,12 @@ export const CONTENT = {
       ],
       "event_h2": "อีเวนต์ช่วงเปิดตัว",
       "event": [
-        "ดันเจียน Foundry ปัจจุบันคือ Ruins Reclamation (Charm / Modification Gem) ถึง 26 พฤศจิกายน 2026 เวลา 10:59 Asia/Shanghai ดูทางเข้า เงื่อนไข และอายุโทเคนในรายการด้านบน",
+        "ดันเจียน Foundry ปัจจุบันคือ Emergency Mission! Catalyst Search ถึง 3 ธ.ค. 2026 10:59 Asia/Shanghai (12/3 02:59 UTC) สัปดาห์ชาร์ม / Ruins Reclamation ก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai และเหรียญที่เหลือถูกลบ ดูทางเข้า เงื่อนไข และอายุโทเคนในรายการด้านบน",
         "Side story Secret Rabbit♥Hole + Case Files (ถึง 12/10 02:59 UTC) + Lucky Board (สิ้นสุด 11/19 02:59 UTC) — ไอคอนในล็อบบี้ รายละเอียดอยู่ในหน้า Rabbit Hole",
         "จดหมายกล่องจดหมายการเติบโต / wishlist / สกินต้อนรับบน Foundry มีกำหนดเวลา — เปิดจดหมายตั้งแต่เนิ่น ๆ",
         "ไอคอนล็อบบี้ของ Rabbit♥Hole / บอร์ดจะหายไปเมื่ออีเวนต์จบ — รับสกุลเงินแต่เนิ่น ๆ",
         "อีเวนต์คอมเมนต์ฉลอง 3,000 วัน: สิ้นสุดเมื่อ 11/18 (พ.) 14:59 UTC (11/18 22:59 Asia/Shanghai); 2 Leif กำหนด 2026/11/20 โดยไม่ระบุเวลา. รูปแบบ “Nickname / Server / Day 3,000 Celebration Message”. โพสต์ทางการ: [[STOVE 14628607|https://page.onstove.com/epicseven/global/view/14628607]]. ดูหัวข้อ “[[ฉลอง 3,000 วัน: อีเวนต์คอมเมนต์|/updates/#celebrate-3000-comment]]”.",
-        "อีเวนต์เซิร์ฟเวอร์ร่วมมือฉลอง 3,000 วัน: 11/12 03:00 → 11/26 02:59 UTC (11/12 11:00 → 11/26 10:59 Asia/Shanghai) ทางเข้า Lobby > Event > Special Event. ดูหัวข้อ “[[ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท|/updates/#gather-carrots]]”.",
+        "อีเวนต์เซิร์ฟเวอร์ร่วมมือฉลอง 3,000 วันจบแล้วเมื่อ 11/26 02:59 UTC (11/26 10:59 Asia/Shanghai) เดิมคือ 11/12 03:00 → 11/26 02:59 UTC ทางเข้าเคยเป็น Lobby > Event > Special Event. ดูหัวข้อ “[[ฉลอง 3,000 วัน: เซิร์ฟเวอร์ร่วมมือ เก็บแครอท|/updates/#gather-carrots]]”.",
         "“Everyone, Gather Carrots!”: สูงสุด 800 Carrots ต่อวัน. Adventure/Battle ได้ตาม Energy ที่ใช้ (ไม่รวมซื้อ Spectral Core; 1 ชิ้น = 160), Arena (รวม Draft Arena และ Arena NPC Challenge) ครั้งละ 70, World Arena (รวม World Arena Tournament) ครั้งละ 120.",
         "Arena ให้ Carrots เท่ากันไม่ว่าชนะหรือแพ้; ด่านที่ไม่ใช้ Energy (เช่น ด่านเนื้อเรื่อง Side Story) ไม่นับ. รีเซ็ตรายวัน: Korea / Asia / Japan 18:00 UTC; Europe 03:00 UTC; Global 10:00 UTC.",
         "รางวัลอีเวนต์ที่ยังไม่รับจะหมดอายุก่อนจบ; รางวัลจบ Party Cake ให้เฉพาะ Heirs ที่สะสม Carrots 800 ชิ้นขึ้นไป. ยอดรวมของทุกคนสรุปและแสดงทุกวันเวลา 01:00 UTC.",
@@ -17044,8 +17089,8 @@ export const CONTENT = {
   },
   "/case-files/": {
     "en": {
-      "title": "Epic Seven Case Files (Steam) — Trusty Sidekick Alencia | Secret Rabbit♥Hole",
-      "meta": "Epic Seven Case Files on Steam: Trusty Sidekick Alencia's Case Files, the deduction mini-game inside Secret Rabbit♥Hole, how it differs from the Lucky Board, and the 11/19 vs 12/10 deadlines. No spoilers.",
+      "title": "Trusty Sidekick Alencia's Case Files | Epic Seven",
+      "meta": "Trusty Sidekick Alencia's Case Files in Secret Rabbit♥Hole: Cases 1–3, how it differs from the Lucky Board, and the 10 December 2026 deadline. No spoilers.",
       "h1": "Trusty Sidekick Alencia’s Case Files — Cases 1, 2 & 3",
       "answer": "Open Lobby → Secret Rabbit♥Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
       "paras": [
