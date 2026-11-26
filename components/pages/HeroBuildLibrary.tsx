@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { SelfDrawnAvatar } from '@/components/SelfDrawnAvatar';
 import { useMemo, useState } from 'react';
 import { ExternalLink } from '@/components/ExternalLink';
 import {
@@ -112,6 +113,14 @@ export function HeroBuildLibrary() {
           {results.map((hero) => (
             <article key={hero.slug} id={hero.slug} className="hb-card card">
               <header className="hb-card-head">
+                <SelfDrawnAvatar
+                  slug={hero.slug}
+                  name={hero.name}
+                  tint={hero.element}
+                  className="hb-avatar"
+                  size={64}
+                />
+                <div className="hb-card-copy">
                 <h2>
                   <a href={`#${hero.slug}`}>{hero.name}</a>
                 </h2>
@@ -126,6 +135,7 @@ export function HeroBuildLibrary() {
                     </span>
                   ))}
                   {hero.job ? <span className="chip chip-focus">{hero.job}</span> : null}
+                </div>
                 </div>
               </header>
               <p>{hero.summary}</p>

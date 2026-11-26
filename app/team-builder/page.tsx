@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { FaqJsonLd, JsonLd } from '@/components/JsonLd';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
+import { SiteFig } from '@/components/SiteFig';
 import { TeamBuilderTool } from '@/components/pages/TeamBuilderTool';
 import { TEAM_BUILDER_COUNTS, TEAM_BUILDER_MODES } from '@/lib/team-builder';
 import { BRAND, SITE_ORIGIN, absoluteUrl, pageMetadata } from '@/lib/site';
@@ -104,6 +105,13 @@ export default function Page() {
 
       <section id="how-to-read" aria-labelledby="how-title">
         <h2 id="how-title">How to read a result</h2>
+        <SiteFig
+          src="/images/diagram-team-builder-flow.webp"
+          width={1100}
+          height={300}
+          alt="Self-drawn independent diagram: check off a roster, compare it to dated published sample teams, and list missing names instead of inventing substitutes. Not official Smilegate art."
+          credit="Unofficial roster-matcher diagram · epicsevensteam.com · not Smilegate/STOVE/Steam"
+        />
         <p>
           Each card is one published sample, in the source’s rank order, with
           its share of clears and date window. Share of clears is not a win

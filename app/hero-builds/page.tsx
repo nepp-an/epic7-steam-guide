@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { FaqJsonLd, JsonLd } from '@/components/JsonLd';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
+import { SiteFig } from '@/components/SiteFig';
 import { HeroBuildLibrary } from '@/components/pages/HeroBuildLibrary';
 import { HERO_BUILDS } from '@/lib/hero-builds';
 import { BRAND, SITE_ORIGIN, absoluteUrl, pageMetadata } from '@/lib/site';
@@ -135,6 +136,13 @@ export default function Page() {
 
       <section id="how-to-read" aria-labelledby="how-title">
         <h2 id="how-title">How to read a card</h2>
+        <SiteFig
+          src="/images/diagram-hero-builds-library.webp"
+          width={1100}
+          height={360}
+          alt="Self-drawn independent diagram: this is a sourced retrieval library, blank fields mean no reliable source, and Hideout shares are not win rates. Not official Smilegate art."
+          credit="Unofficial sourced-library diagram · epicsevensteam.com · not Smilegate/STOVE/Steam"
+        />
         <p>
           Role and job lines are paraphrased from this site’s existing unofficial
           notes. Hideout figures are shares of clears in a named panel and date

@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { SelfDrawnAvatar } from '@/components/SelfDrawnAvatar';
 import {
   ROSTER_HEROES,
   TEAM_BUILDER_MODES,
@@ -40,6 +41,12 @@ function HeroCheck({
         type="checkbox"
         checked={checked}
         onChange={() => onToggle(hero.name)}
+      />
+      <SelfDrawnAvatar
+        slug={hero.slug}
+        name={hero.name}
+        className="tb-avatar"
+        size={32}
       />
       <span>
         <strong>{hero.name}</strong>
@@ -203,6 +210,14 @@ export function TeamBuilderTool() {
                       const card = ROSTER_LOOKUP[hero];
                       return (
                         <li key={hero} className={filled ? 'is-have' : 'is-missing'}>
+                          {card ? (
+                            <SelfDrawnAvatar
+                              slug={card.slug}
+                              name={card.name}
+                              className="tb-slot-avatar"
+                              size={28}
+                            />
+                          ) : null}
                           <span>{filled ? 'Have' : 'Need'}</span> {hero}
                           {card?.kind === 'library' && card.href ? (
                             <>

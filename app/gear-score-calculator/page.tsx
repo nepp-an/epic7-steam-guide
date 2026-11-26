@@ -3,6 +3,7 @@ import { ExternalLink } from '@/components/ExternalLink';
 import { FaqJsonLd, JsonLd } from '@/components/JsonLd';
 import { IndepNotice } from '@/components/IndepNotice';
 import { PageShell } from '@/components/PageShell';
+import { SiteFig } from '@/components/SiteFig';
 import { GearScoreCalculatorTool } from '@/components/pages/GearScoreCalculatorTool';
 import { BRAND, SITE_ORIGIN, absoluteUrl, pageMetadata } from '@/lib/site';
 
@@ -168,6 +169,13 @@ export default function Page() {
 
       <section id="ranges" aria-labelledby="ranges-title">
         <h2 id="ranges-title">Community score ranges, not official grades</h2>
+        <SiteFig
+          src="/images/diagram-gear-score-formula.webp"
+          width={1100}
+          height={400}
+          alt="Self-drawn independent diagram of the unofficial community gear-score weights used on this page, and a note that the published Lv.85 and Lv.90 score bands are a community rule of thumb only, not a Smilegate standard, and do not change the calculated score. Not official art."
+          credit="Unofficial community-formula diagram · epicsevensteam.com · not Smilegate/STOVE/Steam"
+        />
         <p>
           Players often ask what a “good” score looks like on a Lv.85 piece
           versus a Lv.90 piece. There is no official band. One community chart
