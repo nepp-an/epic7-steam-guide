@@ -2169,6 +2169,12 @@ export function HeroesView({ locale }: { locale: Locale }) {
           .
         </p>
       )}
+      {locale === 'en' && (
+        <p className="muted">
+          For sourced starter and hunt notes, see the{' '}
+          <Link href="/hero-builds/">Epic Seven hero builds</Link> library.
+        </p>
+      )}
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#elements">{c.anchor_elements}</a>
@@ -2669,6 +2675,12 @@ export function TierListView({ locale }: { locale: Locale }) {
             Epic Seven gear score calculator
           </Link>
           .
+        </p>
+      )}
+      {locale === 'en' && (
+        <p className="muted">
+          For sourced starter and hunt character notes, see the{' '}
+          <Link href="/hero-builds/">Epic Seven hero builds</Link> library.
         </p>
       )}
       <p>{c.lead}</p>

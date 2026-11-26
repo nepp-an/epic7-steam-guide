@@ -19,6 +19,8 @@ export function SiteFooter({ locale = 'en' }: { locale?: Locale }) {
           <>
             {' · '}
             <Link href="/gear-score-calculator/">Gear score calculator</Link>
+            {' · '}
+            <Link href="/hero-builds/">Hero builds</Link>
           </>
         ) : null}
         {' · '}

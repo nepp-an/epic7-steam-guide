@@ -153,8 +153,19 @@ pushUrl(`${ORIGIN}/gear-score-calculator/`, GEAR_SCORE_CHANGED, [
   ['x-default', `${ORIGIN}/gear-score-calculator/`],
 ], '0.8');
 
+
+/*
+ * /hero-builds/ is an English-only sourced library. It must not claim
+ * locale paths that do not exist.
+ */
+const HERO_BUILDS_CHANGED = '2026-11-26';
+pushUrl(`${ORIGIN}/hero-builds/`, HERO_BUILDS_CHANGED, [
+  ['en', `${ORIGIN}/hero-builds/`],
+  ['x-default', `${ORIGIN}/hero-builds/`],
+], '0.8');
+
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
 console.log(
-  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 1} urls`,
+  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 2} urls`,
 );

@@ -97,6 +97,10 @@ export default function Page() {
         already compare pieces — the tool scores what you type, and it does not
         invent a separate main-stat weight.
       </p>
+      <p className="muted">
+        Looking up who to build first? See the{' '}
+        <a href="/hero-builds/">Epic Seven hero builds</a> library.
+      </p>
 
       <section id="calculator" aria-labelledby="calculator-title">
         <h2 id="calculator-title">Score a piece or a six-piece set</h2>
