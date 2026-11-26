@@ -2175,6 +2175,12 @@ export function HeroesView({ locale }: { locale: Locale }) {
           <Link href="/hero-builds/">Epic Seven hero builds</Link> library.
         </p>
       )}
+      {locale === 'en' && (
+        <p className="muted">
+          To match a roster against dated hunt and expedition sample teams, use
+          the <Link href="/team-builder/">Epic Seven team builder</Link>.
+        </p>
+      )}
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#elements">{c.anchor_elements}</a>
@@ -2681,6 +2687,12 @@ export function TierListView({ locale }: { locale: Locale }) {
         <p className="muted">
           For sourced starter and hunt character notes, see the{' '}
           <Link href="/hero-builds/">Epic Seven hero builds</Link> library.
+        </p>
+      )}
+      {locale === 'en' && (
+        <p className="muted">
+          To match a roster against dated hunt and expedition sample teams, use
+          the <Link href="/team-builder/">Epic Seven team builder</Link>.
         </p>
       )}
       <p>{c.lead}</p>

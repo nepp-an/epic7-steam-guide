@@ -2958,4 +2958,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://epicsevensteam.com/team-builder/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/team-builder/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/team-builder/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

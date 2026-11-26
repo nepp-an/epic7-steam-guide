@@ -10,6 +10,7 @@
     "lint": "next lint",
     "test:gear-score": "node --experimental-strip-types --test lib/gear-score.test.ts",
     "test:hero-builds": "node --experimental-strip-types --test lib/hero-builds.test.ts",
+    "test:team-builder": "node --experimental-strip-types --test lib/team-builder.test.ts",
     "postbuild": "node scripts/fix-html-lang.mjs"
   },
   "dependencies": {

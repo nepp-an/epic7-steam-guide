@@ -131,6 +131,7 @@ export function TierResourcesView() {
       <p className="quick-answer"><strong>Choose the content you need:</strong> PvE clear-team examples, Guild War references, or RTA data. These are dated community samples, not our own all-hero ranking or a Foundry-only measurement.</p>
       <p className="muted">To compare rolled stats on a piece, use the <Link href="/gear-score-calculator/">Epic Seven gear score calculator</Link>.</p>
       <p className="muted">For sourced starter and hunt character notes, see the <Link href="/hero-builds/">Epic Seven hero builds</Link> library.</p>
+      <p className="muted">To match a roster against these dated sample teams, use the <Link href="/team-builder/">Epic Seven team builder</Link>.</p>
       <nav className="anchor-nav" aria-label="Choose mode"><a href="#pve">PvE clear teams</a><a href="#guild-war">Guild War</a><a href="#world-arena">RTA / World Arena</a><a href="/steam-tier-list/">New Steam account: build order</a></nav>
       <section id="quick-teams" aria-labelledby="quick-teams-title"><h2 id="quick-teams-title">Four PvE samples: find your next reference</h2>
        <p className="muted">Existing Hideout community snapshots, read 13 Nov 2026. The first team shown is an observed sample leader, not a guaranteed team or a new-account build order. Hunt / Expedition window: 29 Oct–4 Nov 2026; Abyss 91: 7 Aug–4 Nov 2026. Shares are not success rates.</p>

@@ -164,8 +164,18 @@ pushUrl(`${ORIGIN}/hero-builds/`, HERO_BUILDS_CHANGED, [
   ['x-default', `${ORIGIN}/hero-builds/`],
 ], '0.8');
 
+/*
+ * /team-builder/ is an English-only interactive matcher. It must not
+ * claim locale paths that do not exist.
+ */
+const TEAM_BUILDER_CHANGED = '2026-11-26';
+pushUrl(`${ORIGIN}/team-builder/`, TEAM_BUILDER_CHANGED, [
+  ['en', `${ORIGIN}/team-builder/`],
+  ['x-default', `${ORIGIN}/team-builder/`],
+], '0.8');
+
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
 console.log(
-  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 2} urls`,
+  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 3} urls`,
 );

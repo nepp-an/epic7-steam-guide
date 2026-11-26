@@ -119,6 +119,10 @@ export default function Page() {
         piece in hand, score it with the{' '}
         <a href="/gear-score-calculator/">Epic Seven gear score calculator</a>.
       </p>
+      <p className="muted">
+        To match a roster against dated hunt and expedition sample teams, use
+        the <a href="/team-builder/">Epic Seven team builder</a>.
+      </p>
 
       <section id="library" aria-labelledby="library-title">
         <h2 id="library-title">Search the sourced library</h2>

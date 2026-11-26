@@ -99,7 +99,9 @@ export default function Page() {
       </p>
       <p className="muted">
         Looking up who to build first? See the{' '}
-        <a href="/hero-builds/">Epic Seven hero builds</a> library.
+        <a href="/hero-builds/">Epic Seven hero builds</a> library. To match a
+        roster against dated sample teams, use the{' '}
+        <a href="/team-builder/">Epic Seven team builder</a>.
       </p>
 
       <section id="calculator" aria-labelledby="calculator-title">
