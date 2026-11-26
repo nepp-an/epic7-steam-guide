@@ -15,6 +15,12 @@ export function SiteFooter({ locale = 'en' }: { locale?: Locale }) {
         <Link href={localizedPath(locale, '/about/')}>{t.about}</Link>
         {' · '}
         <Link href={localizedPath(locale, '/contact/')}>{t.contact}</Link>
+        {locale === 'en' ? (
+          <>
+            {' · '}
+            <Link href="/gear-score-calculator/">Gear score calculator</Link>
+          </>
+        ) : null}
         {' · '}
         <a href={OFFICIAL.steamStore} rel="noopener noreferrer" target="_blank">
           {t.steam}

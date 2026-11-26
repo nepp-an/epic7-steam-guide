@@ -1526,3 +1526,233 @@ h3.diagram-title {
 .evergreen-guide dd { margin: .2rem 0 0; }
 .evergreen-guide .anchor-nav { flex-wrap: wrap; }
 .evergreen-guide .anchor-nav a { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+
+/* Epic Seven gear score calculator (English tool page) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.gs-calc {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1rem 1.15rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+.gs-calc-summary {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem 1.25rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 40rem) {
+  .gs-calc-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.gs-calc-kicker {
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.gs-calc-total,
+.gs-calc-set-total {
+  margin: 0.15rem 0 0.2rem;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+  font-weight: 800;
+}
+.gs-calc-set-total {
+  color: var(--gold-bright);
+}
+.gs-calc-total-unit {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.gs-calc-modescore,
+.gs-calc-hint {
+  margin: 0.2rem 0 0;
+}
+.gs-calc-controls {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0.75rem 0;
+}
+@media (min-width: 40rem) {
+  .gs-calc-controls {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+}
+.gs-calc-fieldset {
+  margin: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.gs-calc-fieldset legend {
+  padding: 0 0.35rem;
+  color: #f3e6c4;
+  font-weight: 700;
+}
+.gs-calc-fieldset label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin: 0.35rem 0;
+  min-height: 44px;
+  cursor: pointer;
+}
+.gs-calc-fieldset input[type='radio'] {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.2rem;
+  accent-color: var(--gold);
+  flex: 0 0 auto;
+}
+.gs-calc-level {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+.gs-calc-level select,
+.gs-calc-field input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 16px;
+}
+.gs-calc-level select:focus,
+.gs-calc-field input:focus {
+  outline: 3px solid var(--steam);
+  outline-offset: 2px;
+  border-color: var(--steam);
+}
+.gs-calc-slots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 0.75rem 0 1rem;
+}
+@media (min-width: 40rem) {
+  .gs-calc-slots {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 60rem) {
+  .gs-calc-slots {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+.gs-calc-slot {
+  min-height: 52px;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-elevated);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  font: inherit;
+}
+.gs-calc-slot strong {
+  font-variant-numeric: tabular-nums;
+  color: var(--gold-bright);
+}
+.gs-calc-slot.is-active {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(212, 168, 75, 0.28);
+  background: #243049;
+}
+.gs-calc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+}
+.gs-calc-actions .btn {
+  min-height: 44px;
+  cursor: pointer;
+  font: inherit;
+}
+.gs-calc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+@media (min-width: 32rem) {
+  .gs-calc-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.gs-calc-field {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.2rem 0.5rem;
+  align-items: center;
+}
+.gs-calc-field-label {
+  grid-column: 1 / -1;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.gs-calc-field input {
+  min-width: 0;
+}
+.gs-calc-contrib {
+  font-variant-numeric: tabular-nums;
+  color: var(--gold-bright);
+  font-weight: 700;
+  min-width: 3.4rem;
+  text-align: right;
+}
+.gs-calc-field.is-flat input {
+  border-style: dashed;
+}
+.gs-calc-breakdown {
+  margin-top: 1.1rem;
+  overflow-x: auto;
+}
+.gs-calc-breakdown table.data {
+  margin-bottom: 0;
+}
+.gs-formula {
+  margin: 1rem 0 1.25rem;
+  padding: 0.9rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px dashed var(--border-gold);
+  border-radius: var(--radius);
+}
+.gs-formula pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.gs-formula figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}

@@ -2942,4 +2942,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://epicsevensteam.com/gear-score-calculator/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/gear-score-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/gear-score-calculator/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

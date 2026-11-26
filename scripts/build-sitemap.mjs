@@ -142,8 +142,19 @@ for (const [locale] of LOCALES) {
   );
 }
 
+
+/*
+ * /gear-score-calculator/ is an English-only interactive tool. It must not
+ * claim locale paths that do not exist.
+ */
+const GEAR_SCORE_CHANGED = '2026-11-26';
+pushUrl(`${ORIGIN}/gear-score-calculator/`, GEAR_SCORE_CHANGED, [
+  ['en', `${ORIGIN}/gear-score-calculator/`],
+  ['x-default', `${ORIGIN}/gear-score-calculator/`],
+], '0.8');
+
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
 console.log(
-  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length} urls`,
+  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 1} urls`,
 );

@@ -2160,6 +2160,15 @@ export function HeroesView({ locale }: { locale: Locale }) {
           {TIER_LINK_LABEL[locale]}
         </L>
       </p>
+      {locale === 'en' && (
+        <p className="muted">
+          Comparing substats on a piece? Use the{' '}
+          <Link href="/gear-score-calculator/">
+            Epic Seven gear score calculator
+          </Link>
+          .
+        </p>
+      )}
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
         <a href="#elements">{c.anchor_elements}</a>
@@ -2651,6 +2660,15 @@ export function TierListView({ locale }: { locale: Locale }) {
         <p className="muted">
           Looking for mode-specific sources, update dates and limits? See the{' '}
           <Link href="/tier-list/">tier-list resource page</Link>.
+        </p>
+      )}
+      {locale === 'en' && (
+        <p className="muted">
+          To score a piece&apos;s substats, use the{' '}
+          <Link href="/gear-score-calculator/">
+            Epic Seven gear score calculator
+          </Link>
+          .
         </p>
       )}
       <p>{c.lead}</p>
