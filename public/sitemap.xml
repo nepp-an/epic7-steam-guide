@@ -2966,4 +2966,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://epicsevensteam.com/steam-beginner/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-beginner/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-beginner/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/steam-vs-mobile/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/steam-vs-mobile/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/steam-vs-mobile/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/summon-calculator/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/summon-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/summon-calculator/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

@@ -4,7 +4,7 @@
  * on /tier-list/. Do not invent teams, substitutes, or roles for sample-only
  * names.
  */
-import { HERO_BUILDS, type HeroBuild } from './hero-builds.ts';
+import { LIBRARY_HERO_BUILDS, type HeroBuild } from './hero-builds.ts';
 import {
   TIER_PVE_ABYSS91_APPEARANCE,
   TIER_PVE_ABYSS91_TEAMS,
@@ -221,7 +221,7 @@ function modesForHero(name: string): TeamBuilderModeId[] {
   return ids;
 }
 
-const libraryByKey = new Map(HERO_BUILDS.map((hero) => [heroKey(hero.name), hero]));
+const libraryByKey = new Map(LIBRARY_HERO_BUILDS.map((hero) => [heroKey(hero.name), hero]));
 
 const sampleOnlyNames = new Set<string>();
 for (const team of SAMPLE_TEAMS) {
@@ -231,7 +231,7 @@ for (const team of SAMPLE_TEAMS) {
 }
 
 export const ROSTER_HEROES: readonly RosterHero[] = [
-  ...HERO_BUILDS.map((hero) => ({
+  ...LIBRARY_HERO_BUILDS.map((hero) => ({
     slug: hero.slug,
     name: hero.name,
     kind: 'library' as const,
@@ -247,6 +247,7 @@ export const ROSTER_HEROES: readonly RosterHero[] = [
       slug: slugify(name),
       name,
       kind: 'sample-only' as const,
+      href: `/hero-builds/#${slugify(name)}`,
       modes: modesForHero(name),
     })),
 ];
@@ -319,7 +320,7 @@ export function libraryHeroesNotInMode(modeId: TeamBuilderModeId): RosterHero[] 
 export const TEAM_BUILDER_COUNTS = {
   modes: TEAM_BUILDER_MODES.length,
   teams: SAMPLE_TEAMS.length,
-  libraryHeroes: HERO_BUILDS.length,
+  libraryHeroes: LIBRARY_HERO_BUILDS.length,
   sampleOnlyHeroes: ROSTER_HEROES.filter((hero) => hero.kind === 'sample-only').length,
   rosterHeroes: ROSTER_HEROES.length,
 } as const;

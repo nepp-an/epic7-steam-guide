@@ -23,6 +23,12 @@ export function SiteFooter({ locale = 'en' }: { locale?: Locale }) {
             <Link href="/hero-builds/">Hero builds</Link>
             {' · '}
             <Link href="/team-builder/">Team builder</Link>
+            {' · '}
+            <Link href="/summon-calculator/">Summon calculator</Link>
+            {' · '}
+            <Link href="/steam-beginner/">Steam beginner</Link>
+            {' · '}
+            <Link href="/steam-vs-mobile/">Steam vs mobile</Link>
           </>
         ) : null}
         {' · '}

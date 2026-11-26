@@ -15,7 +15,7 @@ const DESCRIPTION =
 const FAQS = [
   [
     'What is this Epic Seven hero builds library?',
-    'It is a searchable, unofficial library of 20 starter, specialty-change, hunt, and mode-example heroes already documented on this site. Each card paraphrases those on-site notes and, where we opened a dated Hideout community sample, lists appearance shares and named teams. It is not an official Smilegate or Epic Seven build guide, and it is not a full-roster tier list.',
+    'It is a searchable, unofficial library of 20 starter, specialty-change, hunt, and mode-example heroes already documented on this site, plus dated clear-appearance cards for names that only appear on the team-builder sample teams. Each build-note card paraphrases those on-site notes and, where we opened a dated Hideout community sample, lists appearance shares and named teams. The dated-clear cards have no on-site set, floor, or artifact recipe. It is not an official Smilegate or Epic Seven build guide, and it is not a full-roster tier list.',
   ],
   [
     'Why are sets or artifacts blank on some cards?',
@@ -110,14 +110,18 @@ export default function Page() {
         <a href="#sources">Sources</a>
       </nav>
       <p>
-        v1 covers the 12 units already on the{' '}
+        v1 still covers the 12 units already on the{' '}
         <a href="/heroes/">heroes beginner-picks page</a> and eight mode-example
         units from the{' '}
-        <a href="/steam-tier-list/">Steam build-priority page</a>. Hunt and
-        expedition numbers come from Hideout community clear samples we opened,
-        or from the dated samples already published on the{' '}
-        <a href="/tier-list/">tier-list resource page</a>. After you have a
-        piece in hand, score it with the{' '}
+        <a href="/steam-tier-list/">Steam build-priority page</a>. This pass also
+        adds dated clear-appearance cards, with no on-site build recipe, for
+        the sample-only names already listed in the{' '}
+        <a href="/team-builder/">team builder</a>. Those appearance shares come
+        from the dated samples already published on the{' '}
+        <a href="/tier-list/">tier-list resource page</a> (hunt window 29
+        October–4 November 2026; Abyss Floor 91 window 7 August–4 November
+        2026, checked 13 November 2026). After you have a piece in hand, score
+        it with the{' '}
         <a href="/gear-score-calculator/">Epic Seven gear score calculator</a>.
       </p>
       <p className="muted">

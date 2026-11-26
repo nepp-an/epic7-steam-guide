@@ -174,8 +174,20 @@ pushUrl(`${ORIGIN}/team-builder/`, TEAM_BUILDER_CHANGED, [
   ['x-default', `${ORIGIN}/team-builder/`],
 ], '0.8');
 
+/*
+ * /steam-beginner/, /steam-vs-mobile/, and /summon-calculator/ are
+ * English-only pages. They must not claim locale paths that do not exist.
+ */
+const NEW_EN_PAGES_CHANGED = '2026-11-26';
+for (const path of ['/steam-beginner/', '/steam-vs-mobile/', '/summon-calculator/']) {
+  pushUrl(`${ORIGIN}${path}`, NEW_EN_PAGES_CHANGED, [
+    ['en', `${ORIGIN}${path}`],
+    ['x-default', `${ORIGIN}${path}`],
+  ], '0.8');
+}
+
 lines.push('</urlset>', '');
 writeFileSync('public/sitemap.xml', lines.join('\n'));
 console.log(
-  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 3} urls`,
+  `sitemap: ${PATHS.length * LOCALES.length + CASE_FILES_LOCALES.length + 1 + LOCALES.length + 6} urls`,
 );

@@ -5,11 +5,13 @@ import { SelfDrawnAvatar } from '@/components/SelfDrawnAvatar';
 import { useMemo, useState } from 'react';
 import { ExternalLink } from '@/components/ExternalLink';
 import {
+  DATED_CLEAR_LABEL,
   HERO_BUILDS,
   HERO_CLASSES,
   HERO_ELEMENTS,
   HERO_GROUP_LABEL,
   HERO_GROUPS,
+  LIBRARY_HERO_BUILDS,
   filterHeroBuilds,
   type HeroClass,
   type HeroElement,
@@ -99,14 +101,15 @@ export function HeroBuildLibrary() {
       <p className="muted hb-count" aria-live="polite">
         {results.length === 0
           ? 'No heroes in this library match that search or filter.'
-          : `Showing ${results.length} of ${HERO_BUILDS.length} sourced heroes.`}
+          : `Showing ${results.length} of ${HERO_BUILDS.length} cards (${LIBRARY_HERO_BUILDS.length} sourced build notes and ${HERO_BUILDS.length - LIBRARY_HERO_BUILDS.length} dated clear-appearance samples).`}
       </p>
       {results.length === 0 ? (
         <p className="hb-empty">
-          This v1 library covers 20 sourced starter, specialty-change, hunt, and
-          mode-example units — not a full roster. Try another name, or clear the
-          filters. Missing set or artifact fields stay blank on purpose when we
-          do not have a source.
+          This library covers the 20 sourced starter, specialty-change, hunt,
+          and mode-example units, plus dated clear-appearance cards for
+          sample-only names from the team builder — not a full roster. Try
+          another name, or clear the filters. Missing set or artifact fields
+          stay blank on purpose when we do not have a source.
         </p>
       ) : (
         <div className="hb-list">
@@ -125,10 +128,15 @@ export function HeroBuildLibrary() {
                   <a href={`#${hero.slug}`}>{hero.name}</a>
                 </h2>
                 <p className="hb-id">
-                  {hero.element} {hero.class}
+                  {hero.element && hero.class
+                    ? `${hero.element} ${hero.class}`
+                    : 'Class and element not published in this site’s sourced notes'}
                   <span className="muted"> · {HERO_GROUP_LABEL[hero.group]}</span>
                 </p>
                 <div className="hb-chips">
+                  {hero.group === 'dated-clear' ? (
+                    <span className="chip chip-focus">{DATED_CLEAR_LABEL}</span>
+                  ) : null}
                   {hero.roles.map((role) => (
                     <span key={role} className="chip chip-role">
                       {role}

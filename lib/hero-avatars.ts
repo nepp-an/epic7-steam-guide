@@ -11,7 +11,7 @@ import { HERO_BUILDS, type HeroElement } from '@/lib/hero-builds';
 export type AvatarTint = HeroElement | 'Neutral';
 
 const LIBRARY_TINT: Record<string, HeroElement> = Object.fromEntries(
-  HERO_BUILDS.map((hero) => [hero.slug, hero.element]),
+  HERO_BUILDS.flatMap((hero) => (hero.element ? [[hero.slug, hero.element] as const] : [])),
 );
 
 /**

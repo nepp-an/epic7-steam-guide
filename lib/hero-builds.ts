@@ -1,4 +1,24 @@
-/** Sourced v1 English hero-build library. Do not invent sets, floors, or artifacts. */
+/** Sourced English hero-build library. Do not invent sets, floors, or artifacts. */
+
+import {
+  TIER_PVE_ABYSS91_APPEARANCE,
+  TIER_PVE_ABYSS91_TEAMS,
+  TIER_PVE_BANSHEE_HELL_APPEARANCE,
+  TIER_PVE_BANSHEE_HELL_TEAMS,
+  TIER_PVE_EXPEDITION_APPEARANCE,
+  TIER_PVE_EXPEDITION_TEAMS,
+  TIER_PVE_PHERUS_S3_APPEARANCE,
+  TIER_PVE_PHERUS_S3_TEAMS,
+  TIER_PVE_SS_ROWS,
+  TIER_PVE_WYVERN_APPEARANCE,
+  TIER_PVE_WYVERN_HELL_APPEARANCE,
+  TIER_PVE_WYVERN_HELL_TEAMS,
+  TIER_PVE_WYVERN_TEAMS,
+  TIER_RESOURCES_CHECKED,
+  TIER_WA_ROWS,
+  TIER_WA_S_SAMPLE,
+  type TierPveTeam,
+} from './i18n/tier-resources.ts';
 
 export const HERO_CLASSES = [
   'Knight',
@@ -16,6 +36,7 @@ export const HERO_GROUPS = [
   'specialty',
   'farmer',
   'mode-example',
+  'dated-clear',
 ] as const;
 
 export type HeroClass = (typeof HERO_CLASSES)[number];
@@ -40,8 +61,8 @@ export type HideoutSample = {
 export type HeroBuild = {
   slug: string;
   name: string;
-  class: HeroClass;
-  element: HeroElement;
+  class?: HeroClass;
+  element?: HeroElement;
   group: HeroGroup;
   roles: string[];
   job?: string;
@@ -72,7 +93,7 @@ const WINDOW_LIVE = '12 November–18 November 2026';
 const WINDOW_TIER = '29 October–4 November 2026 (page checked 2026-11-13)';
 const WINDOW_ABYSS91 = '7 August–4 November 2026 (page checked 2026-11-13)';
 
-export const HERO_BUILDS: readonly HeroBuild[] = [
+export const LIBRARY_HERO_BUILDS: readonly HeroBuild[] = [
   {
     slug: 'ras',
     name: 'Ras',
@@ -623,11 +644,220 @@ export const HERO_BUILDS: readonly HeroBuild[] = [
   },
 ];
 
+export const DATED_CLEAR_LABEL =
+  'Dated clear appearance sample — no on-site build recipe';
+
+const HIDEOUT_ABYSS = 'https://www.hideoutgacha.com/games/epic-seven/abyss';
+
+type DatedClearPanel = {
+  panel: string;
+  window: string;
+  href: string;
+  sourceHref: string;
+  teams: readonly TierPveTeam[];
+  appearance: readonly { hero: string; rate: string }[];
+};
+
+const DATED_CLEAR_PANELS: readonly DatedClearPanel[] = [
+  {
+    panel: 'Wyvern · Hell',
+    window: WINDOW_TIER,
+    href: '/tier-list/#wyvern-hell',
+    sourceHref: HIDEOUT_HUNTS,
+    teams: TIER_PVE_WYVERN_HELL_TEAMS,
+    appearance: TIER_PVE_WYVERN_HELL_APPEARANCE,
+  },
+  {
+    panel: 'Banshee · Hell',
+    window: WINDOW_TIER,
+    href: '/tier-list/#banshee-hell',
+    sourceHref: HIDEOUT_HUNTS,
+    teams: TIER_PVE_BANSHEE_HELL_TEAMS,
+    appearance: TIER_PVE_BANSHEE_HELL_APPEARANCE,
+  },
+  {
+    panel: 'Brutal Pherus · Stage 3',
+    window: WINDOW_TIER,
+    href: '/tier-list/#pherus-3',
+    sourceHref: HIDEOUT_EXPEDITION,
+    teams: TIER_PVE_PHERUS_S3_TEAMS,
+    appearance: TIER_PVE_PHERUS_S3_APPEARANCE,
+  },
+  {
+    panel: 'Abyss Floor 91',
+    window: WINDOW_ABYSS91,
+    href: '/tier-list/#abyss-91',
+    sourceHref: HIDEOUT_ABYSS,
+    teams: TIER_PVE_ABYSS91_TEAMS,
+    appearance: TIER_PVE_ABYSS91_APPEARANCE,
+  },
+  {
+    panel: 'Wyvern · Normal',
+    window: WINDOW_TIER,
+    href: '/tier-list/',
+    sourceHref: HIDEOUT_HUNTS,
+    teams: TIER_PVE_WYVERN_TEAMS,
+    appearance: TIER_PVE_WYVERN_APPEARANCE,
+  },
+  {
+    panel: 'Brutal Pherus · Stage 1',
+    window: WINDOW_TIER,
+    href: '/tier-list/',
+    sourceHref: HIDEOUT_EXPEDITION,
+    teams: TIER_PVE_EXPEDITION_TEAMS,
+    appearance: TIER_PVE_EXPEDITION_APPEARANCE,
+  },
+];
+
+const CLASS_TOKENS: readonly HeroClass[] = [
+  'Soul Weaver',
+  'Knight',
+  'Warrior',
+  'Mage',
+  'Ranger',
+  'Thief',
+];
+
+function parseClassElement(
+  label: string,
+): { class: HeroClass; element: HeroElement } | undefined {
+  const element = HERO_ELEMENTS.find((item) => label.startsWith(`${item} `));
+  if (!element) return undefined;
+  const rest = label.slice(element.length + 1);
+  const heroClass = CLASS_TOKENS.find((item) => rest.startsWith(item));
+  if (!heroClass) return undefined;
+  return { class: heroClass, element };
+}
+
+function classElementQuote(name: string): {
+  class: HeroClass;
+  element: HeroElement;
+  label: string;
+  source: string;
+} | undefined {
+  const ss = TIER_PVE_SS_ROWS.find((row) => row.hero === name);
+  if (ss) {
+    const parsed = parseClassElement(ss.classElement);
+    if (parsed) {
+      return {
+        ...parsed,
+        label: ss.classElement,
+        source: 'the on-site epic7db PvE SS-band quote on the tier-list page',
+      };
+    }
+  }
+  const wa = [...TIER_WA_ROWS, ...TIER_WA_S_SAMPLE].find((row) => row.name === name);
+  if (wa) {
+    const parsed = parseClassElement(wa.classElement);
+    if (parsed) {
+      return {
+        ...parsed,
+        label: wa.classElement,
+        source: 'an on-site World Arena sample quote on the tier-list page',
+      };
+    }
+  }
+  return undefined;
+}
+
+function slugifyHero(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function parsePublishedTeam(team: string): string[] {
+  return team
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function buildDatedClearBuilds(): HeroBuild[] {
+  const libraryNames = new Set(LIBRARY_HERO_BUILDS.map((hero) => hero.name.toLowerCase()));
+  const sampleNames = new Set<string>();
+  for (const panel of DATED_CLEAR_PANELS) {
+    for (const row of panel.teams) {
+      for (const name of parsePublishedTeam(row.team)) {
+        if (!libraryNames.has(name.toLowerCase())) sampleNames.add(name);
+      }
+    }
+  }
+
+  const checked = TIER_RESOURCES_CHECKED;
+  const cards: HeroBuild[] = [];
+  for (const name of Array.from(sampleNames).sort((a, b) => a.localeCompare(b))) {
+    const quote = classElementQuote(name);
+    const hideout: HideoutSample[] = [];
+    for (const panel of DATED_CLEAR_PANELS) {
+      const listedTeams = panel.teams.filter((row) =>
+        parsePublishedTeam(row.team).some((hero) => hero === name),
+      );
+      const appearance = panel.appearance.find((row) => row.hero === name);
+      if (!listedTeams.length && !appearance) continue;
+      const lines: string[] = [];
+      if (appearance) {
+        lines.push(
+          `Appearance share in this dated window: ${appearance.rate} of clears.`,
+        );
+      }
+      for (const row of listedTeams) {
+        lines.push(
+          `Listed on Team ${row.rank}: ${row.team} — ${row.share}`,
+        );
+      }
+      hideout.push({
+        panel: panel.panel,
+        window: panel.window,
+        teams: lines,
+        href: panel.href,
+        checked,
+      });
+    }
+
+    const identity = quote
+      ? `Class and element are quoted from ${quote.source} as “${quote.label}”; that quote is identity only, not a gear or artifact recipe.`
+      : 'This site has not published a sourced class or element for this exact name, so those fields stay blank.';
+
+    cards.push({
+      slug: slugifyHero(name),
+      name,
+      class: quote?.class,
+      element: quote?.element,
+      group: 'dated-clear',
+      roles: [],
+      summary:
+        `This is a dated clear appearance sample from this site’s tier-list tables, with no on-site build recipe. ${identity} Exact names are not merged with similarly named variants. Appearance share is not a win rate.`,
+      hideout,
+      sources: [
+        {
+          label: 'Tier-list resource page (dated Hideout clear samples)',
+          href: SITE_TIER,
+          date: checked,
+        },
+      ],
+      limits:
+        'Dated clear appearance sample, no on-site build recipe. Sets, stat floors, and artifact recipes are left blank on purpose. Hideout most-used set and artifact tables were not imported. Appearance share is a share of clears in a named panel and date window, not a win rate.',
+    });
+  }
+  return cards;
+}
+
+export const DATED_CLEAR_BUILDS: readonly HeroBuild[] = buildDatedClearBuilds();
+
+export const HERO_BUILDS: readonly HeroBuild[] = [
+  ...LIBRARY_HERO_BUILDS,
+  ...DATED_CLEAR_BUILDS,
+];
+
 export const HERO_GROUP_LABEL: Record<HeroGroup, string> = {
   tutorial: 'Tutorial / early leads',
   specialty: 'Specialty change',
   farmer: 'Hunt / farm openers',
   'mode-example': 'Mode examples beyond the starter 12',
+  'dated-clear': 'Dated clear appearance (no on-site build recipe)',
 };
 
 export type HeroBuildFilters = {

@@ -409,6 +409,100 @@ def diagram_team_builder() -> Image.Image:
     return im
 
 
+def three_cards(im: Image.Image, cards: list[tuple]) -> None:
+    d = ImageDraw.Draw(im)
+    W, H = im.size
+    gap = 18
+    card_w = (W - 28 * 2 - gap * (len(cards) - 1)) // len(cards)
+    y0, y1 = 92, H - 44
+    x = 28
+    for color, title, body in cards:
+        rounded_card(d, [x, y0, x + card_w, y1], 14, DIA_CARD, color, 3)
+        ss_text(im, title, (x + 18, y0 + 20), 16, color, weight=700, anchor="lt")
+        by = y0 + 56
+        for line in body.split("\n"):
+            ss_text(im, line, (x + 18, by), 13, DIA_BODY, weight=500, anchor="lt")
+            by += 20
+        x += card_w + gap
+
+
+def diagram_steam_beginner() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Steam beginner path (independent)",
+        "Confirm identity and transfer first — not a day-N yield table",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_ORANGE, "1. Confirm first", "Confirm the account you\nwant to keep, and finish\nthe official transfer before\ntreating a Steam save as\nyour main character."),
+            (DIA_GREEN, "2. Progress carries", "Official FAQ: progress,\nunclaimed rewards, event\nitems, and Epic Pass\nprogress are retained."),
+            (DIA_BLUE, "3. Same account", "The same account still\nworks on STOVE PC and\nmobile. Steam can enter\nnew and existing worlds."),
+        ],
+    )
+    return im
+
+
+def diagram_steam_vs_mobile() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Steam vs mobile, official FAQ questions 4–5 (independent)",
+        "Quoted official facts only — Deck, achievements, and performance are left blank",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_GREEN, "Same game and prices", "Cross-play is supported.\nGameplay experience is the\nsame, and prices have no\nplatform difference."),
+            (DIA_BLUE, "Same PC requirements", "Steam system requirements\nmatch the STOVE PC client.\nUNCHEATER is a Steam\nclient install expectation."),
+            (DIA_ORANGE, "Some schedules differ", "Steam can enter new and\nexisting worlds. Official\nexample: World Arena\nmatchmaking is new-world\nonly."),
+        ],
+    )
+    return im
+
+
+def diagram_summon_calculator() -> Image.Image:
+    W, H = 1100, 400
+    im = Image.new("RGB", (W, H), DIA_BG)
+    d = ImageDraw.Draw(im)
+    footer_and_title(
+        im,
+        "Current official pickup only (independent)",
+        "Bunny Girl Maid Cecilia & Covert Service — 26 Nov 03:00 to 17 Dec 02:59 UTC",
+    )
+    cards = [
+        (DIA_BLUE, "Featured 5★ at 1%", "Bunny Girl Maid Cecilia\nis raised to 1%. No other\n5★ hero can appear."),
+        (DIA_GREEN, "120, then guaranteed", "Each summon lowers the\ncounter by 1 (max 120).\nThe next pull after 120\nmisses is 100%."),
+        (DIA_ORANGE, "Expires on time", "After 17 Dec 02:59 UTC\nthe tool must show these\nrules have expired. It does\nnot auto-apply a later\nbanner."),
+    ]
+    gap = 18
+    card_w = (W - 28 * 2 - gap * 2) // 3
+    y0, y1 = 92, H - 92
+    x = 28
+    for color, title, body in cards:
+        rounded_card(d, [x, y0, x + card_w, y1], 14, DIA_CARD, color, 3)
+        ss_text(im, title, (x + 18, y0 + 20), 17, color, weight=700, anchor="lt")
+        by = y0 + 56
+        for line in body.split("\n"):
+            ss_text(im, line, (x + 18, by), 13, DIA_BODY, weight=500, anchor="lt")
+            by += 22
+        x += card_w + gap
+    rounded_card(d, [28, H - 80, W - 28, H - 36], 12, DIA_CARD, (90, 110, 150), 2)
+    ss_text(
+        im,
+        "Featured pull resets the counter. No moonlight on this banner. Regular covenant summons can still be used. No 3★/4★/artifact rates here.",
+        (44, H - 58),
+        13,
+        DIA_BODY,
+        weight=500,
+        anchor="lt",
+    )
+    return im
+
+
 def main() -> None:
     AVATAR_DIR.mkdir(parents=True, exist_ok=True)
     for slug, letters, tint in LIBRARY_NEW + SAMPLE_ONLY:
@@ -416,6 +510,9 @@ def main() -> None:
     write_diagram("diagram-gear-score-formula.webp", diagram_gear_score())
     write_diagram("diagram-hero-builds-library.webp", diagram_hero_builds())
     write_diagram("diagram-team-builder-flow.webp", diagram_team_builder())
+    write_diagram("diagram-steam-beginner.webp", diagram_steam_beginner())
+    write_diagram("diagram-steam-vs-mobile.webp", diagram_steam_vs_mobile())
+    write_diagram("diagram-summon-calculator.webp", diagram_summon_calculator())
 
 
 if __name__ == "__main__":

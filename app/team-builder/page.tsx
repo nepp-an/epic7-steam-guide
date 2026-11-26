@@ -87,8 +87,10 @@ export default function Page() {
       <p>
         Choose a mode, then check off the heroes you have — the 20 units in the{' '}
         <a href="/hero-builds/">Epic Seven hero builds</a> library plus names
-        that only appear on a published sample team. After you have a piece in
-        hand, score it with the{' '}
+        that only appear on a published sample team. Those sample-only names
+        now also have dated clear-appearance cards, with no on-site build
+        recipe, in the same library. After you have a piece in hand, score it
+        with the{' '}
         <a href="/gear-score-calculator/">Epic Seven gear score calculator</a>.
         The dated tables themselves stay on the{' '}
         <a href="/tier-list/">tier-list resource page</a>.

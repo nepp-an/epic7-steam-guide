@@ -53,7 +53,7 @@ function HeroCheck({
         <span className="tb-hero-meta">
           {hero.kind === 'library'
             ? `${hero.element} ${hero.class}`
-            : 'Listed on a dated clear team, no on-site build card'}
+            : 'Dated clear appearance sample, no on-site build recipe'}
         </span>
       </span>
     </label>
@@ -224,8 +224,14 @@ export function TeamBuilderTool() {
                               {' '}
                               <a href={card.href}>Build notes</a>
                             </>
+                          ) : card?.href ? (
+                            <>
+                              {' '}
+                              <a href={card.href}>Dated clear appearance</a>
+                              <em> — no on-site build recipe</em>
+                            </>
                           ) : (
-                            <em> — listed on a dated clear team, no on-site build card</em>
+                            <em> — listed on a dated clear team, no on-site build recipe</em>
                           )}
                         </li>
                       );
@@ -255,7 +261,7 @@ export function TeamBuilderTool() {
                 These jobs come from the{' '}
                 <a href="/hero-builds/">Epic Seven hero builds</a> cards. They
                 are not a substitute for a missing sample-team slot, and
-                sample-only names have no invented role here. Score a piece on
+                sample-only names have no invented role here, only a dated clear-appearance card. Score a piece on
                 the{' '}
                 <a href="/gear-score-calculator/">gear score calculator</a>.
               </p>
