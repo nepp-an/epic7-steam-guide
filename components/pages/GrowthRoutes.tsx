@@ -17,7 +17,24 @@ export function FoundryActionRoutes({locale}: {locale: GrowthLocale}) {
  return <section id="today" aria-labelledby="foundry-next-action">
   <h2 id="foundry-next-action">{c.routeTitle}</h2>
   <div className="task-grid">{(['today','week','next'] as const).map(group => <article key={group} className="card task-card"><h3>{c[group]}</h3><ul>{c.tasks.filter(task => task[1] === group).map(task => <li key={task[0]}><L locale={locale} href={`/quests/#task-${task[0]}`}>{task[2]}</L><p>{task[4]}</p><p className="muted">{task[5]}</p></li>)}</ul></article>)}</div>
-  <p className="schedule-note">{c.schedule}</p><p>{c.mode}</p>
+  <p className="schedule-note">{c.schedule}</p>
+  <p>
+    {c.mode}
+    {locale === 'en' ? (
+      <>
+        {' '}
+        Windows, Season Heroes, and ranking rewards are on the{' '}
+        <a href="/call-of-chaos/">Call of Chaos Season 2</a> page.
+      </>
+    ) : null}
+  </p>
+  {locale === 'en' ? (
+    <p className="schedule-note">
+      A limited check-in event,{' '}
+      <a href="/epic-road/">Epic Road and Record of the Journey</a>, is also
+      open through 10 Dec 2026, 02:59 UTC.
+    </p>
+  ) : null}
   <FoundryClaimWindowsNote locale={locale} />
   <FoundryUpcomingEventsNote locale={locale} />
   <p><ExternalLink href="https://store.steampowered.com/news/app/5019180/view/1848664643349012">Steam — Foundry Guild War (11/07)</ExternalLink>{' · '}<ExternalLink href={OFFICIAL.stoveVersion87Update}>STOVE — 11/19</ExternalLink></p>

@@ -1,5 +1,6 @@
 import { EvergreenJump, FoundryRoadmap, SteamSymptomNavigator } from './EvergreenRoutes';
 import { GrowthHomePaths, FoundryActionRoutes } from '@/components/pages/GrowthRoutes';
+import { EnglishLimitedEventCards } from '@/components/pages/EnglishLimitedWindows';
 import { ActiveEventRoutes, PalaceMaidBannerNote, PalaceMaidRabbitNote } from '@/components/pages/ActiveEventRoutes';
 import { ClaimWindows } from '@/components/pages/ClaimWindows';
 import { isActiveEventsLocale } from '@/lib/i18n/activeEvents';
@@ -1644,8 +1645,14 @@ export function FoundryView({ locale }: { locale: Locale }) {
         <tbody>
           {c.events.map((row) => (
             <tr key={row[0] + row[1]}>
-              {row.map((cell) => (
-                <td key={cell}>{cell}</td>
+              {row.map((cell, i) => (
+                <td key={cell}>
+                  {locale === 'en' && i === 0 && row[0].includes('Call of Chaos') ? (
+                    <a href="/call-of-chaos/">{cell}</a>
+                  ) : (
+                    cell
+                  )}
+                </td>
               ))}
             </tr>
           ))}
@@ -1938,6 +1945,16 @@ export function BannersView({ locale }: { locale: Locale }) {
             </ExternalLink>
           </p>
           {isActiveEventsLocale(locale) ? <PalaceMaidBannerNote locale={locale} /> : null}
+          {locale === 'en' ? (
+            <p>
+              Official 11/19 update: this hero and artifact are set as a Global
+              Banned Hero and Artifact in the E7WC 2026 Grand Final. Details:{' '}
+              <a href="/e7wc-2026-grand-final/">
+                E7WC 2026 Grand Final and cheer comment event
+              </a>
+              .
+            </p>
+          ) : null}
         </article>
       ) : null}
       <article className="card">
@@ -2006,6 +2023,7 @@ export function UpdatesView({ locale }: { locale: Locale }) {
         <RichInline locale={locale} marked={c.lead} />
       </p>
       {isActiveEventsLocale(locale) && <ActiveEventRoutes locale={locale} />}
+      {locale === 'en' ? <EnglishLimitedEventCards /> : null}
       <AdBanner468 />
       {c.cards.map(([title, bullets, src]) => {
         const anchor = updatesEventAnchor(bullets);
@@ -2480,6 +2498,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
       )}
       {isGrowthLocale(locale) && <ClaimWindows locale={locale} />}
       {isActiveEventsLocale(locale) && <ActiveEventRoutes locale={locale} />}
+      {locale === 'en' ? <EnglishLimitedEventCards /> : null}
       <AdBanner468 />
       <Fig
         src="/images/diagram-quests.webp"

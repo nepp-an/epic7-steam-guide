@@ -3014,4 +3014,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://epicsevensteam.com/epic-road/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/epic-road/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/epic-road/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/e7wc-2026-grand-final/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/e7wc-2026-grand-final/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/e7wc-2026-grand-final/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://epicsevensteam.com/call-of-chaos/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://epicsevensteam.com/call-of-chaos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://epicsevensteam.com/call-of-chaos/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

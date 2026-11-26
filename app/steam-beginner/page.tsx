@@ -182,6 +182,11 @@ export default function Page() {
             <a href="/steam-tier-list/">Steam and transfer build priorities</a>{' '}
             — what this site already says to build first after a transfer.
           </li>
+          <li>
+            <a href="/epic-road/">Epic Road and Record of the Journey</a> — a
+            limited check-in and path event through 10 Dec 2026, 02:59 UTC, not
+            a first-week timetable invented here.
+          </li>
         </ul>
       </section>
 

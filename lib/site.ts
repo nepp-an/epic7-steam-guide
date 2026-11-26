@@ -263,6 +263,14 @@ export const OFFICIAL = {
     'https://page.onstove.com/epicseven/global/view/14638262',
   stoveDirgeRewind:
     'https://page.onstove.com/epicseven/global/view/14638347',
+  stoveEpicRoad:
+    'https://page.onstove.com/epicseven/global/view/14606370',
+  stoveRecordOfTheJourney:
+    'https://page.onstove.com/epicseven/global/view/14606349',
+  stoveE7wcCheer:
+    'https://page.onstove.com/epicseven/global/view/14650455',
+  stoveE7wcSchedule:
+    'https://page.onstove.com/epicseven/global/view/14499965',
 } as const;
 
 export const DOMAIN_CANDIDATES = [

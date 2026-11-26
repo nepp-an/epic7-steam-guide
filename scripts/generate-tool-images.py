@@ -561,6 +561,64 @@ def diagram_transfer_vs_foundry() -> Image.Image:
     return im
 
 
+
+def diagram_epic_road() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Epic Road and Record of the Journey (independent)",
+        "Shared window: 29 Oct after maintenance – 10 Dec 2026, 02:59 UTC",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_BLUE, "Shared entry", "Lobby > Event > Special Event.\nBoth events share one window.\nThis diagram is not a board\nor attendance-grid copy."),
+            (DIA_GREEN, "Epic Road path", "Spend Faint Guiding Stones\nfrom missions or the Attendance\nBook. Light connected slots\nleft to right. Grace: 7 days\nbefore the end; missions close."),
+            (DIA_ORANGE, "42-day check-in", "Log in 42 days for cumulative\nrewards. A special reward is\nadded every 7 days. Grace is\nfor catch-up check-ins only."),
+        ],
+    )
+    return im
+
+
+def diagram_e7wc_grand_final() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "E7WC 2026 Grand Final and cheer comment event (independent)",
+        "Cheer comments are open through 28 Nov 2026, 09:00 UTC — not a prediction board",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_GREEN, "Cheer window is open", "Leave a formatted comment\nwith a live-stream screenshot\nfrom 26 Nov through\n28 Nov 2026, 09:00 UTC."),
+            (DIA_BLUE, "Grand Final day", "28 Nov 2026, 03:00 UTC:\nWinners Bracket Finals,\nLosers Bracket Finals,\nand the Grand Final."),
+            (DIA_ORANGE, "Participant reward", "All valid participants: 2 Leif,\nsent to the in-game mailbox\non 4 Dec 2026 (Fri),\nstored for 7 days."),
+        ],
+    )
+    return im
+
+
+def diagram_call_of_chaos() -> Image.Image:
+    W, H = 1100, 360
+    im = Image.new("RGB", (W, H), DIA_BG)
+    footer_and_title(
+        im,
+        "Call of Chaos Season 2 windows (independent)",
+        "Winter 2026 is unified across servers on KST clocks — not a roster tier list",
+    )
+    three_cards(
+        im,
+        [
+            (DIA_BLUE, "How to enter", "Arena screen, bottom-left\nbanner: The Call of Chaos.\nAccount Rank 20 or higher."),
+            (DIA_GREEN, "Season window", "19 Nov after maintenance\nto 10 Dec 2026, 02:59 UTC.\nDraft Arena is unavailable\nwhile the season is active."),
+            (DIA_ORANGE, "Grace period", "10 Dec 03:00 – 17 Dec 02:59\nUTC. You can enter, but you\ncannot start a new Challenge.\nClaim rank rewards then."),
+        ],
+    )
+    return im
+
+
 def main() -> None:
     AVATAR_DIR.mkdir(parents=True, exist_ok=True)
     for slug, letters, tint in LIBRARY_NEW + SAMPLE_ONLY:
@@ -574,6 +632,9 @@ def main() -> None:
     write_diagram("diagram-already-registered.webp", diagram_already_registered())
     write_diagram("diagram-wrong-bind.webp", diagram_wrong_bind())
     write_diagram("diagram-transfer-vs-foundry.webp", diagram_transfer_vs_foundry())
+    write_diagram("diagram-epic-road.webp", diagram_epic_road())
+    write_diagram("diagram-e7wc-grand-final.webp", diagram_e7wc_grand_final())
+    write_diagram("diagram-call-of-chaos.webp", diagram_call_of_chaos())
 
 
 if __name__ == "__main__":

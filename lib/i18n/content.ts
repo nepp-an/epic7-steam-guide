@@ -158,6 +158,18 @@ export const CONTENT = {
           "STOVE↔Steam transfer steps"
         ],
         [
+          "/already-registered/",
+          "Already registered or a greyed-out Transfer button"
+        ],
+        [
+          "/wrong-bind/",
+          "Wrong-bind recovery: Steam opened a new account"
+        ],
+        [
+          "/transfer-vs-foundry/",
+          "Transfer vs Foundry"
+        ],
+        [
           "/demo-delete-warning/",
           "Demo / delete-account warning"
         ],
