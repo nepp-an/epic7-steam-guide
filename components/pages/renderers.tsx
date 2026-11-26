@@ -1379,6 +1379,19 @@ export function FaqView({ locale }: { locale: Locale }) {
             {dl.link_demo}
           </L>
         </li>
+        {locale === 'en' ? (
+          <>
+            <li>
+              <a href="/already-registered/">Already registered or a greyed-out Transfer button</a>
+            </li>
+            <li>
+              <a href="/wrong-bind/">Wrong-bind recovery: Steam opened a new account</a>
+            </li>
+            <li>
+              <a href="/transfer-vs-foundry/">Transfer vs Foundry</a>
+            </li>
+          </>
+        ) : null}
       </ul>
       <CoreDeepenSection locale={locale} path="/faq/" />
       <h2>{c.src_h2}</h2>

@@ -203,6 +203,8 @@ export const FAQ_GROUPS: Record<
       "intro": "Start here if Steam shows a new Heir, STOVE says “already registered”, or Transfer is greyed out. The usual cause is a second Steam-linked STOVE login, not deleted progress.",
       "items": [
         0,
+        10,
+        11,
         6,
         7,
         8,
