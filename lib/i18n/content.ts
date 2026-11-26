@@ -198,6 +198,18 @@ export const CONTENT = {
       ],
       "map_links_ong": [
         [
+          "/epic-road/",
+          "Epic Road and Record of the Journey (to 10 Dec)"
+        ],
+        [
+          "/e7wc-2026-grand-final/",
+          "E7WC 2026 Grand Final and cheer comment event"
+        ],
+        [
+          "/call-of-chaos/",
+          "Call of Chaos Season 2 windows and rules"
+        ],
+        [
           "/quests/",
           "Quests — main / daily / weekly"
         ],

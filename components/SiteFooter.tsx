@@ -29,6 +29,12 @@ export function SiteFooter({ locale = 'en' }: { locale?: Locale }) {
             <Link href="/steam-beginner/">Steam beginner</Link>
             {' · '}
             <Link href="/steam-vs-mobile/">Steam vs mobile</Link>
+            {' · '}
+            <Link href="/epic-road/">Epic Road</Link>
+            {' · '}
+            <Link href="/e7wc-2026-grand-final/">E7WC 2026 Grand Final</Link>
+            {' · '}
+            <Link href="/call-of-chaos/">Call of Chaos</Link>
           </>
         ) : null}
         {' · '}
