@@ -31,7 +31,7 @@ export const EVERGREEN_COPY = {
         "Claim support, then follow the story gate",
         "Identity confirmed. Foundry event claims require a Foundry character and an open event window.",
         "Lobby → Event → Welcome! Foundry Server; then Adventure and the beginner/progression missions shown on your account.",
-        "Read Starter Support and the current mission target. Claim eligible rewards; advance the exact story/mission prerequisite displayed by a locked feature. Foundry growth-mail login window ended 19 Nov 2026, 10:59 Asia/Shanghai (11/19 02:59 UTC); mailbox storage is 7 days for mail already received.",
+        "Read Starter Support and the current mission target. Claim eligible rewards; advance the exact story/mission prerequisite displayed by a locked feature. Foundry growth-mail login window ended 19 Nov 2026, 02:59 UTC; mailbox storage is 7 days for mail already received.",
         "The current beginner mission is claimed or its next requirement is clear; your next story battle is selected.",
         "No Foundry panel on an old server is not a missing transfer reward. If a feature is locked, complete its displayed prerequisite rather than assuming an old episode guide still applies.",
         0
@@ -67,7 +67,7 @@ export const EVERGREEN_COPY = {
         "At Account Rank 70, check the correct claim",
         "Foundry character reaches Account Rank70 while the Luna Joins event is open; hero level70 is not the requirement.",
         "Event → Welcome! Foundry Server → Luna Joins.",
-        "Check eligibility and claim the displayed milestone before 31 Dec 2026,10:59 Asia/Shanghai. Official reward: limited5★ Luna, Glacial Purity skin and15 Experienced Penguins.",
+        "Check eligibility and claim the displayed milestone before 31 Dec 2026,02:59 UTC. Official reward: limited5★ Luna, Glacial Purity skin and15 Experienced Penguins.",
         "The event shows the reward claimed and it is visible in the relevant inventory. This is not an old-server or automatic cross-server reward.",
         "If the event is absent, check server, Account Rank and deadline. Save the exact error and use official support; never delete or transfer an account just to force a claim.",
         0
@@ -179,7 +179,7 @@ export const EVERGREEN_COPY = {
         "先領適用支援，再推當前主線門檻",
         "已確認帳號；Foundry活動須是Foundry角色且仍在有效期間。",
         "大廳 → 活動 → Welcome! Foundry Server；再看冒險與帳內目前顯示的新手／成長任務。",
-        "查看Starter Support與當前任務，領取符合資格的獎勵；鎖定功能就先完成畫面寫明的主線／任務條件。Foundry成長郵件登入窗口已於2026年11月19日10:59（Asia/Shanghai，即11/19 02:59 UTC）結束；已在信箱的郵件保管7天。",
+        "查看Starter Support與當前任務，領取符合資格的獎勵；鎖定功能就先完成畫面寫明的主線／任務條件。Foundry成長郵件登入窗口已於2026年11月19日 02:59 UTC結束；已在信箱的郵件保管7天。",
         "已領取當前任務獎勵，或知道下一條明確條件，並選好下一關。",
         "舊服沒有Foundry面板不代表轉移漏發獎勵；功能未開時照遊戲現在顯示的條件推進，不硬套舊章節攻略。",
         0
@@ -215,7 +215,7 @@ export const EVERGREEN_COPY = {
         "帳號Rank70後，核對正確領獎面板",
         "Foundry角色於Luna Joins有效期間達帳號Rank70；不是英雄等級70。",
         "活動 → Welcome! Foundry Server → Luna Joins。",
-        "核對資格，於2026年12月31日10:59（Asia/Shanghai）前領取；官方獎勵為限定5★露娜、Glacial Purity造型與15隻資深企鵝。",
+        "核對資格，於2026年12月31日 02:59 UTC前領取；官方獎勵為限定5★露娜、Glacial Purity造型與15隻資深企鵝。",
         "面板顯示已領取，且能在對應收藏／背包看到；不是舊服獎勵，也不會自動跨服。",
         "面板不見先查伺服器、帳號Rank與期限；保存錯誤交官方客服，不為領獎刪帳或轉移。",
         0
@@ -327,7 +327,7 @@ export const EVERGREEN_COPY = {
         "해당 지원을 받고 현재 스토리 조건 진행",
         "계정 확인 완료. 파운드리 이벤트는 해당 서버 캐릭터와 유효 기간이 필요합니다.",
         "로비 → 이벤트 → Welcome! Foundry Server; 이후 모험과 계정에 표시된 초보/성장 미션.",
-        "Starter Support와 현재 목표를 확인하고 대상 보상을 받으세요. 잠긴 기능은 화면에 나온 스토리/미션 선행 조건부터 진행합니다. 성장 우편 로그인 기간은 2026년 11월 19일 10:59 Asia/Shanghai(11/19 02:59 UTC)에 종료되었으며, 이미 받은 우편의 보관은 7일입니다.",
+        "Starter Support와 현재 목표를 확인하고 대상 보상을 받으세요. 잠긴 기능은 화면에 나온 스토리/미션 선행 조건부터 진행합니다. 성장 우편 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었으며, 이미 받은 우편의 보관은 7일입니다.",
         "현재 미션을 수령했거나 다음 요구 조건을 알고 다음 전투를 선택했습니다.",
         "기존 서버에 파운드리 패널이 없다고 이전 보상이 누락된 것은 아닙니다. 오래된 에피소드 공략보다 현재 게임의 잠금 조건을 확인하세요.",
         0
@@ -363,7 +363,7 @@ export const EVERGREEN_COPY = {
         "계정 랭크70에서 올바른 보상 확인",
         "Luna Joins 기간 안에 파운드리 계정 랭크70 달성. 영웅 레벨70 조건이 아닙니다.",
         "이벤트 → Welcome! Foundry Server → Luna Joins.",
-        "대상을 확인하고2026년12월31일10:59 Asia/Shanghai 전에 수령하세요. 공식 보상은 한정5★ 루나, Glacial Purity 스킨, 숙련된 펭귄15마리입니다.",
+        "대상을 확인하고2026년12월31일 02:59 UTC 전에 수령하세요. 공식 보상은 한정5★ 루나, Glacial Purity 스킨, 숙련된 펭귄15마리입니다.",
         "이벤트에 수령 완료가 표시되고 해당 보유 목록에 나타납니다. 기존 서버 보상이나 자동 서버 간 지급이 아닙니다.",
         "패널이 없으면 서버·계정 랭크·기한을 확인하고 오류를 공식 고객센터에 보내세요. 보상 때문에 계정을 삭제/이전하지 마세요.",
         0
@@ -475,7 +475,7 @@ export const EVERGREEN_COPY = {
         "รับการสนับสนุนที่มีสิทธิ์ แล้วทำเงื่อนไขเนื้อเรื่อง",
         "ยืนยันบัญชีแล้ว อีเวนต์Foundryต้องเป็นตัวละครFoundryและยังอยู่ในเวลา",
         "ล็อบบี้ → Event → Welcome! Foundry Server แล้วดูAdventureกับภารกิจเริ่มต้น/เติบโตที่บัญชีแสดง",
-        "อ่านStarter Supportและเป้าหมายปัจจุบัน รับรางวัลที่มีสิทธิ์ ฟีเจอร์ล็อกให้ทำเงื่อนไขเนื้อเรื่อง/ภารกิจบนหน้าจอก่อน ช่วงล็อกอินของจดหมายเติบโตจบแล้วเมื่อ 19 พ.ย. 2026 เวลา 10:59 Asia/Shanghai (11/19 02:59 UTC) และจดหมายที่ได้รับแล้วเก็บในกล่อง 7 วัน",
+        "อ่านStarter Supportและเป้าหมายปัจจุบัน รับรางวัลที่มีสิทธิ์ ฟีเจอร์ล็อกให้ทำเงื่อนไขเนื้อเรื่อง/ภารกิจบนหน้าจอก่อน ช่วงล็อกอินของจดหมายเติบโตจบแล้วเมื่อ 19 พ.ย. 2026 เวลา 02:59 UTC และจดหมายที่ได้รับแล้วเก็บในกล่อง 7 วัน",
         "รับภารกิจปัจจุบันแล้วหรือทราบเงื่อนไขถัดไปชัดเจน และเลือกด่านถัดไปได้",
         "บัญชีเซิร์ฟเวอร์เก่าไม่มีแผงFoundryไม่ใช่รางวัลโอนหาย ทำตามเงื่อนไขปลดล็อกในเกมปัจจุบัน ไม่ใช้คู่มือตอนเก่าฝืนแทน",
         0
@@ -511,7 +511,7 @@ export const EVERGREEN_COPY = {
         "ถึงAccount Rank70แล้ว ตรวจแผงรับให้ถูก",
         "ตัวละครFoundryถึงAccount Rank70ในช่วงLuna Joins ไม่ใช่เลเวลฮีโร่70",
         "Event → Welcome! Foundry Server → Luna Joins",
-        "ตรวจสิทธิ์และรับก่อน31 ธ.ค.2026 เวลา10:59 Asia/Shanghai รางวัลทางการคือLunaลิมิเต็ด5★ สกินGlacial Purity และExperienced Penguin15ตัว",
+        "ตรวจสิทธิ์และรับก่อน31 ธ.ค.2026 เวลา 02:59 UTC รางวัลทางการคือLunaลิมิเต็ด5★ สกินGlacial Purity และExperienced Penguin15ตัว",
         "แผงแสดงว่ารับแล้วและเห็นในคลังที่เกี่ยวข้อง ไม่ใช่รางวัลเซิร์ฟเวอร์เก่าหรือส่งข้ามเซิร์ฟเวอร์อัตโนมัติ",
         "ถ้าไม่มีแผงให้ตรวจเซิร์ฟเวอร์ Account Rank และเวลา เก็บข้อผิดพลาดให้ฝ่ายช่วยเหลือ อย่าลบหรือโอนบัญชีเพื่อบังคับรับ",
         0

@@ -182,16 +182,16 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
   'zh-tw': {
     sectionTitle: '進行中的活動路線',
     intro:
-      '只整理官方時段，不是遊戲內全部任務。Dirge of the End: Rewind、Catalyst Search 與宮廷女僕的日常（Daily Life of a Palace Maid）目前均已開放。上一檔緊急任務魅力週已於2026年11月26日10:59（Asia/Shanghai）結束。兌換目錄與Leif檔位僅在官方公告有寫時才列出。',
+      '只整理官方時段，不是遊戲內全部任務。以下時刻為官方 UTC（Asia/Shanghai 為 UTC+8）。Dirge of the End: Rewind、Catalyst Search 與宮廷女僕的日常（Daily Life of a Palace Maid）目前均已開放。上一檔緊急任務魅力週已於2026年11月26日 02:59 UTC結束。兌換目錄與Leif檔位僅在官方公告有寫時才列出。',
     verified:
       '2026年11月26日於Asia/Shanghai對照下方官方公告覆核。此次檢查時，Steam新聞仍無晚於2026年11月18日18:30（Asia/Shanghai）的8.7更新帖。',
     sourceLabel: '官方公告',
     bannerNote:
       '與Cecilia卡池同一日程的獨立積分活動「宮廷女僕的日常」現已開放，入口在秘密兔子洞，不能用來抽Cecilia。積分上限與兌換關閉時間見任務頁。',
     rabbitNote:
-      '秘密兔子洞現已同時舉辦積分兌換活動「宮廷女僕的日常」（2026年11月26日11:00 Asia/Shanghai起）。它不是事件手冊的一部分，也不取代線索蒐集。詳細步驟見任務頁。',
+      '秘密兔子洞現已同時舉辦積分兌換活動「宮廷女僕的日常」（2026年11月26日 03:00 UTC起）。它不是事件手冊的一部分，也不取代線索蒐集。詳細步驟見任務頁。',
     foundryLead:
-      '魅力週緊急任務已於2026年11月26日10:59（Asia/Shanghai）結束。Catalyst Search 現已開放，至12月3日10:59。Dirge of the End: Rewind 已開放，至12月17日10:59。',
+      '魅力週緊急任務已於2026年11月26日 02:59 UTC結束。Catalyst Search 現已開放，至12月3日10:59。Dirge of the End: Rewind 已開放，至12月17日10:59。',
     foundryLinkLabel: '任務頁的活動路線',
     events: [
       {
@@ -205,7 +205,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         rewardBody:
           '官方公告：活動期間有免費Continue增益，並可透過任務與參與獲得Leif。公告未公布每步Leif數量或增益數值。',
         deadlineLabel: '期限',
-        deadlineBody: '2026年12月17日10:59（Asia/Shanghai；12/17 02:59 UTC）。',
+        deadlineBody: '2026年12月17日 02:59 UTC。',
         doneLabel: '完成判據',
         doneBody: '八個指定章節均已通關，且領取下一任務獎勵前已領完上一任務的全部獎勵。這是官方規定。',
         stuckLabel: '若卡住',
@@ -238,12 +238,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '通關獲得金幣與活動代幣Ruins Exploration Coin。每100枚依下方官方表兌換一次。活動結束時兌換所立即關閉，剩餘代幣會被移除。',
         deadlineLabel: '期限',
         deadlineBody:
-          '現已開放：2026年11月26日11:00至12月3日10:59（Asia/Shanghai；11/26 03:00–12/3 02:59 UTC）。上一檔魅力週已提早一小時結束，即11月26日10:59（11/26 02:59 UTC）。',
+          '現已開放：2026年11月26日11:00至12月3日 02:59 UTC。上一檔魅力週已提早一小時結束，即11月26日 02:59 UTC。',
         doneLabel: '完成判據',
         doneBody: '已完成預定場次，並在兌換所關閉前換完代幣。',
         stuckLabel: '若卡住',
         stuckBody:
-          '若尚未通過Episode 1-6，先完成該關。上一檔魅力週／Ruins Reclamation已於2026年11月26日10:59（Asia/Shanghai）結束；該兌換所關閉時剩餘勳章已被移除。本週是Catalyst Search。',
+          '若尚未通過Episode 1-6，先完成該關。上一檔魅力週／Ruins Reclamation已於2026年11月26日 02:59 UTC結束；該兌換所關閉時剩餘勳章已被移除。本週是Catalyst Search。',
         officialHref: CATALYST_HREF,
         officialLabel: 'STOVE 14638258 — Emergency Mission! Catalyst Search',
         exchangeTitle: '官方兌換（每次100枚）',
@@ -263,12 +263,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '依官方積分里程碑獲得Decorative Button與Leif，在Party Lost and Found兌換。各物品有次數上限。公告未列兌換目錄或Leif檔位，這裡不編造。',
         deadlineLabel: '期限',
         deadlineBody:
-          '遊玩期：2026年11月26日11:00（Asia/Shanghai；11/26 03:00 UTC）起，至12月17日各伺服器重置（官方原文）。Party Lost and Found於12月17日10:59（Asia/Shanghai；12/17 02:59 UTC）關閉。除該兌換所關閉時刻外，不要把整段活動寫成單一全球結束小時。',
+          '遊玩期：2026年11月26日 03:00 UTC起，至12月17日各伺服器重置（官方原文）。Party Lost and Found於12月17日 02:59 UTC關閉。除該兌換所關閉時刻外，不要把整段活動寫成單一全球結束小時。',
         doneLabel: '完成判據',
         doneBody: '每日積分已在過期前使用，並在兌換所關閉前換完按鈕。',
         stuckLabel: '若卡住',
         stuckBody:
-          '活動現已開放（自2026年11月26日11:00 Asia/Shanghai起）。請從秘密兔子洞進入，不要走事件手冊頁。官方積分來源包含Draft Arena；在Foundry，Draft Arena已被Call of Chaos臨時替代至12月17日。世界競技場預定12月10日維護後開放。請使用遊戲內實際開放的模式。',
+          '活動現已開放（自2026年11月26日 03:00 UTC起）。請從秘密兔子洞進入，不要走事件手冊頁。官方積分來源包含Draft Arena；在Foundry，Draft Arena已被Call of Chaos臨時替代至12月17日。世界競技場預定12月10日維護後開放。請使用遊戲內實際開放的模式。',
         officialHref: PALACE_HREF,
         officialLabel: 'STOVE 14638262 — Daily Life of a Palace Maid',
         pointsTitle: '官方積分來源（每日上限400；未使用的分數會過期）',
@@ -281,9 +281,9 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         resetTitle: '各服每日重置（官方UTC，並附Asia/Shanghai）',
         resetTh: ['伺服器', '重置時間'],
         resetRows: [
-          ['Korea / Asia / Japan', '18:00 UTC（Asia/Shanghai次日02:00）'],
-          ['Europe', '03:00 UTC（11:00 Asia/Shanghai）'],
-          ['Global', '10:00 UTC（18:00 Asia/Shanghai）'],
+          ['Korea / Asia / Japan', '18:00 UTC'],
+          ['Europe', '03:00 UTC'],
+          ['Global', '10:00 UTC'],
         ],
       },
     ],
@@ -291,16 +291,16 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
   ko: {
     sectionTitle: '진행 중 이벤트 동선',
     intro:
-      '공식 기간만 정리합니다. 게임 안 모든 퀘스트 목록이 아닙니다. Dirge of the End: Rewind, Catalyst Search, Daily Life of a Palace Maid는 지금 열려 있습니다. 이전 Emergency Mission 매력 주간은 2026년 11월 26일 10:59 Asia/Shanghai에 종료되었습니다. 상점 목록과 Leif 구간은 공식 공지에 있을 때만 적습니다.',
+      '공식 기간만 정리합니다. 게임 안 모든 퀘스트 목록이 아닙니다. 아래 시각은 공식 UTC입니다(Asia/Shanghai는 UTC+8). Dirge of the End: Rewind, Catalyst Search, Daily Life of a Palace Maid는 지금 열려 있습니다. 이전 Emergency Mission 매력 주간은 2026년 11월 26일 02:59 UTC에 종료되었습니다. 상점 목록과 Leif 구간은 공식 공지에 있을 때만 적습니다.',
     verified:
       '2026년 11월 26일 Asia/Shanghai 기준으로 아래 공식 공지를 재확인했습니다. 이 시점 Steam 뉴스에는 2026년 11월 18일 18:30 Asia/Shanghai의 8.7 업데이트보다 새로운 글이 없었습니다.',
     sourceLabel: '공식 공지',
     bannerNote:
       '같은 일정의 Cecilia 픽업과 별개인 Daily Life of a Palace Maid 포인트 이벤트가 지금 열려 있습니다. 입구는 Secret Rabbit♥Hole이며 Cecilia를 뽑는 방법이 아닙니다. 한도와 상점 마감은 퀘스트 페이지를 보세요.',
     rabbitNote:
-      'Secret Rabbit♥Hole에서 Daily Life of a Palace Maid 포인트·교환 이벤트가 2026년 11월 26일 11:00 Asia/Shanghai부터 열려 있습니다. 케이스 파일의 일부가 아니며 단서 수집을 대체하지 않습니다. 자세한 동선은 퀘스트 페이지에 있습니다.',
+      'Secret Rabbit♥Hole에서 Daily Life of a Palace Maid 포인트·교환 이벤트가 2026년 11월 26일 03:00 UTC부터 열려 있습니다. 케이스 파일의 일부가 아니며 단서 수집을 대체하지 않습니다. 자세한 동선은 퀘스트 페이지에 있습니다.',
     foundryLead:
-      '매력 주간 Emergency Mission은 2026년 11월 26일 10:59 Asia/Shanghai에 종료되었습니다. Catalyst Search는 지금 열려 있으며 12월 3일 10:59까지입니다. Dirge of the End: Rewind는 이미 열려 있으며 12월 17일 10:59까지입니다.',
+      '매력 주간 Emergency Mission은 2026년 11월 26일 02:59 UTC에 종료되었습니다. Catalyst Search는 지금 열려 있으며 12월 3일 10:59까지입니다. Dirge of the End: Rewind는 이미 열려 있으며 12월 17일 10:59까지입니다.',
     foundryLinkLabel: '퀘스트 페이지의 이벤트 동선',
     events: [
       {
@@ -314,7 +314,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         rewardBody:
           '공식 공지: 기간 중 무료 Continue 버프, 미션과 참여로 Leif. 단계별 Leif 수량이나 버프 수치는 공지에 없습니다.',
         deadlineLabel: '기한',
-        deadlineBody: '2026년 12월 17일 10:59 Asia/Shanghai (12/17 02:59 UTC).',
+        deadlineBody: '2026년 12월 17일 02:59 UTC.',
         doneLabel: '완료 기준',
         doneBody: '안내된 8개 챕터를 클리어했고, 다음 보상을 받기 전에 이전 미션 보상을 모두 수령했습니다. 이 순서는 공식 규칙입니다.',
         stuckLabel: '막혔을 때',
@@ -347,12 +347,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '클리어 시 골드와 이벤트 토큰 Ruins Exploration Coin. 100개당 아래 공식 표로 교환. 미션이 끝나면 교환소가 바로 닫히고 남은 코인은 삭제됩니다.',
         deadlineLabel: '기한',
         deadlineBody:
-          '지금 열려 있음: 2026년 11월 26일 11:00–12월 3일 10:59 Asia/Shanghai (11/26 03:00–12/3 02:59 UTC). 이전 매력 주간은 한 시간 이른 11월 26일 10:59 Asia/Shanghai (11/26 02:59 UTC)에 이미 종료되었습니다.',
+          '지금 열려 있음: 2026년 11월 26일 11:00–12월 3일 02:59 UTC. 이전 매력 주간은 한 시간 이른 11월 26일 02:59 UTC에 이미 종료되었습니다.',
         doneLabel: '완료 기준',
         doneBody: '계획한 입장 횟수를 소진하고 교환소가 닫히기 전에 코인을 교환했습니다.',
         stuckLabel: '막혔을 때',
         stuckBody:
-          'Episode 1-6을 아직 클리어하지 않았다면 먼저 깨세요. 이전 매력 주간/Ruins Reclamation은 2026년 11월 26일 10:59 Asia/Shanghai에 이미 종료되었고, 해당 교환소가 닫히며 남은 메달은 삭제되었습니다. 이번 주는 Catalyst Search입니다.',
+          'Episode 1-6을 아직 클리어하지 않았다면 먼저 깨세요. 이전 매력 주간/Ruins Reclamation은 2026년 11월 26일 02:59 UTC에 이미 종료되었고, 해당 교환소가 닫히며 남은 메달은 삭제되었습니다. 이번 주는 Catalyst Search입니다.',
         officialHref: CATALYST_HREF,
         officialLabel: 'STOVE 14638258 — Emergency Mission! Catalyst Search',
         exchangeTitle: '공식 교환 (1회 100토큰)',
@@ -372,12 +372,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           '공식 포인트 구간에 따라 Decorative Button과 Leif를 받아 Party Lost and Found에서 교환합니다. 품목마다 교환 횟수 제한이 있습니다. 공지에 상점 목록과 Leif 구간이 없어 여기서 만들지 않습니다.',
         deadlineLabel: '기한',
         deadlineBody:
-          '플레이: 2026년 11월 26일 11:00 Asia/Shanghai (11/26 03:00 UTC)부터 12월 17일 각 서버 리셋까지(공식 문구). Party Lost and Found는 12월 17일 10:59 Asia/Shanghai (12/17 02:59 UTC)에 닫힙니다. 상점 마감을 제외하면 전 서버 동일 종료 시각으로 단정하지 마세요.',
+          '플레이: 2026년 11월 26일 03:00 UTC부터 12월 17일 각 서버 리셋까지(공식 문구). Party Lost and Found는 12월 17일 02:59 UTC에 닫힙니다. 상점 마감을 제외하면 전 서버 동일 종료 시각으로 단정하지 마세요.',
         doneLabel: '완료 기준',
         doneBody: '일일 포인트를 만료 전에 사용하고, 상점이 닫히기 전에 버튼을 교환했습니다.',
         stuckLabel: '막혔을 때',
         stuckBody:
-          '이벤트는 지금 열려 있습니다(2026년 11월 26일 11:00 Asia/Shanghai부터). Secret Rabbit♥Hole로 들어가고 케이스 파일 페이지로 들어가지 마세요. 공식 포인트 목록에는 Draft Arena가 포함됩니다. 파운드리에서는 Draft Arena가 12월 17일까지 Call of Chaos로 임시 대체됩니다. 월드 아레나는 12월 10일 점검 후 예정입니다. 클라이언트에서 실제로 열린 모드를 사용하세요.',
+          '이벤트는 지금 열려 있습니다(2026년 11월 26일 03:00 UTC부터). Secret Rabbit♥Hole로 들어가고 케이스 파일 페이지로 들어가지 마세요. 공식 포인트 목록에는 Draft Arena가 포함됩니다. 파운드리에서는 Draft Arena가 12월 17일까지 Call of Chaos로 임시 대체됩니다. 월드 아레나는 12월 10일 점검 후 예정입니다. 클라이언트에서 실제로 열린 모드를 사용하세요.',
         officialHref: PALACE_HREF,
         officialLabel: 'STOVE 14638262 — Daily Life of a Palace Maid',
         pointsTitle: '공식 포인트 출처 (일일 최대 400, 미사용 점수는 만료)',
@@ -390,7 +390,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         resetTitle: '서버별 일일 리셋 (공식 UTC, Asia/Shanghai 환산)',
         resetTh: ['서버', '리셋 시각'],
         resetRows: [
-          ['Korea / Asia / Japan', '18:00 UTC (Asia/Shanghai 다음 날 02:00)'],
+          ['Korea / Asia / Japan', '18:00 UTC'],
           ['Europe', '03:00 UTC (11:00 Asia/Shanghai)'],
           ['Global', '10:00 UTC (18:00 Asia/Shanghai)'],
         ],
@@ -400,16 +400,16 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
   th: {
     sectionTitle: 'เส้นทางอีเวนต์ที่เปิดอยู่ตอนนี้',
     intro:
-      'รวบรวมเฉพาะช่วงเวลาอย่างเป็นทางการ ไม่ใช่เควสต์ในเกมทั้งหมด Dirge of the End: Rewind, Catalyst Search และ Daily Life of a Palace Maid เปิดอยู่แล้ว Emergency Mission สัปดาห์ชาร์มก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai รายการร้านค้าและขั้น Leif จะเขียนเมื่อประกาศทางการระบุเท่านั้น',
+      'รวบรวมเฉพาะช่วงเวลาอย่างเป็นทางการ ไม่ใช่เควสต์ในเกมทั้งหมด เวลาด้านล่างเป็น UTC ตามประกาศทางการ (Asia/Shanghai คือ UTC+8) Dirge of the End: Rewind, Catalyst Search และ Daily Life of a Palace Maid เปิดอยู่แล้ว Emergency Mission สัปดาห์ชาร์มก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC รายการร้านค้าและขั้น Leif จะเขียนเมื่อประกาศทางการระบุเท่านั้น',
     verified:
       'ตรวจกับประกาศทางการด้านล่างเมื่อ 26 พ.ย. 2026 เขตเวลา Asia/Shanghai ข่าว Steam ณ รอบนี้ยังไม่มีโพสต์ใหม่กว่าอัปเดต 8.7 วันที่ 18 พ.ย. 2026 18:30 Asia/Shanghai',
     sourceLabel: 'ประกาศทางการ',
     bannerNote:
       'ในกำหนดการเดียวกับแบนเนอร์ Cecilia อีเวนต์คะแนน Daily Life of a Palace Maid เปิดอยู่แล้ว เข้าจาก Secret Rabbit♥Hole และไม่ใช้สุ่ม Cecilia เพดานคะแนนและเวลาปิดร้านดูที่หน้าเควสต์',
     rabbitNote:
-      'Secret Rabbit♥Hole มีอีเวนต์คะแนนและแลกของ Daily Life of a Palace Maid เปิดแล้วตั้งแต่ 26 พ.ย. 2026 11:00 Asia/Shanghai ซึ่งไม่ใช่ส่วนหนึ่งของ Case Files และไม่ทดแทนการเก็บเบาะแส รายละเอียดอยู่ที่หน้าเควสต์',
+      'Secret Rabbit♥Hole มีอีเวนต์คะแนนและแลกของ Daily Life of a Palace Maid เปิดแล้วตั้งแต่ 26 พ.ย. 2026 03:00 UTC ซึ่งไม่ใช่ส่วนหนึ่งของ Case Files และไม่ทดแทนการเก็บเบาะแส รายละเอียดอยู่ที่หน้าเควสต์',
     foundryLead:
-      'Emergency Mission สัปดาห์ชาร์มจบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai Catalyst Search เปิดอยู่แล้วถึง 3 ธ.ค. 10:59 Dirge of the End: Rewind เปิดอยู่แล้วถึง 17 ธ.ค. 10:59',
+      'Emergency Mission สัปดาห์ชาร์มจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC Catalyst Search เปิดอยู่แล้วถึง 3 ธ.ค. 10:59 Dirge of the End: Rewind เปิดอยู่แล้วถึง 17 ธ.ค. 10:59',
     foundryLinkLabel: 'เส้นทางอีเวนต์ในหน้าเควสต์',
     events: [
       {
@@ -423,7 +423,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         rewardBody:
           'ประกาศทางการ: มีบัฟ Continue ฟรีระหว่างอีเวนต์ และได้ Leif จากภารกิจและการเข้าร่วม ประกาศไม่ได้ระบุจำนวน Leif รายขั้นหรือค่าตัวเลขของบัฟ',
         deadlineLabel: 'กำหนดสิ้นสุด',
-        deadlineBody: '17 ธ.ค. 2026 10:59 Asia/Shanghai (12/17 02:59 UTC)',
+        deadlineBody: '17 ธ.ค. 2026 02:59 UTC',
         doneLabel: 'ถือว่าเสร็จเมื่อ',
         doneBody: 'เคลียร์ครบ 8 บทตามรายการ และรับรางวัลภารกิจก่อนหน้าทั้งหมดก่อนรับอันถัดไป นี่เป็นกฎทางการ',
         stuckLabel: 'ถ้าติด',
@@ -456,12 +456,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           'เคลียร์ได้ทองและเหรียญอีเวนต์ Ruins Exploration Coin แลก 100 เหรียญต่อการสุ่มตามตารางทางการด้านล่าง เมื่อมิชชันจบ ร้านแลกปิดทันที และเหรียญที่เหลือจะถูกลบ',
         deadlineLabel: 'กำหนดสิ้นสุด',
         deadlineBody:
-          'เปิดแล้ว: 26 พ.ย. 2026 11:00 ถึง 3 ธ.ค. 2026 10:59 Asia/Shanghai (11/26 03:00–12/3 02:59 UTC) สัปดาห์ชาร์มก่อนหน้าจบเร็วกว่าหนึ่งชั่วโมงแล้ว คือ 26 พ.ย. 10:59 Asia/Shanghai (11/26 02:59 UTC)',
+          'เปิดแล้ว: 26 พ.ย. 2026 11:00 ถึง 3 ธ.ค. 2026 02:59 UTC สัปดาห์ชาร์มก่อนหน้าจบเร็วกว่าหนึ่งชั่วโมงแล้ว คือ 26 พ.ย. 02:59 UTC',
         doneLabel: 'ถือว่าเสร็จเมื่อ',
         doneBody: 'เล่นครบตามที่วางแผน และแลกเหรียญก่อนร้านปิด',
         stuckLabel: 'ถ้าติด',
         stuckBody:
-          'ถ้ายังไม่เคลียร์ Episode 1-6 ให้ทำให้จบก่อน สัปดาห์ชาร์ม / Ruins Reclamation ก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 10:59 Asia/Shanghai และเหรียญที่เหลือถูกลบเมื่อร้านแลกปิด สัปดาห์นี้คือ Catalyst Search',
+          'ถ้ายังไม่เคลียร์ Episode 1-6 ให้ทำให้จบก่อน สัปดาห์ชาร์ม / Ruins Reclamation ก่อนหน้าจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC และเหรียญที่เหลือถูกลบเมื่อร้านแลกปิด สัปดาห์นี้คือ Catalyst Search',
         officialHref: CATALYST_HREF,
         officialLabel: 'STOVE 14638258 — Emergency Mission! Catalyst Search',
         exchangeTitle: 'การแลกทางการ (ครั้งละ 100 เหรียญ)',
@@ -481,12 +481,12 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
           'ได้ Decorative Button และ Leif ตามขั้นคะแนนทางการ แลกที่ Party Lost and Found แต่ละสินค้ามีจำกัดจำนวนครั้ง ประกาศไม่ได้ระบุรายการร้านหรือขั้น Leif จึงไม่สมมติในหน้านี้',
         deadlineLabel: 'กำหนดสิ้นสุด',
         deadlineBody:
-          'ช่วงเล่น: 26 พ.ย. 2026 11:00 Asia/Shanghai (11/26 03:00 UTC) ถึงรีเซ็ตของแต่ละเซิร์ฟเวอร์ในวันที่ 17 ธ.ค. (ถ้อยคำทางการ) Party Lost and Found ปิด 17 ธ.ค. 2026 10:59 Asia/Shanghai (12/17 02:59 UTC) นอกจากเวลาร้านปิดแล้ว อย่าสรุปว่าทั้งอีเวนต์จบชั่วโมงเดียวกันทุกเซิร์ฟ',
+          'ช่วงเล่น: 26 พ.ย. 2026 03:00 UTC ถึงรีเซ็ตของแต่ละเซิร์ฟเวอร์ในวันที่ 17 ธ.ค. (ถ้อยคำทางการ) Party Lost and Found ปิด 17 ธ.ค. 2026 02:59 UTC นอกจากเวลาร้านปิดแล้ว อย่าสรุปว่าทั้งอีเวนต์จบชั่วโมงเดียวกันทุกเซิร์ฟ',
         doneLabel: 'ถือว่าเสร็จเมื่อ',
         doneBody: 'ใช้คะแนนรายวันก่อนหมดอายุ และแลกกระดุมก่อนร้านปิด',
         stuckLabel: 'ถ้าติด',
         stuckBody:
-          'อีเวนต์เปิดแล้วตั้งแต่ 26 พ.ย. 2026 11:00 Asia/Shanghai เข้าจาก Secret Rabbit♥Hole ไม่ใช่หน้า Case Files รายการคะแนนทางการรวม Draft Arena แต่บน Foundry โหมดนี้ถูกแทนที่ชั่วคราวด้วย Call of Chaos ถึง 17 ธ.ค. World Arena กำหนดหลังปิดปรับปรุง 10 ธ.ค. ให้ใช้โหมดที่เปิดจริงในเกม',
+          'อีเวนต์เปิดแล้วตั้งแต่ 26 พ.ย. 2026 03:00 UTC เข้าจาก Secret Rabbit♥Hole ไม่ใช่หน้า Case Files รายการคะแนนทางการรวม Draft Arena แต่บน Foundry โหมดนี้ถูกแทนที่ชั่วคราวด้วย Call of Chaos ถึง 17 ธ.ค. World Arena กำหนดหลังปิดปรับปรุง 10 ธ.ค. ให้ใช้โหมดที่เปิดจริงในเกม',
         officialHref: PALACE_HREF,
         officialLabel: 'STOVE 14638262 — Daily Life of a Palace Maid',
         pointsTitle: 'แหล่งคะแนนทางการ (สูงสุดวันละ 400 คะแนนที่ไม่ได้ใช้จะหมดอายุ)',
@@ -499,7 +499,7 @@ export const ACTIVE_EVENTS: Record<GrowthLocale, ActiveEventsCopy> = {
         resetTitle: 'รีเซ็ตรายวันตามเซิร์ฟเวอร์ (UTC ทางการ พร้อม Asia/Shanghai)',
         resetTh: ['เซิร์ฟเวอร์', 'เวลารีเซ็ต'],
         resetRows: [
-          ['Korea / Asia / Japan', '18:00 UTC (02:00 วันถัดไป เขต Asia/Shanghai)'],
+          ['Korea / Asia / Japan', '18:00 UTC'],
           ['Europe', '03:00 UTC (11:00 Asia/Shanghai)'],
           ['Global', '10:00 UTC (18:00 Asia/Shanghai)'],
         ],
