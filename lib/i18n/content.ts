@@ -10572,7 +10572,7 @@ export const CONTENT = {
     "en": {
       "title": "Epic Seven Current Banner: Bunny Girl Maid Cecilia | Steam",
       "meta": "The current Epic Seven pickup is Bunny Girl Maid Cecilia and Covert Service, through 17 December 2026. Confirm the window on official STOVE.",
-      "h1": "Banners & new heroes",
+      "h1": "Epic Seven current banner — Bunny Girl Maid Cecilia",
       "lead": "Current: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC (26 Nov 2026, 11:00 – 17 Dec 2026, 10:59 Asia/Shanghai). Ended: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC (ended 26 Nov 2026, 10:59 Asia/Shanghai). The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for ended or other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
       "pickup_kicker": "Ended pickup · closed 26 Nov 2026, 10:59 Asia/Shanghai",
       "pickup_h2": "Bunny Girl Mafia Yufine",
@@ -10909,8 +10909,8 @@ export const CONTENT = {
     "en": {
       "title": "Epic Seven Patch Notes and Known Issues | Steam",
       "meta": "Epic Seven patch notes for Steam and Foundry, plus known issues from official STOVE posts. See what changed, and which issues are still listed as open.",
-      "h1": "Updates — heroes & events",
-      "lead": "Newest first. Maintenance windows, known issues and patch history live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full patch mirror.",
+      "h1": "Epic Seven Patch Notes and Known Issues",
+      "lead": "These Epic Seven patch notes are listed newest first. Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
       "cards": [
         [
           "2026-11-26 — Schedule status: Yufine, charm week and carrots ended; Cecilia, Catalyst Search and Palace Maid are open",
@@ -16204,8 +16204,8 @@ export const CONTENT = {
     "en": {
       "title": "Epic Seven Foundry Quests vs Legacy — Daily/Weekly Guide",
       "meta": "A Foundry quests guide for Epic Seven: daily and weekly resets, Foundry-only missions, and what stays different from a transferred legacy account.",
-      "h1": "Foundry quests — daily / weekly vs legacy",
-      "lead": "Steam-era quest rhythm for Epic Seven: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
+      "h1": "Epic Seven Foundry Quests — Daily and Weekly",
+      "lead": "This Epic Seven Foundry quests guide covers Steam-era quest rhythm: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
       "answer": "Start with expiring claims, then daily summons and case clues. Use this five-task checklist to plan the current Foundry window; it is not a full list of every in-game daily.",
       "img_alt": "Self-drawn quest rhythm diagram: main, daily, weekly, events",
       "img_ss_alt": "Official Steam screenshot of Epic Seven world presentation — Steam CDN",
@@ -16247,7 +16247,7 @@ export const CONTENT = {
         "Unclaimed event rewards expired when the event ended. Party Cake completion rewards required 800+ Carrots collected cumulatively; the all-Heirs total was tallied and reflected daily at 01:00 UTC.",
         "Cross-check Updates/Banners when a new Steam-week mission appears."
       ],
-      "faq_h2": "Quests FAQ",
+      "faq_h2": "Epic Seven Foundry quests FAQ",
       "faqs": [
         [
           "What should I do first each day on Steam / Foundry?",
@@ -17091,8 +17091,8 @@ export const CONTENT = {
     "en": {
       "title": "Trusty Sidekick Alencia's Case Files | Epic Seven",
       "meta": "Walk through Trusty Sidekick Alencia's Case Files in Secret Rabbit Hole, including Cases 1–3 and the 10 December 2026 deadline. No answer spoilers.",
-      "h1": "Trusty Sidekick Alencia’s Case Files — Cases 1, 2 & 3",
-      "answer": "Open Lobby → Secret Rabbit♥Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
+      "h1": "Trusty Sidekick Alencia's Case Files — Cases 1, 2 & 3",
+      "answer": "Trusty Sidekick Alencia's Case Files: open Lobby → Secret Rabbit Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
       "paras": [
         "Case Files and the side story end 10 December 2026, 10:59 Asia/Shanghai (02:59 UTC). The separate Lucky Board and Moro Mystic banner ended 19 November. Check the in-game timer before spending.",
         "Official STOVE explains the rules, not the culprit answer key. Community sources are linked inside each spoiler. Source review: 23 November 2026; not a claim of in-game completion."
@@ -17124,7 +17124,7 @@ export const CONTENT = {
           "Epic Seven Steam guide home"
         ]
       ],
-      "faq_h2": "Case Files FAQ",
+      "faq_h2": "Trusty Sidekick Alencia's Case Files FAQ",
       "faqs": [
         [
           "Are Epic Seven Case Files the same as the Lucky Board?",

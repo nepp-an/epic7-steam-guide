@@ -867,7 +867,7 @@ export const UPDATES_SUPPLEMENT: Record<
       }
     },
     {
-      "h2": "How to verify an update before acting",
+      "h2": "How to verify Epic Seven patch notes before acting",
       "intro": "A summary can age quickly. Check the original notice before you spend currency or change an account setting.",
       "bullets": [
         "Open the linked STOVE notice for the original UTC time and eligibility.",

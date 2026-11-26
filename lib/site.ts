@@ -182,9 +182,10 @@ export function pageMetadata({
   const full = absoluteTitle ? title : `${title} | ${BRAND}`;
   const canonicalPath = localizedPath(locale, path);
   const url = absoluteUrl(canonicalPath);
-  const images = ogImage
-    ? [{ url: absoluteAssetUrl(ogImage.startsWith('/') ? ogImage : `/${ogImage}`) }]
-    : undefined;
+  const imagePath = ogImage
+    ? ogImage.startsWith('/') ? ogImage : `/${ogImage}`
+    : '/images/steam-header.webp';
+  const images = [{ url: absoluteAssetUrl(imagePath) }];
   return {
     title: { absolute: full },
     description,
