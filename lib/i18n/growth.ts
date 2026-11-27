@@ -55,10 +55,10 @@ export const GROWTH_COPY = {
         "mail",
         "today",
         "Check the one-time growth mail",
-        "Log in on Foundry; open the mailbox and read each mail’s expiry.",
+        "The official growth-mail login window has ended. Logging in now will not generate a new mail.",
         "Official one-time pack: Penguins, rune and catalyst chests, and Spirit Blooms. Official quantities, and which other Foundry gifts have already ended, are in the Claim windows table.",
-        "Login window ended 19 Nov 2026, 02:59 UTC; if a copy is already in the mailbox, it stores for 7 days.",
-        "Eligible mail claimed before its own timer expires."
+        "Login window ended 19 Nov 2026, 02:59 UTC. Official storage was 7 days from receipt; the latest possible 7-day window ended 26 Nov 2026, 02:59 UTC. This is not an instruction to claim now.",
+        "The official login and latest 7-day storage windows have both ended. Missed mail is not reissued."
       ],
       [
         "case",
@@ -143,10 +143,10 @@ export const GROWTH_COPY = {
         "mail",
         "today",
         "檢查一次性成長郵件",
-        "登入Foundry，開啟信箱並逐封確認到期時間。",
+        "官方成長郵件登入窗口已結束。現在登入不會再發出新郵件。",
         "官方一次性補給：企鵝、符文／催化劑選擇箱與精靈之花。精確數量，以及其他已結束的 Foundry 獎勵，見「領取時段對照」。",
-        "登入窗口已於2026年11月19日 02:59 UTC結束；若信箱裡已有該信，保存7天。",
-        "符合資格的郵件已在自身倒數前領完。"
+        "登入窗口已於 2026 年 11 月 19 日 02:59 UTC 結束。官方保管期為收件後 7 天；最晚可能的 7 天窗口已於 2026 年 11 月 26 日 02:59 UTC 結束。這不是請你現在領取的說明。",
+        "官方登入窗口與最晚 7 天保管窗口均已結束。錯過不會補發。"
       ],
       [
         "case",
@@ -231,10 +231,10 @@ export const GROWTH_COPY = {
         "mail",
         "today",
         "일회성 성장 우편 확인",
-        "파운드리 로그인 후 우편함에서 각 만료 타이머를 읽으세요.",
+        "공식 성장 우편 로그인 기간은 이미 종료되었습니다. 지금 로그인해도 새 우편이 오지 않습니다.",
         "공식 일회성 성장 우편: 펭귄, 룬·촉매 선택 상자, 정령의 꽃. 정확한 수량과 이미 종료된 다른 파운드리 선물은 수령 기간 비교표를 보세요.",
-        "로그인 기간은 2026년 11월 19일 02:59 UTC에 종료; 우편함에 이미 있는 우편은 7일 보관.",
-        "자격에 맞는 우편을 자체 만료 전에 수령."
+        "로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 7일 창은 2026년 11월 26일 02:59 UTC에 끝났습니다. 지금 수령하라는 안내가 아닙니다.",
+        "공식 로그인 기간과 가장 늦은 7일 보관 창이 모두 종료되었습니다. 놓친 우편은 재지급되지 않습니다."
       ],
       [
         "case",
@@ -319,10 +319,10 @@ export const GROWTH_COPY = {
         "mail",
         "today",
         "ตรวจจดหมายเติบโตครั้งเดียว",
-        "ล็อกอิน Foundry เปิดกล่องจดหมายและดูวันหมดอายุแต่ละฉบับ",
+        "ช่วงล็อกอินของจดหมายเติบโตทางการจบแล้ว ล็อกอินตอนนี้จะไม่มีจดหมายใหม่",
         "ชุดสนับสนุนทางการครั้งเดียว: Penguin, กล่องเลือกรูน/ตัวเร่ง และ Spirit Bloom จำนวนทางการ และของขวัญ Foundry อื่นที่จบแล้ว ดูตารางช่วงรับของ",
-        "ช่วงล็อกอินจบแล้วเมื่อ 19 พ.ย. 2026 02:59 UTC; ถ้ามีฉบับอยู่ในกล่องแล้ว เก็บ 7 วัน",
-        "รับจดหมายที่มีสิทธิ์ก่อนหมดเวลาของฉบับนั้น"
+        "ช่วงล็อกอินจบแล้วเมื่อ 19 พ.ย. 2026 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC นี่ไม่ใช่คำแนะนำให้กดรับตอนนี้",
+        "ช่วงล็อกอินทางการและหน้าต่างเก็บ 7 วันที่ช้าที่สุดจบแล้วทั้งคู่ จดหมายที่พลาดจะไม่ถูกส่งซ้ำ"
       ],
       [
         "case",

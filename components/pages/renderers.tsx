@@ -1545,7 +1545,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         copy={FOUNDRY_VERIFIED[locale]}
         date={
           isCaseFilesLocale(locale)
-            ? '2026-11-25'
+            ? '2026-11-27'
             : FOUNDRY_VERIFIED_DATE
         }
       />

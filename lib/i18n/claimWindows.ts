@@ -50,7 +50,7 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
     intro:
       'Four official Foundry grants are easy to mix up: the welcome-skin pop-up, the one-time growth mailbox pack, the ended Steam wishlist mail, and the ended Guild War login gift. This section lists official windows and quantities only. It does not claim in-game testing.',
     verified:
-      'Reviewed 25 November 2026, Asia/Shanghai, against the official notices linked below. Official notice 14571828 was edited on 11/24 06:03 UTC and now lists the growth-mail login window as ending 11/19 02:59 UTC (the previous 11/26 14:59 UTC date is struck through).',
+      'Reviewed 27 November 2026, Asia/Shanghai, against the official notices linked below. Official notice 14571828 (edited 11/24 06:03 UTC) lists the growth-mail login window as ending 11/19 02:59 UTC. Official storage was 7 days from receipt, so the latest possible 7-day window ended 11/26 02:59 UTC.',
     windowTitle: 'Claim windows',
     windowTh: ['Gift', 'How to claim', 'Deadline (Asia/Shanghai)', 'Status'],
     windows: [
@@ -63,13 +63,13 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       [
         'Foundry Server Mail Rewards (growth pack)',
         'The login window has already closed. Do not log in now expecting a new growth mail.',
-        'Login window ended 19 Nov 2026, 10:59 (11/19 02:59 UTC); any copy already in the mailbox follows its own 7-day timer',
+        'Login window ended 19 Nov 2026, 10:59 (11/19 02:59 UTC). Official storage was 7 days from receipt; the latest possible 7-day window ended 26 Nov 2026, 10:59 (11/26 02:59 UTC). Not a live claim.',
         'Ended — no new mail',
       ],
       [
         'Steam 100,000 wishlist milestone mail',
         'The login window has already closed. Do not log in now expecting a new mail.',
-        'Login window ended 19 Nov 2026, 11:00 (11/19 03:00 UTC); any copy already in the mailbox follows its own 7-day timer',
+        'Login window ended 19 Nov 2026, 11:00 (11/19 03:00 UTC). Official storage was 7 days from receipt; the latest possible 7-day window ended 26 Nov 2026, 11:00 (11/26 03:00 UTC). Not a live claim.',
         'Ended — no new mail',
       ],
       [
@@ -81,29 +81,29 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
     ],
     mailTitle: 'Official growth-mail items (once)',
     mailNote:
-      'Sent after a Foundry login during the now-ended login window. Stored in the mailbox for 7 days. Issued once and not reissued.',
+      'Sent after a Foundry login during the now-ended login window. Official storage was 7 days from receipt; the latest possible window ended 26 Nov 2026, 02:59 UTC. Issued once and not reissued.',
     mailTh: ['Item', 'Quantity'],
     mailRows: MAIL_ROWS,
     wishlistTitle: 'Ended wishlist-mail items (for reference)',
     wishlistNote:
-      'The login window ended 19 Nov 2026, 03:00 UTC. This is not an instruction to log in now for a new mail. If a copy is already in your mailbox, it follows its own 7-day storage timer from when it was sent. The item list follows official notice 14606492, not unofficial alternative lists.',
+      'The login window ended 19 Nov 2026, 03:00 UTC. Official storage was 7 days from receipt; the latest possible 7-day window ended 26 Nov 2026, 03:00 UTC. This is not an instruction to claim now. The item list follows official notice 14606492, not unofficial alternative lists.',
     wishlistTh: ['Item', 'Quantity'],
     wishlistRows: WISHLIST_ROWS,
     stuckLabel: 'If the mail is missing',
     stuckBody:
-      'The growth-mail login window has already ended (official notice 14571828, edited 11/24 06:03 UTC, now ends 11/19 02:59 UTC). Logging in now will not generate a new mail. If a copy is already in your mailbox, claim it before its own 7-day timer ends. If you logged in during the window and the mail did not appear, log out and back in, or return to the lobby, then open the mailbox. Missed mail is not reissued. The welcome skin is a first-login pop-up through 31 Dec 2026, 02:59 UTC, not this mailbox pack. The Guild War login gift already ended on 23 Nov 2026, 03:00 UTC.',
+      'The growth-mail login window ended 11/19 02:59 UTC (official notice 14571828, edited 11/24 06:03 UTC). Official storage was 7 days from receipt, so the latest possible 7-day window ended 11/26 02:59 UTC. Logging in now will not generate a new mail, and this is not an instruction to claim now. Missed mail is not reissued. The welcome skin is a first-login pop-up through 31 Dec 2026, 02:59 UTC, not this mailbox pack. The Guild War login gift already ended on 23 Nov 2026, 03:00 UTC.',
     sourceLabel: 'Official notice',
     mailOfficialLabel: 'Foundry Server Gift',
     wishlistOfficialLabel: 'Steam 100,000 Wishlist Milestone Reward',
     foundryLead:
-      'The one-time growth-mail login window ended 19 Nov 2026, 02:59 UTC. Official item quantities, and which other launch gifts have already ended:',
+      'The one-time growth-mail login window ended 19 Nov 2026, 02:59 UTC, and the latest possible 7-day storage ended 26 Nov 2026, 02:59 UTC. Official item quantities, and which other launch gifts have already ended:',
     foundryLinkLabel: 'Claim windows on the quests page',
   },
   'zh-tw': {
     sectionTitle: '哪些 Foundry 獎勵現在還能領？',
     intro:
       '歡迎造型彈窗、一次性成長郵件、已結束的 Steam 願望單郵件，以及已結束的公會戰登入禮，這四項官方獎勵很容易混在一起。這裡只列官方時段與數量，不宣稱已在遊戲內實測。',
-    verified: '已於 2026 年 11 月 25 日（Asia/Shanghai）對照下方官方公告核對。官方公告 14571828 於 11/24 06:03 UTC 修訂，成長郵件登入窗口改為至 11/19 02:59 UTC 結束（原 11/26 14:59 UTC 已劃掉）。',
+    verified: '已於 2026 年 11 月 27 日（Asia/Shanghai）對照下方官方公告核對。官方公告 14571828（11/24 06:03 UTC 修訂）載明成長郵件登入窗口至 11/19 02:59 UTC 結束。官方保管期為收件後 7 天，故最晚可能的 7 天窗口已於 11/26 02:59 UTC 結束。',
     windowTitle: '領取時段對照',
     windowTh: ['獎勵', '如何領取', '截止時間（Asia/Shanghai）', '狀態'],
     windows: [
@@ -116,13 +116,13 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       [
         'Foundry 伺服器郵件獎勵（成長補給）',
         '登入窗口已關閉。現在登入不會再發出新的成長郵件。',
-        '登入窗口已於 2026 年 11 月 19 日 10:59（11/19 02:59 UTC）結束；若信箱裡已有該信，依其自身 7 天倒數',
+        '登入窗口已於 2026 年 11 月 19 日 10:59（11/19 02:59 UTC）結束。官方保管期為收件後 7 天；最晚可能的 7 天窗口已於 2026 年 11 月 26 日 10:59（11/26 02:59 UTC）結束。不是現在可領。',
         '已結束 — 不再新發',
       ],
       [
         'Steam 10 萬願望單里程碑郵件',
         '登入窗口已關閉。現在登入不會再發出新的願望單郵件。',
-        '登入窗口已於 2026 年 11 月 19 日 11:00（11/19 03:00 UTC）結束；若信箱裡已有該信，依其自身 7 天倒數',
+        '登入窗口已於 2026 年 11 月 19 日 11:00（11/19 03:00 UTC）結束。官方保管期為收件後 7 天；最晚可能的 7 天窗口已於 2026 年 11 月 26 日 11:00（11/26 03:00 UTC）結束。不是現在可領。',
         '已結束 — 不再新發',
       ],
       [
@@ -133,29 +133,29 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       ],
     ],
     mailTitle: '官方成長郵件內容（僅一次）',
-    mailNote: '在已結束的登入窗口內登入 Foundry 後發到信箱，保存 7 天。只發一次，錯過不補發。',
+    mailNote: '在已結束的登入窗口內登入 Foundry 後發到信箱。官方保管期為收件後 7 天；最晚可能的窗口已於 2026 年 11 月 26 日 02:59 UTC 結束。只發一次，錯過不補發。',
     mailTh: ['道具', '數量'],
     mailRows: MAIL_ROWS,
     wishlistTitle: '已結束的願望單郵件內容（供核對）',
     wishlistNote:
-      '登入窗口已於 2026 年 11 月 19 日 03:00 UTC結束。這不是請你現在登入以領取新郵件的說明。若信箱裡已經有該信，依寄出後 7 天保存期限計算。物品清單以官方公告 14606492 為準，不採用非官方的其他清單。',
+      '登入窗口已於 2026 年 11 月 19 日 03:00 UTC 結束。官方保管期為收件後 7 天；最晚可能的 7 天窗口已於 2026 年 11 月 26 日 03:00 UTC 結束。這不是請你現在領取的說明。物品清單以官方公告 14606492 為準，不採用非官方的其他清單。',
     wishlistTh: ['道具', '數量'],
     wishlistRows: WISHLIST_ROWS,
     stuckLabel: '信箱沒看到郵件時',
     stuckBody:
-      '成長郵件登入窗口已結束（官方公告 14571828 於 11/24 06:03 UTC 修訂，現為 11/19 02:59 UTC 結束）。現在登入不會再發出新郵件。若信箱裡已經有該信，請在其自身 7 天保存期限內領取。若你曾在窗口內登入但當時沒看到郵件，請先登出再登入，或返回大廳後再開信箱。錯過不會補發。歡迎造型是至 2026 年 12 月 31 日 02:59 UTC的首次登入彈窗，不是這包郵件。公會戰登入禮已於 2026 年 11 月 23 日 03:00 UTC結束。',
+      '成長郵件登入窗口已於 11/19 02:59 UTC 結束（官方公告 14571828，11/24 06:03 UTC 修訂）。官方保管期為收件後 7 天，故最晚可能的 7 天窗口已於 11/26 02:59 UTC 結束。現在登入不會再發出新郵件，也不是請你現在領取的說明。錯過不會補發。歡迎造型是至 2026 年 12 月 31 日 02:59 UTC 的首次登入彈窗，不是這包郵件。公會戰登入禮已於 2026 年 11 月 23 日 03:00 UTC 結束。',
     sourceLabel: '官方公告',
     mailOfficialLabel: 'Foundry Server Gift',
     wishlistOfficialLabel: 'Steam 100,000 Wishlist Milestone Reward',
     foundryLead:
-      '一次性成長郵件的登入窗口已於 2026 年 11 月 19 日 02:59 UTC結束。官方數量，以及其他已結束的上市獎勵：',
+      '一次性成長郵件的登入窗口已於 2026 年 11 月 19 日 02:59 UTC 結束，最晚可能的 7 天保管窗口已於 2026 年 11 月 26 日 02:59 UTC 結束。官方數量，以及其他已結束的上市獎勵：',
     foundryLinkLabel: '任務頁的領取時段對照',
   },
   ko: {
     sectionTitle: '지금 받을 수 있는 파운드리 선물은?',
     intro:
       '환영 스킨 팝업, 일회성 성장 우편, 이미 종료된 Steam 위시리스트 우편, 이미 종료된 길드전 로그인 선물은 섞이기 쉽습니다. 여기에는 공식 기간과 수량만 정리하며, 게임 내 실측을 주장하지 않습니다.',
-    verified: '2026년 11월 25일 Asia/Shanghai 기준으로 아래 공식 공지를 대조했습니다. 공식 공지 14571828는 11/24 06:03 UTC에 수정되어, 성장 우편 로그인 기간이 11/19 02:59 UTC로 정정되었습니다(이전 11/26 14:59 UTC는 취소선 처리).',
+    verified: '2026년 11월 27일 Asia/Shanghai 기준으로 아래 공식 공지를 대조했습니다. 공식 공지 14571828(11/24 06:03 UTC 수정)는 성장 우편 로그인 기간이 11/19 02:59 UTC에 종료된다고 적습니다. 공식 보관은 수령 후 7일이므로, 가장 늦은 7일 창은 11/26 02:59 UTC에 끝났습니다.',
     windowTitle: '수령 기간 비교',
     windowTh: ['선물', '받는 방법', '마감 (Asia/Shanghai)', '상태'],
     windows: [
@@ -168,13 +168,13 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       [
         '파운드리 서버 우편 보상 (성장 팩)',
         '로그인 기간은 이미 끝났습니다. 지금 로그인해도 새 성장 우편이 오지 않습니다.',
-        '로그인 기간은 2026년 11월 19일 10:59 (11/19 02:59 UTC)에 종료; 우편함에 이미 있는 우편은 자체 7일 타이머를 따름',
+        '로그인 기간은 2026년 11월 19일 10:59 (11/19 02:59 UTC)에 종료되었습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 7일 창은 2026년 11월 26일 10:59 (11/26 02:59 UTC)에 끝났습니다. 지금 수령 안내가 아닙니다.',
         '종료 — 신규 발송 없음',
       ],
       [
         'Steam 10만 위시리스트 마일스톤 우편',
         '로그인 기간은 이미 끝났습니다. 지금 로그인해도 새 우편이 오지 않습니다.',
-        '로그인 기간은 2026년 11월 19일 11:00 (11/19 03:00 UTC)에 종료; 우편함에 이미 있는 우편은 자체 7일 타이머를 따름',
+        '로그인 기간은 2026년 11월 19일 11:00 (11/19 03:00 UTC)에 종료되었습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 7일 창은 2026년 11월 26일 11:00 (11/26 03:00 UTC)에 끝났습니다. 지금 수령 안내가 아닙니다.',
         '종료 — 신규 발송 없음',
       ],
       [
@@ -185,29 +185,29 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       ],
     ],
     mailTitle: '공식 성장 우편 구성 (1회)',
-    mailNote: '이미 종료된 로그인 기간에 파운드리에 접속한 경우 우편함으로 발송되며 7일간 보관됩니다. 1회만 지급되며 재지급되지 않습니다.',
+    mailNote: '이미 종료된 로그인 기간에 파운드리에 접속한 경우 우편함으로 발송되었습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 창은 2026년 11월 26일 02:59 UTC에 끝났습니다. 1회만 지급되며 재지급되지 않습니다.',
     mailTh: ['아이템', '수량'],
     mailRows: MAIL_ROWS,
     wishlistTitle: '종료된 위시리스트 우편 구성 (대조용)',
     wishlistNote:
-      '로그인 기간은 2026년 11월 19일 03:00 UTC에 끝났습니다. 지금 로그인해서 새 우편을 받으라는 안내가 아닙니다. 우편함에 이미 있는 우편은 발송 시점부터 7일 보관 타이머를 따릅니다. 아이템 목록은 공식 공지 14606492를 따르며, 비공식 다른 목록은 사용하지 않습니다.',
+      '로그인 기간은 2026년 11월 19일 03:00 UTC에 끝났습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 7일 창은 2026년 11월 26일 03:00 UTC에 끝났습니다. 지금 수령하라는 안내가 아닙니다. 아이템 목록은 공식 공지 14606492를 따르며, 비공식 다른 목록은 사용하지 않습니다.',
     wishlistTh: ['아이템', '수량'],
     wishlistRows: WISHLIST_ROWS,
     stuckLabel: '우편이 보이지 않을 때',
     stuckBody:
-      '성장 우편 로그인 기간은 이미 종료되었습니다(공식 공지 14571828, 11/24 06:03 UTC 수정, 현재 종료 시각은 11/19 02:59 UTC). 지금 로그인해도 새 우편은 오지 않습니다. 우편함에 이미 있는 우편은 자체 7일 타이머가 끝나기 전에 수령하세요. 기간 중에 로그인했는데 우편이 보이지 않았다면 로그아웃 후 다시 로그인하거나, 로비로 돌아간 뒤 우편함을 여세요. 놓친 우편은 재지급되지 않습니다. 환영 스킨은 2026년 12월 31일 02:59 UTC까지 제공되는 첫 로그인 팝업이며, 이 우편 팩이 아닙니다. 길드전 로그인 선물은 2026년 11월 23일 03:00 UTC에 이미 종료되었습니다.',
+      '성장 우편 로그인 기간은 11/19 02:59 UTC에 종료되었습니다(공식 공지 14571828, 11/24 06:03 UTC 수정). 공식 보관은 수령 후 7일이므로, 가장 늦은 7일 창은 11/26 02:59 UTC에 끝났습니다. 지금 로그인해도 새 우편은 오지 않으며, 지금 수령하라는 안내가 아닙니다. 놓친 우편은 재지급되지 않습니다. 환영 스킨은 2026년 12월 31일 02:59 UTC까지 제공되는 첫 로그인 팝업이며, 이 우편 팩이 아닙니다. 길드전 로그인 선물은 2026년 11월 23일 03:00 UTC에 이미 종료되었습니다.',
     sourceLabel: '공식 공지',
     mailOfficialLabel: 'Foundry Server Gift',
     wishlistOfficialLabel: 'Steam 100,000 Wishlist Milestone Reward',
     foundryLead:
-      '일회성 성장 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었습니다. 공식 수량과 이미 종료된 다른 출시 선물:',
+      '일회성 성장 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었고, 가장 늦은 7일 보관 창은 2026년 11월 26일 02:59 UTC에 끝났습니다. 공식 수량과 이미 종료된 다른 출시 선물:',
     foundryLinkLabel: '퀘스트 페이지의 수령 기간 비교',
   },
   th: {
     sectionTitle: 'ของขวัญ Foundry ใบไหนยังรับได้อยู่?',
     intro:
       'สกินต้อนรับแบบป๊อปอัป จดหมายเติบโตครั้งเดียว จดหมาย Wishlist ของ Steam ที่ปิดช่วงล็อกอินแล้ว และของขวัญล็อกอินสงครามกิลด์ที่จบแล้ว มักถูกสับสนได้ง่าย ส่วนนี้รวบรวมเฉพาะช่วงเวลาและจำนวนจากประกาศทางการ ไม่ได้บอกว่าทดสอบในเกมแล้ว',
-    verified: 'ตรวจสอบแล้วเมื่อ 25 พ.ย. 2026 เวลา Asia/Shanghai จากประกาศทางการด้านล่าง ประกาศทางการ 14571828 แก้ไขเมื่อ 11/24 06:03 UTC และกำหนดช่วงล็อกอินของจดหมายเติบโตสิ้นสุด 11/19 02:59 UTC (วันที่เดิม 11/26 14:59 UTC ถูกขีดฆ่า)',
+    verified: 'ตรวจสอบแล้วเมื่อ 27 พ.ย. 2026 เวลา Asia/Shanghai จากประกาศทางการด้านล่าง ประกาศทางการ 14571828 (แก้ไข 11/24 06:03 UTC) กำหนดช่วงล็อกอินของจดหมายเติบโตสิ้นสุด 11/19 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ ดังนั้นหน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 11/26 02:59 UTC',
     windowTitle: 'ตารางช่วงรับของ',
     windowTh: ['ของขวัญ', 'วิธีรับ', 'หมดเขต (Asia/Shanghai)', 'สถานะ'],
     windows: [
@@ -220,13 +220,13 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
       [
         'รางวัลจดหมายเซิร์ฟเวอร์ Foundry (ชุดเติบโต)',
         'ช่วงล็อกอินปิดแล้ว ล็อกอินตอนนี้จะไม่มีจดหมายเติบโตใหม่',
-        'ช่วงล็อกอินจบ 19 พ.ย. 2026 10:59 (11/19 02:59 UTC); ถ้ามีฉบับอยู่ในกล่องแล้ว ให้ดูตัวนับ 7 วันของฉบับนั้น',
+        'ช่วงล็อกอินจบ 19 พ.ย. 2026 10:59 (11/19 02:59 UTC) ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 10:59 (11/26 02:59 UTC) ไม่ใช่การรับตอนนี้',
         'จบแล้ว — ไม่ส่งใหม่',
       ],
       [
         'จดหมายไมล์สโตน Wishlist Steam 100,000',
         'ช่วงล็อกอินปิดแล้ว ล็อกอินตอนนี้จะไม่มีจดหมายใหม่',
-        'ช่วงล็อกอินจบ 19 พ.ย. 2026 11:00 (11/19 03:00 UTC); ถ้ามีฉบับอยู่ในกล่องแล้ว ให้ดูตัวนับ 7 วันของฉบับนั้น',
+        'ช่วงล็อกอินจบ 19 พ.ย. 2026 11:00 (11/19 03:00 UTC) ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 11:00 (11/26 03:00 UTC) ไม่ใช่การรับตอนนี้',
         'จบแล้ว — ไม่ส่งใหม่',
       ],
       [
@@ -238,22 +238,22 @@ export const CLAIM_WINDOWS: Record<GrowthLocale, ClaimWindowsCopy> = {
     ],
     mailTitle: 'รายการจดหมายเติบโตทางการ (ครั้งเดียว)',
     mailNote:
-      'ส่งเข้ากล่องจดหมายหลังล็อกอิน Foundry ในช่วงล็อกอินที่สิ้นสุดแล้ว เก็บ 7 วัน แจกครั้งเดียวและไม่เติมให้ถ้าพลาด',
+      'ส่งเข้ากล่องจดหมายหลังล็อกอิน Foundry ในช่วงล็อกอินที่สิ้นสุดแล้ว ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่างที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC แจกครั้งเดียวและไม่เติมให้ถ้าพลาด',
     mailTh: ['ไอเท็ม', 'จำนวน'],
     mailRows: MAIL_ROWS,
     wishlistTitle: 'รายการจดหมาย Wishlist ที่จบแล้ว (สำหรับอ้างอิง)',
     wishlistNote:
-      'ช่วงล็อกอินจบแล้วเมื่อ 19 พ.ย. 2026 03:00 UTC นี่ไม่ใช่คำแนะนำให้ล็อกอินตอนนี้เพื่อรับจดหมายใหม่ หากมีฉบับอยู่ในกล่องแล้ว ให้ใช้ตัวนับเก็บ 7 วันนับจากวันที่ส่ง รายการไอเท็มยึดประกาศทางการ 14606492 ไม่ใช้รายการอื่นที่ไม่เป็นทางการ',
+      'ช่วงล็อกอินจบแล้วเมื่อ 19 พ.ย. 2026 03:00 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 03:00 UTC นี่ไม่ใช่คำแนะนำให้กดรับตอนนี้ รายการไอเท็มยึดประกาศทางการ 14606492 ไม่ใช้รายการอื่นที่ไม่เป็นทางการ',
     wishlistTh: ['ไอเท็ม', 'จำนวน'],
     wishlistRows: WISHLIST_ROWS,
     stuckLabel: 'ถ้าไม่เห็นจดหมาย',
     stuckBody:
-      'ช่วงล็อกอินของจดหมายเติบโตจบแล้ว (ประกาศทางการ 14571828 แก้ไขเมื่อ 11/24 06:03 UTC ขณะนี้สิ้นสุด 11/19 02:59 UTC) ล็อกอินตอนนี้จะไม่มีจดหมายใหม่ หากมีฉบับอยู่ในกล่องแล้ว ให้รับก่อนตัวนับ 7 วันของฉบับนั้นจะหมด ถ้าล็อกอินในช่วงนั้นแล้วไม่เห็นจดหมาย ให้ล็อกเอาท์แล้วล็อกอินใหม่ หรือกลับล็อบบี้แล้วค่อยเปิดกล่องจดหมาย จดหมายที่พลาดจะไม่ถูกส่งซ้ำ สกินต้อนรับเป็นป๊อปอัปตอนล็อกอินครั้งแรกถึง 31 ธ.ค. 2026 02:59 UTC ไม่ใช่ชุดจดหมายนี้ ของขวัญล็อกอินสงครามกิลด์จบแล้วเมื่อ 23 พ.ย. 2026 03:00 UTC',
+      'ช่วงล็อกอินของจดหมายเติบโตสิ้นสุด 11/19 02:59 UTC (ประกาศทางการ 14571828 แก้ไข 11/24 06:03 UTC) ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ ดังนั้นหน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 11/26 02:59 UTC ล็อกอินตอนนี้จะไม่มีจดหมายใหม่ และนี่ไม่ใช่คำแนะนำให้กดรับตอนนี้ จดหมายที่พลาดจะไม่ถูกส่งซ้ำ สกินต้อนรับเป็นป๊อปอัปตอนล็อกอินครั้งแรกถึง 31 ธ.ค. 2026 02:59 UTC ไม่ใช่ชุดจดหมายนี้ ของขวัญล็อกอินสงครามกิลด์จบแล้วเมื่อ 23 พ.ย. 2026 03:00 UTC',
     sourceLabel: 'ประกาศทางการ',
     mailOfficialLabel: 'Foundry Server Gift',
     wishlistOfficialLabel: 'Steam 100,000 Wishlist Milestone Reward',
     foundryLead:
-      'ช่วงล็อกอินของจดหมายเติบโตครั้งเดียวสิ้นสุดแล้วเมื่อ 19 พ.ย. 2026 02:59 UTC จำนวนของทางการ และของขวัญเปิดเซิร์ฟอื่นที่จบแล้ว:',
+      'ช่วงล็อกอินของจดหมายเติบโตครั้งเดียวสิ้นสุดแล้วเมื่อ 19 พ.ย. 2026 02:59 UTC และหน้าต่างเก็บ 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พ.ย. 2026 02:59 UTC จำนวนของทางการ และของขวัญเปิดเซิร์ฟอื่นที่จบแล้ว:',
     foundryLinkLabel: 'ตารางช่วงรับของในหน้าเควสต์',
   },
 };

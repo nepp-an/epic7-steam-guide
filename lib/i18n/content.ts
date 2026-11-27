@@ -7069,7 +7069,7 @@ export const CONTENT = {
         ],
         [
           "Login gifts",
-          "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). The mailbox-pack login window ended 11/19 02:59 UTC; mail already received follows its own 7-day mailbox timer."
+          "Welcome: New Moon Luna epic skin (Majestic Bunny Girl) + SD sticker (once). The mailbox-pack login window ended 11/19 02:59 UTC. Official storage was 7 days from receipt; the latest possible 7-day window ended 11/26 02:59 UTC. This is not an instruction to claim now."
         ],
         [
           "World Arena prep ladder",
@@ -7110,7 +7110,7 @@ export const CONTENT = {
         ],
         [
           "What is the Foundry Guild War login gift?",
-          "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 02:59 UTC; any copy already in the mailbox follows its own 7-day storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones."
+          "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 02:59 UTC; official storage was 7 days from receipt, and the latest possible 7-day window ended 26 November 2026 at 02:59 UTC. Do not confuse it with the ended GW gift or the 31 December celebration milestones."
         ]
       ],
       "vs_h2": "Transfer vs start on Foundry",
@@ -7146,7 +7146,7 @@ export const CONTENT = {
         "2026-12-10 (Thu) Guild War draw rule: the update removes match-time season-point and Guild Crest priority; the higher combined attack score from wins/draws/losses wins; if still tied, both full clears get 100% season points and both incomplete clears 50%. Details follow the 12/10 update notice: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "Rewards window",
-      "gw_reward": "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 02:59 UTC; any copy already in the mailbox follows its own 7-day storage. Do not confuse it with the ended GW gift or the 31 December celebration milestones.",
+      "gw_reward": "The separate Guild War login gift ended on 23 November 2026 at 03:00 UTC. Its historical rewards were Commander’s Armband ×1,000 and Brave Crest ×3,000; logging in now does not qualify for that window. The separate Foundry growth-mail login window ended on 19 November 2026 at 02:59 UTC; official storage was 7 days from receipt, and the latest possible 7-day window ended 26 November 2026 at 02:59 UTC. Do not confuse it with the ended GW gift or the 31 December celebration milestones.",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "Searches for “Foundry codes” or “Foundry server codes” usually point at celebration rewards and official STOVE notices — mailbox gifts, login items, and starter buffs — not a redeemable coupon list. This unofficial Foundry server guide never publishes, sells, or redeems fake codes. Claim only what the in-game mailbox shows, and re-check STOVE Foundry view/14571828 and Launch view/14606481 when windows move.",
       "guide_h2": "Foundry server guide — key dates",
@@ -7397,7 +7397,7 @@ export const CONTENT = {
         ],
         [
           "로그인 선물",
-          "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 로그인 창은 11/19 02:59 UTC에 종료; 이미 받은 메일은 자체 7일 타이머를 따름"
+          "환영: New Moon Luna 에픽 스킨 + SD. 우편팩 로그인 창은 11/19 02:59 UTC에 종료되었습니다. 공식 보관은 수령 후 7일이며, 가장 늦은 7일 창은 11/26 02:59 UTC에 끝났습니다. 지금 수령하라는 안내가 아닙니다."
         ],
         [
           "WA 준비 사다리",
@@ -7438,7 +7438,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 길드전 로그인 선물은 무엇인가요?",
-          "별도 기사단전 접속 선물 기간은 2026년 11월 23일 03:00 UTC에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었으며, 우편함에 이미 있는 우편은 자체 7일 보관을 따릅니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요."
+          "별도 기사단전 접속 선물 기간은 2026년 11월 23일 03:00 UTC에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었으며, 공식 보관은 수령 후 7일이고 가장 늦은 7일 창은 2026년 11월 26일 02:59 UTC에 끝났습니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요."
         ]
       ],
       "vs_h2": "계정 이전 vs 파운드리 시작",
@@ -7473,7 +7473,7 @@ export const CONTENT = {
         "2026-12-10(목) 길드전 무승부 규칙: 업데이트에서 매칭 시 시즌 승점·Guild Crest 우선 규칙을 제거하고, 해당 경기 승/무/패 합산 공격 점수가 높은 쪽이 승리합니다. 그래도 무승부면 양쪽 완파 100% 승점, 양쪽 미완파 50%입니다. 세부는 12/10 공지 기준: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "보상 구간",
-      "gw_reward": "별도 기사단전 접속 선물 기간은 2026년 11월 23일 03:00 UTC에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었으며, 우편함에 이미 있는 우편은 자체 7일 보관을 따릅니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요.",
+      "gw_reward": "별도 기사단전 접속 선물 기간은 2026년 11월 23일 03:00 UTC에 종료되었습니다. 당시 보상은 Commander’s Armband ×1,000과 Brave Crest ×3,000이며, 지금 로그인해 해당 기간의 자격을 얻을 수는 없습니다. 별도 파운드리 성장 지원 우편의 로그인 기간은 2026년 11월 19일 02:59 UTC에 종료되었으며, 공식 보관은 수령 후 7일이고 가장 늦은 7일 창은 2026년 11월 26일 02:59 UTC에 끝났습니다. 종료된 기사단전 선물이나 12월 31일 축하 목표와 혼동하지 마세요.",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "“Foundry codes” 또는 “Foundry server codes” 검색은 대개 쿠폰 문자열이 아니라 축하 보상과 공식 STOVE 공지—우편 선물, 로그인 아이템, 스타터 버프—를 가리킵니다. 본 비공식 Foundry 서버 가이드는 가짜 코드를 게시·판매·교환하지 않습니다. 인게임 우편함에 보이는 것만 수령하고, 창이 바뀌면 STOVE 파운드리 view/14571828과 런칭 view/14606481을 다시 확인하세요.",
       "guide_h2": "Foundry server guide — 핵심 일정",
@@ -7717,7 +7717,7 @@ export const CONTENT = {
         ],
         [
           "ログインギフト",
-          "歓迎：New Moon Lunaエピックス킨+SD。メールパックのログイン期間は11/19 02:59 UTCに終了。受取済みメールは各自の7日タイマーに従う"
+          "歓迎：New Moon Lunaエピックスキン+SD。メールパックのログイン期間は11/19 02:59 UTCに終了。公式の保管は受取後7日で、最も遅い7日の枠は11/26 02:59 UTCに終了しました。今受け取る案内ではありません。"
         ],
         [
           "WA準備ラダー",
@@ -8047,7 +8047,7 @@ export const CONTENT = {
         ],
         [
           "登入禮",
-          "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包登入窗口已於 11/19 02:59 UTC 結束；若信箱已有該信，依其自身 7 天倒數"
+          "歡迎：New Moon Luna 史詩皮膚＋SD。信箱包登入窗口已於 11/19 02:59 UTC 結束。官方保管期為收件後 7 天；最晚可能的 7 天窗口已於 11/26 02:59 UTC 結束。這不是請你現在領取的說明。"
         ],
         [
           "WA 準備階梯",
@@ -8088,7 +8088,7 @@ export const CONTENT = {
         ],
         [
           "Foundry 公會戰登入禮是什麼？",
-          "獨立的公會戰登入禮已於2026年11月23日 03:00 UTC截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日 02:59 UTC結束；若信箱裡已有該信，依其自身7天保管。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。"
+          "獨立的公會戰登入禮已於2026年11月23日 03:00 UTC截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日 02:59 UTC結束；官方保管期為收件後7天，最晚可能的7天窗口已於2026年11月26日 02:59 UTC結束。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。"
         ]
       ],
       "vs_h2": "帳號轉移 vs 在 Foundry 開荒",
@@ -8123,7 +8123,7 @@ export const CONTENT = {
         "2026-12-10（週四）公會戰平局規則：更新移除匹配時按賽季勝點與先使用 Guild Crest 的優先規則，改以該場進攻勝／平／負合計攻擊分高者獲勝；若仍平，雙方都完破給 100% 勝點、都未完破只給 50%。細節以 12/10 更新公告為準：[[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]。"
       ],
       "gw_reward_h3": "獎勵區間",
-      "gw_reward": "獨立的公會戰登入禮已於2026年11月23日 03:00 UTC截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日 02:59 UTC結束；若信箱裡已有該信，依其自身7天保管。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。",
+      "gw_reward": "獨立的公會戰登入禮已於2026年11月23日 03:00 UTC截止。當時獎勵為Commander’s Armband ×1,000與Brave Crest ×3,000；現在登入不會取得該窗口的資格。 另一項Foundry成長郵件的登入窗口已於2026年11月19日 02:59 UTC結束；官方保管期為收件後7天，最晚可能的7天窗口已於2026年11月26日 02:59 UTC結束。不要與已截止的團戰登入禮或12月31日慶祝里程碑混為一談。",
       "codes_h2": "Foundry codes vs celebration rewards",
       "codes_note": "搜尋「Foundry codes」或「Foundry server codes」多半指向慶祝獎勵與官方 STOVE 公告——信箱禮物、登入道具、新手增益——而不是可兌換序號清單。本非官方 Foundry 伺服器指南從不發布、販售或代兌假碼。只領遊戲內信箱實際顯示的內容；時窗變動時請再查 STOVE Foundry view/14571828 與 Launch view/14606481。",
       "guide_h2": "Foundry server guide — 關鍵日程",
@@ -8377,7 +8377,7 @@ export const CONTENT = {
         ],
         [
           "ของขวัญล็อกอิน",
-          "ต้อนรับ: สกิน epic New Moon Luna (Majestic Bunny Girl) + สติกเกอร์ SD (ครั้งเดียว) ช่วงล็อกอินของแพ็กในกล่องจดหมายจบแล้วเมื่อ 11/19 02:59 UTC; หากมีอยู่ในกล่องแล้ว ให้ถือตามเวลา 7 วันของจดหมายนั้น"
+          "ต้อนรับ: สกิน epic New Moon Luna (Majestic Bunny Girl) + สติกเกอร์ SD (ครั้งเดียว) ช่วงล็อกอินของแพ็กในกล่องจดหมายจบแล้วเมื่อ 11/19 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ; หน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 11/26 02:59 UTC นี่ไม่ใช่คำแนะนำให้กดรับตอนนี้"
         ],
         [
           "บันไดเตรียม World Arena",
@@ -8418,7 +8418,7 @@ export const CONTENT = {
         ],
         [
           "ของขวัญล็อกอิน Foundry Guild War คืออะไร?",
-          "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา03:00 UTC รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 02:59 UTC และฉบับที่อยู่ในกล่องแล้วเก็บ 7 วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม"
+          "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา03:00 UTC รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ และหน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พฤศจิกายน 2026 02:59 UTC อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม"
         ]
       ],
       "vs_h2": "โอนย้าย vs เริ่มบน Foundry",
@@ -8453,7 +8453,7 @@ export const CONTENT = {
         "2026-12-10 (พฤ.) กติกาการเสมอ Guild War: อัปเดตยกเลิกสิทธิ์ตามคะแนนซีซันและ Guild Crest ก่อนตอนจับคู่ ฝ่ายที่มีคะแนนโจมตีรวมจากชนะ/เสมอ/แพ้ในแมตช์นั้นสูงกว่าชนะ; หากยังเสมอ ทั้งคู่ตีแตกได้ 100% แต้มซีซัน ทั้งคู่ตีไม่แตกได้ 50% รายละเอียดยึดประกาศอัปเดต 12/10: [[STOVE 14636531|https://page.onstove.com/epicseven/global/view/14636531]]."
       ],
       "gw_reward_h3": "ช่วงเวลารางวัล",
-      "gw_reward": "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา03:00 UTC รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 02:59 UTC และฉบับที่อยู่ในกล่องแล้วเก็บ 7 วัน อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม",
+      "gw_reward": "ของขวัญล็อกอิน Guild War แยกต่างหากสิ้นสุดแล้วเมื่อ23 พฤศจิกายน2026 เวลา03:00 UTC รางวัลในช่วงนั้นคือ Commander’s Armband ×1,000 และ Brave Crest ×3,000 การล็อกอินตอนนี้ไม่ทำให้ได้สิทธิ์ย้อนหลังในช่วงดังกล่าว จดหมายช่วยเติบโต Foundry เป็นอีกกิจกรรม ช่วงล็อกอินจบแล้วเมื่อ 19 พฤศจิกายน 2026 เวลา 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ และหน้าต่าง 7 วันที่ช้าที่สุดจบแล้วเมื่อ 26 พฤศจิกายน 2026 02:59 UTC อย่าสับสนกับของขวัญ Guild War ที่จบแล้วหรือเป้าหมายฉลอง31ธันวาคม",
       "codes_h2": "Foundry codes กับรางวัลฉลอง",
       "codes_note": "การค้นหา “Foundry codes” หรือ “Foundry server codes” มักชี้ไปที่รางวัลฉลองและประกาศทางการของ STOVE — ของขวัญในกล่องจดหมาย ของล็อกอิน และบัฟผู้เริ่มต้น — ไม่ใช่รายการคูปองที่แลกได้ ไกด์เซิร์ฟเวอร์ Foundry ที่ไม่เป็นทางการนี้ไม่เคยเผยแพร่ ขาย หรือแลกโค้ดปลอม รับเฉพาะสิ่งที่กล่องจดหมายในเกมแสดง และตรวจ STOVE Foundry view/14571828 กับ Launch view/14606481 อีกครั้งเมื่อช่วงเวลาเลื่อน",
       "guide_h2": "ไกด์เซิร์ฟเวอร์ Foundry — วันสำคัญ",
@@ -8694,7 +8694,7 @@ export const CONTENT = {
         ],
         [
           "Regalos de inicio de sesión",
-          "Bienvenida: aspecto épico New Moon Luna (Majestic Bunny Girl) + pegatina SD (una vez). La ventana de acceso del paquete del buzón terminó el 11/19 02:59 UTC; el correo ya recibido sigue su propio temporizador de 7 días."
+          "Bienvenida: aspecto épico New Moon Luna (Majestic Bunny Girl) + pegatina SD (una vez). La ventana de acceso del paquete del buzón terminó el 11/19 02:59 UTC. El almacenamiento oficial era de 7 días desde la recepción; la ventana de 7 días más tardía posible terminó el 11/26 02:59 UTC. Esto no es una instrucción para reclamar ahora."
         ],
         [
           "Escalera de preparación para World Arena",
@@ -9011,7 +9011,7 @@ export const CONTENT = {
         ],
         [
           "Presentes de login",
-          "Boas-vindas: skin épica New Moon Luna (Majestic Bunny Girl) + sticker SD (uma vez). A janela de login do pacote do correio terminou em 11/19 02:59 UTC; o correio já recebido segue o próprio temporizador de 7 dias."
+          "Boas-vindas: skin épica New Moon Luna (Majestic Bunny Girl) + sticker SD (uma vez). A janela de login do pacote do correio terminou em 11/19 02:59 UTC. O armazenamento oficial era de 7 dias após o recebimento; a janela de 7 dias mais tardia possível terminou em 11/26 02:59 UTC. Isto não é uma instrução para resgatar agora."
         ],
         [
           "Escada de preparação para a World Arena",
@@ -9328,7 +9328,7 @@ export const CONTENT = {
         ],
         [
           "Login-Geschenke",
-          "Willkommen: epischer Skin „New Moon Luna“ (Majestic Bunny Girl) + SD-Sticker (einmalig). Das Login-Fenster des Postfach-Pakets endete am 11/19 02:59 UTC; bereits empfangene Post folgt dem eigenen 7-Tage-Timer."
+          "Willkommen: epischer Skin „New Moon Luna“ (Majestic Bunny Girl) + SD-Sticker (einmalig). Das Login-Fenster des Postfach-Pakets endete am 11/19 02:59 UTC. Die offizielle Aufbewahrung betrug 7 Tage ab Erhalt; das spätestmögliche 7-Tage-Fenster endete am 11/26 02:59 UTC. Dies ist keine Anweisung, jetzt abzuholen."
         ],
         [
           "World-Arena-Vorbereitung",
@@ -9645,7 +9645,7 @@ export const CONTENT = {
         ],
         [
           "Cadeaux de connexion",
-          "Accueil : skin épique New Moon Luna (Majestic Bunny Girl) + sticker SD (une fois). La fenêtre de connexion du pack de boîte aux lettres s’est close le 11/19 02:59 UTC ; le courrier déjà reçu suit son propre délai de 7 jours."
+          "Accueil : skin épique New Moon Luna (Majestic Bunny Girl) + sticker SD (une fois). La fenêtre de connexion du pack de boîte aux lettres s’est close le 11/19 02:59 UTC. La conservation officielle était de 7 jours après réception ; la fenêtre de 7 jours la plus tardive possible s’est terminée le 11/26 02:59 UTC. Ce n’est pas une instruction de récupérer maintenant."
         ],
         [
           "Parcours de préparation World Arena",
@@ -9962,7 +9962,7 @@ export const CONTENT = {
         ],
         [
           "Prezenty za logowanie",
-          "Powitalna: epicka skórka New Moon Luna (Majestic Bunny Girl) + naklejka SD (raz). Okno logowania pakietu w skrzynce zakończyło się 11/19 02:59 UTC; już otrzymana poczta podlega własnemu 7-dniowemu timerowi."
+          "Powitalna: epicka skórka New Moon Luna (Majestic Bunny Girl) + naklejka SD (raz). Okno logowania pakietu w skrzynce zakończyło się 11/19 02:59 UTC. Oficjalne przechowywanie trwało 7 dni od otrzymania; najpóźniejsze możliwe 7-dniowe okno zakończyło się 11/26 02:59 UTC. To nie jest instrukcja, aby odbierać teraz."
         ],
         [
           "Drabinka przygotowań do World Arena",
@@ -10937,6 +10937,16 @@ export const CONTENT = {
       "lead": "These Epic Seven patch notes are listed newest first. Official notices use UTC; Asia/Shanghai is UTC+8 (02:59 UTC is 10:59, and 03:00 UTC is 11:00). Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
       "cards": [
         [
+          "2026-11-27 — Schedule status: Foundry growth-mail 7-day storage window has ended",
+          [
+            "Checked 27 November 2026, Asia/Shanghai, against official STOVE notice 14571828 (edited 11/24 06:03 UTC) and the notices already cited in the 26 November card. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update. The Known Issues post is still the 11/23 09:10 UTC edit (STOVE 14640458); this page does not invent a fix.",
+            "The Foundry growth-mail login window ended 11/19 02:59 UTC. Official storage was 7 days from receipt, so the latest possible 7-day window (for mail sent at that login deadline) ended 11/26 02:59 UTC. Logging in now will not generate a new mail, and this is not an instruction to claim now. Missed mail is not reissued. The welcome-skin first-login pop-up remains open through 12/31 02:59 UTC. The Steam wishlist milestone mail login window ended 11/19 03:00 UTC; its latest possible 7-day storage likewise ended 11/26 03:00 UTC.",
+            "Unchanged from the 26 November check and still current: Cecilia & Covert Service Covenant Drop Rate Up through 12/17 02:59 UTC; Catalyst Search through 12/3 02:59 UTC; Daily Life of a Palace Maid through 17 Dec at each server’s reset (shop until 17 Dec 2026, 02:59 UTC); Dirge of the End: Rewind through 17 Dec 2026, 02:59 UTC. Yufine’s rate-up, charm-week Ruins Reclamation, and Gather Carrots remain ended at 11/26 02:59 UTC.",
+            "Current routes: [[banners|/banners/]], [[event routes|/quests/#event-routes]], [[claim windows|/quests/#claim-windows]]."
+          ],
+          "STOVE 14571828 · 14606492 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
+        [
           "2026-11-26 — Schedule status: Yufine, charm week and carrots ended; Cecilia, Catalyst Search and Palace Maid are open",
           [
             "Checked 26 November 2026, Asia/Shanghai, against the official STOVE notices below. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update. No new official notice was posted after the 11/23 09:10 UTC Known Issues edit (STOVE 14640458, last content edit 11/23 09:13:10 UTC). Later 15:00 UTC timestamps on older posts match a daily 00:00 KST touch and do not change the published titles or body windows.",
@@ -11067,7 +11077,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Living log — last verified 2026-11-26, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
+      "cont": "Living log — last verified 2026-11-27, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
       "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC and ended early at 09:30 UTC. Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC, so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (now open); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots ended 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
@@ -11077,6 +11087,16 @@ export const CONTENT = {
       "h1": "업데이트 — 영웅·이벤트",
       "lead": "공식 공지는 UTC를 사용합니다. Asia/Shanghai는 UTC+8입니다. 최신 우선. 공개 STOVE/Steam 요약 — 전체 패치 미러 아님.",
       "cards": [
+        [
+          "2026-11-27 — 일정 현황: 파운드리 성장 우편 7일 보관 창 종료",
+          [
+            "2026년 11월 27일 Asia/Shanghai, 공식 공지 14571828(11/24 06:03 UTC 수정)과 11월 26일 카드에 이미 인용한 공지를 대조했습니다. 이 확인에서 Steam 뉴스는 2026년 11월 18일 18:30 Asia/Shanghai Version 8.7 업데이트보다 새로운 글이 없었습니다. Known Issues 글은 여전히 11/23 09:10 UTC 수정본(STOVE 14640458)이며, 이 페이지는 수정을 단정하지 않습니다.",
+            "파운드리 성장 우편 로그인 기간은 11/19 02:59 UTC에 종료되었습니다. 공식 보관은 수령 후 7일이므로, 그 마감에 발송된 우편 기준 가장 늦은 7일 창은 11/26 02:59 UTC에 끝났습니다. 지금 로그인해도 새 우편은 오지 않으며, 지금 수령하라는 안내가 아닙니다. 놓친 우편은 재지급되지 않습니다. 환영 스킨 첫 로그인 팝업은 12/31 02:59 UTC까지 열려 있습니다. Steam 위시리스트 마일스톤 우편 로그인 기간은 11/19 03:00 UTC에 종료되었고, 가장 늦은 7일 보관 또한 11/26 03:00 UTC에 끝났습니다.",
+            "11월 26일 확인과 동일하게 현재 진행 중: Cecilia & Covert Service 계약 드롭률 업은 12/17 02:59 UTC까지, Catalyst Search는 12/3 02:59 UTC까지, Daily Life of a Palace Maid는 각 서버 리셋 기준 12월 17일까지(상점은 2026년 12월 17일 02:59 UTC까지), Dirge of the End: Rewind는 2026년 12월 17일 02:59 UTC까지. 유핀 드롭률 업, 매력 주간 Ruins Reclamation, 당근 이벤트는 11/26 02:59 UTC에 종료된 상태입니다.",
+            "현재 경로: [[배너|/banners/]], [[이벤트 경로|/quests/#event-routes]], [[수령 기간|/quests/#claim-windows]]."
+          ],
+          "STOVE 14571828 · 14606492 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-26 — 일정 현황: 유핀·매력 주간·당근 종료, 세실리아·Catalyst Search·Palace Maid 진행 중",
           [
@@ -11208,7 +11228,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "활페이지 — Last verified 2026-11-26, Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
+      "cont": "활페이지 — Last verified 2026-11-27, Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
       "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최신: 11/19 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함으로 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. Version 8.7 2nd 업데이트: 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료; Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC(지금 열림); Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC; 영웅 7명 밸런스는 점검 후 적용. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료(2 Leif는 11/20 지급 예정, 시각 미공지); 당근 이벤트는 11/26 02:59 UTC에 종료. Moro Mystic과 Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지. Last verified 2026-11-26, Asia/Shanghai."
     },
@@ -11336,6 +11356,16 @@ export const CONTENT = {
       "h1": "更新 — 英雄與活動",
       "lead": "官方公告使用 UTC；Asia/Shanghai 為 UTC+8。最新在上。摘要公開 STOVE／Steam——非完整補丁鏡像。",
       "cards": [
+        [
+          "2026-11-27 — 時程現況：Foundry 成長郵件 7 天保管窗口已結束",
+          [
+            "已於 2026 年 11 月 27 日（Asia/Shanghai）對照官方公告 14571828（11/24 06:03 UTC 修訂）以及 11 月 26 日卡片已引用的公告。此次核對時，Steam 新聞仍無晚於 2026 年 11 月 18 日 18:30 Asia/Shanghai Version 8.7 更新的新帖。Known Issues 仍為 11/23 09:10 UTC 修訂（STOVE 14640458）；本頁不自行宣稱已修復。",
+            "Foundry 成長郵件登入窗口已於 11/19 02:59 UTC 結束。官方保管期為收件後 7 天，故最晚可能的 7 天窗口（在登入截止時發出的郵件）已於 11/26 02:59 UTC 結束。現在登入不會再發出新郵件，也不是請你現在領取的說明。錯過不會補發。歡迎造型首次登入彈窗仍開放至 12/31 02:59 UTC。Steam 願望單里程碑郵件登入窗口已於 11/19 03:00 UTC 結束；其最晚可能的 7 天保管同樣已於 11/26 03:00 UTC 結束。",
+            "與 11 月 26 日核對相比、目前仍有效：Cecilia & Covert Service 契約提高掉率至 12/17 02:59 UTC；Catalyst Search 至 12/3 02:59 UTC；宮廷女僕的日常至各伺服器 12 月 17 日重置（商店至 2026 年 12 月 17 日 02:59 UTC）；Dirge of the End: Rewind 至 2026 年 12 月 17 日 02:59 UTC。優芬妮提高掉率、魅力週 Ruins Reclamation 與收胡蘿蔔仍為 11/26 02:59 UTC 結束。",
+            "目前路徑：[[卡池|/banners/]]、[[活動路線|/quests/#event-routes]]、[[領取時段|/quests/#claim-windows]]。"
+          ],
+          "STOVE 14571828 · 14606492 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-26 — 時程現況：優芬妮、魅力週與胡蘿蔔已結束；賽西莉亞、Catalyst Search 與宮廷女僕的日常已開放",
           [
@@ -11467,7 +11497,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "活頁日誌 — Last verified 2026-11-26, Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
+      "cont": "活頁日誌 — Last verified 2026-11-27, Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
       "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最新：11/19 維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。Version 8.7 第 2 彈：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia & Covert Service 契約提高掉率 11/26 03:00 – 12/17 02:59 UTC（現已開放）；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC；7 名英雄平衡於維護後套用。3,000 天留言活動已於 11/18 14:59 UTC 結束（2 Leif 預定 11/20 發放，未公布時刻）；收胡蘿蔔已於 11/26 02:59 UTC 結束。Moro Mystic 與 Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-26, Asia/Shanghai。"
     },
@@ -11477,6 +11507,16 @@ export const CONTENT = {
       "h1": "อัปเดต — ฮีโร่และอีเวนต์",
       "lead": "ประกาศทางการใช้เวลา UTC (Asia/Shanghai คือ UTC+8) ใหม่สุดขึ้นก่อน เราสรุปโพสต์สาธารณะของ STOVE / Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด",
       "cards": [
+        [
+          "2026-11-27 — สถานะกำหนดการ: หน้าต่างเก็บ 7 วันของจดหมายเติบโต Foundry จบแล้ว",
+          [
+            "ตรวจสอบแล้วเมื่อ 27 พ.ย. 2026 เวลา Asia/Shanghai จากประกาศทางการ STOVE 14571828 (แก้ไข 11/24 06:03 UTC) และประกาศที่อ้างในการ์ด 26 พ.ย. แล้ว ข่าว Steam ในการตรวจครั้งนี้ยังไม่มีโพสต์ใหม่กว่าอัปเดต Version 8.7 วันที่ 18 พ.ย. 2026 18:30 Asia/Shanghai โพสต์ Known Issues ยังเป็นการแก้ไข 11/23 09:10 UTC (STOVE 14640458); หน้านี้ไม่สร้างผลการแก้ไขขึ้นเอง",
+            "ช่วงล็อกอินของจดหมายเติบโต Foundry สิ้นสุด 11/19 02:59 UTC ระยะเก็บทางการคือ 7 วันนับจากวันที่ได้รับ ดังนั้นหน้าต่าง 7 วันที่ช้าที่สุด (จดหมายที่ส่งตรงเส้นตายล็อกอิน) จบแล้วเมื่อ 11/26 02:59 UTC ล็อกอินตอนนี้จะไม่มีจดหมายใหม่ และนี่ไม่ใช่คำแนะนำให้กดรับตอนนี้ จดหมายที่พลาดจะไม่ถูกส่งซ้ำ ป๊อปอัปสกินต้อนรับตอนล็อกอินครั้งแรกยังเปิดถึง 12/31 02:59 UTC ช่วงล็อกอินของจดหมายไมล์สโตน Wishlist ของ Steam สิ้นสุด 11/19 03:00 UTC; หน้าต่างเก็บ 7 วันที่ช้าที่สุดก็จบแล้วเมื่อ 11/26 03:00 UTC เช่นกัน",
+            "ยังเป็นปัจจุบันเหมือนการตรวจ 26 พ.ย.: Cecilia & Covert Service Covenant Drop Rate Up ถึง 12/17 02:59 UTC; Catalyst Search ถึง 12/3 02:59 UTC; Daily Life of a Palace Maid ถึงรีเซ็ตของแต่ละเซิร์ฟเวอร์ใน 17 ธ.ค. (ร้านค้าถึง 17 ธ.ค. 2026 02:59 UTC); Dirge of the End: Rewind ถึง 17 ธ.ค. 2026 02:59 UTC เรตราทอัพของ Yufine, สัปดาห์ชาร์ม Ruins Reclamation และเก็บแครอทยังจบที่ 11/26 02:59 UTC",
+            "เส้นทางปัจจุบัน: [[แบนเนอร์|/banners/]], [[เส้นทางอีเวนต์|/quests/#event-routes]], [[ช่วงรับของ|/quests/#claim-windows]]."
+          ],
+          "STOVE 14571828 · 14606492 · 14638143 · 14638258 · 14638262 · 14638347 · 14640458"
+        ],
         [
           "2026-11-26 — สถานะกำหนดการ: Yufine สัปดาห์ชาร์ม และแครอทจบแล้ว; Cecilia, Catalyst Search และ Palace Maid เปิดแล้ว",
           [
@@ -11608,7 +11648,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "บันทึก live — Last verified 2026-11-26, Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
+      "cont": "บันทึก live — Last verified 2026-11-27, Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
       "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ล่าสุด: ปิดปรับปรุง 11/19 เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. Version 8.7 ครั้งที่ 2: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC (เปิดแล้ว); Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC; ปรับสมดุล 7 ฮีโร่หลังปิดปรับปรุง. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC (2 Leif กำหนด 11/20 ไม่ระบุเวลา); เก็บแครอทสิ้นสุด 11/26 02:59 UTC. Moro Mystic และ Lucky Board สิ้นสุด 11/19 02:59 UTC; ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
