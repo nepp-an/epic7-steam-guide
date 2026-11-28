@@ -3685,9 +3685,9 @@ export const CONTENT = {
   },
   "/steam-transfer/": {
     "en": {
-      "title": "Epic Seven Steam Transfer: Keep Your STOVE Progress",
-      "meta": "Transfer or link your Epic Seven STOVE account to Steam and keep your progress. Convert on STOVE first, or Steam may start a new empty save.",
-      "h1": "Epic Seven Steam transfer — keep progress",
+      "title": "How to Link Epic Seven STOVE to Steam and Keep Progress",
+      "meta": "How to link your Epic Seven STOVE account to Steam and keep progress. Convert on STOVE first, or Steam may start a new empty save.",
+      "h1": "How to link Epic Seven STOVE to Steam and keep progress",
       "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
       "diagram": [
         "Mobile / STOVE PC account",
@@ -6901,7 +6901,7 @@ export const CONTENT = {
   "/foundry/": {
     "en": {
       "title": "Epic Seven Foundry Server Guide: Calendar & Guild War | E7",
-      "meta": "Foundry guide: calendar, unlocks, Guild War — 11/19 intro, 11/21 defense teams, 11/23 matchmaking, World Arena 12/10. Foundry codes ≠ coupons.",
+      "meta": "Foundry server guide for Epic Seven: calendar, unlocks, Guild War, and World Arena after the 10 December 2026 maintenance. Foundry codes are not coupons.",
       "h1": "Foundry server guide — schedule & rewards",
       "lead": "Draft Arena is temporarily replaced by The Call of Chaos during Season 2 and its grace period, ending 17 Dec, 02:59 UTC. World Arena is scheduled after the 10 Dec maintenance.",
       "as_of": "Schedule review: 23 November 2026, Asia/Shanghai. The Guild War status below describes official dates, not a live record of your guild’s match or reward delivery.",
@@ -10122,8 +10122,8 @@ export const CONTENT = {
   },
   "/secret-rabbit-hole/": {
     "en": {
-      "title": "Secret Rabbit♥Hole — Epic Seven Case Files",
-      "meta": "Six-week side story, Alencia Case Files, Lucky Board, lobby pack. Independent overview citing STOVE.",
+      "title": "Secret Rabbit Hole — Epic Seven Side Story & Case Files",
+      "meta": "Epic Seven Secret Rabbit Hole side story: Alencia Case Files, Lucky Board, and the lobby pack. Independent overview citing official STOVE.",
       "h1": "Secret Rabbit♥Hole",
       "lead": "Special side story with the Steam / Foundry launch window. Enter via lobby Secret Rabbit♥Hole icon. Summaries cite STOVE — schedules can change in-game.",
       "deadline_h2": "Lucky Board / Moro — ended 2026-11-19 02:59 UTC",
@@ -10595,7 +10595,7 @@ export const CONTENT = {
   "/banners/": {
     "en": {
       "title": "Epic Seven Current Banner: Bunny Girl Maid Cecilia | Steam",
-      "meta": "The current Epic Seven pickup is Bunny Girl Maid Cecilia and Covert Service, through 17 December 2026. Confirm the window on official STOVE.",
+      "meta": "Current Epic Seven pickup: Bunny Girl Maid Cecilia and Covert Service, through 17 December 2026, plus recent banner windows. Confirm dates on official STOVE.",
       "h1": "Epic Seven current banner — Bunny Girl Maid Cecilia",
       "lead": "Official notices use UTC; Asia/Shanghai is UTC+8. Current: Bunny Girl Maid Cecilia & Covert Service, 11/26 03:00 – 12/17 02:59 UTC. Ended: Bunny Girl Mafia Yufine, 11/5 03:00 – 11/26 02:59 UTC. The official 11/19 post publishes Cecilia’s guaranteed-summon and 1% featured-rate rules; for ended or other banners, use the in-client banner for cost, rates, and pity. Then the Foundry launch baseline. We do not sell bookmarks or gray codes.",
       "pickup_kicker": "Ended pickup · closed 26 Nov 2026, 02:59 UTC",
@@ -10932,7 +10932,7 @@ export const CONTENT = {
   "/updates/": {
     "en": {
       "title": "Epic Seven Patch Notes and Known Issues | Steam",
-      "meta": "Epic Seven patch notes for Steam and Foundry, plus known issues from official STOVE posts. See what changed, and which issues are still listed as open.",
+      "meta": "Epic Seven patch notes and known issues for Steam and Foundry, from official STOVE posts: what changed, and which issues are still listed as open.",
       "h1": "Epic Seven Patch Notes and Known Issues",
       "lead": "These Epic Seven patch notes are listed newest first. Official notices use UTC; Asia/Shanghai is UTC+8 (02:59 UTC is 10:59, and 03:00 UTC is 11:00). Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
       "cards": [
@@ -12293,9 +12293,9 @@ export const CONTENT = {
   },
   "/maintenance/": {
     "en": {
-      "title": "Epic Seven Maintenance & Patch Notes — Steam & Foundry",
-      "meta": "Epic Seven maintenance and patch notes for Steam / Foundry: current window, Foundry Guild War stages, and the 11/19 balance preview. Cite STOVE/Steam.",
-      "h1": "Epic Seven maintenance & patch notes",
+      "title": "Epic Seven Maintenance Time — Steam & Foundry Schedule",
+      "meta": "Epic Seven maintenance time for Steam and Foundry: current window, and where to confirm official STOVE and Steam notices. Patch notes are on the updates page.",
+      "h1": "Epic Seven maintenance time — Steam & Foundry",
       "lead": "Track weekly patches affecting Steam clients, Foundry unlocks, and launch caveats (e.g. Japanese VO delay).",
       "cards": [
         
@@ -17202,7 +17202,7 @@ export const CONTENT = {
   "/case-files/": {
     "en": {
       "title": "Trusty Sidekick Alencia's Case Files | Epic Seven",
-      "meta": "Walk through Trusty Sidekick Alencia's Case Files in Secret Rabbit Hole, including Cases 1–3 and the 10 December 2026 deadline. No answer spoilers.",
+      "meta": "Walk through Trusty Sidekick Alencia's Case Files in Secret Rabbit Hole, including Cases 1–3 and the 10 December 2026 deadline.",
       "h1": "Trusty Sidekick Alencia's Case Files — Cases 1, 2 & 3",
       "answer": "Trusty Sidekick Alencia's Case Files: open Lobby → Secret Rabbit Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
       "paras": [
