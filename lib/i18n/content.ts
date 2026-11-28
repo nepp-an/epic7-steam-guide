@@ -10937,6 +10937,18 @@ export const CONTENT = {
       "lead": "These Epic Seven patch notes are listed newest first. Official notices use UTC; Asia/Shanghai is UTC+8 (02:59 UTC is 10:59, and 03:00 UTC is 11:00). Maintenance windows, known issues and patch history also live on [[the maintenance log|/maintenance/]]. We summarize public STOVE / Steam posts — not a full official patch mirror.",
       "cards": [
         [
+          "2026-11-28 — Official E7WC Grand Final match and broadcast information",
+          [
+            "Checked 28 November 2026, Asia/Shanghai, against official STOVE notice 14653314 (posted 27 Nov 2026). The Known Issues post is still the 11/23 09:10 UTC edit (STOVE 14640458); the Foundry event notice is still the 11/24 06:03 UTC edit (STOVE 14571828). This page does not invent a fix. Steam news was not readable at this check (API HTTP 403).",
+            "Official match schedule: 11/28 (Sat) 03:00 UTC. Official venue in that post: Lotte Cinema World Tower, 7F/10F (300 Olympic-ro, Songpa-gu, Seoul). Official livestreams listed there are YouTube only: KR https://www.youtube.com/@EpicSevenKR, EN https://www.youtube.com/@EpicSeven, TW https://www.youtube.com/@EpicSevenTW, JP https://www.youtube.com/@EpicSevenJP. That post does not name Twitch, CHZZK, or viewing-reward coupon contents.",
+            "The earlier schedule post (STOVE 14499965) still contains the player-facing Super Plex / travel wording and the earlier sentence: watch the broadcasts on Twitch (CHZZK for Korea) to earn rewards, with viewing reward coupons announced during the broadcasts. This card does not treat those older lines as cancelled; current broadcast channels follow 14653314. This page does not invent audience tickets or coupon details.",
+            "The cheer comment event (STOVE 14650455) remains open through 11/28 (Sat) 09:00 UTC (17:00 Asia/Shanghai). After that deadline the cheer section must switch to past tense; 2 Leif delivery on 2026/12/4 (Fri), storage 7 days, stays until official word says otherwise.",
+            "Unchanged from the 27 November check and still current: Cecilia & Covert Service Covenant Drop Rate Up through 12/17 02:59 UTC; Catalyst Search through 12/3 02:59 UTC; Daily Life of a Palace Maid through 17 Dec at each server's reset (shop until 17 Dec 2026, 02:59 UTC); Dirge of the End: Rewind through 17 Dec 2026, 02:59 UTC; Call of Chaos Season 2 through 12/10 02:59 UTC. Foundry growth-mail and Steam wishlist latest 7-day storage windows remain ended as of the 11/27 card.",
+            "Current routes: [[E7WC Grand Final|/e7wc-2026-grand-final/]], [[banners|/banners/]], [[event routes|/quests/#event-routes]], [[claim windows|/quests/#claim-windows]]."
+          ],
+          "STOVE 14653314 · 14650455 · 14499965 · 14640458 · 14571828"
+        ],
+        [
           "2026-11-27 — Schedule status: Foundry growth-mail 7-day storage window has ended",
           [
             "Checked 27 November 2026, Asia/Shanghai, against official STOVE notice 14571828 (edited 11/24 06:03 UTC) and the notices already cited in the 26 November card. Steam news at this check still had no post newer than the 18 Nov 2026, 18:30 Asia/Shanghai Version 8.7 update. The Known Issues post is still the 11/23 09:10 UTC edit (STOVE 14640458); this page does not invent a fix.",
@@ -11077,7 +11089,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "Living log — last verified 2026-11-27, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
+      "cont": "Living log — last verified 2026-11-28, Asia/Shanghai. Updated when an official STOVE/Steam post changes a date or status.",
       "img_alt": "Steam store screenshot for Epic Seven — Steam CDN citation",
       "answer": "Newest patch: the 11/20 (Fri) patch is completed; its 08:30–09:30 UTC window has ended. Latest: the 11/19 maintenance is completed. It was posted for 03:00–10:00 UTC and ended early at 09:30 UTC. Compensation was Leif ×6 to the in-game mailbox, storage 7 days; the claim period ended 11/20 14:59 UTC, so it is past, not a live claim. Version 8.7 2nd update followed: the 2 Leif update-mail collection ended 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service Covenant rate-up runs 11/26 03:00 – 12/17 02:59 UTC (now open); Call of Chaos Season 2 runs after maintenance – 12/10 02:59 UTC; seven Heroes were balanced after maintenance. The 3,000-day comment event ended 11/18 14:59 UTC (2 Leif scheduled 11/20, no hour published); carrots ended 11/26 02:59 UTC. Moro Mystic and Lucky Board ended 11/19 02:59 UTC; the side story and Case Files run to 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },
@@ -11087,6 +11099,18 @@ export const CONTENT = {
       "h1": "업데이트 — 영웅·이벤트",
       "lead": "공식 공지는 UTC를 사용합니다. Asia/Shanghai는 UTC+8입니다. 최신 우선. 공개 STOVE/Steam 요약 — 전체 패치 미러 아님.",
       "cards": [
+        [
+          "2026-11-28 — 공식 E7WC 결승 경기 및 중계 안내",
+          [
+            "2026년 11월 28일 Asia/Shanghai, 공식 공지 14653314(2026년 11월 27일 게시)를 대조했습니다. Known Issues 글은 여전히 11/23 09:10 UTC 수정본(STOVE 14640458)이며, Foundry 이벤트 공지는 여전히 11/24 06:03 UTC 수정본(STOVE 14571828)입니다. 이 페이지는 수정을 단정하지 않습니다. 이번 확인에서 Steam 뉴스는 읽을 수 없었습니다(API HTTP 403).",
+            "공식 경기 일정: 11/28 (토) 03:00 UTC. 해당 공지의 공식 장소: Lotte Cinema World Tower, 7F/10F (300 Olympic-ro, Songpa-gu, Seoul). 공지에 적힌 공식 중계는 YouTube뿐입니다. KR https://www.youtube.com/@EpicSevenKR, EN https://www.youtube.com/@EpicSeven, TW https://www.youtube.com/@EpicSevenTW, JP https://www.youtube.com/@EpicSevenJP. 이 공지는 Twitch, CHZZK, 시청 보상 쿠폰 내용을 적지 않습니다.",
+            "이전 일정 공지(STOVE 14499965)에는 선수 대상 Super Plex / 여행 안내와, Twitch(한국은 CHZZK)에서 방송을 시청해 보상을 받고 시청 보상 쿠폰은 방송 중 안내된다는 문장이 그대로 있습니다. 이 카드는 그 이전 문장을 취소된 것으로 보지 않으며, 현재 중계 채널은 14653314을 따릅니다. 관객 티켓이나 쿠폰 내용은 만들지 않습니다.",
+            "응원 댓글 이벤트(STOVE 14650455)는 11/28 (토) 09:00 UTC(Asia/Shanghai 17:00)까지 열려 있습니다. 그 마감 이후 응원 구간은 과거형으로 바꿔야 하며, 2026/12/4 (금) 2 Leif 지급(보관 7일) 안내는 공식 추가 공지가 있기 전까지 유지합니다.",
+            "11월 27일 확인과 동일하게 현재 진행 중: Cecilia & Covert Service 계약 드롭률 업은 12/17 02:59 UTC까지, Catalyst Search는 12/3 02:59 UTC까지, Daily Life of a Palace Maid는 각 서버 리셋 기준 12월 17일까지(상점은 2026년 12월 17일 02:59 UTC까지), Dirge of the End: Rewind는 2026년 12월 17일 02:59 UTC까지, Call of Chaos 시즌 2는 12/10 02:59 UTC까지. Foundry 성장 우편과 Steam 위시리스트의 가장 늦은 7일 보관 창은 11/27 카드 기준으로 종료된 상태입니다.",
+            "현재 경로: [[E7WC 결승|/e7wc-2026-grand-final/]], [[배너|/banners/]], [[이벤트 경로|/quests/#event-routes]], [[수령 기간|/quests/#claim-windows]]."
+          ],
+          "STOVE 14653314 · 14650455 · 14499965 · 14640458 · 14571828"
+        ],
         [
           "2026-11-27 — 일정 현황: 파운드리 성장 우편 7일 보관 창 종료",
           [
@@ -11228,7 +11252,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "활페이지 — Last verified 2026-11-27, Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
+      "cont": "활페이지 — Last verified 2026-11-28, Asia/Shanghai. 공식 STOVE/Steam 글이 날짜나 상태를 바꿀 때 갱신합니다.",
       "img_alt": "Epic Seven Steam 스크린샷 — Steam CDN",
       "answer": "최신 패치: 11/20 (금) 패치가 완료되었습니다. 08:30–09:30 UTC(16:30–17:30 Asia/Shanghai) 창은 종료되었습니다. 최신: 11/19 점검은 완료되었습니다. 공지된 창은 03:00–10:00 UTC(11:00–18:00 Asia/Shanghai)였고 09:30 UTC(17:30 Asia/Shanghai)에 조기 종료되었습니다. 보상은 게임 내 우편함으로 Leif ×6, 보관 7일이었으며 수령 기간은 11/20 14:59 UTC(22:59 Asia/Shanghai)에 끝났습니다. 지금 받는 안내가 아니라 지난 기록입니다. Version 8.7 2nd 업데이트: 2 Leif 업데이트 메일 수령은 11/21 10:30 UTC에 종료; Bunny Girl Maid Cecilia & Covert Service 계약 드롭률 업은 11/26 03:00 – 12/17 02:59 UTC(지금 열림); Call of Chaos 시즌 2는 점검 후 – 12/10 02:59 UTC; 영웅 7명 밸런스는 점검 후 적용. 3,000일 댓글 이벤트는 11/18 14:59 UTC 종료(2 Leif는 11/20 지급 예정, 시각 미공지); 당근 이벤트는 11/26 02:59 UTC에 종료. Moro Mystic과 Lucky Board는 11/19 02:59 UTC 종료, 사이드/Case Files는 12/10 02:59 UTC까지. Last verified 2026-11-26, Asia/Shanghai."
     },
@@ -11356,6 +11380,18 @@ export const CONTENT = {
       "h1": "更新 — 英雄與活動",
       "lead": "官方公告使用 UTC；Asia/Shanghai 為 UTC+8。最新在上。摘要公開 STOVE／Steam——非完整補丁鏡像。",
       "cards": [
+        [
+          "2026-11-28 — 官方 E7WC 決賽賽程與轉播資訊",
+          [
+            "2026 年 11 月 28 日 Asia/Shanghai，已核對官方公告 14653314（2026 年 11 月 27 日發布）。Known Issues 文仍為 11/23 09:10 UTC 修訂（STOVE 14640458）；Foundry 活動公告仍為 11/24 06:03 UTC 修訂（STOVE 14571828）。本頁不自行斷定已修復。此輪無法讀取 Steam 新聞（API HTTP 403）。",
+            "官方賽程：11/28（週六）03:00 UTC。該公告的官方場地：Lotte Cinema World Tower, 7F/10F（300 Olympic-ro, Songpa-gu, Seoul）。公告列出的官方直播僅有 YouTube：KR https://www.youtube.com/@EpicSevenKR、EN https://www.youtube.com/@EpicSeven、TW https://www.youtube.com/@EpicSevenTW、JP https://www.youtube.com/@EpicSevenJP。該公告未寫 Twitch、CHZZK 或觀看獎勵兌換券內容。",
+            "較早的賽程公告（STOVE 14499965）仍有給選手的 Super Plex／出行說明，以及「在 Twitch（韓國為 CHZZK）觀看放送以獲得獎勵、觀看獎勵兌換券會在放送中公布」的句子。本卡不把那些舊句當成已取消；目前轉播頻道以 14653314 為準。本頁不編造觀眾門票或兌換券內容。",
+            "應援留言活動（STOVE 14650455）仍開放至 11/28（週六）09:00 UTC（Asia/Shanghai 17:00）。該截止後應援段落必須改成結束態；2026/12/4（週五）發放 2 Leif、保管 7 天的說明，在官方另有通知前維持。",
+            "與 11 月 27 日核對結果相同、目前仍進行中：Cecilia & Covert Service Covenant 提高掉率至 12/17 02:59 UTC；Catalyst Search 至 12/3 02:59 UTC；Daily Life of a Palace Maid 至各伺服器重置日 12 月 17 日（商店至 2026 年 12 月 17 日 02:59 UTC）；Dirge of the End: Rewind 至 2026 年 12 月 17 日 02:59 UTC；Call of Chaos 第 2 季至 12/10 02:59 UTC。Foundry 成長郵件與 Steam 願望清單最晚 7 天保管窗口仍如 11/27 卡片所述已結束。",
+            "目前路徑：[[E7WC 決賽|/e7wc-2026-grand-final/]]、[[卡池|/banners/]]、[[活動路線|/quests/#event-routes]]、[[領獎窗口|/quests/#claim-windows]]。"
+          ],
+          "STOVE 14653314 · 14650455 · 14499965 · 14640458 · 14571828"
+        ],
         [
           "2026-11-27 — 時程現況：Foundry 成長郵件 7 天保管窗口已結束",
           [
@@ -11497,7 +11533,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "活頁日誌 — Last verified 2026-11-27, Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
+      "cont": "活頁日誌 — Last verified 2026-11-28, Asia/Shanghai。官方 STOVE／Steam 貼文改變日期或狀態時更新。",
       "img_alt": "Epic Seven Steam 截圖 — Steam CDN",
       "answer": "最新補丁：11/20（週五）補丁已完成，08:30–09:30 UTC（16:30–17:30 Asia/Shanghai）窗口已結束。最新：11/19 維護已完成。公告窗口為 03:00–10:00 UTC（11:00–18:00 Asia/Shanghai），實際於 09:30 UTC（17:30 Asia/Shanghai）提前結束。補償為遊戲內信箱 Leif ×6、保存 7 天；領取期已於 11/20 14:59 UTC（22:59 Asia/Shanghai）結束，是過去的紀錄，不是現在可領。Version 8.7 第 2 彈：2 Leif 更新郵件領取已於 11/21 10:30 UTC 結束；Bunny Girl Maid Cecilia & Covert Service 契約提高掉率 11/26 03:00 – 12/17 02:59 UTC（現已開放）；Call of Chaos 第 2 賽季維護後 – 12/10 02:59 UTC；7 名英雄平衡於維護後套用。3,000 天留言活動已於 11/18 14:59 UTC 結束（2 Leif 預定 11/20 發放，未公布時刻）；收胡蘿蔔已於 11/26 02:59 UTC 結束。Moro Mystic 與 Lucky Board 已於 11/19 02:59 UTC 結束，支線／Case Files 仍至 12/10 02:59 UTC。Last verified 2026-11-26, Asia/Shanghai。"
     },
@@ -11507,6 +11543,18 @@ export const CONTENT = {
       "h1": "อัปเดต — ฮีโร่และอีเวนต์",
       "lead": "ประกาศทางการใช้เวลา UTC (Asia/Shanghai คือ UTC+8) ใหม่สุดขึ้นก่อน เราสรุปโพสต์สาธารณะของ STOVE / Steam — ไม่ใช่การมิเรอร์แพตช์ทั้งหมด",
       "cards": [
+        [
+          "2026-11-28 — ข้อมูลแมตช์และถ่ายทอดสด E7WC Grand Final ทางการ",
+          [
+            "ตรวจสอบวันที่ 28 พฤศจิกายน 2026, Asia/Shanghai กับประกาศทางการ STOVE 14653314 (โพสต์ 27 พ.ย. 2026). โพสต์ Known Issues ยังเป็นการแก้ไข 11/23 09:10 UTC (STOVE 14640458); ประกาศอีเวนต์ Foundry ยังเป็นการแก้ไข 11/24 06:03 UTC (STOVE 14571828). หน้านี้ไม่ยืนยันว่าแก้ไขแล้ว. รอบนี้ไม่สามารถอ่านข่าว Steam ได้ (API HTTP 403).",
+            "กำหนดแมตช์ทางการ: 11/28 (ส.) 03:00 UTC. สถานที่ในประกาศนั้น: Lotte Cinema World Tower, 7F/10F (300 Olympic-ro, Songpa-gu, Seoul). ถ่ายทอดสดที่ระบุมีเฉพาะ YouTube: KR https://www.youtube.com/@EpicSevenKR, EN https://www.youtube.com/@EpicSeven, TW https://www.youtube.com/@EpicSevenTW, JP https://www.youtube.com/@EpicSevenJP. ประกาศนี้ไม่ระบุ Twitch, CHZZK หรือเนื้อหาคูปองรางวัลการรับชม.",
+            "ประกาศตารางก่อนหน้า (STOVE 14499965) ยังมีข้อความสำหรับผู้เข้าแข่งขันเรื่อง Super Plex / การเดินทาง และประโยคว่าให้รับชมบน Twitch (เกาหลีใช้ CHZZK) เพื่อรับรางวัล โดยคูปองจะประกาศระหว่างถ่ายทอด. การ์ดนี้ไม่ถือว่าข้อความเก่าถูกยกเลิก; ช่องถ่ายทอดปัจจุบันใช้ 14653314. หน้านี้ไม่สมมติตั๋วผู้ชมหรือรายละเอียดคูปอง.",
+            "อีเวนต์คอมเมนต์เชียร์ (STOVE 14650455) ยังเปิดถึง 11/28 (ส.) 09:00 UTC (17:00 Asia/Shanghai). หลังเส้นตายนั้นส่วนเชียร์ต้องเปลี่ยนเป็นอดีตกาล; การส่ง 2 Leif ใน 2026/12/4 (ศ.) เก็บ 7 วัน คงไว้จนกว่าจะมีประกาศทางการอื่น.",
+            "เหมือนการตรวจ 27 พ.ย. และยังดำเนินอยู่: Cecilia & Covert Service Covenant Drop Rate Up ถึง 12/17 02:59 UTC; Catalyst Search ถึง 12/3 02:59 UTC; Daily Life of a Palace Maid ถึงรีเซ็ตแต่ละเซิร์ฟเวอร์ 17 ธ.ค. (ร้านถึง 17 ธ.ค. 2026, 02:59 UTC); Dirge of the End: Rewind ถึง 17 ธ.ค. 2026, 02:59 UTC; Call of Chaos ซีซัน 2 ถึง 12/10 02:59 UTC. หน้าต่างเก็บ 7 วันล่าสุดของจดหมายเติบโต Foundry และวิชลิสต์ Steam ยังจบแล้วตามการ์ด 11/27.",
+            "เส้นทางปัจจุบัน: [[E7WC Grand Final|/e7wc-2026-grand-final/]], [[แบนเนอร์|/banners/]], [[เส้นทางอีเวนต์|/quests/#event-routes]], [[หน้าต่างรับรางวัล|/quests/#claim-windows]]."
+          ],
+          "STOVE 14653314 · 14650455 · 14499965 · 14640458 · 14571828"
+        ],
         [
           "2026-11-27 — สถานะกำหนดการ: หน้าต่างเก็บ 7 วันของจดหมายเติบโต Foundry จบแล้ว",
           [
@@ -11648,7 +11696,7 @@ export const CONTENT = {
           null
         ]
       ],
-      "cont": "บันทึก live — Last verified 2026-11-27, Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
+      "cont": "บันทึก live — Last verified 2026-11-28, Asia/Shanghai อัปเดตเมื่อโพสต์ STOVE/Steam ทางการเปลี่ยนวันที่หรือสถานะ",
       "img_alt": "ภาพหน้าจอร้านค้า Steam ของ Epic Seven — อ้างอิงจาก Steam CDN",
       "answer": "แพตช์ล่าสุด: แพตช์ 11/20 (ศ.) เสร็จสิ้นแล้ว ช่วง 08:30–09:30 UTC (16:30–17:30 Asia/Shanghai) สิ้นสุดแล้ว ล่าสุด: ปิดปรับปรุง 11/19 เสร็จสิ้นแล้ว ประกาศช่วง 03:00–10:00 UTC (11:00–18:00 Asia/Shanghai) และจบก่อนกำหนด 09:30 UTC (17:30 Asia/Shanghai). ค่าชดเชยคือ Leif ×6 เข้ากล่องจดหมายในเกม เก็บ 7 วัน; ช่วงรับสิ้นสุด 11/20 14:59 UTC (22:59 Asia/Shanghai) จึงเป็นอดีต ไม่ใช่คำแนะนำให้รับตอนนี้. Version 8.7 ครั้งที่ 2: รับ 2 Leif จากอีเมลอัปเดตสิ้นสุด 11/21 10:30 UTC; Bunny Girl Maid Cecilia & Covert Service เพิ่มอัตรา 11/26 03:00 – 12/17 02:59 UTC (เปิดแล้ว); Call of Chaos ซีซัน 2 หลังปิดปรับปรุง – 12/10 02:59 UTC; ปรับสมดุล 7 ฮีโร่หลังปิดปรับปรุง. อีเวนต์คอมเมนต์ 3,000 วันสิ้นสุด 11/18 14:59 UTC (2 Leif กำหนด 11/20 ไม่ระบุเวลา); เก็บแครอทสิ้นสุด 11/26 02:59 UTC. Moro Mystic และ Lucky Board สิ้นสุด 11/19 02:59 UTC; ไซด์สตอรี่/Case Files ถึง 12/10 02:59 UTC. Last verified 2026-11-26, Asia/Shanghai."
     },

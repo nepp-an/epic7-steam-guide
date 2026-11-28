@@ -10,7 +10,7 @@ const PATH = '/e7wc-2026-grand-final/';
 const TITLE = 'E7WC 2026 Grand Final Time & Cheer Comment Event';
 const H1 = 'E7WC 2026 Grand Final and cheer comment event';
 const DESCRIPTION =
-  'E7WC 2026 Grand Final starts 28 Nov 2026, 03:00 UTC. The cheer comment event is open 26–28 Nov 2026, 09:00 UTC: comment format, 2 Leif for all participants on 4 Dec, and official viewing notes. Independent guide — verify on STOVE.';
+  'E7WC 2026 Grand Final starts 28 Nov 2026, 03:00 UTC. Official 11/27 notice lists YouTube livestreams (KR/EN/TW/JP). The cheer comment event is open 26–28 Nov 2026, 09:00 UTC: comment format, 2 Leif for all participants on 4 Dec. Independent guide — verify on STOVE.';
 
 export const metadata: Metadata = pageMetadata({
   title: TITLE,
@@ -45,16 +45,18 @@ export default function Page() {
       <IndepNotice locale="en" compact />
       <p className="last-verified">
         Official STOVE notices opened{' '}
-        <time dateTime="2026-11-26">2026-11-26</time> (Asia/Shanghai).
+        <time dateTime="2026-11-28">2026-11-28</time> (Asia/Shanghai), including
+        the 11/27 match and broadcast notice.
       </p>
       <p className="quick-answer">
         <strong>The cheer comment event is open now. </strong>
         Leave a formatted comment with a live-stream screenshot from 26 Nov
         through 28 Nov 2026, 09:00 UTC. The Grand Final broadcast day starts
         at 28 Nov 2026, 03:00 UTC and also includes the Winners Bracket Finals
-        and Losers Bracket Finals. After 28 Nov 2026, 09:00 UTC this cheer
-        section should be switched to past tense; the 4 Dec reward-delivery
-        reminder stays until official word says otherwise.
+        and Losers Bracket Finals. Official 11/27 livestreams are on YouTube
+        (KR/EN/TW/JP). After 28 Nov 2026, 09:00 UTC this cheer section should
+        be switched to past tense; the 4 Dec reward-delivery reminder stays
+        until official word says otherwise.
       </p>
       <nav className="anchor-nav" aria-label="On this page">
         <a href="#schedule">Schedule</a>
@@ -154,30 +156,69 @@ export default function Page() {
       <section id="watch" aria-labelledby="watch-title">
         <h2 id="watch-title">Watching the broadcast</h2>
         <p>
-          Official notice: watch the E7WC 2026 broadcasts on Twitch (CHZZK for
-          Korea) to earn rewards. Viewing reward coupons will also be announced
-          during the broadcasts. This page does not invent a channel URL or the
-          contents or quantity of those coupons.
+          Official 11/27 match and broadcast notice (STOVE 14653314): the Grand
+          Final takes place on 11/28 (Sat) at 03:00 UTC. Livestreams listed in
+          that post:
+        </p>
+        <ul>
+          <li>
+            KR YouTube —{' '}
+            <ExternalLink href="https://www.youtube.com/@EpicSevenKR">
+              https://www.youtube.com/@EpicSevenKR
+            </ExternalLink>
+          </li>
+          <li>
+            EN YouTube —{' '}
+            <ExternalLink href="https://www.youtube.com/@EpicSeven">
+              https://www.youtube.com/@EpicSeven
+            </ExternalLink>
+          </li>
+          <li>
+            TW YouTube —{' '}
+            <ExternalLink href="https://www.youtube.com/@EpicSevenTW">
+              https://www.youtube.com/@EpicSevenTW
+            </ExternalLink>
+          </li>
+          <li>
+            JP YouTube —{' '}
+            <ExternalLink href="https://www.youtube.com/@EpicSevenJP">
+              https://www.youtube.com/@EpicSevenJP
+            </ExternalLink>
+          </li>
+        </ul>
+        <p className="muted">
+          That 11/27 notice does not name Twitch, CHZZK, or the contents or
+          quantity of viewing-reward coupons. An earlier official schedule post
+          (STOVE 14499965) still says: “Watch the E7WC 2026 broadcasts on Twitch
+          (CHZZK for Korea) to earn rewards,” and that viewing reward coupons
+          will be announced during the broadcasts. This page does not invent
+          coupon details, and it does not treat those earlier lines as cancelled.
         </p>
         <p className="muted">
-          The official schedule post has a “Visit the E7WC 2026 Official
+          The same earlier schedule post has a “Visit the E7WC 2026 Official
           Website” prompt but does not publish a copyable URL in the body this
-          page opened. This page does not invent that link.
+          site opened. This page does not invent that link.
         </p>
       </section>
 
       <section id="offline" aria-labelledby="offline-title">
         <h2 id="offline-title">Offline finals</h2>
         <p>
-          Official player-facing notice: the Finals will be held offline at the
-          Super Plex theater of Lotte Cinema, Lotte World Tower in Jamsil,
-          Seoul, South Korea. Players must be able to travel to South Korea
-          during the Finals schedule. The organizers cover airfare, lodging,
-          food, and more for players traveling to the Grand Final.
+          Official 11/27 match notice (STOVE 14653314): the venue is Lotte
+          Cinema World Tower, 7F/10F (300 Olympic-ro, Songpa-gu, Seoul).
         </p>
         <p>
-          Further details will be shared in a separate notice. This page does
-          not invent audience tickets, entry rules, or seating information.
+          Earlier official player-facing schedule post (STOVE 14499965): the
+          Finals will be held offline at the Super Plex theater of Lotte Cinema,
+          Lotte World Tower in Jamsil, Seoul, South Korea. Players must be able
+          to travel to South Korea during the Finals schedule. The organizers
+          cover airfare, lodging, food, and more for players traveling to the
+          Grand Final.
+        </p>
+        <p>
+          The earlier post said further details would be shared in a separate
+          notice. This page does not invent audience tickets, entry rules, or
+          seating information.
         </p>
       </section>
 
@@ -202,6 +243,12 @@ export default function Page() {
       <section id="sources" className="sources" aria-labelledby="sources-title">
         <h2 id="sources-title">Official sources opened for this page</h2>
         <ul>
+          <li>
+            <ExternalLink href={OFFICIAL.stoveE7wcBroadcast}>
+              STOVE 14653314 — E7WC 2026 Grand Final Match and Broadcast
+              Information
+            </ExternalLink>
+          </li>
           <li>
             <ExternalLink href={OFFICIAL.stoveE7wcCheer}>
               STOVE 14650455 — E7WC 2026 Grand Final Cheer Comment Event

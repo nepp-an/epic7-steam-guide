@@ -13,7 +13,7 @@ const CARDS = [
     id: 'e7wc-grand-final',
     status: 'Open now',
     title: 'E7WC 2026 Grand Final cheer comment event',
-    lead: 'The cheer comment event is open through 28 Nov 2026, 09:00 UTC. The Grand Final day starts 28 Nov 2026, 03:00 UTC. All valid participants receive 2 Leif on 4 Dec.',
+    lead: 'The cheer comment event is open through 28 Nov 2026, 09:00 UTC. The Grand Final day starts 28 Nov 2026, 03:00 UTC. Official 11/27 notice lists YouTube livestreams (KR/EN/TW/JP). All valid participants receive 2 Leif on 4 Dec.',
     href: '/e7wc-2026-grand-final/',
     link: 'E7WC 2026 Grand Final and cheer comment page',
   },

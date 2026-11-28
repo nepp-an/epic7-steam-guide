@@ -271,6 +271,8 @@ export const OFFICIAL = {
     'https://page.onstove.com/epicseven/global/view/14650455',
   stoveE7wcSchedule:
     'https://page.onstove.com/epicseven/global/view/14499965',
+  stoveE7wcBroadcast:
+    'https://page.onstove.com/epicseven/global/view/14653314',
 } as const;
 
 export const DOMAIN_CANDIDATES = [
