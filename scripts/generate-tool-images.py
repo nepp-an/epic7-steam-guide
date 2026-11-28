@@ -587,12 +587,12 @@ def diagram_e7wc_grand_final() -> Image.Image:
     footer_and_title(
         im,
         "E7WC 2026 Grand Final and cheer comment event (independent)",
-        "Cheer comments are open through 28 Nov 2026, 09:00 UTC — not a prediction board",
+        "Cheer comment window ended 28 Nov 2026, 09:00 UTC — not a prediction board",
     )
     three_cards(
         im,
         [
-            (DIA_GREEN, "Cheer window is open", "Leave a formatted comment\nwith a live-stream screenshot\nfrom 26 Nov through\n28 Nov 2026, 09:00 UTC."),
+            (DIA_GREEN, "Cheer window has ended", "The comment window ran\nfrom 26 Nov through\n28 Nov 2026, 09:00 UTC\nand is now closed."),
             (DIA_BLUE, "Grand Final day", "28 Nov 2026, 03:00 UTC:\nWinners Bracket Finals,\nLosers Bracket Finals,\nand the Grand Final."),
             (DIA_ORANGE, "Participant reward", "All valid participants: 2 Leif,\nsent to the in-game mailbox\non 4 Dec 2026 (Fri),\nstored for 7 days."),
         ],

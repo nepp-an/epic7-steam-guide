@@ -10,7 +10,7 @@ const PATH = '/e7wc-2026-grand-final/';
 const TITLE = 'E7WC 2026 Grand Final Time & Cheer Comment Event';
 const H1 = 'E7WC 2026 Grand Final and cheer comment event';
 const DESCRIPTION =
-  'E7WC 2026 Grand Final starts 28 Nov 2026, 03:00 UTC. Official 11/27 notice lists YouTube livestreams (KR/EN/TW/JP). The cheer comment event is open 26–28 Nov 2026, 09:00 UTC: comment format, 2 Leif for all participants on 4 Dec. Independent guide — verify on STOVE.';
+  'E7WC 2026 Grand Final: 28 Nov 2026, 03:00 UTC. Official 11/27 notice lists YouTube livestreams (KR/EN/TW/JP). The cheer comment event ended 28 Nov 2026, 09:00 UTC. Eligible participants receive 2 Leif in the in-game mailbox on 4 Dec, stored for 7 days. Independent guide — verify on STOVE.';
 
 export const metadata: Metadata = pageMetadata({
   title: TITLE,
@@ -49,14 +49,13 @@ export default function Page() {
         the 11/27 match and broadcast notice.
       </p>
       <p className="quick-answer">
-        <strong>The cheer comment event is open now. </strong>
-        Leave a formatted comment with a live-stream screenshot from 26 Nov
-        through 28 Nov 2026, 09:00 UTC. The Grand Final broadcast day starts
-        at 28 Nov 2026, 03:00 UTC and also includes the Winners Bracket Finals
-        and Losers Bracket Finals. Official 11/27 livestreams are on YouTube
-        (KR/EN/TW/JP). After 28 Nov 2026, 09:00 UTC this cheer section should
-        be switched to past tense; the 4 Dec reward-delivery reminder stays
-        until official word says otherwise.
+        <strong>The cheer comment event has ended. </strong>
+        The window ran from 26 Nov through 28 Nov 2026, 09:00 UTC. The Grand
+        Final broadcast day started at 28 Nov 2026, 03:00 UTC and also includes
+        the Winners Bracket Finals and Losers Bracket Finals. Official 11/27
+        livestreams are on YouTube (KR/EN/TW/JP). Official rewards of 2 Leif
+        for all eligible participants will be sent to the in-game mailbox on
+        2026/12/4 (Fri). Storage period: 7 days.
       </p>
       <nav className="anchor-nav" aria-label="On this page">
         <a href="#schedule">Schedule</a>
@@ -71,7 +70,7 @@ export default function Page() {
         src="/images/diagram-e7wc-grand-final.webp"
         width={1100}
         height={360}
-        alt="Self-drawn independent diagram: the E7WC 2026 cheer comment event is open through 28 Nov 2026, 09:00 UTC; Grand Final day starts 28 Nov 2026, 03:00 UTC with Winners and Losers Bracket Finals plus the Grand Final; all valid participants receive 2 Leif on 4 Dec 2026, stored for 7 days. Not official Smilegate art."
+        alt="Self-drawn independent diagram: the E7WC 2026 cheer comment event ran through 28 Nov 2026, 09:00 UTC and is now closed; Grand Final day starts 28 Nov 2026, 03:00 UTC with Winners and Losers Bracket Finals plus the Grand Final; all valid participants receive 2 Leif on 4 Dec 2026, stored for 7 days. Not official Smilegate art."
         credit="Independent diagram · epicsevensteam.com · not Smilegate/STOVE/Steam"
       />
 
@@ -80,7 +79,7 @@ export default function Page() {
         <ul>
           <li>
             Cheer comment event: 26 Nov 2026 through 28 Nov 2026, 09:00 UTC
-            (open now).
+            (ended).
           </li>
           <li>
             Grand Final day: 28 Nov 2026, 03:00 UTC — Winners Bracket Finals,
@@ -104,9 +103,11 @@ export default function Page() {
       <section id="cheer" aria-labelledby="cheer-title">
         <h2 id="cheer-title">Cheer comment event</h2>
         <p>
-          Leave a comment on the official cheer event post, following the format
-          below, with a cheering message for the players and a screenshot proof
-          of watching the live stream.
+          The official cheer comment event window ran from 26 Nov through 28 Nov
+          2026, 09:00 UTC, and is now closed. During the event, participants were
+          asked to leave a comment on the official cheer event post, following
+          the format below, with a cheering message for the players and a
+          screenshot proof of watching the live stream.
         </p>
         <p>
           <strong>Format: </strong>
@@ -227,10 +228,10 @@ export default function Page() {
         <ul>
           <li>
             <a href="/updates/">Updates</a> — living log with a card for this
-            open cheer window.
+            ended cheer window.
           </li>
           <li>
-            <a href="/quests/">Quests</a> — current event routes, including this
+            <a href="/quests/">Quests</a> — event routes, including this closed
             comment event.
           </li>
           <li>
