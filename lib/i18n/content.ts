@@ -3688,7 +3688,7 @@ export const CONTENT = {
       "title": "How to Link Epic Seven STOVE to Steam and Keep Progress",
       "meta": "How to link your Epic Seven STOVE account to Steam and keep progress. Convert on STOVE first, or Steam may start a new empty save.",
       "h1": "How to link Epic Seven STOVE to Steam and keep progress",
-      "goal": "Goal of this Epic Seven Steam transfer walkthrough: keep existing progress by converting to Simple Login (Steam) on STOVE before relying on a fresh Steam session. Paraphrases public STOVE FAQ — follow live UI.",
+      "goal": "To keep your existing roster, convert the STOVE login to Steam Simple Login before you start a new Steam session. The steps below follow the public STOVE FAQ; use the live STOVE screens if the wording differs.",
       "diagram": [
         "Mobile / STOVE PC account",
         "Convert login on STOVE",

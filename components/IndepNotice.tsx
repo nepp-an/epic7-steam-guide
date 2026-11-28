@@ -2,9 +2,9 @@ import type { Locale } from '@/lib/site';
 
 const COPY: Record<Locale, { strong: string; short: string; full: string }> = {
   "en": {
-    "strong": "Independent guide.",
-    "short": "Not affiliated with Smilegate, STOVE, or Steam. Always verify steps and dates on official STOVE / Steam pages.",
-    "full": "This site is an unofficial player guide for Epic Seven on Steam. It is not the official Smilegate, STOVE, or Steam website. We do not sell codes, accounts, or in-game currency. For account actions, downloads, and event dates, use the official Steam store and STOVE announcements linked on each page."
+    "strong": "Unofficial guide.",
+    "short": "Confirm steps and dates on official STOVE or Steam.",
+    "full": "Unofficial Epic Seven on Steam player guide. We don't sell codes, accounts, or in-game currency. For logins, downloads, and event dates, use the official Steam store and STOVE posts linked on the page."
   },
   "ko": {
     "strong": "비공식 가이드.",

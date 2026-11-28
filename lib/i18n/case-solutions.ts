@@ -4,7 +4,7 @@ export const CASE_TASK_COPY = {
     "h1": "Trusty Sidekick Alencia's Case Files — Cases 1, 2 & 3",
     "answer": "Open Lobby → Secret Rabbit♥Hole → Case Files. Check your case number, collect all 10 clues and complete both O/X categories before accusing. Choose a case below; answers stay hidden until you open them.",
     "nav": "Choose your case",
-    "brief": "Before you start: independent notice, entry steps, deadline & spoiler note",
+    "brief": "How to enter, when it ends, and a spoiler note",
     "case": "Case",
     "reveal": "Show community-reported answer and clue table (spoilers)",
     "culprit": "Reported culprit",
