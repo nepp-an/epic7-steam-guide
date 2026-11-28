@@ -241,7 +241,6 @@ export default function Page() {
           </li>
         </ul>
         <p className="muted">
-          Independent guide — not affiliated with Smilegate, STOVE, or Steam.
           Confirm live timers and button state in the client and on the official
           notices.
         </p>

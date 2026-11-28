@@ -88,10 +88,10 @@ export default function Page() {
         <a href="#sources">Sources</a>
       </nav>
       <p>
-        This is an independent recovery walkthrough, not a Smilegate support
-        page. If the message you see is “already registered” or the Transfer
-        button is greyed out, use the{' '}
+        If the message you see is “already registered” or the Transfer button
+        is greyed out, use the{' '}
         <a href="/already-registered/">already-registered page</a> instead.
+        This is not Smilegate support.
       </p>
 
       <section id="convert" aria-labelledby="convert-title">

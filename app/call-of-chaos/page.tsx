@@ -291,7 +291,6 @@ export default function Page() {
           </li>
         </ul>
         <p className="muted">
-          Independent guide — not affiliated with Smilegate, STOVE, or Steam.
           Confirm live timers in the client and on the official notice.
         </p>
       </section>

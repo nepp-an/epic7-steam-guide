@@ -90,9 +90,9 @@ export default function Page() {
         <a href="#sources">Sources</a>
       </nav>
       <p>
-        This is an independent walkthrough of two stuck-transfer messages, not a
-        Smilegate support page. Button state and dates should be read in the
-        STOVE interface. Do not use a third-party unlock tool.
+        These two stuck-transfer messages are not a Smilegate support article.
+        Read the button state and dates in the STOVE interface, and do not use
+        a third-party unlock tool.
       </p>
 
       <section id="already-registered" aria-labelledby="registered-title">

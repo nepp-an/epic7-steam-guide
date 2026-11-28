@@ -3766,7 +3766,7 @@ export const CONTENT = {
       "faqs": [
         [
           "How does Epic Seven Steam transfer keep progress?",
-          "This Epic Seven Steam transfer converts your STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry. Unofficial guide — verify on STOVE."
+          "Convert your STOVE email/SNS login to Steam Simple Login to keep progress. Wrong-bind: do not delete the temporary Steam-linked STOVE account. Log in to STOVE with that Steam account (register via Steam login first if needed), open [My Profile Icon > Account Information] → Convert, convert the temporary account to a non-Steam login, then convert the original email/SNS account to Steam. Demo wipe after transfer can erase original-server progress. Transfer is not Foundry."
         ],
         [
           "STOVE says “already been registered” — what now?",
@@ -5299,13 +5299,13 @@ export const CONTENT = {
       "title": "Epic Seven Steam FAQ: Wrong Account, Demo Delete, Foundry",
       "meta": "Answers for Epic Seven on Steam: a wrong STOVE bind, what not to delete after transfer, and why Foundry is not a transfer.",
       "h1": "Epic Seven Steam FAQ & troubleshooting",
-      "answer": "This Epic Seven Steam FAQ starts with account problems: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. If the Transfer button is still blocked or support is needed, use official STOVE customer service. The [[Case Files|/case-files/]] page covers the Secret Rabbit♥Hole event’s case deduction mini-game — it is not an account-recovery case archive. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
+      "answer": "Start with account problems: a wrong bind usually means Steam made an empty Heir — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original with the [[transfer guide|/steam-transfer/]]. If the Transfer button is still blocked or support is needed, use official STOVE customer service. The [[Case Files|/case-files/]] page covers the Secret Rabbit♥Hole event’s case deduction mini-game — it is not an account-recovery case archive. Demo in-game delete after conversion can wipe legacy progress — read the [[demo warning|/demo-delete-warning/]]. Foundry is a separate server, not a transfer — see the [[Foundry server guide|/foundry/]].",
       "img_alt": "Unofficial FAQ flowchart: wrong bind, convert the temporary account to a non-Steam login, then convert the original",
       "lead": "Use this Epic Seven Steam FAQ alongside the homepage cards. Trust STOVE screens over any third-party script.",
       "faqs": [
         [
           "What does this Epic Seven Steam FAQ cover — and why a new Heir?",
-          "This Epic Seven Steam FAQ explains transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). The [[Case Files|/case-files/]] page is the Secret Rabbit♥Hole event’s deduction mini-game, not an account-recovery archive. Unofficial — verify on STOVE."
+          "This page covers transfer, Foundry, and launch issues. Steam transfer keeps progress via STOVE→Steam Simple Login. A brand-new Heir usually means Steam created an empty linked STOVE login — do not delete it. Log in to STOVE with that Steam account, open [My Profile Icon > Account Information] → Convert the temporary account to a non-Steam login, then convert the original (see [[transfer guide|/steam-transfer/]]). Foundry is a separate new server, not an account transfer ([[Foundry server guide|/foundry/#server-guide]]). Demo wipe after conversion can erase legacy progress ([[demo warning|/demo-delete-warning/]]). The [[Case Files|/case-files/]] page is the Secret Rabbit♥Hole event’s deduction mini-game, not an account-recovery archive."
         ],
         [
           "Can I play Foundry on Steam and continue on mobile?",
@@ -5775,7 +5775,7 @@ export const CONTENT = {
       "title": "Epic Seven Steam Notes — Client Tips | Independent Guide",
       "meta": "STOVE link, anti-cheat, languages, system requirements, cross-play. Independent guide.",
       "h1": "Steam-specific notes",
-      "lead": "Player-facing Steam notes for Epic Seven app 5019180: account linking, anti-cheat expectations, and common launch failures. Paraphrases public store/FAQ text — verify live Steam and STOVE screens. Independent guide.",
+      "lead": "Player-facing Steam notes for Epic Seven app 5019180: account linking, anti-cheat expectations, and common launch failures. Paraphrases public store/FAQ text — verify live Steam and STOVE screens.",
       "acct_h2": "Account & platform",
       "acct": [
         "Steam clients still authenticate a STOVE account behind the scenes.",
@@ -5784,7 +5784,7 @@ export const CONTENT = {
         "Foundry characters are separate from legacy progress even on the same STOVE login."
       ],
       "sec_h2": "UNCHEATER / anti-cheat",
-      "sec_prose": "Steam’s store page lists kernel-level anti-cheat UNCHEATER for Epic Seven. On the first launch, approve the Windows elevation prompt so the driver can install, then reboot once if the client still exits. Work and school images often block that kernel driver by policy, so a managed PC can fail even when you installed the official build. Do not download a ban bypass, crack, or “UNCHEATER bypass” patch — those files are malware and break the game terms. If the prompt is refused, play the same converted account on the STOVE client or on a personal PC you administer. Contact official customer support only after a clean install, file verify, and driver update still fail, and keep the error text. Get the build from the [[download checklist|/download/]] and official [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]. This note is an unofficial guide, not Smilegate, STOVE, or Steam support.",
+      "sec_prose": "Steam’s store page lists kernel-level anti-cheat UNCHEATER for Epic Seven. On the first launch, approve the Windows elevation prompt so the driver can install, then reboot once if the client still exits. Work and school images often block that kernel driver by policy, so a managed PC can fail even when you installed the official build. Do not download a ban bypass, crack, or “UNCHEATER bypass” patch — those files are malware and break the game terms. If the prompt is refused, play the same converted account on the STOVE client or on a personal PC you administer. Contact official customer support only after a clean install, file verify, and driver update still fail, and keep the error text. Get the build from the [[download checklist|/download/]] and official [[Steam app 5019180|https://store.steampowered.com/app/5019180/Epic_Seven/]]. This is not Smilegate, STOVE, or Steam support.",
       "sec": [
         "First launch: approve the UNCHEATER elevation prompt, wait until the driver finishes, then reboot once if Epic Seven still closes. The Steam store lists this kernel anti-cheat for app 5019180.",
         "Work or school image: if the prompt never appears, or policy blocks the driver, stop retrying on that PC. Do not install a ban bypass, crack, or “UNCHEATER bypass.”",
@@ -13995,7 +13995,7 @@ export const CONTENT = {
           "Ras",
           "Knight",
           "Fire",
-          "Story protagonist; early tank / firefight anchor while you learn systems. Unofficial summary.",
+          "Story protagonist; early tank / firefight anchor while you learn systems.",
           "tutorial",
           "mid"
         ],
@@ -14004,7 +14004,7 @@ export const CONTENT = {
           "Mercedes",
           "Mage",
           "Fire",
-          "Starter AoE mage; fine for early Adventure clears before specialty upgrades. Unofficial summary.",
+          "Starter AoE mage; fine for early Adventure clears before specialty upgrades.",
           "tutorial",
           "mid"
         ],
@@ -14013,7 +14013,7 @@ export const CONTENT = {
           "Aither",
           "Soul Weaver",
           "Ice",
-          "Early healer from the starter path; swap toward stronger SW as you progress. Unofficial summary.",
+          "Early healer from the starter path; swap toward stronger SW as you progress.",
           "tutorial",
           "later"
         ],
@@ -14031,7 +14031,7 @@ export const CONTENT = {
           "Angelic Montmorancy",
           "Soul Weaver",
           "Ice",
-          "Specialty change from Montmorancy — top free cleanser / heal backbone for PvE. Unofficial summary.",
+          "Specialty change from Montmorancy — top free cleanser / heal backbone for PvE.",
           "specialty",
           "high"
         ],
@@ -14040,7 +14040,7 @@ export const CONTENT = {
           "Falconer Kluri",
           "Knight",
           "Earth",
-          "Specialty change support: defense break + CR tricks; staples many early Hunt teams. Unofficial summary.",
+          "Specialty change support: defense break + CR tricks; staples many early Hunt teams.",
           "specialty",
           "high"
         ],
@@ -14049,7 +14049,7 @@ export const CONTENT = {
           "Commander Lorina",
           "Warrior",
           "Dark",
-          "Specialty change single-target DPS; long-term Adventure / Abyss workhorse. Unofficial summary.",
+          "Specialty change single-target DPS; long-term Adventure / Abyss workhorse.",
           "specialty",
           "high"
         ],
@@ -14058,7 +14058,7 @@ export const CONTENT = {
           "Alexa",
           "Thief",
           "Ice",
-          "Common Wyvern 11 dual-attack farmer when built with speed / crit kits. Unofficial summary.",
+          "Common Wyvern 11 dual-attack farmer when built with speed / crit kits.",
           "farmer",
           "high"
         ],
@@ -14067,7 +14067,7 @@ export const CONTENT = {
           "Furious",
           "Ranger",
           "Ice",
-          "Defense break + target for Wyvern comps; pairs with Alexa-style farmers. Unofficial summary.",
+          "Defense break + target for Wyvern comps; pairs with Alexa-style farmers.",
           "farmer",
           "mid"
         ],
@@ -14076,7 +14076,7 @@ export const CONTENT = {
           "Silk",
           "Ranger",
           "Earth",
-          "Combat-readiness pusher; helps early cleave and some Hunt setups. Unofficial summary.",
+          "Combat-readiness pusher; helps early cleave and some Hunt setups.",
           "farmer",
           "mid"
         ],
@@ -14085,7 +14085,7 @@ export const CONTENT = {
           "Vildred",
           "Thief",
           "Earth",
-          "Popular Earth cleave DPS from Covenant; strong Adventure clearer when invested. Unofficial summary.",
+          "Popular Earth cleave DPS from Covenant; strong Adventure clearer when invested.",
           "farmer",
           "mid"
         ],
@@ -14149,12 +14149,12 @@ export const CONTENT = {
           "https://epic7x.com/hero/luna/"
         ]
       ],
-      "note": "Table mirrors the cards above for copy/cite. Community wiki links sit under Further reading only — this page is not a jump pad. Banner schedules: Banners & Updates. Unofficial guide — verify STOVE.",
+      "note": "Table mirrors the cards above for copy/cite. Community wiki links sit under Further reading only — this page is not a jump pad. Banner schedules: Banners & Updates. Verify dates on STOVE.",
       "faq_h2": "Heroes FAQ",
       "faqs": [
         [
           "Which free units should new Steam / Foundry players prioritize?",
-          "Specialty changes for Angelic Montmorancy, Falconer Kluri, and Commander Lorina are widely recommended early; Alexa/Furious help Wyvern farming. Unofficial — confirm materials in-game."
+          "Specialty changes for Angelic Montmorancy, Falconer Kluri, and Commander Lorina are widely recommended early; Alexa/Furious help Wyvern farming. Confirm materials in-game."
         ],
         [
           "Where do banner heroes show up on this site?",
@@ -14187,11 +14187,11 @@ export const CONTENT = {
       "prio_later": "Later",
       "prio_note": "Onboarding priority for new Steam / Foundry accounts — not a full-server PvP tier list. Color plus text for accessibility.",
       "cite_h2": "How we cite sources",
-      "cite": "Hero names/roles are short original summaries. Verify multipliers in-client. Community wikis appear only under Further reading. Banners/Foundry cite STOVE. Unofficial guide.",
+      "cite": "Hero names/roles are short original summaries. Verify multipliers in-client. Community wikis appear only under Further reading. Banners/Foundry cite STOVE.",
       "roster_h2": "Quick roster table (same cards, copy-friendly)",
       "deep_h2": "Build pacing tips",
       "deep": [
-        "Prioritize specialty-change supports and a farmer before every banner; Foundry buffs change pacing, not the role checklist. For Guild War timing on the new server, see [[Guild War on Foundry|/foundry/#guild-war]]. Unofficial — verify STOVE."
+        "Prioritize specialty-change supports and a farmer before every banner; Foundry buffs change pacing, not the role checklist. For Guild War timing on the new server, see [[Guild War on Foundry|/foundry/#guild-war]]."
       ],
       "onsite_h2": "On-site role notes (not a wiki mirror)",
       "onsite": "Grouping cards, priority bars, and diagrams stay here. Community wikis are folded under Further reading so the main path stays on-site.",
@@ -16317,7 +16317,7 @@ export const CONTENT = {
       "title": "Epic Seven Foundry Quests vs Legacy — Daily/Weekly Guide",
       "meta": "A Foundry quests guide for Epic Seven: daily and weekly resets, Foundry-only missions, and what stays different from a transferred legacy account.",
       "h1": "Epic Seven Foundry Quests — Daily and Weekly",
-      "lead": "This Epic Seven Foundry quests guide covers Steam-era quest rhythm: story unlocks, daily/weekly loops, and launch-window event hubs. Timers follow in-game clocks and STOVE notices — not this unofficial page. Foundry characters track quests separately from legacy Heirs.",
+      "lead": "Foundry quests follow a Steam-era rhythm: story unlocks, daily and weekly loops, and launch-window event hubs. Use the in-game clock and STOVE notices for timers, not this page. Foundry characters track quests separately from legacy Heirs.",
       "answer": "Start with expiring claims, then daily summons and case clues. Use this five-task checklist to plan the current Foundry window; it is not a full list of every in-game daily.",
       "img_alt": "Self-drawn quest rhythm diagram: main, daily, weekly, events",
       "img_ss_alt": "Official Steam screenshot of Epic Seven world presentation — Steam CDN",

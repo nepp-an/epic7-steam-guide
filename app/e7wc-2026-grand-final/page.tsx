@@ -267,7 +267,6 @@ export default function Page() {
           </li>
         </ul>
         <p className="muted">
-          Independent guide — not affiliated with Smilegate, STOVE, or Steam.
           This page does not predict a champion, quote odds, or list store
           bundles.
         </p>

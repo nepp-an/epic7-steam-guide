@@ -130,19 +130,23 @@ function FaqJsonLd({ faqs }: { faqs: readonly (readonly [string, string])[] }) {
   );
 }
 
+function quickAnswerLabel(locale: Locale) {
+  return locale === 'en' ? 'In short. ' : 'TL;DR — ';
+}
+
 function QuickAnswer({
   text,
   locale,
   rich = false,
 }: {
   text: string;
-  locale?: Locale;
+  locale: Locale;
   rich?: boolean;
 }) {
   return (
     <p className="quick-answer">
-      <strong>TL;DR — </strong>
-      {rich && locale ? <RichInline locale={locale} marked={text} /> : text}
+      <strong>{quickAnswerLabel(locale)}</strong>
+      {rich ? <RichInline locale={locale} marked={text} /> : text}
     </p>
   );
 }
@@ -665,7 +669,7 @@ export function HomeView({ locale }: { locale: Locale }) {
       <div className="kpi-strip" aria-label={isPl ? 'Najważniejsze informacje' : 'Hub highlights'}>
         <span className="chip chip-dark">{isPl ? 'Aplikacja Steam 5019180' : 'Steam app 5019180'}</span>
         <span className="chip chip-light">Foundry → 2026-12-31</span>
-        <span className="chip chip-ice">{isPl ? 'Niezależny poradnik' : 'Independent guide'}</span>
+        {isPl ? <span className="chip chip-ice">Niezależny poradnik</span> : null}
         <span className="chip chip-fire">{isPl ? 'Potwierdź na STOVE' : 'Verify on STOVE'}</span>
         <span className="chip chip-earth">{c.kpi_covenant}</span>
       </div>
@@ -892,7 +896,7 @@ export function DownloadView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <p>{c.lead}</p>
       <p>
         <ExternalLink href={OFFICIAL.steamStore} className="btn btn-outline">
@@ -1005,7 +1009,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         date={locale === 'en' ? TRANSFER_EN_FIRST_SCREEN_VERIFIED_DATE : VERIFIED_DATE}
       />
       <p className="quick-answer">
-        <strong>TL;DR — </strong>
+        <strong>{quickAnswerLabel(locale)}</strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
       <p>{c.goal}</p>
@@ -1065,7 +1069,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         <p className="muted">{c.conflict_note}</p>
         {locale === 'en' ? (
           <p>
-            A longer walkthrough of this Convert path is on the{' '}
+            The full Convert steps are on the{' '}
             <a href="/wrong-bind/">wrong-bind recovery page</a>.
           </p>
         ) : null}
@@ -1094,7 +1098,7 @@ export function TransferView({ locale }: { locale: Locale }) {
         <p className="muted">{c.cooldown_note}</p>
         {locale === 'en' ? (
           <p>
-            A longer walkthrough of these two stuck-transfer messages is on the{' '}
+            More on these two stuck-transfer messages is on the{' '}
             <a href="/already-registered/">already-registered and greyed-button page</a>.
           </p>
         ) : null}
@@ -1154,13 +1158,13 @@ export function TransferView({ locale }: { locale: Locale }) {
             <FaqRich locale={locale} marked={a} />
             {locale === 'en' && q === 'STOVE says “already been registered” — what now?' ? (
               <p>
-                A longer walkthrough is on the{' '}
+                The full steps are on the{' '}
                 <a href="/already-registered/">already-registered and greyed-button page</a>.
               </p>
             ) : null}
             {locale === 'en' && q === 'What if Steam already made a new account?' ? (
               <p>
-                A longer walkthrough is on the{' '}
+                The full steps are on the{' '}
                 <a href="/wrong-bind/">wrong-bind recovery page</a>.
               </p>
             ) : null}
@@ -1206,7 +1210,7 @@ export function DemoView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <h2>TL;DR</h2>
+      <h2>{locale === 'en' ? 'In short' : 'TL;DR'}</h2>
       <p className="quick-answer">{c.answer}</p>
       <div className="card warn">
         <p>
@@ -1300,7 +1304,7 @@ export function FaqView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <p className="quick-answer">
-        <strong>TL;DR — </strong>
+        <strong>{quickAnswerLabel(locale)}</strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
       <Fig
@@ -1331,13 +1335,13 @@ export function FaqView({ locale }: { locale: Locale }) {
                 (q.includes('already been registered') ||
                   q.includes('Transfer button greyed out')) ? (
                   <p>
-                    A longer walkthrough is on the{' '}
+                    The full steps are on the{' '}
                     <a href="/already-registered/">already-registered and greyed-button page</a>.
                   </p>
                 ) : null}
                 {locale === 'en' && q.includes('why a new Heir') ? (
                   <p>
-                    A longer walkthrough of an empty Steam account is on the{' '}
+                    More on an empty Steam account is on the{' '}
                     <a href="/wrong-bind/">wrong-bind recovery page</a>.
                   </p>
                 ) : null}
@@ -1421,7 +1425,7 @@ export function SteamNotesView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <Fig
         src="/images/diagram-uncheater.webp"
         alt={c.img_alt2}
@@ -1550,7 +1554,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
         }
       />
       <p className="quick-answer">
-        <strong>TL;DR — </strong>
+        <strong>{quickAnswerLabel(locale)}</strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
       {isGrowthLocale(locale) && <FoundryActionRoutes locale={locale} />}
@@ -1683,7 +1687,7 @@ export function FoundryView({ locale }: { locale: Locale }) {
       </details>
       <h2 id="guild-war">{c.gw_h2}</h2>
       <p className="quick-answer">
-        <strong>TL;DR — </strong>
+        <strong>{quickAnswerLabel(locale)}</strong>
         {c.gw_answer}
       </p>
       <h3>{c.gw_unlock_h3}</h3>
@@ -1910,7 +1914,7 @@ export function BannersView({ locale }: { locale: Locale }) {
           Last verified: <time dateTime={lastVerified}>{lastVerified}</time>
         </p>
       ) : null}
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <p>{c.lead}</p>
       <article className="card pickup">
         <p className="as-of">{c.pickup_kicker}</p>
@@ -2018,7 +2022,7 @@ export function UpdatesView({ locale }: { locale: Locale }) {
       />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <p>
         <RichInline locale={locale} marked={c.lead} />
       </p>
@@ -2259,7 +2263,7 @@ export function HeroesView({ locale }: { locale: Locale }) {
       <FaqJsonLd faqs={c.faqs} />
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <LastVerified copy={HEROES_VERIFIED[locale]} />
       <p className="muted">
         <L locale={locale} href="/tier-list/">
@@ -2484,7 +2488,7 @@ export function QuestsView({ locale }: { locale: Locale }) {
       <h1>{c.h1}</h1>
       <IndepNotice locale={locale} compact />
       <p className="quick-answer">
-        <strong>TL;DR — </strong>
+        <strong>{quickAnswerLabel(locale)}</strong>
         <RichInline locale={locale} marked={c.answer} />
       </p>
       <p>{c.lead}</p>
@@ -2760,7 +2764,7 @@ export function TierListView({ locale }: { locale: Locale }) {
           on 2026-11-13 against the Steam/STOVE source text.
         </p>
       )}
-      <QuickAnswer text={c.answer} />
+      <QuickAnswer text={c.answer} locale={locale} />
       <AdBanner468 />
       <nav className="anchor-nav" aria-label={c.anchors_label}>
         <span className="anchor-nav-label">{c.anchors_label}</span>
@@ -2842,7 +2846,7 @@ export function TierListView({ locale }: { locale: Locale }) {
       <section id="guild-war">
         <h2>{c.gw_h2}</h2>
         <p className="quick-answer">
-          <strong>TL;DR — </strong>
+          <strong>{quickAnswerLabel(locale)}</strong>
           {c.gw_answer}
         </p>
         <p>{c.gw_intro}</p>
@@ -2866,7 +2870,7 @@ export function TierListView({ locale }: { locale: Locale }) {
       <section id="world-arena">
         <h2>{c.wa_h2}</h2>
         <p className="quick-answer">
-          <strong>TL;DR — </strong>
+          <strong>{quickAnswerLabel(locale)}</strong>
           {c.wa_answer}
         </p>
         <p>{c.wa_intro}</p>
